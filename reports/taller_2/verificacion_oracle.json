@@ -1,0 +1,101 @@
+{
+  "fecha": "2026-10-24T08:50:35.866716-05:00",
+  "origen_sha256": "c1964cf7d816e8921ec2ebfd4b3c5d395832ddef467c546c40ef915760ec52c7",
+  "tablas_verificadas_contra_export": {
+    "C2_ASESORES": 4,
+    "C2_ASPIRANTES": 500,
+    "C2_CANALES": 6,
+    "C2_PROGRAMAS": 8,
+    "C2_SOLICITUDES": 500
+  },
+  "vista": {
+    "nombre": "CASO2.V_ADMISIONES_BASE",
+    "filas": 500,
+    "ids_distintos": 500,
+    "columnas": [
+      {
+        "columna": "REGISTRO_ID",
+        "tipo": "VARCHAR2",
+        "orden": 1
+      },
+      {
+        "columna": "ASPIRANTE_ID",
+        "tipo": "VARCHAR2",
+        "orden": 2
+      },
+      {
+        "columna": "FECHA_SOLICITUD",
+        "tipo": "DATE",
+        "orden": 3
+      },
+      {
+        "columna": "PROGRAMA",
+        "tipo": "VARCHAR2",
+        "orden": 4
+      },
+      {
+        "columna": "MODALIDAD",
+        "tipo": "VARCHAR2",
+        "orden": 5
+      },
+      {
+        "columna": "CANAL_CAPTACION",
+        "tipo": "VARCHAR2",
+        "orden": 6
+      },
+      {
+        "columna": "ESTADO_PROCESO",
+        "tipo": "VARCHAR2",
+        "orden": 7
+      },
+      {
+        "columna": "PUNTAJE_ADMISION",
+        "tipo": "NUMBER",
+        "orden": 8
+      },
+      {
+        "columna": "DOCUMENTOS_COMPLETOS",
+        "tipo": "VARCHAR2",
+        "orden": 9
+      },
+      {
+        "columna": "VALOR_MATRICULA_COP",
+        "tipo": "NUMBER",
+        "orden": 10
+      },
+      {
+        "columna": "CIUDAD_RESIDENCIA",
+        "tipo": "VARCHAR2",
+        "orden": 11
+      },
+      {
+        "columna": "ASESOR",
+        "tipo": "VARCHAR2",
+        "orden": 12
+      },
+      {
+        "columna": "FECHA_MATRICULA",
+        "tipo": "DATE",
+        "orden": 13
+      },
+      {
+        "columna": "CORREO",
+        "tipo": "VARCHAR2",
+        "orden": 14
+      },
+      {
+        "columna": "PERIODO_ACADEMICO",
+        "tipo": "VARCHAR2",
+        "orden": 15
+      }
+    ]
+  },
+  "conexion": {
+    "host": "localhost",
+    "puerto": 1521,
+    "servicio": "FREEPDB1",
+    "usuario": "CASO2",
+    "clave_en": "ORACLE_CASO2_PASSWORD en .env"
+  },
+  "imagen": "[{\"ID\":\"sha256:ec92fdc8d687c12d6501d5ad1a5827838f1ef5026c997ac878009491b167b2a1\",\"ContainerName\":\"admisiones_oracle-oracle-1\",\"Repository\":\"container-registry.oracle.com/database/free\",\"Tag\":\"23.26.0.0-lite\",\"Platform\":\"linux/amd64\",\"Size\":2695737399,\"Created\":\"2025-10-29T06:45:26.354126201Z\",\"LastTagTime\":\"2026-10-24T13:48:30.123125078Z\"}]"
+}

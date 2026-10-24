@@ -1,0 +1,501 @@
+﻿registro_id,aspirante_id,fecha_solicitud,programa,modalidad,canal_captacion,estado_proceso,puntaje_admision,documentos_completos,valor_matricula_cop,ciudad_residencia,asesor,fecha_matricula,correo,periodo_academico
+ANX2_00001,ANX2_00001,2025-11-19,Contaduría Pública,Presencial,Referido,Nuevo,96,Sí,,Popayán,Asesor 1,,aspirante001035@ejemplo.com,2026-2
+ANX2_00002,ANX2_00002,2025-05-27,Contaduría Pública,Virtual,Web institucional,Admitido,58,Sí,2200000,Cali,Asesor 1,,aspirante002602@ejemplo.com,2025-2
+ANX2_00003,ANX2_00003,2026-05-01,Contaduría Pública,Virtual,Referido,No admitido,64,Pendiente,2200000,Bogotá,Sin asignar,,aspirante002606@ejemplo.com,2025-2
+ANX2_00004,ANX2_00004,2025-05-29,Contaduría Pública,Virtual,Feria universitaria,No admitido,52,No,2500000,Santander de Quilichao,Asesor 1,,aspirante003167@ejemplo.com,2026-2
+ANX2_00005,ANX2_00005,2025-02-25,Especialización en Data Analytics,Presencial,Feria universitaria,Admitido,69,Sí,3500000,Cali,Asesor 1,,aspirante001169@ejemplo.com,2026-1
+ANX2_00006,ANX2_00006,2026-05-01,Derecho,Híbrida,Correo,Documentación pendiente,81,No,3500000,Popayán,Asesor 3,,aspirante004060@ejemplo.com,2026-1
+ANX2_00007,ANX2_00007,2025-12-11,Especialización en Data Analytics,Presencial,Referido,Matriculado,63,No,1800000,Popayán,Asesor 1,2025-11-30,aspirante002401@ejemplo.com,2026-1
+ANX2_00008,ANX2_00008,2025-08-22,Administración de Empresas,Virtual,Instagram,Matriculado,83,No,,Santander de Quilichao,Asesor 2,2025-10-18,aspirante003148@ejemplo.com,2026-2
+ANX2_00009,ANX2_00009,2025-06-24,Derecho,Híbrida,Referido,Admitido,68,Sí,,Cali,Asesor 1,,aspirante000485@ejemplo.com,2026-1
+ANX2_00010,ANX2_00010,2025-06-30,Derecho,Presencial,Instagram,No admitido,98,Sí,,Popayán,Asesor 1,,aspirante000867@ejemplo.com,2025-2
+ANX2_00011,ANX2_00011,2026-04-25,Especialización en Data Analytics,Virtual,Landing page,Nuevo,66,Sí,,Bogotá,Asesor 3,,aspirante002307@ejemplo.com,2026-2
+ANX2_00012,ANX2_00012,2026-07-22,Administración de Empresas,Virtual,Landing page,Admitido,57,Sí,,Medellín,Asesor 3,,aspirante002816@ejemplo.com,2026-1
+ANX2_00013,ANX2_00013,2025-03-14,Psicología,Virtual,Referido,Retirado,92,No,3100000,Popayán,Asesor 1,,aspirante003008@ejemplo.com,2026-2
+ANX2_00014,ANX2_00014,2026-05-18,Administración de Empresas,Virtual,Instagram,Inscrito,51,Sí,2200000,Bogotá,Asesor 2,,aspirante000322@ejemplo.com,2026-2
+ANX2_00015,ANX2_00015,2026-03-17,Administración de Empresas,Virtual,Feria universitaria,Matriculado,85,Pendiente,1800000,Popayán,Sin asignar,2026-04-05,aspirante001834@ejemplo.com,2026-1
+ANX2_00016,ANX2_00016,2025-11-29,Ingeniería de Sistemas,Presencial,Correo,Matriculado,42,No,2200000,Popayán,Asesor 1,2026-09-01,aspirante002427@ejemplo.com,2026-1
+ANX2_00017,ANX2_00017,2026-12-09,Especialización en Data Analytics,Híbrida,Correo,Inscrito,71,No,3100000,Popayán,Sin asignar,,aspirante002635@ejemplo.com,2026-2
+ANX2_00018,ANX2_00018,2025-04-18,Derecho,Híbrida,Web institucional,Admitido,70,Sí,3100000,Medellín,Asesor 2,,aspirante000004@ejemplo.com,2026-2
+ANX2_00019,ANX2_00019,2026-02-07,Administración de Empresas,Virtual,Instagram,Admitido,94,Pendiente,3500000,Pasto,Sin asignar,,aspirante003634@ejemplo.com,2026-2
+ANX2_00020,ANX2_00020,2025-11-28,Psicología,Presencial,Web institucional,Nuevo,43,Pendiente,3100000,Cali,Asesor 1,,aspirante002144@ejemplo.com,2026-2
+ANX2_00021,ANX2_00021,2025-05-15,Derecho,Virtual,Landing page,Inscrito,98,No,1800000,Popayán,Sin asignar,,aspirante002671@ejemplo.com,2025-2
+ANX2_00022,ANX2_00022,2026-02-14,Contaduría Pública,Presencial,Correo,Inscrito,70,Sí,3500000,Cali,Asesor 3,,aspirante002047@ejemplo.com,2025-2
+ANX2_00023,ANX2_00023,2025-09-08,Psicología,Virtual,Referido,No admitido,,Sí,2500000,Pasto,Asesor 1,,aspirante001332@ejemplo.com,2026-1
+ANX2_00024,ANX2_00024,2026-08-30,Derecho,Presencial,Feria universitaria,No admitido,79,Sí,2200000,Bogotá,Asesor 3,,aspirante000633@ejemplo.com,2026-1
+ANX2_00025,ANX2_00025,2025-09-10,Derecho,Virtual,Landing page,Nuevo,76,Sí,1800000,Popayán,Asesor 3,,aspirante002605@ejemplo.com,2025-2
+ANX2_00026,ANX2_00026,2025-04-06,Sin especificar,Presencial,Feria universitaria,Inscrito,99,Pendiente,2200000,Pasto,Asesor 2,,aspirante000475@ejemplo.com,2026-1
+ANX2_00027,ANX2_00027,2026-08-22,Especialización en Data Analytics,Presencial,Landing page,Admitido,47,Pendiente,3100000,Cali,Asesor 2,,aspirante002012@ejemplo.com,2026-2
+ANX2_00028,ANX2_00028,2025-02-26,Derecho,Híbrida,Feria universitaria,Matriculado,90,Sí,2500000,Bogotá,Asesor 1,2025-04-25,aspirante000683@ejemplo.com,2026-1
+ANX2_00029,ANX2_00029,2026-05-03,Administración de Empresas,Virtual,Correo,Matriculado,89,No,3500000,Cali,Asesor 3,2026-03-25,aspirante002438@ejemplo.com,2026-1
+ANX2_00030,ANX2_00030,2025-08-12,Psicología,Presencial,Instagram,Documentación pendiente,51,Sí,,Cali,Asesor 2,,aspirante002872@ejemplo.com,2025-2
+ANX2_00031,ANX2_00031,2025-02-19,Psicología,Virtual,Referido,Inscrito,66,Sí,1800000,Santander de Quilichao,Asesor 1,,,2026-2
+ANX2_00032,ANX2_00032,2025-07-27,Especialización en Data Analytics,Virtual,Feria universitaria,Admitido,88,Pendiente,3500000,Cali,Asesor 2,,aspirante003969@ejemplo.com,2026-2
+ANX2_00033,ANX2_00033,2025-04-30,Derecho,Presencial,Landing page,Documentación pendiente,76,No,3100000,Cali,Sin asignar,,aspirante001794@ejemplo.com,2025-2
+ANX2_00034,ANX2_00034,2026-08-21,Psicología,Híbrida,Instagram,Admitido,66,Pendiente,,Popayán,Asesor 1,,aspirante002423@ejemplo.com,2026-1
+ANX2_00035,ANX2_00035,2025-01-30,Ingeniería de Sistemas,Presencial,Referido,Retirado,46,Sí,2500000,Popayán,Asesor 3,,aspirante002823@ejemplo.com,2025-2
+ANX2_00036,ANX2_00036,2026-08-20,Contaduría Pública,Virtual,Landing page,Inscrito,98,Sí,2200000,Popayán,Asesor 1,,aspirante001453@ejemplo.com,2026-1
+ANX2_00037,ANX2_00037,2025-04-06,Especialización en Gerencia,Virtual,Correo,Retirado,92,No,,Bogotá,Sin asignar,,aspirante003729@ejemplo.com,2026-2
+ANX2_00038,ANX2_00038,2026-04-17,Especialización en Data Analytics,Presencial,Referido,Matriculado,93,Sí,,Bogotá,Sin asignar,2026-06-14,aspirante001556@ejemplo.com,2026-2
+ANX2_00039,ANX2_00039,2026-03-17,Especialización en Data Analytics,Presencial,Referido,Matriculado,58,Pendiente,,Santander de Quilichao,Sin asignar,2026-05-25,aspirante003284@ejemplo.com,2025-2
+ANX2_00040,ANX2_00040,2025-04-02,Administración de Empresas,Híbrida,Web institucional,Nuevo,83,Sí,,Popayán,Asesor 2,,aspirante001524@ejemplo.com,2026-2
+ANX2_00041,ANX2_00041,2025-10-04,Psicología,Virtual,Referido,Retirado,57,Sí,3100000,Medellín,Asesor 1,,aspirante000069@ejemplo.com,2026-2
+ANX2_00042,ANX2_00042,2026-04-23,Especialización en Gerencia,Presencial,Referido,Admitido,48,No,2500000,Popayán,Sin asignar,,aspirante001572@ejemplo.com,2026-2
+ANX2_00043,ANX2_00043,2026-03-28,Especialización en Gerencia,Presencial,Referido,Nuevo,68,No,3100000,Santander de Quilichao,Asesor 2,,aspirante003472@ejemplo.com,2026-1
+ANX2_00044,ANX2_00044,2025-06-22,Derecho,Virtual,Correo,No admitido,98,No,2500000,Pasto,Asesor 3,,aspirante002153@ejemplo.com,2026-1
+ANX2_00045,ANX2_00045,2025-05-24,Derecho,Presencial,Web institucional,Inscrito,53,Sí,,Popayán,Sin asignar,,aspirante002400@ejemplo.com,2025-2
+ANX2_00046,ANX2_00046,2026-07-22,Especialización en Data Analytics,Virtual,Instagram,Matriculado,83,Sí,2200000,Cali,Asesor 1,2026-08-26,aspirante001684@ejemplo.com,2026-2
+ANX2_00047,ANX2_00047,2025-08-20,Administración de Empresas,Virtual,Referido,Admitido,70,Sí,1800000,Santander de Quilichao,Sin asignar,,aspirante001049@ejemplo.com,2026-2
+ANX2_00048,ANX2_00048,2026-06-05,Ingeniería de Sistemas,Virtual,Landing page,No admitido,56,Sí,,Popayán,Asesor 2,,aspirante000435@ejemplo.com,2026-2
+ANX2_00049,ANX2_00049,2025-11-18,Administración de Empresas,Presencial,Referido,Matriculado,47,Sí,1800000,Popayán,Asesor 1,2025-04-12,aspirante000818@ejemplo.com,2026-2
+ANX2_00050,ANX2_00050,2026-05-16,Administración de Empresas,Híbrida,Web institucional,Matriculado,59,No,2200000,Bogotá,Asesor 3,2026-06-23,aspirante001142@ejemplo.com,2025-2
+ANX2_00051,ANX2_00051,2025-05-24,Especialización en Data Analytics,Presencial,Web institucional,Matriculado,40,No,3100000,Medellín,Sin asignar,2025-01-06,aspirante003216@ejemplo.com,2025-2
+ANX2_00052,ANX2_00052,2025-06-14,Ingeniería de Sistemas,Híbrida,Correo,Retirado,92,No,3500000,Pasto,Asesor 3,,aspirante000160@ejemplo.com,2026-2
+ANX2_00053,ANX2_00053,2026-08-04,Contaduría Pública,Presencial,Web institucional,Matriculado,51,Sí,,Bogotá,Asesor 2,2026-07-05,aspirante004000@ejemplo.com,2026-1
+ANX2_00054,ANX2_00054,2026-09-30,Especialización en Data Analytics,Virtual,Instagram,Matriculado,68,Sí,,Popayán,Asesor 1,2026-10-15,aspirante003632@ejemplo.com,2026-1
+ANX2_00055,ANX2_00055,2026-07-18,Derecho,Virtual,Feria universitaria,Retirado,54,No,3100000,Pasto,Asesor 2,,aspirante002694@ejemplo.com,2026-2
+ANX2_00056,ANX2_00056,2026-04-04,Contaduría Pública,Virtual,Correo,Nuevo,48,No,,Popayán,Asesor 1,,aspirante000876@ejemplo.com,2026-1
+ANX2_00057,ANX2_00057,2025-01-12,Especialización en Data Analytics,Presencial,Feria universitaria,No admitido,72,Sí,3500000,Medellín,Asesor 3,,aspirante002420@ejemplo.com,2026-1
+ANX2_00058,ANX2_00058,2026-02-09,Psicología,Virtual,Landing page,Documentación pendiente,60,Pendiente,2500000,Popayán,Asesor 3,,aspirante001674@ejemplo.com,2026-1
+ANX2_00059,ANX2_00059,2025-05-05,Ingeniería de Sistemas,Presencial,Web institucional,Admitido,79,Sí,,Santander de Quilichao,Asesor 1,,aspirante002700@ejemplo.com,2026-2
+ANX2_00060,ANX2_00060,2025-03-21,Derecho,Virtual,Web institucional,Admitido,43,Sí,3500000,Pasto,Asesor 1,,aspirante000660@ejemplo.com,2026-2
+ANX2_00061,ANX2_00061,2026-03-20,Administración de Empresas,Virtual,Instagram,No admitido,43,Sí,2500000,Cali,Asesor 3,,aspirante000422@ejemplo.com,2026-2
+ANX2_00062,ANX2_00062,2026-02-17,Ingeniería de Sistemas,Presencial,Correo,Documentación pendiente,41,Sí,3100000,Medellín,Sin asignar,,aspirante002996@ejemplo.com,2025-2
+ANX2_00063,ANX2_00063,2026-01-01,Psicología,Presencial,Feria universitaria,Inscrito,97,Sí,2200000,Pasto,Sin asignar,,aspirante001763@ejemplo.com,2025-2
+ANX2_00064,ANX2_00064,2025-12-21,Derecho,Híbrida,Instagram,Admitido,42,No,2500000,Medellín,Asesor 3,,aspirante001981@ejemplo.com,2025-2
+ANX2_00065,ANX2_00065,2026-07-23,Especialización en Gerencia,Presencial,Referido,Documentación pendiente,74,No,2500000,Medellín,Asesor 1,,aspirante003455@ejemplo.com,2025-2
+ANX2_00066,ANX2_00066,2025-03-17,Especialización en Data Analytics,Virtual,Web institucional,Documentación pendiente,84,Sí,1800000,Santander de Quilichao,Sin asignar,,aspirante002152@ejemplo.com,2026-1
+ANX2_00067,ANX2_00067,2025-11-02,Especialización en Gerencia,Presencial,Web institucional,Admitido,69,No,3500000,Cali,Asesor 1,,aspirante000853@ejemplo.com,2026-2
+ANX2_00068,ANX2_00068,2026-07-13,Especialización en Data Analytics,Presencial,Referido,Documentación pendiente,85,Sí,3500000,Cali,Asesor 1,,aspirante000101@ejemplo.com,2026-1
+ANX2_00069,ANX2_00069,2025-09-24,Sin especificar,Virtual,Correo,Matriculado,59,No,3500000,Medellín,Sin asignar,2025-04-11,aspirante002199@ejemplo.com,2026-1
+ANX2_00070,ANX2_00070,2026-07-02,Especialización en Data Analytics,Híbrida,Instagram,Admitido,60,Sí,3500000,Bogotá,Asesor 1,,aspirante002153@ejemplo.com,2026-2
+ANX2_00071,ANX2_00071,2025-06-22,Contaduría Pública,Presencial,Instagram,Matriculado,88,No,3100000,Cali,Sin asignar,2025-04-08,aspirante000920@ejemplo.com,2026-1
+ANX2_00072,ANX2_00072,2026-09-24,Especialización en Gerencia,Híbrida,Feria universitaria,Nuevo,98,No,3100000,Bogotá,Asesor 2,,aspirante001215@ejemplo.com,2026-2
+ANX2_00073,ANX2_00073,2026-09-18,Derecho,Virtual,Feria universitaria,Inscrito,99,No,2200000,Popayán,Asesor 1,,aspirante003904@ejemplo.com,2025-2
+ANX2_00074,ANX2_00074,2026-11-04,Especialización en Data Analytics,Virtual,Correo,Nuevo,55,Sí,3500000,Pasto,Sin asignar,,aspirante003698@ejemplo.com,2026-1
+ANX2_00075,ANX2_00075,2026-05-17,Derecho,Presencial,Correo,Admitido,78,Sí,2200000,Popayán,Sin asignar,,aspirante003286@ejemplo.com,2026-1
+ANX2_00076,ANX2_00076,2025-02-09,Contaduría Pública,Presencial,Referido,Matriculado,,Pendiente,3100000,Medellín,Asesor 2,2025-10-10,aspirante000533@ejemplo.com,2026-2
+ANX2_00077,ANX2_00077,2025-11-02,Psicología,Híbrida,Referido,Admitido,98,Sí,3500000,Medellín,Sin asignar,,aspirante001234@ejemplo.com,2026-2
+ANX2_00078,ANX2_00078,2025-11-12,Ingeniería de Sistemas,Virtual,Correo,Inscrito,87,Sí,,Popayán,Asesor 2,,aspirante001647@ejemplo.com,2026-2
+ANX2_00079,ANX2_00079,2025-05-09,Contaduría Pública,Presencial,Feria universitaria,Matriculado,62,No,3500000,Popayán,Asesor 3,2025-12-09,aspirante000592@ejemplo.com,2026-1
+ANX2_00080,ANX2_00080,2026-10-09,Psicología,Presencial,Instagram,No admitido,73,Sí,3100000,Cali,Asesor 2,,aspirante001715@ejemplo.com,2026-1
+ANX2_00081,ANX2_00081,2025-09-27,Administración de Empresas,Presencial,Feria universitaria,Matriculado,84,No,2200000,Cali,Asesor 3,2025-12-22,aspirante002325@ejemplo.com,2025-2
+ANX2_00082,ANX2_00082,2025-04-07,Especialización en Data Analytics,Presencial,Web institucional,Inscrito,63,Sí,2200000,Popayán,Asesor 1,,aspirante003816@ejemplo.com,2026-1
+ANX2_00083,ANX2_00083,2025-11-27,Derecho,Presencial,Feria universitaria,Documentación pendiente,63,Sí,,Santander de Quilichao,Asesor 3,,aspirante000971@ejemplo.com,2026-1
+ANX2_00084,ANX2_00084,2026-01-10,Psicología,Híbrida,Landing page,Matriculado,91,Sí,2500000,Bogotá,Asesor 3,2026-12-11,aspirante000489@ejemplo.com,2026-2
+ANX2_00085,ANX2_00085,2026-12-07,Especialización en Gerencia,Híbrida,Feria universitaria,Nuevo,82,Sí,2500000,Bogotá,Sin asignar,,aspirante001915@ejemplo.com,2026-1
+ANX2_00086,ANX2_00086,2026-02-28,Administración de Empresas,Virtual,Correo,Admitido,54,Pendiente,1800000,Bogotá,Sin asignar,,aspirante000175@ejemplo.com,2026-2
+ANX2_00087,ANX2_00087,2026-02-20,Especialización en Gerencia,Presencial,Instagram,Documentación pendiente,77,Pendiente,3100000,Bogotá,Asesor 3,,aspirante002995@ejemplo.com,2026-2
+ANX2_00088,ANX2_00088,2026-02-28,Derecho,Presencial,Landing page,Documentación pendiente,95,Sí,2500000,Bogotá,Asesor 2,,aspirante000450@ejemplo.com,2026-2
+ANX2_00089,ANX2_00089,2025-07-26,Ingeniería de Sistemas,Virtual,Referido,No admitido,48,Pendiente,3100000,Cali,Asesor 1,,aspirante001531@ejemplo.com,2026-1
+ANX2_00090,ANX2_00090,2026-02-16,Especialización en Data Analytics,Híbrida,Landing page,Admitido,59,No,2500000,Cali,Asesor 3,,aspirante002191@ejemplo.com,2025-2
+ANX2_00091,ANX2_00091,2025-04-28,Ingeniería de Sistemas,Presencial,Landing page,Inscrito,95,Pendiente,3100000,Popayán,Asesor 1,,aspirante003317@ejemplo.com,2026-2
+ANX2_00092,ANX2_00092,2025-12-21,Psicología,Virtual,Feria universitaria,Matriculado,58,Sí,3100000,Pasto,Asesor 3,2025-12-24,aspirante003409@ejemplo.com,2026-2
+ANX2_00093,ANX2_00093,2025-12-22,Psicología,Virtual,Landing page,Admitido,79,No,1800000,Popayán,Asesor 2,,aspirante001485@ejemplo.com,2026-2
+ANX2_00094,ANX2_00094,2026-04-30,Contaduría Pública,Virtual,Web institucional,Admitido,76,Sí,3500000,Bogotá,Asesor 1,,aspirante002508@ejemplo.com,2026-1
+ANX2_00095,ANX2_00095,2026-06-14,Psicología,Presencial,Feria universitaria,Matriculado,68,Sí,2200000,Popayán,Asesor 3,2026-07-20,aspirante003050@ejemplo.com,2026-2
+ANX2_00096,ANX2_00096,2026-01-09,Derecho,Presencial,Correo,Inscrito,61,No,3100000,Santander de Quilichao,Asesor 2,,aspirante004195@ejemplo.com,2026-2
+ANX2_00097,ANX2_00097,2025-03-05,Especialización en Data Analytics,Virtual,Correo,Retirado,97,Sí,3100000,Popayán,Asesor 2,,aspirante003847@ejemplo.com,2026-2
+ANX2_00098,ANX2_00098,2026-12-07,Ingeniería de Sistemas,Presencial,Correo,Matriculado,67,Sí,2200000,Bogotá,Sin asignar,2026-07-25,aspirante002177@ejemplo.com,2025-2
+ANX2_00099,ANX2_00099,2026-08-06,Ingeniería de Sistemas,Virtual,Landing page,No admitido,82,Sí,3500000,Medellín,Asesor 2,,aspirante001888@ejemplo.com,2025-2
+ANX2_00100,ANX2_00100,2025-12-18,Especialización en Data Analytics,Presencial,Web institucional,Admitido,75,Sí,2200000,Bogotá,Asesor 1,,aspirante001623@ejemplo.com,2025-2
+ANX2_00101,ANX2_00101,2026-05-19,Especialización en Data Analytics,Híbrida,Referido,Matriculado,91,No,1800000,Popayán,Asesor 3,2026-08-07,aspirante002735@ejemplo.com,2026-1
+ANX2_00102,ANX2_00102,2025-07-25,Derecho,Híbrida,Feria universitaria,No admitido,50,No,1800000,Medellín,Sin asignar,,aspirante000579@ejemplo.com,2026-2
+ANX2_00103,ANX2_00103,2026-09-04,Administración de Empresas,Híbrida,Web institucional,Inscrito,94,Pendiente,3500000,Medellín,Asesor 1,,aspirante000209@ejemplo.com,2026-2
+ANX2_00104,ANX2_00104,2025-10-02,Administración de Empresas,Híbrida,Correo,Inscrito,57,Sí,3500000,Pasto,Asesor 3,,aspirante003527@ejemplo.com,2026-1
+ANX2_00105,ANX2_00105,2026-12-09,Administración de Empresas,Presencial,Referido,Inscrito,74,Sí,1800000,Popayán,Asesor 3,,aspirante002419@ejemplo.com,2025-2
+ANX2_00106,ANX2_00106,2026-08-23,Derecho,Presencial,Landing page,Admitido,76,No,,Bogotá,Asesor 2,,aspirante003440@ejemplo.com,2026-1
+ANX2_00107,ANX2_00107,2026-04-22,Especialización en Data Analytics,Virtual,Instagram,Documentación pendiente,97,Pendiente,2500000,Popayán,Asesor 1,,aspirante000357@ejemplo.com,2026-1
+ANX2_00108,ANX2_00108,2025-03-14,Especialización en Data Analytics,Híbrida,Feria universitaria,Retirado,45,No,,Cali,Sin asignar,,aspirante001147@ejemplo.com,2026-1
+ANX2_00109,ANX2_00109,2026-06-09,Especialización en Data Analytics,Virtual,Feria universitaria,Admitido,61,Pendiente,2200000,Cali,Asesor 1,,aspirante001211@ejemplo.com,2026-1
+ANX2_00110,ANX2_00110,2025-09-03,Especialización en Gerencia,Virtual,Feria universitaria,Matriculado,47,Sí,3500000,Santander de Quilichao,Asesor 1,2025-04-12,aspirante003105@ejemplo.com,2025-2
+ANX2_00111,ANX2_00111,2026-07-03,Derecho,Virtual,Correo,Admitido,96,Sí,,Cali,Asesor 1,,aspirante000278@ejemplo.com,2026-1
+ANX2_00112,ANX2_00112,2025-08-11,Psicología,Presencial,Instagram,Admitido,78,Sí,3100000,Popayán,Asesor 3,,aspirante003298@ejemplo.com,2026-2
+ANX2_00113,ANX2_00113,2026-07-05,Especialización en Gerencia,Híbrida,Correo,Inscrito,47,No,,Bogotá,Sin asignar,,aspirante000876@ejemplo.com,2026-2
+ANX2_00114,ANX2_00114,2026-02-24,Especialización en Gerencia,Virtual,Referido,Inscrito,69,No,3100000,Bogotá,Asesor 1,,aspirante001673@ejemplo.com,2026-1
+ANX2_00115,ANX2_00115,2025-01-10,Derecho,Presencial,Referido,No admitido,93,Sí,2200000,Santander de Quilichao,Asesor 3,,aspirante000353@ejemplo.com,2025-2
+ANX2_00116,ANX2_00116,2025-02-18,Derecho,Presencial,Instagram,Matriculado,99,Pendiente,3100000,Bogotá,Sin asignar,2025-11-03,aspirante001963@ejemplo.com,2026-2
+ANX2_00117,ANX2_00117,2026-06-20,Derecho,Presencial,Landing page,Matriculado,83,Sí,,Cali,Asesor 3,2026-12-08,aspirante000929@ejemplo.com,2025-2
+ANX2_00118,ANX2_00118,2026-03-14,Ingeniería de Sistemas,Híbrida,Feria universitaria,Matriculado,85,Pendiente,3500000,Bogotá,Asesor 1,2026-11-06,aspirante003892@ejemplo.com,2026-2
+ANX2_00119,ANX2_00119,2025-10-30,Psicología,Híbrida,Referido,Documentación pendiente,48,Pendiente,1800000,Bogotá,Asesor 2,,aspirante002487@ejemplo.com,2026-1
+ANX2_00120,ANX2_00120,2026-09-01,Administración de Empresas,Virtual,Instagram,Documentación pendiente,49,Sí,2500000,Cali,Sin asignar,,aspirante000820@ejemplo.com,2026-1
+ANX2_00121,ANX2_00121,2026-04-01,Especialización en Data Analytics,Híbrida,Instagram,Inscrito,55,Sí,2500000,Popayán,Asesor 3,,aspirante002668@ejemplo.com,2026-2
+ANX2_00122,ANX2_00122,2025-05-21,Derecho,Virtual,Referido,No admitido,53,No,2200000,Bogotá,Asesor 1,,aspirante002214@ejemplo.com,2026-2
+ANX2_00123,ANX2_00123,2025-07-07,Especialización en Data Analytics,Presencial,Correo,Matriculado,47,Pendiente,1800000,Medellín,Sin asignar,2025-05-09,aspirante000124@ejemplo.com,2026-1
+ANX2_00124,ANX2_00124,2025-03-23,Derecho,Virtual,Web institucional,Admitido,57,Sí,,Pasto,Asesor 1,,aspirante002838@ejemplo.com,2026-2
+ANX2_00125,ANX2_00125,2025-03-20,Especialización en Data Analytics,Presencial,Referido,Admitido,41,Pendiente,2500000,Pasto,Asesor 2,,aspirante003819@ejemplo.com,2026-2
+ANX2_00126,ANX2_00126,2025-09-25,Derecho,Virtual,Referido,No admitido,,Sí,3100000,Bogotá,Asesor 1,,aspirante002820@ejemplo.com,2026-1
+ANX2_00127,ANX2_00127,2025-07-02,Especialización en Data Analytics,Virtual,Instagram,Matriculado,100,Sí,3500000,Santander de Quilichao,Sin asignar,2025-02-28,aspirante002510@ejemplo.com,2026-1
+ANX2_00128,ANX2_00128,2026-05-08,Administración de Empresas,Híbrida,Feria universitaria,Matriculado,65,Sí,1800000,Cali,Asesor 1,2026-06-09,aspirante001194@ejemplo.com,2026-1
+ANX2_00129,ANX2_00129,2026-02-13,Especialización en Gerencia,Presencial,Feria universitaria,Inscrito,92,Sí,3500000,Santander de Quilichao,Sin asignar,,aspirante000568@ejemplo.com,2025-2
+ANX2_00130,ANX2_00130,2026-01-10,Ingeniería de Sistemas,Presencial,Web institucional,Documentación pendiente,47,Sí,1800000,Cali,Asesor 3,,aspirante003234@ejemplo.com,2026-1
+ANX2_00131,ANX2_00131,2026-07-17,Psicología,Presencial,Feria universitaria,No admitido,48,Sí,3100000,Santander de Quilichao,Asesor 2,,aspirante002633@ejemplo.com,2026-1
+ANX2_00132,ANX2_00132,2026-05-25,Psicología,Virtual,Instagram,Documentación pendiente,82,Sí,1800000,Popayán,Sin asignar,,aspirante002746@ejemplo.com,2026-1
+ANX2_00133,ANX2_00133,2025-02-05,Derecho,Virtual,Correo,Retirado,81,Pendiente,3500000,Cali,Asesor 2,,aspirante002870@ejemplo.com,2026-2
+ANX2_00134,ANX2_00134,2026-08-26,Especialización en Data Analytics,Presencial,Instagram,Admitido,40,Sí,3100000,Cali,Sin asignar,,aspirante001568@ejemplo.com,2026-1
+ANX2_00135,ANX2_00135,2025-07-12,Derecho,Presencial,Web institucional,Admitido,,Sí,3100000,Pasto,Asesor 2,,aspirante002970@ejemplo.com,2026-1
+ANX2_00136,ANX2_00136,2026-02-08,Derecho,Presencial,Web institucional,Retirado,41,No,,Cali,Asesor 1,,aspirante000048@ejemplo.com,2026-1
+ANX2_00137,ANX2_00137,2026-05-10,Derecho,Híbrida,Instagram,Admitido,100,No,3100000,Cali,Asesor 1,,aspirante001250@ejemplo.com,2025-2
+ANX2_00138,ANX2_00138,2026-06-06,Ingeniería de Sistemas,Híbrida,Referido,No admitido,98,Pendiente,3500000,Cali,Asesor 1,,aspirante001633@ejemplo.com,2025-2
+ANX2_00139,ANX2_00139,2025-09-16,Derecho,Presencial,Correo,Admitido,72,No,3100000,Medellín,Sin asignar,,aspirante003794@ejemplo.com,2026-2
+ANX2_00140,ANX2_00140,2025-03-19,Contaduría Pública,Presencial,Instagram,Inscrito,82,Pendiente,2200000,Cali,Asesor 2,,aspirante000078@ejemplo.com,2026-1
+ANX2_00141,ANX2_00141,2026-08-18,Derecho,Presencial,Landing page,No admitido,70,No,3500000,Cali,Asesor 2,,aspirante000692@ejemplo.com,2026-2
+ANX2_00142,ANX2_00142,2025-10-02,Administración de Empresas,Presencial,Web institucional,Matriculado,80,Sí,2200000,Cali,Asesor 2,2025-03-21,aspirante000163@ejemplo.com,2026-2
+ANX2_00143,ANX2_00143,2026-09-15,Contaduría Pública,Presencial,Landing page,No admitido,51,Pendiente,,Pasto,Sin asignar,,aspirante000666@ejemplo.com,2026-2
+ANX2_00144,ANX2_00144,2026-01-15,Derecho,Virtual,Referido,Admitido,60,Sí,1800000,Popayán,Sin asignar,,aspirante001655@ejemplo.com,2025-2
+ANX2_00145,ANX2_00145,2026-12-10,Derecho,Virtual,Web institucional,Retirado,46,Sí,,Popayán,Asesor 3,,aspirante001720@ejemplo.com,2026-2
+ANX2_00146,ANX2_00146,2026-06-27,Especialización en Data Analytics,Presencial,Referido,No admitido,98,No,,Pasto,Asesor 2,,aspirante000012@ejemplo.com,2026-2
+ANX2_00147,ANX2_00147,2025-12-17,Ingeniería de Sistemas,Presencial,Instagram,Matriculado,93,Sí,1800000,Pasto,Asesor 2,2026-11-02,aspirante001163@ejemplo.com,2026-2
+ANX2_00148,ANX2_00148,2025-04-13,Derecho,Presencial,Correo,Documentación pendiente,51,Pendiente,,Bogotá,Asesor 1,,aspirante001187@ejemplo.com,2025-2
+ANX2_00149,ANX2_00149,2026-01-06,Especialización en Data Analytics,Presencial,Instagram,Inscrito,100,Sí,3100000,Santander de Quilichao,Asesor 3,,aspirante002812@ejemplo.com,2025-2
+ANX2_00150,ANX2_00150,2025-02-08,Contaduría Pública,Presencial,Feria universitaria,No admitido,48,Pendiente,3500000,Cali,Asesor 1,,aspirante002711@ejemplo.com,2026-2
+ANX2_00151,ANX2_00151,2026-10-01,Contaduría Pública,Presencial,Instagram,Admitido,81,No,1800000,Popayán,Asesor 2,,aspirante001111@ejemplo.com,2025-2
+ANX2_00152,ANX2_00152,2026-01-09,Administración de Empresas,Híbrida,Landing page,Retirado,82,Sí,,Bogotá,Asesor 1,,aspirante002635@ejemplo.com,2026-1
+ANX2_00153,ANX2_00153,2026-06-27,Especialización en Data Analytics,Presencial,Web institucional,Admitido,55,Sí,,Cali,Asesor 1,,aspirante001010@ejemplo.com,2026-1
+ANX2_00154,ANX2_00154,2025-07-03,Administración de Empresas,Virtual,Instagram,Documentación pendiente,58,No,3500000,Cali,Asesor 2,,,2025-2
+ANX2_00155,ANX2_00155,2026-07-10,Administración de Empresas,Híbrida,Instagram,Matriculado,91,Pendiente,,Popayán,Asesor 1,2026-11-16,aspirante000069@ejemplo.com,2026-1
+ANX2_00156,ANX2_00156,2025-01-02,Ingeniería de Sistemas,Virtual,Instagram,Matriculado,71,Sí,1800000,Bogotá,Asesor 2,2025-03-27,aspirante003045@ejemplo.com,2025-2
+ANX2_00157,ANX2_00157,2025-11-03,Psicología,Presencial,Referido,Nuevo,60,Sí,2200000,Medellín,Asesor 1,,aspirante000404@ejemplo.com,2026-1
+ANX2_00158,ANX2_00158,2026-06-22,Contaduría Pública,Virtual,Correo,Nuevo,74,Sí,3100000,Popayán,Asesor 1,,aspirante000072@ejemplo.com,2025-2
+ANX2_00159,ANX2_00159,2025-09-28,Contaduría Pública,Presencial,Feria universitaria,Admitido,91,Sí,2200000,Medellín,Asesor 1,,aspirante002632@ejemplo.com,2025-2
+ANX2_00160,ANX2_00160,2025-02-04,Derecho,Virtual,Correo,Matriculado,54,Sí,3100000,Bogotá,Asesor 1,2025-04-15,aspirante003807@ejemplo.com,2026-2
+ANX2_00161,ANX2_00161,2025-08-13,Ingeniería de Sistemas,Híbrida,Feria universitaria,Admitido,82,Pendiente,,Cali,Asesor 1,,aspirante002060@ejemplo.com,2026-1
+ANX2_00162,ANX2_00162,2026-09-26,Administración de Empresas,Virtual,Referido,Documentación pendiente,94,Pendiente,2200000,Popayán,Asesor 3,,aspirante000201@ejemplo.com,2026-2
+ANX2_00163,ANX2_00163,2025-11-30,Psicología,Híbrida,Feria universitaria,No admitido,44,No,2500000,Medellín,Asesor 3,,aspirante003338@ejemplo.com,2026-1
+ANX2_00164,ANX2_00164,2026-01-20,Contaduría Pública,Virtual,Instagram,Nuevo,73,Pendiente,3100000,Bogotá,Sin asignar,,aspirante004182@ejemplo.com,2026-2
+ANX2_00165,ANX2_00165,2025-10-18,Especialización en Gerencia,Presencial,Landing page,Admitido,40,No,1800000,Bogotá,Asesor 2,,aspirante003498@ejemplo.com,2026-2
+ANX2_00166,ANX2_00166,2026-06-29,Contaduría Pública,Presencial,Landing page,No admitido,91,No,2500000,Bogotá,Asesor 1,,aspirante000403@ejemplo.com,2025-2
+ANX2_00167,ANX2_00167,2025-12-17,Especialización en Data Analytics,Virtual,Feria universitaria,Documentación pendiente,41,Pendiente,1800000,Medellín,Sin asignar,,aspirante002878@ejemplo.com,2025-2
+ANX2_00168,ANX2_00168,2025-02-14,Especialización en Data Analytics,Virtual,Instagram,Matriculado,72,Pendiente,2200000,Popayán,Asesor 2,2025-03-17,aspirante003656@ejemplo.com,2026-2
+ANX2_00169,ANX2_00169,2026-03-06,Contaduría Pública,Presencial,Referido,Inscrito,45,Sí,1800000,Popayán,Asesor 1,,aspirante000092@ejemplo.com,2025-2
+ANX2_00170,ANX2_00170,2026-08-06,Especialización en Gerencia,Virtual,Referido,Matriculado,57,Pendiente,2200000,Popayán,Asesor 3,2026-06-27,aspirante002167@ejemplo.com,2026-1
+ANX2_00171,ANX2_00171,2026-06-02,Psicología,Híbrida,Feria universitaria,Admitido,55,Sí,,Bogotá,Asesor 1,,aspirante004103@ejemplo.com,2026-2
+ANX2_00172,ANX2_00172,2026-05-17,Contaduría Pública,Virtual,Instagram,Nuevo,84,No,3100000,Bogotá,Asesor 3,,aspirante001718@ejemplo.com,2026-1
+ANX2_00173,ANX2_00173,2026-01-01,Ingeniería de Sistemas,Virtual,Feria universitaria,Inscrito,44,Sí,3500000,Cali,Asesor 1,,aspirante001488@ejemplo.com,2026-1
+ANX2_00174,ANX2_00174,2026-08-27,Contaduría Pública,Virtual,Instagram,Matriculado,94,No,2200000,Bogotá,Asesor 1,2026-06-09,aspirante002964@ejemplo.com,2026-2
+ANX2_00175,ANX2_00175,2026-08-03,Especialización en Gerencia,Virtual,Feria universitaria,Documentación pendiente,86,Pendiente,1800000,Santander de Quilichao,Asesor 1,,aspirante001067@ejemplo.com,2026-1
+ANX2_00176,ANX2_00176,2025-04-12,Ingeniería de Sistemas,Presencial,Web institucional,Retirado,94,Pendiente,1800000,Popayán,Asesor 1,,aspirante002059@ejemplo.com,2026-1
+ANX2_00177,ANX2_00177,2026-07-29,Contaduría Pública,Virtual,Feria universitaria,Admitido,62,Sí,2500000,Medellín,Asesor 2,,aspirante003346@ejemplo.com,2026-1
+ANX2_00178,ANX2_00178,2025-12-20,Especialización en Gerencia,Virtual,Web institucional,Admitido,91,No,2500000,Pasto,Sin asignar,,aspirante002696@ejemplo.com,2026-1
+ANX2_00179,ANX2_00179,2026-08-17,Derecho,Híbrida,Correo,Admitido,60,Sí,,Bogotá,Sin asignar,,aspirante000091@ejemplo.com,2026-1
+ANX2_00180,ANX2_00180,2026-05-03,Psicología,Virtual,Web institucional,Admitido,97,Pendiente,2200000,Pasto,Asesor 1,,aspirante002713@ejemplo.com,2026-2
+ANX2_00181,ANX2_00181,2025-08-07,Especialización en Gerencia,Virtual,Web institucional,Matriculado,87,No,2500000,Pasto,Asesor 3,2025-05-08,aspirante001195@ejemplo.com,2026-1
+ANX2_00182,ANX2_00182,2025-12-13,Ingeniería de Sistemas,Presencial,Correo,Inscrito,,Sí,,Bogotá,Asesor 1,,aspirante003551@ejemplo.com,2026-1
+ANX2_00183,ANX2_00183,2026-09-07,Especialización en Data Analytics,Presencial,Feria universitaria,Nuevo,65,Pendiente,2200000,Bogotá,Asesor 2,,aspirante001227@ejemplo.com,2025-2
+ANX2_00184,ANX2_00184,2025-04-14,Administración de Empresas,Híbrida,Landing page,Retirado,94,Sí,3500000,Bogotá,Sin asignar,,aspirante002040@ejemplo.com,2025-2
+ANX2_00185,ANX2_00185,2026-06-20,Especialización en Gerencia,Virtual,Correo,Documentación pendiente,69,Sí,,Bogotá,Asesor 1,,aspirante002147@ejemplo.com,2026-1
+ANX2_00186,ANX2_00186,2025-05-14,Administración de Empresas,Presencial,Correo,Admitido,99,Sí,3100000,Bogotá,Sin asignar,,aspirante001800@ejemplo.com,2026-2
+ANX2_00187,ANX2_00187,2025-07-18,Derecho,Virtual,Instagram,No admitido,52,Sí,2200000,Popayán,Asesor 1,,aspirante003669@ejemplo.com,2026-1
+ANX2_00188,ANX2_00188,2026-06-23,Administración de Empresas,Virtual,Instagram,Documentación pendiente,,Sí,3100000,Cali,Asesor 1,,aspirante003763@ejemplo.com,2026-2
+ANX2_00189,ANX2_00189,2025-12-08,Administración de Empresas,Presencial,Correo,Matriculado,79,Sí,2500000,Bogotá,Asesor 2,2025-09-27,aspirante004025@ejemplo.com,2026-1
+ANX2_00190,ANX2_00190,2025-12-20,Administración de Empresas,Presencial,Web institucional,Matriculado,66,Sí,3100000,Popayán,Asesor 3,2026-01-18,aspirante001434@ejemplo.com,2026-1
+ANX2_00191,ANX2_00191,2026-02-28,Contaduría Pública,Virtual,Referido,No admitido,52,Sí,2200000,Popayán,Asesor 1,,aspirante000924@ejemplo.com,2025-2
+ANX2_00192,ANX2_00192,2026-04-25,Especialización en Data Analytics,Presencial,Correo,Documentación pendiente,43,No,3500000,Medellín,Asesor 3,,aspirante003992@ejemplo.com,2026-2
+ANX2_00193,ANX2_00193,2025-01-23,Psicología,Virtual,Instagram,Inscrito,83,No,3500000,Medellín,Asesor 1,,aspirante000729@ejemplo.com,2026-2
+ANX2_00194,ANX2_00194,2025-06-04,Especialización en Gerencia,Híbrida,Web institucional,Matriculado,96,Sí,1800000,Popayán,Asesor 2,2025-05-27,aspirante000255@ejemplo.com,2025-2
+ANX2_00195,ANX2_00195,2025-07-18,Ingeniería de Sistemas,Presencial,Instagram,Inscrito,60,No,3100000,Bogotá,Asesor 3,,aspirante003973@ejemplo.com,2026-1
+ANX2_00196,ANX2_00196,2025-06-16,Psicología,Virtual,Instagram,Retirado,83,No,2200000,Popayán,Asesor 3,,aspirante002377@ejemplo.com,2025-2
+ANX2_00197,ANX2_00197,2025-08-19,Administración de Empresas,Virtual,Web institucional,Admitido,55,Pendiente,2200000,Popayán,Asesor 1,,aspirante000445@ejemplo.com,2026-1
+ANX2_00198,ANX2_00198,2025-12-29,Ingeniería de Sistemas,Virtual,Feria universitaria,Inscrito,53,Pendiente,2200000,Bogotá,Asesor 3,,aspirante001916@ejemplo.com,2026-1
+ANX2_00199,ANX2_00199,2025-08-14,Psicología,Virtual,Instagram,Matriculado,76,Sí,3100000,Bogotá,Asesor 2,2025-08-17,aspirante000128@ejemplo.com,2025-2
+ANX2_00200,ANX2_00200,2025-08-05,Psicología,Híbrida,Feria universitaria,Matriculado,78,Sí,2200000,Cali,Asesor 1,2025-06-08,aspirante003136@ejemplo.com,2026-2
+ANX2_00201,ANX2_00201,2026-08-06,Especialización en Data Analytics,Presencial,Instagram,Documentación pendiente,68,Sí,3100000,Pasto,Asesor 2,,aspirante000246@ejemplo.com,2026-1
+ANX2_00202,ANX2_00202,2025-08-07,Contaduría Pública,Híbrida,Correo,Nuevo,81,Sí,3500000,Bogotá,Asesor 3,,aspirante001461@ejemplo.com,2026-2
+ANX2_00203,ANX2_00203,2025-02-14,Derecho,Virtual,Referido,Documentación pendiente,58,Sí,3100000,Cali,Asesor 2,,aspirante001542@ejemplo.com,2026-1
+ANX2_00204,ANX2_00204,2026-01-29,Especialización en Data Analytics,Presencial,Feria universitaria,No admitido,96,No,1800000,Popayán,Asesor 1,,aspirante002975@ejemplo.com,2026-1
+ANX2_00205,ANX2_00205,2026-03-06,Especialización en Data Analytics,Virtual,Correo,Admitido,46,Sí,2200000,Popayán,Asesor 1,,aspirante000616@ejemplo.com,2026-2
+ANX2_00206,ANX2_00206,2026-07-05,Especialización en Data Analytics,Presencial,Web institucional,Documentación pendiente,83,Sí,2200000,Popayán,Asesor 3,,aspirante003653@ejemplo.com,2026-2
+ANX2_00207,ANX2_00207,2026-05-20,Ingeniería de Sistemas,Virtual,Web institucional,Matriculado,86,No,3500000,Bogotá,Sin asignar,2026-05-29,aspirante002290@ejemplo.com,2026-1
+ANX2_00208,ANX2_00208,2025-02-19,Especialización en Data Analytics,Híbrida,Instagram,Admitido,73,Pendiente,3100000,Bogotá,Asesor 1,,aspirante001991@ejemplo.com,2026-2
+ANX2_00209,ANX2_00209,2025-11-28,Especialización en Data Analytics,Virtual,Referido,No admitido,77,Pendiente,2500000,Cali,Asesor 3,,aspirante001264@ejemplo.com,2026-1
+ANX2_00210,ANX2_00210,2026-06-05,Ingeniería de Sistemas,Presencial,Correo,Inscrito,49,No,2200000,Medellín,Sin asignar,,aspirante000372@ejemplo.com,2026-1
+ANX2_00211,ANX2_00211,2025-09-04,Especialización en Data Analytics,Presencial,Referido,No admitido,45,Sí,,Bogotá,Asesor 1,,aspirante000669@ejemplo.com,2025-2
+ANX2_00212,ANX2_00212,2026-08-18,Ingeniería de Sistemas,Presencial,Referido,Documentación pendiente,63,Sí,2200000,Medellín,Asesor 2,,aspirante000696@ejemplo.com,2026-1
+ANX2_00213,ANX2_00213,2025-09-28,Contaduría Pública,Virtual,Landing page,Documentación pendiente,,Sí,2200000,Bogotá,Sin asignar,,aspirante003757@ejemplo.com,2026-1
+ANX2_00214,ANX2_00214,2025-06-11,Derecho,Presencial,Correo,No admitido,40,Sí,,Pasto,Asesor 2,,aspirante003521@ejemplo.com,2026-1
+ANX2_00215,ANX2_00215,2026-02-28,Contaduría Pública,Virtual,Feria universitaria,Admitido,42,Sí,1800000,Santander de Quilichao,Asesor 1,,,2025-2
+ANX2_00216,ANX2_00216,2025-02-22,Especialización en Gerencia,Virtual,Feria universitaria,Nuevo,65,No,3100000,Bogotá,Asesor 2,,aspirante001034@ejemplo.com,2026-1
+ANX2_00217,ANX2_00217,2026-02-06,Especialización en Gerencia,Virtual,Feria universitaria,Matriculado,91,Pendiente,,Popayán,Asesor 1,2026-11-07,aspirante001638@ejemplo.com,2026-1
+ANX2_00218,ANX2_00218,2026-02-04,Ingeniería de Sistemas,Presencial,Web institucional,Matriculado,41,Pendiente,2200000,Medellín,Asesor 3,2026-12-05,aspirante003099@ejemplo.com,2026-1
+ANX2_00219,ANX2_00219,2025-06-26,Especialización en Gerencia,Presencial,Instagram,No admitido,87,Pendiente,2500000,Cali,Asesor 3,,aspirante002330@ejemplo.com,2026-1
+ANX2_00220,ANX2_00220,2026-01-31,Especialización en Data Analytics,Presencial,Web institucional,Matriculado,52,No,,Cali,Asesor 2,2026-12-02,aspirante003425@ejemplo.com,2026-1
+ANX2_00221,ANX2_00221,2026-11-09,Especialización en Data Analytics,Virtual,Landing page,Admitido,66,Pendiente,1800000,Cali,Asesor 2,,aspirante002636@ejemplo.com,2026-1
+ANX2_00222,ANX2_00222,2025-03-16,Especialización en Gerencia,Presencial,Instagram,Documentación pendiente,98,Sí,1800000,Bogotá,Sin asignar,,aspirante002390@ejemplo.com,2026-1
+ANX2_00223,ANX2_00223,2026-02-09,Derecho,Presencial,Correo,Matriculado,,Pendiente,2500000,Popayán,Asesor 1,2026-09-28,aspirante001662@ejemplo.com,2026-1
+ANX2_00224,ANX2_00224,2026-09-07,Derecho,Virtual,Referido,Matriculado,98,Pendiente,1800000,Popayán,Asesor 1,2026-08-31,aspirante002774@ejemplo.com,2026-1
+ANX2_00225,ANX2_00225,2025-10-05,Especialización en Gerencia,Virtual,Referido,Documentación pendiente,55,Pendiente,2200000,Medellín,Asesor 1,,aspirante000807@ejemplo.com,2026-2
+ANX2_00226,ANX2_00226,2025-10-16,Especialización en Data Analytics,Virtual,Landing page,Matriculado,,Pendiente,1800000,Pasto,Asesor 2,2025-04-12,aspirante002035@ejemplo.com,2026-2
+ANX2_00227,ANX2_00227,2026-06-10,Derecho,Presencial,Web institucional,Inscrito,42,Sí,2200000,Bogotá,Asesor 1,,,2026-2
+ANX2_00228,ANX2_00228,2025-05-05,Derecho,Virtual,Web institucional,Nuevo,74,Sí,,Cali,Asesor 3,,aspirante002898@ejemplo.com,2026-1
+ANX2_00229,ANX2_00229,2026-12-04,Derecho,Presencial,Correo,Matriculado,58,Sí,3500000,Pasto,Asesor 2,2026-11-05,aspirante002060@ejemplo.com,2026-2
+ANX2_00230,ANX2_00230,2026-01-21,Contaduría Pública,Presencial,Feria universitaria,No admitido,48,No,3500000,Cali,Asesor 1,,aspirante003994@ejemplo.com,2026-2
+ANX2_00231,ANX2_00231,2025-10-19,Contaduría Pública,Híbrida,Feria universitaria,Inscrito,98,No,2500000,Popayán,Asesor 1,,aspirante003536@ejemplo.com,2026-2
+ANX2_00232,ANX2_00232,2025-07-02,Contaduría Pública,Presencial,Landing page,Matriculado,47,No,3500000,Bogotá,Sin asignar,2025-07-04,aspirante002333@ejemplo.com,2026-1
+ANX2_00233,ANX2_00233,2026-10-06,Especialización en Data Analytics,Virtual,Landing page,No admitido,93,Sí,3100000,Cali,Asesor 1,,,2026-2
+ANX2_00234,ANX2_00234,2026-02-08,Administración de Empresas,Híbrida,Web institucional,Retirado,77,No,1800000,Popayán,Sin asignar,,aspirante001275@ejemplo.com,2026-1
+ANX2_00235,ANX2_00235,2026-11-01,Derecho,Híbrida,Correo,Retirado,89,Sí,2500000,Cali,Asesor 3,,aspirante000790@ejemplo.com,2025-2
+ANX2_00236,ANX2_00236,2025-04-05,Derecho,Presencial,Referido,No admitido,87,No,2500000,Popayán,Asesor 2,,aspirante000623@ejemplo.com,2026-2
+ANX2_00237,ANX2_00237,2026-01-22,Administración de Empresas,Presencial,Correo,Admitido,50,Sí,2200000,Popayán,Asesor 1,,aspirante003530@ejemplo.com,2025-2
+ANX2_00238,ANX2_00238,2025-03-06,Derecho,Presencial,Feria universitaria,Nuevo,94,Pendiente,3100000,Popayán,Asesor 3,,aspirante000277@ejemplo.com,2026-2
+ANX2_00239,ANX2_00239,2025-08-28,Especialización en Gerencia,Presencial,Instagram,Documentación pendiente,68,Sí,3500000,Pasto,Asesor 1,,,2026-2
+ANX2_00240,ANX2_00240,2025-10-28,Derecho,Virtual,Instagram,Admitido,90,Sí,,Cali,Asesor 2,,aspirante003050@ejemplo.com,2026-1
+ANX2_00241,ANX2_00241,2026-09-01,Derecho,Virtual,Correo,Documentación pendiente,93,Sí,2500000,Pasto,Asesor 1,,aspirante003182@ejemplo.com,2026-1
+ANX2_00242,ANX2_00242,2026-10-08,Ingeniería de Sistemas,Presencial,Feria universitaria,Admitido,78,No,,Cali,Asesor 1,,aspirante003921@ejemplo.com,2025-2
+ANX2_00243,ANX2_00243,2025-10-19,Contaduría Pública,Virtual,Referido,Retirado,57,Pendiente,,Popayán,Asesor 2,,aspirante003281@ejemplo.com,2026-2
+ANX2_00244,ANX2_00244,2026-02-01,Derecho,Virtual,Landing page,Matriculado,90,No,2200000,Bogotá,Asesor 1,2026-05-02,aspirante002368@ejemplo.com,2026-2
+ANX2_00245,ANX2_00245,2025-11-08,Psicología,Virtual,Landing page,Documentación pendiente,59,Sí,1800000,Bogotá,Asesor 1,,aspirante002891@ejemplo.com,2026-1
+ANX2_00246,ANX2_00246,2026-03-13,Derecho,Virtual,Web institucional,Matriculado,95,Sí,3500000,Popayán,Asesor 3,2026-07-04,aspirante003288@ejemplo.com,2026-1
+ANX2_00247,ANX2_00247,2025-10-25,Especialización en Gerencia,Presencial,Feria universitaria,Admitido,50,Sí,,Pasto,Asesor 1,,aspirante004035@ejemplo.com,2025-2
+ANX2_00248,ANX2_00248,2026-03-13,Especialización en Data Analytics,Presencial,Web institucional,Matriculado,82,No,1800000,Bogotá,Asesor 1,2026-05-05,aspirante001755@ejemplo.com,2026-2
+ANX2_00249,ANX2_00249,2026-04-28,Derecho,Híbrida,Correo,Admitido,41,Pendiente,,Cali,Asesor 1,,aspirante003658@ejemplo.com,2026-1
+ANX2_00250,ANX2_00250,2026-08-21,Administración de Empresas,Presencial,Correo,Admitido,78,Pendiente,3100000,Medellín,Asesor 1,,aspirante002853@ejemplo.com,2026-2
+ANX2_00251,ANX2_00251,2026-07-17,Especialización en Gerencia,Presencial,Referido,Matriculado,63,Sí,,Bogotá,Asesor 1,2026-08-19,aspirante000824@ejemplo.com,2026-1
+ANX2_00252,ANX2_00252,2026-08-31,Derecho,Presencial,Web institucional,Admitido,74,Sí,3100000,Bogotá,Asesor 1,,aspirante004156@ejemplo.com,2026-2
+ANX2_00253,ANX2_00253,2026-11-04,Psicología,Virtual,Landing page,Inscrito,98,Sí,,Santander de Quilichao,Asesor 2,,aspirante001976@ejemplo.com,2026-1
+ANX2_00254,ANX2_00254,2026-03-28,Psicología,Virtual,Landing page,Matriculado,60,Pendiente,3500000,Cali,Asesor 1,2026-04-21,aspirante003576@ejemplo.com,2026-1
+ANX2_00255,ANX2_00255,2025-10-24,Administración de Empresas,Híbrida,Referido,Admitido,87,Sí,1800000,Cali,Sin asignar,,aspirante001609@ejemplo.com,2026-2
+ANX2_00256,ANX2_00256,2026-05-24,Derecho,Híbrida,Instagram,Admitido,83,No,1800000,Pasto,Asesor 1,,aspirante000268@ejemplo.com,2026-1
+ANX2_00257,ANX2_00257,2025-12-25,Ingeniería de Sistemas,Híbrida,Landing page,Documentación pendiente,61,Pendiente,2200000,Cali,Sin asignar,,aspirante003149@ejemplo.com,2026-2
+ANX2_00258,ANX2_00258,2025-03-24,Especialización en Gerencia,Presencial,Feria universitaria,No admitido,48,Sí,2500000,Bogotá,Sin asignar,,aspirante001890@ejemplo.com,2026-1
+ANX2_00259,ANX2_00259,2026-05-28,Contaduría Pública,Presencial,Feria universitaria,No admitido,66,Pendiente,3100000,Bogotá,Asesor 2,,aspirante001406@ejemplo.com,2026-1
+ANX2_00260,ANX2_00260,2026-01-19,Especialización en Gerencia,Virtual,Web institucional,Matriculado,70,Pendiente,2200000,Cali,Asesor 2,2026-03-14,aspirante000473@ejemplo.com,2026-2
+ANX2_00261,ANX2_00261,2026-08-09,Contaduría Pública,Presencial,Landing page,Retirado,45,Sí,2200000,Popayán,Asesor 2,,aspirante000866@ejemplo.com,2026-1
+ANX2_00262,ANX2_00262,2026-07-21,Psicología,Virtual,Instagram,Inscrito,94,Sí,1800000,Cali,Asesor 2,,aspirante003275@ejemplo.com,2026-1
+ANX2_00263,ANX2_00263,2025-10-14,Especialización en Data Analytics,Presencial,Instagram,No admitido,49,Sí,1800000,Popayán,Asesor 1,,aspirante004180@ejemplo.com,2026-2
+ANX2_00264,ANX2_00264,2026-04-23,Ingeniería de Sistemas,Presencial,Feria universitaria,Nuevo,49,Pendiente,3100000,Cali,Asesor 1,,aspirante000989@ejemplo.com,2026-2
+ANX2_00265,ANX2_00265,2025-03-27,Especialización en Gerencia,Virtual,Correo,Inscrito,,Sí,2200000,Medellín,Asesor 1,,aspirante002074@ejemplo.com,2026-1
+ANX2_00266,ANX2_00266,2025-03-28,Administración de Empresas,Presencial,Instagram,Admitido,62,Sí,2500000,Bogotá,Asesor 1,,aspirante001630@ejemplo.com,2026-1
+ANX2_00267,ANX2_00267,2025-12-14,Especialización en Data Analytics,Híbrida,Landing page,Documentación pendiente,,Sí,3500000,Popayán,Asesor 1,,aspirante000975@ejemplo.com,2026-1
+ANX2_00268,ANX2_00268,2026-09-29,Ingeniería de Sistemas,Presencial,Web institucional,Retirado,66,Sí,,Santander de Quilichao,Asesor 1,,aspirante001834@ejemplo.com,2026-1
+ANX2_00269,ANX2_00269,2026-10-01,Especialización en Gerencia,Presencial,Feria universitaria,Inscrito,64,Sí,3100000,Cali,Asesor 3,,aspirante001155@ejemplo.com,2026-1
+ANX2_00270,ANX2_00270,2026-07-15,Contaduría Pública,Híbrida,Landing page,Retirado,76,No,3100000,Bogotá,Asesor 2,,aspirante003126@ejemplo.com,2026-1
+ANX2_00271,ANX2_00271,2026-04-07,Derecho,Virtual,Correo,Retirado,50,No,2500000,Bogotá,Sin asignar,,aspirante003274@ejemplo.com,2026-2
+ANX2_00272,ANX2_00272,2025-04-14,Especialización en Data Analytics,Virtual,Web institucional,Retirado,87,Sí,,Santander de Quilichao,Asesor 2,,aspirante002787@ejemplo.com,2026-2
+ANX2_00273,ANX2_00273,2025-04-07,Especialización en Data Analytics,Virtual,Instagram,No admitido,95,No,3500000,Cali,Asesor 2,,aspirante002496@ejemplo.com,2026-1
+ANX2_00274,ANX2_00274,2025-07-16,Administración de Empresas,Virtual,Instagram,No admitido,72,Sí,2500000,Popayán,Asesor 2,,aspirante003839@ejemplo.com,2026-2
+ANX2_00275,ANX2_00275,2025-12-02,Especialización en Data Analytics,Presencial,Referido,No admitido,41,No,,Pasto,Asesor 2,,aspirante004039@ejemplo.com,2026-2
+ANX2_00276,ANX2_00276,2026-01-23,Derecho,Virtual,Web institucional,No admitido,70,Pendiente,2200000,Popayán,Asesor 1,,aspirante004070@ejemplo.com,2026-2
+ANX2_00277,ANX2_00277,2025-09-13,Contaduría Pública,Presencial,Instagram,Matriculado,,Pendiente,,Cali,Asesor 1,2025-10-10,aspirante002276@ejemplo.com,2025-2
+ANX2_00278,ANX2_00278,2026-03-14,Contaduría Pública,Presencial,Correo,Matriculado,81,Sí,1800000,Bogotá,Asesor 3,2026-11-04,aspirante002375@ejemplo.com,2025-2
+ANX2_00279,ANX2_00279,2026-07-18,Especialización en Data Analytics,Virtual,Referido,Retirado,58,Sí,3500000,Bogotá,Sin asignar,,aspirante001227@ejemplo.com,2026-1
+ANX2_00280,ANX2_00280,2025-11-09,Especialización en Data Analytics,Presencial,Landing page,No admitido,45,Sí,,Bogotá,Sin asignar,,aspirante000633@ejemplo.com,2026-1
+ANX2_00281,ANX2_00281,2025-07-18,Administración de Empresas,Presencial,Feria universitaria,Retirado,87,Sí,2200000,Cali,Asesor 3,,aspirante003491@ejemplo.com,2026-1
+ANX2_00282,ANX2_00282,2025-11-08,Ingeniería de Sistemas,Virtual,Web institucional,Admitido,97,Sí,2500000,Pasto,Asesor 3,,aspirante001729@ejemplo.com,2025-2
+ANX2_00283,ANX2_00283,2025-07-08,Especialización en Data Analytics,Presencial,Instagram,Inscrito,82,No,3100000,Pasto,Asesor 2,,aspirante002132@ejemplo.com,2025-2
+ANX2_00284,ANX2_00284,2025-12-19,Derecho,Virtual,Landing page,No admitido,45,Sí,1800000,Cali,Asesor 2,,aspirante000909@ejemplo.com,2026-1
+ANX2_00285,ANX2_00285,2025-09-16,Administración de Empresas,Virtual,Referido,Retirado,86,Sí,2500000,Medellín,Sin asignar,,aspirante003238@ejemplo.com,2025-2
+ANX2_00286,ANX2_00286,2026-04-15,Derecho,Virtual,Feria universitaria,Admitido,99,Sí,3100000,Cali,Asesor 2,,aspirante001123@ejemplo.com,2025-2
+ANX2_00287,ANX2_00287,2026-10-05,Administración de Empresas,Híbrida,Referido,Retirado,82,Sí,3500000,Popayán,Asesor 1,,aspirante000373@ejemplo.com,2026-2
+ANX2_00288,ANX2_00288,2025-03-27,Administración de Empresas,Presencial,Correo,Admitido,57,No,2500000,Santander de Quilichao,Asesor 3,,aspirante003881@ejemplo.com,2026-2
+ANX2_00289,ANX2_00289,2026-02-17,Derecho,Presencial,Referido,Inscrito,87,Pendiente,2200000,Pasto,Sin asignar,,aspirante001490@ejemplo.com,2026-1
+ANX2_00290,ANX2_00290,2025-02-19,Contaduría Pública,Presencial,Feria universitaria,Nuevo,51,Sí,,Pasto,Asesor 2,,aspirante000296@ejemplo.com,2026-1
+ANX2_00291,ANX2_00291,2026-04-24,Derecho,Virtual,Feria universitaria,Nuevo,,Pendiente,,Pasto,Asesor 1,,aspirante000878@ejemplo.com,2025-2
+ANX2_00292,ANX2_00292,2025-11-03,Especialización en Data Analytics,Presencial,Web institucional,Admitido,94,Pendiente,,Cali,Asesor 3,,aspirante003304@ejemplo.com,2026-1
+ANX2_00293,ANX2_00293,2025-06-15,Contaduría Pública,Presencial,Correo,Nuevo,46,Pendiente,3100000,Bogotá,Sin asignar,,aspirante001876@ejemplo.com,2026-1
+ANX2_00294,ANX2_00294,2026-06-03,Contaduría Pública,Virtual,Referido,Documentación pendiente,87,No,3100000,Cali,Asesor 3,,aspirante003583@ejemplo.com,2026-1
+ANX2_00295,ANX2_00295,2026-02-19,Especialización en Gerencia,Presencial,Instagram,Documentación pendiente,58,Sí,,Cali,Asesor 1,,aspirante004149@ejemplo.com,2026-2
+ANX2_00296,ANX2_00296,2026-02-21,Administración de Empresas,Presencial,Referido,Nuevo,71,Sí,3500000,Popayán,Asesor 2,,aspirante002906@ejemplo.com,2026-2
+ANX2_00297,ANX2_00297,2025-04-05,Psicología,Virtual,Correo,Documentación pendiente,92,Pendiente,2500000,Cali,Sin asignar,,aspirante003354@ejemplo.com,2026-1
+ANX2_00298,ANX2_00298,2026-05-24,Administración de Empresas,Virtual,Instagram,Matriculado,94,Sí,2500000,Bogotá,Sin asignar,2026-06-30,aspirante003951@ejemplo.com,2026-1
+ANX2_00299,ANX2_00299,2025-02-24,Derecho,Híbrida,Landing page,Admitido,44,Pendiente,3100000,Pasto,Asesor 1,,aspirante003652@ejemplo.com,2026-2
+ANX2_00300,ANX2_00300,2025-09-22,Derecho,Virtual,Web institucional,Matriculado,40,Pendiente,3100000,Pasto,Sin asignar,2025-10-25,aspirante001832@ejemplo.com,2025-2
+ANX2_00301,ANX2_00301,2025-03-15,Administración de Empresas,Presencial,Referido,No admitido,72,Pendiente,3100000,Popayán,Asesor 1,,aspirante002802@ejemplo.com,2025-2
+ANX2_00302,ANX2_00302,2026-07-08,Especialización en Data Analytics,Virtual,Instagram,Admitido,98,Sí,2500000,Popayán,Asesor 1,,aspirante003684@ejemplo.com,2026-1
+ANX2_00303,ANX2_00303,2025-01-15,Ingeniería de Sistemas,Virtual,Instagram,Admitido,58,No,2200000,Medellín,Asesor 2,,aspirante002937@ejemplo.com,2025-2
+ANX2_00304,ANX2_00304,2025-05-10,Contaduría Pública,Virtual,Correo,Admitido,,Sí,3500000,Pasto,Sin asignar,,aspirante000819@ejemplo.com,2026-2
+ANX2_00305,ANX2_00305,2025-02-26,Administración de Empresas,Virtual,Correo,Matriculado,65,No,3500000,Medellín,Asesor 3,2025-04-19,aspirante001132@ejemplo.com,2025-2
+ANX2_00306,ANX2_00306,2025-03-13,Administración de Empresas,Virtual,Web institucional,Retirado,40,Sí,3500000,Bogotá,Sin asignar,,aspirante002644@ejemplo.com,2026-2
+ANX2_00307,ANX2_00307,2025-08-31,Especialización en Gerencia,Híbrida,Instagram,Admitido,58,No,3500000,Pasto,Sin asignar,,aspirante001547@ejemplo.com,2025-2
+ANX2_00308,ANX2_00308,2025-10-07,Ingeniería de Sistemas,Virtual,Landing page,Inscrito,42,Sí,2500000,Medellín,Asesor 2,,aspirante000526@ejemplo.com,2026-2
+ANX2_00309,ANX2_00309,2026-07-18,Especialización en Gerencia,Presencial,Referido,Admitido,45,Sí,,Pasto,Asesor 2,,aspirante002277@ejemplo.com,2026-1
+ANX2_00310,ANX2_00310,2025-01-08,Ingeniería de Sistemas,Presencial,Referido,Admitido,74,Sí,3500000,Bogotá,Asesor 2,,aspirante004080@ejemplo.com,2026-1
+ANX2_00311,ANX2_00311,2026-03-10,Especialización en Gerencia,Virtual,Web institucional,Nuevo,71,Sí,,Medellín,Asesor 1,,aspirante003062@ejemplo.com,2026-2
+ANX2_00312,ANX2_00312,2025-09-13,Derecho,Virtual,Web institucional,Matriculado,62,Sí,3100000,Popayán,Sin asignar,2025-09-10,aspirante003261@ejemplo.com,2026-1
+ANX2_00313,ANX2_00313,2025-06-17,Contaduría Pública,Presencial,Correo,Matriculado,93,Sí,1800000,Pasto,Sin asignar,2025-06-07,aspirante003500@ejemplo.com,2026-1
+ANX2_00314,ANX2_00314,2025-10-13,Especialización en Data Analytics,Presencial,Instagram,No admitido,60,Sí,3500000,Bogotá,Sin asignar,,aspirante002412@ejemplo.com,2026-1
+ANX2_00315,ANX2_00315,2025-08-06,Ingeniería de Sistemas,Híbrida,Web institucional,Documentación pendiente,97,Sí,2200000,Cali,Sin asignar,,aspirante002330@ejemplo.com,2025-2
+ANX2_00316,ANX2_00316,2026-07-01,Psicología,Virtual,Instagram,No admitido,100,No,2200000,Popayán,Sin asignar,,aspirante001649@ejemplo.com,2026-1
+ANX2_00317,ANX2_00317,2026-02-22,Especialización en Data Analytics,Presencial,Referido,Admitido,46,Sí,3500000,Medellín,Sin asignar,,aspirante003945@ejemplo.com,2025-2
+ANX2_00318,ANX2_00318,2026-05-15,Especialización en Gerencia,Presencial,Referido,Inscrito,52,Sí,1800000,Medellín,Asesor 1,,aspirante002371@ejemplo.com,2026-1
+ANX2_00319,ANX2_00319,2025-08-14,Administración de Empresas,Presencial,Web institucional,Inscrito,70,Sí,3500000,Bogotá,Asesor 1,,aspirante001938@ejemplo.com,2026-2
+ANX2_00320,ANX2_00320,2025-07-30,Administración de Empresas,Híbrida,Referido,Admitido,87,Pendiente,2200000,Bogotá,Asesor 3,,aspirante002463@ejemplo.com,2026-1
+ANX2_00321,ANX2_00321,2026-05-15,Especialización en Data Analytics,Presencial,Referido,Matriculado,77,Sí,2500000,Cali,Asesor 1,2026-05-23,aspirante001718@ejemplo.com,2026-1
+ANX2_00322,ANX2_00322,2025-03-09,Derecho,Virtual,Referido,No admitido,40,Sí,1800000,Santander de Quilichao,Asesor 2,,aspirante000925@ejemplo.com,2026-1
+ANX2_00323,ANX2_00323,2025-03-17,Ingeniería de Sistemas,Virtual,Web institucional,Matriculado,52,Sí,2200000,Medellín,Asesor 2,2025-04-15,aspirante003634@ejemplo.com,2025-2
+ANX2_00324,ANX2_00324,2026-01-22,Contaduría Pública,Virtual,Instagram,Nuevo,79,Sí,3100000,Cali,Asesor 1,,aspirante003175@ejemplo.com,2026-1
+ANX2_00325,ANX2_00325,2025-11-07,Especialización en Gerencia,Virtual,Instagram,Admitido,87,Sí,,Santander de Quilichao,Asesor 3,,aspirante000219@ejemplo.com,2026-1
+ANX2_00326,ANX2_00326,2025-07-24,Especialización en Data Analytics,Híbrida,Web institucional,Admitido,68,Sí,2200000,Cali,Asesor 3,,aspirante001381@ejemplo.com,2025-2
+ANX2_00327,ANX2_00327,2026-07-02,Especialización en Data Analytics,Virtual,Landing page,Nuevo,89,Sí,3500000,Popayán,Asesor 1,,aspirante000317@ejemplo.com,2025-2
+ANX2_00328,ANX2_00328,2026-02-28,Especialización en Data Analytics,Virtual,Web institucional,Matriculado,41,Pendiente,2500000,Santander de Quilichao,Asesor 3,2026-03-24,aspirante000902@ejemplo.com,2026-2
+ANX2_00329,ANX2_00329,2026-01-03,Ingeniería de Sistemas,Presencial,Feria universitaria,No admitido,53,No,1800000,Bogotá,Asesor 2,,aspirante003289@ejemplo.com,2026-1
+ANX2_00330,ANX2_00330,2025-09-20,Especialización en Gerencia,Virtual,Correo,Inscrito,66,Sí,1800000,Popayán,Sin asignar,,aspirante002642@ejemplo.com,2025-2
+ANX2_00331,ANX2_00331,2026-08-10,Derecho,Híbrida,Web institucional,No admitido,44,Pendiente,2200000,Bogotá,Asesor 3,,aspirante001240@ejemplo.com,2026-2
+ANX2_00332,ANX2_00332,2025-12-07,Especialización en Data Analytics,Presencial,Web institucional,Nuevo,82,Sí,3100000,Santander de Quilichao,Asesor 1,,aspirante000814@ejemplo.com,2026-2
+ANX2_00333,ANX2_00333,2026-01-05,Ingeniería de Sistemas,Presencial,Referido,Documentación pendiente,80,Pendiente,1800000,Bogotá,Sin asignar,,aspirante002336@ejemplo.com,2026-2
+ANX2_00334,ANX2_00334,2026-06-25,Derecho,Híbrida,Landing page,Admitido,75,Sí,3100000,Cali,Asesor 1,,aspirante001793@ejemplo.com,2026-1
+ANX2_00335,ANX2_00335,2025-04-06,Derecho,Presencial,Referido,Admitido,41,Pendiente,,Cali,Asesor 1,,aspirante001016@ejemplo.com,2026-2
+ANX2_00336,ANX2_00336,2025-01-09,Derecho,Virtual,Feria universitaria,Retirado,97,No,2200000,Medellín,Asesor 1,,aspirante004034@ejemplo.com,2026-1
+ANX2_00337,ANX2_00337,2026-05-25,Derecho,Presencial,Web institucional,Documentación pendiente,70,Sí,3100000,Popayán,Asesor 1,,aspirante001844@ejemplo.com,2025-2
+ANX2_00338,ANX2_00338,2025-08-27,Psicología,Presencial,Correo,Retirado,65,No,3500000,Cali,Sin asignar,,aspirante001962@ejemplo.com,2026-1
+ANX2_00339,ANX2_00339,2026-07-26,Ingeniería de Sistemas,Presencial,Instagram,Nuevo,78,Pendiente,3100000,Popayán,Sin asignar,,aspirante001051@ejemplo.com,2026-1
+ANX2_00340,ANX2_00340,2026-03-19,Ingeniería de Sistemas,Presencial,Referido,No admitido,70,Sí,3500000,Cali,Asesor 3,,aspirante001439@ejemplo.com,2026-1
+ANX2_00341,ANX2_00341,2025-03-15,Contaduría Pública,Virtual,Feria universitaria,Nuevo,83,Sí,2500000,Cali,Sin asignar,,aspirante001881@ejemplo.com,2025-2
+ANX2_00342,ANX2_00342,2026-08-29,Derecho,Híbrida,Referido,Retirado,54,Sí,2500000,Popayán,Asesor 3,,aspirante001743@ejemplo.com,2026-2
+ANX2_00343,ANX2_00343,2026-02-20,Psicología,Presencial,Correo,Matriculado,95,Sí,2500000,Cali,Asesor 3,2026-06-04,aspirante000522@ejemplo.com,2026-1
+ANX2_00344,ANX2_00344,2025-06-25,Derecho,Presencial,Referido,Matriculado,81,No,3500000,Bogotá,Asesor 1,2025-07-29,aspirante001723@ejemplo.com,2025-2
+ANX2_00345,ANX2_00345,2025-11-19,Derecho,Híbrida,Landing page,Matriculado,92,No,,Cali,Asesor 1,2026-02-01,aspirante001563@ejemplo.com,2026-2
+ANX2_00346,ANX2_00346,2026-05-24,Ingeniería de Sistemas,Híbrida,Landing page,Documentación pendiente,68,Sí,3500000,Bogotá,Asesor 2,,aspirante001588@ejemplo.com,2026-1
+ANX2_00347,ANX2_00347,2025-12-27,Especialización en Data Analytics,Virtual,Correo,Documentación pendiente,,Sí,3100000,Cali,Asesor 1,,,2026-2
+ANX2_00348,ANX2_00348,2026-06-26,Derecho,Virtual,Web institucional,Matriculado,62,No,2500000,Cali,Asesor 1,2026-01-08,aspirante002575@ejemplo.com,2025-2
+ANX2_00349,ANX2_00349,2026-07-29,Psicología,Híbrida,Feria universitaria,Documentación pendiente,69,Sí,1800000,Cali,Asesor 3,,aspirante001614@ejemplo.com,2026-1
+ANX2_00350,ANX2_00350,2025-08-27,Derecho,Presencial,Referido,Nuevo,96,Sí,2500000,Santander de Quilichao,Asesor 1,,aspirante003720@ejemplo.com,2025-2
+ANX2_00351,ANX2_00351,2026-06-24,Derecho,Presencial,Landing page,Matriculado,63,Sí,2200000,Cali,Asesor 1,2026-08-13,aspirante003768@ejemplo.com,2026-1
+ANX2_00352,ANX2_00352,2026-07-29,Ingeniería de Sistemas,Híbrida,Instagram,Admitido,56,Sí,2200000,Cali,Sin asignar,,aspirante002589@ejemplo.com,2026-2
+ANX2_00353,ANX2_00353,2026-08-23,Especialización en Gerencia,Presencial,Web institucional,No admitido,88,Sí,3500000,Cali,Sin asignar,,aspirante003918@ejemplo.com,2025-2
+ANX2_00354,ANX2_00354,2026-09-29,Psicología,Virtual,Instagram,Matriculado,95,Sí,1800000,Pasto,Sin asignar,2026-10-27,aspirante002476@ejemplo.com,2026-1
+ANX2_00355,ANX2_00355,2026-06-27,Especialización en Data Analytics,Virtual,Feria universitaria,Matriculado,67,No,2200000,Cali,Asesor 1,2026-07-19,aspirante000404@ejemplo.com,2026-1
+ANX2_00356,ANX2_00356,2025-04-26,Especialización en Gerencia,Virtual,Feria universitaria,Documentación pendiente,96,Sí,3500000,Cali,Asesor 2,,aspirante000283@ejemplo.com,2026-2
+ANX2_00357,ANX2_00357,2025-05-30,Especialización en Data Analytics,Híbrida,Referido,Matriculado,89,Pendiente,2500000,Popayán,Asesor 2,2025-09-07,aspirante001992@ejemplo.com,2025-2
+ANX2_00358,ANX2_00358,2026-03-05,Administración de Empresas,Híbrida,Feria universitaria,Admitido,42,Sí,2200000,Medellín,Asesor 3,,aspirante003080@ejemplo.com,2026-2
+ANX2_00359,ANX2_00359,2026-03-19,Contaduría Pública,Virtual,Correo,Inscrito,95,Sí,3100000,Bogotá,Asesor 2,,aspirante000676@ejemplo.com,2025-2
+ANX2_00360,ANX2_00360,2026-07-09,Derecho,Presencial,Web institucional,Inscrito,45,Sí,3100000,Santander de Quilichao,Asesor 2,,aspirante002886@ejemplo.com,2026-1
+ANX2_00361,ANX2_00361,2025-09-17,Derecho,Presencial,Instagram,Inscrito,49,Sí,1800000,Bogotá,Asesor 2,,aspirante003037@ejemplo.com,2026-1
+ANX2_00362,ANX2_00362,2026-12-04,Administración de Empresas,Virtual,Feria universitaria,Documentación pendiente,87,Sí,,Santander de Quilichao,Asesor 1,,aspirante004197@ejemplo.com,2025-2
+ANX2_00363,ANX2_00363,2026-04-06,Psicología,Presencial,Landing page,Admitido,66,Sí,2500000,Popayán,Asesor 1,,aspirante001099@ejemplo.com,2026-1
+ANX2_00364,ANX2_00364,2025-05-11,Contaduría Pública,Presencial,Web institucional,Inscrito,72,Pendiente,3100000,Cali,Sin asignar,,aspirante002766@ejemplo.com,2026-2
+ANX2_00365,ANX2_00365,2025-12-27,Ingeniería de Sistemas,Virtual,Landing page,Documentación pendiente,98,Sí,2500000,Cali,Sin asignar,,aspirante000366@ejemplo.com,2026-1
+ANX2_00366,ANX2_00366,2025-02-27,Derecho,Presencial,Instagram,No admitido,60,Sí,2200000,Bogotá,Asesor 2,,aspirante003026@ejemplo.com,2026-1
+ANX2_00367,ANX2_00367,2026-05-30,Derecho,Híbrida,Correo,Retirado,84,Sí,3100000,Popayán,Asesor 1,,aspirante000331@ejemplo.com,2026-1
+ANX2_00368,ANX2_00368,2026-06-20,Psicología,Presencial,Instagram,Retirado,70,Pendiente,2200000,Medellín,Asesor 1,,aspirante001432@ejemplo.com,2026-1
+ANX2_00369,ANX2_00369,2026-01-15,Derecho,Virtual,Correo,Nuevo,74,Sí,2200000,Bogotá,Asesor 3,,aspirante001479@ejemplo.com,2026-1
+ANX2_00370,ANX2_00370,2025-11-12,Administración de Empresas,Virtual,Instagram,Admitido,75,Sí,2200000,Pasto,Asesor 1,,aspirante000154@ejemplo.com,2026-1
+ANX2_00371,ANX2_00371,2025-12-03,Especialización en Data Analytics,Presencial,Correo,Inscrito,88,Sí,3100000,Bogotá,Asesor 1,,,2026-1
+ANX2_00372,ANX2_00372,2025-02-27,Especialización en Gerencia,Virtual,Web institucional,Matriculado,87,Pendiente,2200000,Santander de Quilichao,Sin asignar,2025-03-25,aspirante001320@ejemplo.com,2026-1
+ANX2_00373,ANX2_00373,2025-05-24,Derecho,Virtual,Correo,Documentación pendiente,82,No,1800000,Santander de Quilichao,Asesor 1,,aspirante000815@ejemplo.com,2026-2
+ANX2_00374,ANX2_00374,2026-04-02,Derecho,Presencial,Web institucional,Nuevo,68,Sí,1800000,Santander de Quilichao,Asesor 1,,aspirante003554@ejemplo.com,2026-1
+ANX2_00375,ANX2_00375,2026-05-28,Administración de Empresas,Híbrida,Instagram,Documentación pendiente,70,Pendiente,3500000,Bogotá,Asesor 2,,aspirante003869@ejemplo.com,2026-1
+ANX2_00376,ANX2_00376,2025-04-21,Ingeniería de Sistemas,Presencial,Landing page,Admitido,90,Sí,3500000,Cali,Sin asignar,,aspirante002909@ejemplo.com,2026-1
+ANX2_00377,ANX2_00377,2026-06-17,Administración de Empresas,Virtual,Web institucional,Admitido,52,No,3100000,Bogotá,Asesor 1,,aspirante000139@ejemplo.com,2026-1
+ANX2_00378,ANX2_00378,2025-04-24,Especialización en Data Analytics,Virtual,Correo,Matriculado,45,Pendiente,1800000,Cali,Asesor 3,2025-06-18,aspirante003921@ejemplo.com,2026-2
+ANX2_00379,ANX2_00379,2026-04-27,Contaduría Pública,Híbrida,Referido,Inscrito,88,Pendiente,2500000,Bogotá,Asesor 1,,aspirante001983@ejemplo.com,2026-2
+ANX2_00380,ANX2_00380,2025-03-25,Derecho,Virtual,Instagram,Documentación pendiente,64,Sí,3100000,Santander de Quilichao,Asesor 3,,aspirante000465@ejemplo.com,2026-2
+ANX2_00381,ANX2_00381,2026-09-30,Administración de Empresas,Virtual,Web institucional,Matriculado,51,Pendiente,3100000,Cali,Asesor 1,2026-10-13,aspirante003083@ejemplo.com,2025-2
+ANX2_00382,ANX2_00382,2026-10-09,Psicología,Presencial,Web institucional,No admitido,52,Sí,3500000,Medellín,Asesor 3,,aspirante000212@ejemplo.com,2026-1
+ANX2_00383,ANX2_00383,2026-06-30,Derecho,Presencial,Correo,Matriculado,82,No,3100000,Cali,Asesor 1,2026-07-24,aspirante000150@ejemplo.com,2026-1
+ANX2_00384,ANX2_00384,2026-07-03,Derecho,Virtual,Web institucional,Matriculado,91,Sí,3500000,Santander de Quilichao,Asesor 1,2026-04-22,aspirante001785@ejemplo.com,2026-1
+ANX2_00385,ANX2_00385,2025-10-25,Contaduría Pública,Presencial,Correo,Matriculado,85,Sí,2500000,Medellín,Asesor 1,2025-08-11,aspirante003671@ejemplo.com,2026-1
+ANX2_00386,ANX2_00386,2025-04-03,Derecho,Presencial,Correo,Nuevo,51,No,1800000,Medellín,Sin asignar,,aspirante001069@ejemplo.com,2025-2
+ANX2_00387,ANX2_00387,2026-06-02,Psicología,Híbrida,Landing page,Matriculado,42,Sí,2200000,Medellín,Asesor 1,2026-05-07,aspirante000845@ejemplo.com,2026-2
+ANX2_00388,ANX2_00388,2026-04-05,Especialización en Data Analytics,Presencial,Landing page,Matriculado,,Pendiente,,Bogotá,Sin asignar,2026-06-30,aspirante003030@ejemplo.com,2026-2
+ANX2_00389,ANX2_00389,2025-04-07,Derecho,Presencial,Correo,Documentación pendiente,57,Sí,2200000,Pasto,Asesor 2,,aspirante003330@ejemplo.com,2026-1
+ANX2_00390,ANX2_00390,2026-08-15,Especialización en Data Analytics,Híbrida,Landing page,Nuevo,82,Sí,2500000,Cali,Asesor 1,,aspirante001288@ejemplo.com,2026-1
+ANX2_00391,ANX2_00391,2026-10-08,Especialización en Gerencia,Virtual,Landing page,Inscrito,54,Sí,1800000,Santander de Quilichao,Asesor 2,,aspirante001719@ejemplo.com,2026-2
+ANX2_00392,ANX2_00392,2026-03-26,Ingeniería de Sistemas,Presencial,Feria universitaria,Documentación pendiente,49,Pendiente,3100000,Santander de Quilichao,Asesor 1,,aspirante001303@ejemplo.com,2026-2
+ANX2_00393,ANX2_00393,2026-10-04,Especialización en Data Analytics,Virtual,Web institucional,No admitido,46,Sí,3500000,Popayán,Sin asignar,,aspirante003755@ejemplo.com,2026-1
+ANX2_00394,ANX2_00394,2025-05-06,Derecho,Presencial,Feria universitaria,Documentación pendiente,42,Sí,3500000,Bogotá,Asesor 1,,aspirante000138@ejemplo.com,2026-2
+ANX2_00395,ANX2_00395,2025-01-04,Contaduría Pública,Virtual,Correo,Documentación pendiente,88,Sí,3500000,Cali,Sin asignar,,aspirante002083@ejemplo.com,2026-2
+ANX2_00396,ANX2_00396,2025-10-03,Especialización en Gerencia,Presencial,Landing page,No admitido,61,Sí,3100000,Bogotá,Asesor 1,,,2026-2
+ANX2_00397,ANX2_00397,2026-05-16,Psicología,Virtual,Referido,No admitido,83,Sí,,Santander de Quilichao,Asesor 1,,aspirante000338@ejemplo.com,2026-2
+ANX2_00398,ANX2_00398,2026-06-23,Derecho,Presencial,Correo,Nuevo,79,Sí,2500000,Pasto,Asesor 3,,aspirante000122@ejemplo.com,2025-2
+ANX2_00399,ANX2_00399,2026-01-24,Derecho,Presencial,Web institucional,Nuevo,54,Sí,2200000,Cali,Asesor 1,,aspirante004149@ejemplo.com,2026-1
+ANX2_00400,ANX2_00400,2025-03-07,Psicología,Virtual,Instagram,Admitido,45,Sí,,Popayán,Asesor 3,,aspirante002415@ejemplo.com,2026-1
+ANX2_00401,ANX2_00401,2026-02-06,Derecho,Virtual,Correo,Nuevo,48,Sí,2200000,Cali,Asesor 3,,aspirante003648@ejemplo.com,2026-2
+ANX2_00402,ANX2_00402,2025-06-06,Contaduría Pública,Presencial,Web institucional,Documentación pendiente,61,Sí,,Popayán,Asesor 1,,aspirante000264@ejemplo.com,2026-1
+ANX2_00403,ANX2_00403,2026-11-06,Derecho,Virtual,Web institucional,Retirado,76,Pendiente,2500000,Medellín,Asesor 3,,aspirante000509@ejemplo.com,2026-1
+ANX2_00404,ANX2_00404,2025-05-28,Ingeniería de Sistemas,Virtual,Feria universitaria,Nuevo,95,Pendiente,1800000,Bogotá,Asesor 3,,aspirante001918@ejemplo.com,2026-1
+ANX2_00405,ANX2_00405,2025-02-17,Derecho,Virtual,Correo,Documentación pendiente,89,Sí,2200000,Santander de Quilichao,Asesor 1,,aspirante002903@ejemplo.com,2026-1
+ANX2_00406,ANX2_00406,2026-01-21,Derecho,Presencial,Referido,Admitido,100,Sí,3100000,Pasto,Sin asignar,,aspirante000759@ejemplo.com,2026-1
+ANX2_00407,ANX2_00407,2025-04-22,Contaduría Pública,Virtual,Feria universitaria,Matriculado,63,Sí,3500000,Popayán,Asesor 1,2025-10-05,aspirante000304@ejemplo.com,2026-1
+ANX2_00408,ANX2_00408,2026-07-28,Contaduría Pública,Virtual,Correo,No admitido,93,Sí,,Cali,Asesor 1,,aspirante004150@ejemplo.com,2025-2
+ANX2_00409,ANX2_00409,2025-11-12,Administración de Empresas,Virtual,Feria universitaria,Retirado,91,Sí,3500000,Popayán,Asesor 2,,aspirante001427@ejemplo.com,2026-2
+ANX2_00410,ANX2_00410,2026-08-30,Ingeniería de Sistemas,Presencial,Web institucional,Matriculado,56,Sí,2200000,Cali,Asesor 2,2026-09-09,aspirante001893@ejemplo.com,2026-1
+ANX2_00411,ANX2_00411,2025-07-07,Especialización en Data Analytics,Presencial,Referido,Retirado,92,Pendiente,3100000,Cali,Asesor 1,,aspirante000707@ejemplo.com,2026-1
+ANX2_00412,ANX2_00412,2025-01-06,Contaduría Pública,Híbrida,Landing page,No admitido,54,Sí,2200000,Bogotá,Asesor 1,,aspirante000498@ejemplo.com,2026-1
+ANX2_00413,ANX2_00413,2025-02-11,Contaduría Pública,Virtual,Feria universitaria,No admitido,87,Pendiente,2500000,Medellín,Asesor 3,,aspirante001310@ejemplo.com,2026-2
+ANX2_00414,ANX2_00414,2025-07-16,Especialización en Data Analytics,Virtual,Feria universitaria,No admitido,83,Sí,2200000,Pasto,Sin asignar,,aspirante003437@ejemplo.com,2025-2
+ANX2_00415,ANX2_00415,2026-02-28,Especialización en Gerencia,Presencial,Feria universitaria,Matriculado,92,Sí,3500000,Popayán,Asesor 2,2026-04-22,aspirante000432@ejemplo.com,2026-1
+ANX2_00416,ANX2_00416,2026-04-18,Especialización en Gerencia,Virtual,Instagram,Admitido,56,Sí,1800000,Santander de Quilichao,Asesor 2,,aspirante003637@ejemplo.com,2026-1
+ANX2_00417,ANX2_00417,2025-07-30,Derecho,Virtual,Web institucional,Retirado,81,Sí,3100000,Bogotá,Asesor 1,,aspirante002459@ejemplo.com,2025-2
+ANX2_00418,ANX2_00418,2025-08-06,Especialización en Data Analytics,Híbrida,Correo,Nuevo,85,Sí,2200000,Santander de Quilichao,Asesor 3,,aspirante004057@ejemplo.com,2026-2
+ANX2_00419,ANX2_00419,2025-07-10,Especialización en Data Analytics,Virtual,Referido,Retirado,88,No,,Bogotá,Sin asignar,,aspirante001248@ejemplo.com,2026-1
+ANX2_00420,ANX2_00420,2025-12-16,Ingeniería de Sistemas,Virtual,Web institucional,Admitido,54,Sí,2200000,Bogotá,Asesor 1,,aspirante002126@ejemplo.com,2025-2
+ANX2_00421,ANX2_00421,2026-06-14,Especialización en Gerencia,Híbrida,Correo,Documentación pendiente,98,Sí,3500000,Bogotá,Asesor 3,,aspirante000690@ejemplo.com,2025-2
+ANX2_00422,ANX2_00422,2025-10-26,Especialización en Data Analytics,Híbrida,Referido,Matriculado,43,Sí,3100000,Pasto,Asesor 2,2025-12-23,aspirante002503@ejemplo.com,2026-1
+ANX2_00423,ANX2_00423,2026-04-28,Especialización en Gerencia,Virtual,Correo,Nuevo,47,Sí,2200000,Santander de Quilichao,Asesor 3,,aspirante003275@ejemplo.com,2025-2
+ANX2_00424,ANX2_00424,2025-08-22,Administración de Empresas,Presencial,Web institucional,Admitido,98,Sí,1800000,Medellín,Sin asignar,,aspirante003261@ejemplo.com,2026-1
+ANX2_00425,ANX2_00425,2026-11-07,Ingeniería de Sistemas,Virtual,Instagram,Documentación pendiente,57,No,2200000,Cali,Asesor 3,,aspirante000095@ejemplo.com,2026-2
+ANX2_00426,ANX2_00426,2025-08-13,Ingeniería de Sistemas,Presencial,Landing page,Inscrito,74,Sí,3100000,Cali,Asesor 3,,aspirante002747@ejemplo.com,2026-1
+ANX2_00427,ANX2_00427,2026-08-14,Derecho,Virtual,Feria universitaria,Retirado,44,Pendiente,,Bogotá,Asesor 3,,aspirante001216@ejemplo.com,2026-2
+ANX2_00428,ANX2_00428,2025-09-02,Especialización en Gerencia,Virtual,Web institucional,Matriculado,56,Sí,2200000,Cali,Asesor 1,2025-03-21,aspirante002251@ejemplo.com,2026-2
+ANX2_00429,ANX2_00429,2025-10-19,Especialización en Data Analytics,Presencial,Instagram,Documentación pendiente,75,Pendiente,1800000,Santander de Quilichao,Sin asignar,,aspirante001643@ejemplo.com,2026-1
+ANX2_00430,ANX2_00430,2025-10-04,Especialización en Data Analytics,Presencial,Instagram,Documentación pendiente,54,Sí,2200000,Bogotá,Asesor 1,,aspirante002915@ejemplo.com,2026-2
+ANX2_00431,ANX2_00431,2025-12-17,Derecho,Presencial,Feria universitaria,Retirado,51,Pendiente,2500000,Bogotá,Asesor 2,,aspirante002710@ejemplo.com,2026-1
+ANX2_00432,ANX2_00432,2025-09-20,Contaduría Pública,Virtual,Web institucional,No admitido,54,No,2500000,Santander de Quilichao,Asesor 3,,aspirante001860@ejemplo.com,2026-2
+ANX2_00433,ANX2_00433,2025-10-11,Especialización en Gerencia,Virtual,Referido,Inscrito,,Pendiente,2200000,Pasto,Asesor 1,,aspirante001236@ejemplo.com,2025-2
+ANX2_00434,ANX2_00434,2025-08-19,Ingeniería de Sistemas,Híbrida,Instagram,Admitido,52,Pendiente,1800000,Popayán,Sin asignar,,aspirante003225@ejemplo.com,2026-1
+ANX2_00435,ANX2_00435,2025-10-07,Derecho,Presencial,Landing page,Admitido,72,Sí,1800000,Bogotá,Asesor 3,,aspirante001272@ejemplo.com,2026-1
+ANX2_00436,ANX2_00436,2025-08-31,Derecho,Virtual,Referido,Matriculado,86,Sí,2500000,Popayán,Asesor 1,2025-09-21,aspirante001039@ejemplo.com,2026-2
+ANX2_00437,ANX2_00437,2026-06-13,Contaduría Pública,Presencial,Web institucional,No admitido,71,Sí,3100000,Medellín,Sin asignar,,aspirante002304@ejemplo.com,2026-2
+ANX2_00438,ANX2_00438,2025-05-22,Especialización en Gerencia,Híbrida,Correo,Nuevo,58,Sí,1800000,Popayán,Asesor 3,,aspirante002045@ejemplo.com,2026-1
+ANX2_00439,ANX2_00439,2026-04-19,Administración de Empresas,Híbrida,Instagram,Inscrito,71,No,1800000,Santander de Quilichao,Sin asignar,,aspirante002167@ejemplo.com,2026-1
+ANX2_00440,ANX2_00440,2026-02-16,Ingeniería de Sistemas,Presencial,Referido,Documentación pendiente,85,Pendiente,,Cali,Asesor 1,,aspirante003020@ejemplo.com,2025-2
+ANX2_00441,ANX2_00441,2025-05-29,Psicología,Presencial,Web institucional,Retirado,64,No,2200000,Bogotá,Asesor 1,,aspirante003773@ejemplo.com,2026-2
+ANX2_00442,ANX2_00442,2026-09-21,Derecho,Presencial,Referido,Admitido,61,Sí,3500000,Cali,Asesor 3,,aspirante001585@ejemplo.com,2026-2
+ANX2_00443,ANX2_00443,2026-05-15,Derecho,Virtual,Correo,Admitido,77,Sí,1800000,Pasto,Asesor 2,,aspirante003876@ejemplo.com,2025-2
+ANX2_00444,ANX2_00444,2025-03-20,Derecho,Virtual,Feria universitaria,Retirado,85,Sí,3500000,Bogotá,Sin asignar,,aspirante002323@ejemplo.com,2026-2
+ANX2_00445,ANX2_00445,2026-03-16,Especialización en Gerencia,Presencial,Web institucional,Nuevo,92,Sí,1800000,Medellín,Asesor 2,,aspirante000100@ejemplo.com,2026-1
+ANX2_00446,ANX2_00446,2026-01-22,Derecho,Híbrida,Landing page,Matriculado,61,No,2500000,Popayán,Asesor 3,2026-02-25,aspirante000230@ejemplo.com,2026-2
+ANX2_00447,ANX2_00447,2025-04-19,Derecho,Presencial,Correo,Retirado,47,Sí,3100000,Popayán,Asesor 1,,aspirante003104@ejemplo.com,2026-1
+ANX2_00448,ANX2_00448,2025-04-15,Especialización en Gerencia,Presencial,Feria universitaria,Matriculado,98,Sí,2200000,Bogotá,Asesor 2,2025-06-18,aspirante000233@ejemplo.com,2026-1
+ANX2_00449,ANX2_00449,2026-04-20,Especialización en Data Analytics,Presencial,Landing page,Nuevo,50,No,2500000,Santander de Quilichao,Asesor 2,,aspirante000533@ejemplo.com,2025-2
+ANX2_00450,ANX2_00450,2025-05-23,Especialización en Data Analytics,Presencial,Correo,Inscrito,87,Sí,2200000,Cali,Asesor 1,,aspirante002368@ejemplo.com,2026-1
+ANX2_00451,ANX2_00451,2025-12-13,Administración de Empresas,Virtual,Feria universitaria,Admitido,70,Sí,2500000,Popayán,Asesor 2,,aspirante000573@ejemplo.com,2026-1
+ANX2_00452,ANX2_00452,2026-12-06,Administración de Empresas,Presencial,Landing page,Matriculado,74,Sí,2500000,Popayán,Asesor 1,2026-07-25,aspirante003415@ejemplo.com,2026-2
+ANX2_00453,ANX2_00453,2026-05-19,Ingeniería de Sistemas,Virtual,Referido,Matriculado,76,Sí,2500000,Cali,Asesor 1,2026-05-23,aspirante000341@ejemplo.com,2026-1
+ANX2_00454,ANX2_00454,2025-04-30,Derecho,Virtual,Referido,Inscrito,45,Sí,2200000,Cali,Asesor 1,,aspirante003839@ejemplo.com,2026-1
+ANX2_00455,ANX2_00455,2025-01-02,Ingeniería de Sistemas,Virtual,Feria universitaria,Retirado,74,No,2200000,Cali,Asesor 1,,aspirante001870@ejemplo.com,2026-1
+ANX2_00456,ANX2_00456,2026-05-09,Especialización en Gerencia,Presencial,Web institucional,Nuevo,90,Sí,2200000,Bogotá,Asesor 1,,aspirante003343@ejemplo.com,2026-1
+ANX2_00457,ANX2_00457,2026-09-10,Derecho,Presencial,Feria universitaria,Matriculado,72,Sí,2200000,Pasto,Asesor 1,2026-08-11,aspirante000053@ejemplo.com,2026-2
+ANX2_00458,ANX2_00458,2025-10-22,Derecho,Virtual,Landing page,Admitido,44,No,3100000,Bogotá,Asesor 2,,aspirante002630@ejemplo.com,2026-2
+ANX2_00459,ANX2_00459,2026-06-28,Derecho,Híbrida,Feria universitaria,Documentación pendiente,50,Pendiente,1800000,Bogotá,Asesor 1,,aspirante003009@ejemplo.com,2026-2
+ANX2_00460,ANX2_00460,2025-05-30,Derecho,Presencial,Web institucional,Nuevo,54,Sí,3500000,Bogotá,Asesor 2,,aspirante001721@ejemplo.com,2026-2
+ANX2_00461,ANX2_00461,2026-01-16,Ingeniería de Sistemas,Virtual,Referido,Retirado,76,No,2500000,Cali,Asesor 1,,aspirante002388@ejemplo.com,2026-2
+ANX2_00462,ANX2_00462,2026-10-07,Especialización en Data Analytics,Presencial,Referido,No admitido,41,Pendiente,3500000,Cali,Asesor 1,,aspirante002159@ejemplo.com,2025-2
+ANX2_00463,ANX2_00463,2025-11-30,Psicología,Híbrida,Referido,No admitido,73,Sí,,Popayán,Asesor 1,,aspirante000290@ejemplo.com,2026-1
+ANX2_00464,ANX2_00464,2026-06-26,Especialización en Data Analytics,Presencial,Instagram,Nuevo,81,No,,Pasto,Asesor 3,,aspirante001580@ejemplo.com,2026-1
+ANX2_00465,ANX2_00465,2025-04-10,Especialización en Data Analytics,Virtual,Landing page,Matriculado,98,Pendiente,3100000,Medellín,Asesor 3,2025-11-10,aspirante001250@ejemplo.com,2026-2
+ANX2_00466,ANX2_00466,2025-07-22,Ingeniería de Sistemas,Presencial,Correo,No admitido,74,Sí,1800000,Bogotá,Asesor 1,,aspirante000401@ejemplo.com,2026-2
+ANX2_00467,ANX2_00467,2025-04-17,Derecho,Presencial,Feria universitaria,Matriculado,40,Pendiente,2200000,Pasto,Asesor 3,2025-01-07,aspirante000290@ejemplo.com,2026-2
+ANX2_00468,ANX2_00468,2026-05-13,Derecho,Presencial,Correo,No admitido,55,Sí,2500000,Medellín,Asesor 2,,aspirante002268@ejemplo.com,2026-1
+ANX2_00469,ANX2_00469,2026-10-10,Especialización en Data Analytics,Virtual,Referido,Nuevo,85,Sí,,Medellín,Asesor 1,,aspirante000096@ejemplo.com,2026-2
+ANX2_00470,ANX2_00470,2026-07-26,Derecho,Híbrida,Correo,Admitido,42,No,3100000,Popayán,Asesor 3,,aspirante001863@ejemplo.com,2026-1
+ANX2_00471,ANX2_00471,2025-02-28,Ingeniería de Sistemas,Virtual,Feria universitaria,Documentación pendiente,83,Sí,2200000,Bogotá,Asesor 2,,aspirante001322@ejemplo.com,2026-1
+ANX2_00472,ANX2_00472,2026-07-22,Psicología,Presencial,Referido,Admitido,59,Pendiente,,Popayán,Sin asignar,,aspirante003820@ejemplo.com,2025-2
+ANX2_00473,ANX2_00473,2026-08-29,Administración de Empresas,Presencial,Landing page,Admitido,88,Sí,1800000,Santander de Quilichao,Asesor 1,,aspirante002926@ejemplo.com,2026-2
+ANX2_00474,ANX2_00474,2026-06-02,Psicología,Presencial,Correo,Admitido,78,Sí,3500000,Cali,Asesor 2,,,2026-2
+ANX2_00475,ANX2_00475,2025-03-20,Administración de Empresas,Virtual,Landing page,Matriculado,85,Pendiente,,Cali,Asesor 1,2025-03-05,aspirante003627@ejemplo.com,2026-1
+ANX2_00476,ANX2_00476,2025-07-09,Ingeniería de Sistemas,Presencial,Landing page,Admitido,68,Pendiente,3500000,Pasto,Asesor 2,,aspirante002452@ejemplo.com,2025-2
+ANX2_00477,ANX2_00477,2025-11-17,Administración de Empresas,Virtual,Instagram,No admitido,56,Sí,1800000,Bogotá,Asesor 1,,aspirante003880@ejemplo.com,2026-2
+ANX2_00478,ANX2_00478,2025-07-04,Contaduría Pública,Presencial,Instagram,Inscrito,77,Sí,2200000,Cali,Asesor 1,,aspirante002421@ejemplo.com,2026-1
+ANX2_00479,ANX2_00479,2026-08-02,Ingeniería de Sistemas,Híbrida,Instagram,Admitido,70,Pendiente,3100000,Cali,Asesor 2,,aspirante000101@ejemplo.com,2025-2
+ANX2_00480,ANX2_00480,2025-10-20,Especialización en Data Analytics,Híbrida,Referido,Documentación pendiente,99,Pendiente,2500000,Popayán,Asesor 1,,aspirante000229@ejemplo.com,2026-1
+ANX2_00481,ANX2_00481,2025-09-30,Especialización en Data Analytics,Híbrida,Feria universitaria,Admitido,44,Sí,3500000,Bogotá,Asesor 1,,aspirante002244@ejemplo.com,2026-2
+ANX2_00482,ANX2_00482,2026-10-07,Administración de Empresas,Virtual,Correo,Documentación pendiente,97,Sí,1800000,Santander de Quilichao,Asesor 2,,aspirante001234@ejemplo.com,2026-1
+ANX2_00483,ANX2_00483,2025-06-13,Derecho,Virtual,Correo,Admitido,57,Sí,3500000,Cali,Asesor 3,,aspirante003324@ejemplo.com,2026-2
+ANX2_00484,ANX2_00484,2026-08-03,Contaduría Pública,Virtual,Correo,Admitido,51,No,1800000,Popayán,Asesor 1,,aspirante003404@ejemplo.com,2026-1
+ANX2_00485,ANX2_00485,2026-11-10,Ingeniería de Sistemas,Híbrida,Feria universitaria,Inscrito,79,Sí,,Medellín,Asesor 1,,aspirante000908@ejemplo.com,2026-1
+ANX2_00486,ANX2_00486,2025-04-16,Ingeniería de Sistemas,Presencial,Feria universitaria,Nuevo,48,Pendiente,2200000,Medellín,Asesor 1,,aspirante002371@ejemplo.com,2026-2
+ANX2_00487,ANX2_00487,2025-09-10,Psicología,Virtual,Instagram,Retirado,99,Sí,1800000,Popayán,Sin asignar,,aspirante004111@ejemplo.com,2026-2
+ANX2_00488,ANX2_00488,2026-05-03,Psicología,Presencial,Referido,Admitido,69,Sí,3500000,Popayán,Asesor 3,,aspirante000937@ejemplo.com,2026-1
+ANX2_00489,ANX2_00489,2026-05-05,Especialización en Gerencia,Virtual,Landing page,Nuevo,49,Pendiente,3100000,Bogotá,Asesor 3,,aspirante001366@ejemplo.com,2026-1
+ANX2_00490,ANX2_00490,2025-07-21,Especialización en Gerencia,Presencial,Referido,Admitido,69,No,3100000,Popayán,Asesor 1,,aspirante001429@ejemplo.com,2025-2
+ANX2_00491,ANX2_00491,2026-09-07,Derecho,Presencial,Correo,Inscrito,76,Sí,3100000,Popayán,Asesor 1,,aspirante002059@ejemplo.com,2025-2
+ANX2_00492,ANX2_00492,2026-01-06,Derecho,Virtual,Instagram,Admitido,,No,2500000,Bogotá,Asesor 1,,aspirante001160@ejemplo.com,2026-2
+ANX2_00493,ANX2_00493,2025-08-18,Derecho,Híbrida,Web institucional,Inscrito,88,No,3500000,Medellín,Sin asignar,,aspirante001686@ejemplo.com,2026-1
+ANX2_00494,ANX2_00494,2026-02-02,Administración de Empresas,Híbrida,Landing page,Retirado,46,Sí,2200000,Santander de Quilichao,Asesor 1,,aspirante003038@ejemplo.com,2026-1
+ANX2_00495,ANX2_00495,2026-03-14,Psicología,Presencial,Feria universitaria,Nuevo,82,Sí,3500000,Bogotá,Asesor 1,,aspirante000967@ejemplo.com,2026-1
+ANX2_00496,ANX2_00496,2025-09-09,Derecho,Virtual,Referido,Retirado,70,Sí,,Popayán,Sin asignar,,aspirante003943@ejemplo.com,2026-2
+ANX2_00497,ANX2_00497,2026-05-27,Contaduría Pública,Presencial,Instagram,Documentación pendiente,75,Sí,2200000,Pasto,Asesor 1,,aspirante004027@ejemplo.com,2026-2
+ANX2_00498,ANX2_00498,2026-03-19,Especialización en Gerencia,Híbrida,Correo,Retirado,45,Sí,3100000,Santander de Quilichao,Asesor 1,,aspirante000137@ejemplo.com,2026-1
+ANX2_00499,ANX2_00499,2025-11-07,Psicología,Virtual,Referido,Retirado,55,Sí,3500000,Popayán,Asesor 1,,aspirante003070@ejemplo.com,2025-2
+ANX2_00500,ANX2_00500,2025-09-30,Especialización en Data Analytics,Presencial,Feria universitaria,Documentación pendiente,84,Sí,2200000,Popayán,Asesor 1,,aspirante000800@ejemplo.com,2026-2

@@ -1,0 +1,901 @@
+{
+  "generado_en": "2026-10-24T09:21:03.008798-05:00",
+  "oracle_consultado_en": "2026-10-24T09:18:44.614351-05:00",
+  "oracle_lectura_sha256": "339defdf9cb0ab4727baa503099db0be1995728291e30b040e4462a7b7a062ca",
+  "alcance": "SELECT Oracle y archivos originales; PostgreSQL estaba detenido al consultar su estado. Sin limpieza ni integración aplicada.",
+  "metodo_sondas": "Recorte y mayúsculas sin tildes para categorías; correo recortado en minúsculas; periodos con equivalencias explícitas; fechas y números interpretables. Los faltantes tipados se comparan como ausencia, sin resolver su motivo. Coincidencias no acreditan identidad ni autorizan fusiones.",
+  "perfiles": {
+    "principal": {
+      "filas": 5040,
+      "columnas": 15,
+      "nombres": [
+        "registro_id",
+        "aspirante_id",
+        "fecha_solicitud",
+        "programa",
+        "modalidad",
+        "canal_captacion",
+        "estado_proceso",
+        "puntaje_admision",
+        "documentos_completos",
+        "valor_matricula_cop",
+        "ciudad_residencia",
+        "asesor",
+        "fecha_matricula",
+        "correo",
+        "periodo_academico"
+      ],
+      "duplicados_exactos_adicionales": 38,
+      "calidad": {
+        "registro_id": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 5000
+        },
+        "aspirante_id": {
+          "vacios_o_null": 92,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 2924
+        },
+        "fecha_solicitud": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 1226
+        },
+        "programa": {
+          "vacios_o_null": 0,
+          "solo_espacios": 25,
+          "distintos_no_vacios": 9
+        },
+        "modalidad": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 5
+        },
+        "canal_captacion": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 6
+        },
+        "estado_proceso": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 9
+        },
+        "puntaje_admision": {
+          "vacios_o_null": 179,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 62
+        },
+        "documentos_completos": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 5
+        },
+        "valor_matricula_cop": {
+          "vacios_o_null": 826,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 6
+        },
+        "ciudad_residencia": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 9
+        },
+        "asesor": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 5
+        },
+        "fecha_matricula": {
+          "vacios_o_null": 2612,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 755
+        },
+        "correo": {
+          "vacios_o_null": 120,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 2908
+        },
+        "periodo_academico": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 5
+        }
+      },
+      "frecuencias": {
+        "programa": {
+          "Especialización en Data Analytics": 576,
+          "Ingeniería de Sistemas": 572,
+          "DERECHO": 569,
+          "Especializacion en Data Analytics": 560,
+          "Contaduría Pública": 558,
+          "Especialización en Gerencia": 554,
+          "Derecho": 553,
+          "Psicología": 549,
+          "Administración de Empresas": 524,
+          " ": 25
+        },
+        "modalidad": {
+          "Híbrida": 1049,
+          "Presencial": 1011,
+          "VIRTUAL": 1001,
+          "Virtual": 996,
+          "presencial": 983
+        },
+        "canal_captacion": {
+          "Feria universitaria": 861,
+          "Instagram": 859,
+          "Correo": 847,
+          "Referido": 829,
+          "Landing page": 828,
+          "Web institucional": 816
+        },
+        "estado_proceso": {
+          "Admitido": 602,
+          "Inscrito": 578,
+          "Documentación pendiente": 576,
+          "Retirado": 569,
+          "Nuevo": 565,
+          "matriculado": 565,
+          "No admitido": 552,
+          "Matriculado": 520,
+          "ADMITIDO": 513
+        },
+        "documentos_completos": {
+          "Sí": 1026,
+          "Pendiente": 1018,
+          "sí": 999,
+          "No": 999,
+          "SI": 998
+        },
+        "ciudad_residencia": {
+          "BOGOTA": 593,
+          "Bogotá": 578,
+          "Cali": 574,
+          "Santander de Quilichao": 571,
+          "Medellín": 566,
+          "Cali ": 565,
+          "Pasto": 555,
+          "Popayán": 539,
+          "Popayan": 499
+        },
+        "asesor": {
+          "Asesor 1": 1028,
+          "asesor 1": 1009,
+          "Sin asignar": 1009,
+          "Asesor 2": 998,
+          "Asesor 3": 996
+        },
+        "periodo_academico": {
+          "2026 II": 1042,
+          "2026-1": 1028,
+          "2026-I": 1005,
+          "2026-2": 984,
+          "2025-2": 981
+        }
+      },
+      "numericas": {
+        "puntaje_admision": {
+          "validos_numericos": 4811,
+          "minimo": "40.0",
+          "maximo": "100.0",
+          "promedio": "70.05549781750155892745790896",
+          "mediana": "70.0",
+          "negativos": 0,
+          "atipicos_1_5_RIC": 0,
+          "q1": "55.0",
+          "q3": "85.0",
+          "no_interpretables": {
+            "Pendiente": 50
+          }
+        },
+        "valor_matricula_cop": {
+          "validos_numericos": 4179,
+          "minimo": "1800000.0",
+          "maximo": "3500000.0",
+          "promedio": "2611605.647284039243838238813",
+          "mediana": "2500000.0",
+          "negativos": 0,
+          "atipicos_1_5_RIC": 0,
+          "q1": "2200000.0",
+          "q3": "3100000.0",
+          "no_interpretables": {
+            "por definir": 35
+          }
+        }
+      },
+      "fechas": {
+        "fecha_solicitud": {
+          "interpretables": 5040,
+          "minimo": "2025-01-01",
+          "maximo": "2026-09-12",
+          "no_aplica": 0,
+          "no_interpretables_no_vacios_ni_no_aplica": 0
+        },
+        "fecha_matricula": {
+          "interpretables": 1085,
+          "minimo": "2025-01-13",
+          "maximo": "2026-10-31",
+          "no_aplica": 1343,
+          "no_interpretables_no_vacios_ni_no_aplica": 0
+        }
+      },
+      "registro_id_distintos_no_vacios": 5000,
+      "aspirante_id_distintos_no_vacios": 2924,
+      "correo_distintos_no_vacios": 2908,
+      "matriculados_con_documentacion_no_o_pendiente": 465,
+      "periodo_20252_solicitud_2026": 410
+    },
+    "programas": {
+      "filas": 9,
+      "columnas": 6,
+      "nombres": [
+        "programa",
+        "programa_clave",
+        "facultad",
+        "duracion_semestres",
+        "nivel_formacion",
+        "modalidad"
+      ],
+      "duplicados_exactos_adicionales": 0,
+      "calidad": {
+        "programa": {
+          "vacios_o_null": 0,
+          "solo_espacios": 1,
+          "distintos_no_vacios": 8
+        },
+        "programa_clave": {
+          "vacios_o_null": 1,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 8
+        },
+        "facultad": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 4
+        },
+        "duracion_semestres": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 3
+        },
+        "nivel_formacion": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 2
+        },
+        "modalidad": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 2
+        }
+      },
+      "frecuencias": {
+        "programa": {
+          "Derecho": 1,
+          "Administración de Empresas": 1,
+          "Especialización en Gerencia": 1,
+          "Ingeniería de Sistemas": 1,
+          "Psicología": 1,
+          "Especializacion en Data Analytics": 1,
+          "Especialización en Data Analytics": 1,
+          "Contaduría Pública": 1,
+          " ": 1
+        },
+        "modalidad": {
+          "Presencial": 5,
+          "Virtual": 4
+        },
+        "facultad": {
+          "Ciencias Sociales": 3,
+          "Ciencias Económicas": 2,
+          "Ingeniería": 2,
+          "Educación": 2
+        },
+        "nivel_formacion": {
+          "Pregrado": 6,
+          "Posgrado": 3
+        }
+      },
+      "numericas": {
+        "duracion_semestres": {
+          "validos_numericos": 9,
+          "minimo": "8",
+          "maximo": "12",
+          "promedio": "9.777777777777777777777777778",
+          "mediana": "10",
+          "negativos": 0,
+          "atipicos_1_5_RIC": 0,
+          "q1": "8",
+          "q3": "10",
+          "no_interpretables": {}
+        }
+      },
+      "fechas": {},
+      "programa_clave_distintos_no_vacios": 8
+    },
+    "crm": {
+      "filas": 100,
+      "columnas": 15,
+      "nombres": [
+        "registro_aspirante_crm",
+        "fecha_solicitud",
+        "programa",
+        "modalidad",
+        "canal_captacion",
+        "estado_proceso",
+        "puntaje_admision",
+        "documentos_completos",
+        "matricula_base_cop",
+        "derechos_administrativos_cop",
+        "ciudad_residencia",
+        "asesor",
+        "fecha_matricula",
+        "correo",
+        "periodo_academico"
+      ],
+      "duplicados_exactos_adicionales": 0,
+      "calidad": {
+        "registro_aspirante_crm": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 100
+        },
+        "fecha_solicitud": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 94
+        },
+        "programa": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 9
+        },
+        "modalidad": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 5
+        },
+        "canal_captacion": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 6
+        },
+        "estado_proceso": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 9
+        },
+        "puntaje_admision": {
+          "vacios_o_null": 3,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 49
+        },
+        "documentos_completos": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 5
+        },
+        "matricula_base_cop": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 5
+        },
+        "derechos_administrativos_cop": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 100
+        },
+        "ciudad_residencia": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 9
+        },
+        "asesor": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 5
+        },
+        "fecha_matricula": {
+          "vacios_o_null": 53,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 22
+        },
+        "correo": {
+          "vacios_o_null": 1,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 99
+        },
+        "periodo_academico": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 5
+        }
+      },
+      "frecuencias": {
+        "programa": {
+          "Especializacion en Data Analytics": 14,
+          "Contaduría Pública": 14,
+          "Psicología": 13,
+          "Ingeniería de Sistemas": 13,
+          "Especialización en Data Analytics": 11,
+          "Derecho": 9,
+          "Especialización en Gerencia": 9,
+          "Administración de Empresas": 9,
+          "DERECHO": 8
+        },
+        "modalidad": {
+          "Presencial": 25,
+          "VIRTUAL": 21,
+          "Virtual": 19,
+          "Híbrida": 18,
+          "presencial": 17
+        },
+        "canal_captacion": {
+          "Web institucional": 22,
+          "Landing page": 20,
+          "Instagram": 17,
+          "Feria universitaria": 16,
+          "Correo": 13,
+          "Referido": 12
+        },
+        "estado_proceso": {
+          "No admitido": 16,
+          "Admitido": 15,
+          "Retirado": 14,
+          "Documentación pendiente": 12,
+          "matriculado": 11,
+          "Matriculado": 10,
+          "Nuevo": 9,
+          "Inscrito": 9,
+          "ADMITIDO": 4
+        },
+        "documentos_completos": {
+          "Sí": 22,
+          "SI": 21,
+          "sí": 21,
+          "Pendiente": 19,
+          "No": 17
+        },
+        "ciudad_residencia": {
+          "Cali": 16,
+          "Cali ": 13,
+          "Medellín": 12,
+          "Santander de Quilichao": 12,
+          "BOGOTA": 12,
+          "Popayan": 10,
+          "Popayán": 9,
+          "Pasto": 8,
+          "Bogotá": 8
+        },
+        "asesor": {
+          "Sin asignar": 24,
+          "Asesor 2": 22,
+          "Asesor 1": 18,
+          "Asesor 3": 18,
+          "asesor 1": 18
+        },
+        "periodo_academico": {
+          "2026 II": 28,
+          "2025-2": 21,
+          "2026-2": 19,
+          "2026-1": 17,
+          "2026-I": 15
+        }
+      },
+      "numericas": {
+        "puntaje_admision": {
+          "validos_numericos": 96,
+          "minimo": "40.0",
+          "maximo": "100.0",
+          "promedio": "69.94791666666666666666666667",
+          "mediana": "71.0",
+          "negativos": 0,
+          "atipicos_1_5_RIC": 0,
+          "q1": "56.0",
+          "q3": "82.0",
+          "no_interpretables": {
+            "Pendiente": 1
+          }
+        },
+        "matricula_base_cop": {
+          "validos_numericos": 100,
+          "minimo": "1800000.0",
+          "maximo": "3500000.0",
+          "promedio": "2537000.0",
+          "mediana": "2500000.0",
+          "negativos": 0,
+          "atipicos_1_5_RIC": 0,
+          "q1": "2200000.0",
+          "q3": "3100000.0",
+          "no_interpretables": {}
+        },
+        "derechos_administrativos_cop": {
+          "validos_numericos": 100,
+          "minimo": "55220.0",
+          "maximo": "307591.0",
+          "promedio": "158490.88",
+          "mediana": "152929.0",
+          "negativos": 0,
+          "atipicos_1_5_RIC": 0,
+          "q1": "109965.75",
+          "q3": "196952.75",
+          "no_interpretables": {}
+        }
+      },
+      "fechas": {
+        "fecha_solicitud": {
+          "interpretables": 100,
+          "minimo": "2025-01-09",
+          "maximo": "2026-09-11",
+          "no_aplica": 0,
+          "no_interpretables_no_vacios_ni_no_aplica": 0
+        },
+        "fecha_matricula": {
+          "interpretables": 21,
+          "minimo": "2025-03-12",
+          "maximo": "2026-09-29",
+          "no_aplica": 26,
+          "no_interpretables_no_vacios_ni_no_aplica": 0
+        }
+      },
+      "correo_distintos_no_vacios": 99,
+      "registro_aspirante_crm_distintos_no_vacios": 100,
+      "matriculados_con_documentacion_no_o_pendiente": 7,
+      "periodo_20252_solicitud_2026": 10
+    },
+    "oracle": {
+      "filas": 500,
+      "columnas": 15,
+      "nombres": [
+        "registro_id",
+        "aspirante_id",
+        "fecha_solicitud",
+        "programa",
+        "modalidad",
+        "canal_captacion",
+        "estado_proceso",
+        "puntaje_admision",
+        "documentos_completos",
+        "valor_matricula_cop",
+        "ciudad_residencia",
+        "asesor",
+        "fecha_matricula",
+        "correo",
+        "periodo_academico"
+      ],
+      "duplicados_exactos_adicionales": 0,
+      "calidad": {
+        "registro_id": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 500
+        },
+        "aspirante_id": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 500
+        },
+        "fecha_solicitud": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 350
+        },
+        "programa": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 8
+        },
+        "modalidad": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 3
+        },
+        "canal_captacion": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 6
+        },
+        "estado_proceso": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 7
+        },
+        "puntaje_admision": {
+          "vacios_o_null": 18,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 61
+        },
+        "documentos_completos": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 3
+        },
+        "valor_matricula_cop": {
+          "vacios_o_null": 81,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 5
+        },
+        "ciudad_residencia": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 6
+        },
+        "asesor": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 4
+        },
+        "fecha_matricula": {
+          "vacios_o_null": 400,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 89
+        },
+        "correo": {
+          "vacios_o_null": 10,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 463
+        },
+        "periodo_academico": {
+          "vacios_o_null": 0,
+          "solo_espacios": 0,
+          "distintos_no_vacios": 3
+        }
+      },
+      "frecuencias": {
+        "programa": {
+          "Derecho": 120,
+          "Especialización en Data Analytics": 89,
+          "Administración de Empresas": 62,
+          "Ingeniería de Sistemas": 61,
+          "Contaduría Pública": 59,
+          "Especialización en Gerencia": 56,
+          "Psicología": 51,
+          "Sin especificar": 2
+        },
+        "modalidad": {
+          "Presencial": 212,
+          "Virtual": 202,
+          "Híbrida": 86
+        },
+        "canal_captacion": {
+          "Referido": 90,
+          "Correo": 88,
+          "Feria universitaria": 86,
+          "Instagram": 86,
+          "Web institucional": 84,
+          "Landing page": 66
+        },
+        "estado_proceso": {
+          "Admitido": 106,
+          "Matriculado": 100,
+          "Documentación pendiente": 68,
+          "No admitido": 67,
+          "Inscrito": 58,
+          "Nuevo": 51,
+          "Retirado": 50
+        },
+        "documentos_completos": {
+          "Sí": 284,
+          "Pendiente": 108,
+          "No": 108
+        },
+        "ciudad_residencia": {
+          "Cali": 117,
+          "Bogotá": 116,
+          "Popayán": 109,
+          "Medellín": 55,
+          "Pasto": 54,
+          "Santander de Quilichao": 49
+        },
+        "asesor": {
+          "Asesor 1": 198,
+          "Asesor 2": 105,
+          "Sin asignar": 99,
+          "Asesor 3": 98
+        },
+        "periodo_academico": {
+          "2026-1": 226,
+          "2026-2": 174,
+          "2025-2": 100
+        }
+      },
+      "numericas": {
+        "puntaje_admision": {
+          "validos_numericos": 482,
+          "minimo": "40",
+          "maximo": "100",
+          "promedio": "70.24066390041493775933609959",
+          "mediana": "70",
+          "negativos": 0,
+          "atipicos_1_5_RIC": 0,
+          "q1": "54",
+          "q3": "86.75",
+          "no_interpretables": {}
+        },
+        "valor_matricula_cop": {
+          "validos_numericos": 419,
+          "minimo": "1800000",
+          "maximo": "3500000",
+          "promedio": "2637708.830548926014319809069",
+          "mediana": "2500000",
+          "negativos": 0,
+          "atipicos_1_5_RIC": 0,
+          "q1": "2200000",
+          "q3": "3100000",
+          "no_interpretables": {}
+        }
+      },
+      "fechas": {
+        "fecha_solicitud": {
+          "interpretables": 500,
+          "minimo": "2025-01-02",
+          "maximo": "2026-12-10",
+          "no_aplica": 0,
+          "no_interpretables_no_vacios_ni_no_aplica": 0
+        },
+        "fecha_matricula": {
+          "interpretables": 100,
+          "minimo": "2025-01-06",
+          "maximo": "2026-12-11",
+          "no_aplica": 0,
+          "no_interpretables_no_vacios_ni_no_aplica": 0
+        }
+      },
+      "registro_id_distintos_no_vacios": 500,
+      "aspirante_id_distintos_no_vacios": 500,
+      "correo_distintos_no_vacios": 463,
+      "matriculados_con_documentacion_no_o_pendiente": 52,
+      "periodo_20252_solicitud_2026": 50
+    }
+  },
+  "relaciones": {
+    "crm_principal": {
+      "ids_en_principal": 100,
+      "ids_nuevos": 0,
+      "aspirante_literal_nan": 4,
+      "coinciden_12_columnas_compartidas": 100,
+      "importes_iguales": 87,
+      "importe_principal_ausente_con_base_crm": 13,
+      "filas_principales_con_match": 101,
+      "filas_left_merge_por_registro_id": 5040
+    },
+    "programas_principal": {
+      "programa_con_tilde": {
+        "filas_con_match": 5015,
+        "filas_sin_match": 25,
+        "filas_con_match_multiple": 0,
+        "filas_resultantes_left_merge": 5040
+      },
+      "programa_sin_tilde": {
+        "filas_con_match": 5015,
+        "filas_sin_match": 25,
+        "filas_con_match_multiple": 1136,
+        "filas_resultantes_left_merge": 6176
+      },
+      "programa_y_modalidad": {
+        "filas_con_match": 2403,
+        "filas_sin_match": 2637,
+        "filas_con_match_multiple": 0,
+        "filas_resultantes_left_merge": 5040
+      }
+    },
+    "oracle_principal": {
+      "correo": {
+        "filas_oracle_con_match": 490,
+        "filas_oracle_sin_match": 10,
+        "filas_oracle_multiples_filas_principal": 339,
+        "filas_oracle_multiples_registro_id": 332
+      },
+      "correo_fecha": {
+        "filas_oracle_con_match": 61,
+        "filas_oracle_sin_match": 439,
+        "filas_oracle_multiples_filas_principal": 2,
+        "filas_oracle_multiples_registro_id": 1
+      },
+      "correo_fecha_programa_modalidad_periodo": {
+        "filas_oracle_con_match": 60,
+        "filas_oracle_sin_match": 440,
+        "filas_oracle_multiples_filas_principal": 1,
+        "filas_oracle_multiples_registro_id": 0
+      },
+      "ids_iguales_principal": 0,
+      "filas_coinciden_13_columnas_sin_ids": 49,
+      "filas_coinciden_11_columnas_sin_ids_ni_fechas": 498,
+      "multiples_ids_principal_en_sonda_11_columnas": 0,
+      "coinciden_fecha_solicitud_entre_candidatos_11": 60,
+      "coinciden_fecha_matricula_entre_candidatos_11": 399,
+      "solicitud_compatible_intercambio_dia_mes_entre_candidatos_11": 16,
+      "solicitudes_posteriores_a_referencia_2026_10_24": 15,
+      "programas_sin_especificar": 2,
+      "filas_oracle_y_crm_coinciden_sonda_evento": 1
+    }
+  },
+  "compatibilidad_vista": {
+    "mismas_15_columnas_y_orden": true,
+    "metadatos_oracle": [
+      {
+        "columna": "REGISTRO_ID",
+        "tipo": "VARCHAR2",
+        "orden": 1
+      },
+      {
+        "columna": "ASPIRANTE_ID",
+        "tipo": "VARCHAR2",
+        "orden": 2
+      },
+      {
+        "columna": "FECHA_SOLICITUD",
+        "tipo": "DATE",
+        "orden": 3
+      },
+      {
+        "columna": "PROGRAMA",
+        "tipo": "VARCHAR2",
+        "orden": 4
+      },
+      {
+        "columna": "MODALIDAD",
+        "tipo": "VARCHAR2",
+        "orden": 5
+      },
+      {
+        "columna": "CANAL_CAPTACION",
+        "tipo": "VARCHAR2",
+        "orden": 6
+      },
+      {
+        "columna": "ESTADO_PROCESO",
+        "tipo": "VARCHAR2",
+        "orden": 7
+      },
+      {
+        "columna": "PUNTAJE_ADMISION",
+        "tipo": "NUMBER",
+        "orden": 8
+      },
+      {
+        "columna": "DOCUMENTOS_COMPLETOS",
+        "tipo": "VARCHAR2",
+        "orden": 9
+      },
+      {
+        "columna": "VALOR_MATRICULA_COP",
+        "tipo": "NUMBER",
+        "orden": 10
+      },
+      {
+        "columna": "CIUDAD_RESIDENCIA",
+        "tipo": "VARCHAR2",
+        "orden": 11
+      },
+      {
+        "columna": "ASESOR",
+        "tipo": "VARCHAR2",
+        "orden": 12
+      },
+      {
+        "columna": "FECHA_MATRICULA",
+        "tipo": "DATE",
+        "orden": 13
+      },
+      {
+        "columna": "CORREO",
+        "tipo": "VARCHAR2",
+        "orden": 14
+      },
+      {
+        "columna": "PERIODO_ACADEMICO",
+        "tipo": "VARCHAR2",
+        "orden": 15
+      }
+    ],
+    "columnas_tecnicas_postgresql_excluidas": [
+      "fila_origen_csv",
+      "origen_sha256",
+      "datos_originales",
+      "observaciones_tipado"
+    ]
+  }
+}

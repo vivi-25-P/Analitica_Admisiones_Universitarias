@@ -9,7 +9,9 @@
 requirements.txt text eol=lf
 *.ipynb text eol=lf
 # El CSV se conserva byte por byte para mantener su SHA256.
-*.csv -text
+*.csv -text -whitespace
+# Los exports SQL recibidos son fuentes originales, no scripts a normalizar.
+sql/fuentes/** -text -whitespace
 *.pdf binary
 *.pptx binary
 *.png binary

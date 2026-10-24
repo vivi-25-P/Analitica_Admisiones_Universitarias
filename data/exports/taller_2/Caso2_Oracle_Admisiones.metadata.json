@@ -1,0 +1,93 @@
+{
+  "origen": "CASO2.V_ADMISIONES_BASE",
+  "consultado_en": "2026-10-24T09:54:27.187794-05:00",
+  "archivo": "data/exports/taller_2/Caso2_Oracle_Admisiones.csv",
+  "sha256": "f709f807c3f2313cb52e8532967be5c18d611ff82cb6fcdb0f5e598909f45086",
+  "filas_sin_encabezado": 500,
+  "columnas": 15,
+  "codificacion": "UTF-8 con BOM",
+  "separador": ",",
+  "separador_decimal": ".",
+  "fechas": "YYYY-MM-DD",
+  "nulos": "Celda vacía. El CSV no mantiene los tipos ni diferencia NULL de texto vacío.",
+  "orden": "registro_id ascendente para facilitar la comparación",
+  "verificacion": "Lectura CSV igual a las 15 columnas serializadas de todas las filas consultadas en vivo.",
+  "metadatos_oracle": [
+    {
+      "columna": "REGISTRO_ID",
+      "tipo": "VARCHAR2",
+      "orden": 1
+    },
+    {
+      "columna": "ASPIRANTE_ID",
+      "tipo": "VARCHAR2",
+      "orden": 2
+    },
+    {
+      "columna": "FECHA_SOLICITUD",
+      "tipo": "DATE",
+      "orden": 3
+    },
+    {
+      "columna": "PROGRAMA",
+      "tipo": "VARCHAR2",
+      "orden": 4
+    },
+    {
+      "columna": "MODALIDAD",
+      "tipo": "VARCHAR2",
+      "orden": 5
+    },
+    {
+      "columna": "CANAL_CAPTACION",
+      "tipo": "VARCHAR2",
+      "orden": 6
+    },
+    {
+      "columna": "ESTADO_PROCESO",
+      "tipo": "VARCHAR2",
+      "orden": 7
+    },
+    {
+      "columna": "PUNTAJE_ADMISION",
+      "tipo": "NUMBER",
+      "orden": 8
+    },
+    {
+      "columna": "DOCUMENTOS_COMPLETOS",
+      "tipo": "VARCHAR2",
+      "orden": 9
+    },
+    {
+      "columna": "VALOR_MATRICULA_COP",
+      "tipo": "NUMBER",
+      "orden": 10
+    },
+    {
+      "columna": "CIUDAD_RESIDENCIA",
+      "tipo": "VARCHAR2",
+      "orden": 11
+    },
+    {
+      "columna": "ASESOR",
+      "tipo": "VARCHAR2",
+      "orden": 12
+    },
+    {
+      "columna": "FECHA_MATRICULA",
+      "tipo": "DATE",
+      "orden": 13
+    },
+    {
+      "columna": "CORREO",
+      "tipo": "VARCHAR2",
+      "orden": 14
+    },
+    {
+      "columna": "PERIODO_ACADEMICO",
+      "tipo": "VARCHAR2",
+      "orden": 15
+    }
+  ],
+  "alcance": "Exportación sin limpieza ni integración con las otras fuentes. Copia de consulta, sin refresco automático."
+}

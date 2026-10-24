@@ -1,0 +1,22 @@
+{
+  "docs/referencias/taller_2/Taller 2do fin de semana.pdf": {
+    "nombre_recibido": "Taller 2do fin de semana.pdf",
+    "sha256": "699759f8943e4da0d3b3110d738697881b0fea5245e5d20fe0b355fb7a5bbbd7",
+    "bytes": 59716
+  },
+  "data/raw/taller_2/Caso2 Programas.csv": {
+    "nombre_recibido": "Caso2 Programas.csv",
+    "sha256": "b1d293d569e9904809635bd6d2fc8d3879f5b1c039bf3fe64b2063d1bf40f2f5",
+    "bytes": 810
+  },
+  "data/raw/taller_2/Caso2 CRM Admisiones.csv": {
+    "nombre_recibido": "Caso2 CRM Admisiones.csv",
+    "sha256": "4c4c2b7f1edb9897076d4ac6b63c434f69527169fabbdd98a03300ac90f15987",
+    "bytes": 17849
+  },
+  "sql/fuentes/taller_2/caso2.sql": {
+    "nombre_recibido": "caso2.sql",
+    "sha256": "c1964cf7d816e8921ec2ebfd4b3c5d395832ddef467c546c40ef915760ec52c7",
+    "bytes": 267107
+  }
+}

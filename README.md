@@ -1,5 +1,15 @@
 # Analítica de admisiones universitarias
 
+## Taller 2: múltiples fuentes
+
+Los cuatro archivos recibidos están organizados en `docs/referencias/taller_2`, `data/raw/taller_2` y `sql/fuentes/taller_2`, con sus bytes originales y hashes registrados. Consulta [el análisis del taller y la ruta de trabajo](docs/analisis_taller_2.md).
+
+La revisión se reproduce con `python scripts/revisar_fuentes_taller_2.py` y genera `reports/taller_2/revision_fuentes.json`. Es una inspección de archivos: no carga SQL ni modifica la base. El taller exige una vista Oracle, transformaciones en Power Query y un Excel final llamado `Base_unificada`. La fuente y una vista de ejemplo ya están preparadas; las transformaciones y el Excel final siguen pendientes.
+
+Para preparar la fuente Oracle del taller, con Docker activo, ejecuta `python scripts/preparar_oracle.py`. Usa un proyecto Docker independiente y crea el esquema CASO2 y una vista compatible. Consulta [la guía de conexión desde DBeaver y Excel](docs/oracle_taller_2.md). La integración y la limpieza en Power Query siguen pendientes.
+
+El [reporte comparativo de las cuatro fuentes](docs/reporte_comparativo_fuentes_taller_2.md) describe la compatibilidad de las 15 columnas y los perfiles y solapamientos. Su respaldo está en `reports/taller_2/comparacion/`. Para actualizarlo, captura primero la vista con `python scripts/capturar_vista_oracle.py` y ejecuta `python scripts/analizar_relaciones_taller_2.py`. Estos comandos no aplican limpieza ni integración.
+
 ## Instalar o actualizar la base compartida
 
 Después de clonar el repositorio o ejecutar `git pull --ff-only`, con Docker en ejecución:

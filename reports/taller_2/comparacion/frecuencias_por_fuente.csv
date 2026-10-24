@@ -1,0 +1,165 @@
+﻿fuente,columna,valor_original,cantidad,porcentaje
+principal,programa,Especialización en Data Analytics,576,11.43
+principal,programa,Ingeniería de Sistemas,572,11.35
+principal,programa,DERECHO,569,11.29
+principal,programa,Especializacion en Data Analytics,560,11.11
+principal,programa,Contaduría Pública,558,11.07
+principal,programa,Especialización en Gerencia,554,10.99
+principal,programa,Derecho,553,10.97
+principal,programa,Psicología,549,10.89
+principal,programa,Administración de Empresas,524,10.4
+principal,programa, ,25,0.5
+principal,modalidad,Híbrida,1049,20.81
+principal,modalidad,Presencial,1011,20.06
+principal,modalidad,VIRTUAL,1001,19.86
+principal,modalidad,Virtual,996,19.76
+principal,modalidad,presencial,983,19.5
+principal,canal_captacion,Feria universitaria,861,17.08
+principal,canal_captacion,Instagram,859,17.04
+principal,canal_captacion,Correo,847,16.81
+principal,canal_captacion,Referido,829,16.45
+principal,canal_captacion,Landing page,828,16.43
+principal,canal_captacion,Web institucional,816,16.19
+principal,estado_proceso,Admitido,602,11.94
+principal,estado_proceso,Inscrito,578,11.47
+principal,estado_proceso,Documentación pendiente,576,11.43
+principal,estado_proceso,Retirado,569,11.29
+principal,estado_proceso,Nuevo,565,11.21
+principal,estado_proceso,matriculado,565,11.21
+principal,estado_proceso,No admitido,552,10.95
+principal,estado_proceso,Matriculado,520,10.32
+principal,estado_proceso,ADMITIDO,513,10.18
+principal,documentos_completos,Sí,1026,20.36
+principal,documentos_completos,Pendiente,1018,20.2
+principal,documentos_completos,sí,999,19.82
+principal,documentos_completos,No,999,19.82
+principal,documentos_completos,SI,998,19.8
+principal,ciudad_residencia,BOGOTA,593,11.77
+principal,ciudad_residencia,Bogotá,578,11.47
+principal,ciudad_residencia,Cali,574,11.39
+principal,ciudad_residencia,Santander de Quilichao,571,11.33
+principal,ciudad_residencia,Medellín,566,11.23
+principal,ciudad_residencia,Cali ,565,11.21
+principal,ciudad_residencia,Pasto,555,11.01
+principal,ciudad_residencia,Popayán,539,10.69
+principal,ciudad_residencia,Popayan,499,9.9
+principal,asesor,Asesor 1,1028,20.4
+principal,asesor,asesor 1,1009,20.02
+principal,asesor,Sin asignar,1009,20.02
+principal,asesor,Asesor 2,998,19.8
+principal,asesor,Asesor 3,996,19.76
+principal,periodo_academico,2026 II,1042,20.67
+principal,periodo_academico,2026-1,1028,20.4
+principal,periodo_academico,2026-I,1005,19.94
+principal,periodo_academico,2026-2,984,19.52
+principal,periodo_academico,2025-2,981,19.46
+programas,programa,Derecho,1,11.11
+programas,programa,Administración de Empresas,1,11.11
+programas,programa,Especialización en Gerencia,1,11.11
+programas,programa,Ingeniería de Sistemas,1,11.11
+programas,programa,Psicología,1,11.11
+programas,programa,Especializacion en Data Analytics,1,11.11
+programas,programa,Especialización en Data Analytics,1,11.11
+programas,programa,Contaduría Pública,1,11.11
+programas,programa, ,1,11.11
+programas,modalidad,Presencial,5,55.56
+programas,modalidad,Virtual,4,44.44
+programas,facultad,Ciencias Sociales,3,33.33
+programas,facultad,Ciencias Económicas,2,22.22
+programas,facultad,Ingeniería,2,22.22
+programas,facultad,Educación,2,22.22
+programas,nivel_formacion,Pregrado,6,66.67
+programas,nivel_formacion,Posgrado,3,33.33
+crm,programa,Especializacion en Data Analytics,14,14.0
+crm,programa,Contaduría Pública,14,14.0
+crm,programa,Psicología,13,13.0
+crm,programa,Ingeniería de Sistemas,13,13.0
+crm,programa,Especialización en Data Analytics,11,11.0
+crm,programa,Derecho,9,9.0
+crm,programa,Especialización en Gerencia,9,9.0
+crm,programa,Administración de Empresas,9,9.0
+crm,programa,DERECHO,8,8.0
+crm,modalidad,Presencial,25,25.0
+crm,modalidad,VIRTUAL,21,21.0
+crm,modalidad,Virtual,19,19.0
+crm,modalidad,Híbrida,18,18.0
+crm,modalidad,presencial,17,17.0
+crm,canal_captacion,Web institucional,22,22.0
+crm,canal_captacion,Landing page,20,20.0
+crm,canal_captacion,Instagram,17,17.0
+crm,canal_captacion,Feria universitaria,16,16.0
+crm,canal_captacion,Correo,13,13.0
+crm,canal_captacion,Referido,12,12.0
+crm,estado_proceso,No admitido,16,16.0
+crm,estado_proceso,Admitido,15,15.0
+crm,estado_proceso,Retirado,14,14.0
+crm,estado_proceso,Documentación pendiente,12,12.0
+crm,estado_proceso,matriculado,11,11.0
+crm,estado_proceso,Matriculado,10,10.0
+crm,estado_proceso,Nuevo,9,9.0
+crm,estado_proceso,Inscrito,9,9.0
+crm,estado_proceso,ADMITIDO,4,4.0
+crm,documentos_completos,Sí,22,22.0
+crm,documentos_completos,SI,21,21.0
+crm,documentos_completos,sí,21,21.0
+crm,documentos_completos,Pendiente,19,19.0
+crm,documentos_completos,No,17,17.0
+crm,ciudad_residencia,Cali,16,16.0
+crm,ciudad_residencia,Cali ,13,13.0
+crm,ciudad_residencia,Medellín,12,12.0
+crm,ciudad_residencia,Santander de Quilichao,12,12.0
+crm,ciudad_residencia,BOGOTA,12,12.0
+crm,ciudad_residencia,Popayan,10,10.0
+crm,ciudad_residencia,Popayán,9,9.0
+crm,ciudad_residencia,Pasto,8,8.0
+crm,ciudad_residencia,Bogotá,8,8.0
+crm,asesor,Sin asignar,24,24.0
+crm,asesor,Asesor 2,22,22.0
+crm,asesor,Asesor 1,18,18.0
+crm,asesor,Asesor 3,18,18.0
+crm,asesor,asesor 1,18,18.0
+crm,periodo_academico,2026 II,28,28.0
+crm,periodo_academico,2025-2,21,21.0
+crm,periodo_academico,2026-2,19,19.0
+crm,periodo_academico,2026-1,17,17.0
+crm,periodo_academico,2026-I,15,15.0
+oracle,programa,Derecho,120,24.0
+oracle,programa,Especialización en Data Analytics,89,17.8
+oracle,programa,Administración de Empresas,62,12.4
+oracle,programa,Ingeniería de Sistemas,61,12.2
+oracle,programa,Contaduría Pública,59,11.8
+oracle,programa,Especialización en Gerencia,56,11.2
+oracle,programa,Psicología,51,10.2
+oracle,programa,Sin especificar,2,0.4
+oracle,modalidad,Presencial,212,42.4
+oracle,modalidad,Virtual,202,40.4
+oracle,modalidad,Híbrida,86,17.2
+oracle,canal_captacion,Referido,90,18.0
+oracle,canal_captacion,Correo,88,17.6
+oracle,canal_captacion,Feria universitaria,86,17.2
+oracle,canal_captacion,Instagram,86,17.2
+oracle,canal_captacion,Web institucional,84,16.8
+oracle,canal_captacion,Landing page,66,13.2
+oracle,estado_proceso,Admitido,106,21.2
+oracle,estado_proceso,Matriculado,100,20.0
+oracle,estado_proceso,Documentación pendiente,68,13.6
+oracle,estado_proceso,No admitido,67,13.4
+oracle,estado_proceso,Inscrito,58,11.6
+oracle,estado_proceso,Nuevo,51,10.2
+oracle,estado_proceso,Retirado,50,10.0
+oracle,documentos_completos,Sí,284,56.8
+oracle,documentos_completos,Pendiente,108,21.6
+oracle,documentos_completos,No,108,21.6
+oracle,ciudad_residencia,Cali,117,23.4
+oracle,ciudad_residencia,Bogotá,116,23.2
+oracle,ciudad_residencia,Popayán,109,21.8
+oracle,ciudad_residencia,Medellín,55,11.0
+oracle,ciudad_residencia,Pasto,54,10.8
+oracle,ciudad_residencia,Santander de Quilichao,49,9.8
+oracle,asesor,Asesor 1,198,39.6
+oracle,asesor,Asesor 2,105,21.0
+oracle,asesor,Sin asignar,99,19.8
+oracle,asesor,Asesor 3,98,19.6
+oracle,periodo_academico,2026-1,226,45.2
+oracle,periodo_academico,2026-2,174,34.8
+oracle,periodo_academico,2025-2,100,20.0

@@ -1,0 +1,10 @@
+﻿programa,programa_clave,facultad,duracion_semestres,nivel_formacion,modalidad,registros_principal_nombre_normalizado,registros_principal_nombre_y_modalidad
+Derecho,DERECHO,Ciencias Sociales,8,Posgrado,Presencial,1122,437
+Administración de Empresas,ADMINISTRACIÓN DE EMPRESAS,Ciencias Económicas,10,Pregrado,Virtual,524,217
+Especialización en Gerencia,ESPECIALIZACIÓN EN GERENCIA,Ingeniería,12,Pregrado,Presencial,554,210
+Ingeniería de Sistemas,INGENIERÍA DE SISTEMAS,Educación,8,Pregrado,Virtual,572,217
+Psicología,PSICOLOGÍA,Ciencias Sociales,10,Posgrado,Presencial,549,201
+Especializacion en Data Analytics,ESPECIALIZACION EN DATA ANALYTICS,Ciencias Económicas,12,Pregrado,Virtual,1136,425
+Especialización en Data Analytics,ESPECIALIZACIÓN EN DATA ANALYTICS,Ingeniería,8,Pregrado,Presencial,1136,474
+Contaduría Pública,CONTADURÍA PÚBLICA,Educación,10,Pregrado,Virtual,558,222
+ ,,Ciencias Sociales,10,Posgrado,Presencial,0,0

@@ -1,0 +1,193 @@
+{
+  "alcance": "Inspección estática. Sin limpieza, cargas SQL, Oracle ni Power Query ejecutados.",
+  "integridad_archivos": {
+    "docs/referencias/taller_2/Taller 2do fin de semana.pdf": {
+      "nombre_recibido": "Taller 2do fin de semana.pdf",
+      "sha256": "699759f8943e4da0d3b3110d738697881b0fea5245e5d20fe0b355fb7a5bbbd7",
+      "bytes": 59716
+    },
+    "data/raw/taller_2/Caso2 Programas.csv": {
+      "nombre_recibido": "Caso2 Programas.csv",
+      "sha256": "b1d293d569e9904809635bd6d2fc8d3879f5b1c039bf3fe64b2063d1bf40f2f5",
+      "bytes": 810
+    },
+    "data/raw/taller_2/Caso2 CRM Admisiones.csv": {
+      "nombre_recibido": "Caso2 CRM Admisiones.csv",
+      "sha256": "4c4c2b7f1edb9897076d4ac6b63c434f69527169fabbdd98a03300ac90f15987",
+      "bytes": 17849
+    },
+    "sql/fuentes/taller_2/caso2.sql": {
+      "nombre_recibido": "caso2.sql",
+      "sha256": "c1964cf7d816e8921ec2ebfd4b3c5d395832ddef467c546c40ef915760ec52c7",
+      "bytes": 267107
+    }
+  },
+  "fuentes": {
+    "principal": {
+      "filas": 5040,
+      "columnas": 15
+    },
+    "programas": {
+      "filas": 9,
+      "columnas": 6,
+      "columnas_nombres": [
+        "programa",
+        "programa_clave",
+        "facultad",
+        "duracion_semestres",
+        "nivel_formacion",
+        "modalidad"
+      ],
+      "filas_con_programa_en_blanco": 1,
+      "claves_normalizadas_repetidas": {
+        "ESPECIALIZACION EN DATA ANALYTICS": [
+          {
+            "programa": "Especializacion en Data Analytics",
+            "programa_clave": "ESPECIALIZACION EN DATA ANALYTICS",
+            "facultad": "Ciencias Económicas",
+            "duracion_semestres": "12",
+            "nivel_formacion": "Pregrado",
+            "modalidad": "Virtual"
+          },
+          {
+            "programa": "Especialización en Data Analytics",
+            "programa_clave": "ESPECIALIZACIÓN EN DATA ANALYTICS",
+            "facultad": "Ingeniería",
+            "duracion_semestres": "8",
+            "nivel_formacion": "Pregrado",
+            "modalidad": "Presencial"
+          }
+        ]
+      },
+      "simulacion_left_merge_solo_programa_normalizado_sin_claves_vacias": 6176
+    },
+    "crm": {
+      "filas": 100,
+      "columnas": 15,
+      "columnas_nombres": [
+        "registro_aspirante_crm",
+        "fecha_solicitud",
+        "programa",
+        "modalidad",
+        "canal_captacion",
+        "estado_proceso",
+        "puntaje_admision",
+        "documentos_completos",
+        "matricula_base_cop",
+        "derechos_administrativos_cop",
+        "ciudad_residencia",
+        "asesor",
+        "fecha_matricula",
+        "correo",
+        "periodo_academico"
+      ],
+      "claves_compuestas_distintas": 100,
+      "solapamiento": {
+        "aspirante_literal_nan": 4,
+        "registro_id_en_principal": 100,
+        "par_registro_aspirante_en_principal": 96,
+        "coincide_con_una_fila_en_columnas_compartidas": 96,
+        "matricula_base_igual_a_valor_original": 84,
+        "importe_principal_vacio_con_base_crm_disponible_en_pares_coincidentes": 12
+      },
+      "diferencias_en_columnas_compartidas": {
+        "fecha_solicitud": 0,
+        "programa": 0,
+        "modalidad": 0,
+        "canal_captacion": 0,
+        "estado_proceso": 0,
+        "puntaje_admision": 0,
+        "documentos_completos": 0,
+        "ciudad_residencia": 0,
+        "asesor": 0,
+        "fecha_matricula": 0,
+        "correo": 0,
+        "periodo_academico": 0
+      },
+      "vacios_o_espacios": {
+        "registro_aspirante_crm": 0,
+        "fecha_solicitud": 0,
+        "programa": 0,
+        "modalidad": 0,
+        "canal_captacion": 0,
+        "estado_proceso": 0,
+        "puntaje_admision": 3,
+        "documentos_completos": 0,
+        "matricula_base_cop": 0,
+        "derechos_administrativos_cop": 0,
+        "ciudad_residencia": 0,
+        "asesor": 0,
+        "fecha_matricula": 53,
+        "correo": 1,
+        "periodo_academico": 0
+      }
+    },
+    "oracle_export": {
+      "codificacion_lectura": "cp1252",
+      "tablas": {
+        "C2_ASESORES": {
+          "filas_insertadas_en_script": 4,
+          "columnas": 2,
+          "columnas_nombres": [
+            "ASESOR_ID",
+            "NOMBRE_ASESOR"
+          ]
+        },
+        "C2_ASPIRANTES": {
+          "filas_insertadas_en_script": 500,
+          "columnas": 3,
+          "columnas_nombres": [
+            "ASPIRANTE_ID",
+            "CORREO",
+            "CIUDAD_RESIDENCIA"
+          ]
+        },
+        "C2_CANALES": {
+          "filas_insertadas_en_script": 6,
+          "columnas": 2,
+          "columnas_nombres": [
+            "CANAL_ID",
+            "NOMBRE_CANAL"
+          ]
+        },
+        "C2_PROGRAMAS": {
+          "filas_insertadas_en_script": 8,
+          "columnas": 2,
+          "columnas_nombres": [
+            "PROGRAMA_ID",
+            "NOMBRE_PROGRAMA"
+          ]
+        },
+        "C2_SOLICITUDES": {
+          "filas_insertadas_en_script": 500,
+          "columnas": 13,
+          "columnas_nombres": [
+            "REGISTRO_ID",
+            "ASPIRANTE_ID",
+            "FECHA_SOLICITUD",
+            "PROGRAMA_ID",
+            "MODALIDAD",
+            "CANAL_ID",
+            "ESTADO_PROCESO",
+            "PUNTAJE_ADMISION",
+            "DOCUMENTOS_COMPLETOS",
+            "VALOR_MATRICULA_COP",
+            "ASESOR_ID",
+            "FECHA_MATRICULA",
+            "PERIODO_ACADEMICO"
+          ]
+        }
+      },
+      "registros_id_solapados_principal": 0,
+      "aspirantes_con_correo_en_principal": 490,
+      "referencias_sin_correspondencia_en_export": {
+        "ASPIRANTE_ID": 0,
+        "PROGRAMA_ID": 0,
+        "CANAL_ID": 0,
+        "ASESOR_ID": 0
+      },
+      "registro_id_distintos": 500,
+      "sentencias_to_date": 600
+    }
+  }
+}

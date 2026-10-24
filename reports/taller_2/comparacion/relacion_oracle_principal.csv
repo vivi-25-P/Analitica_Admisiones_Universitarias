@@ -1,0 +1,501 @@
+﻿registro_id_oracle,aspirante_id_oracle,correo,fecha_solicitud,programa,correo_filas,correo_ids_distintos,correo_fecha_filas,correo_fecha_ids_distintos,correo_fecha_programa_modalidad_periodo_filas,correo_fecha_programa_modalidad_periodo_ids_distintos,candidatos_registro_id_principal,coincidencias_13_columnas_sin_ids,ids_con_coincidencia_13_columnas,coincidencias_11_columnas_sin_ids_ni_fechas,ids_distintos_coincidencia_11_columnas,fecha_solicitud_igual_entre_candidatos_11,fecha_matricula_igual_entre_candidatos_11,posible_intercambio_dia_mes_solicitud
+ANX2_00001,ANX2_00001,aspirante001035@ejemplo.com,2025-11-19,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00002,ANX2_00002,aspirante002602@ejemplo.com,2025-05-27,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00003,ANX2_00003,aspirante002606@ejemplo.com,2026-05-01,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00004,ANX2_00004,aspirante003167@ejemplo.com,2025-05-29,Contaduría Pública,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00005,ANX2_00005,aspirante001169@ejemplo.com,2025-02-25,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00006,ANX2_00006,aspirante004060@ejemplo.com,2026-05-01,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00007,ANX2_00007,aspirante002401@ejemplo.com,2025-12-11,Especialización en Data Analytics,4,4,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00008,ANX2_00008,aspirante003148@ejemplo.com,2025-08-22,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00009,ANX2_00009,aspirante000485@ejemplo.com,2025-06-24,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00010,ANX2_00010,aspirante000867@ejemplo.com,2025-06-30,Derecho,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00011,ANX2_00011,aspirante002307@ejemplo.com,2026-04-25,Especialización en Data Analytics,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00012,ANX2_00012,aspirante002816@ejemplo.com,2026-07-22,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00013,ANX2_00013,aspirante003008@ejemplo.com,2025-03-14,Psicología,3,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00014,ANX2_00014,aspirante000322@ejemplo.com,2026-05-18,Administración de Empresas,2,2,1,1,1,1,REG004702,1,REG004702,1,1,True,True,False
+ANX2_00015,ANX2_00015,aspirante001834@ejemplo.com,2026-03-17,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00016,ANX2_00016,aspirante002427@ejemplo.com,2025-11-29,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00017,ANX2_00017,aspirante002635@ejemplo.com,2026-12-09,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00018,ANX2_00018,aspirante000004@ejemplo.com,2025-04-18,Derecho,2,1,0,0,0,0,,0,,2,1,False,True,False
+ANX2_00019,ANX2_00019,aspirante003634@ejemplo.com,2026-02-07,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00020,ANX2_00020,aspirante002144@ejemplo.com,2025-11-28,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00021,ANX2_00021,aspirante002671@ejemplo.com,2025-05-15,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00022,ANX2_00022,aspirante002047@ejemplo.com,2026-02-14,Contaduría Pública,5,5,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00023,ANX2_00023,aspirante001332@ejemplo.com,2025-09-08,Psicología,1,1,1,1,1,1,REG003234,1,REG003234,1,1,True,True,False
+ANX2_00024,ANX2_00024,aspirante000633@ejemplo.com,2026-08-30,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00025,ANX2_00025,aspirante002605@ejemplo.com,2025-09-10,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00026,ANX2_00026,aspirante000475@ejemplo.com,2025-04-06,Sin especificar,2,2,0,0,0,0,,0,,0,0,False,False,False
+ANX2_00027,ANX2_00027,aspirante002012@ejemplo.com,2026-08-22,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00028,ANX2_00028,aspirante000683@ejemplo.com,2025-02-26,Derecho,2,2,1,1,1,1,REG003822,0,,1,1,True,False,False
+ANX2_00029,ANX2_00029,aspirante002438@ejemplo.com,2026-05-03,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00030,ANX2_00030,aspirante002872@ejemplo.com,2025-08-12,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00031,ANX2_00031,,2025-02-19,Psicología,0,0,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00032,ANX2_00032,aspirante003969@ejemplo.com,2025-07-27,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00033,ANX2_00033,aspirante001794@ejemplo.com,2025-04-30,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00034,ANX2_00034,aspirante002423@ejemplo.com,2026-08-21,Psicología,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00035,ANX2_00035,aspirante002823@ejemplo.com,2025-01-30,Ingeniería de Sistemas,3,3,1,1,1,1,REG000927,1,REG000927,1,1,True,True,False
+ANX2_00036,ANX2_00036,aspirante001453@ejemplo.com,2026-08-20,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00037,ANX2_00037,aspirante003729@ejemplo.com,2025-04-06,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00038,ANX2_00038,aspirante001556@ejemplo.com,2026-04-17,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00039,ANX2_00039,aspirante003284@ejemplo.com,2026-03-17,Especialización en Data Analytics,2,2,1,1,1,1,REG000855,0,,1,1,True,False,False
+ANX2_00040,ANX2_00040,aspirante001524@ejemplo.com,2025-04-02,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00041,ANX2_00041,aspirante000069@ejemplo.com,2025-10-04,Psicología,3,3,0,0,0,0,,0,,1,1,False,True,True
+ANX2_00042,ANX2_00042,aspirante001572@ejemplo.com,2026-04-23,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00043,ANX2_00043,aspirante003472@ejemplo.com,2026-03-28,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00044,ANX2_00044,aspirante002153@ejemplo.com,2025-06-22,Derecho,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00045,ANX2_00045,aspirante002400@ejemplo.com,2025-05-24,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00046,ANX2_00046,aspirante001684@ejemplo.com,2026-07-22,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00047,ANX2_00047,aspirante001049@ejemplo.com,2025-08-20,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00048,ANX2_00048,aspirante000435@ejemplo.com,2026-06-05,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00049,ANX2_00049,aspirante000818@ejemplo.com,2025-11-18,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00050,ANX2_00050,aspirante001142@ejemplo.com,2026-05-16,Administración de Empresas,2,1,0,0,0,0,,0,,2,1,False,False,False
+ANX2_00051,ANX2_00051,aspirante003216@ejemplo.com,2025-05-24,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00052,ANX2_00052,aspirante000160@ejemplo.com,2025-06-14,Ingeniería de Sistemas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00053,ANX2_00053,aspirante004000@ejemplo.com,2026-08-04,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00054,ANX2_00054,aspirante003632@ejemplo.com,2026-09-30,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00055,ANX2_00055,aspirante002694@ejemplo.com,2026-07-18,Derecho,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00056,ANX2_00056,aspirante000876@ejemplo.com,2026-04-04,Contaduría Pública,3,3,1,1,1,1,REG001388,1,REG001388,1,1,True,True,False
+ANX2_00057,ANX2_00057,aspirante002420@ejemplo.com,2025-01-12,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00058,ANX2_00058,aspirante001674@ejemplo.com,2026-02-09,Psicología,2,2,1,1,1,1,REG004163,1,REG004163,1,1,True,True,False
+ANX2_00059,ANX2_00059,aspirante002700@ejemplo.com,2025-05-05,Ingeniería de Sistemas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00060,ANX2_00060,aspirante000660@ejemplo.com,2025-03-21,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00061,ANX2_00061,aspirante000422@ejemplo.com,2026-03-20,Administración de Empresas,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00062,ANX2_00062,aspirante002996@ejemplo.com,2026-02-17,Ingeniería de Sistemas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00063,ANX2_00063,aspirante001763@ejemplo.com,2026-01-01,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00064,ANX2_00064,aspirante001981@ejemplo.com,2025-12-21,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00065,ANX2_00065,aspirante003455@ejemplo.com,2026-07-23,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00066,ANX2_00066,aspirante002152@ejemplo.com,2025-03-17,Especialización en Data Analytics,5,5,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00067,ANX2_00067,aspirante000853@ejemplo.com,2025-11-02,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00068,ANX2_00068,aspirante000101@ejemplo.com,2026-07-13,Especialización en Data Analytics,5,5,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00069,ANX2_00069,aspirante002199@ejemplo.com,2025-09-24,Sin especificar,2,2,0,0,0,0,,0,,0,0,False,False,False
+ANX2_00070,ANX2_00070,aspirante002153@ejemplo.com,2026-07-02,Especialización en Data Analytics,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00071,ANX2_00071,aspirante000920@ejemplo.com,2025-06-22,Contaduría Pública,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00072,ANX2_00072,aspirante001215@ejemplo.com,2026-09-24,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00073,ANX2_00073,aspirante003904@ejemplo.com,2026-09-18,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00074,ANX2_00074,aspirante003698@ejemplo.com,2026-11-04,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00075,ANX2_00075,aspirante003286@ejemplo.com,2026-05-17,Derecho,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00076,ANX2_00076,aspirante000533@ejemplo.com,2025-02-09,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00077,ANX2_00077,aspirante001234@ejemplo.com,2025-11-02,Psicología,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00078,ANX2_00078,aspirante001647@ejemplo.com,2025-11-12,Ingeniería de Sistemas,1,1,1,1,1,1,REG002006,1,REG002006,1,1,True,True,False
+ANX2_00079,ANX2_00079,aspirante000592@ejemplo.com,2025-05-09,Contaduría Pública,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00080,ANX2_00080,aspirante001715@ejemplo.com,2026-10-09,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00081,ANX2_00081,aspirante002325@ejemplo.com,2025-09-27,Administración de Empresas,2,2,1,1,1,1,REG003190,0,,1,1,True,False,False
+ANX2_00082,ANX2_00082,aspirante003816@ejemplo.com,2025-04-07,Especialización en Data Analytics,6,6,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00083,ANX2_00083,aspirante000971@ejemplo.com,2025-11-27,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00084,ANX2_00084,aspirante000489@ejemplo.com,2026-01-10,Psicología,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00085,ANX2_00085,aspirante001915@ejemplo.com,2026-12-07,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00086,ANX2_00086,aspirante000175@ejemplo.com,2026-02-28,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00253,ANX2_00253,aspirante001976@ejemplo.com,2026-11-04,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00254,ANX2_00254,aspirante003576@ejemplo.com,2026-03-28,Psicología,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00255,ANX2_00255,aspirante001609@ejemplo.com,2025-10-24,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00256,ANX2_00256,aspirante000268@ejemplo.com,2026-05-24,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00257,ANX2_00257,aspirante003149@ejemplo.com,2025-12-25,Ingeniería de Sistemas,2,2,2,2,1,1,REG003312,1,REG003312,1,1,True,True,False
+ANX2_00258,ANX2_00258,aspirante001890@ejemplo.com,2025-03-24,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00259,ANX2_00259,aspirante001406@ejemplo.com,2026-05-28,Contaduría Pública,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00260,ANX2_00260,aspirante000473@ejemplo.com,2026-01-19,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00261,ANX2_00261,aspirante000866@ejemplo.com,2026-08-09,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00262,ANX2_00262,aspirante003275@ejemplo.com,2026-07-21,Psicología,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00263,ANX2_00263,aspirante004180@ejemplo.com,2025-10-14,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00264,ANX2_00264,aspirante000989@ejemplo.com,2026-04-23,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00265,ANX2_00265,aspirante002074@ejemplo.com,2025-03-27,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00266,ANX2_00266,aspirante001630@ejemplo.com,2025-03-28,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00267,ANX2_00267,aspirante000975@ejemplo.com,2025-12-14,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00268,ANX2_00268,aspirante001834@ejemplo.com,2026-09-29,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00269,ANX2_00269,aspirante001155@ejemplo.com,2026-10-01,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00270,ANX2_00270,aspirante003126@ejemplo.com,2026-07-15,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00271,ANX2_00271,aspirante003274@ejemplo.com,2026-04-07,Derecho,1,1,1,1,1,1,REG004243,1,REG004243,1,1,True,True,False
+ANX2_00272,ANX2_00272,aspirante002787@ejemplo.com,2025-04-14,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00273,ANX2_00273,aspirante002496@ejemplo.com,2025-04-07,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00274,ANX2_00274,aspirante003839@ejemplo.com,2025-07-16,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00275,ANX2_00275,aspirante004039@ejemplo.com,2025-12-02,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,True
+ANX2_00276,ANX2_00276,aspirante004070@ejemplo.com,2026-01-23,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00277,ANX2_00277,aspirante002276@ejemplo.com,2025-09-13,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00278,ANX2_00278,aspirante002375@ejemplo.com,2026-03-14,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00279,ANX2_00279,aspirante001227@ejemplo.com,2026-07-18,Especialización en Data Analytics,2,2,1,1,1,1,REG002103,1,REG002103,1,1,True,True,False
+ANX2_00280,ANX2_00280,aspirante000633@ejemplo.com,2025-11-09,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00281,ANX2_00281,aspirante003491@ejemplo.com,2025-07-18,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00282,ANX2_00282,aspirante001729@ejemplo.com,2025-11-08,Ingeniería de Sistemas,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00283,ANX2_00283,aspirante002132@ejemplo.com,2025-07-08,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00284,ANX2_00284,aspirante000909@ejemplo.com,2025-12-19,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00285,ANX2_00285,aspirante003238@ejemplo.com,2025-09-16,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00286,ANX2_00286,aspirante001123@ejemplo.com,2026-04-15,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00287,ANX2_00287,aspirante000373@ejemplo.com,2026-10-05,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00288,ANX2_00288,aspirante003881@ejemplo.com,2025-03-27,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00289,ANX2_00289,aspirante001490@ejemplo.com,2026-02-17,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00290,ANX2_00290,aspirante000296@ejemplo.com,2025-02-19,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00291,ANX2_00291,aspirante000878@ejemplo.com,2026-04-24,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00292,ANX2_00292,aspirante003304@ejemplo.com,2025-11-03,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00293,ANX2_00293,aspirante001876@ejemplo.com,2025-06-15,Contaduría Pública,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00294,ANX2_00294,aspirante003583@ejemplo.com,2026-06-03,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00295,ANX2_00295,aspirante004149@ejemplo.com,2026-02-19,Especialización en Gerencia,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00296,ANX2_00296,aspirante002906@ejemplo.com,2026-02-21,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00297,ANX2_00297,aspirante003354@ejemplo.com,2025-04-05,Psicología,2,2,1,1,1,1,REG001362,1,REG001362,1,1,True,True,False
+ANX2_00298,ANX2_00298,aspirante003951@ejemplo.com,2026-05-24,Administración de Empresas,3,3,1,1,1,1,REG004968,0,,1,1,True,False,False
+ANX2_00299,ANX2_00299,aspirante003652@ejemplo.com,2025-02-24,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00300,ANX2_00300,aspirante001832@ejemplo.com,2025-09-22,Derecho,1,1,1,1,1,1,REG003020,0,,1,1,True,False,False
+ANX2_00301,ANX2_00301,aspirante002802@ejemplo.com,2025-03-15,Administración de Empresas,1,1,1,1,1,1,REG002896,1,REG002896,1,1,True,True,False
+ANX2_00302,ANX2_00302,aspirante003684@ejemplo.com,2026-07-08,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00303,ANX2_00303,aspirante002937@ejemplo.com,2025-01-15,Ingeniería de Sistemas,1,1,1,1,1,1,REG000911,1,REG000911,1,1,True,True,False
+ANX2_00304,ANX2_00304,aspirante000819@ejemplo.com,2025-05-10,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00305,ANX2_00305,aspirante001132@ejemplo.com,2025-02-26,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00306,ANX2_00306,aspirante002644@ejemplo.com,2025-03-13,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00307,ANX2_00307,aspirante001547@ejemplo.com,2025-08-31,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00308,ANX2_00308,aspirante000526@ejemplo.com,2025-10-07,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00309,ANX2_00309,aspirante002277@ejemplo.com,2026-07-18,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00310,ANX2_00310,aspirante004080@ejemplo.com,2025-01-08,Ingeniería de Sistemas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00311,ANX2_00311,aspirante003062@ejemplo.com,2026-03-10,Especialización en Gerencia,2,1,0,0,0,0,,0,,2,1,False,True,False
+ANX2_00312,ANX2_00312,aspirante003261@ejemplo.com,2025-09-13,Derecho,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00313,ANX2_00313,aspirante003500@ejemplo.com,2025-06-17,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00314,ANX2_00314,aspirante002412@ejemplo.com,2025-10-13,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00315,ANX2_00315,aspirante002330@ejemplo.com,2025-08-06,Ingeniería de Sistemas,6,6,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00316,ANX2_00316,aspirante001649@ejemplo.com,2026-07-01,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00317,ANX2_00317,aspirante003945@ejemplo.com,2026-02-22,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00318,ANX2_00318,aspirante002371@ejemplo.com,2026-05-15,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00319,ANX2_00319,aspirante001938@ejemplo.com,2025-08-14,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00320,ANX2_00320,aspirante002463@ejemplo.com,2025-07-30,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00321,ANX2_00321,aspirante001718@ejemplo.com,2026-05-15,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00322,ANX2_00322,aspirante000925@ejemplo.com,2025-03-09,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00323,ANX2_00323,aspirante003634@ejemplo.com,2025-03-17,Ingeniería de Sistemas,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00324,ANX2_00324,aspirante003175@ejemplo.com,2026-01-22,Contaduría Pública,2,2,1,1,1,1,REG003046,1,REG003046,1,1,True,True,False
+ANX2_00325,ANX2_00325,aspirante000219@ejemplo.com,2025-11-07,Especialización en Gerencia,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00326,ANX2_00326,aspirante001381@ejemplo.com,2025-07-24,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00327,ANX2_00327,aspirante000317@ejemplo.com,2026-07-02,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00328,ANX2_00328,aspirante000902@ejemplo.com,2026-02-28,Especialización en Data Analytics,5,5,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00329,ANX2_00329,aspirante003289@ejemplo.com,2026-01-03,Ingeniería de Sistemas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00330,ANX2_00330,aspirante002642@ejemplo.com,2025-09-20,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00331,ANX2_00331,aspirante001240@ejemplo.com,2026-08-10,Derecho,2,2,1,1,1,1,REG000754,1,REG000754,1,1,True,True,False
+ANX2_00332,ANX2_00332,aspirante000814@ejemplo.com,2025-12-07,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00333,ANX2_00333,aspirante002336@ejemplo.com,2026-01-05,Ingeniería de Sistemas,3,3,0,0,0,0,,0,,1,1,False,True,True
+ANX2_00334,ANX2_00334,aspirante001793@ejemplo.com,2026-06-25,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00335,ANX2_00335,aspirante001016@ejemplo.com,2025-04-06,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,True
+ANX2_00336,ANX2_00336,aspirante004034@ejemplo.com,2025-01-09,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00087,ANX2_00087,aspirante002995@ejemplo.com,2026-02-20,Especialización en Gerencia,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00088,ANX2_00088,aspirante000450@ejemplo.com,2026-02-28,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00089,ANX2_00089,aspirante001531@ejemplo.com,2025-07-26,Ingeniería de Sistemas,1,1,1,1,1,1,REG003287,1,REG003287,1,1,True,True,False
+ANX2_00090,ANX2_00090,aspirante002191@ejemplo.com,2026-02-16,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00091,ANX2_00091,aspirante003317@ejemplo.com,2025-04-28,Ingeniería de Sistemas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00092,ANX2_00092,aspirante003409@ejemplo.com,2025-12-21,Psicología,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00093,ANX2_00093,aspirante001485@ejemplo.com,2025-12-22,Psicología,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00094,ANX2_00094,aspirante002508@ejemplo.com,2026-04-30,Contaduría Pública,3,3,1,1,1,1,REG003802,1,REG003802,1,1,True,True,False
+ANX2_00095,ANX2_00095,aspirante003050@ejemplo.com,2026-06-14,Psicología,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00096,ANX2_00096,aspirante004195@ejemplo.com,2026-01-09,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00097,ANX2_00097,aspirante003847@ejemplo.com,2025-03-05,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00098,ANX2_00098,aspirante002177@ejemplo.com,2026-12-07,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00099,ANX2_00099,aspirante001888@ejemplo.com,2026-08-06,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00100,ANX2_00100,aspirante001623@ejemplo.com,2025-12-18,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00101,ANX2_00101,aspirante002735@ejemplo.com,2026-05-19,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00102,ANX2_00102,aspirante000579@ejemplo.com,2025-07-25,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00103,ANX2_00103,aspirante000209@ejemplo.com,2026-09-04,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00104,ANX2_00104,aspirante003527@ejemplo.com,2025-10-02,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00105,ANX2_00105,aspirante002419@ejemplo.com,2026-12-09,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00106,ANX2_00106,aspirante003440@ejemplo.com,2026-08-23,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00107,ANX2_00107,aspirante000357@ejemplo.com,2026-04-22,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00108,ANX2_00108,aspirante001147@ejemplo.com,2025-03-14,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00109,ANX2_00109,aspirante001211@ejemplo.com,2026-06-09,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00110,ANX2_00110,aspirante003105@ejemplo.com,2025-09-03,Especialización en Gerencia,3,3,0,0,0,0,,0,,1,1,False,False,True
+ANX2_00111,ANX2_00111,aspirante000278@ejemplo.com,2026-07-03,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00112,ANX2_00112,aspirante003298@ejemplo.com,2025-08-11,Psicología,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00113,ANX2_00113,aspirante000876@ejemplo.com,2026-07-05,Especialización en Gerencia,3,3,0,0,0,0,,0,,1,1,False,True,True
+ANX2_00114,ANX2_00114,aspirante001673@ejemplo.com,2026-02-24,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00115,ANX2_00115,aspirante000353@ejemplo.com,2025-01-10,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00116,ANX2_00116,aspirante001963@ejemplo.com,2025-02-18,Derecho,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00117,ANX2_00117,aspirante000929@ejemplo.com,2026-06-20,Derecho,1,1,1,1,1,1,REG004185,0,,1,1,True,False,False
+ANX2_00118,ANX2_00118,aspirante003892@ejemplo.com,2026-03-14,Ingeniería de Sistemas,1,1,1,1,1,1,REG001927,0,,1,1,True,False,False
+ANX2_00119,ANX2_00119,aspirante002487@ejemplo.com,2025-10-30,Psicología,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00120,ANX2_00120,aspirante000820@ejemplo.com,2026-09-01,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00121,ANX2_00121,aspirante002668@ejemplo.com,2026-04-01,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00122,ANX2_00122,aspirante002214@ejemplo.com,2025-05-21,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00123,ANX2_00123,aspirante000124@ejemplo.com,2025-07-07,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00124,ANX2_00124,aspirante002838@ejemplo.com,2025-03-23,Derecho,2,1,0,0,0,0,,0,,2,1,False,True,False
+ANX2_00125,ANX2_00125,aspirante003819@ejemplo.com,2025-03-20,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00126,ANX2_00126,aspirante002820@ejemplo.com,2025-09-25,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00127,ANX2_00127,aspirante002510@ejemplo.com,2025-07-02,Especialización en Data Analytics,2,1,0,0,0,0,,0,,2,1,False,False,False
+ANX2_00128,ANX2_00128,aspirante001194@ejemplo.com,2026-05-08,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00129,ANX2_00129,aspirante000568@ejemplo.com,2026-02-13,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00130,ANX2_00130,aspirante003234@ejemplo.com,2026-01-10,Ingeniería de Sistemas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00131,ANX2_00131,aspirante002633@ejemplo.com,2026-07-17,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00132,ANX2_00132,aspirante002746@ejemplo.com,2026-05-25,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00133,ANX2_00133,aspirante002870@ejemplo.com,2025-02-05,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00134,ANX2_00134,aspirante001568@ejemplo.com,2026-08-26,Especialización en Data Analytics,1,1,1,1,1,1,REG001099,1,REG001099,1,1,True,True,False
+ANX2_00135,ANX2_00135,aspirante002970@ejemplo.com,2025-07-12,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00136,ANX2_00136,aspirante000048@ejemplo.com,2026-02-08,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,True
+ANX2_00137,ANX2_00137,aspirante001250@ejemplo.com,2026-05-10,Derecho,5,5,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00138,ANX2_00138,aspirante001633@ejemplo.com,2026-06-06,Ingeniería de Sistemas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00139,ANX2_00139,aspirante003794@ejemplo.com,2025-09-16,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00140,ANX2_00140,aspirante000078@ejemplo.com,2025-03-19,Contaduría Pública,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00141,ANX2_00141,aspirante000692@ejemplo.com,2026-08-18,Derecho,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00142,ANX2_00142,aspirante000163@ejemplo.com,2025-10-02,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00143,ANX2_00143,aspirante000666@ejemplo.com,2026-09-15,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00144,ANX2_00144,aspirante001655@ejemplo.com,2026-01-15,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00145,ANX2_00145,aspirante001720@ejemplo.com,2026-12-10,Derecho,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00146,ANX2_00146,aspirante000012@ejemplo.com,2026-06-27,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00147,ANX2_00147,aspirante001163@ejemplo.com,2025-12-17,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00148,ANX2_00148,aspirante001187@ejemplo.com,2025-04-13,Derecho,5,5,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00149,ANX2_00149,aspirante002812@ejemplo.com,2026-01-06,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00150,ANX2_00150,aspirante002711@ejemplo.com,2025-02-08,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00151,ANX2_00151,aspirante001111@ejemplo.com,2026-10-01,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00152,ANX2_00152,aspirante002635@ejemplo.com,2026-01-09,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00153,ANX2_00153,aspirante001010@ejemplo.com,2026-06-27,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00154,ANX2_00154,,2025-07-03,Administración de Empresas,0,0,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00155,ANX2_00155,aspirante000069@ejemplo.com,2026-07-10,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00156,ANX2_00156,aspirante003045@ejemplo.com,2025-01-02,Ingeniería de Sistemas,3,3,0,0,0,0,,0,,1,1,False,False,True
+ANX2_00157,ANX2_00157,aspirante000404@ejemplo.com,2025-11-03,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00158,ANX2_00158,aspirante000072@ejemplo.com,2026-06-22,Contaduría Pública,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00159,ANX2_00159,aspirante002632@ejemplo.com,2025-09-28,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00160,ANX2_00160,aspirante003807@ejemplo.com,2025-02-04,Derecho,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00161,ANX2_00161,aspirante002060@ejemplo.com,2025-08-13,Ingeniería de Sistemas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00162,ANX2_00162,aspirante000201@ejemplo.com,2026-09-26,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00163,ANX2_00163,aspirante003338@ejemplo.com,2025-11-30,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00164,ANX2_00164,aspirante004182@ejemplo.com,2026-01-20,Contaduría Pública,1,1,1,1,1,1,REG000162,1,REG000162,1,1,True,True,False
+ANX2_00165,ANX2_00165,aspirante003498@ejemplo.com,2025-10-18,Especialización en Gerencia,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00166,ANX2_00166,aspirante000403@ejemplo.com,2026-06-29,Contaduría Pública,1,1,1,1,1,1,REG003055,1,REG003055,1,1,True,True,False
+ANX2_00167,ANX2_00167,aspirante002878@ejemplo.com,2025-12-17,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00168,ANX2_00168,aspirante003656@ejemplo.com,2025-02-14,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00169,ANX2_00169,aspirante000092@ejemplo.com,2026-03-06,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00170,ANX2_00170,aspirante002167@ejemplo.com,2026-08-06,Especialización en Gerencia,4,4,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00171,ANX2_00171,aspirante004103@ejemplo.com,2026-06-02,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00172,ANX2_00172,aspirante001718@ejemplo.com,2026-05-17,Contaduría Pública,3,3,1,1,1,1,REG003250,1,REG003250,1,1,True,True,False
+ANX2_00173,ANX2_00173,aspirante001488@ejemplo.com,2026-01-01,Ingeniería de Sistemas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00174,ANX2_00174,aspirante002964@ejemplo.com,2026-08-27,Contaduría Pública,4,4,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00175,ANX2_00175,aspirante001067@ejemplo.com,2026-08-03,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00176,ANX2_00176,aspirante002059@ejemplo.com,2025-04-12,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00177,ANX2_00177,aspirante003346@ejemplo.com,2026-07-29,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00178,ANX2_00178,aspirante002696@ejemplo.com,2025-12-20,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00179,ANX2_00179,aspirante000091@ejemplo.com,2026-08-17,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00180,ANX2_00180,aspirante002713@ejemplo.com,2026-05-03,Psicología,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00181,ANX2_00181,aspirante001195@ejemplo.com,2025-08-07,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00182,ANX2_00182,aspirante003551@ejemplo.com,2025-12-13,Ingeniería de Sistemas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00183,ANX2_00183,aspirante001227@ejemplo.com,2026-09-07,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00184,ANX2_00184,aspirante002040@ejemplo.com,2025-04-14,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00185,ANX2_00185,aspirante002147@ejemplo.com,2026-06-20,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00186,ANX2_00186,aspirante001800@ejemplo.com,2025-05-14,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00187,ANX2_00187,aspirante003669@ejemplo.com,2025-07-18,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00188,ANX2_00188,aspirante003763@ejemplo.com,2026-06-23,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00189,ANX2_00189,aspirante004025@ejemplo.com,2025-12-08,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00190,ANX2_00190,aspirante001434@ejemplo.com,2025-12-20,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00191,ANX2_00191,aspirante000924@ejemplo.com,2026-02-28,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00192,ANX2_00192,aspirante003992@ejemplo.com,2026-04-25,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00193,ANX2_00193,aspirante000729@ejemplo.com,2025-01-23,Psicología,2,1,2,1,2,1,REG002216,2,REG002216,2,1,True,True,False
+ANX2_00194,ANX2_00194,aspirante000255@ejemplo.com,2025-06-04,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00195,ANX2_00195,aspirante003973@ejemplo.com,2025-07-18,Ingeniería de Sistemas,2,2,1,1,1,1,REG002652,1,REG002652,1,1,True,True,False
+ANX2_00196,ANX2_00196,aspirante002377@ejemplo.com,2025-06-16,Psicología,2,2,1,1,1,1,REG004007,1,REG004007,1,1,True,True,False
+ANX2_00197,ANX2_00197,aspirante000445@ejemplo.com,2025-08-19,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00198,ANX2_00198,aspirante001916@ejemplo.com,2025-12-29,Ingeniería de Sistemas,4,4,1,1,1,1,REG000747,1,REG000747,1,1,True,True,False
+ANX2_00199,ANX2_00199,aspirante000128@ejemplo.com,2025-08-14,Psicología,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00200,ANX2_00200,aspirante003136@ejemplo.com,2025-08-05,Psicología,1,1,0,0,0,0,,0,,1,1,False,False,True
+ANX2_00201,ANX2_00201,aspirante000246@ejemplo.com,2026-08-06,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00202,ANX2_00202,aspirante001461@ejemplo.com,2025-08-07,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00203,ANX2_00203,aspirante001542@ejemplo.com,2025-02-14,Derecho,2,2,1,1,1,1,REG001865,1,REG001865,1,1,True,True,False
+ANX2_00204,ANX2_00204,aspirante002975@ejemplo.com,2026-01-29,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00205,ANX2_00205,aspirante000616@ejemplo.com,2026-03-06,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00206,ANX2_00206,aspirante003653@ejemplo.com,2026-07-05,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00207,ANX2_00207,aspirante002290@ejemplo.com,2026-05-20,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00208,ANX2_00208,aspirante001991@ejemplo.com,2025-02-19,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00209,ANX2_00209,aspirante001264@ejemplo.com,2025-11-28,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00210,ANX2_00210,aspirante000372@ejemplo.com,2026-06-05,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00211,ANX2_00211,aspirante000669@ejemplo.com,2025-09-04,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00212,ANX2_00212,aspirante000696@ejemplo.com,2026-08-18,Ingeniería de Sistemas,1,1,1,1,1,1,REG003534,1,REG003534,1,1,True,True,False
+ANX2_00213,ANX2_00213,aspirante003757@ejemplo.com,2025-09-28,Contaduría Pública,3,3,1,1,1,1,REG004449,1,REG004449,1,1,True,True,False
+ANX2_00214,ANX2_00214,aspirante003521@ejemplo.com,2025-06-11,Derecho,3,3,1,1,1,1,REG000114,1,REG000114,1,1,True,True,False
+ANX2_00215,ANX2_00215,,2026-02-28,Contaduría Pública,0,0,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00216,ANX2_00216,aspirante001034@ejemplo.com,2025-02-22,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00217,ANX2_00217,aspirante001638@ejemplo.com,2026-02-06,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00218,ANX2_00218,aspirante003099@ejemplo.com,2026-02-04,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00219,ANX2_00219,aspirante002330@ejemplo.com,2025-06-26,Especialización en Gerencia,6,6,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00220,ANX2_00220,aspirante003425@ejemplo.com,2026-01-31,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00221,ANX2_00221,aspirante002636@ejemplo.com,2026-11-09,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00222,ANX2_00222,aspirante002390@ejemplo.com,2025-03-16,Especialización en Gerencia,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00223,ANX2_00223,aspirante001662@ejemplo.com,2026-02-09,Derecho,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00224,ANX2_00224,aspirante002774@ejemplo.com,2026-09-07,Derecho,2,2,0,0,0,0,,0,,1,1,False,False,True
+ANX2_00225,ANX2_00225,aspirante000807@ejemplo.com,2025-10-05,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00226,ANX2_00226,aspirante002035@ejemplo.com,2025-10-16,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00227,ANX2_00227,,2026-06-10,Derecho,0,0,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00228,ANX2_00228,aspirante002898@ejemplo.com,2025-05-05,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00229,ANX2_00229,aspirante002060@ejemplo.com,2026-12-04,Derecho,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00230,ANX2_00230,aspirante003994@ejemplo.com,2026-01-21,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00231,ANX2_00231,aspirante003536@ejemplo.com,2025-10-19,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00232,ANX2_00232,aspirante002333@ejemplo.com,2025-07-02,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,False,True
+ANX2_00233,ANX2_00233,,2026-10-06,Especialización en Data Analytics,0,0,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00234,ANX2_00234,aspirante001275@ejemplo.com,2026-02-08,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00235,ANX2_00235,aspirante000790@ejemplo.com,2026-11-01,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00236,ANX2_00236,aspirante000623@ejemplo.com,2025-04-05,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00237,ANX2_00237,aspirante003530@ejemplo.com,2026-01-22,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00238,ANX2_00238,aspirante000277@ejemplo.com,2025-03-06,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,True
+ANX2_00239,ANX2_00239,,2025-08-28,Especialización en Gerencia,0,0,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00240,ANX2_00240,aspirante003050@ejemplo.com,2025-10-28,Derecho,2,2,1,1,1,1,REG001678,1,REG001678,1,1,True,True,False
+ANX2_00241,ANX2_00241,aspirante003182@ejemplo.com,2026-09-01,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00242,ANX2_00242,aspirante003921@ejemplo.com,2026-10-08,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00243,ANX2_00243,aspirante003281@ejemplo.com,2025-10-19,Contaduría Pública,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00244,ANX2_00244,aspirante002368@ejemplo.com,2026-02-01,Derecho,4,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00245,ANX2_00245,aspirante002891@ejemplo.com,2025-11-08,Psicología,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00246,ANX2_00246,aspirante003288@ejemplo.com,2026-03-13,Derecho,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00247,ANX2_00247,aspirante004035@ejemplo.com,2025-10-25,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00248,ANX2_00248,aspirante001755@ejemplo.com,2026-03-13,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00249,ANX2_00249,aspirante003658@ejemplo.com,2026-04-28,Derecho,1,1,1,1,1,1,REG002399,1,REG002399,1,1,True,True,False
+ANX2_00250,ANX2_00250,aspirante002853@ejemplo.com,2026-08-21,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00251,ANX2_00251,aspirante000824@ejemplo.com,2026-07-17,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00252,ANX2_00252,aspirante004156@ejemplo.com,2026-08-31,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00337,ANX2_00337,aspirante001844@ejemplo.com,2026-05-25,Derecho,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00338,ANX2_00338,aspirante001962@ejemplo.com,2025-08-27,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00339,ANX2_00339,aspirante001051@ejemplo.com,2026-07-26,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00340,ANX2_00340,aspirante001439@ejemplo.com,2026-03-19,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00341,ANX2_00341,aspirante001881@ejemplo.com,2025-03-15,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00342,ANX2_00342,aspirante001743@ejemplo.com,2026-08-29,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00343,ANX2_00343,aspirante000522@ejemplo.com,2026-02-20,Psicología,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00344,ANX2_00344,aspirante001723@ejemplo.com,2025-06-25,Derecho,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00345,ANX2_00345,aspirante001563@ejemplo.com,2025-11-19,Derecho,1,1,1,1,1,1,REG003313,0,,1,1,True,False,False
+ANX2_00346,ANX2_00346,aspirante001588@ejemplo.com,2026-05-24,Ingeniería de Sistemas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00347,ANX2_00347,,2025-12-27,Especialización en Data Analytics,0,0,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00348,ANX2_00348,aspirante002575@ejemplo.com,2026-06-26,Derecho,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00349,ANX2_00349,aspirante001614@ejemplo.com,2026-07-29,Psicología,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00350,ANX2_00350,aspirante003720@ejemplo.com,2025-08-27,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00351,ANX2_00351,aspirante003768@ejemplo.com,2026-06-24,Derecho,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00352,ANX2_00352,aspirante002589@ejemplo.com,2026-07-29,Ingeniería de Sistemas,3,3,1,1,1,1,REG002268,1,REG002268,1,1,True,True,False
+ANX2_00353,ANX2_00353,aspirante003918@ejemplo.com,2026-08-23,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00354,ANX2_00354,aspirante002476@ejemplo.com,2026-09-29,Psicología,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00355,ANX2_00355,aspirante000404@ejemplo.com,2026-06-27,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00356,ANX2_00356,aspirante000283@ejemplo.com,2025-04-26,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00357,ANX2_00357,aspirante001992@ejemplo.com,2025-05-30,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00358,ANX2_00358,aspirante003080@ejemplo.com,2026-03-05,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00359,ANX2_00359,aspirante000676@ejemplo.com,2026-03-19,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00360,ANX2_00360,aspirante002886@ejemplo.com,2026-07-09,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00361,ANX2_00361,aspirante003037@ejemplo.com,2025-09-17,Derecho,5,5,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00362,ANX2_00362,aspirante004197@ejemplo.com,2026-12-04,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00363,ANX2_00363,aspirante001099@ejemplo.com,2026-04-06,Psicología,1,1,0,0,0,0,,0,,1,1,False,True,True
+ANX2_00364,ANX2_00364,aspirante002766@ejemplo.com,2025-05-11,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00365,ANX2_00365,aspirante000366@ejemplo.com,2025-12-27,Ingeniería de Sistemas,3,3,1,1,1,1,REG003467,1,REG003467,1,1,True,True,False
+ANX2_00366,ANX2_00366,aspirante003026@ejemplo.com,2025-02-27,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00367,ANX2_00367,aspirante000331@ejemplo.com,2026-05-30,Derecho,1,1,1,1,1,1,REG003921,1,REG003921,1,1,True,True,False
+ANX2_00368,ANX2_00368,aspirante001432@ejemplo.com,2026-06-20,Psicología,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00369,ANX2_00369,aspirante001479@ejemplo.com,2026-01-15,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00370,ANX2_00370,aspirante000154@ejemplo.com,2025-11-12,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00371,ANX2_00371,,2025-12-03,Especialización en Data Analytics,0,0,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00372,ANX2_00372,aspirante001320@ejemplo.com,2025-02-27,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00373,ANX2_00373,aspirante000815@ejemplo.com,2025-05-24,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00374,ANX2_00374,aspirante003554@ejemplo.com,2026-04-02,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00375,ANX2_00375,aspirante003869@ejemplo.com,2026-05-28,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00376,ANX2_00376,aspirante002909@ejemplo.com,2025-04-21,Ingeniería de Sistemas,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00377,ANX2_00377,aspirante000139@ejemplo.com,2026-06-17,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00378,ANX2_00378,aspirante003921@ejemplo.com,2025-04-24,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00379,ANX2_00379,aspirante001983@ejemplo.com,2026-04-27,Contaduría Pública,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00380,ANX2_00380,aspirante000465@ejemplo.com,2025-03-25,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00381,ANX2_00381,aspirante003083@ejemplo.com,2026-09-30,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00382,ANX2_00382,aspirante000212@ejemplo.com,2026-10-09,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00383,ANX2_00383,aspirante000150@ejemplo.com,2026-06-30,Derecho,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00384,ANX2_00384,aspirante001785@ejemplo.com,2026-07-03,Derecho,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00385,ANX2_00385,aspirante003671@ejemplo.com,2025-10-25,Contaduría Pública,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00386,ANX2_00386,aspirante001069@ejemplo.com,2025-04-03,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,True
+ANX2_00387,ANX2_00387,aspirante000845@ejemplo.com,2026-06-02,Psicología,3,3,1,1,1,1,REG003962,0,,1,1,True,False,False
+ANX2_00388,ANX2_00388,aspirante003030@ejemplo.com,2026-04-05,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00389,ANX2_00389,aspirante003330@ejemplo.com,2025-04-07,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00390,ANX2_00390,aspirante001288@ejemplo.com,2026-08-15,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00391,ANX2_00391,aspirante001719@ejemplo.com,2026-10-08,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00392,ANX2_00392,aspirante001303@ejemplo.com,2026-03-26,Ingeniería de Sistemas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00393,ANX2_00393,aspirante003755@ejemplo.com,2026-10-04,Especialización en Data Analytics,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00394,ANX2_00394,aspirante000138@ejemplo.com,2025-05-06,Derecho,2,1,0,0,0,0,,0,,2,1,False,True,False
+ANX2_00395,ANX2_00395,aspirante002083@ejemplo.com,2025-01-04,Contaduría Pública,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00396,ANX2_00396,,2025-10-03,Especialización en Gerencia,0,0,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00397,ANX2_00397,aspirante000338@ejemplo.com,2026-05-16,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00398,ANX2_00398,aspirante000122@ejemplo.com,2026-06-23,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00399,ANX2_00399,aspirante004149@ejemplo.com,2026-01-24,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00400,ANX2_00400,aspirante002415@ejemplo.com,2025-03-07,Psicología,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00401,ANX2_00401,aspirante003648@ejemplo.com,2026-02-06,Derecho,3,3,1,1,1,1,REG000227,1,REG000227,1,1,True,True,False
+ANX2_00402,ANX2_00402,aspirante000264@ejemplo.com,2025-06-06,Contaduría Pública,4,4,1,1,1,1,REG003444,1,REG003444,1,1,True,True,False
+ANX2_00403,ANX2_00403,aspirante000509@ejemplo.com,2026-11-06,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00404,ANX2_00404,aspirante001918@ejemplo.com,2025-05-28,Ingeniería de Sistemas,1,1,1,1,1,1,REG004125,1,REG004125,1,1,True,True,False
+ANX2_00405,ANX2_00405,aspirante002903@ejemplo.com,2025-02-17,Derecho,1,1,1,1,1,1,REG003180,1,REG003180,1,1,True,True,False
+ANX2_00406,ANX2_00406,aspirante000759@ejemplo.com,2026-01-21,Derecho,6,6,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00407,ANX2_00407,aspirante000304@ejemplo.com,2025-04-22,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00408,ANX2_00408,aspirante004150@ejemplo.com,2026-07-28,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00409,ANX2_00409,aspirante001427@ejemplo.com,2025-11-12,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00410,ANX2_00410,aspirante001893@ejemplo.com,2026-08-30,Ingeniería de Sistemas,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00411,ANX2_00411,aspirante000707@ejemplo.com,2025-07-07,Especialización en Data Analytics,3,3,1,1,1,1,REG004191,1,REG004191,1,1,True,True,False
+ANX2_00412,ANX2_00412,aspirante000498@ejemplo.com,2025-01-06,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00413,ANX2_00413,aspirante001310@ejemplo.com,2025-02-11,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00414,ANX2_00414,aspirante003437@ejemplo.com,2025-07-16,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00415,ANX2_00415,aspirante000432@ejemplo.com,2026-02-28,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00416,ANX2_00416,aspirante003637@ejemplo.com,2026-04-18,Especialización en Gerencia,1,1,1,1,1,1,REG002883,1,REG002883,1,1,True,True,False
+ANX2_00417,ANX2_00417,aspirante002459@ejemplo.com,2025-07-30,Derecho,4,3,1,1,1,1,REG002324,1,REG002324,1,1,True,True,False
+ANX2_00418,ANX2_00418,aspirante004057@ejemplo.com,2025-08-06,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,True
+ANX2_00419,ANX2_00419,aspirante001248@ejemplo.com,2025-07-10,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00420,ANX2_00420,aspirante002126@ejemplo.com,2025-12-16,Ingeniería de Sistemas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00421,ANX2_00421,aspirante000690@ejemplo.com,2026-06-14,Especialización en Gerencia,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00422,ANX2_00422,aspirante002503@ejemplo.com,2025-10-26,Especialización en Data Analytics,6,6,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00423,ANX2_00423,aspirante003275@ejemplo.com,2026-04-28,Especialización en Gerencia,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00424,ANX2_00424,aspirante003261@ejemplo.com,2025-08-22,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00425,ANX2_00425,aspirante000095@ejemplo.com,2026-11-07,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00426,ANX2_00426,aspirante002747@ejemplo.com,2025-08-13,Ingeniería de Sistemas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00427,ANX2_00427,aspirante001216@ejemplo.com,2026-08-14,Derecho,1,1,1,1,1,1,REG000519,1,REG000519,1,1,True,True,False
+ANX2_00428,ANX2_00428,aspirante002251@ejemplo.com,2025-09-02,Especialización en Gerencia,3,3,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00429,ANX2_00429,aspirante001643@ejemplo.com,2025-10-19,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00430,ANX2_00430,aspirante002915@ejemplo.com,2025-10-04,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00431,ANX2_00431,aspirante002710@ejemplo.com,2025-12-17,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00432,ANX2_00432,aspirante001860@ejemplo.com,2025-09-20,Contaduría Pública,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00433,ANX2_00433,aspirante001236@ejemplo.com,2025-10-11,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00434,ANX2_00434,aspirante003225@ejemplo.com,2025-08-19,Ingeniería de Sistemas,3,3,1,1,1,1,REG004751,1,REG004751,1,1,True,True,False
+ANX2_00435,ANX2_00435,aspirante001272@ejemplo.com,2025-10-07,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00436,ANX2_00436,aspirante001039@ejemplo.com,2025-08-31,Derecho,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00437,ANX2_00437,aspirante002304@ejemplo.com,2026-06-13,Contaduría Pública,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00438,ANX2_00438,aspirante002045@ejemplo.com,2025-05-22,Especialización en Gerencia,3,3,1,1,1,1,REG002566,1,REG002566,1,1,True,True,False
+ANX2_00439,ANX2_00439,aspirante002167@ejemplo.com,2026-04-19,Administración de Empresas,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00440,ANX2_00440,aspirante003020@ejemplo.com,2026-02-16,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00441,ANX2_00441,aspirante003773@ejemplo.com,2025-05-29,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00442,ANX2_00442,aspirante001585@ejemplo.com,2026-09-21,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00443,ANX2_00443,aspirante003876@ejemplo.com,2026-05-15,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00444,ANX2_00444,aspirante002323@ejemplo.com,2025-03-20,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00445,ANX2_00445,aspirante000100@ejemplo.com,2026-03-16,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00446,ANX2_00446,aspirante000230@ejemplo.com,2026-01-22,Derecho,5,5,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00447,ANX2_00447,aspirante003104@ejemplo.com,2025-04-19,Derecho,2,2,1,1,1,1,REG001967,1,REG001967,1,1,True,True,False
+ANX2_00448,ANX2_00448,aspirante000233@ejemplo.com,2025-04-15,Especialización en Gerencia,4,4,1,1,1,1,REG003865,0,,1,1,True,False,False
+ANX2_00449,ANX2_00449,aspirante000533@ejemplo.com,2026-04-20,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00450,ANX2_00450,aspirante002368@ejemplo.com,2025-05-23,Especialización en Data Analytics,4,3,0,0,0,0,,0,,2,1,False,True,False
+ANX2_00451,ANX2_00451,aspirante000573@ejemplo.com,2025-12-13,Administración de Empresas,4,4,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00452,ANX2_00452,aspirante003415@ejemplo.com,2026-12-06,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00453,ANX2_00453,aspirante000341@ejemplo.com,2026-05-19,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00454,ANX2_00454,aspirante003839@ejemplo.com,2025-04-30,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00455,ANX2_00455,aspirante001870@ejemplo.com,2025-01-02,Ingeniería de Sistemas,1,1,1,1,1,1,REG004238,1,REG004238,1,1,True,True,False
+ANX2_00456,ANX2_00456,aspirante003343@ejemplo.com,2026-05-09,Especialización en Gerencia,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00457,ANX2_00457,aspirante000053@ejemplo.com,2026-09-10,Derecho,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00458,ANX2_00458,aspirante002630@ejemplo.com,2025-10-22,Derecho,3,3,1,1,0,0,,0,,1,1,False,True,False
+ANX2_00459,ANX2_00459,aspirante003009@ejemplo.com,2026-06-28,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00460,ANX2_00460,aspirante001721@ejemplo.com,2025-05-30,Derecho,1,1,1,1,1,1,REG000994,1,REG000994,1,1,True,True,False
+ANX2_00461,ANX2_00461,aspirante002388@ejemplo.com,2026-01-16,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00462,ANX2_00462,aspirante002159@ejemplo.com,2026-10-07,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00463,ANX2_00463,aspirante000290@ejemplo.com,2025-11-30,Psicología,2,2,1,1,1,1,REG002277,1,REG002277,1,1,True,True,False
+ANX2_00464,ANX2_00464,aspirante001580@ejemplo.com,2026-06-26,Especialización en Data Analytics,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00465,ANX2_00465,aspirante001250@ejemplo.com,2025-04-10,Especialización en Data Analytics,5,5,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00466,ANX2_00466,aspirante000401@ejemplo.com,2025-07-22,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00467,ANX2_00467,aspirante000290@ejemplo.com,2025-04-17,Derecho,2,2,1,1,1,1,REG000099,0,,1,1,True,False,False
+ANX2_00468,ANX2_00468,aspirante002268@ejemplo.com,2026-05-13,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00469,ANX2_00469,aspirante000096@ejemplo.com,2026-10-10,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00470,ANX2_00470,aspirante001863@ejemplo.com,2026-07-26,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00471,ANX2_00471,aspirante001322@ejemplo.com,2025-02-28,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00472,ANX2_00472,aspirante003820@ejemplo.com,2026-07-22,Psicología,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00473,ANX2_00473,aspirante002926@ejemplo.com,2026-08-29,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00474,ANX2_00474,,2026-06-02,Psicología,0,0,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00475,ANX2_00475,aspirante003627@ejemplo.com,2025-03-20,Administración de Empresas,1,1,0,0,0,0,,0,,1,1,False,False,False
+ANX2_00476,ANX2_00476,aspirante002452@ejemplo.com,2025-07-09,Ingeniería de Sistemas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00477,ANX2_00477,aspirante003880@ejemplo.com,2025-11-17,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00478,ANX2_00478,aspirante002421@ejemplo.com,2025-07-04,Contaduría Pública,2,2,1,1,1,1,REG001258,1,REG001258,1,1,True,True,False
+ANX2_00479,ANX2_00479,aspirante000101@ejemplo.com,2026-08-02,Ingeniería de Sistemas,5,5,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00480,ANX2_00480,aspirante000229@ejemplo.com,2025-10-20,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00481,ANX2_00481,aspirante002244@ejemplo.com,2025-09-30,Especialización en Data Analytics,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00482,ANX2_00482,aspirante001234@ejemplo.com,2026-10-07,Administración de Empresas,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00483,ANX2_00483,aspirante003324@ejemplo.com,2025-06-13,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00484,ANX2_00484,aspirante003404@ejemplo.com,2026-08-03,Contaduría Pública,3,3,0,0,0,0,,0,,1,1,False,True,True
+ANX2_00485,ANX2_00485,aspirante000908@ejemplo.com,2026-11-10,Ingeniería de Sistemas,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00486,ANX2_00486,aspirante002371@ejemplo.com,2025-04-16,Ingeniería de Sistemas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00487,ANX2_00487,aspirante004111@ejemplo.com,2025-09-10,Psicología,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00488,ANX2_00488,aspirante000937@ejemplo.com,2026-05-03,Psicología,1,1,1,1,1,1,REG003813,1,REG003813,1,1,True,True,False
+ANX2_00489,ANX2_00489,aspirante001366@ejemplo.com,2026-05-05,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00490,ANX2_00490,aspirante001429@ejemplo.com,2025-07-21,Especialización en Gerencia,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00491,ANX2_00491,aspirante002059@ejemplo.com,2026-09-07,Derecho,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00492,ANX2_00492,aspirante001160@ejemplo.com,2026-01-06,Derecho,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00493,ANX2_00493,aspirante001686@ejemplo.com,2025-08-18,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00494,ANX2_00494,aspirante003038@ejemplo.com,2026-02-02,Administración de Empresas,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00495,ANX2_00495,aspirante000967@ejemplo.com,2026-03-14,Psicología,2,2,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00496,ANX2_00496,aspirante003943@ejemplo.com,2025-09-09,Derecho,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00497,ANX2_00497,aspirante004027@ejemplo.com,2026-05-27,Contaduría Pública,5,5,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00498,ANX2_00498,aspirante000137@ejemplo.com,2026-03-19,Especialización en Gerencia,3,3,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00499,ANX2_00499,aspirante003070@ejemplo.com,2025-11-07,Psicología,1,1,0,0,0,0,,0,,1,1,False,True,False
+ANX2_00500,ANX2_00500,aspirante000800@ejemplo.com,2025-09-30,Especialización en Data Analytics,3,3,0,0,0,0,,0,,1,1,False,True,False

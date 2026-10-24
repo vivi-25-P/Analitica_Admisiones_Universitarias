@@ -143,3 +143,54 @@ La creación del repositorio privado y el primer push quedan pendientes de compl
 Se completó la autenticación de GitHub CLI en WSL con la cuenta JLosada-Dev. Se creó el repositorio privado https://github.com/JLosada-Dev/analitica_admisiones_universitaria y se publicó el commit inicial 6552746 en main. El remoto origin utiliza HTTPS y main quedó vinculada a origin/main.
 
 Los mensajes siguen Conventional Commits, sin trailers ni atribuciones adicionales. Se mantienen excluidos .env, .venv y los respaldos locales. La publicación incluye el CSV original, documentación, código, notebook y evidencias del análisis, sin ejecutar limpieza de datos.
+
+
+## 24 de octubre de 2026. Organización y revisión del Taller 2
+
+Se trasladaron los cuatro archivos nuevos desde la raíz a docs/referencias/taller_2, data/raw/taller_2 y sql/fuentes/taller_2. Se verificó que los hashes antes y después coincidieran y se registró el manifiesto integridad.json. El SQL permanece fuera de las migraciones y de la inicialización automática.
+
+Se analizaron las tres páginas del PDF y se creó docs/analisis_taller_2.md con requisitos de Oracle y Power Query, entregables, rúbrica, perfil de fuentes, riesgos y continuación del informe. Se extrajo el texto para consulta en docs/teoria/taller_2_texto.md.
+
+El script scripts/revisar_fuentes_taller_2.py inspecciona las fuentes sin ejecutarlas y produce reports/taller_2/revision_fuentes.json. Se encontraron nueve filas de catálogo, 100 de CRM y un export Oracle de cinco tablas con 500 solicitudes. Los 100 códigos de solicitud CRM ya aparecen en la base original. La normalización del catálogo revela dos filas de Data Analytics con atributos distintos y riesgo de multiplicación de filas. Los 500 códigos de solicitud Oracle son distintos de los originales, pero 490 filas de aspirantes comparten correo con la base principal, sin que eso demuestre duplicación de solicitudes.
+
+No se aplicó limpieza, no se ejecutó el SQL ni se modificaron las tablas de PostgreSQL. La vista Oracle, el proceso Power Query y el Excel Base_unificada siguen pendientes.
+
+
+## 24 de octubre de 2026. Oracle en Docker y vista del Taller 2
+
+Se inició Docker Desktop y se descargó la imagen oficial Oracle Free Lite 23.26.0.0. Se creó compose.oracle.yaml como proyecto independiente admisiones_oracle, con volumen persistente, caracteres AL32UTF8 y puerto 127.0.0.1:1521. Las claves de administración y CASO2 se generaron únicamente en .env, excluido de Git.
+
+El script scripts/preparar_oracle.py crea FREEPDB1.USERS si falta y el usuario CASO2 con permisos acotados para el ejercicio. La primera tentativa detectó la ausencia de USERS en Lite antes de crear el usuario; se adaptó la preparación y se completó la carga sin modificar el export. Se leyó el SQL original como cp1252 y se envió a SQL*Plus con UTF8. Se verificó igualdad de todas las filas de C2_SOLICITUDES (500), C2_ASPIRANTES (500), C2_PROGRAMAS (8), C2_CANALES (6) y C2_ASESORES (4) frente a los INSERT.
+
+Se creó CASO2.V_ADMISIONES_BASE mediante sql/oracle/01_vista_admisiones.sql y se verificaron 500 filas, 500 registro_id distintos y las 15 columnas compatibles. Los resultados están en reports/taller_2/verificacion_oracle.json. Se confirmó accesibilidad TCP desde Windows a localhost:1521. La conexión autenticada desde DBeaver y Excel sigue pendiente; no se instaló OCMT.
+
+Se documentó la conexión y operación en docs/oracle_taller_2.md y se dejó una plantilla M en powerquery/taller_2/Oracle_Admisiones.pq. No se modificaron las tablas PostgreSQL ni las fuentes y no se ejecutó limpieza ni integración entre fuentes.
+
+**Repetición y controles finales.** Una segunda ejecución reconoció la fuente ya cargada, no insertó filas y repitió correctamente la comparación completa y la verificación de la vista. Se comprobaron los hashes de las ocho fuentes originales y pasaron 13 pruebas locales; las tres pruebas Docker de integración PostgreSQL siguen requiriendo su entorno aislado y se omitieron.
+
+
+## 24 de octubre de 2026. Reporte comparativo y descriptivo de las cuatro fuentes
+
+Se consultó la vista Oracle mediante SELECT y se guardó una lectura completa de 500 filas y sus 15 columnas, con metadatos y fecha, en reports/taller_2/oracle_vista_lectura.json. El capturador scripts/capturar_vista_oracle.py valida nombres y estructura antes de guardar. PostgreSQL estaba detenido; la referencia principal fue su CSV original con hash verificado. No se inició ni se alteró PostgreSQL para esta revisión.
+
+Se creó scripts/analizar_relaciones_taller_2.py y docs/reporte_comparativo_fuentes_taller_2.md. Los perfiles y cruces están en reports/taller_2/comparacion, con frecuencias, calidad, estadísticas, relaciones y revisión temporal. Se confirmó compatibilidad de las 15 columnas de negocio y se distinguieron las cuatro columnas técnicas de la tabla tipada.
+
+CRM: los 100 registro_id ya existen; sus 12 columnas compartidas coinciden por registro. Hay 87 importes iguales y 13 importes principales vacíos con matrícula base CRM disponible. Este universo incluye los cuatro aspirantes nan, a diferencia del control anterior limitado a 96 pares completos. Un código CRM corresponde a dos filas principales, por lo que enriquecería 101 filas sin aumentar las 5.040.
+
+Oracle: 498 filas encuentran candidatos por 11 atributos normalizados excluyendo identificadores y fechas, 49 por los 13 atributos excluyendo solo identificadores y 60 por correo, fecha, programa, modalidad y periodo. Se identificaron 16 candidatos compatibles con intercambio de día y mes y otras diferencias no explicables por ese intercambio. Son sondas, no duplicados confirmados. Las fechas Oracle llegan hasta diciembre de 2026; 15 solicitudes son posteriores a la fecha de revisión, sin corte institucional validado.
+
+Los originales conservan su integridad. No se modificaron tablas, no se aplicó limpieza ni se integraron fuentes. El notebook inicial permanece como respaldo de la primera actividad; este análisis nuevo se respalda en scripts y CSV separados.
+
+
+## 24 de octubre de 2026. Exportación plana de la vista Oracle
+
+Se creó scripts/exportar_vista_oracle.py y se extrajo en vivo CASO2.V_ADMISIONES_BASE a data/exports/taller_2/Caso2_Oracle_Admisiones.csv. Se conservan las 15 columnas, se serializan fechas como año, mes y día y NULL como celdas vacías. Se utiliza UTF8 con BOM, coma como separador y punto decimal. Se ordena por registro_id para facilitar la revisión.
+
+Se verificó la lectura completa del CSV contra las 500 filas serializadas de la vista. El archivo metadata.json registra conteos, fecha de consulta, hash y tipos. Se separó la función de lectura en capturar_vista_oracle.py para reutilizarla sin sobrescribir la evidencia del análisis anterior. La exportación no limpia ni integra datos, no modifica Oracle y no acredita una conexión Power Query al servidor.
+
+
+## 24 de octubre de 2026. Preparación de la publicación del Taller 2
+
+Se agruparon para compartir las fuentes nuevas, el entorno Oracle, la vista, los scripts de revisión y exportación, el CSV plano con metadatos y los reportes descriptivos. Se verificaron los hashes originales y el CSV de 500 filas y 15 columnas. No se detectaron credenciales locales en los archivos candidatos. .env, .venv y los respaldos continúan excluidos. Pasaron las 13 pruebas locales; se omitieron tres pruebas de integración que requieren un entorno aislado explícito. La publicación usa Conventional Commits sin trailers ni atribuciones adicionales y no ejecuta limpieza ni cambia bases de datos.
+
+**Preservación en Git.** Se exceptuaron los SQL de sql/fuentes de la normalización de saltos de línea, igual que los CSV. Se conservan los espacios y finales de línea de los datos originales; los controles de estilo no los corrigen. El texto extraído del PDF, que es un documento derivado, se ajustó únicamente para retirar espacios al final de línea.

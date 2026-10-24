@@ -1,0 +1,101 @@
+﻿registro_aspirante_crm,fecha_solicitud,programa,modalidad,canal_captacion,estado_proceso,puntaje_admision,documentos_completos,matricula_base_cop,derechos_administrativos_cop,ciudad_residencia,asesor,fecha_matricula,correo,periodo_academico
+REG001216 | A000487,2026-06-27,Especializacion en Data Analytics,Presencial,Landing page,Documentación pendiente,,SI,2500000.0,209587.0,Popayan,Asesor 2,,aspirante000487@ejemplo.com,2026 II
+REG001289 | A000150,2026-05-31,Derecho,presencial,Correo,matriculado,82.0,No,3100000.0,247333.0,Cali,Asesor 1,2026-06-24,aspirante000150@ejemplo.com,2026-I
+REG000879 | A002722,2025-10-15,Especialización en Gerencia,Híbrida,Landing page,Admitido,82.0,Sí,3500000.0,114102.0,Cali,Asesor 2,,aspirante002722@ejemplo.com,2025-2
+REG001497 | A004199,2025-12-19,Especializacion en Data Analytics,Virtual,Web institucional,Retirado,77.0,SI,2200000.0,187590.0,Medellín,Asesor 2,,aspirante004199@ejemplo.com,2026 II
+REG000841 | A003039,2025-09-01,Especializacion en Data Analytics,Virtual,Landing page,Admitido,72.0,Sí,2500000.0,156328.0,Cali,Sin asignar,No aplica,aspirante003039@ejemplo.com,2025-2
+REG003831 | A000953,16/08/2025,Administración de Empresas,Híbrida,Web institucional,Nuevo,95.0,No,1800000.0,154664.0,Pasto,Asesor 3,,aspirante000953@ejemplo.com,2026 II
+REG000717 | A001934,2026-01-25,Especialización en Data Analytics,presencial,Landing page,Retirado,82.0,Pendiente,3100000.0,213548.0,Santander de Quilichao,asesor 1,,aspirante001934@ejemplo.com,2026 II
+REG000765 | A002288,09/01/2025,Psicología,VIRTUAL,Landing page,No admitido,52.0,Pendiente,1800000.0,57510.0,BOGOTA,Asesor 1,,aspirante002288@ejemplo.com,2026-1
+REG001725 | A002715,2026-01-06,Ingeniería de Sistemas,Virtual,Feria universitaria,matriculado,88.0,Sí,2200000.0,78059.0,Cali ,Asesor 3,2026-01-09,aspirante002715@ejemplo.com,2026-I
+REG002421 | A002085,2026-07-07,Ingeniería de Sistemas,VIRTUAL,Instagram,No admitido,43.0,No,2500000.0,138532.0,BOGOTA,Sin asignar,,aspirante002085@ejemplo.com,2026-2
+REG004303 | A003881,2025-02-27,Administración de Empresas,presencial,Correo,Admitido,57.0,No,2500000.0,80885.0,Santander de Quilichao,Asesor 3,,aspirante003881@ejemplo.com,2026-2
+REG004876 | A001303,2026-02-26,Ingeniería de Sistemas,Presencial,Feria universitaria,Documentación pendiente,49.0,Pendiente,3100000.0,233877.0,Santander de Quilichao,asesor 1,No aplica,aspirante001303@ejemplo.com,2026 II
+REG002552 | A001066,2025-10-26,Especialización en Gerencia,VIRTUAL,Web institucional,Inscrito,52.0,Pendiente,2200000.0,173693.0,BOGOTA,Asesor 2,,aspirante001066@ejemplo.com,2026 II
+REG001996 | A000108,2025-06-23,Derecho,VIRTUAL,Referido,Documentación pendiente,52.0,sí,1800000.0,60086.0,Popayan,Asesor 1,No aplica,aspirante000108@ejemplo.com,2026-I
+REG003870 | A004183,2025-02-16,Contaduría Pública,Presencial,Referido,Nuevo,100.0,sí,3500000.0,191147.0,Cali,Sin asignar,,aspirante004183@ejemplo.com,2026 II
+REG003811 | A000653,10/07/2026,Derecho,presencial,Correo,matriculado,67.0,Sí,3100000.0,124526.0,Popayan,Asesor 2,08/08/2026,aspirante000653@ejemplo.com,2026-2
+REG000281 | A002711,2025-07-02,Contaduría Pública,Presencial,Feria universitaria,No admitido,48.0,Pendiente,3500000.0,202825.0,Cali ,asesor 1,,aspirante002711@ejemplo.com,2026 II
+REG002678 | A002453,2026-09-04,Contaduría Pública,Virtual,Instagram,Matriculado,76.0,Sí,2500000.0,166562.0,Santander de Quilichao,Asesor 3,2026-09-29,aspirante002453@ejemplo.com,2026 II
+REG000462 | A003647,2026-04-11,Especialización en Gerencia,Híbrida,Web institucional,Retirado,,SI,2200000.0,141380.0,Popayán,Asesor 2,,aspirante003647@ejemplo.com,2025-2
+REG002328 | A001997,2025-10-14,Especialización en Data Analytics,VIRTUAL,Landing page,Admitido,90.0,Sí,1800000.0,109981.0,Pasto,Asesor 3,,aspirante001997@ejemplo.com,2026-2
+REG001105 | A003047,2026-07-02,Especializacion en Data Analytics,VIRTUAL,Web institucional,Documentación pendiente,79.0,Pendiente,1800000.0,86324.0,Cali,Asesor 2,No aplica,aspirante003047@ejemplo.com,2026-I
+REG004699 | A001677,2025-02-23,Derecho,Virtual,Web institucional,Admitido,88.0,No,1800000.0,101491.0,Cali,Asesor 2,,aspirante001677@ejemplo.com,2026-I
+REG003420 | A004155,14-Jul-2025,Psicología,VIRTUAL,Feria universitaria,No admitido,40.0,Sí,2500000.0,127776.0,Popayán,Asesor 1,,aspirante004155@ejemplo.com,2026-1
+REG004619 | A001466,2025-12-10,Psicología,presencial,Correo,No admitido,56.0,sí,2200000.0,196180.0,Popayan,Asesor 3,,aspirante001466@ejemplo.com,2026-2
+REG001217 | A004063,2025-08-16,Administración de Empresas,VIRTUAL,Landing page,No admitido,61.0,No,3100000.0,222333.0,BOGOTA,Asesor 3,,aspirante004063@ejemplo.com,2026 II
+REG003762 | A001062,2025-02-09,Derecho,VIRTUAL,Referido,Documentación pendiente,Pendiente,sí,2200000.0,132657.0,BOGOTA,Sin asignar,No aplica,aspirante001062@ejemplo.com,2026-1
+REG000723 | A001501,2026-09-11,Administración de Empresas,Presencial,Feria universitaria,Nuevo,72.0,SI,3500000.0,250664.0,BOGOTA,asesor 1,,aspirante001501@ejemplo.com,2026 II
+REG001043 | A003500,2025-11-17,DERECHO,Presencial,Web institucional,Admitido,56.0,SI,2500000.0,103976.0,Medellín,Sin asignar,No aplica,aspirante003500@ejemplo.com,2026-2
+REG001684 | A003748,08-28-2025,Especialización en Gerencia,VIRTUAL,Instagram,Matriculado,53.0,No,1800000.0,61141.0,Pasto,Sin asignar,2025-10-01,aspirante003748@ejemplo.com,2026 II
+REG002324 | nan,2025/07/30,DERECHO,Virtual,Web institucional,Retirado,81.0,sí,3100000.0,207235.0,Bogotá,asesor 1,No aplica,aspirante002459@ejemplo.com,2025-2
+REG000766 | A000130,13/08/2026,Especialización en Gerencia,Virtual,Web institucional,Nuevo,93.0,No,2200000.0,177166.0,Cali,asesor 1,,aspirante000130@ejemplo.com,2025-2
+REG002783 | A000951,2026-06-13,Ingeniería de Sistemas,VIRTUAL,Landing page,matriculado,56.0,sí,1800000.0,118834.0,Medellín,Asesor 1,21-Jun-2026,aspirante000951@ejemplo.com,2026 II
+REG001114 | A000665,2026-07-23,Contaduría Pública,Presencial,Correo,Matriculado,70.0,Pendiente,2500000.0,199271.0,Medellín,Sin asignar,2026-08-11,aspirante000665@ejemplo.com,2026 II
+REG001954 | A001268,2026-04-30,Contaduría Pública,Híbrida,Web institucional,Retirado,99.0,sí,2200000.0,131716.0,Santander de Quilichao,Asesor 3,,aspirante001268@ejemplo.com,2026-I
+REG002403 | A004127,2026-02-02,Especializacion en Data Analytics,presencial,Web institucional,No admitido,56.0,SI,2200000.0,69459.0,Cali ,Sin asignar,No aplica,aspirante004127@ejemplo.com,2025-2
+REG001576 | A002768,2026-04-03,Especializacion en Data Analytics,VIRTUAL,Web institucional,Nuevo,50.0,sí,2500000.0,79671.0,Medellín,Asesor 1,,aspirante002768@ejemplo.com,2026-1
+REG004575 | A001201,2025-04-08,Administración de Empresas,Virtual,Instagram,Admitido,63.0,sí,3500000.0,296138.0,Pasto,Asesor 2,No aplica,aspirante001201@ejemplo.com,2026 II
+REG003638 | A001084,2025/08/25,Psicología,Virtual,Referido,Matriculado,52.0,SI,1800000.0,125223.0,Medellín,Asesor 3,07/09/2025,aspirante001084@ejemplo.com,2026-1
+REG001797 | A002064,2026-03-11,Psicología,Híbrida,Landing page,matriculado,89.0,Sí,1800000.0,151921.0,Santander de Quilichao,Asesor 2,18/03/2026,aspirante002064@ejemplo.com,2025-2
+REG001278 | A003482,2025-02-19,Ingeniería de Sistemas,Presencial,Web institucional,ADMITIDO,63.0,Sí,2200000.0,69077.0,Medellín,Asesor 1,,aspirante003482@ejemplo.com,2026-2
+REG000821 | A000795,2025-09-19,Derecho,Presencial,Web institucional,matriculado,68.0,Pendiente,1800000.0,55220.0,Santander de Quilichao,Asesor 2,2025-10-19,aspirante000795@ejemplo.com,2026 II
+REG002207 | A002639,2026-07-28,Especialización en Data Analytics,Híbrida,Web institucional,Matriculado,78.0,Sí,3500000.0,200646.0,Cali ,Asesor 1,2026-09-02,aspirante002639@ejemplo.com,2026 II
+REG003336 | A003974,2026-08-02,Especializacion en Data Analytics,Presencial,Correo,Admitido,55.0,No,3100000.0,94106.0,Bogotá,Sin asignar,,aspirante003974@ejemplo.com,2025-2
+REG001007 | A003707,2025-03-06,Ingeniería de Sistemas,Presencial,Feria universitaria,Matriculado,50.0,SI,3500000.0,220714.0,Cali,Sin asignar,17/04/2025,aspirante003707@ejemplo.com,2025-2
+REG003858 | A003803,03-30-2026,Contaduría Pública,presencial,Landing page,matriculado,96.0,Pendiente,2200000.0,76792.0,Popayán,Sin asignar,2026-04-14,aspirante003803@ejemplo.com,2025-2
+REG002731 | A003720,2026-04-25,Especializacion en Data Analytics,presencial,Landing page,Nuevo,75.0,Sí,3500000.0,284011.0,Cali ,Asesor 3,No aplica,aspirante003720@ejemplo.com,2026-2
+REG003663 | A002871,2025-09-16,Administración de Empresas,Virtual,Feria universitaria,Inscrito,53.0,SI,1800000.0,77322.0,Cali,Asesor 1,,aspirante002871@ejemplo.com,2026-I
+REG000887 | A002388,2025-12-16,Ingeniería de Sistemas,Virtual,Referido,Retirado,76.0,No,2500000.0,101066.0,Cali ,Asesor 1,,aspirante002388@ejemplo.com,2026-2
+REG000591 | nan,2026-06-11,Especialización en Data Analytics,Presencial,Instagram,Matriculado,54.0,sí,2200000.0,192307.0,Cali ,asesor 1,2026-07-27,aspirante003258@ejemplo.com,2026-1
+REG004999 | A000973,2025-12-02,DERECHO,presencial,Correo,Inscrito,,Sí,3500000.0,146981.0,Cali ,Asesor 2,,aspirante000973@ejemplo.com,2026-1
+REG003496 | A000535,30/06/2026,Derecho,Híbrida,Correo,Inscrito,55.0,SI,1800000.0,69636.0,Cali ,Sin asignar,,aspirante000535@ejemplo.com,2026-1
+REG002629 | A002120,2025-07-24,Psicología,VIRTUAL,Referido,Nuevo,82.0,Pendiente,3100000.0,235025.0,Pasto,Sin asignar,No aplica,aspirante002120@ejemplo.com,2026 II
+REG003479 | A003470,2025-07-04,Derecho,Híbrida,Instagram,Documentación pendiente,81.0,Pendiente,3500000.0,284617.0,Popayan,Asesor 2,,aspirante003470@ejemplo.com,2026-I
+REG001149 | A001834,2026-08-29,Ingeniería de Sistemas,presencial,Web institucional,Retirado,66.0,sí,2200000.0,146337.0,Santander de Quilichao,asesor 1,,aspirante001834@ejemplo.com,2026-1
+REG000917 | A002744,2025-01-23,Especializacion en Data Analytics,Presencial,Correo,No admitido,74.0,sí,3500000.0,189392.0,Medellín,Asesor 1,,aspirante002744@ejemplo.com,2026-I
+REG003195 | A001234,2025/10/10,DERECHO,Presencial,Landing page,Retirado,51.0,Pendiente,3500000.0,307591.0,Popayán,Asesor 2,,aspirante001234@ejemplo.com,2026-I
+REG000279 | A001951,2026-01-24,Psicología,presencial,Correo,Retirado,98.0,sí,2200000.0,107734.0,Cali ,Asesor 1,,aspirante001951@ejemplo.com,2026 II
+REG001514 | A001177,2025-05-21,Ingeniería de Sistemas,Presencial,Feria universitaria,ADMITIDO,63.0,sí,1800000.0,152605.0,Cali,Asesor 1,No aplica,aspirante001177@ejemplo.com,2025-2
+REG003333 | A000927,2025-05-27,Especialización en Data Analytics,Híbrida,Referido,ADMITIDO,83.0,SI,2500000.0,75306.0,Popayán,Asesor 3,No aplica,aspirante000927@ejemplo.com,2026 II
+REG002024 | A002956,2025-08-16,Administración de Empresas,Presencial,Web institucional,Admitido,56.0,Sí,3500000.0,279092.0,Popayán,Sin asignar,,aspirante002956@ejemplo.com,2026-2
+REG000669 | A002606,2025-12-05,Contaduría Pública,VIRTUAL,Referido,No admitido,64.0,Pendiente,2200000.0,174209.0,Bogotá,Sin asignar,No aplica,aspirante002606@ejemplo.com,2025-2
+REG001596 | A003904,2025-03-09,Contaduría Pública,Presencial,Instagram,Matriculado,91.0,SI,3500000.0,280192.0,Bogotá,asesor 1,2025-03-12,aspirante003904@ejemplo.com,2026-I
+REG001175 | A001588,2026-04-24,Ingeniería de Sistemas,Híbrida,Landing page,Documentación pendiente,68.0,Sí,3500000.0,126742.0,BOGOTA,Asesor 2,,aspirante001588@ejemplo.com,2026-I
+REG003422 | A000288,2025-03-30,Especialización en Gerencia,Híbrida,Feria universitaria,matriculado,89.0,No,2200000.0,129652.0,Popayan,Asesor 2,2025-04-20,aspirante000288@ejemplo.com,2026-1
+REG004891 | A002848,2026-02-01,Especialización en Gerencia,Presencial,Correo,No admitido,72.0,Pendiente,2500000.0,153253.0,Cali,asesor 1,No aplica,aspirante002848@ejemplo.com,2026-2
+REG004572 | A000962,2026-08-31,Especialización en Gerencia,Virtual,Instagram,ADMITIDO,57.0,Sí,2200000.0,151237.0,Santander de Quilichao,asesor 1,,aspirante000962@ejemplo.com,2025-2
+REG002690 | nan,2026-05-08,Especialización en Data Analytics,Presencial,Instagram,No admitido,59.0,Pendiente,2200000.0,185538.0,Medellín,Asesor 2,No aplica,aspirante001241@ejemplo.com,2026-1
+REG002485 | A002914,2026-06-24,Ingeniería de Sistemas,Presencial,Instagram,Admitido,49.0,No,2500000.0,106976.0,Cali,Asesor 2,,aspirante002914@ejemplo.com,2026-2
+REG003189 | A000122,2026-01-29,Psicología,VIRTUAL,Feria universitaria,Documentación pendiente,57.0,sí,2200000.0,155915.0,Pasto,Asesor 1,,aspirante000122@ejemplo.com,2026-2
+REG000884 | A001173,2026/03/05,Contaduría Pública,Híbrida,Instagram,Documentación pendiente,85.0,No,2500000.0,175315.0,Cali ,Asesor 1,No aplica,aspirante001173@ejemplo.com,2026 II
+REG000777 | A001912,2025-07-07,Psicología,Virtual,Web institucional,Inscrito,77.0,SI,2200000.0,169306.0,Bogotá,Sin asignar,,aspirante001912@ejemplo.com,2026-1
+REG002963 | A001796,2026-03-21,Psicología,Híbrida,Landing page,Admitido,72.0,sí,1800000.0,130926.0,Medellín,Sin asignar,,aspirante001796@ejemplo.com,2026 II
+REG002746 | A000888,23-Nov-2025,Especialización en Gerencia,Virtual,Feria universitaria,Admitido,95.0,sí,3500000.0,248325.0,Bogotá,Asesor 1,,aspirante000888@ejemplo.com,2025-2
+REG002078 | A001386,2025-06-22,Derecho,Presencial,Instagram,Nuevo,55.0,SI,3500000.0,218612.0,Cali ,Sin asignar,,aspirante001386@ejemplo.com,2026 II
+REG001126 | A000869,2025-11-28,Contaduría Pública,Virtual,Landing page,Retirado,88.0,Sí,1800000.0,155982.0,Popayan,Asesor 2,,aspirante000869@ejemplo.com,2026-1
+REG000425 | A004094,2026-03-24,DERECHO,Híbrida,Landing page,Documentación pendiente,62.0,No,2200000.0,150378.0,Cali ,asesor 1,No aplica,aspirante004094@ejemplo.com,2026-I
+REG004175 | A003512,2025-05-09,Especialización en Data Analytics,VIRTUAL,Feria universitaria,Retirado,82.0,Pendiente,1800000.0,118090.0,Bogotá,Asesor 2,,aspirante003512@ejemplo.com,2025-2
+REG002967 | A000649,2025-12-18,Especializacion en Data Analytics,Presencial,Landing page,Admitido,75.0,Sí,3100000.0,255072.0,BOGOTA,Asesor 2,No aplica,aspirante000649@ejemplo.com,2026-2
+REG001307 | A003357,2025-10-05,DERECHO,Presencial,Referido,Admitido,99.0,Sí,2500000.0,174245.0,Cali,Asesor 3,No aplica,aspirante003357@ejemplo.com,2025-2
+REG000689 | A003701,05-17-2026,Administración de Empresas,presencial,Instagram,No admitido,58.0,No,3500000.0,199774.0,Bogotá,Sin asignar,,aspirante003701@ejemplo.com,2025-2
+REG002570 | A002085,08-26-2026,Especializacion en Data Analytics,VIRTUAL,Referido,Inscrito,75.0,sí,2500000.0,166664.0,Popayán,Sin asignar,,,2026-2
+REG004529 | A002109,2026-04-24,Psicología,presencial,Feria universitaria,No admitido,84.0,Pendiente,2200000.0,157181.0,Popayan,asesor 1,,aspirante002109@ejemplo.com,2026-1
+REG003969 | A003133,2026-02-04,Psicología,Presencial,Landing page,Matriculado,70.0,SI,2200000.0,109920.0,Medellín,Asesor 2,2026-04-02,aspirante003133@ejemplo.com,2026-2
+REG003334 | A003013,2025-07-02,Especializacion en Data Analytics,Híbrida,Web institucional,Retirado,71.0,sí,2500000.0,172946.0,Popayán,Asesor 1,No aplica,aspirante003013@ejemplo.com,2026-2
+REG002531 | A002972,01-12-2026,Psicología,presencial,Referido,Retirado,75.0,SI,1800000.0,81540.0,Cali,Sin asignar,No aplica,aspirante002972@ejemplo.com,2026 II
+REG000929 | A001723,10-03-2025,Especializacion en Data Analytics,presencial,Referido,matriculado,69.0,Sí,1800000.0,125625.0,Popayan,asesor 1,2025-10-09,aspirante001723@ejemplo.com,2026 II
+REG000888 | A003753,2025-08-22,Especialización en Data Analytics,presencial,Instagram,Inscrito,43.0,Sí,2500000.0,174198.0,Cali,asesor 1,No aplica,aspirante003753@ejemplo.com,2026-I
+REG000635 | A003388,2026-06-26,Ingeniería de Sistemas,VIRTUAL,Correo,No admitido,74.0,SI,2500000.0,76233.0,Cali,asesor 1,No aplica,aspirante003388@ejemplo.com,2026-1
+REG002248 | nan,2025-12-29,Especialización en Data Analytics,Virtual,Feria universitaria,Admitido,72.0,sí,3500000.0,299908.0,BOGOTA,Sin asignar,,aspirante000007@ejemplo.com,2025-2
+REG004436 | A002086,2025-06-26,Especializacion en Data Analytics,Híbrida,Feria universitaria,Retirado,85.0,No,3500000.0,146469.0,Medellín,Asesor 1,,aspirante002086@ejemplo.com,2026-2
+REG003478 | A003759,2026-08-04,Contaduría Pública,VIRTUAL,Correo,Nuevo,43.0,Sí,1800000.0,94747.0,Pasto,asesor 1,,aspirante003759@ejemplo.com,2026 II
+REG004210 | A001902,2025-03-05,DERECHO,Híbrida,Instagram,No admitido,70.0,Pendiente,3100000.0,190541.0,BOGOTA,Asesor 3,,aspirante001902@ejemplo.com,2026-1
+REG002361 | A001142,2026-04-16,Administración de Empresas,Híbrida,Web institucional,matriculado,59.0,No,2200000.0,157051.0,BOGOTA,Asesor 3,2026-05-23,aspirante001142@ejemplo.com,2025-2
+REG003199 | A000238,2025-12-15,Contaduría Pública,VIRTUAL,Landing page,Documentación pendiente,71.0,sí,3500000.0,221515.0,Santander de Quilichao,Asesor 3,,aspirante000238@ejemplo.com,2025-2
+REG001620 | A004136,2026-04-24,Ingeniería de Sistemas,presencial,Web institucional,Inscrito,92.0,Pendiente,1800000.0,103672.0,BOGOTA,asesor 1,,aspirante004136@ejemplo.com,2026-2
+REG002839 | A002556,2026-04-24,DERECHO,Virtual,Instagram,No admitido,97.0,SI,1800000.0,145232.0,Popayán,Asesor 3,No aplica,aspirante002556@ejemplo.com,2026 II
+REG001264 | A003867,2026-01-04,Contaduría Pública,Virtual,Landing page,matriculado,79.0,Sí,1800000.0,147921.0,Santander de Quilichao,Sin asignar,02-06-2026,aspirante003867@ejemplo.com,2025-2
+REG001372 | A002857,2026-06-26,Especialización en Data Analytics,Presencial,Web institucional,Documentación pendiente,76.0,SI,1800000.0,132362.0,Popayan,Sin asignar,No aplica,aspirante002857@ejemplo.com,2026 II
+REG000514 | A000978,2026-07-29,Contaduría Pública,Virtual,Feria universitaria,Matriculado,50.0,SI,3500000.0,254778.0,Pasto,Asesor 3,2026/08/16,aspirante000978@ejemplo.com,2026-1
+REG004688 | A001839,30-May-2026,Especialización en Data Analytics,VIRTUAL,Instagram,Inscrito,51.0,SI,2200000.0,183878.0,Santander de Quilichao,Asesor 3,,aspirante001839@ejemplo.com,2026-I
