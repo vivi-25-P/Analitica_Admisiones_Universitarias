@@ -1,0 +1,34 @@
+{
+  "tabla": "public.admisiones_tipadas",
+  "filas": 5040,
+  "columnas_fuente": 15,
+  "origen_sha256": "0d4c756649ccff9dcf5c2c2cc5edba0ced8f8e3c157ee2c1f5b4bd2939b8f467",
+  "original_reconstruido_por_fila": true,
+  "tabla_original_verificada": true,
+  "valores_representados_por_columna": {
+    "registro_id": 5040,
+    "aspirante_id": 5040,
+    "fecha_solicitud": 5040,
+    "programa": 5040,
+    "modalidad": 5040,
+    "canal_captacion": 5040,
+    "estado_proceso": 5040,
+    "puntaje_admision": 4811,
+    "documentos_completos": 5040,
+    "valor_matricula_cop": 4179,
+    "ciudad_residencia": 5040,
+    "asesor": 5040,
+    "correo": 5040,
+    "periodo_academico": 5040,
+    "fecha_matricula": 1085
+  },
+  "reglas_fecha": [
+    "AAAA-MM-DD",
+    "AAAA/MM/DD",
+    "DD/MM/AAAA",
+    "MM-DD-AAAA",
+    "DD-Mmm-AAAA (mes en inglés)"
+  ],
+  "alcance": "Solo representación de tipos. No elimina filas, unifica categorías, imputa ni corrige valores.",
+  "valores_no_representables": "NULL en la proyección; valor íntegro en datos_originales y motivo en observaciones_tipado."
+}

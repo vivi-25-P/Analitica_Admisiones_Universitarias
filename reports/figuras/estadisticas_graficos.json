@@ -1,0 +1,38 @@
+{
+  "sha256_original": "0d4c756649ccff9dcf5c2c2cc5edba0ced8f8e3c157ee2c1f5b4bd2939b8f467",
+  "base": 5040,
+  "numericas": {
+    "puntaje_admision": {
+      "n": 4811,
+      "minimo": 40.0,
+      "maximo": 100.0,
+      "promedio": 70.05549781750156,
+      "mediana": 70.0,
+      "q1": 55.0,
+      "q3": 85.0,
+      "limite_inferior": 10.0,
+      "limite_superior": 130.0,
+      "atipicos_segun_criterio": 0
+    },
+    "valor_matricula_cop": {
+      "n": 4179,
+      "minimo": 1800000.0,
+      "maximo": 3500000.0,
+      "promedio": 2611605.6472840393,
+      "mediana": 2500000.0,
+      "q1": 2200000.0,
+      "q3": 3100000.0,
+      "limite_inferior": 850000.0,
+      "limite_superior": 4450000.0,
+      "atipicos_segun_criterio": 0
+    }
+  },
+  "figuras": [
+    "01_programas_modalidades",
+    "02_canales_estados",
+    "03_distribucion_puntajes",
+    "04_distribucion_matricula",
+    "05_cobertura_temporal",
+    "06_completitud"
+  ]
+}

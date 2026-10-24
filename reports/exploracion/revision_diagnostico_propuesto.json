@@ -1,0 +1,386 @@
+{
+  "fecha_solicitud": {
+    "formatos": {
+      "AAAA-MM-DD": 4317,
+      "AAAA/MM/DD": 160,
+      "DD-Mmm-AAAA": 175,
+      "DD/MM/AAAA": 206,
+      "MM-DD-AAAA": 182
+    },
+    "ejemplos": {
+      "AAAA-MM-DD": "2026-07-28",
+      "AAAA/MM/DD": "2025/01/27",
+      "DD-Mmm-AAAA": "16-May-2025",
+      "DD/MM/AAAA": "16/11/2025",
+      "MM-DD-AAAA": "09-26-2025"
+    },
+    "min": "2025-01-01",
+    "max": "2026-09-12",
+    "posteriores_2026_10_17": 0
+  },
+  "fecha_matricula": {
+    "formatos": {
+      "vacia": 2612,
+      "AAAA-MM-DD": 756,
+      "No aplica": 1343,
+      "MM-DD-AAAA": 89,
+      "DD/MM/AAAA": 73,
+      "DD-Mmm-AAAA": 83,
+      "AAAA/MM/DD": 84
+    },
+    "ejemplos": {
+      "vacia": "",
+      "AAAA-MM-DD": "2026-09-17",
+      "No aplica": "No aplica",
+      "MM-DD-AAAA": "02-26-2025",
+      "DD/MM/AAAA": "26/06/2026",
+      "DD-Mmm-AAAA": "13-Jun-2026",
+      "AAAA/MM/DD": "2026/02/14"
+    },
+    "min": "2025-01-13",
+    "max": "2026-10-31",
+    "posteriores_2026_10_17": 7
+  },
+  "duplicados_parciales_por_registro_id": [
+    {
+      "registro_id": "REG004804",
+      "filas": 2,
+      "diferencias": {
+        "programa": [
+          " ",
+          "Ingeniería de Sistemas"
+        ]
+      }
+    },
+    {
+      "registro_id": "REG003600",
+      "filas": 2,
+      "diferencias": {
+        "valor_matricula_cop": [
+          "1800000.0",
+          "por definir"
+        ]
+      }
+    }
+  ],
+  "repeticion_aspirante_programa_periodo_False": {
+    "grupos": 131,
+    "filas_involucradas": 291,
+    "adicionales": 160
+  },
+  "repeticion_aspirante_programa_periodo_True": {
+    "grupos": 144,
+    "filas_involucradas": 331,
+    "adicionales": 187
+  },
+  "matriculados": {
+    "total": 1085,
+    "documentacion": {
+      "Sí": 229,
+      "No": 234,
+      "sí": 195,
+      "Pendiente": 231,
+      "SI": 196
+    },
+    "sin_documentos_si": 465
+  },
+  "fechas_matricula_por_estado": {
+    "ADMITIDO": {
+      "No aplica": 168,
+      "vacia": 345
+    },
+    "Admitido": {
+      "vacia": 398,
+      "No aplica": 204
+    },
+    "Documentación pendiente": {
+      "vacia": 390,
+      "No aplica": 186
+    },
+    "Inscrito": {
+      "vacia": 386,
+      "No aplica": 192
+    },
+    "Matriculado": {
+      "AAAA-MM-DD": 363,
+      "DD/MM/AAAA": 29,
+      "DD-Mmm-AAAA": 42,
+      "MM-DD-AAAA": 50,
+      "AAAA/MM/DD": 36
+    },
+    "No admitido": {
+      "No aplica": 211,
+      "vacia": 341
+    },
+    "Nuevo": {
+      "vacia": 366,
+      "No aplica": 199
+    },
+    "Retirado": {
+      "No aplica": 183,
+      "vacia": 386
+    },
+    "matriculado": {
+      "MM-DD-AAAA": 39,
+      "DD-Mmm-AAAA": 41,
+      "AAAA-MM-DD": 393,
+      "AAAA/MM/DD": 48,
+      "DD/MM/AAAA": 44
+    }
+  },
+  "periodo_2025_2_solicitud_2026": 410,
+  "solicitudes_por_mes": {
+    "2025-01": 262,
+    "2025-02": 238,
+    "2025-03": 234,
+    "2025-04": 240,
+    "2025-05": 234,
+    "2025-06": 253,
+    "2025-07": 245,
+    "2025-08": 261,
+    "2025-09": 224,
+    "2025-10": 259,
+    "2025-11": 246,
+    "2025-12": 237,
+    "2026-01": 256,
+    "2026-02": 240,
+    "2026-03": 251,
+    "2026-04": 229,
+    "2026-05": 267,
+    "2026-06": 244,
+    "2026-07": 268,
+    "2026-08": 277,
+    "2026-09": 75
+  },
+  "categorias": {
+    "programa": {
+      "Derecho": 553,
+      "DERECHO": 569,
+      "Administración de Empresas": 524,
+      "Especialización en Gerencia": 554,
+      "Ingeniería de Sistemas": 572,
+      "Psicología": 549,
+      "Especializacion en Data Analytics": 560,
+      "Especialización en Data Analytics": 576,
+      "Contaduría Pública": 558,
+      " ": 25
+    },
+    "modalidad": {
+      "Virtual": 996,
+      "Presencial": 1011,
+      "presencial": 983,
+      "VIRTUAL": 1001,
+      "Híbrida": 1049
+    },
+    "canal_captacion": {
+      "Instagram": 859,
+      "Landing page": 828,
+      "Correo": 847,
+      "Feria universitaria": 861,
+      "Web institucional": 816,
+      "Referido": 829
+    },
+    "estado_proceso": {
+      "Inscrito": 578,
+      "Matriculado": 520,
+      "ADMITIDO": 513,
+      "Nuevo": 565,
+      "Documentación pendiente": 576,
+      "Retirado": 569,
+      "No admitido": 552,
+      "Admitido": 602,
+      "matriculado": 565
+    },
+    "documentos_completos": {
+      "Sí": 1026,
+      "sí": 999,
+      "No": 999,
+      "SI": 998,
+      "Pendiente": 1018
+    },
+    "ciudad_residencia": {
+      "Cali ": 565,
+      "Medellín": 566,
+      "Pasto": 555,
+      "Bogotá": 578,
+      "Popayan": 499,
+      "Popayán": 539,
+      "Santander de Quilichao": 571,
+      "BOGOTA": 593,
+      "Cali": 574
+    },
+    "asesor": {
+      "asesor 1": 1009,
+      "Asesor 3": 996,
+      "Sin asignar": 1009,
+      "Asesor 2": 998,
+      "Asesor 1": 1028
+    },
+    "periodo_academico": {
+      "2026 II": 1042,
+      "2025-2": 981,
+      "2026-I": 1005,
+      "2026-1": 1028,
+      "2026-2": 984
+    }
+  },
+  "importes_por_programa_equivalencia_tildes_mayusculas": {
+    "derecho": [
+      1800000.0,
+      2200000.0,
+      2500000.0,
+      3100000.0,
+      3500000.0
+    ],
+    "administracion de empresas": [
+      1800000.0,
+      2200000.0,
+      2500000.0,
+      3100000.0,
+      3500000.0
+    ],
+    "ingenieria de sistemas": [
+      1800000.0,
+      2200000.0,
+      2500000.0,
+      3100000.0,
+      3500000.0
+    ],
+    "especializacion en gerencia": [
+      1800000.0,
+      2200000.0,
+      2500000.0,
+      3100000.0,
+      3500000.0
+    ],
+    "psicologia": [
+      1800000.0,
+      2200000.0,
+      2500000.0,
+      3100000.0,
+      3500000.0
+    ],
+    "especializacion en data analytics": [
+      1800000.0,
+      2200000.0,
+      2500000.0,
+      3100000.0,
+      3500000.0
+    ],
+    "contaduria publica": [
+      1800000.0,
+      2200000.0,
+      2500000.0,
+      3100000.0,
+      3500000.0
+    ],
+    "": [
+      1800000.0,
+      2200000.0,
+      2500000.0,
+      3100000.0,
+      3500000.0
+    ]
+  },
+  "numericas": {
+    "puntaje_admision": {
+      "n": 4811,
+      "q1": 55.0,
+      "q3": 85.0,
+      "limite_inferior_tukey": 10.0,
+      "limite_superior_tukey": 130.0,
+      "fuera_limites_tukey": 0,
+      "frecuencias": {
+        "40.0": 70,
+        "41.0": 83,
+        "42.0": 62,
+        "43.0": 83,
+        "44.0": 83,
+        "45.0": 89,
+        "46.0": 92,
+        "47.0": 65,
+        "48.0": 82,
+        "49.0": 64,
+        "50.0": 82,
+        "51.0": 75,
+        "52.0": 75,
+        "53.0": 100,
+        "54.0": 62,
+        "55.0": 86,
+        "56.0": 65,
+        "57.0": 74,
+        "58.0": 97,
+        "59.0": 84,
+        "60.0": 81,
+        "61.0": 90,
+        "62.0": 69,
+        "63.0": 81,
+        "64.0": 66,
+        "65.0": 69,
+        "66.0": 105,
+        "67.0": 67,
+        "68.0": 90,
+        "69.0": 92,
+        "70.0": 87,
+        "71.0": 84,
+        "72.0": 80,
+        "73.0": 63,
+        "74.0": 93,
+        "75.0": 72,
+        "76.0": 68,
+        "77.0": 77,
+        "78.0": 65,
+        "79.0": 82,
+        "80.0": 67,
+        "81.0": 75,
+        "82.0": 97,
+        "83.0": 96,
+        "84.0": 77,
+        "85.0": 81,
+        "86.0": 69,
+        "87.0": 77,
+        "88.0": 71,
+        "89.0": 76,
+        "90.0": 71,
+        "91.0": 71,
+        "92.0": 68,
+        "93.0": 67,
+        "94.0": 87,
+        "95.0": 75,
+        "96.0": 81,
+        "97.0": 91,
+        "98.0": 91,
+        "99.0": 82,
+        "100.0": 87
+      }
+    },
+    "valor_matricula_cop": {
+      "n": 4179,
+      "q1": 2200000.0,
+      "q3": 3100000.0,
+      "limite_inferior_tukey": 850000.0,
+      "limite_superior_tukey": 4450000.0,
+      "fuera_limites_tukey": 0,
+      "frecuencias": {
+        "1800000.0": 821,
+        "2200000.0": 881,
+        "2500000.0": 838,
+        "3100000.0": 834,
+        "3500000.0": 805
+      }
+    }
+  },
+  "metodologia": {
+    "base": "5040 filas originales, sin eliminación de duplicados",
+    "hash_csv": "0d4c756649ccff9dcf5c2c2cc5edba0ced8f8e3c157ee2c1f5b4bd2939b8f467",
+    "fechas": "Interpretación temporal en memoria por cinco patrones explícitos. El patrón con guiones y año final se interpreta MM-DD-AAAA; el de barras y año final, DD/MM/AAAA. Abreviaturas de mes en inglés. No modifica los datos originales.",
+    "fecha_referencia": "2026-10-17 es la referencia propuesta por el usuario, no una fecha de corte institucional confirmada.",
+    "equivalencias": "Los cruces indicados usan equivalencias de mayúsculas y tildes en memoria; las categorías originales se mantienen. No representa un catálogo institucional validado.",
+    "atipicos": "Regla exploratoria de Tukey: Q1-1.5*RIC a Q3+1.5*RIC; cuartiles por interpolación lineal. Solo valores numéricos interpretables, conservando duplicados."
+  },
+  "clave_solo_aspirantes_no_vacios": {
+    "grupos": 105,
+    "filas_involucradas": 212,
+    "adicionales": 107
+  }
+}

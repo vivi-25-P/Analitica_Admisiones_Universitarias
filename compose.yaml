@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: admisiones
+      POSTGRES_USER: analista
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Falta POSTGRES_PASSWORD en .env}
+      POSTGRES_INITDB_ARGS: --encoding=UTF8
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-5433}:5432"
+    volumes:
+      - admisiones_data:/var/lib/postgresql/data
+      - ./docker/init:/docker-entrypoint-initdb.d:ro
+      - ./data/raw/Caso2_Admisiones_Universitarias.csv:/datos/admisiones.csv:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U analista -d admisiones"]
+      interval: 3s
+      timeout: 5s
+      retries: 30
+      start_period: 10s
+volumes:
+  admisiones_data:

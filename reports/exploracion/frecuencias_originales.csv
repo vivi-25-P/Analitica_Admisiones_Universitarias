@@ -1,0 +1,55 @@
+campo,valor_original,valor_visible_json,cantidad,porcentaje_filas
+programa,Especialización en Data Analytics,"""Especialización en Data Analytics""",576,11.43
+programa,Ingeniería de Sistemas,"""Ingeniería de Sistemas""",572,11.35
+programa,DERECHO,"""DERECHO""",569,11.29
+programa,Especializacion en Data Analytics,"""Especializacion en Data Analytics""",560,11.11
+programa,Contaduría Pública,"""Contaduría Pública""",558,11.07
+programa,Especialización en Gerencia,"""Especialización en Gerencia""",554,10.99
+programa,Derecho,"""Derecho""",553,10.97
+programa,Psicología,"""Psicología""",549,10.89
+programa,Administración de Empresas,"""Administración de Empresas""",524,10.4
+programa, ,""" """,25,0.5
+modalidad,Híbrida,"""Híbrida""",1049,20.81
+modalidad,Presencial,"""Presencial""",1011,20.06
+modalidad,VIRTUAL,"""VIRTUAL""",1001,19.86
+modalidad,Virtual,"""Virtual""",996,19.76
+modalidad,presencial,"""presencial""",983,19.5
+canal_captacion,Feria universitaria,"""Feria universitaria""",861,17.08
+canal_captacion,Instagram,"""Instagram""",859,17.04
+canal_captacion,Correo,"""Correo""",847,16.81
+canal_captacion,Referido,"""Referido""",829,16.45
+canal_captacion,Landing page,"""Landing page""",828,16.43
+canal_captacion,Web institucional,"""Web institucional""",816,16.19
+estado_proceso,Admitido,"""Admitido""",602,11.94
+estado_proceso,Inscrito,"""Inscrito""",578,11.47
+estado_proceso,Documentación pendiente,"""Documentación pendiente""",576,11.43
+estado_proceso,Retirado,"""Retirado""",569,11.29
+estado_proceso,Nuevo,"""Nuevo""",565,11.21
+estado_proceso,matriculado,"""matriculado""",565,11.21
+estado_proceso,No admitido,"""No admitido""",552,10.95
+estado_proceso,Matriculado,"""Matriculado""",520,10.32
+estado_proceso,ADMITIDO,"""ADMITIDO""",513,10.18
+documentos_completos,Sí,"""Sí""",1026,20.36
+documentos_completos,Pendiente,"""Pendiente""",1018,20.2
+documentos_completos,No,"""No""",999,19.82
+documentos_completos,sí,"""sí""",999,19.82
+documentos_completos,SI,"""SI""",998,19.8
+ciudad_residencia,BOGOTA,"""BOGOTA""",593,11.77
+ciudad_residencia,Bogotá,"""Bogotá""",578,11.47
+ciudad_residencia,Cali,"""Cali""",574,11.39
+ciudad_residencia,Santander de Quilichao,"""Santander de Quilichao""",571,11.33
+ciudad_residencia,Medellín,"""Medellín""",566,11.23
+ciudad_residencia,Cali ,"""Cali """,565,11.21
+ciudad_residencia,Pasto,"""Pasto""",555,11.01
+ciudad_residencia,Popayán,"""Popayán""",539,10.69
+ciudad_residencia,Popayan,"""Popayan""",499,9.9
+asesor,Asesor 1,"""Asesor 1""",1028,20.4
+asesor,Sin asignar,"""Sin asignar""",1009,20.02
+asesor,asesor 1,"""asesor 1""",1009,20.02
+asesor,Asesor 2,"""Asesor 2""",998,19.8
+asesor,Asesor 3,"""Asesor 3""",996,19.76
+periodo_academico,2026 II,"""2026 II""",1042,20.67
+periodo_academico,2026-1,"""2026-1""",1028,20.4
+periodo_academico,2026-I,"""2026-I""",1005,19.94
+periodo_academico,2026-2,"""2026-2""",984,19.52
+periodo_academico,2025-2,"""2025-2""",981,19.46

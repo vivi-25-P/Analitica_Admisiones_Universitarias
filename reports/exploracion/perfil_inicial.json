@@ -1,0 +1,141 @@
+{
+  "filas": 5040,
+  "columnas": 15,
+  "duplicados_exactos_adicionales": 38,
+  "campos": [
+    {
+      "campo": "registro_id",
+      "vacios_exactos": 0,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 0.0,
+      "valores_distintos_no_vacios": 5000
+    },
+    {
+      "campo": "aspirante_id",
+      "vacios_exactos": 92,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 1.83,
+      "valores_distintos_no_vacios": 2924
+    },
+    {
+      "campo": "fecha_solicitud",
+      "vacios_exactos": 0,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 0.0,
+      "valores_distintos_no_vacios": 1226
+    },
+    {
+      "campo": "programa",
+      "vacios_exactos": 0,
+      "solo_espacios": 25,
+      "porcentaje_vacios_exactos": 0.0,
+      "valores_distintos_no_vacios": 10
+    },
+    {
+      "campo": "modalidad",
+      "vacios_exactos": 0,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 0.0,
+      "valores_distintos_no_vacios": 5
+    },
+    {
+      "campo": "canal_captacion",
+      "vacios_exactos": 0,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 0.0,
+      "valores_distintos_no_vacios": 6
+    },
+    {
+      "campo": "estado_proceso",
+      "vacios_exactos": 0,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 0.0,
+      "valores_distintos_no_vacios": 9
+    },
+    {
+      "campo": "puntaje_admision",
+      "vacios_exactos": 179,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 3.55,
+      "valores_distintos_no_vacios": 62
+    },
+    {
+      "campo": "documentos_completos",
+      "vacios_exactos": 0,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 0.0,
+      "valores_distintos_no_vacios": 5
+    },
+    {
+      "campo": "valor_matricula_cop",
+      "vacios_exactos": 826,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 16.39,
+      "valores_distintos_no_vacios": 6
+    },
+    {
+      "campo": "ciudad_residencia",
+      "vacios_exactos": 0,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 0.0,
+      "valores_distintos_no_vacios": 9
+    },
+    {
+      "campo": "asesor",
+      "vacios_exactos": 0,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 0.0,
+      "valores_distintos_no_vacios": 5
+    },
+    {
+      "campo": "fecha_matricula",
+      "vacios_exactos": 2612,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 51.83,
+      "valores_distintos_no_vacios": 755
+    },
+    {
+      "campo": "correo",
+      "vacios_exactos": 120,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 2.38,
+      "valores_distintos_no_vacios": 2908
+    },
+    {
+      "campo": "periodo_academico",
+      "vacios_exactos": 0,
+      "solo_espacios": 0,
+      "porcentaje_vacios_exactos": 0.0,
+      "valores_distintos_no_vacios": 5
+    }
+  ],
+  "registro_id_distintos": 5000,
+  "repeticiones_adicionales_registro_id": 40,
+  "sha256_origen": "0d4c756649ccff9dcf5c2c2cc5edba0ced8f8e3c157ee2c1f5b4bd2939b8f467",
+  "numericas": {
+    "puntaje_admision": {
+      "vacios": 179,
+      "interpretables": 4811,
+      "no_interpretables": {
+        "Pendiente": 50
+      },
+      "minimo": "40.0",
+      "maximo": "100.0",
+      "promedio": "70.05549781750155892745790896",
+      "mediana": "70.0",
+      "nota": "Estadísticas de valores finitos interpretables, sin excluir atípicos ni validar su exactitud."
+    },
+    "valor_matricula_cop": {
+      "vacios": 826,
+      "interpretables": 4179,
+      "no_interpretables": {
+        "por definir": 35
+      },
+      "minimo": "1800000.0",
+      "maximo": "3500000.0",
+      "promedio": "2611605.647284039243838238813",
+      "mediana": "2500000.0",
+      "nota": "Estadísticas de valores finitos interpretables, sin excluir atípicos ni validar su exactitud."
+    }
+  }
+}

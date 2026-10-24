@@ -1,0 +1,14 @@
+{
+  "verificado_bogota": "2026-10-21T10:29:45.611542-05:00",
+  "filas_csv": 5040,
+  "columnas_csv": 15,
+  "sha256_csv": "0d4c756649ccff9dcf5c2c2cc5edba0ced8f8e3c157ee2c1f5b4bd2939b8f467",
+  "tabla_original_igual_csv": true,
+  "datos_originales_tipadas_reconstruyen_csv": true,
+  "celdas_codigo_guardadas_ejecutadas": 16,
+  "graficos_incrustados_notebook": 6,
+  "figuras_png": 8,
+  "figuras_pdf": 8,
+  "migracion_local_sha256": "29385d54c95d60f173c4243552954cb41daf7bb10b71e7704eace2477036b7d5",
+  "respaldos_locales": 4
+}

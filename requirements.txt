@@ -1,0 +1,2 @@
+# Dependencias exportadas desde uv.lock, incluidas las del notebook.
+-r requirement.pip

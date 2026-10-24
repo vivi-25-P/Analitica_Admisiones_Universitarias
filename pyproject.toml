@@ -1,0 +1,30 @@
+[project]
+name = "analitica-admisiones"
+version = "0.1.0"
+description = "Exploración descriptiva y diagnóstico de calidad de admisiones universitarias"
+readme = "README.md"
+authors = [
+    { name = "JLosada-Dev", email = "jd.losada.dev@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "psycopg[binary]>=3.3.6",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+analitica-admisiones = "analitica_admisiones:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+notebooks = [
+    "ipykernel>=7.4.0",
+    "nbclient>=0.11.0",
+    "nbconvert>=7.17.2",
+    "nbformat>=5.11.1",
+]

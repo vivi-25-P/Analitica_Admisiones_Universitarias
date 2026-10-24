@@ -1,0 +1,35 @@
+Cifra o control,Observado,Esperado,Coincide,Respaldo
+Filas,5040,5040,True,Reconocimiento
+Columnas,15,15,True,Reconocimiento
+registro_id distintos,5000,5000,True,Reconocimiento
+aspirante_id distintos no vacíos,2924,2924,True,Reconocimiento
+Vacíos de aspirante_id,92,92,True,Completitud
+Vacíos de puntaje_admision,179,179,True,Completitud
+Vacíos de valor_matricula_cop,826,826,True,Completitud
+Vacíos de fecha_matricula,2612,2612,True,Completitud
+Vacíos de correo,120,120,True,Completitud
+Programa con solo espacios,25,25,True,Completitud
+Duplicados exactos adicionales,38,38,True,Repeticiones
+Filas involucradas exactas,76,76,True,Repeticiones
+Identificadores con discrepancias,2,2,True,Repeticiones
+Fechas solicitud formato alternativo,723,723,True,Fechas
+Periodo 2025 segundo semestre y solicitud 2026,410,410,True,Fechas
+Septiembre de 2026,75,75,True,Cobertura temporal
+Matrícula No aplica,1343,1343,True,Fechas
+Matrículas posteriores a referencia,7,7,True,Fechas; referencia no institucional
+Puntaje Pendiente,50,50,True,Numéricas
+Valor por definir,35,35,True,Numéricas
+Cantidad numérica puntaje_admision,4811,4811,True,Numéricas
+Promedio puntaje_admision,True,True,True,Numéricas
+Mediana puntaje_admision,70.0,70,True,Numéricas
+Negativos puntaje_admision,0,0,True,Numéricas
+Atípicos según criterio puntaje_admision,0,0,True,Numéricas
+Cantidad numérica valor_matricula_cop,4179,4179,True,Numéricas
+Promedio valor_matricula_cop,True,True,True,Numéricas
+Mediana valor_matricula_cop,2500000.0,2500000,True,Numéricas
+Negativos valor_matricula_cop,0,0,True,Numéricas
+Atípicos según criterio valor_matricula_cop,0,0,True,Numéricas
+Matriculados dos etiquetas,1085,1085,True,Cruces explícitos
+Matriculados con No o Pendiente,465,465,True,Cruces explícitos
+Documentación afirmativa tres etiquetas,3023,3023,True,Cruces explícitos
+Datos numéricos y textos siguen intactos,True,True,True,Integridad

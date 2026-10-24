@@ -1,0 +1,22 @@
+{
+  "archivo": "data/raw/Caso2_Admisiones_Universitarias.csv",
+  "sha256": "0d4c756649ccff9dcf5c2c2cc5edba0ced8f8e3c157ee2c1f5b4bd2939b8f467",
+  "filas": 5040,
+  "columnas": [
+    "registro_id",
+    "aspirante_id",
+    "fecha_solicitud",
+    "programa",
+    "modalidad",
+    "canal_captacion",
+    "estado_proceso",
+    "puntaje_admision",
+    "documentos_completos",
+    "valor_matricula_cop",
+    "ciudad_residencia",
+    "asesor",
+    "fecha_matricula",
+    "correo",
+    "periodo_academico"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "filas": 5040,
+  "sha256_original": "0d4c756649ccff9dcf5c2c2cc5edba0ced8f8e3c157ee2c1f5b4bd2939b8f467",
+  "equivalencias_presentacion": {
+    "programa": {
+      "DERECHO": "Derecho",
+      "Especializacion en Data Analytics": "Especialización en Data Analytics",
+      " ": "Sin programa registrado"
+    },
+    "modalidad": {
+      "VIRTUAL": "Virtual",
+      "presencial": "Presencial"
+    },
+    "estado_proceso": {
+      "ADMITIDO": "Admitido",
+      "matriculado": "Matriculado"
+    }
+  },
+  "conteos": {
+    "programa": {
+      "Derecho": 1122,
+      "Administración de Empresas": 524,
+      "Especialización en Gerencia": 554,
+      "Ingeniería de Sistemas": 572,
+      "Psicología": 549,
+      "Especialización en Data Analytics": 1136,
+      "Contaduría Pública": 558,
+      "Sin programa registrado": 25
+    },
+    "modalidad": {
+      "Virtual": 1997,
+      "Presencial": 1994,
+      "Híbrida": 1049
+    },
+    "estado_proceso": {
+      "Inscrito": 578,
+      "Matriculado": 1085,
+      "Admitido": 1115,
+      "Nuevo": 565,
+      "Documentación pendiente": 576,
+      "Retirado": 569,
+      "No admitido": 552
+    }
+  }
+}

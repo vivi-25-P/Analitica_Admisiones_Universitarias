@@ -1,0 +1,16 @@
+* text=auto
+*.py text eol=lf
+*.sql text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.lock text eol=lf
+*.pip text eol=lf
+requirements.txt text eol=lf
+*.ipynb text eol=lf
+# El CSV se conserva byte por byte para mantener su SHA256.
+*.csv -text
+*.pdf binary
+*.pptx binary
+*.png binary
+*.dump binary
