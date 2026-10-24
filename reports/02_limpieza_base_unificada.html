@@ -7796,20 +7796,22 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=65cac8d0">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fb1f7ae8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Limpieza-y-transformaci%C3%B3n-de-BaseUnificada">Limpieza y transformación de BaseUnificada<a class="anchor-link" href="#Limpieza-y-transformaci%C3%B3n-de-BaseUnificada">¶</a></h1><p>Este cuaderno sigue el orden del plan en <code>docs/plan_limpieza_datos.md</code>.
 La integración previa se conserva en el libro de manejo y la entrada congelada.</p>
-<p><strong>Este avance cubre L00, L01, L02 y L03:</strong> identificación de la entrada,
+<p><strong>Este avance cubre L00 a L04:</strong> identificación de la entrada,
 reconstrucción comprobada de la procedencia y estandarización textual mediante
 catálogos explícitos. L01 deja documentadas las decisiones económicas, temporales
 y de catálogo que siguen pendientes; no las da por resueltas. L03 representa las
-ausencias de las demás variables y conserva sus motivos en controles separados.</p>
+ausencias de las demás variables y conserva sus motivos en controles separados.
+L04 interpreta tipos con reglas explícitas, presenta fechas como AAAA-MM-DD y
+mantiene importes decimales exactos en COP; las alertas no se corrigen automáticamente.</p>
 <p><strong>No se elimina ninguna fila.</strong> No se imputan valores, se fusionan solicitudes,
-se cambian importes ni se interpretan o corrigen fechas. El resultado es un estado
+se altera el valor numérico de importes ni se corrigen fechas por aproximación. El resultado es un estado
 intermedio, no una base limpia definitiva. L02 conserva los marcadores recibidos;
 L03 aplica las reglas de ausencia documentadas sin completar datos por suposición.
 Los vacíos y nan de identificadores seguirán sin modificarse hasta los cruces.</p>
@@ -7818,7 +7820,7 @@ y <code>excel</code> de uv. Guardar el notebook antes de ejecutarlo para registr
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=2e20e462">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=541d9db1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7872,7 +7874,7 @@ y <code>excel</code> de uv. Guardar el notebook antes de ejecutarlo para registr
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=36acafb3">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e5a975ac">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7883,7 +7885,7 @@ de negocio corresponde a L04. El índice BU identifica filas de esta versión, n
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6e646b46">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b6af262f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7976,7 +7978,7 @@ de negocio corresponde a L04. El índice BU identifica filas de esta versión, n
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f3b66cb4">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ba2e64fb">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7991,7 +7993,7 @@ Oracle en identificador institucional de persona ni resuelve cuál fuente tiene 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c8b3d868">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=32a711e8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8110,7 +8112,7 @@ Oracle en identificador institucional de persona ni resuelve cuál fuente tiene 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=464f4949">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=289d4d38">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8192,7 +8194,7 @@ Oracle en identificador institucional de persona ni resuelve cuál fuente tiene 
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2d1f9c85">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=923ba877">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8206,7 +8208,7 @@ son diagnóstico y el índice BU sirve para auditar filas, no para reemplazar c�
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=20578cbf">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7fab169a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8220,7 +8222,7 @@ como fueron recibidos. nan no se trata todavía como ausencia: corresponde a L03
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=937cf5c0">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=eba1f637">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8394,7 +8396,7 @@ como fueron recibidos. nan no se trata todavía como ausencia: corresponde a L03
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f216f1ca">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1b83cbce">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8647,7 +8649,7 @@ como fueron recibidos. nan no se trata todavía como ausencia: corresponde a L03
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=87402ffa">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f5124295">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8657,7 +8659,7 @@ La suma de cambios de varias columnas no equivale a filas eliminadas ni a person
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4eedc5d7">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f5f520ac">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8850,7 +8852,7 @@ La suma de cambios de varias columnas no equivale a filas eliminadas ni a person
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a7558c27">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1cb0f1e3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9149,7 +9151,7 @@ La suma de cambios de varias columnas no equivale a filas eliminadas ni a person
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8e94490b">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=156fc1be">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9161,7 +9163,7 @@ las fuentes. Las columnas pendientes se conservaron sin modificar.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e4442f99">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c2123b8d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9351,7 +9353,7 @@ las fuentes. Las columnas pendientes se conservaron sin modificar.</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7dd5859a">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e9f8a0c3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9365,7 +9367,7 @@ etapa cada entrada se conserva como salida individual.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b4cf16ac">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=701914b2">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9494,15 +9496,15 @@ etapa cada entrada se conserva como salida individual.</p>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Datos intermedios: data/interim/taller_2/estandarizacion_v1_f77076f7d8_150bd123_bb959323
-Auditoría: reports/limpieza/ejecuciones/estandarizacion_v1_f77076f7d8_150bd123_bb959323
+<pre>Datos intermedios: data/interim/taller_2/estandarizacion_v1_f77076f7d8_150bd123_a1cf0008
+Auditoría: reports/limpieza/ejecuciones/estandarizacion_v1_f77076f7d8_150bd123_a1cf0008
 </pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5fc3f8ea">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=671a41d6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9517,7 +9519,7 @@ en la base; no se presume su causa institucional ni se convierte en cero.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c69fb183">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0877b7b7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9617,7 +9619,7 @@ en la base; no se presume su causa institucional ni se convierte en cero.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9deafc99">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=930a7dee">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9875,7 +9877,7 @@ en la base; no se presume su causa institucional ni se convierte en cero.</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b6c5f080">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dc07398f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9886,7 +9888,7 @@ La relación de identificadores pospuestos es solo un listado de revisión, sin 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=eb3a9def">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7cec18a8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10064,7 +10066,7 @@ La relación de identificadores pospuestos es solo un listado de revisión, sin 
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a0a37f36">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=745bcb34">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10076,7 +10078,7 @@ de ausencia, el inventario de identificadores pospuestos y el resumen de ejecuci
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a97c83e9">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4f5863aa">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10208,23 +10210,1328 @@ de ausencia, el inventario de identificadores pospuestos y el resumen de ejecuci
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Datos L03: data/interim/taller_2/ausencias_v1_526ff5e27b_8850cae3_bb959323
-Auditoría L03: reports/limpieza/ejecuciones/ausencias_v1_526ff5e27b_8850cae3_bb959323
+<pre>Datos L03: data/interim/taller_2/ausencias_v1_526ff5e27b_8850cae3_a1cf0008
+Auditoría L03: reports/limpieza/ejecuciones/ausencias_v1_526ff5e27b_8850cae3_a1cf0008
 </pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d3b9b245">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f36004a0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="L04.-Tipos,-fechas-AAAA-MM-DD-e-importes-COP">L04. Tipos, fechas AAAA-MM-DD e importes COP<a class="anchor-link" href="#L04.-Tipos,-fechas-AAAA-MM-DD-e-importes-COP">¶</a></h2><p>Se convierte cada valor informado mediante una regla explícita y se conserva su
+representación anterior en la auditoría. Los nulos de L03 mantienen sus motivos.
+Los identificadores permanecen como texto sin cambios.</p>
+<p>Las fechas se interpretan con las cinco convenciones ya documentadas y se muestran
+como AAAA-MM-DD. Si día y mes admiten dos lecturas, se registra una alerta aun cuando
+se aplique la convención correspondiente al formato. Esto no confirma su exactitud
+institucional ni resuelve las discrepancias entre Oracle y las otras fuentes.</p>
+<p>El dinero se maneja con Decimal y escala de dos decimales, sin float ni redondeo
+automático. En tablas se presenta como COP 2.200.000,00. Excel guarda un número con
+formato monetario; sus separadores dependen de la configuración regional del equipo.
+El CSV guarda 2200000.00, sin símbolo ni separadores de miles, para intercambio.
+Los conceptos económicos distintos de las fuentes siguen pendientes de conciliación.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=de81fd7b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">date</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">decimal</span><span class="w"> </span><span class="kn">import</span> <span class="n">Decimal</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">ROOT</span> <span class="o">/</span> <span class="s1">'src'</span><span class="p">))</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">analitica_admisiones.tipado_limpieza</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
+    <span class="n">interpretar_fecha</span><span class="p">,</span> <span class="n">interpretar_decimal</span><span class="p">,</span> <span class="n">interpretar_cop</span><span class="p">,</span> <span class="n">interpretar_entero</span><span class="p">,</span> <span class="n">mostrar_cop</span><span class="p">)</span>
+
+<span class="n">TYPES_PATH</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s1">'config/limpieza/tipos_v1.json'</span>
+<span class="n">TYPES</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">TYPES_PATH</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s1">'utf8'</span><span class="p">))</span>
+<span class="n">TYPES_SHA</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">TYPES_PATH</span><span class="o">.</span><span class="n">read_bytes</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+<span class="n">MODULE_PATH</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s1">'src/analitica_admisiones/tipado_limpieza.py'</span>
+<span class="n">MODULE_SHA</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">MODULE_PATH</span><span class="o">.</span><span class="n">read_bytes</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+<span class="n">L04_ID</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">TYPES</span><span class="p">[</span><span class="s1">'version'</span><span class="p">]</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">L03_OUTPUT_SHA</span><span class="p">[:</span><span class="mi">10</span><span class="p">]</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">TYPES_SHA</span><span class="p">[:</span><span class="mi">8</span><span class="p">]</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">MODULE_SHA</span><span class="p">[:</span><span class="mi">8</span><span class="p">]</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">CODE_SHA</span><span class="p">[:</span><span class="mi">8</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span>
+<span class="n">entrada_l04</span> <span class="o">=</span> <span class="n">df_ausencias</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">convertir_columnas</span> <span class="o">=</span> <span class="p">[</span><span class="o">*</span><span class="n">TYPES</span><span class="p">[</span><span class="s1">'fechas'</span><span class="p">],</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'puntaje'</span><span class="p">],</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">],</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'entero'</span><span class="p">],</span> <span class="s1">'periodo_academico'</span><span class="p">]</span>
+<span class="n">tipos_logicos</span> <span class="o">=</span> <span class="p">{</span><span class="n">c</span><span class="p">:</span> <span class="s1">'texto'</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">HEADERS</span><span class="p">}</span>
+<span class="n">tipos_logicos</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="n">c</span><span class="p">:</span> <span class="s1">'fecha'</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'fechas'</span><span class="p">]})</span>
+<span class="n">tipos_logicos</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="n">TYPES</span><span class="p">[</span><span class="s1">'puntaje'</span><span class="p">]:</span> <span class="s1">'decimal'</span><span class="p">,</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">]:</span> <span class="s1">'decimal COP, escala 2'</span><span class="p">,</span>
+                     <span class="n">TYPES</span><span class="p">[</span><span class="s1">'entero'</span><span class="p">]:</span> <span class="s1">'entero'</span><span class="p">,</span> <span class="s1">'periodo_academico'</span><span class="p">:</span> <span class="s1">'entero identificador'</span><span class="p">})</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">texto_intercambio</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">value</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s1">''</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">date</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">value</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">Decimal</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">format</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="s1">'f'</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">convertir_l04</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">columna</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'fechas'</span><span class="p">]:</span>
+        <span class="n">parsed</span> <span class="o">=</span> <span class="n">interpretar_fecha</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">parsed</span><span class="o">.</span><span class="n">valor</span><span class="p">,</span> <span class="n">parsed</span><span class="o">.</span><span class="n">formato</span><span class="p">,</span> <span class="n">parsed</span><span class="o">.</span><span class="n">dia_mes_ambiguo</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="o">==</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'puntaje'</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="n">interpretar_decimal</span><span class="p">(</span><span class="n">value</span><span class="p">),</span> <span class="s1">'decimal_punto'</span><span class="p">,</span> <span class="kc">False</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="o">==</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="n">interpretar_cop</span><span class="p">(</span><span class="n">value</span><span class="p">),</span> <span class="s1">'COP_decimal_punto_sin_miles'</span><span class="p">,</span> <span class="kc">False</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="o">==</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'entero'</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="n">interpretar_entero</span><span class="p">(</span><span class="n">value</span><span class="p">),</span> <span class="s1">'entero_exacto'</span><span class="p">,</span> <span class="kc">False</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="o">==</span> <span class="s1">'periodo_academico'</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">value</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'periodo'</span><span class="p">]:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">'Periodo sin equivalencia adoptada'</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'periodo'</span><span class="p">][</span><span class="n">value</span><span class="p">],</span> <span class="s1">'codigo_periodo_adoptado'</span><span class="p">,</span> <span class="kc">False</span>
+    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">'Columna sin regla de conversión'</span><span class="p">)</span>
+
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([{</span><span class="s1">'Columna'</span><span class="p">:</span> <span class="n">c</span><span class="p">,</span> <span class="s1">'Tipo lógico'</span><span class="p">:</span> <span class="n">tipos_logicos</span><span class="p">[</span><span class="n">c</span><span class="p">]}</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">HEADERS</span><span class="p">]))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Columna</th>
+<th>Tipo lógico</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>registro_id</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>1</th>
+<td>aspirante_id</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>2</th>
+<td>fecha_solicitud</td>
+<td>fecha</td>
+</tr>
+<tr>
+<th>3</th>
+<td>programa</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>4</th>
+<td>modalidad</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>5</th>
+<td>canal_captacion</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>6</th>
+<td>estado_proceso</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>7</th>
+<td>puntaje_admision</td>
+<td>decimal</td>
+</tr>
+<tr>
+<th>8</th>
+<td>documentos_completos</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>9</th>
+<td>valor_matricula_cop</td>
+<td>decimal COP, escala 2</td>
+</tr>
+<tr>
+<th>10</th>
+<td>ciudad_residencia</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>11</th>
+<td>asesor</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>12</th>
+<td>fecha_matricula</td>
+<td>fecha</td>
+</tr>
+<tr>
+<th>13</th>
+<td>correo</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>14</th>
+<td>periodo_academico</td>
+<td>entero identificador</td>
+</tr>
+<tr>
+<th>15</th>
+<td>facultad</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>16</th>
+<td>duracion_semestres</td>
+<td>entero</td>
+</tr>
+<tr>
+<th>17</th>
+<td>nivel_formacion</td>
+<td>texto</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=935f434e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_tipadas</span> <span class="o">=</span> <span class="n">entrada_l04</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">object</span><span class="p">)</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">conversiones_l04</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">errores_l04</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">ambiguas_l04</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">pasos_l04</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">numero</span><span class="p">,</span> <span class="n">columna</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">convertir_columnas</span><span class="p">,</span> <span class="mi">1</span><span class="p">):</span>
+    <span class="n">values</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">exitos</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">errores_columna</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">indice</span><span class="p">,</span> <span class="n">anterior</span> <span class="ow">in</span> <span class="n">entrada_l04</span><span class="p">[</span><span class="n">columna</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">anterior</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">values</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="kc">None</span><span class="p">)</span>
+            <span class="k">continue</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">posterior</span><span class="p">,</span> <span class="n">formato</span><span class="p">,</span> <span class="n">ambigua</span> <span class="o">=</span> <span class="n">convertir_l04</span><span class="p">(</span><span class="n">anterior</span><span class="p">,</span> <span class="n">columna</span><span class="p">)</span>
+            <span class="n">values</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">posterior</span><span class="p">)</span>
+            <span class="n">exitos</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">conversiones_l04</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">'id_ejecucion'</span><span class="p">:</span> <span class="n">L04_ID</span><span class="p">,</span> <span class="s1">'paso'</span><span class="p">:</span> <span class="s1">'L04'</span><span class="p">,</span> <span class="s1">'regla'</span><span class="p">:</span> <span class="sa">f</span><span class="s1">'T</span><span class="si">{</span><span class="n">numero</span><span class="si">:</span><span class="s1">02d</span><span class="si">}</span><span class="s1">'</span><span class="p">,</span>
+                <span class="s1">'id_fila_entrada'</span><span class="p">:</span> <span class="n">ids_fila</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">indice</span><span class="p">],</span> <span class="s1">'registro_id'</span><span class="p">:</span> <span class="n">original</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">indice</span><span class="p">,</span> <span class="s1">'registro_id'</span><span class="p">],</span>
+                <span class="s1">'columna'</span><span class="p">:</span> <span class="n">columna</span><span class="p">,</span> <span class="s1">'valor_anterior'</span><span class="p">:</span> <span class="n">anterior</span><span class="p">,</span>
+                <span class="s1">'valor_posterior'</span><span class="p">:</span> <span class="n">texto_intercambio</span><span class="p">(</span><span class="n">posterior</span><span class="p">),</span> <span class="s1">'tipo_anterior'</span><span class="p">:</span> <span class="s1">'texto'</span><span class="p">,</span>
+                <span class="s1">'tipo_posterior'</span><span class="p">:</span> <span class="n">tipos_logicos</span><span class="p">[</span><span class="n">columna</span><span class="p">],</span> <span class="s1">'formato_origen'</span><span class="p">:</span> <span class="n">formato</span><span class="p">,</span>
+                <span class="s1">'cambio_de_tipo'</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">'cambio_de_representacion'</span><span class="p">:</span> <span class="n">anterior</span> <span class="o">!=</span> <span class="n">texto_intercambio</span><span class="p">(</span><span class="n">posterior</span><span class="p">)})</span>
+            <span class="k">if</span> <span class="n">ambigua</span><span class="p">:</span>
+                <span class="n">ambiguas_l04</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">'id_fila_entrada'</span><span class="p">:</span> <span class="n">ids_fila</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">indice</span><span class="p">],</span> <span class="s1">'columna'</span><span class="p">:</span> <span class="n">columna</span><span class="p">,</span>
+                    <span class="s1">'valor_original'</span><span class="p">:</span> <span class="n">anterior</span><span class="p">,</span> <span class="s1">'fecha_interpretada'</span><span class="p">:</span> <span class="n">posterior</span><span class="o">.</span><span class="n">isoformat</span><span class="p">(),</span>
+                    <span class="s1">'convencion_aplicada'</span><span class="p">:</span> <span class="n">formato</span><span class="p">,</span> <span class="s1">'estado'</span><span class="p">:</span> <span class="s1">'Revisar convención con la fuente'</span><span class="p">})</span>
+        <span class="k">except</span> <span class="p">(</span><span class="ne">ValueError</span><span class="p">,</span> <span class="ne">ArithmeticError</span><span class="p">)</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+            <span class="n">values</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="kc">None</span><span class="p">)</span>
+            <span class="n">errores_columna</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">errores_l04</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">'id_ejecucion'</span><span class="p">:</span> <span class="n">L04_ID</span><span class="p">,</span> <span class="s1">'id_fila_entrada'</span><span class="p">:</span> <span class="n">ids_fila</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">indice</span><span class="p">],</span>
+                <span class="s1">'registro_id'</span><span class="p">:</span> <span class="n">original</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">indice</span><span class="p">,</span> <span class="s1">'registro_id'</span><span class="p">],</span> <span class="s1">'columna'</span><span class="p">:</span> <span class="n">columna</span><span class="p">,</span>
+                <span class="s1">'valor_original'</span><span class="p">:</span> <span class="n">anterior</span><span class="p">,</span> <span class="s1">'motivo'</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">exc</span><span class="p">),</span> <span class="s1">'tratamiento'</span><span class="p">:</span> <span class="s1">'Ausente tipado con original conservado; sin imputación'</span><span class="p">})</span>
+    <span class="n">df_tipadas</span><span class="p">[</span><span class="n">columna</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">values</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="n">entrada_l04</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">object</span><span class="p">)</span>
+    <span class="n">pasos_l04</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">'id_ejecucion'</span><span class="p">:</span> <span class="n">L04_ID</span><span class="p">,</span> <span class="s1">'paso'</span><span class="p">:</span> <span class="s1">'L04'</span><span class="p">,</span> <span class="s1">'regla'</span><span class="p">:</span> <span class="sa">f</span><span class="s1">'T</span><span class="si">{</span><span class="n">numero</span><span class="si">:</span><span class="s1">02d</span><span class="si">}</span><span class="s1">'</span><span class="p">,</span>
+        <span class="s1">'columna'</span><span class="p">:</span> <span class="n">columna</span><span class="p">,</span> <span class="s1">'filas_antes'</span><span class="p">:</span> <span class="n">N</span><span class="p">,</span> <span class="s1">'filas_despues'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_tipadas</span><span class="p">),</span>
+        <span class="s1">'valores_convertidos'</span><span class="p">:</span> <span class="n">exitos</span><span class="p">,</span> <span class="s1">'ausencias_previas_conservadas'</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">entrada_l04</span><span class="p">[</span><span class="n">columna</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()),</span>
+        <span class="s1">'errores_conversion'</span><span class="p">:</span> <span class="n">errores_columna</span><span class="p">,</span> <span class="s1">'filas_excluidas'</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">'valores_imputados'</span><span class="p">:</span> <span class="mi">0</span><span class="p">})</span>
+
+<span class="n">conversiones_l04_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">conversiones_l04</span><span class="p">)</span>
+<span class="n">errores_l04_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">errores_l04</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'id_ejecucion'</span><span class="p">,</span> <span class="s1">'id_fila_entrada'</span><span class="p">,</span> <span class="s1">'registro_id'</span><span class="p">,</span> <span class="s1">'columna'</span><span class="p">,</span> <span class="s1">'valor_original'</span><span class="p">,</span> <span class="s1">'motivo'</span><span class="p">,</span> <span class="s1">'tratamiento'</span><span class="p">])</span>
+<span class="n">ambiguas_l04_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">ambiguas_l04</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'id_fila_entrada'</span><span class="p">,</span> <span class="s1">'columna'</span><span class="p">,</span> <span class="s1">'valor_original'</span><span class="p">,</span> <span class="s1">'fecha_interpretada'</span><span class="p">,</span> <span class="s1">'convencion_aplicada'</span><span class="p">,</span> <span class="s1">'estado'</span><span class="p">])</span>
+<span class="n">pasos_l04_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">pasos_l04</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pasos_l04_df</span><span class="p">)</span>
+<span class="n">indices_importe</span> <span class="o">=</span> <span class="n">df_tipadas</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="n">df_tipadas</span><span class="p">[</span><span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">]]</span><span class="o">.</span><span class="n">notna</span><span class="p">()][:</span><span class="mi">5</span><span class="p">]</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([{</span><span class="s1">'Recibido'</span><span class="p">:</span> <span class="n">entrada_l04</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">]],</span>
+    <span class="s1">'Valor exacto de intercambio'</span><span class="p">:</span> <span class="n">texto_intercambio</span><span class="p">(</span><span class="n">df_tipadas</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">]]),</span>
+    <span class="s1">'Presentación Colombia'</span><span class="p">:</span> <span class="n">mostrar_cop</span><span class="p">(</span><span class="n">df_tipadas</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">]])}</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">indices_importe</span><span class="p">]))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>id_ejecucion</th>
+<th>paso</th>
+<th>regla</th>
+<th>columna</th>
+<th>filas_antes</th>
+<th>filas_despues</th>
+<th>valores_convertidos</th>
+<th>ausencias_previas_conservadas</th>
+<th>errores_conversion</th>
+<th>filas_excluidas</th>
+<th>valores_imputados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008</td>
+<td>L04</td>
+<td>T01</td>
+<td>fecha_solicitud</td>
+<td>5640</td>
+<td>5640</td>
+<td>5640</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>1</th>
+<td>tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008</td>
+<td>L04</td>
+<td>T02</td>
+<td>fecha_matricula</td>
+<td>5640</td>
+<td>5640</td>
+<td>1206</td>
+<td>4434</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>2</th>
+<td>tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008</td>
+<td>L04</td>
+<td>T03</td>
+<td>puntaje_admision</td>
+<td>5640</td>
+<td>5640</td>
+<td>5389</td>
+<td>251</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>3</th>
+<td>tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008</td>
+<td>L04</td>
+<td>T04</td>
+<td>valor_matricula_cop</td>
+<td>5640</td>
+<td>5640</td>
+<td>4698</td>
+<td>942</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>4</th>
+<td>tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008</td>
+<td>L04</td>
+<td>T05</td>
+<td>duracion_semestres</td>
+<td>5640</td>
+<td>5640</td>
+<td>5613</td>
+<td>27</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>5</th>
+<td>tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008</td>
+<td>L04</td>
+<td>T06</td>
+<td>periodo_academico</td>
+<td>5640</td>
+<td>5640</td>
+<td>5640</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Recibido</th>
+<th>Valor exacto de intercambio</th>
+<th>Presentación Colombia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>2200000.0</td>
+<td>2200000.00</td>
+<td>COP 2.200.000,00</td>
+</tr>
+<tr>
+<th>1</th>
+<td>2500000.0</td>
+<td>2500000.00</td>
+<td>COP 2.500.000,00</td>
+</tr>
+<tr>
+<th>2</th>
+<td>2500000.0</td>
+<td>2500000.00</td>
+<td>COP 2.500.000,00</td>
+</tr>
+<tr>
+<th>3</th>
+<td>2200000.0</td>
+<td>2200000.00</td>
+<td>COP 2.200.000,00</td>
+</tr>
+<tr>
+<th>4</th>
+<td>3500000.0</td>
+<td>3500000.00</td>
+<td>COP 3.500.000,00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3cdd70d4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Validaciones-y-alertas,-sin-correcci%C3%B3n-autom%C3%A1tica">Validaciones y alertas, sin corrección automática<a class="anchor-link" href="#Validaciones-y-alertas,-sin-correcci%C3%B3n-autom%C3%A1tica">¶</a></h3><p>La fecha de referencia es la de revisión, no un corte institucional confirmado.
+Las fechas posteriores, periodos dispares, matrícula anterior a solicitud o documentación
+pendiente se registran para revisar; no se modifican por esta condición. No se impone
+una escala oficial de puntaje ni una tarifa de matrícula a partir del rango observado.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c9f1fb47">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">referencia_l04</span> <span class="o">=</span> <span class="n">date</span><span class="o">.</span><span class="n">fromisoformat</span><span class="p">(</span><span class="n">TYPES</span><span class="p">[</span><span class="s1">'fecha_referencia_alertas'</span><span class="p">])</span>
+<span class="n">alertas_l04</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">origen_por_fila</span> <span class="o">=</span> <span class="n">origen_df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'id_fila_entrada'</span><span class="p">)[</span><span class="s1">'origen_sistema'</span><span class="p">]</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">alerta_l04</span><span class="p">(</span><span class="n">indice</span><span class="p">,</span> <span class="n">columna</span><span class="p">,</span> <span class="n">motivo</span><span class="p">,</span> <span class="n">detalle</span><span class="p">):</span>
+    <span class="n">ident</span> <span class="o">=</span> <span class="n">ids_fila</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">indice</span><span class="p">]</span>
+    <span class="n">alertas_l04</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">'id_ejecucion'</span><span class="p">:</span> <span class="n">L04_ID</span><span class="p">,</span> <span class="s1">'id_fila_entrada'</span><span class="p">:</span> <span class="n">ident</span><span class="p">,</span>
+        <span class="s1">'registro_id'</span><span class="p">:</span> <span class="n">original</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">indice</span><span class="p">,</span> <span class="s1">'registro_id'</span><span class="p">],</span> <span class="s1">'origen_sistema'</span><span class="p">:</span> <span class="n">origen_por_fila</span><span class="p">[</span><span class="n">ident</span><span class="p">],</span>
+        <span class="s1">'columna'</span><span class="p">:</span> <span class="n">columna</span><span class="p">,</span> <span class="s1">'alerta'</span><span class="p">:</span> <span class="n">motivo</span><span class="p">,</span> <span class="s1">'detalle'</span><span class="p">:</span> <span class="n">detalle</span><span class="p">,</span> <span class="s1">'accion'</span><span class="p">:</span> <span class="s1">'Conservar y revisar'</span><span class="p">})</span>
+
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">ambiguas_l04</span><span class="p">:</span>
+    <span class="n">indice</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s1">'id_fila_entrada'</span><span class="p">][</span><span class="mi">2</span><span class="p">:])</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="n">alerta_l04</span><span class="p">(</span><span class="n">indice</span><span class="p">,</span> <span class="n">item</span><span class="p">[</span><span class="s1">'columna'</span><span class="p">],</span> <span class="s1">'formato_dia_mes_ambiguo'</span><span class="p">,</span>
+        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">item</span><span class="p">[</span><span class="s1">'valor_original'</span><span class="p">]</span><span class="si">}</span><span class="s2"> interpretado como </span><span class="si">{</span><span class="n">item</span><span class="p">[</span><span class="s1">'fecha_interpretada'</span><span class="p">]</span><span class="si">}</span><span class="s2"> mediante </span><span class="si">{</span><span class="n">item</span><span class="p">[</span><span class="s1">'convencion_aplicada'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">indice</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">df_tipadas</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+    <span class="n">solicitud</span><span class="p">,</span> <span class="n">matricula</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="s1">'fecha_solicitud'</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="s1">'fecha_matricula'</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'fechas'</span><span class="p">]:</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="n">columna</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">value</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">value</span> <span class="o">&gt;</span> <span class="n">referencia_l04</span><span class="p">:</span>
+            <span class="n">alerta_l04</span><span class="p">(</span><span class="n">indice</span><span class="p">,</span> <span class="n">columna</span><span class="p">,</span> <span class="s1">'fecha_posterior_a_referencia'</span><span class="p">,</span> <span class="n">value</span><span class="o">.</span><span class="n">isoformat</span><span class="p">())</span>
+    <span class="k">if</span> <span class="n">solicitud</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">matricula</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">matricula</span> <span class="o">&lt;</span> <span class="n">solicitud</span><span class="p">:</span>
+        <span class="n">alerta_l04</span><span class="p">(</span><span class="n">indice</span><span class="p">,</span> <span class="s1">'fecha_matricula'</span><span class="p">,</span> <span class="s1">'matricula_anterior_a_solicitud'</span><span class="p">,</span>
+                    <span class="sa">f</span><span class="s1">'Solicitud </span><span class="si">{</span><span class="n">solicitud</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span><span class="si">}</span><span class="s1">; matrícula </span><span class="si">{</span><span class="n">matricula</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+    <span class="n">periodo</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="s1">'periodo_academico'</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">solicitud</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">periodo</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">solicitud</span><span class="o">.</span><span class="n">year</span> <span class="o">&gt;</span> <span class="n">periodo</span> <span class="o">//</span> <span class="mi">10</span><span class="p">:</span>
+        <span class="n">alerta_l04</span><span class="p">(</span><span class="n">indice</span><span class="p">,</span> <span class="s1">'periodo_academico'</span><span class="p">,</span> <span class="s1">'solicitud_posterior_al_anio_del_periodo'</span><span class="p">,</span>
+                    <span class="sa">f</span><span class="s1">'Solicitud </span><span class="si">{</span><span class="n">solicitud</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span><span class="si">}</span><span class="s1">; periodo </span><span class="si">{</span><span class="n">periodo</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">columna</span> <span class="ow">in</span> <span class="p">[</span><span class="n">TYPES</span><span class="p">[</span><span class="s1">'puntaje'</span><span class="p">],</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">],</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'entero'</span><span class="p">]]:</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="n">columna</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">value</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">value</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">alerta_l04</span><span class="p">(</span><span class="n">indice</span><span class="p">,</span> <span class="n">columna</span><span class="p">,</span> <span class="s1">'valor_negativo'</span><span class="p">,</span> <span class="n">texto_intercambio</span><span class="p">(</span><span class="n">value</span><span class="p">))</span>
+    <span class="k">if</span> <span class="n">row</span><span class="p">[</span><span class="s1">'duracion_semestres'</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">row</span><span class="p">[</span><span class="s1">'duracion_semestres'</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">}:</span>
+        <span class="n">alerta_l04</span><span class="p">(</span><span class="n">indice</span><span class="p">,</span> <span class="s1">'duracion_semestres'</span><span class="p">,</span> <span class="s1">'duracion_fuera_del_catalogo_de_trabajo'</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">'duracion_semestres'</span><span class="p">]))</span>
+    <span class="k">if</span> <span class="n">row</span><span class="p">[</span><span class="s1">'estado_proceso'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'Matriculado'</span> <span class="ow">and</span> <span class="n">row</span><span class="p">[</span><span class="s1">'documentos_completos'</span><span class="p">]</span> <span class="ow">in</span> <span class="p">{</span><span class="s1">'No'</span><span class="p">,</span> <span class="s1">'Pendiente'</span><span class="p">}:</span>
+        <span class="n">alerta_l04</span><span class="p">(</span><span class="n">indice</span><span class="p">,</span> <span class="s1">'documentos_completos'</span><span class="p">,</span> <span class="s1">'matriculado_con_documentacion_no_completa'</span><span class="p">,</span> <span class="n">row</span><span class="p">[</span><span class="s1">'documentos_completos'</span><span class="p">])</span>
+
+<span class="n">alertas_l04_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">alertas_l04</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'id_ejecucion'</span><span class="p">,</span> <span class="s1">'id_fila_entrada'</span><span class="p">,</span> <span class="s1">'registro_id'</span><span class="p">,</span>
+    <span class="s1">'origen_sistema'</span><span class="p">,</span> <span class="s1">'columna'</span><span class="p">,</span> <span class="s1">'alerta'</span><span class="p">,</span> <span class="s1">'detalle'</span><span class="p">,</span> <span class="s1">'accion'</span><span class="p">])</span>
+<span class="n">display</span><span class="p">(</span><span class="n">alertas_l04_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'alerta'</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="n">Incidencias</span><span class="o">=</span><span class="p">(</span><span class="s1">'id_fila_entrada'</span><span class="p">,</span> <span class="s1">'size'</span><span class="p">),</span>
+    <span class="n">Filas_distintas</span><span class="o">=</span><span class="p">(</span><span class="s1">'id_fila_entrada'</span><span class="p">,</span> <span class="s1">'nunique'</span><span class="p">))</span><span class="o">.</span><span class="n">reset_index</span><span class="p">())</span>
+<span class="n">display</span><span class="p">(</span><span class="n">ambiguas_l04_df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">8</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">errores_l04_df</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df_tipadas</span><span class="p">[</span><span class="s1">'periodo_academico'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">dropna</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">'Registros por código de periodo'</span><span class="p">)</span><span class="o">.</span><span class="n">to_frame</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>alerta</th>
+<th>Incidencias</th>
+<th>Filas_distintas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>fecha_posterior_a_referencia</td>
+<td>30</td>
+<td>29</td>
+</tr>
+<tr>
+<th>1</th>
+<td>formato_dia_mes_ambiguo</td>
+<td>237</td>
+<td>232</td>
+</tr>
+<tr>
+<th>2</th>
+<td>matricula_anterior_a_solicitud</td>
+<td>32</td>
+<td>32</td>
+</tr>
+<tr>
+<th>3</th>
+<td>matriculado_con_documentacion_no_completa</td>
+<td>524</td>
+<td>524</td>
+</tr>
+<tr>
+<th>4</th>
+<td>solicitud_posterior_al_anio_del_periodo</td>
+<td>470</td>
+<td>470</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>id_fila_entrada</th>
+<th>columna</th>
+<th>valor_original</th>
+<th>fecha_interpretada</th>
+<th>convencion_aplicada</th>
+<th>estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>BU000048</td>
+<td>fecha_solicitud</td>
+<td>06/02/2026</td>
+<td>2026-02-06</td>
+<td>DD/MM/AAAA</td>
+<td>Revisar convención con la fuente</td>
+</tr>
+<tr>
+<th>1</th>
+<td>BU000067</td>
+<td>fecha_solicitud</td>
+<td>10/09/2025</td>
+<td>2025-09-10</td>
+<td>DD/MM/AAAA</td>
+<td>Revisar convención con la fuente</td>
+</tr>
+<tr>
+<th>2</th>
+<td>BU000090</td>
+<td>fecha_solicitud</td>
+<td>05/12/2025</td>
+<td>2025-12-05</td>
+<td>DD/MM/AAAA</td>
+<td>Revisar convención con la fuente</td>
+</tr>
+<tr>
+<th>3</th>
+<td>BU000143</td>
+<td>fecha_solicitud</td>
+<td>02/05/2026</td>
+<td>2026-05-02</td>
+<td>DD/MM/AAAA</td>
+<td>Revisar convención con la fuente</td>
+</tr>
+<tr>
+<th>4</th>
+<td>BU000186</td>
+<td>fecha_solicitud</td>
+<td>10-08-2025</td>
+<td>2025-10-08</td>
+<td>MM-DD-AAAA</td>
+<td>Revisar convención con la fuente</td>
+</tr>
+<tr>
+<th>5</th>
+<td>BU000199</td>
+<td>fecha_solicitud</td>
+<td>08/02/2025</td>
+<td>2025-02-08</td>
+<td>DD/MM/AAAA</td>
+<td>Revisar convención con la fuente</td>
+</tr>
+<tr>
+<th>6</th>
+<td>BU000238</td>
+<td>fecha_solicitud</td>
+<td>10/04/2025</td>
+<td>2025-04-10</td>
+<td>DD/MM/AAAA</td>
+<td>Revisar convención con la fuente</td>
+</tr>
+<tr>
+<th>7</th>
+<td>BU000244</td>
+<td>fecha_solicitud</td>
+<td>07-02-2025</td>
+<td>2025-07-02</td>
+<td>MM-DD-AAAA</td>
+<td>Revisar convención con la fuente</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>id_ejecucion</th>
+<th>id_fila_entrada</th>
+<th>registro_id</th>
+<th>columna</th>
+<th>valor_original</th>
+<th>motivo</th>
+<th>tratamiento</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Registros por código de periodo</th>
+</tr>
+<tr>
+<th>periodo_academico</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>20261</th>
+<td>2291</td>
+</tr>
+<tr>
+<th>20262</th>
+<td>2247</td>
+</tr>
+<tr>
+<th>20252</th>
+<td>1102</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4a64667b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">tipo_correcto</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">columna</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">value</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'fechas'</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="nb">type</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="ow">is</span> <span class="n">date</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="ow">in</span> <span class="p">{</span><span class="n">TYPES</span><span class="p">[</span><span class="s1">'puntaje'</span><span class="p">],</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">]}:</span>
+        <span class="k">return</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">Decimal</span><span class="p">)</span> <span class="ow">and</span> <span class="n">value</span><span class="o">.</span><span class="n">is_finite</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="ow">in</span> <span class="p">{</span><span class="n">TYPES</span><span class="p">[</span><span class="s1">'entero'</span><span class="p">],</span> <span class="s1">'periodo_academico'</span><span class="p">}:</span>
+        <span class="k">return</span> <span class="nb">type</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="ow">is</span> <span class="nb">int</span>
+    <span class="k">return</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span>
+
+<span class="n">errores_index</span> <span class="o">=</span> <span class="p">{(</span><span class="n">r</span><span class="p">[</span><span class="s1">'id_fila_entrada'</span><span class="p">],</span> <span class="n">r</span><span class="p">[</span><span class="s1">'columna'</span><span class="p">])</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">errores_l04</span><span class="p">}</span>
+<span class="n">informados_preservados</span> <span class="o">=</span> <span class="nb">all</span><span class="p">(</span>
+    <span class="p">(</span><span class="n">ids_fila</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">c</span><span class="p">)</span> <span class="ow">in</span> <span class="n">errores_index</span> <span class="ow">or</span> <span class="n">entrada_l04</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">c</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span>
+    <span class="p">(</span><span class="n">interpretar_decimal</span><span class="p">(</span><span class="n">entrada_l04</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">c</span><span class="p">])</span> <span class="o">==</span> <span class="n">df_tipadas</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">c</span><span class="p">])</span>
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">[</span><span class="n">TYPES</span><span class="p">[</span><span class="s1">'puntaje'</span><span class="p">],</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">],</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'entero'</span><span class="p">]]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">entrada_l04</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
+<span class="n">ausencias_preservadas</span> <span class="o">=</span> <span class="nb">all</span><span class="p">(</span>
+    <span class="n">df_tipadas</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">c</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span>
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">HEADERS</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">entrada_l04</span><span class="o">.</span><span class="n">index</span> <span class="k">if</span> <span class="n">entrada_l04</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">c</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)</span>
+<span class="n">columnas_iguales</span> <span class="o">=</span> <span class="p">[</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">HEADERS</span> <span class="k">if</span> <span class="n">c</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">convertir_columnas</span><span class="p">]</span>
+<span class="n">controles_l04</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span>
+    <span class="p">[</span><span class="s1">'Filas y orden conservados'</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_tipadas</span><span class="p">)</span> <span class="o">==</span> <span class="n">N</span> <span class="ow">and</span> <span class="n">df_tipadas</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">equals</span><span class="p">(</span><span class="n">entrada_l04</span><span class="o">.</span><span class="n">index</span><span class="p">)],</span>
+    <span class="p">[</span><span class="s1">'18 columnas conservadas'</span><span class="p">,</span> <span class="nb">list</span><span class="p">(</span><span class="n">df_tipadas</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span> <span class="o">==</span> <span class="n">HEADERS</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Identificadores intactos'</span><span class="p">,</span> <span class="n">df_tipadas</span><span class="p">[</span><span class="n">ids_columns</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span> <span class="o">==</span> <span class="n">entrada_l04</span><span class="p">[</span><span class="n">ids_columns</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">()],</span>
+    <span class="p">[</span><span class="s1">'Columnas fuera del tipado intactas'</span><span class="p">,</span> <span class="n">df_tipadas</span><span class="p">[</span><span class="n">columnas_iguales</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span> <span class="o">==</span> <span class="n">entrada_l04</span><span class="p">[</span><span class="n">columnas_iguales</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">()],</span>
+    <span class="p">[</span><span class="s1">'Tipos lógicos válidos'</span><span class="p">,</span> <span class="nb">all</span><span class="p">(</span><span class="n">tipo_correcto</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">HEADERS</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">df_tipadas</span><span class="p">[</span><span class="n">c</span><span class="p">])],</span>
+    <span class="p">[</span><span class="s1">'Ausencias L03 conservadas'</span><span class="p">,</span> <span class="n">ausencias_preservadas</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Números informados sin cambio de valor'</span><span class="p">,</span> <span class="n">informados_preservados</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'COP con escala exacta de dos decimales'</span><span class="p">,</span> <span class="nb">all</span><span class="p">(</span><span class="n">v</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">v</span><span class="o">.</span><span class="n">as_tuple</span><span class="p">()</span><span class="o">.</span><span class="n">exponent</span> <span class="o">==</span> <span class="o">-</span><span class="mi">2</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">df_tipadas</span><span class="p">[</span><span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">]])],</span>
+    <span class="p">[</span><span class="s1">'Cada conversión está auditada'</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">conversiones_l04_df</span><span class="p">)</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">pasos_l04_df</span><span class="p">[</span><span class="s1">'valores_convertidos'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">())],</span>
+    <span class="p">[</span><span class="s1">'Cada fallo está auditado'</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">errores_l04_df</span><span class="p">)</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">pasos_l04_df</span><span class="p">[</span><span class="s1">'errores_conversion'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">())],</span>
+    <span class="p">[</span><span class="s1">'Entrada L03 intacta'</span><span class="p">,</span> <span class="n">df_ausencias</span><span class="o">.</span><span class="n">equals</span><span class="p">(</span><span class="n">entrada_l04</span><span class="p">)],</span>
+    <span class="p">[</span><span class="s1">'Archivo preparado intacto'</span><span class="p">,</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">SOURCE</span><span class="o">.</span><span class="n">read_bytes</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span> <span class="o">==</span> <span class="n">INPUT_SHA</span><span class="p">]</span>
+<span class="p">],</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'Control'</span><span class="p">,</span> <span class="s1">'Correcto'</span><span class="p">])</span>
+<span class="k">assert</span> <span class="n">controles_l04</span><span class="p">[</span><span class="s1">'Correcto'</span><span class="p">]</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+<span class="n">display</span><span class="p">(</span><span class="n">controles_l04</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Control</th>
+<th>Correcto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Filas y orden conservados</td>
+<td>True</td>
+</tr>
+<tr>
+<th>1</th>
+<td>18 columnas conservadas</td>
+<td>True</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Identificadores intactos</td>
+<td>True</td>
+</tr>
+<tr>
+<th>3</th>
+<td>Columnas fuera del tipado intactas</td>
+<td>True</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Tipos lógicos válidos</td>
+<td>True</td>
+</tr>
+<tr>
+<th>5</th>
+<td>Ausencias L03 conservadas</td>
+<td>True</td>
+</tr>
+<tr>
+<th>6</th>
+<td>Números informados sin cambio de valor</td>
+<td>True</td>
+</tr>
+<tr>
+<th>7</th>
+<td>COP con escala exacta de dos decimales</td>
+<td>True</td>
+</tr>
+<tr>
+<th>8</th>
+<td>Cada conversión está auditada</td>
+<td>True</td>
+</tr>
+<tr>
+<th>9</th>
+<td>Cada fallo está auditado</td>
+<td>True</td>
+</tr>
+<tr>
+<th>10</th>
+<td>Entrada L03 intacta</td>
+<td>True</td>
+</tr>
+<tr>
+<th>11</th>
+<td>Archivo preparado intacto</td>
+<td>True</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8c3d024f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Salida-tipada-y-formatos-de-intercambio">Salida tipada y formatos de intercambio<a class="anchor-link" href="#Salida-tipada-y-formatos-de-intercambio">¶</a></h3><p>Excel contiene fechas reales con formato yyyy-mm-dd, periodos y duración enteros,
+puntajes numéricos e importes numéricos identificados como COP. Se comprueba el regreso
+de cada valor, incluida la precisión de centavos.</p>
+<p>JSONL escribe decimales como literales numéricos exactos y las fechas como texto ISO;
+al leerlo se debe utilizar Decimal para los números decimales y el esquema registrado
+para recuperar fechas. CSV mantiene ISO, punto decimal y coma delimitadora. No se debe
+guardar el CSV otra vez desde Excel sin revisar sus separadores y sus tipos.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6248fb33">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">L04_DATA</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s1">'data/interim/taller_2'</span> <span class="o">/</span> <span class="n">L04_ID</span>
+<span class="n">L04_AUDIT</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s1">'reports/limpieza/ejecuciones'</span> <span class="o">/</span> <span class="n">L04_ID</span>
+<span class="n">L04_DATA</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">L04_AUDIT</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">csv_l04</span> <span class="o">=</span> <span class="n">L04_DATA</span> <span class="o">/</span> <span class="s1">'BaseUnificada_Tipada.csv'</span>
+<span class="n">xlsx_l04</span> <span class="o">=</span> <span class="n">L04_DATA</span> <span class="o">/</span> <span class="s1">'BaseUnificada_Tipada.xlsx'</span>
+<span class="n">jsonl_l04</span> <span class="o">=</span> <span class="n">L04_DATA</span> <span class="o">/</span> <span class="s1">'BaseUnificada_Tipada.jsonl'</span>
+<span class="n">typed_rows</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">df_tipadas</span><span class="o">.</span><span class="n">itertuples</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="kc">None</span><span class="p">))</span>
+<span class="n">serialized_l04</span> <span class="o">=</span> <span class="p">[[</span><span class="n">texto_intercambio</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">row</span><span class="p">]</span> <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">typed_rows</span><span class="p">]</span>
+<span class="k">with</span> <span class="n">csv_l04</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">'w'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf-8-sig'</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span> <span class="k">as</span> <span class="n">handle</span><span class="p">:</span>
+    <span class="n">writer</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">writer</span><span class="p">(</span><span class="n">handle</span><span class="p">,</span> <span class="n">lineterminator</span><span class="o">=</span><span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
+    <span class="n">writer</span><span class="o">.</span><span class="n">writerow</span><span class="p">(</span><span class="n">HEADERS</span><span class="p">)</span>
+    <span class="n">writer</span><span class="o">.</span><span class="n">writerows</span><span class="p">(</span><span class="n">serialized_l04</span><span class="p">)</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">literal_json_l04</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">Decimal</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">format</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="s1">'f'</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">date</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">value</span><span class="o">.</span><span class="n">isoformat</span><span class="p">())</span>
+    <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="k">with</span> <span class="n">jsonl_l04</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">'w'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf8'</span><span class="p">)</span> <span class="k">as</span> <span class="n">handle</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">typed_rows</span><span class="p">:</span>
+        <span class="n">handle</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">'{'</span> <span class="o">+</span> <span class="s1">','</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="o">+</span> <span class="s1">':'</span> <span class="o">+</span> <span class="n">literal_json_l04</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+                                   <span class="k">for</span> <span class="n">c</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">HEADERS</span><span class="p">,</span> <span class="n">row</span><span class="p">))</span> <span class="o">+</span> <span class="s1">'}</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
+<span class="n">book_l04</span> <span class="o">=</span> <span class="n">Workbook</span><span class="p">()</span>
+<span class="n">sheet_l04</span> <span class="o">=</span> <span class="n">book_l04</span><span class="o">.</span><span class="n">active</span>
+<span class="n">sheet_l04</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="s1">'BaseUnificada_Tipada'</span>
+<span class="n">sheet_l04</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">HEADERS</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">typed_rows</span><span class="p">:</span>
+    <span class="n">sheet_l04</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">j</span><span class="p">,</span> <span class="n">columna</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">HEADERS</span><span class="p">,</span> <span class="mi">1</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'fechas'</span><span class="p">]:</span>
+        <span class="n">fmt</span> <span class="o">=</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'formato_excel_fecha'</span><span class="p">]</span>
+    <span class="k">elif</span> <span class="n">columna</span> <span class="o">==</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">]:</span>
+        <span class="n">fmt</span> <span class="o">=</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'formato_excel_moneda'</span><span class="p">]</span>
+    <span class="k">elif</span> <span class="n">columna</span> <span class="o">==</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'puntaje'</span><span class="p">]:</span>
+        <span class="n">fmt</span> <span class="o">=</span> <span class="s1">'0.00'</span>
+    <span class="k">elif</span> <span class="n">columna</span> <span class="ow">in</span> <span class="p">{</span><span class="n">TYPES</span><span class="p">[</span><span class="s1">'entero'</span><span class="p">],</span> <span class="s1">'periodo_academico'</span><span class="p">}:</span>
+        <span class="n">fmt</span> <span class="o">=</span> <span class="s1">'0'</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">fmt</span> <span class="o">=</span> <span class="s1">'@'</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">N</span> <span class="o">+</span> <span class="mi">2</span><span class="p">):</span>
+        <span class="n">sheet_l04</span><span class="o">.</span><span class="n">cell</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span><span class="o">.</span><span class="n">number_format</span> <span class="o">=</span> <span class="n">fmt</span>
+    <span class="n">sheet_l04</span><span class="o">.</span><span class="n">column_dimensions</span><span class="p">[</span><span class="n">get_column_letter</span><span class="p">(</span><span class="n">j</span><span class="p">)]</span><span class="o">.</span><span class="n">width</span> <span class="o">=</span> <span class="mi">24</span> <span class="k">if</span> <span class="n">columna</span> <span class="o">!=</span> <span class="s1">'programa'</span> <span class="k">else</span> <span class="mi">42</span>
+<span class="n">table_l04</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">displayName</span><span class="o">=</span><span class="s1">'BaseUnificada_Tipada'</span><span class="p">,</span> <span class="n">ref</span><span class="o">=</span><span class="sa">f</span><span class="s1">'A1:</span><span class="si">{</span><span class="n">get_column_letter</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">HEADERS</span><span class="p">))</span><span class="si">}{</span><span class="n">N</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+<span class="n">table_l04</span><span class="o">.</span><span class="n">tableStyleInfo</span> <span class="o">=</span> <span class="n">TableStyleInfo</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'TableStyleMedium9'</span><span class="p">,</span> <span class="n">showRowStripes</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">sheet_l04</span><span class="o">.</span><span class="n">add_table</span><span class="p">(</span><span class="n">table_l04</span><span class="p">)</span>
+<span class="n">sheet_l04</span><span class="o">.</span><span class="n">freeze_panes</span> <span class="o">=</span> <span class="s1">'A2'</span>
+<span class="n">book_l04</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">xlsx_l04</span><span class="p">)</span>
+<span class="n">book_l04</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="n">preserve_empty_text</span><span class="p">(</span><span class="n">xlsx_l04</span><span class="p">,</span> <span class="n">typed_rows</span><span class="p">)</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">reconstruir_celda_l04</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">columna</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">value</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'fechas'</span><span class="p">]:</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">datetime</span><span class="p">):</span>
+            <span class="k">assert</span> <span class="n">value</span><span class="o">.</span><span class="n">time</span><span class="p">()</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span> <span class="o">==</span> <span class="s1">'00:00:00'</span>
+            <span class="k">return</span> <span class="n">value</span><span class="o">.</span><span class="n">date</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">value</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">date</span><span class="p">)</span> <span class="k">else</span> <span class="n">date</span><span class="o">.</span><span class="n">fromisoformat</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="o">==</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="n">interpretar_cop</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">value</span><span class="p">))</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="o">==</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'puntaje'</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="n">interpretar_decimal</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">value</span><span class="p">))</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="ow">in</span> <span class="p">{</span><span class="n">TYPES</span><span class="p">[</span><span class="s1">'entero'</span><span class="p">],</span> <span class="s1">'periodo_academico'</span><span class="p">}:</span>
+        <span class="k">return</span> <span class="n">interpretar_entero</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">value</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">value</span>
+
+<span class="n">checked_l04</span> <span class="o">=</span> <span class="n">load_workbook</span><span class="p">(</span><span class="n">xlsx_l04</span><span class="p">,</span> <span class="n">read_only</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">data_only</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">xlsx_read</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">checked_l04</span><span class="p">[</span><span class="s1">'BaseUnificada_Tipada'</span><span class="p">]</span><span class="o">.</span><span class="n">iter_rows</span><span class="p">(</span><span class="n">values_only</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
+<span class="k">assert</span> <span class="nb">list</span><span class="p">(</span><span class="n">xlsx_read</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">==</span> <span class="n">HEADERS</span>
+<span class="k">assert</span> <span class="p">[</span><span class="nb">tuple</span><span class="p">(</span><span class="n">reconstruir_celda_l04</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">HEADERS</span><span class="p">,</span> <span class="n">row</span><span class="p">))</span> <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">xlsx_read</span><span class="p">[</span><span class="mi">1</span><span class="p">:]]</span> <span class="o">==</span> <span class="n">typed_rows</span>
+<span class="k">assert</span> <span class="n">checked_l04</span><span class="p">[</span><span class="s1">'BaseUnificada_Tipada'</span><span class="p">][</span><span class="s1">'J2'</span><span class="p">]</span><span class="o">.</span><span class="n">number_format</span> <span class="o">==</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'formato_excel_moneda'</span><span class="p">]</span>
+<span class="n">checked_l04</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="k">with</span> <span class="n">jsonl_l04</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s1">'utf8'</span><span class="p">)</span> <span class="k">as</span> <span class="n">handle</span><span class="p">:</span>
+    <span class="n">json_read_l04</span> <span class="o">=</span> <span class="p">[</span><span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">line</span><span class="p">,</span> <span class="n">parse_float</span><span class="o">=</span><span class="n">Decimal</span><span class="p">)</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">handle</span><span class="p">]</span>
+<span class="k">assert</span> <span class="p">[</span><span class="nb">tuple</span><span class="p">(</span><span class="n">reconstruir_celda_l04</span><span class="p">(</span><span class="n">r</span><span class="p">[</span><span class="n">c</span><span class="p">],</span> <span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">HEADERS</span><span class="p">)</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">json_read_l04</span><span class="p">]</span> <span class="o">==</span> <span class="n">typed_rows</span>
+<span class="k">with</span> <span class="n">csv_l04</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s1">'utf-8-sig'</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span> <span class="k">as</span> <span class="n">handle</span><span class="p">:</span>
+    <span class="k">assert</span> <span class="nb">list</span><span class="p">(</span><span class="n">csv</span><span class="o">.</span><span class="n">reader</span><span class="p">(</span><span class="n">handle</span><span class="p">))</span> <span class="o">==</span> <span class="p">[</span><span class="n">HEADERS</span><span class="p">,</span> <span class="o">*</span><span class="n">serialized_l04</span><span class="p">]</span>
+
+<span class="n">schema_l04</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([{</span><span class="s1">'columna'</span><span class="p">:</span> <span class="n">c</span><span class="p">,</span> <span class="s1">'tipo_logico'</span><span class="p">:</span> <span class="n">tipos_logicos</span><span class="p">[</span><span class="n">c</span><span class="p">],</span>
+    <span class="s1">'valores_informados'</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">df_tipadas</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">.</span><span class="n">notna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()),</span> <span class="s1">'ausentes'</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">df_tipadas</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()),</span>
+    <span class="s1">'representacion_csv'</span><span class="p">:</span> <span class="s1">'AAAA-MM-DD'</span> <span class="k">if</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'fechas'</span><span class="p">]</span> <span class="k">else</span>
+                         <span class="s1">'Punto decimal, sin miles ni símbolo'</span> <span class="k">if</span> <span class="n">c</span> <span class="o">==</span> <span class="n">TYPES</span><span class="p">[</span><span class="s1">'monetaria'</span><span class="p">]</span> <span class="k">else</span> <span class="n">tipos_logicos</span><span class="p">[</span><span class="n">c</span><span class="p">]}</span>
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">HEADERS</span><span class="p">])</span>
+<span class="n">destinos_l04</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">'id_ejecucion'</span><span class="p">:</span> <span class="n">L04_ID</span><span class="p">,</span> <span class="s1">'id_fila_entrada'</span><span class="p">:</span> <span class="n">ids_fila</span><span class="p">,</span>
+    <span class="s1">'id_registro_salida'</span><span class="p">:</span> <span class="n">ids_fila</span><span class="p">,</span> <span class="s1">'estado_destino'</span><span class="p">:</span> <span class="s1">'conservada'</span><span class="p">,</span> <span class="s1">'fila_salida'</span><span class="p">:</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">N</span> <span class="o">+</span> <span class="mi">2</span><span class="p">),</span>
+    <span class="s1">'sha256_csv_salida'</span><span class="p">:</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">csv_l04</span><span class="o">.</span><span class="n">read_bytes</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()})</span>
+<span class="k">for</span> <span class="n">nombre</span><span class="p">,</span> <span class="n">frame</span> <span class="ow">in</span> <span class="p">{</span>
+    <span class="s1">'L04_conversiones_por_celda.csv'</span><span class="p">:</span> <span class="n">conversiones_l04_df</span><span class="p">,</span> <span class="s1">'L04_registro_pasos.csv'</span><span class="p">:</span> <span class="n">pasos_l04_df</span><span class="p">,</span>
+    <span class="s1">'L04_errores_conversion.csv'</span><span class="p">:</span> <span class="n">errores_l04_df</span><span class="p">,</span> <span class="s1">'L04_fechas_ambiguas.csv'</span><span class="p">:</span> <span class="n">ambiguas_l04_df</span><span class="p">,</span>
+    <span class="s1">'L04_alertas_validacion.csv'</span><span class="p">:</span> <span class="n">alertas_l04_df</span><span class="p">,</span> <span class="s1">'L04_controles.csv'</span><span class="p">:</span> <span class="n">controles_l04</span><span class="p">,</span>
+    <span class="s1">'L04_esquema.csv'</span><span class="p">:</span> <span class="n">schema_l04</span><span class="p">,</span> <span class="s1">'L04_disposicion_filas.csv'</span><span class="p">:</span> <span class="n">destinos_l04</span>
+<span class="p">}</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">frame</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">L04_AUDIT</span> <span class="o">/</span> <span class="n">nombre</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf-8-sig'</span><span class="p">,</span> <span class="n">lineterminator</span><span class="o">=</span><span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
+<span class="n">resumen_l04</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'id_ejecucion'</span><span class="p">:</span> <span class="n">L04_ID</span><span class="p">,</span> <span class="s1">'etapa'</span><span class="p">:</span> <span class="s1">'L04'</span><span class="p">,</span>
+    <span class="s1">'ejecutado_en'</span><span class="p">:</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">ZoneInfo</span><span class="p">(</span><span class="s1">'America/Bogota'</span><span class="p">))</span><span class="o">.</span><span class="n">isoformat</span><span class="p">(),</span>
+    <span class="s1">'entrada_l03_id'</span><span class="p">:</span> <span class="n">L03_ID</span><span class="p">,</span> <span class="s1">'sha256_entrada_l03_jsonl'</span><span class="p">:</span> <span class="n">L03_OUTPUT_SHA</span><span class="p">,</span>
+    <span class="s1">'sha256_reglas'</span><span class="p">:</span> <span class="n">TYPES_SHA</span><span class="p">,</span> <span class="s1">'sha256_modulo_tipado'</span><span class="p">:</span> <span class="n">MODULE_SHA</span><span class="p">,</span> <span class="s1">'sha256_codigo_notebook'</span><span class="p">:</span> <span class="n">CODE_SHA</span><span class="p">,</span>
+    <span class="s1">'filas_entrada'</span><span class="p">:</span> <span class="n">N</span><span class="p">,</span> <span class="s1">'filas_salida'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_tipadas</span><span class="p">),</span> <span class="s1">'columnas'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">HEADERS</span><span class="p">),</span>
+    <span class="s1">'celdas_convertidas'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">conversiones_l04_df</span><span class="p">),</span> <span class="s1">'errores_conversion'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">errores_l04_df</span><span class="p">),</span>
+    <span class="s1">'alertas_validacion'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">alertas_l04_df</span><span class="p">),</span> <span class="s1">'filas_con_alertas'</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">alertas_l04_df</span><span class="p">[</span><span class="s1">'id_fila_entrada'</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()),</span>
+    <span class="s1">'alertas_por_tipo'</span><span class="p">:</span> <span class="n">alertas_l04_df</span><span class="p">[</span><span class="s1">'alerta'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(),</span>
+    <span class="s1">'ausencias_conservadas'</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">df_tipadas</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()),</span> <span class="s1">'identificadores_sin_cambios'</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s1">'filas_eliminadas'</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">'valores_imputados'</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">'controles_correctos'</span><span class="p">:</span> <span class="nb">bool</span><span class="p">(</span><span class="n">controles_l04</span><span class="p">[</span><span class="s1">'Correcto'</span><span class="p">]</span><span class="o">.</span><span class="n">all</span><span class="p">()),</span>
+    <span class="s1">'tipos_logicos'</span><span class="p">:</span> <span class="n">tipos_logicos</span><span class="p">,</span> <span class="s1">'formato_fecha'</span><span class="p">:</span> <span class="s1">'AAAA-MM-DD'</span><span class="p">,</span> <span class="s1">'moneda'</span><span class="p">:</span> <span class="s1">'COP'</span><span class="p">,</span> <span class="s1">'escala_monetaria'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+    <span class="s1">'periodos'</span><span class="p">:</span> <span class="p">{</span><span class="nb">str</span><span class="p">(</span><span class="n">k</span><span class="p">):</span> <span class="nb">int</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">df_tipadas</span><span class="p">[</span><span class="s1">'periodo_academico'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">items</span><span class="p">()},</span>
+    <span class="s1">'datos_intermedios'</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">L04_DATA</span><span class="o">.</span><span class="n">relative_to</span><span class="p">(</span><span class="n">ROOT</span><span class="p">)),</span> <span class="s1">'auditoria'</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">L04_AUDIT</span><span class="o">.</span><span class="n">relative_to</span><span class="p">(</span><span class="n">ROOT</span><span class="p">)),</span>
+    <span class="s1">'archivos_datos'</span><span class="p">:</span> <span class="p">{</span><span class="n">p</span><span class="o">.</span><span class="n">name</span><span class="p">:</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">read_bytes</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="p">[</span><span class="n">csv_l04</span><span class="p">,</span> <span class="n">xlsx_l04</span><span class="p">,</span> <span class="n">jsonl_l04</span><span class="p">]},</span>
+    <span class="s1">'limites'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'Convenciones ambiguas y fechas de negocio pendientes de validación'</span><span class="p">,</span>
+               <span class="s1">'Importes de distintas fuentes no acreditan equivalencia de concepto ni pagos'</span><span class="p">,</span>
+               <span class="s1">'CSV conserva punto decimal; presentación Excel depende de la configuración regional'</span><span class="p">]}</span>
+<span class="p">(</span><span class="n">L04_AUDIT</span> <span class="o">/</span> <span class="s1">'resumen_ejecucion.json'</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">resumen_l04</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf8'</span><span class="p">)</span>
+<span class="p">(</span><span class="n">ROOT</span> <span class="o">/</span> <span class="s1">'reports/limpieza/ultima_tipificacion.json'</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">resumen_l04</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf8'</span><span class="p">)</span>
+<span class="k">assert</span> <span class="n">destinos_l04</span><span class="p">[</span><span class="s1">'id_fila_entrada'</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span> <span class="o">==</span> <span class="n">N</span>
+<span class="k">assert</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">SOURCE</span><span class="o">.</span><span class="n">read_bytes</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span> <span class="o">==</span> <span class="n">INPUT_SHA</span>
+<span class="n">display</span><span class="p">(</span><span class="n">schema_l04</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([{</span><span class="s1">'Etapa'</span><span class="p">:</span> <span class="s1">'L04'</span><span class="p">,</span> <span class="s1">'Filas'</span><span class="p">:</span> <span class="n">N</span><span class="p">,</span> <span class="s1">'Columnas'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">HEADERS</span><span class="p">),</span>
+    <span class="s1">'Celdas convertidas'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">conversiones_l04_df</span><span class="p">),</span> <span class="s1">'Errores de conversión'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">errores_l04_df</span><span class="p">),</span>
+    <span class="s1">'Alertas para revisión'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">alertas_l04_df</span><span class="p">),</span> <span class="s1">'Filas eliminadas'</span><span class="p">:</span> <span class="mi">0</span><span class="p">}]))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Datos L04:'</span><span class="p">,</span> <span class="n">L04_DATA</span><span class="o">.</span><span class="n">relative_to</span><span class="p">(</span><span class="n">ROOT</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Auditoría L04:'</span><span class="p">,</span> <span class="n">L04_AUDIT</span><span class="o">.</span><span class="n">relative_to</span><span class="p">(</span><span class="n">ROOT</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>columna</th>
+<th>tipo_logico</th>
+<th>valores_informados</th>
+<th>ausentes</th>
+<th>representacion_csv</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>registro_id</td>
+<td>texto</td>
+<td>5640</td>
+<td>0</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>1</th>
+<td>aspirante_id</td>
+<td>texto</td>
+<td>5640</td>
+<td>0</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>2</th>
+<td>fecha_solicitud</td>
+<td>fecha</td>
+<td>5640</td>
+<td>0</td>
+<td>AAAA-MM-DD</td>
+</tr>
+<tr>
+<th>3</th>
+<td>programa</td>
+<td>texto</td>
+<td>5613</td>
+<td>27</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>4</th>
+<td>modalidad</td>
+<td>texto</td>
+<td>5640</td>
+<td>0</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>5</th>
+<td>canal_captacion</td>
+<td>texto</td>
+<td>5640</td>
+<td>0</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>6</th>
+<td>estado_proceso</td>
+<td>texto</td>
+<td>5640</td>
+<td>0</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>7</th>
+<td>puntaje_admision</td>
+<td>decimal</td>
+<td>5389</td>
+<td>251</td>
+<td>decimal</td>
+</tr>
+<tr>
+<th>8</th>
+<td>documentos_completos</td>
+<td>texto</td>
+<td>5640</td>
+<td>0</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>9</th>
+<td>valor_matricula_cop</td>
+<td>decimal COP, escala 2</td>
+<td>4698</td>
+<td>942</td>
+<td>Punto decimal, sin miles ni símbolo</td>
+</tr>
+<tr>
+<th>10</th>
+<td>ciudad_residencia</td>
+<td>texto</td>
+<td>5640</td>
+<td>0</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>11</th>
+<td>asesor</td>
+<td>texto</td>
+<td>5640</td>
+<td>0</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>12</th>
+<td>fecha_matricula</td>
+<td>fecha</td>
+<td>1206</td>
+<td>4434</td>
+<td>AAAA-MM-DD</td>
+</tr>
+<tr>
+<th>13</th>
+<td>correo</td>
+<td>texto</td>
+<td>5509</td>
+<td>131</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>14</th>
+<td>periodo_academico</td>
+<td>entero identificador</td>
+<td>5640</td>
+<td>0</td>
+<td>entero identificador</td>
+</tr>
+<tr>
+<th>15</th>
+<td>facultad</td>
+<td>texto</td>
+<td>5613</td>
+<td>27</td>
+<td>texto</td>
+</tr>
+<tr>
+<th>16</th>
+<td>duracion_semestres</td>
+<td>entero</td>
+<td>5613</td>
+<td>27</td>
+<td>entero</td>
+</tr>
+<tr>
+<th>17</th>
+<td>nivel_formacion</td>
+<td>texto</td>
+<td>5613</td>
+<td>27</td>
+<td>texto</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Etapa</th>
+<th>Filas</th>
+<th>Columnas</th>
+<th>Celdas convertidas</th>
+<th>Errores de conversión</th>
+<th>Alertas para revisión</th>
+<th>Filas eliminadas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>L04</td>
+<td>5640</td>
+<td>18</td>
+<td>28186</td>
+<td>0</td>
+<td>1293</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Datos L04: data/interim/taller_2/tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008
+Auditoría L04: reports/limpieza/ejecuciones/tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ad82cbb1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="C%C3%B3mo-continuaremos">Cómo continuaremos<a class="anchor-link" href="#C%C3%B3mo-continuaremos">¶</a></h2><p>L03 ya distingue las ausencias de las demás variables. Los cuatro nan y los vacíos de
 aspirante_id se mantienen registrados y sin modificar hasta la revisión de cruces.
-L04 representará fechas y números, revisará excepciones y tratará el código entero del
-periodo. Las fechas dudosas y los importes con conceptos diferentes seguirán señalados.</p>
+L04 ya representa fechas y números y utiliza el código entero del periodo.
+Las fechas dudosas y los importes con conceptos diferentes siguen señalados.</p>
 <p>Después se revisará el enriquecimiento del catálogo en L05. Solo en L06 y L07 se
 evaluará retirar repeticiones o conciliar filas. Cada entrada mantendrá un destino
 documentado y se actualizarán los denominadores. Las reglas que no cuenten con evidencia

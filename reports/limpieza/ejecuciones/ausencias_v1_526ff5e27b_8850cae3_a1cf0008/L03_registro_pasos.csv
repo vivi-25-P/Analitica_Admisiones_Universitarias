@@ -1,0 +1,19 @@
+﻿id_ejecucion,paso,regla,columna,filas_antes,filas_despues,celdas_ausencia_normalizada,filas_excluidas,repeticiones_consolidadas,filas_imputadas,tratamiento
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A01,registro_id,5640,5640,0,0,0,0,Identificador sin cambios
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A02,aspirante_id,5640,5640,0,0,0,0,Identificador sin cambios
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A03,fecha_solicitud,5640,5640,0,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A04,programa,5640,5640,27,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A05,modalidad,5640,5640,0,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A06,canal_captacion,5640,5640,0,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A07,estado_proceso,5640,5640,0,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A08,puntaje_admision,5640,5640,251,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A09,documentos_completos,5640,5640,0,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A10,valor_matricula_cop,5640,5640,942,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A11,ciudad_residencia,5640,5640,0,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A12,asesor,5640,5640,0,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A13,fecha_matricula,5640,5640,4434,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A14,correo,5640,5640,131,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A15,periodo_academico,5640,5640,0,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A16,facultad,5640,5640,27,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A17,duracion_semestres,5640,5640,27,0,0,0,Aplicación de reglas explícitas de ausencia
+ausencias_v1_526ff5e27b_8850cae3_a1cf0008,L03,A18,nivel_formacion,5640,5640,27,0,0,0,Aplicación de reglas explícitas de ausencia

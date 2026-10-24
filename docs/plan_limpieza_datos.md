@@ -2,7 +2,7 @@
 
 Actualización: 24 de octubre de 2026.
 
-Estado: diagnóstico e inventario preparados y avance ejecutado en notebooks/02_limpieza_base_unificada.ipynb. Se completaron L00, la comprobación de procedencia y documentación de pendientes de L01, la estandarización textual de L02 y el tratamiento de ausencias L03. Se mantienen 5.640 filas y 18 columnas. No se eliminaron ni consolidaron registros y no se modificaron los archivos BaseUnificada de partida.
+Estado: diagnóstico e inventario preparados y avance ejecutado en notebooks/02_limpieza_base_unificada.ipynb hasta L04. Se completaron L00, la comprobación de procedencia y documentación de pendientes de L01, la estandarización textual de L02, el tratamiento de ausencias L03 y el tipado y validaciones L04. Se mantienen 5.640 filas y 18 columnas. No se eliminaron ni consolidaron registros y no se modificaron los archivos BaseUnificada de partida.
 
 ## 1. Qué cambia respecto al plan anterior
 
@@ -228,7 +228,7 @@ Una carga futura a PostgreSQL necesita una nueva estructura que contemple las 18
 
 Está listo el diagnóstico de entrada, el inventario de las 5.640 filas, el listado de identificadores repetidos, la actualización del plan y las plantillas de control. Se reproducen con python scripts/diagnosticar_base_unificada.py.
 
-El notebook se ejecutó de principio a fin con 14 celdas de código. Verificó 5.040 procedencias principales, 100 CRM y 500 Oracle contra el libro congelado y el código de anexado. L02 estandarizó textos y categorías con config/limpieza/estandarizacion_v1.json: hubo 14.209 cambios de celda en 5.404 filas. Se conservaron las 5.640 filas, las 18 columnas y las 38 repeticiones exactas adicionales. L02 no modificó fechas, puntajes, importes ni duración.
+El notebook se ejecutó de principio a fin con 19 celdas de código. Verificó 5.040 procedencias principales, 100 CRM y 500 Oracle contra el libro congelado y el código de anexado. L02 estandarizó textos y categorías con config/limpieza/estandarizacion_v1.json: hubo 14.209 cambios de celda en 5.404 filas. Se conservaron las 5.640 filas, las 18 columnas y las 38 repeticiones exactas adicionales. L02 no modificó fechas, puntajes, importes ni duración.
 
 Los datos intermedios están en data/interim/taller_2 bajo una carpeta de versión. Los cambios por celda, equivalencias, procedencias, disposición de las 5.640 filas y controles están en reports/limpieza/ejecuciones. reports/limpieza/ultima_estandarizacion.json identifica la ejecución y sus hashes. Existe un HTML de lectura en reports/02_limpieza_base_unificada.html.
 
@@ -236,4 +236,10 @@ L03 se aplicó con config/limpieza/ausencias_v1.json. Representó 5.866 celdas c
 
 Los controles L03 verifican 11 condiciones, incluida la conservación de filas, identificadores, valores informados y la idempotencia. Las tres salidas CSV, Excel y JSONL se compararon íntegramente. JSONL preserva la diferencia entre null y texto vacío; el CSV requiere el control por celda para recuperar esa diferencia. La salida y auditoría de L03 se identifican en reports/limpieza/ultima_ausencias.json. La repetición de L02 para ejecutar todo el cuaderno conserva el mismo contenido CSV de estandarización; no representa nuevas transformaciones acumuladas sobre la base inicial.
 
-El siguiente paso es L04, conversión de tipos y validaciones, conservando identificadores y motivos de ausencia. Las decisiones de identidad, precedencia económica, fechas conflictivas y catálogo institucional siguen pendientes y se resolverán con evidencia. Todavía no se ejecutaron L04 a L09 ni existe una base final depurada generada por este plan.
+L04 utiliza config/limpieza/tipos_v1.json y el módulo de interpretación src/analitica_admisiones/tipado_limpieza.py. Se tiparon 28.186 valores informados sin errores de conversión: 5.640 fechas de solicitud, 1.206 fechas de matrícula, 5.389 puntajes, 4.698 importes, 5.613 duraciones y 5.640 periodos. Las fechas se presentan como AAAA-MM-DD, el importe es Decimal COP con escala 2, y el periodo usa los enteros 20252, 20261 y 20262. Los identificadores y las 5.866 ausencias permanecen intactos.
+
+L04 dejó 1.293 alertas en 1.159 filas distintas: 524 de documentación en matriculados, 470 de año de solicitud posterior al periodo, 237 formatos de día y mes ambiguos, 32 matrículas anteriores a solicitud y 30 fechas posteriores a la referencia del 24 de octubre de 2026. Varias alertas pueden corresponder a una misma fila. No se corrigen por suposición ni se declaran todas como errores. La referencia no es un corte institucional confirmado.
+
+Los 12 controles L04 y la lectura completa de CSV, Excel y JSONL pasaron. El Excel mantiene números y fechas reales con formato; el CSV conserva punto decimal y fechas ISO; JSONL representa decimales exactos como números y fechas como texto ISO. La salida vigente se identifica en reports/limpieza/ultima_tipificacion.json. docs/formatos_fechas_cop.md explica los formatos y su relación con la configuración regional. Las reejecuciones de las etapas previas mantienen sus mismos datos CSV o JSONL y no son nuevas transformaciones acumuladas.
+
+El siguiente paso es L05, revisión del enriquecimiento y sus asignaciones. Las decisiones de identidad, precedencia económica, fechas conflictivas y catálogo institucional siguen pendientes y se resolverán con evidencia. Todavía no se ejecutaron L05 a L09 ni existe una base final depurada generada por este plan.

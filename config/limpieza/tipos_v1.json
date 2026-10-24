@@ -1,0 +1,24 @@
+{
+  "version": "tipos_v1",
+  "fechas": ["fecha_solicitud", "fecha_matricula"],
+  "convenciones_fecha": ["AAAA-MM-DD", "AAAA/MM/DD", "DD/MM/AAAA", "MM-DD-AAAA", "DD-Mmm-AAAA"],
+  "presentacion_fecha": "AAAA-MM-DD",
+  "formato_excel_fecha": "yyyy-mm-dd",
+  "puntaje": "puntaje_admision",
+  "monetaria": "valor_matricula_cop",
+  "moneda": "COP",
+  "escala_monetaria": 2,
+  "formato_excel_moneda": "\"COP\" #,##0.00",
+  "decimal_intercambio": ".",
+  "separador_miles_intercambio": null,
+  "entero": "duracion_semestres",
+  "periodo": {
+    "2025-2": 20252,
+    "2026-1": 20261,
+    "2026-2": 20262
+  },
+  "fecha_referencia_alertas": "2026-10-24",
+  "politica": "Conservar identificadores y filas. Valores no interpretables quedan ausentes con excepción y original registrado. No redondear importes, imputar ni corregir fechas por proximidad. Señalar fechas ambiguas bajo la convención aplicada y discrepancias de negocio sin resolverlas.",
+  "limitacion_monetaria": "COP es la unidad, no prueba que la matrícula base, el total CRM y los importes de otras fuentes sean el mismo concepto ni pagos recibidos.",
+  "presentacion": "En tablas se muestra COP 2.200.000,00. Excel conserva valores numéricos y el formato monetario; sus separadores se visualizan según la configuración regional. CSV usa coma como delimitador, punto decimal, sin COP ni separadores de miles para intercambio."
+}

@@ -281,3 +281,13 @@ Se mantienen 5.640 registros y 18 columnas, sin imputaciones, exclusiones ni con
 Se actualizaron plan, README y HTML; las salidas intermedias y la auditoría están referenciadas en reports/limpieza/ultima_ausencias.json. L04, conversión de tipos y validaciones, queda como siguiente etapa.
 
 **Integración del avance remoto.** Durante la publicación llegó 134f970, con la decisión de periodo entero en L04 y la corrección de referencias de auditoría. Se conservaron ambos cambios del plan y las dos entradas de bitácora; el conflicto era únicamente la inserción de texto al final. El commit remoto no modificó el CSV ni los datos o el código ejecutado.
+
+## 24 de octubre de 2026. L04, fechas e importes en COP
+
+Se ejecutó el notebook completo con 19 celdas de código. Según la decisión del usuario, las fechas se presentan como AAAA-MM-DD y los importes se manejan como decimales exactos en pesos colombianos, con dos posiciones decimales y sin redondear. La presentación colombiana usa COP 2.200.000,00; CSV y JSONL conservan números sin separador de miles y con punto decimal. Excel contiene números y fechas reales, con formato de presentación sujeto a la configuración regional. El periodo académico pasa a los códigos enteros 20252, 20261 y 20262.
+
+Se convirtieron 28.186 celdas sin errores de interpretación. Permanecen las 5.640 filas, 18 columnas y 5.866 ausencias. No se cambiaron identificadores, incluidos 92 vacíos y cuatro nan; no hubo imputaciones, exclusiones ni conciliaciones de fuentes. Las reejecuciones previas conservan el contenido de sus resultados y quedan registradas como puntos de control.
+
+Se registraron 1.293 alertas en 1.159 filas: 524 de documentación en matriculados, 470 de año de solicitud posterior al periodo, 237 de formatos de día y mes ambiguos, 32 matrículas anteriores a solicitud y 30 fechas posteriores a la referencia del 24 de octubre de 2026. Son casos de revisión, sin correcciones automáticas; la referencia no representa un corte institucional confirmado. La igualdad de moneda tampoco confirma que los conceptos económicos sean equivalentes.
+
+Pasaron los 12 controles de L04 y la lectura completa de CSV, Excel y JSONL. Una revisión independiente confirmó los hashes de ocho fuentes y de las salidas de L02, L03 y L04, la conservación de identificadores e importes y las 19 celdas ejecutadas sin error. La suite completó 21 pruebas correctas; tres pruebas de integración Docker requieren una base aislada y no se ejecutaron. Las reglas están en config/limpieza/tipos_v1.json, la guía en docs/formatos_fechas_cop.md y las rutas y hashes en reports/limpieza/ultima_tipificacion.json. L05 queda pendiente.

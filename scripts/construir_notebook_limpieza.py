@@ -23,14 +23,16 @@ md('''
 Este cuaderno sigue el orden del plan en `docs/plan_limpieza_datos.md`.
 La integración previa se conserva en el libro de manejo y la entrada congelada.
 
-**Este avance cubre L00, L01, L02 y L03:** identificación de la entrada,
+**Este avance cubre L00 a L04:** identificación de la entrada,
 reconstrucción comprobada de la procedencia y estandarización textual mediante
 catálogos explícitos. L01 deja documentadas las decisiones económicas, temporales
 y de catálogo que siguen pendientes; no las da por resueltas. L03 representa las
 ausencias de las demás variables y conserva sus motivos en controles separados.
+L04 interpreta tipos con reglas explícitas, presenta fechas como AAAA-MM-DD y
+mantiene importes decimales exactos en COP; las alertas no se corrigen automáticamente.
 
 **No se elimina ninguna fila.** No se imputan valores, se fusionan solicitudes,
-se cambian importes ni se interpretan o corrigen fechas. El resultado es un estado
+se altera el valor numérico de importes ni se corrigen fechas por aproximación. El resultado es un estado
 intermedio, no una base limpia definitiva. L02 conserva los marcadores recibidos;
 L03 aplica las reglas de ausencia documentadas sin completar datos por suposición.
 Los vacíos y nan de identificadores seguirán sin modificarse hasta los cruces.
@@ -627,12 +629,355 @@ print('Datos L03:', L03_DATA.relative_to(ROOT))
 print('Auditoría L03:', L03_AUDIT.relative_to(ROOT))
 ''')
 md('''
+## L04. Tipos, fechas AAAA-MM-DD e importes COP
+
+Se convierte cada valor informado mediante una regla explícita y se conserva su
+representación anterior en la auditoría. Los nulos de L03 mantienen sus motivos.
+Los identificadores permanecen como texto sin cambios.
+
+Las fechas se interpretan con las cinco convenciones ya documentadas y se muestran
+como AAAA-MM-DD. Si día y mes admiten dos lecturas, se registra una alerta aun cuando
+se aplique la convención correspondiente al formato. Esto no confirma su exactitud
+institucional ni resuelve las discrepancias entre Oracle y las otras fuentes.
+
+El dinero se maneja con Decimal y escala de dos decimales, sin float ni redondeo
+automático. En tablas se presenta como COP 2.200.000,00. Excel guarda un número con
+formato monetario; sus separadores dependen de la configuración regional del equipo.
+El CSV guarda 2200000.00, sin símbolo ni separadores de miles, para intercambio.
+Los conceptos económicos distintos de las fuentes siguen pendientes de conciliación.
+''')
+code('''
+from datetime import date
+from decimal import Decimal
+sys.path.insert(0, str(ROOT / 'src'))
+from analitica_admisiones.tipado_limpieza import (
+    interpretar_fecha, interpretar_decimal, interpretar_cop, interpretar_entero, mostrar_cop)
+
+TYPES_PATH = ROOT / 'config/limpieza/tipos_v1.json'
+TYPES = json.loads(TYPES_PATH.read_text(encoding='utf8'))
+TYPES_SHA = hashlib.sha256(TYPES_PATH.read_bytes()).hexdigest()
+MODULE_PATH = ROOT / 'src/analitica_admisiones/tipado_limpieza.py'
+MODULE_SHA = hashlib.sha256(MODULE_PATH.read_bytes()).hexdigest()
+L04_ID = f"{TYPES['version']}_{L03_OUTPUT_SHA[:10]}_{TYPES_SHA[:8]}_{MODULE_SHA[:8]}_{CODE_SHA[:8]}"
+entrada_l04 = df_ausencias.copy(deep=True)
+convertir_columnas = [*TYPES['fechas'], TYPES['puntaje'], TYPES['monetaria'], TYPES['entero'], 'periodo_academico']
+tipos_logicos = {c: 'texto' for c in HEADERS}
+tipos_logicos.update({c: 'fecha' for c in TYPES['fechas']})
+tipos_logicos.update({TYPES['puntaje']: 'decimal', TYPES['monetaria']: 'decimal COP, escala 2',
+                     TYPES['entero']: 'entero', 'periodo_academico': 'entero identificador'})
+
+def texto_intercambio(value):
+    if value is None:
+        return ''
+    if isinstance(value, date):
+        return value.isoformat()
+    if isinstance(value, Decimal):
+        return format(value, 'f')
+    return str(value)
+
+def convertir_l04(value, columna):
+    if columna in TYPES['fechas']:
+        parsed = interpretar_fecha(value)
+        return parsed.valor, parsed.formato, parsed.dia_mes_ambiguo
+    if columna == TYPES['puntaje']:
+        return interpretar_decimal(value), 'decimal_punto', False
+    if columna == TYPES['monetaria']:
+        return interpretar_cop(value), 'COP_decimal_punto_sin_miles', False
+    if columna == TYPES['entero']:
+        return interpretar_entero(value), 'entero_exacto', False
+    if columna == 'periodo_academico':
+        if value not in TYPES['periodo']:
+            raise ValueError('Periodo sin equivalencia adoptada')
+        return TYPES['periodo'][value], 'codigo_periodo_adoptado', False
+    raise ValueError('Columna sin regla de conversión')
+
+display(pd.DataFrame([{'Columna': c, 'Tipo lógico': tipos_logicos[c]} for c in HEADERS]))
+''')
+code('''
+df_tipadas = entrada_l04.astype(object).copy(deep=True)
+conversiones_l04 = []
+errores_l04 = []
+ambiguas_l04 = []
+pasos_l04 = []
+for numero, columna in enumerate(convertir_columnas, 1):
+    values = []
+    exitos = 0
+    errores_columna = 0
+    for indice, anterior in entrada_l04[columna].items():
+        if anterior is None:
+            values.append(None)
+            continue
+        try:
+            posterior, formato, ambigua = convertir_l04(anterior, columna)
+            values.append(posterior)
+            exitos += 1
+            conversiones_l04.append({'id_ejecucion': L04_ID, 'paso': 'L04', 'regla': f'T{numero:02d}',
+                'id_fila_entrada': ids_fila.loc[indice], 'registro_id': original.loc[indice, 'registro_id'],
+                'columna': columna, 'valor_anterior': anterior,
+                'valor_posterior': texto_intercambio(posterior), 'tipo_anterior': 'texto',
+                'tipo_posterior': tipos_logicos[columna], 'formato_origen': formato,
+                'cambio_de_tipo': True, 'cambio_de_representacion': anterior != texto_intercambio(posterior)})
+            if ambigua:
+                ambiguas_l04.append({'id_fila_entrada': ids_fila.loc[indice], 'columna': columna,
+                    'valor_original': anterior, 'fecha_interpretada': posterior.isoformat(),
+                    'convencion_aplicada': formato, 'estado': 'Revisar convención con la fuente'})
+        except (ValueError, ArithmeticError) as exc:
+            values.append(None)
+            errores_columna += 1
+            errores_l04.append({'id_ejecucion': L04_ID, 'id_fila_entrada': ids_fila.loc[indice],
+                'registro_id': original.loc[indice, 'registro_id'], 'columna': columna,
+                'valor_original': anterior, 'motivo': str(exc), 'tratamiento': 'Ausente tipado con original conservado; sin imputación'})
+    df_tipadas[columna] = pd.Series(values, index=entrada_l04.index, dtype=object)
+    pasos_l04.append({'id_ejecucion': L04_ID, 'paso': 'L04', 'regla': f'T{numero:02d}',
+        'columna': columna, 'filas_antes': N, 'filas_despues': len(df_tipadas),
+        'valores_convertidos': exitos, 'ausencias_previas_conservadas': int(entrada_l04[columna].isna().sum()),
+        'errores_conversion': errores_columna, 'filas_excluidas': 0, 'valores_imputados': 0})
+
+conversiones_l04_df = pd.DataFrame(conversiones_l04)
+errores_l04_df = pd.DataFrame(errores_l04, columns=['id_ejecucion', 'id_fila_entrada', 'registro_id', 'columna', 'valor_original', 'motivo', 'tratamiento'])
+ambiguas_l04_df = pd.DataFrame(ambiguas_l04, columns=['id_fila_entrada', 'columna', 'valor_original', 'fecha_interpretada', 'convencion_aplicada', 'estado'])
+pasos_l04_df = pd.DataFrame(pasos_l04)
+display(pasos_l04_df)
+indices_importe = df_tipadas.index[df_tipadas[TYPES['monetaria']].notna()][:5]
+display(pd.DataFrame([{'Recibido': entrada_l04.loc[i, TYPES['monetaria']],
+    'Valor exacto de intercambio': texto_intercambio(df_tipadas.loc[i, TYPES['monetaria']]),
+    'Presentación Colombia': mostrar_cop(df_tipadas.loc[i, TYPES['monetaria']])} for i in indices_importe]))
+''')
+md('''
+### Validaciones y alertas, sin corrección automática
+
+La fecha de referencia es la de revisión, no un corte institucional confirmado.
+Las fechas posteriores, periodos dispares, matrícula anterior a solicitud o documentación
+pendiente se registran para revisar; no se modifican por esta condición. No se impone
+una escala oficial de puntaje ni una tarifa de matrícula a partir del rango observado.
+''')
+code('''
+referencia_l04 = date.fromisoformat(TYPES['fecha_referencia_alertas'])
+alertas_l04 = []
+origen_por_fila = origen_df.set_index('id_fila_entrada')['origen_sistema'].to_dict()
+def alerta_l04(indice, columna, motivo, detalle):
+    ident = ids_fila.loc[indice]
+    alertas_l04.append({'id_ejecucion': L04_ID, 'id_fila_entrada': ident,
+        'registro_id': original.loc[indice, 'registro_id'], 'origen_sistema': origen_por_fila[ident],
+        'columna': columna, 'alerta': motivo, 'detalle': detalle, 'accion': 'Conservar y revisar'})
+
+for item in ambiguas_l04:
+    indice = int(item['id_fila_entrada'][2:]) - 1
+    alerta_l04(indice, item['columna'], 'formato_dia_mes_ambiguo',
+        f"{item['valor_original']} interpretado como {item['fecha_interpretada']} mediante {item['convencion_aplicada']}")
+for indice, row in df_tipadas.iterrows():
+    solicitud, matricula = row['fecha_solicitud'], row['fecha_matricula']
+    for columna in TYPES['fechas']:
+        value = row[columna]
+        if value is not None and value > referencia_l04:
+            alerta_l04(indice, columna, 'fecha_posterior_a_referencia', value.isoformat())
+    if solicitud is not None and matricula is not None and matricula < solicitud:
+        alerta_l04(indice, 'fecha_matricula', 'matricula_anterior_a_solicitud',
+                    f'Solicitud {solicitud.isoformat()}; matrícula {matricula.isoformat()}')
+    periodo = row['periodo_academico']
+    if solicitud is not None and periodo is not None and solicitud.year > periodo // 10:
+        alerta_l04(indice, 'periodo_academico', 'solicitud_posterior_al_anio_del_periodo',
+                    f'Solicitud {solicitud.isoformat()}; periodo {periodo}')
+    for columna in [TYPES['puntaje'], TYPES['monetaria'], TYPES['entero']]:
+        value = row[columna]
+        if value is not None and value < 0:
+            alerta_l04(indice, columna, 'valor_negativo', texto_intercambio(value))
+    if row['duracion_semestres'] is not None and row['duracion_semestres'] not in {2, 8, 10}:
+        alerta_l04(indice, 'duracion_semestres', 'duracion_fuera_del_catalogo_de_trabajo', str(row['duracion_semestres']))
+    if row['estado_proceso'] == 'Matriculado' and row['documentos_completos'] in {'No', 'Pendiente'}:
+        alerta_l04(indice, 'documentos_completos', 'matriculado_con_documentacion_no_completa', row['documentos_completos'])
+
+alertas_l04_df = pd.DataFrame(alertas_l04, columns=['id_ejecucion', 'id_fila_entrada', 'registro_id',
+    'origen_sistema', 'columna', 'alerta', 'detalle', 'accion'])
+display(alertas_l04_df.groupby('alerta').agg(Incidencias=('id_fila_entrada', 'size'),
+    Filas_distintas=('id_fila_entrada', 'nunique')).reset_index())
+display(ambiguas_l04_df.head(8))
+display(errores_l04_df)
+display(df_tipadas['periodo_academico'].value_counts(dropna=False).rename('Registros por código de periodo').to_frame())
+''')
+code('''
+def tipo_correcto(value, columna):
+    if value is None:
+        return True
+    if columna in TYPES['fechas']:
+        return type(value) is date
+    if columna in {TYPES['puntaje'], TYPES['monetaria']}:
+        return isinstance(value, Decimal) and value.is_finite()
+    if columna in {TYPES['entero'], 'periodo_academico'}:
+        return type(value) is int
+    return isinstance(value, str)
+
+errores_index = {(r['id_fila_entrada'], r['columna']) for r in errores_l04}
+informados_preservados = all(
+    (ids_fila.loc[i], c) in errores_index or entrada_l04.loc[i, c] is None or
+    (interpretar_decimal(entrada_l04.loc[i, c]) == df_tipadas.loc[i, c])
+    for c in [TYPES['puntaje'], TYPES['monetaria'], TYPES['entero']]
+    for i in entrada_l04.index)
+ausencias_preservadas = all(
+    df_tipadas.loc[i, c] is None
+    for c in HEADERS for i in entrada_l04.index if entrada_l04.loc[i, c] is None)
+columnas_iguales = [c for c in HEADERS if c not in convertir_columnas]
+controles_l04 = pd.DataFrame([
+    ['Filas y orden conservados', len(df_tipadas) == N and df_tipadas.index.equals(entrada_l04.index)],
+    ['18 columnas conservadas', list(df_tipadas.columns) == HEADERS],
+    ['Identificadores intactos', df_tipadas[ids_columns].values.tolist() == entrada_l04[ids_columns].values.tolist()],
+    ['Columnas fuera del tipado intactas', df_tipadas[columnas_iguales].values.tolist() == entrada_l04[columnas_iguales].values.tolist()],
+    ['Tipos lógicos válidos', all(tipo_correcto(v, c) for c in HEADERS for v in df_tipadas[c])],
+    ['Ausencias L03 conservadas', ausencias_preservadas],
+    ['Números informados sin cambio de valor', informados_preservados],
+    ['COP con escala exacta de dos decimales', all(v is None or v.as_tuple().exponent == -2 for v in df_tipadas[TYPES['monetaria']])],
+    ['Cada conversión está auditada', len(conversiones_l04_df) == int(pasos_l04_df['valores_convertidos'].sum())],
+    ['Cada fallo está auditado', len(errores_l04_df) == int(pasos_l04_df['errores_conversion'].sum())],
+    ['Entrada L03 intacta', df_ausencias.equals(entrada_l04)],
+    ['Archivo preparado intacto', hashlib.sha256(SOURCE.read_bytes()).hexdigest() == INPUT_SHA]
+], columns=['Control', 'Correcto'])
+assert controles_l04['Correcto'].all()
+display(controles_l04)
+''')
+md('''
+### Salida tipada y formatos de intercambio
+
+Excel contiene fechas reales con formato yyyy-mm-dd, periodos y duración enteros,
+puntajes numéricos e importes numéricos identificados como COP. Se comprueba el regreso
+de cada valor, incluida la precisión de centavos.
+
+JSONL escribe decimales como literales numéricos exactos y las fechas como texto ISO;
+al leerlo se debe utilizar Decimal para los números decimales y el esquema registrado
+para recuperar fechas. CSV mantiene ISO, punto decimal y coma delimitadora. No se debe
+guardar el CSV otra vez desde Excel sin revisar sus separadores y sus tipos.
+''')
+code('''
+L04_DATA = ROOT / 'data/interim/taller_2' / L04_ID
+L04_AUDIT = ROOT / 'reports/limpieza/ejecuciones' / L04_ID
+L04_DATA.mkdir(parents=True, exist_ok=True)
+L04_AUDIT.mkdir(parents=True, exist_ok=True)
+csv_l04 = L04_DATA / 'BaseUnificada_Tipada.csv'
+xlsx_l04 = L04_DATA / 'BaseUnificada_Tipada.xlsx'
+jsonl_l04 = L04_DATA / 'BaseUnificada_Tipada.jsonl'
+typed_rows = list(df_tipadas.itertuples(index=False, name=None))
+serialized_l04 = [[texto_intercambio(v) for v in row] for row in typed_rows]
+with csv_l04.open('w', encoding='utf-8-sig', newline='') as handle:
+    writer = csv.writer(handle, lineterminator='\\n')
+    writer.writerow(HEADERS)
+    writer.writerows(serialized_l04)
+
+def literal_json_l04(value):
+    if isinstance(value, Decimal):
+        return format(value, 'f')
+    if isinstance(value, date):
+        return json.dumps(value.isoformat())
+    return json.dumps(value, ensure_ascii=False)
+
+with jsonl_l04.open('w', encoding='utf8') as handle:
+    for row in typed_rows:
+        handle.write('{' + ','.join(json.dumps(c) + ':' + literal_json_l04(v)
+                                   for c, v in zip(HEADERS, row)) + '}\\n')
+book_l04 = Workbook()
+sheet_l04 = book_l04.active
+sheet_l04.title = 'BaseUnificada_Tipada'
+sheet_l04.append(HEADERS)
+for row in typed_rows:
+    sheet_l04.append(row)
+for j, columna in enumerate(HEADERS, 1):
+    if columna in TYPES['fechas']:
+        fmt = TYPES['formato_excel_fecha']
+    elif columna == TYPES['monetaria']:
+        fmt = TYPES['formato_excel_moneda']
+    elif columna == TYPES['puntaje']:
+        fmt = '0.00'
+    elif columna in {TYPES['entero'], 'periodo_academico'}:
+        fmt = '0'
+    else:
+        fmt = '@'
+    for i in range(2, N + 2):
+        sheet_l04.cell(i, j).number_format = fmt
+    sheet_l04.column_dimensions[get_column_letter(j)].width = 24 if columna != 'programa' else 42
+table_l04 = Table(displayName='BaseUnificada_Tipada', ref=f'A1:{get_column_letter(len(HEADERS))}{N + 1}')
+table_l04.tableStyleInfo = TableStyleInfo(name='TableStyleMedium9', showRowStripes=True)
+sheet_l04.add_table(table_l04)
+sheet_l04.freeze_panes = 'A2'
+book_l04.save(xlsx_l04)
+book_l04.close()
+preserve_empty_text(xlsx_l04, typed_rows)
+
+def reconstruir_celda_l04(value, columna):
+    if value is None:
+        return None
+    if columna in TYPES['fechas']:
+        if isinstance(value, datetime):
+            assert value.time().isoformat() == '00:00:00'
+            return value.date()
+        return value if isinstance(value, date) else date.fromisoformat(value)
+    if columna == TYPES['monetaria']:
+        return interpretar_cop(str(value))
+    if columna == TYPES['puntaje']:
+        return interpretar_decimal(str(value))
+    if columna in {TYPES['entero'], 'periodo_academico'}:
+        return interpretar_entero(str(value))
+    return value
+
+checked_l04 = load_workbook(xlsx_l04, read_only=True, data_only=True)
+xlsx_read = list(checked_l04['BaseUnificada_Tipada'].iter_rows(values_only=True))
+assert list(xlsx_read[0]) == HEADERS
+assert [tuple(reconstruir_celda_l04(v, c) for c, v in zip(HEADERS, row)) for row in xlsx_read[1:]] == typed_rows
+assert checked_l04['BaseUnificada_Tipada']['J2'].number_format == TYPES['formato_excel_moneda']
+checked_l04.close()
+with jsonl_l04.open(encoding='utf8') as handle:
+    json_read_l04 = [json.loads(line, parse_float=Decimal) for line in handle]
+assert [tuple(reconstruir_celda_l04(r[c], c) for c in HEADERS) for r in json_read_l04] == typed_rows
+with csv_l04.open(encoding='utf-8-sig', newline='') as handle:
+    assert list(csv.reader(handle)) == [HEADERS, *serialized_l04]
+
+schema_l04 = pd.DataFrame([{'columna': c, 'tipo_logico': tipos_logicos[c],
+    'valores_informados': int(df_tipadas[c].notna().sum()), 'ausentes': int(df_tipadas[c].isna().sum()),
+    'representacion_csv': 'AAAA-MM-DD' if c in TYPES['fechas'] else
+                         'Punto decimal, sin miles ni símbolo' if c == TYPES['monetaria'] else tipos_logicos[c]}
+    for c in HEADERS])
+destinos_l04 = pd.DataFrame({'id_ejecucion': L04_ID, 'id_fila_entrada': ids_fila,
+    'id_registro_salida': ids_fila, 'estado_destino': 'conservada', 'fila_salida': range(2, N + 2),
+    'sha256_csv_salida': hashlib.sha256(csv_l04.read_bytes()).hexdigest()})
+for nombre, frame in {
+    'L04_conversiones_por_celda.csv': conversiones_l04_df, 'L04_registro_pasos.csv': pasos_l04_df,
+    'L04_errores_conversion.csv': errores_l04_df, 'L04_fechas_ambiguas.csv': ambiguas_l04_df,
+    'L04_alertas_validacion.csv': alertas_l04_df, 'L04_controles.csv': controles_l04,
+    'L04_esquema.csv': schema_l04, 'L04_disposicion_filas.csv': destinos_l04
+}.items():
+    frame.to_csv(L04_AUDIT / nombre, index=False, encoding='utf-8-sig', lineterminator='\\n')
+resumen_l04 = {'id_ejecucion': L04_ID, 'etapa': 'L04',
+    'ejecutado_en': datetime.now(ZoneInfo('America/Bogota')).isoformat(),
+    'entrada_l03_id': L03_ID, 'sha256_entrada_l03_jsonl': L03_OUTPUT_SHA,
+    'sha256_reglas': TYPES_SHA, 'sha256_modulo_tipado': MODULE_SHA, 'sha256_codigo_notebook': CODE_SHA,
+    'filas_entrada': N, 'filas_salida': len(df_tipadas), 'columnas': len(HEADERS),
+    'celdas_convertidas': len(conversiones_l04_df), 'errores_conversion': len(errores_l04_df),
+    'alertas_validacion': len(alertas_l04_df), 'filas_con_alertas': int(alertas_l04_df['id_fila_entrada'].nunique()),
+    'alertas_por_tipo': alertas_l04_df['alerta'].value_counts().to_dict(),
+    'ausencias_conservadas': int(df_tipadas.isna().sum().sum()), 'identificadores_sin_cambios': True,
+    'filas_eliminadas': 0, 'valores_imputados': 0, 'controles_correctos': bool(controles_l04['Correcto'].all()),
+    'tipos_logicos': tipos_logicos, 'formato_fecha': 'AAAA-MM-DD', 'moneda': 'COP', 'escala_monetaria': 2,
+    'periodos': {str(k): int(v) for k, v in df_tipadas['periodo_academico'].value_counts().items()},
+    'datos_intermedios': str(L04_DATA.relative_to(ROOT)), 'auditoria': str(L04_AUDIT.relative_to(ROOT)),
+    'archivos_datos': {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in [csv_l04, xlsx_l04, jsonl_l04]},
+    'limites': ['Convenciones ambiguas y fechas de negocio pendientes de validación',
+               'Importes de distintas fuentes no acreditan equivalencia de concepto ni pagos',
+               'CSV conserva punto decimal; presentación Excel depende de la configuración regional']}
+(L04_AUDIT / 'resumen_ejecucion.json').write_text(json.dumps(resumen_l04, ensure_ascii=False, indent=2) + '\\n', encoding='utf8')
+(ROOT / 'reports/limpieza/ultima_tipificacion.json').write_text(json.dumps(resumen_l04, ensure_ascii=False, indent=2) + '\\n', encoding='utf8')
+assert destinos_l04['id_fila_entrada'].nunique() == N
+assert hashlib.sha256(SOURCE.read_bytes()).hexdigest() == INPUT_SHA
+display(schema_l04)
+display(pd.DataFrame([{'Etapa': 'L04', 'Filas': N, 'Columnas': len(HEADERS),
+    'Celdas convertidas': len(conversiones_l04_df), 'Errores de conversión': len(errores_l04_df),
+    'Alertas para revisión': len(alertas_l04_df), 'Filas eliminadas': 0}]))
+print('Datos L04:', L04_DATA.relative_to(ROOT))
+print('Auditoría L04:', L04_AUDIT.relative_to(ROOT))
+''')
+md('''
 ## Cómo continuaremos
 
 L03 ya distingue las ausencias de las demás variables. Los cuatro nan y los vacíos de
 aspirante_id se mantienen registrados y sin modificar hasta la revisión de cruces.
-L04 representará fechas y números, revisará excepciones y tratará el código entero del
-periodo. Las fechas dudosas y los importes con conceptos diferentes seguirán señalados.
+L04 ya representa fechas y números y utiliza el código entero del periodo.
+Las fechas dudosas y los importes con conceptos diferentes siguen señalados.
 
 Después se revisará el enriquecimiento del catálogo en L05. Solo en L06 y L07 se
 evaluará retirar repeticiones o conciliar filas. Cada entrada mantendrá un destino
