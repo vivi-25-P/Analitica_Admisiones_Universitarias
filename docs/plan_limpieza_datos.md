@@ -26,6 +26,8 @@ La entrada ya incorpora separación de identificadores CRM, suma económica, Cle
 
 El notebook es ahora la bitácora ejecutable del proceso y seguirá la secuencia de reglas de este documento. Mantendrá código, explicaciones y resultados. Si el entregable académico exige demostrar las mismas transformaciones en Power Query, deberán replicarse y documentarse allí; el notebook no acredita por sí solo esa ejecución en Excel.
 
+Decisión de alcance del usuario, 24 de octubre: la comparación de identificadores entre sistemas se pospone hasta la etapa de cruces. Los códigos de Oracle se conservan como llegaron, igual que los de las demás fuentes. No se exige que coincidan, no se crean equivalencias de personas ni se eliminan filas por compartir o diferir en identificador durante las primeras etapas. Esta revisión posterior no impide continuar la estandarización. El índice BU sirve exclusivamente para auditar filas y no sustituye los códigos de negocio.
+
 ## 2. Diagnóstico actualizado de entrada
 
 Las cifras se recalcularon desde el CSV preparado, cuyo SHA256 coincide con sus metadatos. La serialización CSV representa nulos y textos vacíos como celdas vacías; para recuperar el significado anterior debe consultarse la fuente correspondiente.
@@ -89,8 +91,8 @@ Este orden separa las reglas de representación de las decisiones de identidad. 
 
 | Columna | Tratamiento propuesto | Qué no debe decidirse automáticamente |
 | :--- | :--- | :--- |
-| registro_id | Conservar código y sistema de origen; validar estructura y clasificar repeticiones | Eliminar todas las filas con el mismo código |
-| aspirante_id | Conservar faltantes; reconocer nan como marcador de ausencia después de documentarlo | Crear identificadores o unir personas solo por correo |
+| registro_id | Conservar el código de origen; posponer correspondencias y validación entre sistemas hasta los cruces | Cambiar códigos Oracle o eliminar filas por su identificador |
+| aspirante_id | Conservar vacíos, códigos y marcadores recibidos; mantener su diagnóstico sin resolver identidades todavía | Crear identificadores, convertir nan del identificador en esta etapa o unir personas solo por correo |
 | fecha_solicitud | Aplicar reglas por formato y conservar valor previo y procedencia | Intercambiar día y mes o sustituir la fecha Oracle por la principal sin evidencia |
 | programa | Unificar nombres y tildes mediante catálogo aprobado | Asignar un programa a los 27 casos sin identificación útil |
 | modalidad | Conservar la modalidad de la solicitud y su catálogo de tres valores | Sustituirla por la modalidad única del catálogo reducido |
@@ -118,7 +120,7 @@ En ciudad, Bogota tiene 605 filas y Bogotá 702; Popayan tiene 509 y Popayán 65
 
 ### Controles de validez adicionales
 
-Los identificadores deben revisarse con patrones separados por sistema: REG seguido de seis dígitos, A seguido de seis dígitos y los códigos ANX2 con su numeración propia, según las fuentes observadas. Un valor fuera del patrón se señala; no se reescribe por aproximación ni se considera inválido sin revisar su procedencia.
+La revisión de patrones y correspondencias de identificadores se reserva para los cruces posteriores. REG, A y ANX2 pertenecen a convenciones distintas; su diferencia no se declara un error ni obliga a cambiar los códigos. Los conteos de repeticiones permanecen como diagnóstico, sin usarse como criterio de eliminación en las primeras etapas.
 
 La duración actual utiliza 2, 8 y 10 semestres según el catálogo adoptado. Estos valores se contrastan con ese catálogo y con la referencia institucional disponible. En correos se revisará una regla explícita de estructura y los casos sin información; una dirección que cumpla el patrón no acredita entregabilidad.
 
@@ -228,6 +230,6 @@ El primer notebook se ejecutó de principio a fin con 10 celdas de código y 10 
 
 Los datos intermedios están en data/interim/taller_2 bajo una carpeta de versión. Los cambios por celda, equivalencias, procedencias, disposición de las 5.640 filas y controles están en reports/limpieza/ejecuciones. reports/limpieza/ultima_estandarizacion.json identifica la ejecución y sus hashes. Existe un HTML de lectura en reports/02_limpieza_base_unificada.html.
 
-El siguiente paso es L03, tratamiento de ausencias, sin adelantar las decisiones sobre eliminación de filas. Después se realizará L04, conversión de tipos y validaciones. Las decisiones de identidad, precedencia económica, fechas conflictivas y catálogo institucional siguen pendientes y se resolverán con evidencia.
+El siguiente paso es L03, tratamiento de ausencias de las demás variables, conservando los identificadores y sus marcadores sin cambios hasta los cruces. No se adelantan decisiones sobre eliminación de filas. Después se realizará L04, conversión de tipos y validaciones. Las decisiones de identidad, precedencia económica, fechas conflictivas y catálogo institucional siguen pendientes y se resolverán con evidencia.
 
 Todavía no se ejecutaron L03 a L09 ni existe una base final depurada generada por este plan.

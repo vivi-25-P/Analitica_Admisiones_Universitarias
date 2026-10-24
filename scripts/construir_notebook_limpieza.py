@@ -31,7 +31,8 @@ y de catálogo que siguen pendientes; no las da por resueltas.
 **No se elimina ninguna fila.** No se imputan valores, se fusionan solicitudes,
 se cambian importes ni se interpretan o corrigen fechas. El resultado es un estado
 intermedio, no una base limpia definitiva. Los valores vacíos, nan, Pendiente,
-No aplica y por definir se conservan para L03 y L04.
+No aplica y por definir se conservan para las etapas posteriores. Los nan de
+identificadores seguirán sin modificarse hasta la revisión de cruces.
 
 Ejecutar desde el principio con el Python del proyecto y los grupos `notebooks`
 y `excel` de uv. Guardar el notebook antes de ejecutarlo para registrar su versión.
@@ -186,6 +187,15 @@ decisiones_pendientes = pd.DataFrame([
     ['Asignaciones fuzzy', 'Revisar las denominaciones asignadas desde la evidencia de integración; no validar facultades solo por coincidencia.']
 ], columns=['Decisión', 'Tratamiento durante L02'])
 display(decisiones_pendientes)
+''')
+md('''
+### Alcance acordado sobre identificadores
+
+La revisión de identificadores entre fuentes se pospone hasta los cruces. Los códigos
+Oracle y los de las demás fuentes se conservan; no necesitan coincidir para continuar
+la estandarización. No se fusionan personas o solicitudes, no se cambia nan del
+identificador ni se eliminan filas por este motivo en las primeras etapas. Los conteos
+son diagnóstico y el índice BU sirve para auditar filas, no para reemplazar códigos.
 ''')
 md('''
 ## L02. Estandarización de textos y categorías
@@ -417,7 +427,8 @@ print('Auditoría:', AUDIT_OUT.relative_to(ROOT))
 md('''
 ## Cómo continuaremos
 
-L03 distinguirá los motivos de ausencia y los cuatro nan con su registro de decisiones.
+L03 distinguirá los motivos de ausencia de las demás variables. Los cuatro nan de
+aspirante_id se mantienen registrados y sin modificar hasta la revisión de cruces.
 L04 representará fechas y números, revisará excepciones y tratará el código entero del
 periodo. Las fechas dudosas y los importes con conceptos diferentes seguirán señalados.
 

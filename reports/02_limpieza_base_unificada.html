@@ -7810,7 +7810,8 @@ y de catálogo que siguen pendientes; no las da por resueltas.</p>
 <p><strong>No se elimina ninguna fila.</strong> No se imputan valores, se fusionan solicitudes,
 se cambian importes ni se interpretan o corrigen fechas. El resultado es un estado
 intermedio, no una base limpia definitiva. Los valores vacíos, nan, Pendiente,
-No aplica y por definir se conservan para L03 y L04.</p>
+No aplica y por definir se conservan para las etapas posteriores. Los nan de
+identificadores seguirán sin modificarse hasta la revisión de cruces.</p>
 <p>Ejecutar desde el principio con el Python del proyecto y los grupos <code>notebooks</code>
 y <code>excel</code> de uv. Guardar el notebook antes de ejecutarlo para registrar su versión.</p>
 </div>
@@ -8186,6 +8187,20 @@ Oracle en identificador institucional de persona ni resuelve cuál fuente tiene 
 </table>
 </div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=279554cb">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Alcance-acordado-sobre-identificadores">Alcance acordado sobre identificadores<a class="anchor-link" href="#Alcance-acordado-sobre-identificadores">¶</a></h3><p>La revisión de identificadores entre fuentes se pospone hasta los cruces. Los códigos
+Oracle y los de las demás fuentes se conservan; no necesitan coincidir para continuar
+la estandarización. No se fusionan personas o solicitudes, no se cambia nan del
+identificador ni se eliminan filas por este motivo en las primeras etapas. Los conteos
+son diagnóstico y el índice BU sirve para auditar filas, no para reemplazar códigos.</p>
 </div>
 </div>
 </div>
@@ -9491,7 +9506,8 @@ Auditoría: reports/limpieza/ejecuciones/estandarizacion_v1_f77076f7d8_150bd123_
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="C%C3%B3mo-continuaremos">Cómo continuaremos<a class="anchor-link" href="#C%C3%B3mo-continuaremos">¶</a></h2><p>L03 distinguirá los motivos de ausencia y los cuatro nan con su registro de decisiones.
+<h2 id="C%C3%B3mo-continuaremos">Cómo continuaremos<a class="anchor-link" href="#C%C3%B3mo-continuaremos">¶</a></h2><p>L03 distinguirá los motivos de ausencia de las demás variables. Los cuatro nan de
+aspirante_id se mantienen registrados y sin modificar hasta la revisión de cruces.
 L04 representará fechas y números, revisará excepciones y tratará el código entero del
 periodo. Las fechas dudosas y los importes con conceptos diferentes seguirán señalados.</p>
 <p>Después se revisará el enriquecimiento del catálogo en L05. Solo en L06 y L07 se

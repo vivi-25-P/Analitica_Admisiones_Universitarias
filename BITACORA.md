@@ -249,3 +249,15 @@ L00 verificó la entrada de 5.640 filas y 18 columnas y el inventario. L01 compr
 L02 aplicó catálogos explícitos de textos y categorías, con 14.209 cambios de celda en 5.404 filas, conservando todas las filas y columnas. Los periodos se homologaron aún como texto. No se cambiaron fechas, puntajes, importes o duración, ni se resolvieron ausencias; esos pasos corresponden a L03 y L04. Los cuatro nan y las 38 repeticiones exactas adicionales permanecen. No hubo eliminación ni consolidación.
 
 Los datos intermedios CSV y Excel se guardan en data/interim/taller_2 con versión y hashes. La auditoría registra procedencia, decisiones pendientes, cambios por celda, equivalencias, frecuencias antes y después, reglas y destino de las 5.640 filas. Diez controles pasaron, incluida la idempotencia de las reglas y la lectura completa de los dos formatos exportados. Se actualizó el plan para distinguir lo ejecutado de las etapas L03 a L09 pendientes.
+
+
+## 24 de octubre de 2026. Identificadores conservados hasta los cruces
+
+El usuario decidió posponer la comparación de identificadores entre fuentes. Se mantienen los códigos Oracle y los de las otras fuentes, así como los marcadores recibidos en los identificadores. La revisión no bloquea la estandarización y no autoriza eliminar registros por este motivo. El índice BU sigue siendo técnico para auditoría. Se aclaró el alcance en el plan, el notebook, su constructor y su HTML. No se cambió el código ejecutado ni los datos; se comprobó que el hash de las celdas de código coincide con la auditoría existente.
+
+
+## 24 de octubre de 2026. Revisión de remoto y consistencia antes de L03
+
+Se consultó origin/main y continuaba en bc5ee3e, sin commits remotos nuevos ni diferencias de CSV. Los cambios locales pendientes eran aclaraciones de alcance sobre identificadores. Se ajustó también el texto de L03 para conservar los cuatro nan de aspirante_id hasta los cruces, sin alterar las celdas de código ejecutadas.
+
+Se verificaron los hashes de los archivos preparados, los resultados intermedios, el código del notebook y la integridad de los dos cuadernos con sus salidas existentes. La revisión no ejecuta L03 ni cambia datos. Se conserva el trabajo realizado y se prepara su publicación con Conventional Commits, sin trailers ni atribuciones adicionales.
