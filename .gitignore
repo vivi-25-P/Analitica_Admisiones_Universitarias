@@ -9,6 +9,8 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 Thumbs.db
+# Archivos temporales de bloqueo de Microsoft Office
+~$*
 
 # Respaldos locales de PostgreSQL
 data/backups/

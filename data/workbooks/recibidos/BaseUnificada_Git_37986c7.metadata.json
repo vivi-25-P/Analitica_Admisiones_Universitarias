@@ -1,0 +1,8 @@
+{
+  "recibido_mediante": "git pull --ff-only",
+  "commit": "37986c7",
+  "ruta_original": "data/Nueva carpeta/BaseUnificada.xlsx",
+  "ruta_actual": "data/workbooks/recibidos/BaseUnificada_Git_37986c7.xlsx",
+  "sha256": "eadfa90d483a1f0732c3f0ea87042bdaf889052c3783fa30b694681801a2953e",
+  "tratamiento": "Se conserva sin modificaciones como libro recibido, separado de la base de partida para limpieza."
+}

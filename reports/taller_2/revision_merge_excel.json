@@ -1,0 +1,26 @@
+{
+  "archivo": "data/BaseUnificada.xlsx",
+  "sha256": "bf74c2d71b4d48be504e775935ed2850ff9df666cc9a5192a79acf59b94b8809",
+  "hoja": "BaseUnificada_ConProgramas_Merg",
+  "filas": 5640,
+  "columnas": 19,
+  "celdas_error_en_salida_guardada": 0,
+  "conserva_15_columnas_originales_y_orden_filas": true,
+  "correspondencias_catalogo": 5613,
+  "sin_correspondencia": 27,
+  "modalidades": {
+    "solicitud": {
+      "Virtual": 2239,
+      "Presencial": 2248,
+      "Híbrida": 1153
+    },
+    "catalogo": {
+      "Presencial": 3741,
+      "Virtual": 1872,
+      "sin_correspondencia": 27
+    },
+    "iguales_no_vacias": 2228,
+    "diferentes_con_ambas": 3385
+  },
+  "recomendacion": "Conservar modalidad de solicitud; modalidad1 se puede retirar de la salida analítica, conservando la comparación como evidencia. Resultado esperado: 18 columnas. Diferencias no acreditan errores de solicitud."
+}

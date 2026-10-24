@@ -16,3 +16,4 @@ sql/fuentes/** -text -whitespace
 *.pptx binary
 *.png binary
 *.dump binary
+*.xlsx binary

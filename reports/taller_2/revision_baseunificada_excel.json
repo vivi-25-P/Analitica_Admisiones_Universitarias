@@ -1,0 +1,45 @@
+{
+  "archivo": "data/BaseUnificada.xlsx",
+  "sha256": "765e243ea7f673448ebcb84b176b5b421fec18d251af8b5e53506d9dcfb18fe1",
+  "hojas": {
+    "BaseUnificada": 5640,
+    "Caso2 Programas": 9,
+    "Caso2_Oracle_Admisiones": 500,
+    "Caso2_CRM_Admisiones": 100,
+    "Caso2_Admisiones_Universitarias": 5040
+  },
+  "columnas": [
+    "registro_id",
+    "aspirante_id",
+    "fecha_solicitud",
+    "programa",
+    "modalidad",
+    "canal_captacion",
+    "estado_proceso",
+    "puntaje_admision",
+    "documentos_completos",
+    "valor_matricula_cop",
+    "ciudad_residencia",
+    "asesor",
+    "fecha_matricula",
+    "correo",
+    "periodo_academico"
+  ],
+  "filas_baseunificada": 5640,
+  "columnas_baseunificada": 15,
+  "errores_excel": 0,
+  "bloque_principal_coincide": true,
+  "bloque_crm_coincide_con_separacion_trim_y_suma": true,
+  "bloque_oracle_coincide_con_csv": true,
+  "periodos": {
+    "2026 II": 1070,
+    "2025-2": 1102,
+    "2026-I": 1020,
+    "2026-1": 1271,
+    "2026-2": 1177
+  },
+  "registro_id_distintos": 5500,
+  "filas_con_ids_espacios": 0,
+  "programa_solo_espacios": 25,
+  "aspirante_nan": 4
+}

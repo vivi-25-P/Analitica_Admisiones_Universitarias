@@ -194,3 +194,38 @@ Se verificó la lectura completa del CSV contra las 500 filas serializadas de la
 Se agruparon para compartir las fuentes nuevas, el entorno Oracle, la vista, los scripts de revisión y exportación, el CSV plano con metadatos y los reportes descriptivos. Se verificaron los hashes originales y el CSV de 500 filas y 15 columnas. No se detectaron credenciales locales en los archivos candidatos. .env, .venv y los respaldos continúan excluidos. Pasaron las 13 pruebas locales; se omitieron tres pruebas de integración que requieren un entorno aislado explícito. La publicación usa Conventional Commits sin trailers ni atribuciones adicionales y no ejecuta limpieza ni cambia bases de datos.
 
 **Preservación en Git.** Se exceptuaron los SQL de sql/fuentes de la normalización de saltos de línea, igual que los CSV. Se conservan los espacios y finales de línea de los datos originales; los controles de estilo no los corrigen. El texto extraído del PDF, que es un documento derivado, se ajustó únicamente para retirar espacios al final de línea.
+
+
+## 24 de octubre de 2026. Verificación de la hoja BaseUnificada de Excel
+
+Se revisó en modo de lectura data/BaseUnificada.xlsx, su hoja BaseUnificada y el código M guardado. La consulta usa Table.Combine con una sola fuente principal, el CRM transformado y el CSV Oracle. Contiene 5.640 filas, 15 columnas con los nombres y orden esperados y no presenta celdas de error en la salida guardada.
+
+Se compararon todos los valores de los tres bloques: 5.040 registros principales con identificadores recortados, 100 CRM con separación de identificadores, recorte y suma económica acordada por el usuario para esta fase, y 500 Oracle iguales al CSV exportado. Los tres bloques coinciden. El periodo académico Oracle ya conserva sus etiquetas de texto. Programas permanece separado con nueve filas.
+
+La preparación conserva 5.500 registro_id distintos, cuatro aspirante_id nan y 25 programas con solo espacios. No se eliminaron duplicados ni se aplicaron reglas adicionales. La consolidación es provisional y no acredita solicitudes únicas ni equivalencia entre conceptos económicos. El detalle está en reports/taller_2/revision_baseunificada_excel.json. No se modificó el libro de Excel.
+
+
+## 24 de octubre de 2026. Diagnóstico de referencia rota en Power Query CRM
+
+La captura de Excel y el código M guardado muestran que la consulta Caso2_CRM_Admisiones busca una tabla interna con ese nombre que ya no existe. La tabla con sufijo final no es una sustitución directa del origen original. BaseUnificada hereda el fallo al depender de CRM. Se preparó powerquery/taller_2/CRM_Admisiones_desde_csv.pq con origen directo al CSV recibido y los mismos pasos de transformación existentes. El control de Windows devolvió un error de rutas de la sesión WSL antes de poder actuar sobre Excel. No se modificó el libro abierto ni se verificó aún su actualización.
+
+
+## 24 de octubre de 2026. Revisión del Merge guardado en Excel
+
+La hoja BaseUnificada_ConProgramas_Merg contiene 5.640 filas y 19 columnas. Se comprobó que conserva los valores de las 15 columnas originales y el orden completo de las filas de BaseUnificada. La consulta usa Table.FuzzyNestedJoin LeftOuter, expande atributos y retira únicamente programa del catálogo. No se detectaron celdas de error en la salida guardada. Hay 5.613 correspondencias y 27 sin atributos de catálogo.
+
+modalidad1 corresponde al catálogo; modalidad conserva la solicitud. Coinciden en 2.228 casos y difieren en 3.385 con ambos datos disponibles. Estas diferencias no prueban errores: el catálogo reducido no representa todas las modalidades de las solicitudes. Se recomienda retirar modalidad1 de la salida analítica conservando modalidad y los atributos facultad, duración y nivel. El resultado esperado sería de 18 columnas. No se modificó el Excel. Respaldo: reports/taller_2/revision_merge_excel.json.
+
+
+## 24 de octubre de 2026. Pull, organización de data y nueva base de partida
+
+Se ejecutó git pull --ff-only desde c654c3a hasta 37986c7, sin conflictos ni sobrescritura de los cambios locales. Se recibió data/Nueva carpeta/BaseUnificada.xlsx y un bloqueo de Office. El libro se conservó byte por byte en data/workbooks/recibidos/BaseUnificada_Git_37986c7.xlsx con metadatos de procedencia. El bloqueo recibido se apartó en data/backups/temporales_excel y se agregó la exclusión de bloqueos nuevos de Office.
+
+Se exportó la hoja BaseUnificada_ConProgramas_Merg de data/BaseUnificada_Manejo.xlsx a data/prepared/taller_2/BaseUnificada.csv y BaseUnificada.xlsx. Ambos contienen 5.640 filas y 18 columnas. El Excel tiene una sola hoja y una tabla BaseUnificada, sin consultas ni vínculos. Se verificaron todos sus valores contra la hoja de origen y la lectura completa del CSV contra las filas serializadas. Se preservaron los textos vacíos en el Excel, sin convertirlos a celdas ausentes. El CSV no distingue esas dos representaciones. No se aplicó limpieza adicional ni se cambiaron las fechas o duplicados.
+
+Se creó scripts/exportar_base_unificada.py. Se añadió el grupo opcional excel con openpyxl a pyproject.toml y uv.lock y se regeneró requirement.pip con todas las dependencias y hashes. Los conteos, origen y hashes de las exportaciones están en BaseUnificada.metadata.json. Se documentó data en su README y se mantuvo el libro de manejo en su ruta, al estar abierto en Excel. No se modificaron las bases de datos ni se realizó push de estos cambios.
+
+
+## 24 de octubre de 2026. Preparación para compartir la base de partida
+
+Se revisaron los cambios locales de organización, libro de manejo, exportaciones BaseUnificada, corrección del origen CRM y evidencias de revisión. Las contraseñas y temporales de Office se mantienen excluidos. Se verificaron los hashes de los archivos preparados para la limpieza. Se publica mediante Conventional Commits, sin trailers ni atribuciones adicionales. El traslado del libro recibido conserva su contenido y el bloqueo de Office deja de formar parte del repositorio.

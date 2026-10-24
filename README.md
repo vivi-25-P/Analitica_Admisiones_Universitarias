@@ -1,5 +1,7 @@
 # Analítica de admisiones universitarias
 
+La [organización de data](data/README.md) distingue las fuentes originales, los libros de manejo y la nueva base de partida. [BaseUnificada.xlsx](data/prepared/taller_2/BaseUnificada.xlsx) y [BaseUnificada.csv](data/prepared/taller_2/BaseUnificada.csv) contienen la hoja consolidada exportada con 5.640 filas y 18 columnas, sin aplicar limpieza adicional. Para regenerarlos se utiliza el grupo opcional `excel` de uv y `scripts/exportar_base_unificada.py`.
+
 ## Taller 2: múltiples fuentes
 
 Los cuatro archivos recibidos están organizados en `docs/referencias/taller_2`, `data/raw/taller_2` y `sql/fuentes/taller_2`, con sus bytes originales y hashes registrados. Consulta [el análisis del taller y la ruta de trabajo](docs/analisis_taller_2.md).

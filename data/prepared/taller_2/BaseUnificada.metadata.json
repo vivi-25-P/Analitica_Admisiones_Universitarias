@@ -1,0 +1,59 @@
+{
+  "exportado_en": "2026-10-24T12:34:12.918184-05:00",
+  "libro_origen": "data/BaseUnificada_Manejo.xlsx",
+  "hoja_origen": "BaseUnificada_ConProgramas_Merg",
+  "sha256_libro_origen": "123ecab1dda0781d6601a240a0c83ef7858914b563c8eb8d4b28835c7c9e29d7",
+  "filas_sin_encabezado": 5640,
+  "columnas": 18,
+  "encabezados": [
+    "registro_id",
+    "aspirante_id",
+    "fecha_solicitud",
+    "programa",
+    "modalidad",
+    "canal_captacion",
+    "estado_proceso",
+    "puntaje_admision",
+    "documentos_completos",
+    "valor_matricula_cop",
+    "ciudad_residencia",
+    "asesor",
+    "fecha_matricula",
+    "correo",
+    "periodo_academico",
+    "facultad",
+    "duracion_semestres",
+    "nivel_formacion"
+  ],
+  "registros_id_distintos": 5500,
+  "filas_facultad_sin_asignar": 27,
+  "periodos": {
+    "2026 II": 1070,
+    "2025-2": 1102,
+    "2026-I": 1020,
+    "2026-1": 1271,
+    "2026-2": 1177
+  },
+  "archivos": {
+    "BaseUnificada.csv": {
+      "sha256": "f77076f7d800c9c4ca11ee4fd4e55ade447275adf0d342c099f722f4eb35c80e",
+      "bytes": 1069880
+    },
+    "BaseUnificada.xlsx": {
+      "sha256": "de55d4256dc3258312c7109f62281ad6918e56350b61ed354a43d9b8007643e1",
+      "bytes": 511028
+    }
+  },
+  "verificacion": {
+    "excel_igual_a_todos_los_valores_del_origen": true,
+    "csv_igual_a_todas_las_filas_serializadas": true,
+    "libro_origen_sin_modificar": true
+  },
+  "csv": {
+    "codificacion": "UTF-8 con BOM",
+    "separador": ",",
+    "decimal": ".",
+    "ausencias": "Celdas vacías; no mantiene distinción entre NULL y texto vacío ni tipos Excel"
+  },
+  "alcance": "Punto de partida para la siguiente limpieza. No se corrigen fechas, periodos, valores, categorías ni duplicados. Excel sin consultas ni vínculos: valores de la hoja guardada."
+}
