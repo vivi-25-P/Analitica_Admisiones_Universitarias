@@ -1,0 +1,18 @@
+{
+  "version": "ausencias_v1",
+  "alcance": "Normalización de ausencias sin imputación, eliminación de filas ni conversión de tipos numéricos o fechas. Los motivos se conservan por celda.",
+  "columnas_excluidas": ["registro_id", "aspirante_id"],
+  "vacio_en_otra_columna": "no_informado_en_base",
+  "marcadores_por_columna": {
+    "programa": {"Sin especificar": "sin_especificar"},
+    "puntaje_admision": {"Pendiente": "pendiente"},
+    "valor_matricula_cop": {"por definir": "por_definir"},
+    "fecha_matricula": {"No aplica": "no_aplica"}
+  },
+  "categorias_que_se_conservan": {
+    "documentos_completos": ["Sí", "No", "Pendiente"],
+    "asesor": ["Sin asignar"]
+  },
+  "salida": "None en memoria, null en JSONL y celda vacía en Excel y CSV. El CSV requiere la auditoría para distinguir nulos de textos vacíos.",
+  "limitacion_origen": "El vacío de la base consolidada no identifica por sí solo el motivo anterior en el sistema de origen. No inferir No aplica ni Pendiente a partir del estado de admisión."
+}

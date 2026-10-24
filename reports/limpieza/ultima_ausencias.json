@@ -1,0 +1,35 @@
+{
+  "id_ejecucion": "ausencias_v1_526ff5e27b_8850cae3_bb959323",
+  "etapa": "L03",
+  "ejecutado_en": "2026-10-24T13:25:31.600948-05:00",
+  "entrada_l02_id": "estandarizacion_v1_f77076f7d8_150bd123_bb959323",
+  "sha256_entrada_l02_csv": "526ff5e27b24868e075bd9ed2e633de21ea24bd9358b3af236044bf430229afb",
+  "sha256_reglas": "8850cae39647b5caa08f9c088041403f8787e1a8851ca0c6210ee2689f1dfbf0",
+  "sha256_codigo_notebook": "bb959323b9475085bd816625c42ffd1b439edcd27a00e9952047784054764830",
+  "filas_entrada": 5640,
+  "filas_salida": 5640,
+  "columnas": 18,
+  "celdas_ausencia_normalizada": 5866,
+  "filas_afectadas": 4705,
+  "filas_eliminadas": 0,
+  "filas_consolidadas": 0,
+  "valores_imputados": 0,
+  "identificadores_sin_cambios": true,
+  "identificadores_pospuestos": 96,
+  "controles_correctos": true,
+  "motivos": {
+    "no_informado_en_base": 4409,
+    "no_aplica": 1369,
+    "pendiente": 51,
+    "por_definir": 35,
+    "sin_especificar": 2
+  },
+  "datos_intermedios": "data/interim/taller_2/ausencias_v1_526ff5e27b_8850cae3_bb959323",
+  "auditoria": "reports/limpieza/ejecuciones/ausencias_v1_526ff5e27b_8850cae3_bb959323",
+  "archivos_datos": {
+    "BaseUnificada_Ausencias.csv": "be9215e82677c6e2bd5fe6cad0d94c2b0476e4fcbe1f0c07d4882aa149ae7d46",
+    "BaseUnificada_Ausencias.xlsx": "69507d6d1b3689e8fd9b5ee71ecb14d9b4e18e0e27bafe61dd8cd99625381d6f",
+    "BaseUnificada_Ausencias.jsonl": "421d1186d31821df2c9401d3220c5840ab00ca7ac86743a990f8b7bb709c537a"
+  },
+  "limite": "Sin tipado numérico o de fechas; motivos registrados y ninguna identidad resuelta."
+}

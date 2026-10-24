@@ -23,16 +23,17 @@ md('''
 Este cuaderno sigue el orden del plan en `docs/plan_limpieza_datos.md`.
 La integración previa se conserva en el libro de manejo y la entrada congelada.
 
-**Esta primera ejecución cubre L00, L01 y L02:** identificación de la entrada,
+**Este avance cubre L00, L01, L02 y L03:** identificación de la entrada,
 reconstrucción comprobada de la procedencia y estandarización textual mediante
 catálogos explícitos. L01 deja documentadas las decisiones económicas, temporales
-y de catálogo que siguen pendientes; no las da por resueltas.
+y de catálogo que siguen pendientes; no las da por resueltas. L03 representa las
+ausencias de las demás variables y conserva sus motivos en controles separados.
 
 **No se elimina ninguna fila.** No se imputan valores, se fusionan solicitudes,
 se cambian importes ni se interpretan o corrigen fechas. El resultado es un estado
-intermedio, no una base limpia definitiva. Los valores vacíos, nan, Pendiente,
-No aplica y por definir se conservan para las etapas posteriores. Los nan de
-identificadores seguirán sin modificarse hasta la revisión de cruces.
+intermedio, no una base limpia definitiva. L02 conserva los marcadores recibidos;
+L03 aplica las reglas de ausencia documentadas sin completar datos por suposición.
+Los vacíos y nan de identificadores seguirán sin modificarse hasta los cruces.
 
 Ejecutar desde el principio con el Python del proyecto y los grupos `notebooks`
 y `excel` de uv. Guardar el notebook antes de ejecutarlo para registrar su versión.
@@ -425,9 +426,210 @@ print('Datos intermedios:', DATA_OUT.relative_to(ROOT))
 print('Auditoría:', AUDIT_OUT.relative_to(ROOT))
 ''')
 md('''
+## L03. Tratamiento de ausencias con su motivo
+
+Esta etapa toma el resultado L02 sin descartar registros. Representa como ausentes
+los vacíos de columnas distintas de los identificadores y cuatro marcadores explícitos:
+Sin especificar en programa, Pendiente en puntaje, por definir en importe y No aplica
+en fecha de matrícula. Cada celda mantiene en la auditoría su texto anterior y motivo.
+
+Pendiente en documentos y Sin asignar en asesor siguen siendo categorías. Los vacíos
+y nan de los identificadores permanecen intactos. Un vacío se registra como no informado
+en la base; no se presume su causa institucional ni se convierte en cero.
+''')
+code('''
+AUS_PATH = ROOT / 'config/limpieza/ausencias_v1.json'
+AUS_RULES = json.loads(AUS_PATH.read_text(encoding='utf8'))
+AUS_SHA = hashlib.sha256(AUS_PATH.read_bytes()).hexdigest()
+L03_ID = f"{AUS_RULES['version']}_{OUTPUT_SHA[:10]}_{AUS_SHA[:8]}_{CODE_SHA[:8]}"
+entrada_l03 = df_estandarizada.copy(deep=True)
+
+def motivo_ausencia(valor, columna):
+    if columna in AUS_RULES['columnas_excluidas']:
+        return None
+    if valor is None:
+        return 'ya_ausente'
+    if valor == '':
+        return AUS_RULES['vacio_en_otra_columna']
+    return AUS_RULES['marcadores_por_columna'].get(columna, {}).get(valor)
+
+display(pd.DataFrame([
+    {'Columna': 'Cualquier columna salvo identificadores', 'Valor recibido': 'Texto vacío',
+     'Motivo': AUS_RULES['vacio_en_otra_columna']},
+    *[{'Columna': c, 'Valor recibido': v, 'Motivo': motivo}
+      for c, valores in AUS_RULES['marcadores_por_columna'].items() for v, motivo in valores.items()]
+]))
+''')
+code('''
+df_ausencias = entrada_l03.astype(object).copy(deep=True)
+cambios_l03 = []
+pasos_l03 = []
+for numero, columna in enumerate(HEADERS, 1):
+    valores = []
+    afectados = 0
+    for indice, valor in entrada_l03[columna].items():
+        motivo = motivo_ausencia(valor, columna)
+        if motivo is not None and motivo != 'ya_ausente':
+            valores.append(None)
+            afectados += 1
+            cambios_l03.append({'id_ejecucion': L03_ID, 'paso': 'L03', 'regla': f'A{numero:02d}',
+                'id_fila_entrada': ids_fila.loc[indice],
+                'registro_id': original.loc[indice, 'registro_id'], 'columna': columna,
+                'valor_anterior': valor, 'valor_posterior': None,
+                'tipo_anterior': 'texto vacío' if valor == '' else 'texto',
+                'tipo_posterior': 'ausente', 'motivo_ausencia': motivo,
+                'imputado': False})
+        else:
+            valores.append(valor)
+    df_ausencias[columna] = pd.Series(valores, index=entrada_l03.index, dtype=object)
+    pasos_l03.append({'id_ejecucion': L03_ID, 'paso': 'L03', 'regla': f'A{numero:02d}',
+        'columna': columna, 'filas_antes': N, 'filas_despues': len(df_ausencias),
+        'celdas_ausencia_normalizada': afectados, 'filas_excluidas': 0,
+        'repeticiones_consolidadas': 0, 'filas_imputadas': 0,
+        'tratamiento': 'Identificador sin cambios' if columna in AUS_RULES['columnas_excluidas']
+                       else 'Aplicación de reglas explícitas de ausencia'})
+
+audit_l03 = pd.DataFrame(cambios_l03)
+pasos_l03_df = pd.DataFrame(pasos_l03)
+motivos_l03 = (audit_l03.groupby(['columna', 'motivo_ausencia']).size()
+               .reset_index(name='celdas'))
+columnas_con_ausencias = motivos_l03['columna'].unique()
+comparacion_l03 = pd.DataFrame([{'Columna': c,
+    'Textos vacíos antes': int(entrada_l03[c].eq('').sum()),
+    'Ausencias normalizadas después': int(df_ausencias[c].isna().sum()),
+    'Valores con información conservada': int(df_ausencias[c].notna().sum())}
+    for c in columnas_con_ausencias])
+display(motivos_l03)
+display(comparacion_l03)
+display(Markdown(f"**Celdas con ausencia normalizada:** {len(audit_l03):,}. "
+    f"**Filas afectadas:** {audit_l03['id_fila_entrada'].nunique():,}. "
+    "**Filas eliminadas o imputadas: 0.**"))
+''')
+md('''
+### Controles de L03
+
+Una ausencia normalizada no equivale a una corrección de su causa. Se mantiene el
+detalle por celda para distinguir los motivos aunque Excel o CSV los presenten vacíos.
+La relación de identificadores pospuestos es solo un listado de revisión, sin cambios.
+''')
+code('''
+ids_columns = AUS_RULES['columnas_excluidas']
+changed_keys = {(x['id_fila_entrada'], x['columna']) for x in cambios_l03}
+sin_cambios_fuera_auditoria = all(
+    df_ausencias.loc[i, c] == entrada_l03.loc[i, c]
+    for i in entrada_l03.index for c in HEADERS if (ids_fila.loc[i], c) not in changed_keys)
+valores_informados_intactos = all(
+    valor is None or valor == entrada_l03.loc[i, c]
+    for c in HEADERS for i, valor in df_ausencias[c].items())
+idempotente_l03 = all(
+    (None if motivo_ausencia(v, c) is not None else v) == v
+    for c in HEADERS for v in df_ausencias[c])
+controles_l03 = pd.DataFrame([
+    ['Filas conservadas', len(df_ausencias) == N],
+    ['18 columnas y orden original', list(df_ausencias.columns) == HEADERS],
+    ['Identificadores intactos', df_ausencias[ids_columns].values.tolist() == entrada_l03[ids_columns].values.tolist()],
+    ['Registro por cada celda convertida en ausente', len(audit_l03) == int(df_ausencias.isna().sum().sum())],
+    ['Solo cambian las celdas auditadas', sin_cambios_fuera_auditoria],
+    ['Valores informados intactos', valores_informados_intactos],
+    ['Documentación pendiente conservada', df_ausencias['documentos_completos'].tolist() == entrada_l03['documentos_completos'].tolist()],
+    ['Asesores sin asignar conservados', df_ausencias['asesor'].tolist() == entrada_l03['asesor'].tolist()],
+    ['Sin cambios al repetir la regla', idempotente_l03],
+    ['Entrada L02 intacta', df_estandarizada.equals(entrada_l03)],
+    ['Archivo preparado intacto', hashlib.sha256(SOURCE.read_bytes()).hexdigest() == INPUT_SHA]
+], columns=['Control', 'Correcto'])
+assert controles_l03['Correcto'].all()
+pospuestos_l03 = pd.DataFrame([{
+    'id_fila_entrada': ids_fila.loc[i], 'registro_id': original.loc[i, 'registro_id'],
+    'aspirante_id': original.loc[i, 'aspirante_id'],
+    'situacion': 'Identificador vacío' if original.loc[i, 'aspirante_id'] == '' else 'Marcador nan',
+    'decision': 'Conservado sin cambios hasta los cruces'}
+    for i in original.index if original.loc[i, 'aspirante_id'] in {'', 'nan'}])
+display(controles_l03)
+display(pospuestos_l03.groupby('situacion').size().rename('Filas pospuestas').to_frame())
+''')
+md('''
+### Exportación y motivos conservados
+
+Los datos se guardan en CSV, Excel y JSONL. JSONL conserva explícitamente null y texto
+vacío; el CSV representa ambos como celda vacía y requiere la auditoría para distinguirlos.
+Cada una de las 5.640 entradas conserva su destino. Se mantienen separados los motivos
+de ausencia, el inventario de identificadores pospuestos y el resumen de ejecución.
+''')
+code('''
+L03_DATA = ROOT / 'data/interim/taller_2' / L03_ID
+L03_AUDIT = ROOT / 'reports/limpieza/ejecuciones' / L03_ID
+L03_DATA.mkdir(parents=True, exist_ok=True)
+L03_AUDIT.mkdir(parents=True, exist_ok=True)
+csv_l03 = L03_DATA / 'BaseUnificada_Ausencias.csv'
+xlsx_l03 = L03_DATA / 'BaseUnificada_Ausencias.xlsx'
+jsonl_l03 = L03_DATA / 'BaseUnificada_Ausencias.jsonl'
+df_ausencias.to_csv(csv_l03, index=False, encoding='utf-8-sig', lineterminator='\\n', na_rep='')
+records_l03 = df_ausencias.to_dict('records')
+with jsonl_l03.open('w', encoding='utf8') as handle:
+    for record in records_l03:
+        handle.write(json.dumps(record, ensure_ascii=False) + '\\n')
+book_l03 = Workbook()
+sheet_l03 = book_l03.active
+sheet_l03.title = 'BaseUnificada_Ausencias'
+sheet_l03.append(HEADERS)
+rows_l03 = list(df_ausencias.itertuples(index=False, name=None))
+for row in rows_l03:
+    sheet_l03.append(row)
+table_l03 = Table(displayName='BaseUnificada_Ausencias', ref=f'A1:{get_column_letter(len(HEADERS))}{N + 1}')
+table_l03.tableStyleInfo = TableStyleInfo(name='TableStyleMedium9', showRowStripes=True)
+sheet_l03.add_table(table_l03)
+sheet_l03.freeze_panes = 'A2'
+book_l03.save(xlsx_l03)
+book_l03.close()
+preserve_empty_text(xlsx_l03, rows_l03)
+verified_l03 = load_workbook(xlsx_l03, read_only=True, data_only=True)
+assert list(verified_l03['BaseUnificada_Ausencias'].iter_rows(values_only=True))[1:] == rows_l03
+verified_l03.close()
+with jsonl_l03.open(encoding='utf8') as handle:
+    assert [json.loads(line) for line in handle] == records_l03
+with csv_l03.open(encoding='utf-8-sig', newline='') as handle:
+    csv_read_l03 = list(csv.reader(handle))
+assert csv_read_l03 == [HEADERS, *[['' if v is None else v for v in row] for row in rows_l03]]
+L03_OUTPUT_SHA = hashlib.sha256(jsonl_l03.read_bytes()).hexdigest()
+destinos_l03 = pd.DataFrame({'id_ejecucion': L03_ID, 'id_fila_entrada': ids_fila,
+    'id_registro_salida': ids_fila, 'estado_destino': 'conservada',
+    'fila_jsonl_salida': range(1, N + 1), 'sha256_salida_jsonl': L03_OUTPUT_SHA})
+for nombre, frame in {
+    'L03_cambios_por_celda.csv': audit_l03, 'L03_registro_pasos.csv': pasos_l03_df,
+    'L03_motivos_ausencia.csv': motivos_l03, 'L03_completitud_antes_despues.csv': comparacion_l03,
+    'L03_controles.csv': controles_l03, 'L03_disposicion_filas.csv': destinos_l03,
+    'L03_identificadores_pospuestos.csv': pospuestos_l03
+}.items():
+    frame.to_csv(L03_AUDIT / nombre, index=False, encoding='utf-8-sig', lineterminator='\\n')
+resumen_l03 = {
+    'id_ejecucion': L03_ID, 'etapa': 'L03',
+    'ejecutado_en': datetime.now(ZoneInfo('America/Bogota')).isoformat(),
+    'entrada_l02_id': RUN_ID, 'sha256_entrada_l02_csv': OUTPUT_SHA,
+    'sha256_reglas': AUS_SHA, 'sha256_codigo_notebook': CODE_SHA,
+    'filas_entrada': N, 'filas_salida': len(df_ausencias), 'columnas': len(HEADERS),
+    'celdas_ausencia_normalizada': len(audit_l03),
+    'filas_afectadas': int(audit_l03['id_fila_entrada'].nunique()),
+    'filas_eliminadas': 0, 'filas_consolidadas': 0, 'valores_imputados': 0,
+    'identificadores_sin_cambios': True, 'identificadores_pospuestos': len(pospuestos_l03),
+    'controles_correctos': bool(controles_l03['Correcto'].all()),
+    'motivos': audit_l03['motivo_ausencia'].value_counts().to_dict(),
+    'datos_intermedios': str(L03_DATA.relative_to(ROOT)), 'auditoria': str(L03_AUDIT.relative_to(ROOT)),
+    'archivos_datos': {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in [csv_l03, xlsx_l03, jsonl_l03]},
+    'limite': 'Sin tipado numérico o de fechas; motivos registrados y ninguna identidad resuelta.'}
+(L03_AUDIT / 'resumen_ejecucion.json').write_text(json.dumps(resumen_l03, ensure_ascii=False, indent=2) + '\\n', encoding='utf8')
+(ROOT / 'reports/limpieza/ultima_ausencias.json').write_text(json.dumps(resumen_l03, ensure_ascii=False, indent=2) + '\\n', encoding='utf8')
+assert destinos_l03['id_fila_entrada'].nunique() == N
+assert hashlib.sha256(SOURCE.read_bytes()).hexdigest() == INPUT_SHA
+display(pd.DataFrame([{'Etapa': 'L03', 'Filas de entrada': N, 'Filas de salida': len(df_ausencias),
+    'Celdas con ausencia normalizada': len(audit_l03), 'Filas afectadas': resumen_l03['filas_afectadas'],
+    'Filas eliminadas': 0, 'Valores imputados': 0}]))
+print('Datos L03:', L03_DATA.relative_to(ROOT))
+print('Auditoría L03:', L03_AUDIT.relative_to(ROOT))
+''')
+md('''
 ## Cómo continuaremos
 
-L03 distinguirá los motivos de ausencia de las demás variables. Los cuatro nan de
+L03 ya distingue las ausencias de las demás variables. Los cuatro nan y los vacíos de
 aspirante_id se mantienen registrados y sin modificar hasta la revisión de cruces.
 L04 representará fechas y números, revisará excepciones y tratará el código entero del
 periodo. Las fechas dudosas y los importes con conceptos diferentes seguirán señalados.

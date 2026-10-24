@@ -2,7 +2,7 @@
 
 Actualización: 24 de octubre de 2026.
 
-Estado: diagnóstico e inventario preparados y primer avance ejecutado en notebooks/02_limpieza_base_unificada.ipynb. Se completaron L00, la comprobación de procedencia y documentación de pendientes de L01, y la estandarización textual de L02. Se mantienen 5.640 filas y 18 columnas. No se eliminaron ni consolidaron registros y no se modificaron los archivos BaseUnificada de partida.
+Estado: diagnóstico e inventario preparados y avance ejecutado en notebooks/02_limpieza_base_unificada.ipynb. Se completaron L00, la comprobación de procedencia y documentación de pendientes de L01, la estandarización textual de L02 y el tratamiento de ausencias L03. Se mantienen 5.640 filas y 18 columnas. No se eliminaron ni consolidaron registros y no se modificaron los archivos BaseUnificada de partida.
 
 ## 1. Qué cambia respecto al plan anterior
 
@@ -228,10 +228,12 @@ Una carga futura a PostgreSQL necesita una nueva estructura que contemple las 18
 
 Está listo el diagnóstico de entrada, el inventario de las 5.640 filas, el listado de identificadores repetidos, la actualización del plan y las plantillas de control. Se reproducen con python scripts/diagnosticar_base_unificada.py.
 
-El primer notebook se ejecutó de principio a fin con 10 celdas de código y 10 controles correctos. Verificó 5.040 procedencias principales, 100 CRM y 500 Oracle contra el libro congelado y el código de anexado. L02 estandarizó textos y categorías con config/limpieza/estandarizacion_v1.json: hubo 14.209 cambios de celda en 5.404 filas. Se conservaron las 5.640 filas, las 18 columnas y las 38 repeticiones exactas adicionales. Fechas, puntajes, importes y duración permanecen iguales a la entrada textual.
+El notebook se ejecutó de principio a fin con 14 celdas de código. Verificó 5.040 procedencias principales, 100 CRM y 500 Oracle contra el libro congelado y el código de anexado. L02 estandarizó textos y categorías con config/limpieza/estandarizacion_v1.json: hubo 14.209 cambios de celda en 5.404 filas. Se conservaron las 5.640 filas, las 18 columnas y las 38 repeticiones exactas adicionales. L02 no modificó fechas, puntajes, importes ni duración.
 
 Los datos intermedios están en data/interim/taller_2 bajo una carpeta de versión. Los cambios por celda, equivalencias, procedencias, disposición de las 5.640 filas y controles están en reports/limpieza/ejecuciones. reports/limpieza/ultima_estandarizacion.json identifica la ejecución y sus hashes. Existe un HTML de lectura en reports/02_limpieza_base_unificada.html.
 
-El siguiente paso es L03, tratamiento de ausencias de las demás variables, conservando los identificadores y sus marcadores sin cambios hasta los cruces. No se adelantan decisiones sobre eliminación de filas. Después se realizará L04, conversión de tipos y validaciones. Las decisiones de identidad, precedencia económica, fechas conflictivas y catálogo institucional siguen pendientes y se resolverán con evidencia.
+L03 se aplicó con config/limpieza/ausencias_v1.json. Representó 5.866 celdas como ausentes en 4.705 filas y registró sus motivos: 4.409 no informadas en la base, 1.369 No aplica de fecha de matrícula, 51 Pendiente de puntaje, 35 por definir de importe y 2 Sin especificar de programa. Los 92 identificadores de aspirante vacíos y los cuatro nan se conservaron sin cambios. Pendiente de documentación y Sin asignar de asesor siguen como categorías. No hubo imputación ni cambios de valores informados.
 
-Todavía no se ejecutaron L03 a L09 ni existe una base final depurada generada por este plan.
+Los controles L03 verifican 11 condiciones, incluida la conservación de filas, identificadores, valores informados y la idempotencia. Las tres salidas CSV, Excel y JSONL se compararon íntegramente. JSONL preserva la diferencia entre null y texto vacío; el CSV requiere el control por celda para recuperar esa diferencia. La salida y auditoría de L03 se identifican en reports/limpieza/ultima_ausencias.json. La repetición de L02 para ejecutar todo el cuaderno conserva el mismo contenido CSV de estandarización; no representa nuevas transformaciones acumuladas sobre la base inicial.
+
+El siguiente paso es L04, conversión de tipos y validaciones, conservando identificadores y motivos de ausencia. Las decisiones de identidad, precedencia económica, fechas conflictivas y catálogo institucional siguen pendientes y se resolverán con evidencia. Todavía no se ejecutaron L04 a L09 ni existe una base final depurada generada por este plan.

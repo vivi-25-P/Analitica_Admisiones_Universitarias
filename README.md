@@ -6,6 +6,8 @@ El [plan de limpieza actualizado](docs/plan_limpieza_datos.md) contempla las 18 
 
 El [notebook de limpieza](notebooks/02_limpieza_base_unificada.ipynb) es el lugar principal de trabajo por etapas. Ya está ejecutado para L00, la procedencia y decisiones pendientes de L01 y la estandarización textual L02, sin retirar filas. Puede leerse también en [HTML](reports/02_limpieza_base_unificada.html). Sus reglas están en `config/limpieza/estandarizacion_v1.json`, los resultados intermedios en `data/interim/taller_2` y el resumen de auditoría en `reports/limpieza/ultima_estandarizacion.json`.
 
+L03 también está ejecutado: normaliza ausencias de las demás variables conservando su motivo, sin cambiar identificadores, imputar o quitar filas. Las reglas están en `config/limpieza/ausencias_v1.json` y la salida vigente de esta etapa se identifica en `reports/limpieza/ultima_ausencias.json`. El CSV requiere la auditoría para distinguir tipos de ausencia; JSONL los representa como null y conserva texto vacío cuando corresponde. El siguiente paso es L04.
+
 ```bash
 uv sync --locked --group notebooks --group excel
 uv run --locked --group notebooks --group excel python scripts/ejecutar_notebook.py --notebook notebooks/02_limpieza_base_unificada.ipynb

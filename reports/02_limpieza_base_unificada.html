@@ -7796,28 +7796,29 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d66a7e8a">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=65cac8d0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Limpieza-y-transformaci%C3%B3n-de-BaseUnificada">Limpieza y transformación de BaseUnificada<a class="anchor-link" href="#Limpieza-y-transformaci%C3%B3n-de-BaseUnificada">¶</a></h1><p>Este cuaderno sigue el orden del plan en <code>docs/plan_limpieza_datos.md</code>.
 La integración previa se conserva en el libro de manejo y la entrada congelada.</p>
-<p><strong>Esta primera ejecución cubre L00, L01 y L02:</strong> identificación de la entrada,
+<p><strong>Este avance cubre L00, L01, L02 y L03:</strong> identificación de la entrada,
 reconstrucción comprobada de la procedencia y estandarización textual mediante
 catálogos explícitos. L01 deja documentadas las decisiones económicas, temporales
-y de catálogo que siguen pendientes; no las da por resueltas.</p>
+y de catálogo que siguen pendientes; no las da por resueltas. L03 representa las
+ausencias de las demás variables y conserva sus motivos en controles separados.</p>
 <p><strong>No se elimina ninguna fila.</strong> No se imputan valores, se fusionan solicitudes,
 se cambian importes ni se interpretan o corrigen fechas. El resultado es un estado
-intermedio, no una base limpia definitiva. Los valores vacíos, nan, Pendiente,
-No aplica y por definir se conservan para las etapas posteriores. Los nan de
-identificadores seguirán sin modificarse hasta la revisión de cruces.</p>
+intermedio, no una base limpia definitiva. L02 conserva los marcadores recibidos;
+L03 aplica las reglas de ausencia documentadas sin completar datos por suposición.
+Los vacíos y nan de identificadores seguirán sin modificarse hasta los cruces.</p>
 <p>Ejecutar desde el principio con el Python del proyecto y los grupos <code>notebooks</code>
 y <code>excel</code> de uv. Guardar el notebook antes de ejecutarlo para registrar su versión.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=043fcade">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=2e20e462">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7871,7 +7872,7 @@ y <code>excel</code> de uv. Guardar el notebook antes de ejecutarlo para registr
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=08e595b3">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=36acafb3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7882,7 +7883,7 @@ de negocio corresponde a L04. El índice BU identifica filas de esta versión, n
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=96aa3799">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6e646b46">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7975,7 +7976,7 @@ de negocio corresponde a L04. El índice BU identifica filas de esta versión, n
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c59c4b5c">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f3b66cb4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7990,7 +7991,7 @@ Oracle en identificador institucional de persona ni resuelve cuál fuente tiene 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=83402be6">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c8b3d868">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8109,7 +8110,7 @@ Oracle en identificador institucional de persona ni resuelve cuál fuente tiene 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7c8cb154">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=464f4949">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8191,7 +8192,7 @@ Oracle en identificador institucional de persona ni resuelve cuál fuente tiene 
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=279554cb">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2d1f9c85">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8205,7 +8206,7 @@ son diagnóstico y el índice BU sirve para auditar filas, no para reemplazar c�
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d6156b87">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=20578cbf">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8219,7 +8220,7 @@ como fueron recibidos. nan no se trata todavía como ausencia: corresponde a L03
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7a7f736b">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=937cf5c0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8393,7 +8394,7 @@ como fueron recibidos. nan no se trata todavía como ausencia: corresponde a L03
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6732aa1f">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f216f1ca">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8646,7 +8647,7 @@ como fueron recibidos. nan no se trata todavía como ausencia: corresponde a L03
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=036217de">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=87402ffa">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8656,7 +8657,7 @@ La suma de cambios de varias columnas no equivale a filas eliminadas ni a person
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=09aeab21">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4eedc5d7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8849,7 +8850,7 @@ La suma de cambios de varias columnas no equivale a filas eliminadas ni a person
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=646460e0">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a7558c27">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9148,7 +9149,7 @@ La suma de cambios de varias columnas no equivale a filas eliminadas ni a person
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f175ad20">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8e94490b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9160,7 +9161,7 @@ las fuentes. Las columnas pendientes se conservaron sin modificar.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=390dde2d">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e4442f99">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9350,7 +9351,7 @@ las fuentes. Las columnas pendientes se conservaron sin modificar.</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=896fa231">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7dd5859a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9364,7 +9365,7 @@ etapa cada entrada se conserva como salida individual.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=8b9c8d90">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b4cf16ac">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9493,20 +9494,734 @@ etapa cada entrada se conserva como salida individual.</p>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Datos intermedios: data/interim/taller_2/estandarizacion_v1_f77076f7d8_150bd123_a5b0b2a6
-Auditoría: reports/limpieza/ejecuciones/estandarizacion_v1_f77076f7d8_150bd123_a5b0b2a6
+<pre>Datos intermedios: data/interim/taller_2/estandarizacion_v1_f77076f7d8_150bd123_bb959323
+Auditoría: reports/limpieza/ejecuciones/estandarizacion_v1_f77076f7d8_150bd123_bb959323
 </pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c1199580">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5fc3f8ea">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="C%C3%B3mo-continuaremos">Cómo continuaremos<a class="anchor-link" href="#C%C3%B3mo-continuaremos">¶</a></h2><p>L03 distinguirá los motivos de ausencia de las demás variables. Los cuatro nan de
+<h2 id="L03.-Tratamiento-de-ausencias-con-su-motivo">L03. Tratamiento de ausencias con su motivo<a class="anchor-link" href="#L03.-Tratamiento-de-ausencias-con-su-motivo">¶</a></h2><p>Esta etapa toma el resultado L02 sin descartar registros. Representa como ausentes
+los vacíos de columnas distintas de los identificadores y cuatro marcadores explícitos:
+Sin especificar en programa, Pendiente en puntaje, por definir en importe y No aplica
+en fecha de matrícula. Cada celda mantiene en la auditoría su texto anterior y motivo.</p>
+<p>Pendiente en documentos y Sin asignar en asesor siguen siendo categorías. Los vacíos
+y nan de los identificadores permanecen intactos. Un vacío se registra como no informado
+en la base; no se presume su causa institucional ni se convierte en cero.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c69fb183">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">AUS_PATH</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s1">'config/limpieza/ausencias_v1.json'</span>
+<span class="n">AUS_RULES</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">AUS_PATH</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s1">'utf8'</span><span class="p">))</span>
+<span class="n">AUS_SHA</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">AUS_PATH</span><span class="o">.</span><span class="n">read_bytes</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+<span class="n">L03_ID</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">AUS_RULES</span><span class="p">[</span><span class="s1">'version'</span><span class="p">]</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">OUTPUT_SHA</span><span class="p">[:</span><span class="mi">10</span><span class="p">]</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">AUS_SHA</span><span class="p">[:</span><span class="mi">8</span><span class="p">]</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">CODE_SHA</span><span class="p">[:</span><span class="mi">8</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span>
+<span class="n">entrada_l03</span> <span class="o">=</span> <span class="n">df_estandarizada</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">motivo_ausencia</span><span class="p">(</span><span class="n">valor</span><span class="p">,</span> <span class="n">columna</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">AUS_RULES</span><span class="p">[</span><span class="s1">'columnas_excluidas'</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="k">if</span> <span class="n">valor</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s1">'ya_ausente'</span>
+    <span class="k">if</span> <span class="n">valor</span> <span class="o">==</span> <span class="s1">''</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">AUS_RULES</span><span class="p">[</span><span class="s1">'vacio_en_otra_columna'</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">AUS_RULES</span><span class="p">[</span><span class="s1">'marcadores_por_columna'</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">columna</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">valor</span><span class="p">)</span>
+
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span>
+    <span class="p">{</span><span class="s1">'Columna'</span><span class="p">:</span> <span class="s1">'Cualquier columna salvo identificadores'</span><span class="p">,</span> <span class="s1">'Valor recibido'</span><span class="p">:</span> <span class="s1">'Texto vacío'</span><span class="p">,</span>
+     <span class="s1">'Motivo'</span><span class="p">:</span> <span class="n">AUS_RULES</span><span class="p">[</span><span class="s1">'vacio_en_otra_columna'</span><span class="p">]},</span>
+    <span class="o">*</span><span class="p">[{</span><span class="s1">'Columna'</span><span class="p">:</span> <span class="n">c</span><span class="p">,</span> <span class="s1">'Valor recibido'</span><span class="p">:</span> <span class="n">v</span><span class="p">,</span> <span class="s1">'Motivo'</span><span class="p">:</span> <span class="n">motivo</span><span class="p">}</span>
+      <span class="k">for</span> <span class="n">c</span><span class="p">,</span> <span class="n">valores</span> <span class="ow">in</span> <span class="n">AUS_RULES</span><span class="p">[</span><span class="s1">'marcadores_por_columna'</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">for</span> <span class="n">v</span><span class="p">,</span> <span class="n">motivo</span> <span class="ow">in</span> <span class="n">valores</span><span class="o">.</span><span class="n">items</span><span class="p">()]</span>
+<span class="p">]))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Columna</th>
+<th>Valor recibido</th>
+<th>Motivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Cualquier columna salvo identificadores</td>
+<td>Texto vacío</td>
+<td>no_informado_en_base</td>
+</tr>
+<tr>
+<th>1</th>
+<td>programa</td>
+<td>Sin especificar</td>
+<td>sin_especificar</td>
+</tr>
+<tr>
+<th>2</th>
+<td>puntaje_admision</td>
+<td>Pendiente</td>
+<td>pendiente</td>
+</tr>
+<tr>
+<th>3</th>
+<td>valor_matricula_cop</td>
+<td>por definir</td>
+<td>por_definir</td>
+</tr>
+<tr>
+<th>4</th>
+<td>fecha_matricula</td>
+<td>No aplica</td>
+<td>no_aplica</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9deafc99">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_ausencias</span> <span class="o">=</span> <span class="n">entrada_l03</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">object</span><span class="p">)</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">cambios_l03</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">pasos_l03</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">numero</span><span class="p">,</span> <span class="n">columna</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">HEADERS</span><span class="p">,</span> <span class="mi">1</span><span class="p">):</span>
+    <span class="n">valores</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">afectados</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">indice</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">entrada_l03</span><span class="p">[</span><span class="n">columna</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">motivo</span> <span class="o">=</span> <span class="n">motivo_ausencia</span><span class="p">(</span><span class="n">valor</span><span class="p">,</span> <span class="n">columna</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">motivo</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">motivo</span> <span class="o">!=</span> <span class="s1">'ya_ausente'</span><span class="p">:</span>
+            <span class="n">valores</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="kc">None</span><span class="p">)</span>
+            <span class="n">afectados</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">cambios_l03</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">'id_ejecucion'</span><span class="p">:</span> <span class="n">L03_ID</span><span class="p">,</span> <span class="s1">'paso'</span><span class="p">:</span> <span class="s1">'L03'</span><span class="p">,</span> <span class="s1">'regla'</span><span class="p">:</span> <span class="sa">f</span><span class="s1">'A</span><span class="si">{</span><span class="n">numero</span><span class="si">:</span><span class="s1">02d</span><span class="si">}</span><span class="s1">'</span><span class="p">,</span>
+                <span class="s1">'id_fila_entrada'</span><span class="p">:</span> <span class="n">ids_fila</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">indice</span><span class="p">],</span>
+                <span class="s1">'registro_id'</span><span class="p">:</span> <span class="n">original</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">indice</span><span class="p">,</span> <span class="s1">'registro_id'</span><span class="p">],</span> <span class="s1">'columna'</span><span class="p">:</span> <span class="n">columna</span><span class="p">,</span>
+                <span class="s1">'valor_anterior'</span><span class="p">:</span> <span class="n">valor</span><span class="p">,</span> <span class="s1">'valor_posterior'</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
+                <span class="s1">'tipo_anterior'</span><span class="p">:</span> <span class="s1">'texto vacío'</span> <span class="k">if</span> <span class="n">valor</span> <span class="o">==</span> <span class="s1">''</span> <span class="k">else</span> <span class="s1">'texto'</span><span class="p">,</span>
+                <span class="s1">'tipo_posterior'</span><span class="p">:</span> <span class="s1">'ausente'</span><span class="p">,</span> <span class="s1">'motivo_ausencia'</span><span class="p">:</span> <span class="n">motivo</span><span class="p">,</span>
+                <span class="s1">'imputado'</span><span class="p">:</span> <span class="kc">False</span><span class="p">})</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">valores</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">valor</span><span class="p">)</span>
+    <span class="n">df_ausencias</span><span class="p">[</span><span class="n">columna</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">valores</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="n">entrada_l03</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">object</span><span class="p">)</span>
+    <span class="n">pasos_l03</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">'id_ejecucion'</span><span class="p">:</span> <span class="n">L03_ID</span><span class="p">,</span> <span class="s1">'paso'</span><span class="p">:</span> <span class="s1">'L03'</span><span class="p">,</span> <span class="s1">'regla'</span><span class="p">:</span> <span class="sa">f</span><span class="s1">'A</span><span class="si">{</span><span class="n">numero</span><span class="si">:</span><span class="s1">02d</span><span class="si">}</span><span class="s1">'</span><span class="p">,</span>
+        <span class="s1">'columna'</span><span class="p">:</span> <span class="n">columna</span><span class="p">,</span> <span class="s1">'filas_antes'</span><span class="p">:</span> <span class="n">N</span><span class="p">,</span> <span class="s1">'filas_despues'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_ausencias</span><span class="p">),</span>
+        <span class="s1">'celdas_ausencia_normalizada'</span><span class="p">:</span> <span class="n">afectados</span><span class="p">,</span> <span class="s1">'filas_excluidas'</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s1">'repeticiones_consolidadas'</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">'filas_imputadas'</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s1">'tratamiento'</span><span class="p">:</span> <span class="s1">'Identificador sin cambios'</span> <span class="k">if</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">AUS_RULES</span><span class="p">[</span><span class="s1">'columnas_excluidas'</span><span class="p">]</span>
+                       <span class="k">else</span> <span class="s1">'Aplicación de reglas explícitas de ausencia'</span><span class="p">})</span>
+
+<span class="n">audit_l03</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">cambios_l03</span><span class="p">)</span>
+<span class="n">pasos_l03_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">pasos_l03</span><span class="p">)</span>
+<span class="n">motivos_l03</span> <span class="o">=</span> <span class="p">(</span><span class="n">audit_l03</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'columna'</span><span class="p">,</span> <span class="s1">'motivo_ausencia'</span><span class="p">])</span><span class="o">.</span><span class="n">size</span><span class="p">()</span>
+               <span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'celdas'</span><span class="p">))</span>
+<span class="n">columnas_con_ausencias</span> <span class="o">=</span> <span class="n">motivos_l03</span><span class="p">[</span><span class="s1">'columna'</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<span class="n">comparacion_l03</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([{</span><span class="s1">'Columna'</span><span class="p">:</span> <span class="n">c</span><span class="p">,</span>
+    <span class="s1">'Textos vacíos antes'</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">entrada_l03</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="s1">''</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()),</span>
+    <span class="s1">'Ausencias normalizadas después'</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">df_ausencias</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()),</span>
+    <span class="s1">'Valores con información conservada'</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">df_ausencias</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">.</span><span class="n">notna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())}</span>
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">columnas_con_ausencias</span><span class="p">])</span>
+<span class="n">display</span><span class="p">(</span><span class="n">motivos_l03</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">comparacion_l03</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="sa">f</span><span class="s2">"**Celdas con ausencia normalizada:** </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">audit_l03</span><span class="p">)</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2">. "</span>
+    <span class="sa">f</span><span class="s2">"**Filas afectadas:** </span><span class="si">{</span><span class="n">audit_l03</span><span class="p">[</span><span class="s1">'id_fila_entrada'</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2">. "</span>
+    <span class="s2">"**Filas eliminadas o imputadas: 0.**"</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>columna</th>
+<th>motivo_ausencia</th>
+<th>celdas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>correo</td>
+<td>no_informado_en_base</td>
+<td>131</td>
+</tr>
+<tr>
+<th>1</th>
+<td>duracion_semestres</td>
+<td>no_informado_en_base</td>
+<td>27</td>
+</tr>
+<tr>
+<th>2</th>
+<td>facultad</td>
+<td>no_informado_en_base</td>
+<td>27</td>
+</tr>
+<tr>
+<th>3</th>
+<td>fecha_matricula</td>
+<td>no_aplica</td>
+<td>1369</td>
+</tr>
+<tr>
+<th>4</th>
+<td>fecha_matricula</td>
+<td>no_informado_en_base</td>
+<td>3065</td>
+</tr>
+<tr>
+<th>5</th>
+<td>nivel_formacion</td>
+<td>no_informado_en_base</td>
+<td>27</td>
+</tr>
+<tr>
+<th>6</th>
+<td>programa</td>
+<td>no_informado_en_base</td>
+<td>25</td>
+</tr>
+<tr>
+<th>7</th>
+<td>programa</td>
+<td>sin_especificar</td>
+<td>2</td>
+</tr>
+<tr>
+<th>8</th>
+<td>puntaje_admision</td>
+<td>no_informado_en_base</td>
+<td>200</td>
+</tr>
+<tr>
+<th>9</th>
+<td>puntaje_admision</td>
+<td>pendiente</td>
+<td>51</td>
+</tr>
+<tr>
+<th>10</th>
+<td>valor_matricula_cop</td>
+<td>no_informado_en_base</td>
+<td>907</td>
+</tr>
+<tr>
+<th>11</th>
+<td>valor_matricula_cop</td>
+<td>por_definir</td>
+<td>35</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Columna</th>
+<th>Textos vacíos antes</th>
+<th>Ausencias normalizadas después</th>
+<th>Valores con información conservada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>correo</td>
+<td>131</td>
+<td>131</td>
+<td>5509</td>
+</tr>
+<tr>
+<th>1</th>
+<td>duracion_semestres</td>
+<td>27</td>
+<td>27</td>
+<td>5613</td>
+</tr>
+<tr>
+<th>2</th>
+<td>facultad</td>
+<td>27</td>
+<td>27</td>
+<td>5613</td>
+</tr>
+<tr>
+<th>3</th>
+<td>fecha_matricula</td>
+<td>3065</td>
+<td>4434</td>
+<td>1206</td>
+</tr>
+<tr>
+<th>4</th>
+<td>nivel_formacion</td>
+<td>27</td>
+<td>27</td>
+<td>5613</td>
+</tr>
+<tr>
+<th>5</th>
+<td>programa</td>
+<td>25</td>
+<td>27</td>
+<td>5613</td>
+</tr>
+<tr>
+<th>6</th>
+<td>puntaje_admision</td>
+<td>200</td>
+<td>251</td>
+<td>5389</td>
+</tr>
+<tr>
+<th>7</th>
+<td>valor_matricula_cop</td>
+<td>907</td>
+<td>942</td>
+<td>4698</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown" tabindex="0">
+<p><strong>Celdas con ausencia normalizada:</strong> 5,866. <strong>Filas afectadas:</strong> 4,705. <strong>Filas eliminadas o imputadas: 0.</strong></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b6c5f080">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Controles-de-L03">Controles de L03<a class="anchor-link" href="#Controles-de-L03">¶</a></h3><p>Una ausencia normalizada no equivale a una corrección de su causa. Se mantiene el
+detalle por celda para distinguir los motivos aunque Excel o CSV los presenten vacíos.
+La relación de identificadores pospuestos es solo un listado de revisión, sin cambios.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=eb3a9def">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">ids_columns</span> <span class="o">=</span> <span class="n">AUS_RULES</span><span class="p">[</span><span class="s1">'columnas_excluidas'</span><span class="p">]</span>
+<span class="n">changed_keys</span> <span class="o">=</span> <span class="p">{(</span><span class="n">x</span><span class="p">[</span><span class="s1">'id_fila_entrada'</span><span class="p">],</span> <span class="n">x</span><span class="p">[</span><span class="s1">'columna'</span><span class="p">])</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">cambios_l03</span><span class="p">}</span>
+<span class="n">sin_cambios_fuera_auditoria</span> <span class="o">=</span> <span class="nb">all</span><span class="p">(</span>
+    <span class="n">df_ausencias</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">c</span><span class="p">]</span> <span class="o">==</span> <span class="n">entrada_l03</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">c</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">entrada_l03</span><span class="o">.</span><span class="n">index</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">HEADERS</span> <span class="k">if</span> <span class="p">(</span><span class="n">ids_fila</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">c</span><span class="p">)</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">changed_keys</span><span class="p">)</span>
+<span class="n">valores_informados_intactos</span> <span class="o">=</span> <span class="nb">all</span><span class="p">(</span>
+    <span class="n">valor</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">valor</span> <span class="o">==</span> <span class="n">entrada_l03</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">c</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">HEADERS</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">df_ausencias</span><span class="p">[</span><span class="n">c</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">())</span>
+<span class="n">idempotente_l03</span> <span class="o">=</span> <span class="nb">all</span><span class="p">(</span>
+    <span class="p">(</span><span class="kc">None</span> <span class="k">if</span> <span class="n">motivo_ausencia</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">v</span><span class="p">)</span> <span class="o">==</span> <span class="n">v</span>
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">HEADERS</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">df_ausencias</span><span class="p">[</span><span class="n">c</span><span class="p">])</span>
+<span class="n">controles_l03</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span>
+    <span class="p">[</span><span class="s1">'Filas conservadas'</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_ausencias</span><span class="p">)</span> <span class="o">==</span> <span class="n">N</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'18 columnas y orden original'</span><span class="p">,</span> <span class="nb">list</span><span class="p">(</span><span class="n">df_ausencias</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span> <span class="o">==</span> <span class="n">HEADERS</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Identificadores intactos'</span><span class="p">,</span> <span class="n">df_ausencias</span><span class="p">[</span><span class="n">ids_columns</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span> <span class="o">==</span> <span class="n">entrada_l03</span><span class="p">[</span><span class="n">ids_columns</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">()],</span>
+    <span class="p">[</span><span class="s1">'Registro por cada celda convertida en ausente'</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">audit_l03</span><span class="p">)</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">df_ausencias</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())],</span>
+    <span class="p">[</span><span class="s1">'Solo cambian las celdas auditadas'</span><span class="p">,</span> <span class="n">sin_cambios_fuera_auditoria</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Valores informados intactos'</span><span class="p">,</span> <span class="n">valores_informados_intactos</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Documentación pendiente conservada'</span><span class="p">,</span> <span class="n">df_ausencias</span><span class="p">[</span><span class="s1">'documentos_completos'</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span> <span class="o">==</span> <span class="n">entrada_l03</span><span class="p">[</span><span class="s1">'documentos_completos'</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()],</span>
+    <span class="p">[</span><span class="s1">'Asesores sin asignar conservados'</span><span class="p">,</span> <span class="n">df_ausencias</span><span class="p">[</span><span class="s1">'asesor'</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span> <span class="o">==</span> <span class="n">entrada_l03</span><span class="p">[</span><span class="s1">'asesor'</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()],</span>
+    <span class="p">[</span><span class="s1">'Sin cambios al repetir la regla'</span><span class="p">,</span> <span class="n">idempotente_l03</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Entrada L02 intacta'</span><span class="p">,</span> <span class="n">df_estandarizada</span><span class="o">.</span><span class="n">equals</span><span class="p">(</span><span class="n">entrada_l03</span><span class="p">)],</span>
+    <span class="p">[</span><span class="s1">'Archivo preparado intacto'</span><span class="p">,</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">SOURCE</span><span class="o">.</span><span class="n">read_bytes</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span> <span class="o">==</span> <span class="n">INPUT_SHA</span><span class="p">]</span>
+<span class="p">],</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'Control'</span><span class="p">,</span> <span class="s1">'Correcto'</span><span class="p">])</span>
+<span class="k">assert</span> <span class="n">controles_l03</span><span class="p">[</span><span class="s1">'Correcto'</span><span class="p">]</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+<span class="n">pospuestos_l03</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([{</span>
+    <span class="s1">'id_fila_entrada'</span><span class="p">:</span> <span class="n">ids_fila</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="s1">'registro_id'</span><span class="p">:</span> <span class="n">original</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="s1">'registro_id'</span><span class="p">],</span>
+    <span class="s1">'aspirante_id'</span><span class="p">:</span> <span class="n">original</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="s1">'aspirante_id'</span><span class="p">],</span>
+    <span class="s1">'situacion'</span><span class="p">:</span> <span class="s1">'Identificador vacío'</span> <span class="k">if</span> <span class="n">original</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="s1">'aspirante_id'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">''</span> <span class="k">else</span> <span class="s1">'Marcador nan'</span><span class="p">,</span>
+    <span class="s1">'decision'</span><span class="p">:</span> <span class="s1">'Conservado sin cambios hasta los cruces'</span><span class="p">}</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">original</span><span class="o">.</span><span class="n">index</span> <span class="k">if</span> <span class="n">original</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="s1">'aspirante_id'</span><span class="p">]</span> <span class="ow">in</span> <span class="p">{</span><span class="s1">''</span><span class="p">,</span> <span class="s1">'nan'</span><span class="p">}])</span>
+<span class="n">display</span><span class="p">(</span><span class="n">controles_l03</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pospuestos_l03</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'situacion'</span><span class="p">)</span><span class="o">.</span><span class="n">size</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">'Filas pospuestas'</span><span class="p">)</span><span class="o">.</span><span class="n">to_frame</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Control</th>
+<th>Correcto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Filas conservadas</td>
+<td>True</td>
+</tr>
+<tr>
+<th>1</th>
+<td>18 columnas y orden original</td>
+<td>True</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Identificadores intactos</td>
+<td>True</td>
+</tr>
+<tr>
+<th>3</th>
+<td>Registro por cada celda convertida en ausente</td>
+<td>True</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Solo cambian las celdas auditadas</td>
+<td>True</td>
+</tr>
+<tr>
+<th>5</th>
+<td>Valores informados intactos</td>
+<td>True</td>
+</tr>
+<tr>
+<th>6</th>
+<td>Documentación pendiente conservada</td>
+<td>True</td>
+</tr>
+<tr>
+<th>7</th>
+<td>Asesores sin asignar conservados</td>
+<td>True</td>
+</tr>
+<tr>
+<th>8</th>
+<td>Sin cambios al repetir la regla</td>
+<td>True</td>
+</tr>
+<tr>
+<th>9</th>
+<td>Entrada L02 intacta</td>
+<td>True</td>
+</tr>
+<tr>
+<th>10</th>
+<td>Archivo preparado intacto</td>
+<td>True</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Filas pospuestas</th>
+</tr>
+<tr>
+<th>situacion</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Identificador vacío</th>
+<td>92</td>
+</tr>
+<tr>
+<th>Marcador nan</th>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a0a37f36">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Exportaci%C3%B3n-y-motivos-conservados">Exportación y motivos conservados<a class="anchor-link" href="#Exportaci%C3%B3n-y-motivos-conservados">¶</a></h3><p>Los datos se guardan en CSV, Excel y JSONL. JSONL conserva explícitamente null y texto
+vacío; el CSV representa ambos como celda vacía y requiere la auditoría para distinguirlos.
+Cada una de las 5.640 entradas conserva su destino. Se mantienen separados los motivos
+de ausencia, el inventario de identificadores pospuestos y el resumen de ejecución.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a97c83e9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">L03_DATA</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s1">'data/interim/taller_2'</span> <span class="o">/</span> <span class="n">L03_ID</span>
+<span class="n">L03_AUDIT</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s1">'reports/limpieza/ejecuciones'</span> <span class="o">/</span> <span class="n">L03_ID</span>
+<span class="n">L03_DATA</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">L03_AUDIT</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">csv_l03</span> <span class="o">=</span> <span class="n">L03_DATA</span> <span class="o">/</span> <span class="s1">'BaseUnificada_Ausencias.csv'</span>
+<span class="n">xlsx_l03</span> <span class="o">=</span> <span class="n">L03_DATA</span> <span class="o">/</span> <span class="s1">'BaseUnificada_Ausencias.xlsx'</span>
+<span class="n">jsonl_l03</span> <span class="o">=</span> <span class="n">L03_DATA</span> <span class="o">/</span> <span class="s1">'BaseUnificada_Ausencias.jsonl'</span>
+<span class="n">df_ausencias</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">csv_l03</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf-8-sig'</span><span class="p">,</span> <span class="n">lineterminator</span><span class="o">=</span><span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">,</span> <span class="n">na_rep</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span>
+<span class="n">records_l03</span> <span class="o">=</span> <span class="n">df_ausencias</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="s1">'records'</span><span class="p">)</span>
+<span class="k">with</span> <span class="n">jsonl_l03</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">'w'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf8'</span><span class="p">)</span> <span class="k">as</span> <span class="n">handle</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="n">records_l03</span><span class="p">:</span>
+        <span class="n">handle</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">record</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="o">+</span> <span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
+<span class="n">book_l03</span> <span class="o">=</span> <span class="n">Workbook</span><span class="p">()</span>
+<span class="n">sheet_l03</span> <span class="o">=</span> <span class="n">book_l03</span><span class="o">.</span><span class="n">active</span>
+<span class="n">sheet_l03</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="s1">'BaseUnificada_Ausencias'</span>
+<span class="n">sheet_l03</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">HEADERS</span><span class="p">)</span>
+<span class="n">rows_l03</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">df_ausencias</span><span class="o">.</span><span class="n">itertuples</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="kc">None</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">rows_l03</span><span class="p">:</span>
+    <span class="n">sheet_l03</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
+<span class="n">table_l03</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">displayName</span><span class="o">=</span><span class="s1">'BaseUnificada_Ausencias'</span><span class="p">,</span> <span class="n">ref</span><span class="o">=</span><span class="sa">f</span><span class="s1">'A1:</span><span class="si">{</span><span class="n">get_column_letter</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">HEADERS</span><span class="p">))</span><span class="si">}{</span><span class="n">N</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+<span class="n">table_l03</span><span class="o">.</span><span class="n">tableStyleInfo</span> <span class="o">=</span> <span class="n">TableStyleInfo</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'TableStyleMedium9'</span><span class="p">,</span> <span class="n">showRowStripes</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">sheet_l03</span><span class="o">.</span><span class="n">add_table</span><span class="p">(</span><span class="n">table_l03</span><span class="p">)</span>
+<span class="n">sheet_l03</span><span class="o">.</span><span class="n">freeze_panes</span> <span class="o">=</span> <span class="s1">'A2'</span>
+<span class="n">book_l03</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">xlsx_l03</span><span class="p">)</span>
+<span class="n">book_l03</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="n">preserve_empty_text</span><span class="p">(</span><span class="n">xlsx_l03</span><span class="p">,</span> <span class="n">rows_l03</span><span class="p">)</span>
+<span class="n">verified_l03</span> <span class="o">=</span> <span class="n">load_workbook</span><span class="p">(</span><span class="n">xlsx_l03</span><span class="p">,</span> <span class="n">read_only</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">data_only</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">assert</span> <span class="nb">list</span><span class="p">(</span><span class="n">verified_l03</span><span class="p">[</span><span class="s1">'BaseUnificada_Ausencias'</span><span class="p">]</span><span class="o">.</span><span class="n">iter_rows</span><span class="p">(</span><span class="n">values_only</span><span class="o">=</span><span class="kc">True</span><span class="p">))[</span><span class="mi">1</span><span class="p">:]</span> <span class="o">==</span> <span class="n">rows_l03</span>
+<span class="n">verified_l03</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="k">with</span> <span class="n">jsonl_l03</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s1">'utf8'</span><span class="p">)</span> <span class="k">as</span> <span class="n">handle</span><span class="p">:</span>
+    <span class="k">assert</span> <span class="p">[</span><span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">line</span><span class="p">)</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">handle</span><span class="p">]</span> <span class="o">==</span> <span class="n">records_l03</span>
+<span class="k">with</span> <span class="n">csv_l03</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s1">'utf-8-sig'</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span> <span class="k">as</span> <span class="n">handle</span><span class="p">:</span>
+    <span class="n">csv_read_l03</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">csv</span><span class="o">.</span><span class="n">reader</span><span class="p">(</span><span class="n">handle</span><span class="p">))</span>
+<span class="k">assert</span> <span class="n">csv_read_l03</span> <span class="o">==</span> <span class="p">[</span><span class="n">HEADERS</span><span class="p">,</span> <span class="o">*</span><span class="p">[[</span><span class="s1">''</span> <span class="k">if</span> <span class="n">v</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">v</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">row</span><span class="p">]</span> <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">rows_l03</span><span class="p">]]</span>
+<span class="n">L03_OUTPUT_SHA</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">jsonl_l03</span><span class="o">.</span><span class="n">read_bytes</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+<span class="n">destinos_l03</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">'id_ejecucion'</span><span class="p">:</span> <span class="n">L03_ID</span><span class="p">,</span> <span class="s1">'id_fila_entrada'</span><span class="p">:</span> <span class="n">ids_fila</span><span class="p">,</span>
+    <span class="s1">'id_registro_salida'</span><span class="p">:</span> <span class="n">ids_fila</span><span class="p">,</span> <span class="s1">'estado_destino'</span><span class="p">:</span> <span class="s1">'conservada'</span><span class="p">,</span>
+    <span class="s1">'fila_jsonl_salida'</span><span class="p">:</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">N</span> <span class="o">+</span> <span class="mi">1</span><span class="p">),</span> <span class="s1">'sha256_salida_jsonl'</span><span class="p">:</span> <span class="n">L03_OUTPUT_SHA</span><span class="p">})</span>
+<span class="k">for</span> <span class="n">nombre</span><span class="p">,</span> <span class="n">frame</span> <span class="ow">in</span> <span class="p">{</span>
+    <span class="s1">'L03_cambios_por_celda.csv'</span><span class="p">:</span> <span class="n">audit_l03</span><span class="p">,</span> <span class="s1">'L03_registro_pasos.csv'</span><span class="p">:</span> <span class="n">pasos_l03_df</span><span class="p">,</span>
+    <span class="s1">'L03_motivos_ausencia.csv'</span><span class="p">:</span> <span class="n">motivos_l03</span><span class="p">,</span> <span class="s1">'L03_completitud_antes_despues.csv'</span><span class="p">:</span> <span class="n">comparacion_l03</span><span class="p">,</span>
+    <span class="s1">'L03_controles.csv'</span><span class="p">:</span> <span class="n">controles_l03</span><span class="p">,</span> <span class="s1">'L03_disposicion_filas.csv'</span><span class="p">:</span> <span class="n">destinos_l03</span><span class="p">,</span>
+    <span class="s1">'L03_identificadores_pospuestos.csv'</span><span class="p">:</span> <span class="n">pospuestos_l03</span>
+<span class="p">}</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">frame</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">L03_AUDIT</span> <span class="o">/</span> <span class="n">nombre</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf-8-sig'</span><span class="p">,</span> <span class="n">lineterminator</span><span class="o">=</span><span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
+<span class="n">resumen_l03</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">'id_ejecucion'</span><span class="p">:</span> <span class="n">L03_ID</span><span class="p">,</span> <span class="s1">'etapa'</span><span class="p">:</span> <span class="s1">'L03'</span><span class="p">,</span>
+    <span class="s1">'ejecutado_en'</span><span class="p">:</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">ZoneInfo</span><span class="p">(</span><span class="s1">'America/Bogota'</span><span class="p">))</span><span class="o">.</span><span class="n">isoformat</span><span class="p">(),</span>
+    <span class="s1">'entrada_l02_id'</span><span class="p">:</span> <span class="n">RUN_ID</span><span class="p">,</span> <span class="s1">'sha256_entrada_l02_csv'</span><span class="p">:</span> <span class="n">OUTPUT_SHA</span><span class="p">,</span>
+    <span class="s1">'sha256_reglas'</span><span class="p">:</span> <span class="n">AUS_SHA</span><span class="p">,</span> <span class="s1">'sha256_codigo_notebook'</span><span class="p">:</span> <span class="n">CODE_SHA</span><span class="p">,</span>
+    <span class="s1">'filas_entrada'</span><span class="p">:</span> <span class="n">N</span><span class="p">,</span> <span class="s1">'filas_salida'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_ausencias</span><span class="p">),</span> <span class="s1">'columnas'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">HEADERS</span><span class="p">),</span>
+    <span class="s1">'celdas_ausencia_normalizada'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">audit_l03</span><span class="p">),</span>
+    <span class="s1">'filas_afectadas'</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">audit_l03</span><span class="p">[</span><span class="s1">'id_fila_entrada'</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()),</span>
+    <span class="s1">'filas_eliminadas'</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">'filas_consolidadas'</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">'valores_imputados'</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="s1">'identificadores_sin_cambios'</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">'identificadores_pospuestos'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">pospuestos_l03</span><span class="p">),</span>
+    <span class="s1">'controles_correctos'</span><span class="p">:</span> <span class="nb">bool</span><span class="p">(</span><span class="n">controles_l03</span><span class="p">[</span><span class="s1">'Correcto'</span><span class="p">]</span><span class="o">.</span><span class="n">all</span><span class="p">()),</span>
+    <span class="s1">'motivos'</span><span class="p">:</span> <span class="n">audit_l03</span><span class="p">[</span><span class="s1">'motivo_ausencia'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(),</span>
+    <span class="s1">'datos_intermedios'</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">L03_DATA</span><span class="o">.</span><span class="n">relative_to</span><span class="p">(</span><span class="n">ROOT</span><span class="p">)),</span> <span class="s1">'auditoria'</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">L03_AUDIT</span><span class="o">.</span><span class="n">relative_to</span><span class="p">(</span><span class="n">ROOT</span><span class="p">)),</span>
+    <span class="s1">'archivos_datos'</span><span class="p">:</span> <span class="p">{</span><span class="n">p</span><span class="o">.</span><span class="n">name</span><span class="p">:</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">read_bytes</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="p">[</span><span class="n">csv_l03</span><span class="p">,</span> <span class="n">xlsx_l03</span><span class="p">,</span> <span class="n">jsonl_l03</span><span class="p">]},</span>
+    <span class="s1">'limite'</span><span class="p">:</span> <span class="s1">'Sin tipado numérico o de fechas; motivos registrados y ninguna identidad resuelta.'</span><span class="p">}</span>
+<span class="p">(</span><span class="n">L03_AUDIT</span> <span class="o">/</span> <span class="s1">'resumen_ejecucion.json'</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">resumen_l03</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf8'</span><span class="p">)</span>
+<span class="p">(</span><span class="n">ROOT</span> <span class="o">/</span> <span class="s1">'reports/limpieza/ultima_ausencias.json'</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">resumen_l03</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf8'</span><span class="p">)</span>
+<span class="k">assert</span> <span class="n">destinos_l03</span><span class="p">[</span><span class="s1">'id_fila_entrada'</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span> <span class="o">==</span> <span class="n">N</span>
+<span class="k">assert</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">SOURCE</span><span class="o">.</span><span class="n">read_bytes</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span> <span class="o">==</span> <span class="n">INPUT_SHA</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([{</span><span class="s1">'Etapa'</span><span class="p">:</span> <span class="s1">'L03'</span><span class="p">,</span> <span class="s1">'Filas de entrada'</span><span class="p">:</span> <span class="n">N</span><span class="p">,</span> <span class="s1">'Filas de salida'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_ausencias</span><span class="p">),</span>
+    <span class="s1">'Celdas con ausencia normalizada'</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">audit_l03</span><span class="p">),</span> <span class="s1">'Filas afectadas'</span><span class="p">:</span> <span class="n">resumen_l03</span><span class="p">[</span><span class="s1">'filas_afectadas'</span><span class="p">],</span>
+    <span class="s1">'Filas eliminadas'</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">'Valores imputados'</span><span class="p">:</span> <span class="mi">0</span><span class="p">}]))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Datos L03:'</span><span class="p">,</span> <span class="n">L03_DATA</span><span class="o">.</span><span class="n">relative_to</span><span class="p">(</span><span class="n">ROOT</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Auditoría L03:'</span><span class="p">,</span> <span class="n">L03_AUDIT</span><span class="o">.</span><span class="n">relative_to</span><span class="p">(</span><span class="n">ROOT</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Etapa</th>
+<th>Filas de entrada</th>
+<th>Filas de salida</th>
+<th>Celdas con ausencia normalizada</th>
+<th>Filas afectadas</th>
+<th>Filas eliminadas</th>
+<th>Valores imputados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>L03</td>
+<td>5640</td>
+<td>5640</td>
+<td>5866</td>
+<td>4705</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Datos L03: data/interim/taller_2/ausencias_v1_526ff5e27b_8850cae3_bb959323
+Auditoría L03: reports/limpieza/ejecuciones/ausencias_v1_526ff5e27b_8850cae3_bb959323
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d3b9b245">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="C%C3%B3mo-continuaremos">Cómo continuaremos<a class="anchor-link" href="#C%C3%B3mo-continuaremos">¶</a></h2><p>L03 ya distingue las ausencias de las demás variables. Los cuatro nan y los vacíos de
 aspirante_id se mantienen registrados y sin modificar hasta la revisión de cruces.
 L04 representará fechas y números, revisará excepciones y tratará el código entero del
 periodo. Las fechas dudosas y los importes con conceptos diferentes seguirán señalados.</p>

@@ -268,3 +268,16 @@ Se verificaron los hashes de los archivos preparados, los resultados intermedios
 Se descartó un commit local no publicado que había guardado de nuevo BaseUnificada.csv desde Excel, con separador punto y coma, fechas reescritas y fin de línea CRLF. Ese archivo no coincidía con el hash de los metadatos y habría detenido el notebook. El CSV preparado volvió a su versión registrada.
 
 El usuario confirmó que periodo_academico se manejará con los códigos enteros 20252, 20261 y 20262; la conversión se aplicará en L04. En el plan se corrigió además la referencia al código M en las salidas, porque la auditoría ahora identifica el código del notebook y las reglas mediante hashes. No se cambiaron datos ni código ejecutado.
+
+
+## 24 de octubre de 2026. L03, tratamiento de ausencias
+
+Se amplió y ejecutó de principio a fin el notebook de limpieza, ahora con 14 celdas de código. La reejecución de L02 produce el mismo contenido CSV de estandarización, con una nueva firma del código del cuaderno y sin acumular transformaciones. Se aplicó L03 con reglas versionadas en config/limpieza/ausencias_v1.json.
+
+Se normalizaron como ausencia 5.866 celdas en 4.705 filas: 4.409 vacíos de columnas no identificadoras, 1.369 No aplica de fecha de matrícula, 51 Pendiente de puntaje, 35 por definir de importe y dos programas Sin especificar. Se conserva por celda el valor anterior y su motivo. Pendiente en documentación y Sin asignar en asesor permanecen como categorías. Los identificadores, incluidos 92 vacíos y cuatro nan, no se modifican.
+
+Se mantienen 5.640 registros y 18 columnas, sin imputaciones, exclusiones ni consolidaciones. Se comprobaron 11 controles L03 y la lectura completa de CSV, Excel y JSONL. JSONL permite mantener null distinto de texto vacío; CSV requiere el control de ausencia. Cada una de las entradas conserva su destino documentado. Entrada preparada e importes y fechas informados se mantienen sin cambios.
+
+Se actualizaron plan, README y HTML; las salidas intermedias y la auditoría están referenciadas en reports/limpieza/ultima_ausencias.json. L04, conversión de tipos y validaciones, queda como siguiente etapa.
+
+**Integración del avance remoto.** Durante la publicación llegó 134f970, con la decisión de periodo entero en L04 y la corrección de referencias de auditoría. Se conservaron ambos cambios del plan y las dos entradas de bitácora; el conflicto era únicamente la inserción de texto al final. El commit remoto no modificó el CSV ni los datos o el código ejecutado.
