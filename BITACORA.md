@@ -136,3 +136,10 @@ Se inicializó Git con la rama main y la identidad configurada JLosada-Dev. Se i
 Se preparó el primer commit con Conventional Commits, sin trailers ni atribuciones adicionales. Se verificó la exclusión de .env, .venv y data/backups; no se encontraron patrones de credenciales en los archivos candidatos. Pasaron 13 pruebas locales; tres pruebas de integración Docker se omitieron porque requieren activación y una base aislada.
 
 La creación del repositorio privado y el primer push quedan pendientes de completar la autenticación de GitHub. Esta preparación no ejecuta limpieza ni modifica las tablas de datos.
+
+
+## 23 de octubre de 2026. Publicación del repositorio privado
+
+Se completó la autenticación de GitHub CLI en WSL con la cuenta JLosada-Dev. Se creó el repositorio privado https://github.com/JLosada-Dev/analitica_admisiones_universitaria y se publicó el commit inicial 6552746 en main. El remoto origin utiliza HTTPS y main quedó vinculada a origin/main.
+
+Los mensajes siguen Conventional Commits, sin trailers ni atribuciones adicionales. Se mantienen excluidos .env, .venv y los respaldos locales. La publicación incluye el CSV original, documentación, código, notebook y evidencias del análisis, sin ejecutar limpieza de datos.
