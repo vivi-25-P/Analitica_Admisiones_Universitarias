@@ -105,7 +105,7 @@ Este orden separa las reglas de representación de las decisiones de identidad. 
 | asesor | Mantener las categorías actuales y el significado de Sin Asignar | Completar una asignación por suposición |
 | fecha_matricula | Interpretar fechas y distinguir ausencia de No aplica en el control | Inventar fechas o interpretar toda ausencia como un error |
 | correo | Revisar espacios y estructura; conservar el valor recibido como evidencia | Corregir cuentas por adivinación o asumir identidad y entregabilidad |
-| periodo_academico | Convertir mediante equivalencias a INTEGER, si mantenemos la decisión de códigos | Tratarlo como fecha o corregirlo a partir del año de solicitud |
+| periodo_academico | Convertir en L04 mediante equivalencias a INTEGER con códigos 20252, 20261 y 20262, según la decisión del usuario del 24 de octubre | Tratarlo como fecha o corregirlo a partir del año de solicitud |
 | facultad | Revisar asignación del catálogo y conservar 27 pendientes | Presentar la selección de Ingeniería para Data Analytics como validación oficial |
 | duracion_semestres | Representar como entero; validar duraciones adoptadas; mantener 27 pendientes | Asumir que los ajustes manuales acreditan la duración institucional |
 | nivel_formacion | Mantener Pregrado y Posgrado según catálogo validado; conservar 27 pendientes | Inferir el nivel como dato confirmado solo por el nombre del programa |
@@ -128,13 +128,15 @@ No se detectaron negativos ni atípicos mediante el criterio intercuartílico de
 
 ## 6. Periodo académico actualizado
 
-| Etiqueta actual | Filas de entrada | Código propuesto |
+| Etiqueta actual | Filas de entrada | Código adoptado |
 | :--- | ---: | ---: |
 | 2025-2 | 1.102 | 20252 |
 | 2026-1 | 1.271 | 20261 |
 | 2026-I | 1.020 | 20261 |
 | 2026-2 | 1.177 | 20262 |
 | 2026 II | 1.070 | 20262 |
+
+El usuario confirmó el 24 de octubre que el periodo se manejará con estos códigos enteros. L02 ya homologó las etiquetas como texto; la conversión a INTEGER se aplica en L04.
 
 La regla año por 10 más número de periodo produce 1.102 filas en 20252, 2.291 en 20261 y 2.247 en 20262, antes de consolidar repeticiones. Las etiquetas pueden obtenerse en una vista o catálogo de presentación. El código identifica y ordena; no debe sumarse ni promediarse.
 
@@ -214,7 +216,7 @@ El número final de filas no se fija antes de resolver los grupos. Tampoco se ex
 
 ## 10. Archivos de salida propuestos
 
-La limpieza generará data/processed/taller_2/BaseUnificada_Limpia.xlsx y BaseUnificada_Limpia.csv, con su versión, fecha y hashes. El Excel podrá incluir hojas de control además de la base; los CSV de auditoría se guardarán en reports/limpieza/ejecuciones junto al código M utilizado.
+La limpieza generará data/processed/taller_2/BaseUnificada_Limpia.xlsx y BaseUnificada_Limpia.csv, con su versión, fecha y hashes. El Excel podrá incluir hojas de control además de la base; los CSV de auditoría se guardarán en reports/limpieza/ejecuciones junto a la identificación de la ejecución, con los hashes del código del notebook y de las reglas utilizadas.
 
 Las 18 columnas actuales son de negocio. Los índices, estados de revisión y correspondencias se mantienen en controles separados o en consultas auxiliares. Si se acuerda añadir una variable analítica nueva, se documentará el cambio del esquema y del diccionario.
 

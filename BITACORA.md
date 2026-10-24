@@ -261,3 +261,10 @@ El usuario decidió posponer la comparación de identificadores entre fuentes. S
 Se consultó origin/main y continuaba en bc5ee3e, sin commits remotos nuevos ni diferencias de CSV. Los cambios locales pendientes eran aclaraciones de alcance sobre identificadores. Se ajustó también el texto de L03 para conservar los cuatro nan de aspirante_id hasta los cruces, sin alterar las celdas de código ejecutadas.
 
 Se verificaron los hashes de los archivos preparados, los resultados intermedios, el código del notebook y la integridad de los dos cuadernos con sus salidas existentes. La revisión no ejecuta L03 ni cambia datos. Se conserva el trabajo realizado y se prepara su publicación con Conventional Commits, sin trailers ni atribuciones adicionales.
+
+
+## 24 de octubre de 2026. Periodo como código entero y ajuste del plan
+
+Se descartó un commit local no publicado que había guardado de nuevo BaseUnificada.csv desde Excel, con separador punto y coma, fechas reescritas y fin de línea CRLF. Ese archivo no coincidía con el hash de los metadatos y habría detenido el notebook. El CSV preparado volvió a su versión registrada.
+
+El usuario confirmó que periodo_academico se manejará con los códigos enteros 20252, 20261 y 20262; la conversión se aplicará en L04. En el plan se corrigió además la referencia al código M en las salidas, porque la auditoría ahora identifica el código del notebook y las reglas mediante hashes. No se cambiaron datos ni código ejecutado.
