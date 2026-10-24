@@ -1,149 +1,233 @@
-# Propuesta completa de limpieza de admisiones
+# Plan de limpieza y transformación de BaseUnificada
 
-**Estado:** planificación. No se aplica ninguna limpieza ni se modifican las tablas actuales.
+Actualización: 24 de octubre de 2026.
 
-**Fecha:** 21 de octubre de 2026.
+Estado: diagnóstico e inventario preparados y primer avance ejecutado en notebooks/02_limpieza_base_unificada.ipynb. Se completaron L00, la comprobación de procedencia y documentación de pendientes de L01, y la estandarización textual de L02. Se mantienen 5.640 filas y 18 columnas. No se eliminaron ni consolidaron registros y no se modificaron los archivos BaseUnificada de partida.
 
-## 1. Objetivo
+## 1. Qué cambia respecto al plan anterior
 
-Preparar una tabla de datos analíticos consistente, con reglas reproducibles y con toda decisión trazable al archivo recibido. El objetivo no es completar artificialmente la información ni asegurar que todas las filas sean correctas. Los casos sin evidencia suficiente deben permanecer identificados como pendientes.
+El plan del 21 de octubre partía del CSV inicial de 5.040 filas y 15 columnas, y proponía procesar admisiones_tipadas desde Python. La entrada actual es la base consolidada de 5.640 filas y 18 columnas, después de transformaciones e integración realizadas en Excel y Power Query.
 
-## 2. Tablas y flujo propuesto
+La versión anterior se conserva en docs/historial/plan_limpieza_datos_2026_10_21.md. Sus cifras siguen describiendo la fuente inicial, pero no deben reutilizarse como diagnóstico de la base consolidada.
 
-| Componente | Tratamiento |
-|---|---|
-| admisiones_original | Se mantiene intacta con 5.040 filas y las 15 columnas TEXT. |
-| admisiones_tipadas | Se mantiene intacta como base técnica. Conserva fechas y números representables, valores originales y observaciones. |
-| admisiones_limpias | Nueva tabla futura con el resultado de las reglas aplicadas. Su número final de filas dependerá de las decisiones sobre duplicados. |
-| Control de limpieza | Relación entre filas de origen, registros resultantes, reglas, decisiones, incidencias y ejecución. El nombre definitivo se fijará al implementar. |
+| Aspecto | Ajuste del plan |
+| :--- | :--- |
+| Entrada | data/prepared/taller_2/BaseUnificada.xlsx y su CSV equivalente, con hash registrado |
+| Herramienta principal | Notebook de Python, según la decisión de trabajo del usuario; la integración previa permanece documentada en Power Query |
+| Columnas | Incluir facultad, duracion_semestres y nivel_formacion, además de las 15 iniciales |
+| Punto de partida | Reconocer las transformaciones ya hechas; no presentarlas como nuevas correcciones |
+| Duplicados | Revisar repeticiones internas y solapamientos entre principal, CRM y Oracle por separado |
+| Importes | Distinguir el total calculado de CRM de los importes recibidos de las otras fuentes |
+| Catálogo | Registrar la selección de siete programas y revisar la asignación mediante fuzzy |
+| Seguimiento | Identificar cada fila de entrada y registrar pasos, cambios, exclusiones y correspondencias de salida |
+| Resultado | Nueva salida limpia con controles, sin sobrescribir la base de partida |
 
-Python leería admisiones_tipadas junto con datos_originales y observaciones_tipado. El procesamiento trabajaría sobre una copia. Los resultados se guardarían en tablas nuevas después de validar, sin actualizar las bases de referencia.
+La entrada ya incorpora separación de identificadores CRM, suma económica, Clean y Trim en identificadores, capitalización y tratamiento de espacios en determinadas categorías, selección del catálogo y Merge de atributos. La fecha de corte de este plan no acredita que todos los criterios de negocio estén validados.
 
-## 3. Periodo académico como código entero
+El notebook es ahora la bitácora ejecutable del proceso y seguirá la secuencia de reglas de este documento. Mantendrá código, explicaciones y resultados. Si el entregable académico exige demostrar las mismas transformaciones en Power Query, deberán replicarse y documentarse allí; el notebook no acredita por sí solo esa ejecución en Excel.
 
-La propuesta del usuario es adecuada como representación práctica: 20261 para el primer periodo de 2026 y 20262 para el segundo. El tipo recomendado para el código es INTEGER. Su función es identificar y ordenar periodos; no es un importe ni una cantidad de solicitudes.
+## 2. Diagnóstico actualizado de entrada
 
-La regla de construcción sería año por 10 más número de periodo. El catálogo actual reconoce periodos 1 y 2. Las equivalencias y el calendario deben validarse institucionalmente antes de aplicar la regla en producción.
+Las cifras se recalcularon desde el CSV preparado, cuyo SHA256 coincide con sus metadatos. La serialización CSV representa nulos y textos vacíos como celdas vacías; para recuperar el significado anterior debe consultarse la fuente correspondiente.
 
-| Valor original | Código propuesto | Etiqueta para presentación | Filas originales |
-|---|---:|---|---:|
-| 2025-2 | 20252 | 2025, segundo periodo | 981 |
-| 2026-I | 20261 | 2026, primer periodo | 1.005 |
-| 2026-1 | 20261 | 2026, primer periodo | 1.028 |
-| 2026 II | 20262 | 2026, segundo periodo | 1.042 |
-| 2026-2 | 20262 | 2026, segundo periodo | 984 |
+| Control | Resultado actual |
+| :--- | ---: |
+| Filas | 5.640 |
+| Columnas de negocio | 18 |
+| registro_id distintos | 5.500 |
+| Grupos con registro_id repetido | 139 |
+| Filas involucradas en esos grupos | 279 |
+| Repeticiones adicionales de registro_id | 140 |
+| Repeticiones exactas adicionales de las 18 columnas | 38 |
+| aspirante_id vacíos | 92 |
+| aspirante_id con texto nan | 4 |
+| Programa vacío | 25 |
+| Programa Sin Especificar | 2 |
+| Facultad, duración y nivel sin asignar | 27 en cada columna; corresponden a las mismas filas |
+| Puntaje vacío | 200 |
+| Puntaje Pendiente | 51 |
+| Valores de matrícula vacíos | 907 |
+| Valores de matrícula por definir | 35 |
+| Correo vacío | 131 |
+| Fecha de matrícula vacía | 3.065 |
+| Fecha de matrícula No aplica | 1.369 |
 
-Antes de cualquier tratamiento de duplicados, las sumas serían 981 registros en 20252, 2.033 en 20261 y 2.026 en 20262. No son los conteos definitivos de una tabla limpia.
+Hay 5.389 puntajes numéricos y 4.698 importes numéricos. Los puntajes están entre 40 y 100. Los importes llegan hasta 3.807.591 COP por la incorporación del total CRM. Ese máximo no se debe declarar error por superar los 3.500.000 COP observados en la primera fuente.
 
-La implementación mínima puede guardar solo el código en la columna del periodo de la tabla limpia y obtener la etiqueta, año y número de periodo mediante una vista o una futura DimPeriodo. No se necesita añadir cuatro columnas físicas a la tabla principal únicamente para obtener esas representaciones.
+Con las convenciones actuales se interpretan las 5.640 fechas de solicitud y 1.206 fechas de matrícula. Interpretar una fecha no demuestra su exactitud. La cobertura de solicitudes llega ahora hasta el 10 de diciembre de 2026 por la fuente Oracle; ya no corresponde describir toda la base como cortada en septiembre.
 
-Para Power BI, usar el código sin suma automática y un eje categórico cuando se represente como categoría. Puede mostrarse una etiqueta legible y ordenarla por el código. Los códigos no deben promediarse y su resta no mide periodos transcurridos.
+Las alertas de periodo y documentación también cambian: hay 470 solicitudes de 2026 asociadas al segundo periodo de 2025 y 524 filas con estado Matriculado y documentos No o Pendiente. Son conteos previos a la conciliación, no errores confirmados.
 
-La conversión no corrige la coherencia con las fechas. Los 410 registros del segundo periodo de 2025 con solicitudes de 2026 seguirían marcados para revisión; no se debe deducir el periodo correcto a partir de la fecha sin una regla institucional.
+## 3. Primera acción: congelar e identificar la entrada
 
-## 4. Reglas propuestas por columna
+La base preparada queda como versión de referencia y no se sobrescribe al limpiar. Antes de trabajar se verifica su hash y se genera una identificación técnica por fila, ligada a esa versión.
 
-| Columna | Propuesta de limpieza | Qué se conserva o valida |
-|---|---|---|
-| registro_id | Revisar espacios externos y patrón. Separar identificadores repetidos por tipo de caso. | Mantener el código original y la referencia a cada fila. No asumir unicidad. |
-| aspirante_id | Convertir ausencia real a un faltante explícito en la salida. Validar estructura y posibles asociaciones. | No inventar identificadores ni reconstruirlos automáticamente desde el correo. Hay 92 vacíos originales. |
-| fecha_solicitud | Confirmar las convenciones de los cinco patrones y utilizar DATE. Las fechas no interpretables se registrarían como excepción. | No intercambiar día y mes por suposición ni corregir fechas por proximidad. |
-| programa | Eliminar espacios externos y aplicar equivalencias explícitas del catálogo: Derecho y Especialización en Data Analytics. | Los 25 valores con solo espacio pasarían a faltante con motivo. La etiqueta Sin programa registrado se usaría para presentación, no como programa real. |
-| modalidad | Unificar Virtual, Presencial e Híbrida mediante mapeo explícito. | Categorías desconocidas se señalan, no se asignan por parecido. |
-| canal_captacion | Revisar espacios y concordancia con el catálogo. | No modificar atribución de canal sin evidencia. Actualmente hay seis etiquetas sin variantes evidentes. |
-| estado_proceso | Homologar Admitido y Matriculado con sus variantes de escritura. | Conservar los siete estados distintos resultantes y validar su significado. No inferir secuencias históricas. |
-| puntaje_admision | Mantener los números interpretables y distinguir valor registrado, pendiente y no informado. | 179 vacíos y 50 Pendiente no pasan a cero. No imputar media o mediana. Rango de aceptación pendiente de regla institucional. |
-| documentos_completos | Homologar Sí, sí y SI a Sí. Conservar No y Pendiente como categorías diferentes. | No convertir a booleano perdiendo la categoría pendiente. |
-| valor_matricula_cop | Mantener NUMERIC con precisión decimal, separando importe disponible, por definir y no informado. | 826 vacíos y 35 por definir no pasan a cero. No sustituir precios a partir del programa sin tarifas oficiales. |
-| ciudad_residencia | Recortar espacios y mapear BOGOTA, Popayan y Cali con espacio a sus denominaciones acordadas. | No eliminar acentos de todos los nombres ni corregir ciudades por similitud automática. |
-| asesor | Homologar asesor 1 a Asesor 1. Mantener el significado de Sin asignar. | No atribuir registros al asesor con más casos ni completar la asignación por suposición. |
-| fecha_matricula | Aplicar convenciones de fecha confirmadas. Distinguir No aplica, no informado y fecha disponible. | No rellenar la fecha con la de solicitud ni inferirla del estado. Validar coherencia temporal. |
-| correo | Revisar espacios externos y estructura; normalizar el dominio si procede. | No corregir direcciones por adivinación ni convertir la parte local a minúsculas sin una regla. Un patrón válido no prueba entregabilidad o identidad. |
-| periodo_academico | Utilizar código INTEGER como 20252, 20261 y 20262 a partir de equivalencias confirmadas. | Conservar el texto de origen y tratar aparte las discrepancias con las fechas. |
+Se preparó reports/limpieza/inventario_entrada.csv con 5.640 identificadores desde BU000001 hasta BU005640, posición en CSV, identificadores de negocio, hash de la fila y hash del archivo. El número de fila CSV incluye el encabezado; por ejemplo, BU000001 corresponde a la posición 2.
 
-## 5. Tratamiento separado de duplicados
+Este identificador es necesario porque registro_id no es único. En Power Query se puede añadir un índice temporal antes de ordenar, filtrar o consolidar. El índice y el hash de entrada deben conservarse en la auditoría, aunque no formen parte de las 18 columnas de la salida administrativa.
 
-### Duplicados exactos
+El origen de cada registro debe reconstruirse a partir de las fuentes y del libro de manejo. Los rangos iniciales del anexado solo pueden utilizarse si se confirma el orden de la versión congelada: 5.040 principal, 100 CRM y 500 Oracle. No se debe volver a inferir el origen por posición después de ordenar o filtrar. Los códigos REG y ANX2 no bastan para separar principal de CRM.
 
-Se detectaron 38 pares, que involucran 76 filas. La propuesta es conservar una representación por par solo después de aprobar que cada par describe el mismo registro duplicado. La fila de menor posición puede ser el representante reproducible, pero su posición no demuestra que sea la versión más reciente o correcta.
+## 4. Secuencia de trabajo y reglas
 
-Todas las filas relacionadas deben quedar enlazadas con el registro resultante. Si únicamente se excluyen esas 38 repeticiones adicionales, el resultado intermedio sería 5.002 filas. Esto todavía no acredita 5.002 solicitudes únicas.
+| Paso | Acción propuesta | Efecto esperado sobre las filas | Evidencia |
+| :--- | :--- | :--- | :--- |
+| L00 | Congelar entrada, verificar hash y asignar índice | Mantener 5.640 | Inventario de entrada |
+| L01 | Reconstruir procedencia y confirmar conceptos y catálogos | Mantener filas | Relación con fuentes y decisiones pendientes |
+| L02 | Normalizar categorías mediante equivalencias explícitas | No elimina filas | Cambios por columna y frecuencias antes y después |
+| L03 | Tratar ausencias y separar motivos | No elimina filas | Vacíos, pendientes, no aplica y valores no interpretables |
+| L04 | Representar números y fechas con reglas documentadas | No elimina filas | Conversiones exitosas, alertas y excepciones |
+| L05 | Revisar el enriquecimiento de programas y sus coincidencias | No elimina filas por defecto | Programa original, programa asignado y regla |
+| L06 | Revisar duplicados exactos | Reducción solo si se acuerda consolidarlos | Todas las filas vinculadas al representante |
+| L07 | Conciliar repeticiones parciales y solapamientos entre fuentes | Cantidad pendiente de decisiones | Evidencia, fuente preferida por atributo y conflictos |
+| L08 | Evaluar coherencia administrativa | Mantener casos pendientes visibles | Incidencias, sin inventar correcciones |
+| L09 | Validar, exportar y comparar resultados | Conciliar todas las entradas | Base limpia, auditoría y reporte final |
 
-### Pares con discrepancias
+Este orden separa las reglas de representación de las decisiones de identidad. Después de normalizar pueden aparecer nuevas coincidencias exactas; deben volver a contarse y distinguirse de las 38 observadas al inicio.
 
-REG004804 tiene un espacio en programa en una fila e Ingeniería de Sistemas en la otra. REG003600 tiene por definir en un importe y 1.800.000 en el otro. No elegir automáticamente el valor más completo como verdad ni conservar solo la última posición del CSV. Se deben contrastar con la fuente.
+## 5. Tratamiento de las 18 columnas
 
-Mientras no se resuelvan, pueden permanecer como registros con conflicto en la tabla de trabajo y excluirse solo de indicadores que exijan una solicitud inequívoca, dejando explícito el criterio. No se eliminan del repositorio de evidencia.
+| Columna | Tratamiento propuesto | Qué no debe decidirse automáticamente |
+| :--- | :--- | :--- |
+| registro_id | Conservar código y sistema de origen; validar estructura y clasificar repeticiones | Eliminar todas las filas con el mismo código |
+| aspirante_id | Conservar faltantes; reconocer nan como marcador de ausencia después de documentarlo | Crear identificadores o unir personas solo por correo |
+| fecha_solicitud | Aplicar reglas por formato y conservar valor previo y procedencia | Intercambiar día y mes o sustituir la fecha Oracle por la principal sin evidencia |
+| programa | Unificar nombres y tildes mediante catálogo aprobado | Asignar un programa a los 27 casos sin identificación útil |
+| modalidad | Conservar la modalidad de la solicitud y su catálogo de tres valores | Sustituirla por la modalidad única del catálogo reducido |
+| canal_captacion | Revisar que las seis categorías actuales coincidan con el catálogo adoptado | Cambiar la atribución comercial por semejanza de texto |
+| estado_proceso | Mantener siete estados con nombres acordados y significado documentado | Inferir transiciones o reclasificar matriculados por documentación |
+| puntaje_admision | Representar números; mantener motivo de ausencia para 200 vacíos y 51 Pendiente | Sustituir por cero, media o mediana; asumir escala oficial por el rango observado |
+| documentos_completos | Unificar Sí, sí y SI en Sí; conservar No y Pendiente | Reducir a booleano perdiendo la situación pendiente |
+| valor_matricula_cop | Representar el importe reportado y registrar su concepto por fuente | Sumar, restar o sustituir importes entre fuentes sin una definición común |
+| ciudad_residencia | Unificar Bogota con Bogotá y Popayan con Popayán; revisar presentación de nombres | Corregir ciudades desconocidas por parecido |
+| asesor | Mantener las categorías actuales y el significado de Sin Asignar | Completar una asignación por suposición |
+| fecha_matricula | Interpretar fechas y distinguir ausencia de No aplica en el control | Inventar fechas o interpretar toda ausencia como un error |
+| correo | Revisar espacios y estructura; conservar el valor recibido como evidencia | Corregir cuentas por adivinación o asumir identidad y entregabilidad |
+| periodo_academico | Convertir mediante equivalencias a INTEGER, si mantenemos la decisión de códigos | Tratarlo como fecha o corregirlo a partir del año de solicitud |
+| facultad | Revisar asignación del catálogo y conservar 27 pendientes | Presentar la selección de Ingeniería para Data Analytics como validación oficial |
+| duracion_semestres | Representar como entero; validar duraciones adoptadas; mantener 27 pendientes | Asumir que los ajustes manuales acreditan la duración institucional |
+| nivel_formacion | Mantener Pregrado y Posgrado según catálogo validado; conservar 27 pendientes | Inferir el nivel como dato confirmado solo por el nombre del programa |
 
-### Aspirantes repetidos
+### Equivalencias observadas que deben quedar documentadas
 
-No deduplicar por aspirante_id solamente. Una persona puede presentar solicitudes legítimas. La clave de solicitud debe definirse antes de fusionar casos por programa y periodo. La normalización de categorías puede revelar nuevos candidatos, que deben revisarse y no eliminarse automáticamente.
+Data Analytics aparece en 574 filas sin tilde y 676 con tilde. Si se acepta una denominación común, ambas sumarían 1.250 filas antes de deduplicar. Las 574 equivalencias de nombre modifican celdas, no eliminan 574 solicitudes.
 
-## 6. Ausencias, atípicos y coherencia de negocio
+En documentación, Sí aparece 1.332 veces, sí 1.020 y SI 1.019. Su agrupación daría 3.371 respuestas afirmativas antes de deduplicar. No y Pendiente conservan su significado.
 
-Los vacíos se convertirían a NULL en la tabla limpia cuando corresponda, manteniendo su motivo en el control. Pendiente, No aplica, Sin asignar y por definir conservan sus diferencias de significado.
+En ciudad, Bogota tiene 605 filas y Bogotá 702; Popayan tiene 509 y Popayán 657. Los cambios de escritura deben registrarse por fila, manteniendo su correspondencia.
 
-Los valores atípicos se revisarían con criterio estadístico y reglas institucionales. No se eliminarían por posición en un diagrama. Actualmente no se detectaron negativos ni extremos según el criterio intercuartílico utilizado en puntajes e importes.
+### Controles de validez adicionales
 
-Las alertas de negocio no se resuelven mediante cambios automáticos. Entre ellas están los 410 registros de periodo y fecha dispares, y la relación entre matrícula y documentación. Los 465 casos de matriculados con No o Pendiente se calcularon sobre la base original; después de deduplicar deben recalcularse con el nuevo denominador.
+Los identificadores deben revisarse con patrones separados por sistema: REG seguido de seis dígitos, A seguido de seis dígitos y los códigos ANX2 con su numeración propia, según las fuentes observadas. Un valor fuera del patrón se señala; no se reescribe por aproximación ni se considera inválido sin revisar su procedencia.
 
-Las siete fechas de matrícula posteriores al 17 de octubre se detectaron usando esa referencia, no un corte institucional confirmado. No deben tratarse como errores por defecto. Al cambiar la fecha de referencia cambia ese control, no los datos históricos.
+La duración actual utiliza 2, 8 y 10 semestres según el catálogo adoptado. Estos valores se contrastan con ese catálogo y con la referencia institucional disponible. En correos se revisará una regla explícita de estructura y los casos sin información; una dirección que cumpla el patrón no acredita entregabilidad.
 
-La disponibilidad parcial de septiembre de 2026 no se corrige inventando solicitudes. Debe quedar documentada como cobertura.
+No se detectaron negativos ni atípicos mediante el criterio intercuartílico del diagnóstico actual en puntajes, importes o duración. Se conservarán los controles y se documentará su método. Para comparar importes se resolverá primero la diferencia de concepto económico entre fuentes. No se eliminará un valor por ser extremo ni se calculará una corrección automática por programa.
 
-## 7. Qué pasaría con las cuatro columnas técnicas
+## 6. Periodo académico actualizado
 
-| Columna actual | Uso durante la limpieza |
-|---|---|
-| fila_origen_csv | Referencia a cada fila recibida. No se renumera para ocultar exclusiones. Un resultado que represente varias filas necesita conservar todas sus relaciones. |
-| origen_sha256 | Se conserva como referencia del archivo, preferiblemente registrada también en el lote de ejecución. |
-| datos_originales | Permanece intacta en admisiones_tipadas. La salida limpia puede consultarla por referencia, sin duplicar otra vez todo el JSON. |
-| observaciones_tipado | Permanece como diagnóstico técnico original. Las decisiones de limpieza se registran aparte, sin sobrescribirlo. |
+| Etiqueta actual | Filas de entrada | Código propuesto |
+| :--- | ---: | ---: |
+| 2025-2 | 1.102 | 20252 |
+| 2026-1 | 1.271 | 20261 |
+| 2026-I | 1.020 | 20261 |
+| 2026-2 | 1.177 | 20262 |
+| 2026 II | 1.070 | 20262 |
 
-La salida tendría una clave técnica propia y un enlace de trazabilidad a una o varias filas de origen. Para no acumular columnas operativas en la tabla analítica, se propone un control separado con identificador de ejecución, registro resultante, fila de origen, columna, valor anterior, valor posterior, regla, decisión y fecha. Su diseño definitivo se revisará al implementar.
+La regla año por 10 más número de periodo produce 1.102 filas en 20252, 2.291 en 20261 y 2.247 en 20262, antes de consolidar repeticiones. Las etiquetas pueden obtenerse en una vista o catálogo de presentación. El código identifica y ordena; no debe sumarse ni promediarse.
 
-Los códigos enteros de periodo serían una decisión de modelado de negocio en la salida, mientras que las columnas de trazabilidad solo registran su procedencia y tratamiento.
+Los 470 casos con periodo 20252 y fecha de solicitud en 2026 siguen siendo incidencias por verificar. Cambiar el formato del periodo no resuelve esa diferencia administrativa.
 
-## 8. Ejecución propuesta desde Python
+## 7. Tres decisiones críticas antes de consolidar registros
 
-1. Generar respaldo y verificar CSV, versión de reglas y tablas de referencia.
-2. Leer admisiones_tipadas incluyendo valores originales y motivos de tipado.
-3. Identificar duplicados y conflictos con claves de origen, sin perder sus relaciones.
-4. Aplicar las reglas de formato y categorías que estén confirmadas.
-5. Construir el código entero de periodo mediante catálogo explícito.
-6. Mantener sin resolver los casos que dependan de una fuente externa y registrar sus incidencias.
-7. Validar cantidades, tipos, correspondencia de valores y trazabilidad.
-8. Cargar la nueva tabla limpia y el control de cambios en una transacción. Si falla, no publicar una carga parcial.
-9. Exportar un resumen del antes y después y actualizar la bitácora.
+### 7.1. Duplicados y solapamientos
 
-## 9. Comprobaciones de aceptación
+Las 140 repeticiones adicionales de registro_id no son 140 eliminaciones autorizadas. Los 139 grupos incluyen repeticiones exactas, los dos conflictos históricos y solicitudes presentes tanto en la principal como en CRM. Un mismo grupo puede tener filas exactas y otra fila diferente.
 
-| Control | Resultado esperado |
-|---|---|
-| CSV y tablas de referencia | Sin modificaciones |
-| Conciliación de filas | Todas las filas de entrada explicadas como conservadas, vinculadas a una fusión o pendientes; no sumar incidencias superpuestas como si fueran filas diferentes |
-| Códigos de periodo | Cada equivalencia aceptada produce el código documentado; valores desconocidos quedan señalados |
-| Categorías | Coinciden con el catálogo aplicado y quedan disponibles sus valores anteriores |
-| Ausencias numéricas | No pasan a cero ni se imputan sin metodología |
-| Conflictos | Permanecen visibles mientras falte evidencia |
-| Trazabilidad | Todo registro resultante puede vincularse con sus filas de origen y reglas |
-| Repetición del proceso | La misma entrada y versión de reglas produce el mismo resultado sin duplicar la salida |
-| Estadísticas | Se comparan antes y después con sus denominadores y exclusiones |
+Si únicamente se consolidaran las 38 repeticiones exactas observadas al inicio, quedarían 5.602 filas. Esta es una simulación condicionada a esa decisión, no el número final esperado. Cada fila consolidada debe vincularse con el representante, que se elige mediante una regla reproducible y no por su posición como prueba de actualidad.
 
-## 10. Compartir el resultado entre equipos
+Los 100 códigos CRM ya existen en la principal, pero sus importes fueron sumados y difieren del concepto registrado en la principal. Deben conciliarse por solicitud y por atributo, no borrar una fuente entera automáticamente. Los dos conflictos originales REG004804 y REG003600 siguen necesitando resolución documentada.
 
-La nueva estructura se incorporaría mediante una migración posterior a 001_admisiones_tipadas.sql, sin editar la versión aplicada. El procedimiento Python y sus reglas se guardarían en Git.
+Oracle tiene otros identificadores. La comparación anterior encontró 498 candidatos por 11 atributos excluyendo identificadores y fechas, y 49 por 13 atributos excluyendo solo identificadores, bajo las sondas documentadas. Ninguna cifra define por sí sola cuántas solicitudes deben eliminarse. Un correo común tampoco identifica una solicitud única.
 
-El sincronizador actual aplica SQL y reproduce la base tipada. La ejecución versionada de una limpieza Python debe integrarse expresamente cuando se desarrolle; no basta con subir un archivo nuevo para que se ejecute. Cada ejecución necesita registrar versión, origen y resultado, y omitir una repetición ya aplicada o reconstruirla de forma controlada.
+### 7.2. Importes con conceptos diferentes
 
-Después de pull, los demás equipos ejecutarían el sincronizador actualizado para reproducir la estructura y el tratamiento aprobados. Las modificaciones manuales dentro de una base local no se propagan por Git.
+En CRM, valor_matricula_cop es matrícula base más derechos administrativos por la transformación realizada. En las otras fuentes no se acreditó esa misma definición. Unificar el tipo numérico no unifica el significado económico.
 
-## 11. Decisiones pendientes antes de implementar
+La propuesta inicial es conservar el importe reportado y registrar su concepto y procedencia en la auditoría. Si se decide una medida económica común, habrá que reconstruirla desde las columnas originales del CRM con una regla aprobada, registrando valor anterior y posterior. Hasta entonces no deben presentarse promedios consolidados como importes plenamente comparables ni como ingresos cobrados.
 
-Confirmar catálogos y equivalencias, aprobar el tratamiento de duplicados exactos, resolver los dos pares discrepantes, definir solicitud única, confirmar convenciones de fecha, escala de puntajes, tarifas y significado del periodo académico. Las acciones técnicas pueden prepararse, pero las decisiones que necesitan evidencia no deben convertirse en correcciones inventadas.
+### 7.3. Fechas y catálogo
 
-## Referencias
+Las diferencias temporales Oracle deben conservarse como alertas. Se encontraron candidatos compatibles con intercambio de día y mes, pero también otras discrepancias. La regla por formato requiere confirmación para los casos ambiguos; no se intercambian fechas solo para aumentar coincidencias.
 
-Microsoft Learn, orden de una columna por otra: https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-sort-by-column?tabs=powerbi-desktop
+En programas, la selección de una sola fila de Data Analytics y los ajustes de facultad, duración y nivel son decisiones documentadas del catálogo de trabajo. Debe recuperarse la correspondencia de nombres antes y después del fuzzy desde el paso de expansión, porque el nombre asignado se retiró de la salida final. Revisar los pares de denominaciones distintos y conservar evidencia de los 27 casos sin correspondencia.
 
-Evidencia local: reports/exploracion/revision_diagnostico_propuesto.json, notebook de respaldo y docs/estructura_tipado_sin_limpieza.md.
+## 8. Cómo registrar cada paso
+
+Los Pasos aplicados de la integración en Power Query forman parte del respaldo histórico. La limpieza continuará en el notebook con controles explícitos por celda, regla y registro, además de las explicaciones y salidas visibles. Se conserva el código M de integración y se generan controles separados de la tabla administrativa.
+
+| Control | Contenido mínimo |
+| :--- | :--- |
+| Inventario de entrada | Identificador de fila, posición, registro_id, hash de fila y de archivo; ya preparado para las 5.640 filas |
+| Registro de pasos | Ejecución, regla, versión, artefacto y celda o paso, criterio, filas antes y después, filas modificadas únicas, celdas modificadas, filas excluidas, repeticiones consolidadas y pendientes |
+| Cambios por celda | Identificador de entrada, columna, valor anterior y posterior, tipo o motivo de ausencia, regla y justificación |
+| Disposición de filas | Cada entrada vinculada a una salida o a una exclusión documentada; las consolidaciones conservan todos sus orígenes |
+| Incidencias pendientes | Caso, regla, evidencia, motivo, alcance en indicadores y estado de resolución |
+
+Se incluyen plantillas generales vacías en docs/plantillas_limpieza. La primera ejecución del notebook ya genera sus controles reales en reports/limpieza/ejecuciones, separados de esas plantillas. Cada acción posterior debe generar sus filas de control al aplicarse.
+
+Una fila puede cambiar en varias columnas. Por eso se cuentan por separado celdas modificadas y filas distintas modificadas. Una fila pendiente puede permanecer en la salida; no se suma otra vez como si fuera un registro adicional.
+
+En el notebook se conserva un DataFrame de entrada y se trabaja sobre una copia por etapa. Los índices de auditoría se mantienen fuera de las columnas administrativas. Antes de retirar filas o agruparlas se conserva la relación entre cada entrada y su destino. Quitar duplicados sin esa relación no ofrece trazabilidad suficiente.
+
+## 9. Conciliación y criterios de aceptación
+
+En cada paso debe cumplirse:
+
+```text
+filas_salida = filas_entrada
+               menos filas_excluidas
+               menos repeticiones_consolidadas
+               más filas_generadas_justificadas
+```
+
+No se espera generar filas nuevas durante esta limpieza. Una modificación de categoría, fecha o tipo mantiene las filas. Las repeticiones consolidadas cuentan únicamente las filas adicionales retiradas de la salida, no todos los integrantes de sus grupos.
+
+Al finalizar, cada una de las 5.640 entradas debe tener un destino: conservada como salida individual, vinculada a un resultado consolidado o excluida con motivo. Los casos pendientes que se mantengan dentro de la salida continúan contándose allí. No sumar incidencias superpuestas como si fueran personas o filas diferentes.
+
+| Comprobación | Condición |
+| :--- | :--- |
+| Entrada y fuentes | Hashes originales conservados |
+| Inventario | 5.640 identificadores técnicos únicos y todos con destino |
+| Cantidades | Conciliación por paso y global sin diferencias inexplicadas |
+| Categorías | Valores del catálogo aplicado o excepciones visibles |
+| Tipos | Sin errores de conversión silenciosos; motivos conservados |
+| Integración previa | Sin multiplicaciones por catálogo y con asignaciones fuzzy revisadas |
+| Importes | Conceptos identificados antes de comparar medidas económicas |
+| Identidad | Solicitudes y personas distinguidas; claves de origen conservadas |
+| Repetición del proceso | Misma entrada y versión de reglas producen los mismos valores y decisiones |
+| Comunicación | Conteos, porcentajes y estadísticas con sus nuevos denominadores y limitaciones |
+
+El número final de filas no se fija antes de resolver los grupos. Tampoco se exige que registro_id sea único si quedan conflictos o si la definición de solicitud todavía no está confirmada. Esa limitación debe quedar explícita en la salida y en los indicadores.
+
+## 10. Archivos de salida propuestos
+
+La limpieza generará data/processed/taller_2/BaseUnificada_Limpia.xlsx y BaseUnificada_Limpia.csv, con su versión, fecha y hashes. El Excel podrá incluir hojas de control además de la base; los CSV de auditoría se guardarán en reports/limpieza/ejecuciones junto al código M utilizado.
+
+Las 18 columnas actuales son de negocio. Los índices, estados de revisión y correspondencias se mantienen en controles separados o en consultas auxiliares. Si se acuerda añadir una variable analítica nueva, se documentará el cambio del esquema y del diccionario.
+
+No se reemplazará BaseUnificada_Manejo.xlsx ni data/prepared/taller_2/BaseUnificada. El notebook anterior seguirá respaldando la primera exploración. La limpieza y su comparación antes y después requieren su propio respaldo actualizado, sin presentar los resultados iniciales como cifras de la base nueva.
+
+Una carga futura a PostgreSQL necesita una nueva estructura que contemple las 18 columnas y los controles de ejecución. El sincronizador actual no aplica automáticamente las transformaciones manuales de Excel. No se editan migraciones anteriores ni se sobrescriben admisiones_original o admisiones_tipadas.
+
+## 11. Qué está listo y qué sigue pendiente
+
+Está listo el diagnóstico de entrada, el inventario de las 5.640 filas, el listado de identificadores repetidos, la actualización del plan y las plantillas de control. Se reproducen con python scripts/diagnosticar_base_unificada.py.
+
+El primer notebook se ejecutó de principio a fin con 10 celdas de código y 10 controles correctos. Verificó 5.040 procedencias principales, 100 CRM y 500 Oracle contra el libro congelado y el código de anexado. L02 estandarizó textos y categorías con config/limpieza/estandarizacion_v1.json: hubo 14.209 cambios de celda en 5.404 filas. Se conservaron las 5.640 filas, las 18 columnas y las 38 repeticiones exactas adicionales. Fechas, puntajes, importes y duración permanecen iguales a la entrada textual.
+
+Los datos intermedios están en data/interim/taller_2 bajo una carpeta de versión. Los cambios por celda, equivalencias, procedencias, disposición de las 5.640 filas y controles están en reports/limpieza/ejecuciones. reports/limpieza/ultima_estandarizacion.json identifica la ejecución y sus hashes. Existe un HTML de lectura en reports/02_limpieza_base_unificada.html.
+
+El siguiente paso es L03, tratamiento de ausencias, sin adelantar las decisiones sobre eliminación de filas. Después se realizará L04, conversión de tipos y validaciones. Las decisiones de identidad, precedencia económica, fechas conflictivas y catálogo institucional siguen pendientes y se resolverán con evidencia.
+
+Todavía no se ejecutaron L03 a L09 ni existe una base final depurada generada por este plan.

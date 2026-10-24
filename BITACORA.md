@@ -229,3 +229,23 @@ Se creó scripts/exportar_base_unificada.py. Se añadió el grupo opcional excel
 ## 24 de octubre de 2026. Preparación para compartir la base de partida
 
 Se revisaron los cambios locales de organización, libro de manejo, exportaciones BaseUnificada, corrección del origen CRM y evidencias de revisión. Las contraseñas y temporales de Office se mantienen excluidos. Se verificaron los hashes de los archivos preparados para la limpieza. Se publica mediante Conventional Commits, sin trailers ni atribuciones adicionales. El traslado del libro recibido conserva su contenido y el bloqueo de Office deja de formar parte del repositorio.
+
+
+## 24 de octubre de 2026. Actualización del plan de limpieza y controles de entrada
+
+Se contrastó el plan del 21 de octubre con la entrada consolidada de 5.640 filas y 18 columnas. Se conservó el documento anterior en docs/historial y se actualizó docs/plan_limpieza_datos.md para contemplar Power Query como herramienta principal del taller, Python como respaldo, las tres columnas del catálogo, los cambios ya realizados y la trazabilidad por ejecución.
+
+El script scripts/diagnosticar_base_unificada.py verificó el hash de entrada y generó reports/limpieza/diagnostico_entrada.json, inventario_entrada.csv e identificadores_repetidos.csv. El inventario identifica las 5.640 filas de esa versión. Se recalcularon 5.500 registro_id distintos, 139 grupos repetidos con 279 filas y 38 repeticiones exactas adicionales. Se corrigió el alcance del plan: el solapamiento CRM, los conceptos económicos, las fechas Oracle y las decisiones del catálogo requieren tratamiento separado.
+
+Se prepararon cuatro plantillas vacías de pasos, cambios por celda, disposición de filas e incidencias. Las cantidades de cambios de valor, cambios de tipo y filas retiradas deben registrarse separadamente. La conciliación obliga a explicar el destino de cada fila de entrada. Se verificó que el inventario tenga 5.640 claves únicas y que los hashes del CSV y Excel preparados no cambiaran. No se ejecutó limpieza, no se eliminaron registros ni se cargó una tabla nueva.
+
+
+## 24 de octubre de 2026. Notebook principal y estandarización L00 a L02
+
+Por decisión del usuario, el notebook será el lugar principal del proceso y seguirá la secuencia del plan. Se preparó y ejecutó notebooks/02_limpieza_base_unificada.ipynb con 10 celdas de código y su HTML de lectura. El ejecutor admite seleccionar notebook, conservando el respaldo inicial como predeterminado. El constructor y el catálogo de reglas estandarizacion_v1 quedan versionados.
+
+L00 verificó la entrada de 5.640 filas y 18 columnas y el inventario. L01 comprobó la procedencia de los tres bloques contra el libro de manejo congelado, su hash, sus hojas y el orden de Table.Combine: 5.040 principal, 100 CRM y 500 Oracle. Se documentaron las decisiones todavía abiertas sobre identidad, importes, fechas y catálogo.
+
+L02 aplicó catálogos explícitos de textos y categorías, con 14.209 cambios de celda en 5.404 filas, conservando todas las filas y columnas. Los periodos se homologaron aún como texto. No se cambiaron fechas, puntajes, importes o duración, ni se resolvieron ausencias; esos pasos corresponden a L03 y L04. Los cuatro nan y las 38 repeticiones exactas adicionales permanecen. No hubo eliminación ni consolidación.
+
+Los datos intermedios CSV y Excel se guardan en data/interim/taller_2 con versión y hashes. La auditoría registra procedencia, decisiones pendientes, cambios por celda, equivalencias, frecuencias antes y después, reglas y destino de las 5.640 filas. Diez controles pasaron, incluida la idempotencia de las reglas y la lectura completa de los dos formatos exportados. Se actualizó el plan para distinguir lo ejecutado de las etapas L03 a L09 pendientes.

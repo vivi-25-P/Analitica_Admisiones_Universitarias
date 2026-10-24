@@ -2,6 +2,15 @@
 
 La [organización de data](data/README.md) distingue las fuentes originales, los libros de manejo y la nueva base de partida. [BaseUnificada.xlsx](data/prepared/taller_2/BaseUnificada.xlsx) y [BaseUnificada.csv](data/prepared/taller_2/BaseUnificada.csv) contienen la hoja consolidada exportada con 5.640 filas y 18 columnas, sin aplicar limpieza adicional. Para regenerarlos se utiliza el grupo opcional `excel` de uv y `scripts/exportar_base_unificada.py`.
 
+El [plan de limpieza actualizado](docs/plan_limpieza_datos.md) contempla las 18 columnas, las fuentes integradas y la auditoría por pasos. `python scripts/diagnosticar_base_unificada.py` verifica la entrada y genera su diagnóstico e inventario en `reports/limpieza/`. Todavía no ejecuta limpieza. Las plantillas de control están en `docs/plantillas_limpieza/`.
+
+El [notebook de limpieza](notebooks/02_limpieza_base_unificada.ipynb) es el lugar principal de trabajo por etapas. Ya está ejecutado para L00, la procedencia y decisiones pendientes de L01 y la estandarización textual L02, sin retirar filas. Puede leerse también en [HTML](reports/02_limpieza_base_unificada.html). Sus reglas están en `config/limpieza/estandarizacion_v1.json`, los resultados intermedios en `data/interim/taller_2` y el resumen de auditoría en `reports/limpieza/ultima_estandarizacion.json`.
+
+```bash
+uv sync --locked --group notebooks --group excel
+uv run --locked --group notebooks --group excel python scripts/ejecutar_notebook.py --notebook notebooks/02_limpieza_base_unificada.ipynb
+```
+
 ## Taller 2: múltiples fuentes
 
 Los cuatro archivos recibidos están organizados en `docs/referencias/taller_2`, `data/raw/taller_2` y `sql/fuentes/taller_2`, con sus bytes originales y hashes registrados. Consulta [el análisis del taller y la ruta de trabajo](docs/analisis_taller_2.md).

@@ -5,6 +5,7 @@
 | raw/ | CSV inicial y CSV de Programas y CRM recibidos | Fuentes originales conservadas |
 | exports/taller_2/ | Exportación plana de la vista Oracle y sus metadatos | Consulta compartida de la fuente Oracle |
 | prepared/taller_2/ | BaseUnificada.csv, BaseUnificada.xlsx y metadatos | Punto de partida del trabajo posterior de limpieza, con 18 columnas |
+| interim/taller_2/ | Estados intermedios de estandarización, identificados por versión y hashes | Resultado por etapas del notebook; todavía no es una limpieza final |
 | BaseUnificada_Manejo.xlsx | Libro del usuario con fuentes, consultas Power Query y Merge | Respaldo del proceso de preparación y consolidación |
 | workbooks/recibidos/ | Libros recibidos desde Git, separados de la versión de manejo | Conservar aportes sin sobrescribir el trabajo actual |
 | backups/ | Respaldos locales de PostgreSQL y temporales apartados | No se comparten por Git |

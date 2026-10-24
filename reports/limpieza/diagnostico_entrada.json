@@ -1,0 +1,271 @@
+{
+  "filas": 5640,
+  "columnas": 18,
+  "nombres": [
+    "registro_id",
+    "aspirante_id",
+    "fecha_solicitud",
+    "programa",
+    "modalidad",
+    "canal_captacion",
+    "estado_proceso",
+    "puntaje_admision",
+    "documentos_completos",
+    "valor_matricula_cop",
+    "ciudad_residencia",
+    "asesor",
+    "fecha_matricula",
+    "correo",
+    "periodo_academico",
+    "facultad",
+    "duracion_semestres",
+    "nivel_formacion"
+  ],
+  "duplicados_exactos_adicionales": 38,
+  "calidad": {
+    "registro_id": {
+      "vacios_o_null": 0,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 5500
+    },
+    "aspirante_id": {
+      "vacios_o_null": 92,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 3425
+    },
+    "fecha_solicitud": {
+      "vacios_o_null": 0,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 1252
+    },
+    "programa": {
+      "vacios_o_null": 25,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 9
+    },
+    "modalidad": {
+      "vacios_o_null": 0,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 3
+    },
+    "canal_captacion": {
+      "vacios_o_null": 0,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 6
+    },
+    "estado_proceso": {
+      "vacios_o_null": 0,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 7
+    },
+    "puntaje_admision": {
+      "vacios_o_null": 200,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 123
+    },
+    "documentos_completos": {
+      "vacios_o_null": 0,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 5
+    },
+    "valor_matricula_cop": {
+      "vacios_o_null": 907,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 111
+    },
+    "ciudad_residencia": {
+      "vacios_o_null": 0,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 8
+    },
+    "asesor": {
+      "vacios_o_null": 0,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 4
+    },
+    "fecha_matricula": {
+      "vacios_o_null": 3065,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 788
+    },
+    "correo": {
+      "vacios_o_null": 131,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 2908
+    },
+    "periodo_academico": {
+      "vacios_o_null": 0,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 5
+    },
+    "facultad": {
+      "vacios_o_null": 27,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 3
+    },
+    "duracion_semestres": {
+      "vacios_o_null": 27,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 3
+    },
+    "nivel_formacion": {
+      "vacios_o_null": 27,
+      "solo_espacios": 0,
+      "distintos_no_vacios": 2
+    }
+  },
+  "frecuencias": {
+    "programa": {
+      "Derecho": 1259,
+      "Especialización En Data Analytics": 676,
+      "Ingeniería De Sistemas": 646,
+      "Contaduría Pública": 631,
+      "Especialización En Gerencia": 619,
+      "Psicología": 613,
+      "Administración De Empresas": 595,
+      "Especializacion En Data Analytics": 574,
+      "": 25,
+      "Sin Especificar": 2
+    },
+    "modalidad": {
+      "Presencial": 2248,
+      "Virtual": 2239,
+      "Híbrida": 1153
+    },
+    "canal_captacion": {
+      "Feria Universitaria": 963,
+      "Instagram": 962,
+      "Correo": 948,
+      "Referido": 931,
+      "Web Institucional": 922,
+      "Landing Page": 914
+    },
+    "estado_proceso": {
+      "Admitido": 1240,
+      "Matriculado": 1206,
+      "Documentación Pendiente": 656,
+      "Inscrito": 645,
+      "No Admitido": 635,
+      "Retirado": 633,
+      "Nuevo": 625
+    },
+    "documentos_completos": {
+      "Sí": 1332,
+      "Pendiente": 1145,
+      "No": 1124,
+      "sí": 1020,
+      "SI": 1019
+    },
+    "ciudad_residencia": {
+      "Cali": 1285,
+      "Bogotá": 702,
+      "Popayán": 657,
+      "Medellín": 633,
+      "Santander De Quilichao": 632,
+      "Pasto": 617,
+      "Bogota": 605,
+      "Popayan": 509
+    },
+    "asesor": {
+      "Asesor 1": 2271,
+      "Sin Asignar": 1132,
+      "Asesor 2": 1125,
+      "Asesor 3": 1112
+    },
+    "periodo_academico": {
+      "2026-1": 1271,
+      "2026-2": 1177,
+      "2025-2": 1102,
+      "2026 II": 1070,
+      "2026-I": 1020
+    },
+    "facultad": {
+      "Ingeniería": 1896,
+      "Ciencias Sociales": 1872,
+      "Ciencias Económicas": 1845,
+      "": 27
+    },
+    "nivel_formacion": {
+      "Pregrado": 3744,
+      "Posgrado": 1869,
+      "": 27
+    }
+  },
+  "numericas": {
+    "puntaje_admision": {
+      "validos_numericos": 5389,
+      "minimo": "40.0",
+      "maximo": "100.0",
+      "promedio": "70.07014288365188346632028206",
+      "mediana": "70.0",
+      "negativos": 0,
+      "atipicos_1_5_RIC": 0,
+      "q1": "55.0",
+      "q3": "85.0",
+      "no_interpretables": {
+        "Pendiente": 51
+      }
+    },
+    "valor_matricula_cop": {
+      "validos_numericos": 4698,
+      "minimo": "1800000.0",
+      "maximo": "3807591",
+      "promedio": "2615719.260962111536824180502",
+      "mediana": "2500000.0",
+      "negativos": 0,
+      "atipicos_1_5_RIC": 0,
+      "q1": "2200000.0",
+      "q3": "3100000.0",
+      "no_interpretables": {
+        "por definir": 35
+      }
+    },
+    "duracion_semestres": {
+      "validos_numericos": 5613,
+      "minimo": "2",
+      "maximo": "10",
+      "promedio": "6.657402458578300374131480492",
+      "mediana": "8",
+      "negativos": 0,
+      "atipicos_1_5_RIC": 0,
+      "q1": "2",
+      "q3": "10",
+      "no_interpretables": {}
+    }
+  },
+  "fechas": {
+    "fecha_solicitud": {
+      "interpretables": 5640,
+      "minimo": "2025-01-01",
+      "maximo": "2026-12-10",
+      "no_aplica": 0,
+      "no_interpretables_no_vacios_ni_no_aplica": 0
+    },
+    "fecha_matricula": {
+      "interpretables": 1206,
+      "minimo": "2025-01-06",
+      "maximo": "2026-12-11",
+      "no_aplica": 1369,
+      "no_interpretables_no_vacios_ni_no_aplica": 0
+    }
+  },
+  "registro_id_distintos_no_vacios": 5500,
+  "aspirante_id_distintos_no_vacios": 3425,
+  "correo_distintos_no_vacios": 2908,
+  "matriculados_con_documentacion_no_o_pendiente": 524,
+  "periodo_20252_solicitud_2026": 470,
+  "generado_en": "2026-10-24T12:43:31.573702-05:00",
+  "archivo_entrada": "data/prepared/taller_2/BaseUnificada.csv",
+  "sha256_entrada": "f77076f7d800c9c4ca11ee4fd4e55ade447275adf0d342c099f722f4eb35c80e",
+  "grupos_registro_id_repetido": 139,
+  "filas_en_grupos_registro_id_repetido": 279,
+  "repeticiones_adicionales_registro_id": 140,
+  "aspirante_literal_nan": 4,
+  "programa_sin_especificar": 2,
+  "periodos_equivalentes_sonda": {
+    "20252": 1102,
+    "20261": 2291,
+    "20262": 2247
+  },
+  "alcance": "Diagnóstico e inventario solamente. Las interpretaciones de fechas y equivalencias sirven al perfil; no se modifica la entrada ni se aplican correcciones, exclusiones o fusiones."
+}

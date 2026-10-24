@@ -3,8 +3,12 @@ from pathlib import Path
 import os
 import sys
 import asyncio
+import argparse
 
 ROOT = Path(__file__).resolve().parents[1]
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--notebook', type=Path, default=ROOT/'notebooks/01_respaldo_informe_descriptivo.ipynb')
+args = parser.parse_args()
 for name, folder in {
     'MPLCONFIGDIR':'/tmp/admisiones-matplotlib',
     'IPYTHONDIR':'/tmp/admisiones-ipython',
@@ -31,7 +35,7 @@ import json
     'display_name':'Python del proyecto uv','language':'python',
 }))
 manager=KernelSpecManager(kernel_dirs=[str(kernel_root)])
-path=ROOT/'notebooks/01_respaldo_informe_descriptivo.ipynb'
+path=args.notebook if args.notebook.is_absolute() else ROOT/args.notebook
 nb=nbformat.read(path,as_version=4)
 nbformat.validate(nb)
 client=NotebookClient(nb,timeout=300,kernel_name='admisiones-uv',
@@ -53,7 +57,7 @@ exporter=HTMLExporter()
 exporter.exclude_input_prompt=True
 exporter.exclude_output_prompt=True
 html,_=exporter.from_notebook_node(nb)
-html_path=ROOT/'reports/01_respaldo_informe_descriptivo.html'
+html_path=ROOT/'reports'/f'{path.stem}.html'
 html_path.write_text(html,encoding='utf-8')
 code_cells=[cell for cell in nb.cells if cell.cell_type=='code']
 assert all(cell.execution_count is not None for cell in code_cells)
