@@ -1,11 +1,7 @@
-# BaseUnificada Entregable
+# Entrega
 
-Instituto Universitario Horizonte. Versión de revisión del 26 de octubre de 2026.
+El único archivo de datos para entregar es [BaseUnificada_Entregable.xlsx](BaseUnificada_Entregable.xlsx). Contiene 5.500 registros y 18 columnas en la hoja BaseUnificada, con diccionario, metodología y controles en las hojas auxiliares.
 
-Abra **BaseUnificada_Entregable.xlsx** para revisar los 5.500 registros y sus 18 columnas. La tabla incorpora los 500 registros Oracle y los aportes de 100 registros CRM a las solicitudes correspondientes. Las hojas Metodologia y Diccionario_Datos explican el contenido; las demás hojas aportan controles y resúmenes.
+El segundo entregable es el [informe administrativo en Drive](https://docs.google.com/document/d/1WV9TFQ0z838CI6EZphmFh96CfeIfSaiE/edit), que continúa en elaboración. No se sustituye por un PDF interno.
 
-**BaseUnificada_Entregable.zip** contiene la entrega completa: Excel, CSV, JSONL, origen, calidad, conceptos económicos, identificadores por origen, correspondencias Oracle, tablas descriptivas, informe y gráficos.
-
-**Informe_BaseUnificada_Entregable.pdf** presenta las transformaciones, el resultado y las condiciones de uso. Los metadatos registran las huellas de integridad de los archivos incluidos en el paquete.
-
-La preparación técnica está terminada para revisión externa y análisis descriptivo de registros. Las correspondencias entre sistemas no acreditan personas globales únicas. Las ausencias y observaciones de calidad se conservan explícitamente.
+Los respaldos, CSV, paquetes y evidencias se conservan en data/processed y reports. No son bases alternativas para entregar. El nombre de este Excel permanecerá fijo en futuras actualizaciones.

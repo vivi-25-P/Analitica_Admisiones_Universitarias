@@ -1,0 +1,15 @@
+﻿tipo,numero_correcto,titulo,pagina_titulo_actual,pagina_inicio_elemento
+Tabla,1,Diccionario de datos,5,5
+Tabla,2,Revisión inicial de calidad por columna,7,7
+Tabla,3,Revisión complementaria de calidad,9,9
+Tabla,4,Hallazgos principales y recomendaciones,14,14
+Tabla,5,Síntesis de la limpieza y transformación,17,18
+Tabla,6,Reglas de unificación propuestas en la revisión inicial,22,22
+Figura,1,Registros por programa y modalidad según las categorías originales,11,11
+Figura,2,Registros por canal de captación y estado del proceso,12,12
+Figura,3,Distribución de los puntajes de admisión,12,13
+Figura,4,Distribución de los valores de matrícula registrados,13,14
+Figura,5,Conciliación de registros durante la limpieza,19,19
+Figura,6,Datos faltantes por columna en BaseUnificada,19,20
+Figura,7,Homologación de estados en la base unificada,24,24
+Figura,8,Cobertura temporal por fuente,24,25

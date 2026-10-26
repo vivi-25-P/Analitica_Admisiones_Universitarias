@@ -1,6 +1,6 @@
 # Analítica de admisiones universitarias
 
-**Entrega vigente, versión 1.1:** [BaseUnificada_Entregable.xlsx](deliverables/v1_1/BaseUnificada_Entregable.xlsx), con **5.500 registros y 18 columnas**, y [paquete completo para revisión](deliverables/v1_1/BaseUnificada_Entregable.zip). La [guía de las diez hojas](deliverables/v1_1/Guia_Hojas.md) explica cada tabla. Incluye las 500 filas Oracle y los 100 aportes CRM incorporados a sus solicitudes principales, con 13 importes recuperados desde matrícula base. El [informe PDF de apoyo](deliverables/v1_1/Informe_BaseUnificada_Entregable.pdf) presenta metodología, perfil descriptivo y alcance. Los controles y el diccionario se incluyen en el Excel. La tabla principal no cambió. Las listas usan comas y las explicaciones puntos. `reports/limpieza/ultima_entrega.json` identifica los archivos, hashes y auditoría vigentes. La versión anterior de la raíz de deliverables se conserva como referencia.
+**Única base para entregar:** [BaseUnificada_Entregable.xlsx](deliverables/BaseUnificada_Entregable.xlsx), con **5.500 registros y 18 columnas**. Incluye los 500 registros Oracle y los 100 aportes CRM incorporados a sus solicitudes principales, con 13 importes recuperados. El diccionario, la metodología y los controles están dentro del mismo Excel. El otro entregable es el informe administrativo mantenido en Drive. Los CSV, paquetes, informes de apoyo y puntos de control permanecen como evidencia interna, fuera de la carpeta de entrega. `reports/limpieza/ultima_entrega.json` identifica el Excel vigente y su huella. No hay carpetas de versiones en deliverables.
 
 La preparación técnica está completada para revisión externa y análisis descriptivo de registros. Los 3.424 identificadores de aspirante por origen no se afirman como personas globales únicas; las correspondencias Oracle, las ausencias y las observaciones temporales permanecen explícitas. Los periodos se conservan como semestres de ingreso y no se recalculan desde las fechas. Las tablas Docker conservan su estado anterior.
 
@@ -12,7 +12,7 @@ La [organización de data](data/README.md) distingue las fuentes originales, los
 
 El [plan de limpieza actualizado](docs/plan_limpieza_datos.md) contempla las 18 columnas, las fuentes integradas y la auditoría por pasos. `python scripts/diagnosticar_base_unificada.py` verifica la entrada y genera su diagnóstico e inventario en `reports/limpieza/`. Todavía no ejecuta limpieza. Las plantillas de control están en `docs/plantillas_limpieza/`.
 
-El [notebook de limpieza](notebooks/02_limpieza_base_unificada.ipynb) es el lugar principal de trabajo por etapas. Ya está ejecutado para L00, la procedencia y decisiones pendientes de L01 y la estandarización textual L02, sin retirar filas. Puede leerse también en [HTML](reports/02_limpieza_base_unificada.html). Sus reglas están en `config/limpieza/estandarizacion_v1.json`, los resultados intermedios en `data/interim/taller_2` y el resumen de auditoría en `reports/limpieza/ultima_estandarizacion.json`.
+El [notebook de limpieza](notebooks/02_limpieza_base_unificada.ipynb) es el lugar principal de trabajo por etapas. Está ejecutado hasta L14. Los párrafos siguientes describen sus puntos de control históricos, no entregas alternativas. Puede leerse también en [HTML](reports/02_limpieza_base_unificada.html). Sus reglas están en `config/limpieza/estandarizacion_v1.json`, los resultados intermedios en `data/interim/taller_2` y el resumen de auditoría en `reports/limpieza/ultima_estandarizacion.json`.
 
 L03 también está ejecutado: normaliza ausencias de las demás variables conservando su motivo, sin cambiar identificadores, imputar o quitar filas. Las reglas están en `config/limpieza/ausencias_v1.json` y la salida de esta etapa se identifica en `reports/limpieza/ultima_ausencias.json`. El CSV requiere la auditoría para distinguir tipos de ausencia; JSONL los representa como null y conserva texto vacío cuando corresponde.
 
@@ -55,7 +55,7 @@ python -m pip install -r requirement.pip
 python scripts/sincronizar_bd.py
 ```
 
-También se admite `requirements.txt`. El sincronizador crea `.env` con contraseña local si falta, verifica el CSV, reproduce las dos tablas actuales y aplica una sola vez cada versión SQL pendiente. Las versiones se registran en `public.migraciones_proyecto`. La limpieza todavía no se ha implementado.
+También se admite `requirements.txt`. El sincronizador crea `.env` con contraseña local si falta, verifica el CSV, reproduce las dos tablas actuales y aplica una sola vez cada versión SQL pendiente. Las versiones se registran en `public.migraciones_proyecto`. La limpieza integrada se ejecuta en los notebooks. Este sincronizador conserva las tablas de la etapa original y tipada, sin cargar automáticamente la entrega final.
 
 Consulta [la guía para trabajar en varios computadores](docs/trabajo_compartido.md). Git comparte archivos y procedimientos; cada equipo mantiene su propio volumen PostgreSQL. El pull descarga las migraciones y el comando anterior las aplica. No se modifican los datos originales ni se copian volúmenes entre equipos.
 
@@ -168,7 +168,7 @@ Las pruebas comprueban que se conserven espacios, vacíos, campos con comas y du
 - Distinguir filas, solicitudes, aspirantes únicos y matrículas efectivas.
 - No deducir causalidad ni tasas definitivas de conversión sin definir entidad, denominador y ventana temporal.
 - Documentar fuente, regla, evidencia, impacto y limitaciones de cada hallazgo.
-- No compartir `.env`. La carpeta `.git` expuesta en esta sesión no contiene metadatos utilizables: no se han creado commits ni remotos.
+- No compartir `.env`. El repositorio utiliza Conventional Commits sin trailers ni atribuciones.
 
 ## Gráficos descriptivos
 
@@ -217,3 +217,7 @@ Se creó `public.admisiones_tipadas` con las mismas 5.040 filas, tipos DATE y NU
 Consulta [el alcance del tipado](docs/estructura_tipado_sin_limpieza.md) y [el análisis del futuro modelo estrella](docs/analisis_modelo_estrella_powerbi.md). No se ha realizado limpieza ni construido un ETL dimensional.
 
 Para validar o repetir la proyección sin duplicar filas: `uv run --group notebooks python scripts/preparar_tipos.py`. El script falla si la proyección existente fue alterada, en vez de reemplazar datos. La migración pertenece a `sql/migrations/` y no exige reinicializar Docker.
+
+## Análisis administrativo y Power BI
+
+La siguiente fase sigue [el plan de análisis y dashboard](docs/plan_analisis_administrativo_powerbi.md). El informe y Power BI utilizarán la misma base y definiciones de indicadores. Todavía no se ha construido el dashboard ni se han redactado conclusiones finales de esta fase.

@@ -1,0 +1,76 @@
+{
+  "entregable": "deliverables/BaseUnificada_Entregable.xlsx",
+  "sha256": "561b084b0501f2dedefe7286e2fa714242508f2f65301db2d605c52320ed223c",
+  "copias_anteriores_archivadas": [
+    {
+      "anterior": "deliverables/BaseUnificada_Entregable.csv",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/6ac4c96e1bd088efda10c1d1f6f3aa93a6e87473e997ac3332676122408f08ed/BaseUnificada_Entregable.csv",
+      "sha256": "6ac4c96e1bd088efda10c1d1f6f3aa93a6e87473e997ac3332676122408f08ed"
+    },
+    {
+      "anterior": "deliverables/BaseUnificada_Entregable.xlsx",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/e393dd456d7d8f4b66b85cc7a4894fcf346d3b98d8ce438c8608c104d3347cd3/BaseUnificada_Entregable.xlsx",
+      "sha256": "e393dd456d7d8f4b66b85cc7a4894fcf346d3b98d8ce438c8608c104d3347cd3"
+    },
+    {
+      "anterior": "deliverables/BaseUnificada_Entregable.zip",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/7551391190986b4dcda30249b6ccf745007691b66579518f0afc0e2c40e661d4/BaseUnificada_Entregable.zip",
+      "sha256": "7551391190986b4dcda30249b6ccf745007691b66579518f0afc0e2c40e661d4"
+    },
+    {
+      "anterior": "deliverables/Informe_BaseUnificada_Entregable.md",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/2ad48a7b47698e3687b414f493cb5ce9c7c263817391b2e86e5d2681fc022bbc/Informe_BaseUnificada_Entregable.md",
+      "sha256": "2ad48a7b47698e3687b414f493cb5ce9c7c263817391b2e86e5d2681fc022bbc"
+    },
+    {
+      "anterior": "deliverables/Informe_BaseUnificada_Entregable.pdf",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/855a1f2f94a4f498b17b11716459a2579d58051869939da82ec190d72c3c4728/Informe_BaseUnificada_Entregable.pdf",
+      "sha256": "855a1f2f94a4f498b17b11716459a2579d58051869939da82ec190d72c3c4728"
+    },
+    {
+      "anterior": "deliverables/Metadatos_Entrega.json",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/0dbece9dd170ba68c8ceaf39fb73f8935ca523f4ba28d1e66ac5a3e8c3ff8b97/Metadatos_Entrega.json",
+      "sha256": "0dbece9dd170ba68c8ceaf39fb73f8935ca523f4ba28d1e66ac5a3e8c3ff8b97"
+    },
+    {
+      "anterior": "deliverables/ULTIMA_VERSION.md",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/9148148d583064d919a3e4e7eda7f65d8ad8d2af11eaf5ed948c642d3ac091cd/ULTIMA_VERSION.md",
+      "sha256": "9148148d583064d919a3e4e7eda7f65d8ad8d2af11eaf5ed948c642d3ac091cd"
+    },
+    {
+      "anterior": "deliverables/v1_1/BaseUnificada_Entregable.csv",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/6ac4c96e1bd088efda10c1d1f6f3aa93a6e87473e997ac3332676122408f08ed/BaseUnificada_Entregable.csv",
+      "sha256": "6ac4c96e1bd088efda10c1d1f6f3aa93a6e87473e997ac3332676122408f08ed"
+    },
+    {
+      "anterior": "deliverables/v1_1/BaseUnificada_Entregable.xlsx",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/561b084b0501f2dedefe7286e2fa714242508f2f65301db2d605c52320ed223c/BaseUnificada_Entregable.xlsx",
+      "sha256": "561b084b0501f2dedefe7286e2fa714242508f2f65301db2d605c52320ed223c"
+    },
+    {
+      "anterior": "deliverables/v1_1/BaseUnificada_Entregable.zip",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/982008383a5d4687447e3ff83b13dc6bd099ee1528b0ce46866f1a3a4ff7312b/BaseUnificada_Entregable.zip",
+      "sha256": "982008383a5d4687447e3ff83b13dc6bd099ee1528b0ce46866f1a3a4ff7312b"
+    },
+    {
+      "anterior": "deliverables/v1_1/Guia_Hojas.md",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/ff20f2981348f119dc2d2d1c70e2f408dbce35acf3de154269d5f8ac6231b852/Guia_Hojas.md",
+      "sha256": "ff20f2981348f119dc2d2d1c70e2f408dbce35acf3de154269d5f8ac6231b852"
+    },
+    {
+      "anterior": "deliverables/v1_1/Informe_BaseUnificada_Entregable.md",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/57f3dfb4fb95ca2840288a02aee0eedd02fe6e57739fd8e71a70198b4d20eb6c/Informe_BaseUnificada_Entregable.md",
+      "sha256": "57f3dfb4fb95ca2840288a02aee0eedd02fe6e57739fd8e71a70198b4d20eb6c"
+    },
+    {
+      "anterior": "deliverables/v1_1/Informe_BaseUnificada_Entregable.pdf",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/91c78eecdfd7d6013cf7902ab4371e5acaf9e130c06af48df1326cee59da3bf6/Informe_BaseUnificada_Entregable.pdf",
+      "sha256": "91c78eecdfd7d6013cf7902ab4371e5acaf9e130c06af48df1326cee59da3bf6"
+    },
+    {
+      "anterior": "deliverables/v1_1/Metadatos_Entrega.json",
+      "archivo_interno": "reports/limpieza/archivo_publicaciones/bdee2ddc41e4aa4f31cfd633e128da815585884f3deed7b62db5ad4fd97eb90f/Metadatos_Entrega.json",
+      "sha256": "bdee2ddc41e4aa4f31cfd633e128da815585884f3deed7b62db5ad4fd97eb90f"
+    }
+  ]
+}

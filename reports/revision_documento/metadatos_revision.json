@@ -1,0 +1,13 @@
+{
+  "fuente": "Informe_Admision_Universitaria_Analisis_Descriptivo.docx",
+  "sha256_fuente": "0d04908d1fee8a6ef7751e20e63586c86543321814ef2b1c56e3c78dbfb3b141",
+  "motor": "Microsoft Word, modo de solo lectura, Repaginate y ExportAsFixedFormat",
+  "paginas": 25,
+  "original_modificado": false,
+  "alcance": "Paginación de la copia adjunta antes de nuevos cambios de texto. La numeración correcta de Figura 6 es propuesta, el título todavía dice Figura 5.",
+  "archivos": {
+    "Informe_revision_paginada.pdf": "236899c562cce01bf137841233f93d7de1225158dd0942878ae2a34a465c0bb9",
+    "paginacion_word.tsv": "c8d0c2d42fb9bcbffb3b5dc5b63f047c120ac8bfa0f820646db983974efb883b",
+    "paginas_tablas_figuras.csv": "058a34ce6bc9b8596e48fe898bfe134d2ca5b61ae025b8644c7655d27d6bf8b2"
+  }
+}

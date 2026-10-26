@@ -1,7 +1,7 @@
 {
   "resumen_fuente": "reports/limpieza/ultima_entrega.json",
   "id_ejecucion_fuente": "entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2",
-  "sha256_resumen_fuente": "1b4314a1afdda7a0457004f8c5674ae0d86d2388fe50abcfcf38e47aa1cd56cf",
+  "sha256_resumen_fuente": "4669b78e06eff61533fb5a9e307eb83d5c69fd1942c490876be78f98b7d3399a",
   "secuencia_registros": [
     5640,
     5602,

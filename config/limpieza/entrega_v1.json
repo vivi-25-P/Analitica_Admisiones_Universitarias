@@ -8,11 +8,11 @@
   "fechas": "Conservar todas las fechas. Marcar formatos ambiguos, matrícula anterior a solicitud y fechas posteriores a la referencia. Calcular intervalos solo con ambas fechas sin las alertas definidas. Fechas sin alerta no acreditan exactitud externa.",
   "identidad": "Una solicitud de origen por registro_id en la base final. Contar códigos de aspirante por sistema de origen, sin asumir que los códigos Oracle identifican personas nuevas. No sumar identificadores por fuente como personas civiles únicas. Solicitudes sin ID conservadas aparte.",
   "estados": "Conservar la homologación analítica de Nuevo a Admitido y mantener Matriculado separado. La etiqueta original se informa en el control de calidad. No afirmar estado actual por persona ni reconstruir transiciones sin fecha de actualización.",
-  "entregable": "BaseUnificada_Entregable.xlsx con una hoja principal BaseUnificada de 18 columnas y hojas formales de diccionario, origen, calidad, economía, aspirantes por origen, coincidencias Oracle y metodología. Sin notas de conversación ni rutas locales. CSV, informe, gráficos, metadatos y paquete ZIP complementarios.",
+  "entregable": "Un único BaseUnificada_Entregable.xlsx con la tabla principal y sus controles. El informe administrativo se mantiene en Drive. CSV, gráficos, PDF de apoyo y paquete ZIP se conservan como respaldos internos.",
   "imputacion_estadistica": false,
   "eliminar_oracle": false,
   "cargar_docker": false,
   "version_presentacion": "1.1",
   "presentacion": "Oraciones separadas por punto y listas separadas por coma. Se conservan separadores técnicos de fecha y códigos. La similitud de atributos se informa de forma simétrica para los registros de ambas fuentes y no implica una tarea de preparación sin ejecutar.",
-  "directorio_entrega": "deliverables/v1_1"
+  "directorio_entrega": "deliverables"
 }

@@ -650,11 +650,10 @@ class EntregaBaseUnificada:
                 if path.is_file():archive.write(path,arcname='BaseUnificada_Entregable/'+str(path.relative_to(self.public)))
         self.verificar_paquete(zip_path,public_meta)
         # Ubicación estable y sencilla para entregar; la versión interna conserva historia.
-        delivery=self.root/self.rules.get('directorio_entrega','deliverables');delivery.mkdir(parents=True,exist_ok=True)
-        for name in ['BaseUnificada_Entregable.xlsx','BaseUnificada_Entregable.csv',
-                     'Informe_BaseUnificada_Entregable.pdf','Informe_BaseUnificada_Entregable.md','Metadatos_Entrega.json','Guia_Hojas.md']:
-            shutil.copy2(self.public/name,delivery/name)
-        shutil.copy2(zip_path,delivery/zip_path.name)
+        from .publicacion_entrega import publicar_excel
+        publication=publicar_excel(self.root,self.public/'BaseUnificada_Entregable.xlsx',
+                                  public_meta['archivos']['BaseUnificada_Entregable.xlsx']['sha256'])
+        delivery=self.root/'deliverables'
         summary={'id_ejecucion':self.run,'etapa':'L12 a L14 conciliación final y entrega',
             'ejecutado_en':datetime.now(ZoneInfo('America/Bogota')).isoformat(),'entrada_L11':self.parent['id_ejecucion'],
             'sha256_entrada':self.input_sha,'sha256_reglas':self.rule_sha,'sha256_modulo':self.module_sha,
@@ -664,8 +663,8 @@ class EntregaBaseUnificada:
             'metricas':self.metrics,'datos_salida':str(self.out.relative_to(self.root)),
             'auditoria':str(self.audit.relative_to(self.root)),'figuras':str(self.fig.relative_to(self.root)),
             'entregable':str((delivery/'BaseUnificada_Entregable.xlsx').relative_to(self.root)),
-            'paquete':str((delivery/'BaseUnificada_Entregable.zip').relative_to(self.root)),
-            'archivos_entregables':{str(p.relative_to(self.root)):sha(p) for p in sorted(delivery.iterdir()) if p.is_file()},
+            'paquete':str(zip_path.relative_to(self.root)),
+            'archivos_entregables':{publication['entregable']:publication['sha256']},
             'estado':'Preparación técnica completada y entregable listo para revisión externa',
             'limitaciones':['Identidad de eventos y personas entre sistemas no confirmada','Ausencias conservadas',
                            'Calendario orientativo sin validación institucional externa','Sin fecha de actualización de estado']}

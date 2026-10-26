@@ -326,3 +326,11 @@ Se reevalúan los 500 pares Oracle contra los atributos finales después de la c
 El escenario hipotético que cuenta esos pares una sola vez tiene 5.451 registros y un cambio máximo de 0,193 puntos porcentuales entre las categorías generales de programa, modalidad, canal, estado y ciudad. No confirma duplicados ni evalúa la estabilidad de cada segmento pequeño. Tampoco resuelve la identidad de los otros 451 pares con diferencias. La entrega mantiene 5.500 registros y las 500 filas Oracle. La comparación de solo principal evalúa cobertura por fuente y no propone descartar Oracle.
 
 Diez controles comprueban reconciliación de coberturas y grupos, porcentajes por escenario, correspondencias uno a uno, intervalos, conservación de la tabla y hashes del entregable y sus tablas fuente. Se conservan huellas del código del notebook y de las entradas. Las reglas de cada indicador permiten comenzar el análisis descriptivo de registros. No se afirmarán conversión definitiva de personas, ingresos recaudados ni tiempos por etapa sin los datos que esos indicadores necesitan.
+
+## 17. Publicación única y siguiente fase
+
+El archivo vigente para entregar es únicamente deliverables/BaseUnificada_Entregable.xlsx. El informe administrativo se mantiene en Drive como segundo entregable. Se retiraron de la carpeta visible las versiones y los formatos alternativos, conservándolos por huella en reports/limpieza/archivo_publicaciones. Los puntos de control de data permanecen internos.
+
+El publicador está en src/analitica_admisiones/publicacion_entrega.py y se integra al cierre de futuras ejecuciones. scripts/publicar_entrega_unica.py permite organizar una entrega existente sin volver a limpiar. El resumen vigente distingue la ubicación del Excel del paquete interno. Los enlaces con v1_1 en las secciones anteriores describen publicaciones históricas.
+
+La siguiente fase se define en docs/plan_analisis_administrativo_powerbi.md. Se empieza por el análisis reproducible y las definiciones compartidas, después el informe y el dashboard. Las limitaciones de identidad, estados y cobertura siguen vigentes.

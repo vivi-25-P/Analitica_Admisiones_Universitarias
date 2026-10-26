@@ -66,16 +66,10 @@
   "datos_salida": "data/processed/taller_2/entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2",
   "auditoria": "reports/limpieza/ejecuciones/entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2",
   "figuras": "reports/figuras/entrega/entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2",
-  "entregable": "deliverables/v1_1/BaseUnificada_Entregable.xlsx",
-  "paquete": "deliverables/v1_1/BaseUnificada_Entregable.zip",
+  "entregable": "deliverables/BaseUnificada_Entregable.xlsx",
+  "paquete": "data/processed/taller_2/entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2/BaseUnificada_Entregable.zip",
   "archivos_entregables": {
-    "deliverables/v1_1/BaseUnificada_Entregable.csv": "6ac4c96e1bd088efda10c1d1f6f3aa93a6e87473e997ac3332676122408f08ed",
-    "deliverables/v1_1/BaseUnificada_Entregable.xlsx": "561b084b0501f2dedefe7286e2fa714242508f2f65301db2d605c52320ed223c",
-    "deliverables/v1_1/BaseUnificada_Entregable.zip": "982008383a5d4687447e3ff83b13dc6bd099ee1528b0ce46866f1a3a4ff7312b",
-    "deliverables/v1_1/Guia_Hojas.md": "ff20f2981348f119dc2d2d1c70e2f408dbce35acf3de154269d5f8ac6231b852",
-    "deliverables/v1_1/Informe_BaseUnificada_Entregable.md": "57f3dfb4fb95ca2840288a02aee0eedd02fe6e57739fd8e71a70198b4d20eb6c",
-    "deliverables/v1_1/Informe_BaseUnificada_Entregable.pdf": "91c78eecdfd7d6013cf7902ab4371e5acaf9e130c06af48df1326cee59da3bf6",
-    "deliverables/v1_1/Metadatos_Entrega.json": "bdee2ddc41e4aa4f31cfd633e128da815585884f3deed7b62db5ad4fd97eb90f"
+    "deliverables/BaseUnificada_Entregable.xlsx": "561b084b0501f2dedefe7286e2fa714242508f2f65301db2d605c52320ed223c"
   },
   "estado": "Preparación técnica completada y entregable listo para revisión externa",
   "limitaciones": [
@@ -83,5 +77,10 @@
     "Ausencias conservadas",
     "Calendario orientativo sin validación institucional externa",
     "Sin fecha de actualización de estado"
-  ]
+  ],
+  "publicacion": {
+    "tipo": "Excel único con nombre estable",
+    "resumen_anterior": "reports/limpieza/archivo_publicaciones/1b4314a1afdda7a0457004f8c5674ae0d86d2388fe50abcfcf38e47aa1cd56cf/ultima_entrega.json",
+    "datos_modificados": false
+  }
 }

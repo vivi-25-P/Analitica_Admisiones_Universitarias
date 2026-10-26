@@ -1,5 +1,7 @@
 # Análisis de un futuro modelo estrella para Power BI
 
+Este documento conserva la propuesta histórica previa a la limpieza. El estado actual y la ruta de construcción del dashboard están en [el plan de análisis administrativo y Power BI](plan_analisis_administrativo_powerbi.md). La entrega actual ya contiene 5.500 registros con controles, y su granularidad analítica es registro de solicitud de origen, sin independencia global de eventos confirmada.
+
 ## Conclusión y alcance
 
 La información permite proyectar un modelo estrella después de la actividad de limpieza. En esta etapa no se crean dimensiones, tabla de hechos ni un ETL dimensional. La estructura actual es una base de exploración y tipado, no un modelo analítico validado.
