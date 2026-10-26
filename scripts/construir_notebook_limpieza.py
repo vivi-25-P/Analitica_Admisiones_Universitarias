@@ -23,7 +23,7 @@ md('''
 Este cuaderno sigue el orden del plan en `docs/plan_limpieza_datos.md`.
 La integración previa se conserva en el libro de manejo y la entrada congelada.
 
-**Este avance cubre L00 a L04:** identificación de la entrada,
+**Este cuaderno ejecuta L00 a L09:** identificación de la entrada,
 reconstrucción comprobada de la procedencia y estandarización textual mediante
 catálogos explícitos. L01 deja documentadas las decisiones económicas, temporales
 y de catálogo que siguen pendientes; no las da por resueltas. L03 representa las
@@ -31,9 +31,11 @@ ausencias de las demás variables y conserva sus motivos en controles separados.
 L04 interpreta tipos con reglas explícitas, presenta fechas como AAAA-MM-DD y
 mantiene importes decimales exactos en COP; las alertas no se corrigen automáticamente.
 
-**No se elimina ninguna fila.** No se imputan valores, se fusionan solicitudes,
-se altera el valor numérico de importes ni se corrigen fechas por aproximación. El resultado es un estado
-intermedio, no una base limpia definitiva. L02 conserva los marcadores recibidos;
+L06 consolida únicamente repeticiones exactas de la misma fuente y conserva todos
+sus orígenes. Las filas con diferencias se mantienen pendientes de conciliación.
+No se imputan valores, se altera el valor numérico de importes ni se corrigen fechas
+por aproximación. El resultado es una base preparada para revisión y análisis
+descriptivo provisional, con decisiones administrativas pendientes. L02 conserva los marcadores recibidos;
 L03 aplica las reglas de ausencia documentadas sin completar datos por suposición.
 Los vacíos y nan de identificadores seguirán sin modificarse hasta los cruces.
 
@@ -971,18 +973,22 @@ display(pd.DataFrame([{'Etapa': 'L04', 'Filas': N, 'Columnas': len(HEADERS),
 print('Datos L04:', L04_DATA.relative_to(ROOT))
 print('Auditoría L04:', L04_AUDIT.relative_to(ROOT))
 ''')
+from celdas_cierre_limpieza import agregar_cierre
+agregar_cierre(md, code)
+
 md('''
-## Cómo continuaremos
+## Qué falta para aprobar la versión final
 
 L03 ya distingue las ausencias de las demás variables. Los cuatro nan y los vacíos de
 aspirante_id se mantienen registrados y sin modificar hasta la revisión de cruces.
 L04 ya representa fechas y números y utiliza el código entero del periodo.
 Las fechas dudosas y los importes con conceptos diferentes siguen señalados.
 
-Después se revisará el enriquecimiento del catálogo en L05. Solo en L06 y L07 se
-evaluará retirar repeticiones o conciliar filas. Cada entrada mantendrá un destino
-documentado y se actualizarán los denominadores. Las reglas que no cuenten con evidencia
-no se convertirán en correcciones inventadas.
+L05 revisó el catálogo; L06 consolidó repeticiones exactas con trazabilidad; L07
+identificó conflictos entre fuentes. L08 documentó la coherencia administrativa y
+L09 exportó la versión de revisión, sus controles y las decisiones pendientes.
+Las decisiones del reporte deben validarse y aplicarse mediante reglas versionadas
+antes de aprobar solicitudes únicas y los indicadores administrativos definitivos.
 
 El notebook anterior sigue respaldando la exploración inicial de 5.040 filas. Este
 cuaderno respalda el trabajo sobre la base consolidada de 5.640 filas.

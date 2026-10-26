@@ -1,0 +1,17 @@
+{
+  "version": "cierre_v1",
+  "fecha_referencia_revision": "2026-10-26",
+  "catalogo_hoja": "Caso2_Programas",
+  "deduplicacion": "Consolidar solo filas idénticas en las 18 columnas originales y tipadas, de la misma fuente. Conservar el menor índice BU como representante técnico, sin atribuirle mayor actualidad. Mantener todos los orígenes y motivos de ausencia en la auditoría.",
+  "autorizacion": "Solicitud del usuario del 26 de octubre de completar los pasos pendientes de limpieza y registrar las decisiones que requieren validación.",
+  "parciales": "Conservar filas con diferencias. Comparar IDs compartidos Principal y CRM; examinar Oracle mediante atributos sin cambiar identificadores ni afirmar identidad.",
+  "oracle_sondas": "Igualdad de 11 atributos sin identificadores ni fechas, e igualdad de 13 sin identificadores. Las ausencias iguales se cuentan y se identifican; no son evidencia independiente de identidad.",
+  "catalogo": "Reproducir correspondencias por clave normalizada única y verificar los tres atributos de salida. No afirmar que se recuperó el nombre fuzzy descartado. Conservar modalidad de solicitud.",
+  "correo": "Patrón administrativo de una parte local, @ y dominio con punto, sin espacios. Cumplimiento no acredita existencia ni entregabilidad.",
+  "atipicos": "RIC inclusivo con límites Q1 menos 1,5 RIC y Q3 más 1,5 RIC. Revisar puntaje y duración; importes por fuente y concepto, sin promedio monetario consolidado.",
+  "salida": "BaseUnificada_Revision, 18 columnas y controles separados. Apta para descripción provisional de registros, pendiente de conciliación institucional para solicitudes únicas, conversión y medidas económicas comparables.",
+  "imputar": false,
+  "fusionar_conflictos": false,
+  "corregir_fechas_ambiguas": false,
+  "cargar_base_datos": false
+}
