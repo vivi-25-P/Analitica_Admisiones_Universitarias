@@ -1,0 +1,13 @@
+﻿dimension,categoria,columna,registros_grupo,ausentes,informados,porcentaje_ausente,diferencia_pp_frente_total
+programa,Sin información,valor_matricula_cop,26,5,21,19.2308,2.5035
+canal_captacion,Referido,valor_matricula_cop,915,166,749,18.1421,1.4148
+estado_proceso,Admitido,valor_matricula_cop,1822,321,1501,17.618,0.8907
+modalidad,Híbrida,valor_matricula_cop,1125,197,928,17.5111,0.7838
+periodo_academico,20252,valor_matricula_cop,1071,187,884,17.4603,0.733
+fuente_origen,Principal,valor_matricula_cop,5000,839,4161,16.78,0.0527
+programa,Sin información,puntaje_admision,26,2,24,7.6923,3.2196
+estado_proceso,Documentación pendiente,puntaje_admision,638,39,599,6.1129,1.6401
+canal_captacion,Referido,puntaje_admision,915,53,862,5.7923,1.3196
+modalidad,Virtual,puntaje_admision,2183,107,2076,4.9015,0.4288
+periodo_academico,20262,puntaje_admision,2183,105,2078,4.8099,0.3372
+fuente_origen,Principal,puntaje_admision,5000,228,4772,4.56,0.0873

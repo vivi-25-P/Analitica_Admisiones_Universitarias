@@ -1,0 +1,16 @@
+﻿escenario,dimension,cambio_absoluto_pp
+Integrada,canal_captacion,0.0
+Integrada,ciudad_residencia,0.0
+Integrada,estado_proceso,0.0
+Integrada,modalidad,0.0
+Integrada,programa,0.0
+"Pares compatibles contados una vez, hipotético",canal_captacion,0.103364
+"Pares compatibles contados una vez, hipotético",ciudad_residencia,0.066303
+"Pares compatibles contados una vez, hipotético",estado_proceso,0.192695
+"Pares compatibles contados una vez, hipotético",modalidad,0.156879
+"Pares compatibles contados una vez, hipotético",programa,0.143707
+"Solo principal, comparación de fuente",canal_captacion,0.294545
+"Solo principal, comparación de fuente",ciudad_residencia,0.136364
+"Solo principal, comparación de fuente",estado_proceso,0.218182
+"Solo principal, comparación de fuente",modalidad,0.325455
+"Solo principal, comparación de fuente",programa,0.430909

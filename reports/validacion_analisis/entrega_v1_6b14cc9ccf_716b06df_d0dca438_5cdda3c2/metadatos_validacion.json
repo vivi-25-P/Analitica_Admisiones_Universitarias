@@ -1,0 +1,51 @@
+{
+  "entrada": "entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2",
+  "sha256_resumen_entrada": "1b4314a1afdda7a0457004f8c5674ae0d86d2388fe50abcfcf38e47aa1cd56cf",
+  "sha256_codigo_notebook": "e82b3118b68e709490fbf2252b8519d5f0fc6545885a5750530dc16146c11b93",
+  "sha256_tablas_entrada": {
+    "Aspirantes_Origen.csv": "9b295a4fc482953f33e0ae49e7d30d3d358dfa9bd4f084256ee49309e6a9ab81",
+    "BaseUnificada_Entregable.csv": "6ac4c96e1bd088efda10c1d1f6f3aa93a6e87473e997ac3332676122408f08ed",
+    "Coincidencias_Oracle.csv": "f62b07b63eae29aa69260b6a66cd305e7e652100e18dd55d596401700cd03bbd",
+    "Control_Calidad.csv": "f19110cca4ac65c98a9ca83899afde670c2ac1d1bb3d86b319c2eb5076f7b704",
+    "Control_Economico.csv": "1fedce3db6dd783aa66b0f3fc6ec62c5c410de0e1ae6919b36c071cb646d9c6a",
+    "Cruces_Descriptivos.csv": "26d11e242f6fd1cb29c97f066bae7752acadd34994a129236b3425f9726b09d7",
+    "Diccionario_Datos.csv": "81d376e5736cec660865380ed7cf96d9dee6eb3de80654e535945d633daffa4f",
+    "Estadisticas_Numericas.csv": "17837db12107bc684f6e4a4ba2a1d83eba5ce3f882888a420fcdfd778aede66c",
+    "Frecuencias.csv": "88b43505eb9f0d5a71daea96e5d79d03130b77bf4a8d5541b357b2dfcdf7175d",
+    "Guia_Hojas.csv": "746dfaeaf8b5cbf99022f7f4e46694f1963db979463159adfca15126281df21a",
+    "Origen_Registros.csv": "872cd36635649c31f25c5b84edd1d8174d8a3a6eda9a57634057194f90396c97",
+    "Registros_Sin_ID.csv": "a367635c309220af3fc6bb8f60bfb02fe4195dce10f1ce710e546cf04eee2368",
+    "Serie_Mensual.csv": "4ab62eee50d5510f90ab12b245e0ff57d53c092f4edd4b468d4428bddceabe28"
+  },
+  "registros": 5500,
+  "columnas": 18,
+  "filas_eliminadas": 0,
+  "valores_imputados": 0,
+  "pares_compatibles_escenario": 49,
+  "registros_escenario_hipotetico": 5451,
+  "cambio_maximo_pp_escenario": 0.192695,
+  "controles": {
+    "base_en_memoria_intacta": true,
+    "entrega_publicada_intacta": true,
+    "tablas_fuente_intactas": true,
+    "resumen_entrega_intacto": true,
+    "cobertura_reconcilia": true,
+    "grupos_reconcilian": true,
+    "porcentajes_escenarios_suman_100": true,
+    "pares_uno_a_uno": true,
+    "escenario_sin_eliminar_filas_publicadas": true,
+    "intervalos_reconcilian_entrega": true
+  },
+  "archivos": {
+    "ausencias_por_columna.png": "1a11b5188234bb69f9407e60f755d929a23905483f3665f428c328e66b7da76c",
+    "ausencias_por_grupo.csv": "cbcecb1820cedb6292121482308cf890cc04e9acb16fde0471f10b5b770a5c0f",
+    "cobertura_columnas.csv": "b1a24c0f73d6273d4a03d61db1055c8adc2b6a361da1127a67ee32c2228e4cf7",
+    "diccionario_indicadores.csv": "6ca9c0073bfeaf939d69dd2441b95cb9917fc4b743feeb8f6fff8b304909442c",
+    "elegibilidad_por_registro.csv": "9c15cf797f168ea55b71d42a92ed8d18b741916db6b13878d5612d24af6b4919",
+    "mayor_ausencia_por_dimension.csv": "52d69405834cee753d331825c64db88d9b068778e05a9a6c048636964ffaac9e",
+    "reporte_validacion_analisis.md": "f220a3de48baca215160140d87995a8f5847f23fe07551de73ff58abfcda2fc8",
+    "revision_pares_oracle.csv": "f10481e00653369337cea32b9f19e046aaf8bf213f70de283622541818741d5d",
+    "sensibilidad_cambio_maximo.csv": "04f82a87db63a8628b63cba0aaab5b94ea5343a21ef9020af18f1e051107b046",
+    "sensibilidad_distribuciones.csv": "bf438c7e2bf20df77187e2ac759fb16454fa8e53ad65a1f7c1999d0091e04ba8"
+  }
+}

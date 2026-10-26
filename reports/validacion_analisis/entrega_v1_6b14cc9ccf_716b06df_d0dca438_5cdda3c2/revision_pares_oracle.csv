@@ -1,0 +1,501 @@
+﻿registro_id_oracle,registro_id_principal,candidato_previo_13_atributos,llave_exploratoria_informada_igual,atributos_informados_iguales,contradicciones_informadas,columnas_con_contradiccion,columnas_vacias_en_ambos,matricula_informada_en_ambos,compatible_para_escenario
+ANX2_00001,REG004068,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00002,REG001368,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00003,REG000669,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00004,REG002646,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00005,REG001657,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00006,REG002372,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00007,REG003552,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00008,REG003021,False,False,13,2,"fecha_solicitud, fecha_matricula",valor_matricula_cop,True,False
+ANX2_00009,REG000618,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00010,REG001636,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00011,REG001821,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00012,REG003695,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00013,REG002710,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00014,REG004702,True,True,15,0,,fecha_matricula,False,True
+ANX2_00015,REG000086,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00016,REG002450,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00017,REG002120,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00018,REG004945,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00019,REG003260,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00020,REG004379,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00021,REG001974,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00022,REG003261,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00023,REG003234,True,True,14,0,,"puntaje_admision, fecha_matricula",False,True
+ANX2_00024,REG002970,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00025,REG004383,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00026,REG000683,False,False,10,1,fecha_solicitud,"programa, fecha_matricula, facultad, duracion_semestres, nivel_formacion",False,False
+ANX2_00027,REG002565,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00028,REG003822,False,True,15,1,fecha_matricula,,True,False
+ANX2_00029,REG002573,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00030,REG003556,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00031,REG004758,False,False,13,1,fecha_solicitud,"fecha_matricula, correo",False,False
+ANX2_00032,REG004420,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00033,REG003901,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00034,REG004921,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00035,REG000927,True,True,15,0,,fecha_matricula,False,True
+ANX2_00036,REG001309,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00037,REG001752,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00038,REG004790,False,False,13,2,"fecha_solicitud, fecha_matricula",valor_matricula_cop,True,False
+ANX2_00039,REG000855,False,True,14,1,fecha_matricula,valor_matricula_cop,True,False
+ANX2_00040,REG000533,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00041,REG003093,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00042,REG001640,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00043,REG004031,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00044,REG000307,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00045,REG002534,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00046,REG003771,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00047,REG001658,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00048,REG003680,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00049,REG002764,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00050,REG002361,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00051,REG001557,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00052,REG003825,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00053,REG003966,False,False,13,2,"fecha_solicitud, fecha_matricula",valor_matricula_cop,True,False
+ANX2_00054,REG003408,False,False,13,2,"fecha_solicitud, fecha_matricula",valor_matricula_cop,True,False
+ANX2_00055,REG001225,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00056,REG001388,True,True,14,0,,"valor_matricula_cop, fecha_matricula",False,True
+ANX2_00057,REG004395,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00058,REG004163,True,True,15,0,,fecha_matricula,False,True
+ANX2_00059,REG004899,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00060,REG002020,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00061,REG004988,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00062,REG001050,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00063,REG000967,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00064,REG000749,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00065,REG003753,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00066,REG000513,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00067,REG002019,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00068,REG000291,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00069,REG000355,False,False,10,2,"fecha_solicitud, fecha_matricula","programa, facultad, duracion_semestres, nivel_formacion",True,False
+ANX2_00070,REG003588,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00071,REG004565,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00072,REG004471,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00073,REG001496,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00074,REG004781,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00075,REG004895,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00076,REG003378,False,False,13,2,"fecha_solicitud, fecha_matricula",puntaje_admision,True,False
+ANX2_00077,REG003037,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00078,REG002006,True,True,14,0,,"valor_matricula_cop, fecha_matricula",False,True
+ANX2_00079,REG001334,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00080,REG000336,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00081,REG003190,False,True,15,1,fecha_matricula,,True,False
+ANX2_00082,REG001841,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00083,REG002821,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00084,REG002189,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00085,REG004587,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00086,REG004252,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00087,REG001844,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00088,REG001907,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00089,REG003287,True,True,15,0,,fecha_matricula,False,True
+ANX2_00090,REG003100,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00091,REG002623,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00092,REG004727,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00093,REG002738,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00094,REG003802,True,True,15,0,,fecha_matricula,False,True
+ANX2_00095,REG004997,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00096,REG000686,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00097,REG000444,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00098,REG003676,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00099,REG004394,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00100,REG000902,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00101,REG003708,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00102,REG000306,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00103,REG001461,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00104,REG000396,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00105,REG001510,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00106,REG004458,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00107,REG004557,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00108,REG000119,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00109,REG004700,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00110,REG002155,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00111,REG002735,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00112,REG000498,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00113,REG004679,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00114,REG001597,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00115,REG004756,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00116,REG003223,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00117,REG004185,False,True,14,1,fecha_matricula,valor_matricula_cop,True,False
+ANX2_00118,REG001927,False,True,15,1,fecha_matricula,,True,False
+ANX2_00119,REG004996,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00120,REG003689,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00121,REG004481,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00122,REG004338,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00123,REG001211,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00124,REG000572,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00125,REG003531,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00126,REG000068,False,False,13,1,fecha_solicitud,"puntaje_admision, fecha_matricula",False,False
+ANX2_00127,REG000388,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00128,REG002571,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00129,REG003238,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00130,REG001199,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00131,REG002994,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00132,REG001773,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00133,REG003903,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00134,REG001099,True,True,15,0,,fecha_matricula,False,True
+ANX2_00135,REG000602,False,False,13,1,fecha_solicitud,"puntaje_admision, fecha_matricula",False,False
+ANX2_00136,REG001595,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00137,REG000610,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00138,REG000464,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00139,REG001156,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00140,REG003576,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00141,REG001946,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00142,REG001075,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00143,REG000872,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00144,REG002127,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00145,REG004152,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00146,REG004359,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00147,REG002936,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00148,REG003071,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00149,REG001164,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00150,REG000281,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00151,REG000092,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00152,REG003700,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00153,REG002351,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00154,REG002093,False,False,13,1,fecha_solicitud,"fecha_matricula, correo",False,False
+ANX2_00155,REG000372,False,False,13,2,"fecha_solicitud, fecha_matricula",valor_matricula_cop,True,False
+ANX2_00156,REG004520,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00157,REG002191,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00158,REG001707,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00159,REG000322,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00160,REG002036,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00161,REG003609,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00162,REG004341,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00163,REG001718,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00164,REG000162,True,True,15,0,,fecha_matricula,False,True
+ANX2_00165,REG003968,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00166,REG003055,True,True,15,0,,fecha_matricula,False,True
+ANX2_00167,REG003712,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00168,REG001458,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00169,REG002259,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00170,REG004221,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00171,REG001418,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00172,REG003250,True,True,15,0,,fecha_matricula,False,True
+ANX2_00173,REG004681,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00174,REG000140,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00175,REG003706,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00176,REG001466,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00177,REG001016,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00178,REG000093,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00179,REG001073,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00180,REG001383,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00181,REG003702,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00182,REG002563,False,False,12,1,fecha_solicitud,"puntaje_admision, valor_matricula_cop, fecha_matricula",False,False
+ANX2_00183,REG004583,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00184,REG004138,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00185,REG004079,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00186,REG003254,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00187,REG001910,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00188,REG000536,False,False,13,1,fecha_solicitud,"puntaje_admision, fecha_matricula",False,False
+ANX2_00189,REG002873,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00190,REG000812,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00191,REG000543,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00192,REG001828,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00193,REG002216,True,True,15,0,,fecha_matricula,False,True
+ANX2_00194,REG001507,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00195,REG002652,True,True,15,0,,fecha_matricula,False,True
+ANX2_00196,REG004007,True,True,15,0,,fecha_matricula,False,True
+ANX2_00197,REG004413,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00198,REG000747,True,True,15,0,,fecha_matricula,False,True
+ANX2_00199,REG002034,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00200,REG002495,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00201,REG001460,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00202,REG002892,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00203,REG001865,True,True,15,0,,fecha_matricula,False,True
+ANX2_00204,REG004189,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00205,REG003750,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00206,REG000214,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00207,REG000072,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00208,REG000652,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00209,REG000403,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00210,REG002440,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00211,REG003372,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00212,REG003534,True,True,15,0,,fecha_matricula,False,True
+ANX2_00213,REG004449,True,True,14,0,,"puntaje_admision, fecha_matricula",False,True
+ANX2_00214,REG000114,True,True,14,0,,"valor_matricula_cop, fecha_matricula",False,True
+ANX2_00215,REG000320,False,False,13,1,fecha_solicitud,"fecha_matricula, correo",False,False
+ANX2_00216,REG002430,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00217,REG002349,False,False,13,2,"fecha_solicitud, fecha_matricula",valor_matricula_cop,True,False
+ANX2_00218,REG004768,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00219,REG002949,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00220,REG000484,False,False,13,2,"fecha_solicitud, fecha_matricula",valor_matricula_cop,True,False
+ANX2_00221,REG000522,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00222,REG001790,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00223,REG003864,False,False,13,2,"fecha_solicitud, fecha_matricula",puntaje_admision,True,False
+ANX2_00224,REG001190,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00225,REG001048,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00226,REG000133,False,False,13,2,"fecha_solicitud, fecha_matricula",puntaje_admision,True,False
+ANX2_00227,REG001885,False,False,13,1,fecha_solicitud,"fecha_matricula, correo",False,False
+ANX2_00228,REG003243,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00229,REG003483,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00230,REG003992,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00231,REG003756,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00232,REG000181,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00233,REG002992,False,False,13,1,fecha_solicitud,"fecha_matricula, correo",False,False
+ANX2_00234,REG000624,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00235,REG002902,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00236,REG001135,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00237,REG003192,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00238,REG001811,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00239,REG000219,False,False,13,1,fecha_solicitud,"fecha_matricula, correo",False,False
+ANX2_00240,REG001678,True,True,14,0,,"valor_matricula_cop, fecha_matricula",False,True
+ANX2_00241,REG001568,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00242,REG004958,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00243,REG003967,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00244,REG000657,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00245,REG003604,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00246,REG002376,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00247,REG001446,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00248,REG001999,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00249,REG002399,True,True,14,0,,"valor_matricula_cop, fecha_matricula",False,True
+ANX2_00250,REG002299,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00251,REG001650,False,False,13,2,"fecha_solicitud, fecha_matricula",valor_matricula_cop,True,False
+ANX2_00252,REG000129,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00253,REG002238,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00254,REG001338,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00255,REG000564,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00256,REG004356,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00257,REG003312,True,True,15,0,,fecha_matricula,False,True
+ANX2_00258,REG002582,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00259,REG004219,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00260,REG001593,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00261,REG001144,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00262,REG001467,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00263,REG004034,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00264,REG004165,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00265,REG002288,False,False,13,1,fecha_solicitud,"puntaje_admision, fecha_matricula",False,False
+ANX2_00266,REG001554,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00267,REG000968,False,False,13,1,fecha_solicitud,"puntaje_admision, fecha_matricula",False,False
+ANX2_00268,REG001149,False,False,13,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00269,REG003498,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00270,REG002008,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00271,REG004243,True,True,15,0,,fecha_matricula,False,True
+ANX2_00272,REG001079,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00273,REG003713,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00274,REG004733,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00275,REG001364,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00276,REG002709,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00277,REG002875,False,False,12,2,"fecha_solicitud, fecha_matricula","puntaje_admision, valor_matricula_cop",True,False
+ANX2_00278,REG002930,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00279,REG002103,True,True,15,0,,fecha_matricula,False,True
+ANX2_00280,REG000856,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00281,REG001916,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00282,REG002801,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00283,REG004128,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00284,REG004875,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00285,REG002993,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00286,REG003517,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00287,REG002508,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00288,REG004303,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00289,REG000952,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00290,REG000272,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00291,REG003314,False,False,12,1,fecha_solicitud,"puntaje_admision, valor_matricula_cop, fecha_matricula",False,False
+ANX2_00292,REG003555,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00293,REG001428,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00294,REG004059,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00295,REG003518,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00296,REG002068,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00297,REG001362,True,True,15,0,,fecha_matricula,False,True
+ANX2_00298,REG004968,False,True,15,1,fecha_matricula,,True,False
+ANX2_00299,REG003455,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00300,REG003020,False,True,15,1,fecha_matricula,,True,False
+ANX2_00301,REG002896,True,True,15,0,,fecha_matricula,False,True
+ANX2_00302,REG000921,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00303,REG000911,True,True,15,0,,fecha_matricula,False,True
+ANX2_00304,REG002360,False,False,13,1,fecha_solicitud,"puntaje_admision, fecha_matricula",False,False
+ANX2_00305,REG003734,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00306,REG001124,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00307,REG003340,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00308,REG001235,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00309,REG004707,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00310,REG004109,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00311,REG004213,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00312,REG004453,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00313,REG001989,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00314,REG003810,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00315,REG003585,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00316,REG003428,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00317,REG002030,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00318,REG003658,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00319,REG003730,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00320,REG004980,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00321,REG004423,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00322,REG000463,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00323,REG003854,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00324,REG003046,True,True,15,0,,fecha_matricula,False,True
+ANX2_00325,REG002282,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00326,REG001928,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00327,REG003784,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00328,REG001986,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00329,REG004594,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00330,REG004282,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00331,REG000754,True,True,15,0,,fecha_matricula,False,True
+ANX2_00332,REG004406,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00333,REG003863,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00334,REG004317,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00335,REG000433,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00336,REG003343,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00337,REG002270,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00338,REG003745,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00339,REG003725,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00340,REG001905,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00341,REG002528,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00342,REG001247,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00343,REG001122,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00344,REG002712,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00345,REG003313,False,True,14,1,fecha_matricula,valor_matricula_cop,True,False
+ANX2_00346,REG001175,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00347,REG003345,False,False,12,1,fecha_solicitud,"puntaje_admision, fecha_matricula, correo",False,False
+ANX2_00348,REG004573,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00349,REG001074,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00350,REG002695,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00351,REG001087,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00352,REG002268,True,True,15,0,,fecha_matricula,False,True
+ANX2_00353,REG000972,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00354,REG001322,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00355,REG003163,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00356,REG004843,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00357,REG004521,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00358,REG002101,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00359,REG000022,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00360,REG004799,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00361,REG001864,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00362,REG001090,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00363,REG004430,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00364,REG003682,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00365,REG003467,True,True,15,0,,fecha_matricula,False,True
+ANX2_00366,REG002279,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00367,REG003921,True,True,15,0,,fecha_matricula,False,True
+ANX2_00368,REG004617,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00369,REG003032,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00370,REG004151,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00371,REG003070,False,False,13,1,fecha_solicitud,"fecha_matricula, correo",False,False
+ANX2_00372,REG002776,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00373,REG003385,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00374,REG000062,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00375,REG003353,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00376,REG000518,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00377,REG000997,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00378,REG002916,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00379,REG000178,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00380,REG002452,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00381,REG002183,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00382,REG003166,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00383,REG001289,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00384,REG001366,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00385,REG002017,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00386,REG003667,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00387,REG003962,False,True,15,1,fecha_matricula,,True,False
+ANX2_00388,REG004220,False,False,12,2,"fecha_solicitud, fecha_matricula","puntaje_admision, valor_matricula_cop",True,False
+ANX2_00389,REG003696,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00390,REG004241,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00391,REG000038,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00392,REG004876,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00393,REG002927,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00394,REG001938,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00395,REG002000,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00396,REG002987,False,False,13,1,fecha_solicitud,"fecha_matricula, correo",False,False
+ANX2_00397,REG000828,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00398,REG002118,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00399,REG000373,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00400,REG001039,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00401,REG000227,True,True,15,0,,fecha_matricula,False,True
+ANX2_00402,REG003444,True,True,14,0,,"valor_matricula_cop, fecha_matricula",False,True
+ANX2_00403,REG003856,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00404,REG004125,True,True,15,0,,fecha_matricula,False,True
+ANX2_00405,REG003180,True,True,15,0,,fecha_matricula,False,True
+ANX2_00406,REG001679,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00407,REG001291,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00408,REG002116,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00409,REG001312,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00410,REG004745,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00411,REG004191,True,True,15,0,,fecha_matricula,False,True
+ANX2_00412,REG003047,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00413,REG004986,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00414,REG002013,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00415,REG003229,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00416,REG002883,True,True,15,0,,fecha_matricula,False,True
+ANX2_00417,REG002324,True,True,15,0,,fecha_matricula,False,True
+ANX2_00418,REG001062,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00419,REG004735,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00420,REG000585,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00421,REG000450,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00422,REG004146,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00423,REG002549,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00424,REG002785,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00425,REG004653,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00426,REG002503,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00427,REG000519,True,True,14,0,,"valor_matricula_cop, fecha_matricula",False,True
+ANX2_00428,REG001296,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00429,REG001451,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00430,REG001483,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00431,REG002295,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00432,REG001001,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00433,REG000123,False,False,13,1,fecha_solicitud,"puntaje_admision, fecha_matricula",False,False
+ANX2_00434,REG004751,True,True,15,0,,fecha_matricula,False,True
+ANX2_00435,REG003961,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00436,REG003561,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00437,REG003919,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00438,REG002566,True,True,15,0,,fecha_matricula,False,True
+ANX2_00439,REG001601,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00440,REG001716,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00441,REG002771,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00442,REG004633,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00443,REG002917,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00444,REG001192,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00445,REG003649,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00446,REG001940,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00447,REG001967,True,True,15,0,,fecha_matricula,False,True
+ANX2_00448,REG003865,False,True,15,1,fecha_matricula,,True,False
+ANX2_00449,REG004657,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00450,REG000019,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00451,REG002742,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00452,REG003613,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00453,REG000826,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00454,REG003899,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00455,REG004238,True,True,15,0,,fecha_matricula,False,True
+ANX2_00456,REG001410,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00457,REG003647,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00458,REG003077,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00459,REG004336,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00460,REG000994,True,True,15,0,,fecha_matricula,False,True
+ANX2_00461,REG000887,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00462,REG004072,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00463,REG002277,True,True,14,0,,"valor_matricula_cop, fecha_matricula",False,True
+ANX2_00464,REG004375,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00465,REG002718,False,False,14,2,"fecha_solicitud, fecha_matricula",,True,False
+ANX2_00466,REG001481,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00467,REG000099,False,True,15,1,fecha_matricula,,True,False
+ANX2_00468,REG001138,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00469,REG003977,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00470,REG000270,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00471,REG001024,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00472,REG000919,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00473,REG000697,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00474,REG002985,False,False,13,1,fecha_solicitud,"fecha_matricula, correo",False,False
+ANX2_00475,REG003466,False,False,13,2,"fecha_solicitud, fecha_matricula",valor_matricula_cop,True,False
+ANX2_00476,REG004941,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00477,REG003912,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00478,REG001258,True,True,15,0,,fecha_matricula,False,True
+ANX2_00479,REG002887,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00480,REG004300,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00481,REG002117,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00482,REG002122,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00483,REG004965,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00484,REG003675,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00485,REG001901,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00486,REG003841,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00487,REG000792,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00488,REG003813,True,True,15,0,,fecha_matricula,False,True
+ANX2_00489,REG002545,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00490,REG000312,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00491,REG000282,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00492,REG002865,False,False,13,1,fecha_solicitud,"puntaje_admision, fecha_matricula",False,False
+ANX2_00493,REG000553,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00494,REG002996,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00495,REG000843,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00496,REG001426,False,False,13,1,fecha_solicitud,"valor_matricula_cop, fecha_matricula",False,False
+ANX2_00497,REG000121,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00498,REG002667,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00499,REG000229,False,False,14,1,fecha_solicitud,fecha_matricula,False,False
+ANX2_00500,REG001682,False,False,14,1,fecha_solicitud,fecha_matricula,False,False

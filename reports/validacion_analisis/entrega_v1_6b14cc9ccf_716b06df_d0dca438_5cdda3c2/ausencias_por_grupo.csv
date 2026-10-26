@@ -1,0 +1,169 @@
+﻿dimension,categoria,columna,registros_grupo,ausentes,informados,porcentaje_ausente,diferencia_pp_frente_total
+programa,Sin información,programa,26,26,0,100.0,99.5273
+programa,Sin información,aspirante_id,26,0,26,0.0,-1.6364
+programa,Sin información,puntaje_admision,26,2,24,7.6923,3.2196
+programa,Sin información,valor_matricula_cop,26,5,21,19.2308,2.5035
+programa,Sin información,fecha_matricula,26,19,7,73.0769,-5.4867
+programa,Sin información,correo,26,1,25,3.8462,1.4825
+programa,Administración de Empresas,programa,582,0,582,0.0,-0.4727
+programa,Administración de Empresas,aspirante_id,582,8,574,1.3746,-0.2618
+programa,Administración de Empresas,puntaje_admision,582,31,551,5.3265,0.8537
+programa,Administración de Empresas,valor_matricula_cop,582,89,493,15.2921,-1.4352
+programa,Administración de Empresas,fecha_matricula,582,443,139,76.1168,-2.4468
+programa,Administración de Empresas,correo,582,13,569,2.2337,-0.13
+programa,Contaduría Pública,programa,613,0,613,0.0,-0.4727
+programa,Contaduría Pública,aspirante_id,613,9,604,1.4682,-0.1682
+programa,Contaduría Pública,puntaje_admision,613,27,586,4.4046,-0.0682
+programa,Contaduría Pública,valor_matricula_cop,613,97,516,15.8238,-0.9035
+programa,Contaduría Pública,fecha_matricula,613,468,145,76.3458,-2.2178
+programa,Contaduría Pública,correo,613,13,600,2.1207,-0.2429
+programa,Derecho,programa,1233,0,1233,0.0,-0.4727
+programa,Derecho,aspirante_id,1233,21,1212,1.7032,0.0668
+programa,Derecho,puntaje_admision,1233,65,1168,5.2717,0.799
+programa,Derecho,valor_matricula_cop,1233,209,1024,16.9505,0.2233
+programa,Derecho,fecha_matricula,1233,982,251,79.6431,1.0795
+programa,Derecho,correo,1233,25,1208,2.0276,-0.3361
+programa,Especialización en Data Analytics,programa,1216,0,1216,0.0,-0.4727
+programa,Especialización en Data Analytics,aspirante_id,1216,30,1186,2.4671,0.8307
+programa,Especialización en Data Analytics,puntaje_admision,1216,48,1168,3.9474,-0.5254
+programa,Especialización en Data Analytics,valor_matricula_cop,1216,194,1022,15.9539,-0.7733
+programa,Especialización en Data Analytics,fecha_matricula,1216,959,257,78.8651,0.3015
+programa,Especialización en Data Analytics,correo,1216,35,1181,2.8783,0.5147
+programa,Especialización en Gerencia,programa,605,0,605,0.0,-0.4727
+programa,Especialización en Gerencia,aspirante_id,605,7,598,1.157,-0.4793
+programa,Especialización en Gerencia,puntaje_admision,605,27,578,4.4628,-0.0099
+programa,Especialización en Gerencia,valor_matricula_cop,605,109,496,18.0165,1.2893
+programa,Especialización en Gerencia,fecha_matricula,605,488,117,80.6612,2.0975
+programa,Especialización en Gerencia,correo,605,17,588,2.8099,0.4463
+programa,Ingeniería de Sistemas,programa,630,0,630,0.0,-0.4727
+programa,Ingeniería de Sistemas,aspirante_id,630,8,622,1.2698,-0.3665
+programa,Ingeniería de Sistemas,puntaje_admision,630,22,608,3.4921,-0.9807
+programa,Ingeniería de Sistemas,valor_matricula_cop,630,113,517,17.9365,1.2092
+programa,Ingeniería de Sistemas,fecha_matricula,630,503,127,79.8413,1.2776
+programa,Ingeniería de Sistemas,correo,630,14,616,2.2222,-0.1414
+programa,Psicología,programa,595,0,595,0.0,-0.4727
+programa,Psicología,aspirante_id,595,7,588,1.1765,-0.4599
+programa,Psicología,puntaje_admision,595,24,571,4.0336,-0.4391
+programa,Psicología,valor_matricula_cop,595,104,491,17.479,0.7517
+programa,Psicología,fecha_matricula,595,459,136,77.1429,-1.4208
+programa,Psicología,correo,595,12,583,2.0168,-0.3468
+modalidad,Híbrida,programa,1125,3,1122,0.2667,-0.2061
+modalidad,Híbrida,aspirante_id,1125,15,1110,1.3333,-0.303
+modalidad,Híbrida,puntaje_admision,1125,49,1076,4.3556,-0.1172
+modalidad,Híbrida,valor_matricula_cop,1125,197,928,17.5111,0.7838
+modalidad,Híbrida,fecha_matricula,1125,876,249,77.8667,-0.697
+modalidad,Híbrida,correo,1125,18,1107,1.6,-0.7636
+modalidad,Presencial,programa,2192,13,2179,0.5931,0.1203
+modalidad,Presencial,aspirante_id,2192,45,2147,2.0529,0.4166
+modalidad,Presencial,puntaje_admision,2192,90,2102,4.1058,-0.3669
+modalidad,Presencial,valor_matricula_cop,2192,362,1830,16.5146,-0.2127
+modalidad,Presencial,fecha_matricula,2192,1748,444,79.7445,1.1809
+modalidad,Presencial,correo,2192,59,2133,2.6916,0.328
+modalidad,Virtual,programa,2183,10,2173,0.4581,-0.0146
+modalidad,Virtual,aspirante_id,2183,30,2153,1.3743,-0.2621
+modalidad,Virtual,puntaje_admision,2183,107,2076,4.9015,0.4288
+modalidad,Virtual,valor_matricula_cop,2183,361,1822,16.5369,-0.1904
+modalidad,Virtual,fecha_matricula,2183,1697,486,77.7371,-0.8266
+modalidad,Virtual,correo,2183,53,2130,2.4279,0.0642
+canal_captacion,Correo,programa,926,5,921,0.54,0.0672
+canal_captacion,Correo,aspirante_id,926,12,914,1.2959,-0.3405
+canal_captacion,Correo,puntaje_admision,926,43,883,4.6436,0.1709
+canal_captacion,Correo,valor_matricula_cop,926,150,776,16.1987,-0.5286
+canal_captacion,Correo,fecha_matricula,926,720,206,77.7538,-0.8099
+canal_captacion,Correo,correo,926,26,900,2.8078,0.4441
+canal_captacion,Feria universitaria,programa,941,6,935,0.6376,0.1649
+canal_captacion,Feria universitaria,aspirante_id,941,13,928,1.3815,-0.2549
+canal_captacion,Feria universitaria,puntaje_admision,941,38,903,4.0383,-0.4345
+canal_captacion,Feria universitaria,valor_matricula_cop,941,152,789,16.153,-0.5742
+canal_captacion,Feria universitaria,fecha_matricula,941,747,194,79.3836,0.82
+canal_captacion,Feria universitaria,correo,941,26,915,2.763,0.3994
+canal_captacion,Instagram,programa,939,4,935,0.426,-0.0467
+canal_captacion,Instagram,aspirante_id,939,16,923,1.7039,0.0676
+canal_captacion,Instagram,puntaje_admision,939,40,899,4.2599,-0.2129
+canal_captacion,Instagram,valor_matricula_cop,939,160,779,17.0394,0.3121
+canal_captacion,Instagram,fecha_matricula,939,715,224,76.1448,-2.4188
+canal_captacion,Instagram,correo,939,18,921,1.9169,-0.4467
+canal_captacion,Landing page,programa,888,4,884,0.4505,-0.0223
+canal_captacion,Landing page,aspirante_id,888,22,866,2.4775,0.8411
+canal_captacion,Landing page,puntaje_admision,888,34,854,3.8288,-0.6439
+canal_captacion,Landing page,valor_matricula_cop,888,143,745,16.1036,-0.6237
+canal_captacion,Landing page,fecha_matricula,888,706,182,79.5045,0.9409
+canal_captacion,Landing page,correo,888,23,865,2.5901,0.2265
+canal_captacion,Referido,programa,915,2,913,0.2186,-0.2541
+canal_captacion,Referido,aspirante_id,915,14,901,1.5301,-0.1063
+canal_captacion,Referido,puntaje_admision,915,53,862,5.7923,1.3196
+canal_captacion,Referido,valor_matricula_cop,915,166,749,18.1421,1.4148
+canal_captacion,Referido,fecha_matricula,915,735,180,80.3279,1.7642
+canal_captacion,Referido,correo,915,18,897,1.9672,-0.3964
+canal_captacion,Web institucional,programa,891,5,886,0.5612,0.0884
+canal_captacion,Web institucional,aspirante_id,891,13,878,1.459,-0.1773
+canal_captacion,Web institucional,puntaje_admision,891,38,853,4.2649,-0.2079
+canal_captacion,Web institucional,valor_matricula_cop,891,149,742,16.7228,-0.0045
+canal_captacion,Web institucional,fecha_matricula,891,698,193,78.3389,-0.2247
+canal_captacion,Web institucional,correo,891,19,872,2.1324,-0.2312
+estado_proceso,Admitido,programa,1822,9,1813,0.494,0.0212
+estado_proceso,Admitido,aspirante_id,1822,32,1790,1.7563,0.1199
+estado_proceso,Admitido,puntaje_admision,1822,77,1745,4.2261,-0.2466
+estado_proceso,Admitido,valor_matricula_cop,1822,321,1501,17.618,0.8907
+estado_proceso,Admitido,fecha_matricula,1822,1822,0,100.0,21.4364
+estado_proceso,Admitido,correo,1822,38,1784,2.0856,-0.278
+estado_proceso,Documentación pendiente,programa,638,2,636,0.3135,-0.1592
+estado_proceso,Documentación pendiente,aspirante_id,638,8,630,1.2539,-0.3824
+estado_proceso,Documentación pendiente,puntaje_admision,638,39,599,6.1129,1.6401
+estado_proceso,Documentación pendiente,valor_matricula_cop,638,101,537,15.8307,-0.8966
+estado_proceso,Documentación pendiente,fecha_matricula,638,638,0,100.0,21.4364
+estado_proceso,Documentación pendiente,correo,638,18,620,2.8213,0.4577
+estado_proceso,Inscrito,programa,630,3,627,0.4762,0.0035
+estado_proceso,Inscrito,aspirante_id,630,6,624,0.9524,-0.684
+estado_proceso,Inscrito,puntaje_admision,630,30,600,4.7619,0.2892
+estado_proceso,Inscrito,valor_matricula_cop,630,105,525,16.6667,-0.0606
+estado_proceso,Inscrito,fecha_matricula,630,630,0,100.0,21.4364
+estado_proceso,Inscrito,correo,630,19,611,3.0159,0.6522
+estado_proceso,Matriculado,programa,1179,7,1172,0.5937,0.121
+estado_proceso,Matriculado,aspirante_id,1179,21,1158,1.7812,0.1448
+estado_proceso,Matriculado,puntaje_admision,1179,55,1124,4.665,0.1922
+estado_proceso,Matriculado,valor_matricula_cop,1179,193,986,16.3698,-0.3575
+estado_proceso,Matriculado,fecha_matricula,1179,0,1179,0.0,-78.5636
+estado_proceso,Matriculado,correo,1179,28,1151,2.3749,0.0113
+estado_proceso,No admitido,programa,617,3,614,0.4862,0.0135
+estado_proceso,No admitido,aspirante_id,617,10,607,1.6207,-0.0156
+estado_proceso,No admitido,puntaje_admision,617,19,598,3.0794,-1.3933
+estado_proceso,No admitido,valor_matricula_cop,617,98,519,15.8833,-0.844
+estado_proceso,No admitido,fecha_matricula,617,617,0,100.0,21.4364
+estado_proceso,No admitido,correo,617,19,598,3.0794,0.7158
+estado_proceso,Retirado,programa,614,2,612,0.3257,-0.147
+estado_proceso,Retirado,aspirante_id,614,13,601,2.1173,0.4809
+estado_proceso,Retirado,puntaje_admision,614,26,588,4.2345,-0.2382
+estado_proceso,Retirado,valor_matricula_cop,614,102,512,16.6124,-0.1149
+estado_proceso,Retirado,fecha_matricula,614,614,0,100.0,21.4364
+estado_proceso,Retirado,correo,614,8,606,1.3029,-1.0607
+periodo_academico,20252,programa,1071,5,1066,0.4669,-0.0059
+periodo_academico,20252,aspirante_id,1071,25,1046,2.3343,0.6979
+periodo_academico,20252,puntaje_admision,1071,38,1033,3.5481,-0.9246
+periodo_academico,20252,valor_matricula_cop,1071,187,884,17.4603,0.733
+periodo_academico,20252,fecha_matricula,1071,854,217,79.7386,1.1749
+periodo_academico,20252,correo,1071,26,1045,2.4276,0.064
+periodo_academico,20261,programa,2246,14,2232,0.6233,0.1506
+periodo_academico,20261,aspirante_id,2246,24,2222,1.0686,-0.5678
+periodo_academico,20261,puntaje_admision,2246,103,2143,4.5859,0.1132
+periodo_academico,20261,valor_matricula_cop,2246,371,1875,16.5183,-0.209
+periodo_academico,20261,fecha_matricula,2246,1749,497,77.8718,-0.6919
+periodo_academico,20261,correo,2246,42,2204,1.87,-0.4936
+periodo_academico,20262,programa,2183,7,2176,0.3207,-0.1521
+periodo_academico,20262,aspirante_id,2183,41,2142,1.8781,0.2418
+periodo_academico,20262,puntaje_admision,2183,105,2078,4.8099,0.3372
+periodo_academico,20262,valor_matricula_cop,2183,362,1821,16.5827,-0.1446
+periodo_academico,20262,fecha_matricula,2183,1718,465,78.699,0.1354
+periodo_academico,20262,correo,2183,62,2121,2.8401,0.4765
+fuente_origen,Oracle,programa,500,2,498,0.4,-0.0727
+fuente_origen,Oracle,aspirante_id,500,0,500,0.0,-1.6364
+fuente_origen,Oracle,puntaje_admision,500,18,482,3.6,-0.8727
+fuente_origen,Oracle,valor_matricula_cop,500,81,419,16.2,-0.5273
+fuente_origen,Oracle,fecha_matricula,500,400,100,80.0,1.4364
+fuente_origen,Oracle,correo,500,10,490,2.0,-0.3636
+fuente_origen,Principal,programa,5000,24,4976,0.48,0.0073
+fuente_origen,Principal,aspirante_id,5000,90,4910,1.8,0.1636
+fuente_origen,Principal,puntaje_admision,5000,228,4772,4.56,0.0873
+fuente_origen,Principal,valor_matricula_cop,5000,839,4161,16.78,0.0527
+fuente_origen,Principal,fecha_matricula,5000,3921,1079,78.42,-0.1436
+fuente_origen,Principal,correo,5000,120,4880,2.4,0.0364

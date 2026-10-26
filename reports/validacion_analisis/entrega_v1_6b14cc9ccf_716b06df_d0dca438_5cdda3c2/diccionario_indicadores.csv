@@ -1,0 +1,8 @@
+﻿indicador,registros_elegibles,registros_fuera_del_calculo,denominador,limite
+"Volumen por canal, modalidad y estado",5500,0,Todos los registros del grupo,Registros observados. Independencia de solicitudes entre fuentes sin confirmar
+Distribución por programa,5500,0,"Todos los registros, incluida la categoría Sin información",No asignar un programa a los 26 ausentes
+Promedio y mediana de puntaje,5254,246,Puntajes informados dentro de cada grupo,Mostrar cobertura y no generalizar automáticamente a los ausentes
+Promedio y mediana de importe,4580,920,Importes informados dentro de cada grupo,"Importe registrado, no ingreso recaudado ni tarifa oficial"
+Serie de solicitudes con control de fecha,5320,180,Fechas de solicitud sin las alertas aplicadas,Conservar aparte los casos observados y evitar meses parciales como completos
+Días entre solicitud y matrícula,1035,4465,Ambas fechas informadas y sin las alertas del intervalo,No representa tiempo de todos los aspirantes ni permanencia en cada estado
+Códigos de aspirante por origen,5410,90,Códigos distintos de fuente y aspirante dentro del ámbito definido,No sumar códigos de ambos sistemas como personas globales confirmadas

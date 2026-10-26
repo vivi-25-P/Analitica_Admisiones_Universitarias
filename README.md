@@ -198,6 +198,16 @@ El cuaderno separa datos originales, controles de calidad, frecuencias y porcent
 
 ## Seguimiento y mantenimiento
 
+La comprobación de la entrega antes del análisis está en [el notebook 03](notebooks/03_validacion_previa_analisis.ipynb), ejecutado con tablas y gráfico de cobertura. Complementa el notebook de limpieza sin modificar sus datos ni volver a publicar el entregable. Revisa faltantes por grupo, los 500 pares Oracle contra los valores finales, un escenario hipotético para los 49 pares compatibles y los denominadores de cada indicador. Consulta [la última validación](reports/validacion_analisis/ultima_validacion.json) para localizar el reporte y las evidencias.
+
+Para reproducir esta comprobación:
+
+```bash
+uv run --group notebooks python scripts/ejecutar_notebook.py --notebook notebooks/03_validacion_previa_analisis.ipynb
+```
+
+`scripts/construir_notebook_validacion_analisis.py` reconstruye la plantilla del notebook 03 y borra sus resultados guardados. Después debe ejecutarse con el comando anterior. El escenario de sensibilidad no elimina registros de BaseUnificada y no confirma duplicados entre sistemas.
+
 Consulta [la bitácora](BITACORA.md) para decisiones, verificaciones y pendientes. La preparación de una segunda tabla está descrita en [el plan de la base](docs/plan_preparacion_base.md). `python3 scripts/respaldar_bd.py` crea un respaldo local y verifica su índice. Los cambios de estructura se documentarán antes y después de aplicarlos.
 
 ## Estructura tipada sin limpieza
