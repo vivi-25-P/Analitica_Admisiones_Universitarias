@@ -1,0 +1,5 @@
+﻿registro_id,id_fila_previa,id_registro_salida,accion,columnas_recuperadas
+REG003600,BU001611,BU001611,representante complementado,valor_matricula_cop
+REG003600,BU002213,BU001611,consolidado parcial,valor_matricula_cop
+REG004804,BU000067,BU000067,representante complementado,"programa, facultad, duracion_semestres, nivel_formacion"
+REG004804,BU003166,BU000067,consolidado parcial,"programa, facultad, duracion_semestres, nivel_formacion"

@@ -1,0 +1,24 @@
+﻿fuente,valor,cantidad,denominador,porcentaje
+Principal,Especialización en Data Analytics,1127,5002,22.531
+Principal,Derecho,1113,5002,22.2511
+Principal,Ingeniería de Sistemas,570,5002,11.3954
+Principal,Contaduría Pública,554,5002,11.0756
+Principal,Especialización en Gerencia,549,5002,10.9756
+Principal,Psicología,544,5002,10.8756
+Principal,Administración de Empresas,520,5002,10.3958
+Principal,,25,5002,0.4998
+CRM,Especialización en Data Analytics,25,100,25.0
+CRM,Derecho,17,100,17.0
+CRM,Contaduría Pública,14,100,14.0
+CRM,Psicología,13,100,13.0
+CRM,Ingeniería de Sistemas,13,100,13.0
+CRM,Especialización en Gerencia,9,100,9.0
+CRM,Administración de Empresas,9,100,9.0
+Oracle,Derecho,120,500,24.0
+Oracle,Especialización en Data Analytics,89,500,17.8
+Oracle,Administración de Empresas,62,500,12.4
+Oracle,Ingeniería de Sistemas,61,500,12.2
+Oracle,Contaduría Pública,59,500,11.8
+Oracle,Especialización en Gerencia,56,500,11.2
+Oracle,Psicología,51,500,10.2
+Oracle,,2,500,0.4

@@ -1,0 +1,15 @@
+﻿control,correcto
+5602 menos dos consolidados igual 5600,True
+18 columnas originales,True
+Cinco celdas recuperadas y ningún otro valor alterado,True
+Estados conservados,True
+Importes no imputados,True
+Fechas e identificadores conservados,True
+5000 códigos principales únicos,True
+5640 entradas con destino,True
+Destinos existentes,True
+Lectura íntegra JSONL,True
+Lectura íntegra Excel,True
+Lectura íntegra CSV,True
+Lectura íntegra de cohorte principal Excel,True
+Entrada L09 intacta,True

@@ -37,6 +37,17 @@ def consolidar_parcial(filas, columnas_permitidas):
     return result, changes
 
 
+def normalizar_ausencias_identificadores(fila, marcadores):
+    result = dict(fila)
+    changes = []
+    for col in ['registro_id', 'aspirante_id']:
+        value = result.get(col)
+        if isinstance(value, str) and value.strip().casefold() in marcadores:
+            result[col] = None
+            changes.append((col, value))
+    return result, changes
+
+
 class RevisionDescriptiva:
     def __init__(self, root, code_sha):
         self.root = Path(root)
@@ -64,6 +75,7 @@ class RevisionDescriptiva:
         self.rows = {i:dict(row) for i,row in self.before.items()}
         self.mapping = {i:i for i in self.ids}
         self.changes = []
+        self.absence_changes = []
         self.metrics = {}
         self.ref = date.fromisoformat(self.rules['fecha_referencia'])
         self.figures = []
@@ -107,12 +119,24 @@ class RevisionDescriptiva:
         self.write('L10_cambios_por_celda.csv',self.changes)
         self.write('L10_parciales_resueltos.csv',groups)
         self.ids_out=[i for i in self.ids if i in self.rows]
+        for ident in self.ids_out:
+            row, changes = normalizar_ausencias_identificadores(self.rows[ident], self.rules['marcadores_ausencia_identificadores'])
+            self.rows[ident] = row
+            for col, before in changes:
+                self.absence_changes.append({'id_registro_salida': ident, 'columna': col,
+                    'valor_original': before, 'tipo_original': 'texto', 'valor_posterior': '',
+                    'tipo_posterior': 'null', 'motivo': 'no_informado' if before.strip()=='' else 'marcador_nan',
+                    'accion': 'homologar ausencia; conservar solicitud y no inventar identificador'})
+        self.write('L10_ausencias_identificadores.csv', self.absence_changes,
+                   ['id_registro_salida','columna','valor_original','tipo_original','valor_posterior','tipo_posterior','motivo','accion'])
         self.main_ids=[i for i in self.ids_out if self.origin[i]=='Principal']
         self.main=[self.rows[i] for i in self.main_ids]
         self.all=[self.rows[i] for i in self.ids_out]
         self.metrics['L10']={'filas_entrada':len(self.before),'filas_salida':len(self.rows),
                              'filas_consolidadas':len(self.before)-len(self.rows),'celdas_recuperadas':len(self.changes),
                              'registros_principales':len(self.main),'registro_id_principal_distintos':len({r['registro_id'] for r in self.main})}
+        self.metrics['L10']['ausencias_identificadores_homologadas'] = len(self.absence_changes)
+        self.metrics['L10']['marcadores_nan_identificadores'] = sum(r['motivo']=='marcador_nan' for r in self.absence_changes)
         assert len(self.rows)==5600 and len(self.main)==5000
         assert len({r['registro_id'] for r in self.main})==5000
         assert len(self.changes)==5
@@ -417,13 +441,15 @@ class RevisionDescriptiva:
         principal_excel_rows=[{c:self.restore(v,c) for c,v in zip(self.headers,row)} for row in principal_values[1:]]
         with csv_path.open(encoding='utf-8-sig',newline='') as handle: csv_rows=list(csv.reader(handle))
         allowed={(r['id_representante'],r['columna']) for r in self.changes}
+        allowed.update((r['id_registro_salida'],r['columna']) for r in self.absence_changes)
         changes_ok=all(self.rows[i][c]==self.before[i][c] or (i,c) in allowed for i in self.ids_out for c in self.headers)
         checked=[('5602 menos dos consolidados igual 5600',len(self.all)==5600),
                  ('18 columnas originales',all(list(r)==self.headers for r in self.all) and len(self.headers)==18),
-                 ('Cinco celdas recuperadas y ningún otro valor alterado',len(self.changes)==5 and changes_ok),
+                 ('Cinco celdas recuperadas y solo ausencias de ID homologadas',len(self.changes)==5 and changes_ok),
                  ('Estados conservados',all(self.rows[i]['estado_proceso']==self.before[i]['estado_proceso'] for i in self.ids_out)),
                  ('Importes no imputados',all(self.rows[i]['valor_matricula_cop']==self.before[i]['valor_matricula_cop'] for i in self.ids_out if self.before[i]['registro_id']!='REG003600')),
-                 ('Fechas e identificadores conservados',all(self.rows[i][c]==self.before[i][c] for i in self.ids_out for c in ['fecha_solicitud','fecha_matricula','registro_id','aspirante_id'])),
+                 ('Fechas e identificadores informados conservados',all(self.rows[i][c]==self.before[i][c] for i in self.ids_out for c in ['fecha_solicitud','fecha_matricula','registro_id','aspirante_id'] if (i,c) not in {(r['id_registro_salida'],r['columna']) for r in self.absence_changes})),
+                 ('Sin nan o textos vacíos en identificadores',all(r[c] is None or isinstance(r[c],str) and r[c].strip().casefold() not in ['', 'nan'] for r in self.all for c in ['registro_id','aspirante_id'])),
                  ('5000 códigos principales únicos',len(self.main)==len({r['registro_id'] for r in self.main})==5000),
                  ('5640 entradas con destino',len(destinations)==len({r['id_fila_entrada'] for r in destinations})==5640),
                  ('Destinos existentes',set(r['id_registro_salida'] for r in destinations)==set(self.ids_out)),
@@ -459,6 +485,7 @@ class RevisionDescriptiva:
               '| REG003600 | Se recuperó 1.800.000 COP de su otra fila y se consolidaron las dos entradas. |',
               '| REG004804 | Se recuperaron Ingeniería de Sistemas, Ingeniería, 8 semestres y Pregrado desde su otra fila, y se consolidaron ambas entradas. |',
               '', 'Se comprobó la igualdad de todos los demás atributos, incluido el código de solicitud, antes de complementar las ausencias. Se recuperaron cinco celdas y se consolidaron dos filas; no se imputaron promedios ni se eligió entre valores informados contradictorios. La auditoría mantiene el destino de las 5.640 entradas originales.',
+              '', f"Se homologaron como ausencias reales {metrics['L10']['ausencias_identificadores_homologadas']} identificadores no informados, incluidos {metrics['L10']['marcadores_nan_identificadores']} textos nan. Son null en JSONL, None en Python y celdas vacías en Excel. Se conserva el marcador original y su motivo en L10_ausencias_identificadores.csv. No se eliminó ninguna solicitud por esta normalización y se conservaron los códigos informados.",
               '', '## 2. Estados: Nuevo no se reclasifica como Admitido','',
               'Las fuentes utilizan ambas etiquetas y no contienen un diccionario que las declare equivalentes. La presencia de puntaje o documentos completos tampoco demuestra admisión. Se conservan los siete estados y se ofrece una agrupación auxiliar para presentar el proceso, sin afirmar transiciones.',
               '', '| Estado registrado | Solicitudes principales | Porcentaje | Fase auxiliar de presentación |', '| :--- | ---: | ---: | :--- |']
@@ -494,7 +521,7 @@ class RevisionDescriptiva:
                  '| Fechas y periodos | Conservar valores, indicar casos no elegibles para cada cálculo y resolver solo con evidencia interna suficiente. |',
                  '| Estados y catálogo | Mantener denominaciones actuales; usar agrupaciones auxiliares explícitas. No convertir Nuevo en Admitido. |',
                  '| Vacíos | Mantener ausencias no recuperables. No completar importes por programa o modalidad sin una regla sustentada. |',
-                 '',f"Pasaron {metrics['controles_correctos']} controles, incluida la lectura completa de CSV, Excel y JSONL. Los estados, identificadores, fechas e importes ajenos a REG003600 conservan sus valores. La salida permite continuar análisis descriptivo por fuente; la identidad global y los conceptos económicos todavía requieren reglas de cierre.",
+                 '',f"Pasaron {metrics['controles_correctos']} controles, incluida la lectura completa de CSV, Excel y JSONL. Los estados, códigos informados, fechas e importes ajenos a REG003600 conservan sus valores; los identificadores no informados se representan como null. La salida permite continuar análisis descriptivo por fuente; la identidad global y los conceptos económicos todavía requieren reglas de cierre.",
                  '', '## Gráficos','']
         titles=['Estados registrados','Programas y modalidades','Canales y estados','Importes por modalidad','Solicitudes por mes','Intervalos de matrícula revisados','Ciudades y modalidades']
         for title,name in zip(titles,self.figures): rows += [f'### {title}','',f'![{title}](../figuras/revision_descriptiva/{self.run}/{name}.png)','']

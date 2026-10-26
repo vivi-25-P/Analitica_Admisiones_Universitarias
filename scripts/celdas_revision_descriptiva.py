@@ -43,7 +43,9 @@ def agregar_revision(md, code):
     md('''
     ### Fechas e identificadores
 
-    Se conservan fechas e identificadores. Los controles auxiliares indican qué
+    Se conservan fechas y códigos informados. El texto vacío y nan de identificadores
+    se homologan como ausencia real, con su marcador original en auditoría.
+    Los controles auxiliares indican qué
     registros tienen alertas y cuáles pueden entrar en el resumen de intervalos.
     No se convierten fechas ambiguas solo para aumentar coincidencias.
     aspirante_id sirve para revisar solicitudes repetidas y trazabilidad;

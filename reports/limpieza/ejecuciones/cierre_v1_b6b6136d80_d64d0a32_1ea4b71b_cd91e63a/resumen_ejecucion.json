@@ -1,0 +1,99 @@
+{
+  "id_ejecucion": "cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_cd91e63a",
+  "ejecutado_en": "2026-10-26T11:21:53.457679-05:00",
+  "estado": "preparación técnica ejecutada, conciliación administrativa pendiente",
+  "etapas_ejecutadas": [
+    "L05",
+    "L06",
+    "L07",
+    "L08",
+    "L09"
+  ],
+  "etapas_sin_decision_institucional_cerrada": [
+    "L05 catálogo institucional",
+    "L07 conciliación",
+    "L08 incidencias administrativas"
+  ],
+  "entrada_l04": "tipos_v1_421d1186d3_e559610e_48cdf053_cd91e63a",
+  "sha256_codigo_notebook": "cd91e63a86474619266507f78f3434360a5fc788b85dec77d248d1eda7e1cda5",
+  "sha256_modulo": "1ea4b71b7f9ffcff75272745b6c1f7b4d0966b697b3e12897b85ed64fcd795a4",
+  "sha256_reglas": "d64d0a328b74896f716447464e3d1c01cd3b65b1f324f4eccb221f905d3bab29",
+  "filas_entrada": 5640,
+  "filas_salida": 5602,
+  "columnas": 18,
+  "repeticiones_consolidadas": 38,
+  "filas_excluidas": 0,
+  "celdas_modificadas_L05_L09": 0,
+  "valores_imputados": 0,
+  "solicitudes_unicas_validadas": false,
+  "metricas": {
+    "L05": {
+      "filas_revisadas": 5640,
+      "programas_catalogo": 7,
+      "con_correspondencia_reproducida": 5613,
+      "sin_correspondencia": 27,
+      "atributos_discrepantes": 0,
+      "modalidades_diferentes_catalogo": 3385,
+      "nombre_fuzzy_historico_disponible": false
+    },
+    "L06": {
+      "grupos_exactos": 38,
+      "filas_en_grupos": 76,
+      "repeticiones_consolidadas": 38,
+      "filas_salida": 5602,
+      "regla_representante": "menor índice BU, sin precedencia administrativa"
+    },
+    "L07": {
+      "grupos_registro_id_repetido": 102,
+      "filas_en_grupos_repetidos": 204,
+      "crm_con_codigo_en_principal": 100,
+      "crm_con_importe_principal_ausente": 13,
+      "oracle_candidatos_11": 500,
+      "oracle_candidatos_13": 49,
+      "oracle_candidatos_con_programa_original_equivalente": 498,
+      "oracle_candidatos_dependen_homologacion_programa_ausente": 2,
+      "oracle_compatibles_intercambio_fecha": 16,
+      "filas_conciliadas_automaticamente": 0
+    },
+    "L08": {
+      "referencia_revision": "2026-10-26",
+      "alertas_negocio_en_representantes": {
+        "solicitud_posterior_al_anio_del_periodo": 466,
+        "matriculado_con_documentacion_no_completa": 521,
+        "identificador_ausente_o_marcador": 95,
+        "fecha_posterior_a_referencia": 28,
+        "matricula_anterior_a_solicitud": 32
+      },
+      "correos_por_estado": {
+        "estructura compatible": 5471,
+        "sin información": 131
+      },
+      "negativos_numericos": 0,
+      "atipicos_RIC": 0
+    },
+    "L09": {
+      "controles_correctos": 16,
+      "filas_entrada": 5640,
+      "filas_salida": 5602,
+      "columnas": 18,
+      "incidencias": 2110,
+      "filas_salida_con_incidencias": 1766,
+      "decisiones_pendientes": 10,
+      "repeticiones_exactas_adicionales_salida": 0,
+      "filas_por_fuente": {
+        "Principal": 5002,
+        "CRM": 100,
+        "Oracle": 500
+      }
+    }
+  },
+  "auditoria": "reports/limpieza/ejecuciones/cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_cd91e63a",
+  "datos_salida": "data/processed/taller_2/cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_cd91e63a",
+  "archivos_datos": {
+    "BaseUnificada_Revision.csv": "5760711046091af3e6c827d3b40495ab896a76c78aaf16d4a79415095cd012ab",
+    "BaseUnificada_Revision.xlsx": "e50f834162644f4c4b4ae4d5d92e73ba29e892e9190226cae31ab7f2a71f9787",
+    "BaseUnificada_Revision.jsonl": "9fbbe58562ca7e3e1c89c41569082f2c01a162ffd76e65494736661846dc3411"
+  },
+  "apta_para": "Descripción provisional de registros con procedencia y alertas",
+  "pendiente_para": "Solicitudes o aspirantes únicos, conversión definitiva y comparación monetaria entre fuentes"
+}

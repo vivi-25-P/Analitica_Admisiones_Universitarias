@@ -2,7 +2,7 @@
 
 Actualización: 26 de octubre de 2026.
 
-Estado: notebook ejecutado de L00 a L09. Después de L02, estandarización, L03, ausencias, y L04, tipado, se revisaron el catálogo y las fuentes y se consolidaron 38 repeticiones exactas. La salida de revisión contiene 5.602 registros y 18 columnas. Cada una de las 5.640 entradas mantiene un destino documentado. La preparación técnica está ejecutada; la conciliación de conflictos y la validación administrativa requieren las decisiones del reporte de cierre. Los archivos BaseUnificada de partida permanecen intactos.
+Estado: notebook ejecutado de L00 a L10. Se consolidaron 38 repeticiones exactas y, después, dos registros parciales complementarios. La salida vigente contiene 5.600 registros y 18 columnas y ofrece una cohorte principal de 5.000 códigos de solicitud distintos. Cada una de las 5.640 entradas mantiene un destino documentado. Los identificadores no informados se homologan a null, conservando sus marcadores originales. CRM y Oracle todavía requieren conciliación entre fuentes; los archivos BaseUnificada de partida permanecen intactos.
 
 ## 1. Qué cambia respecto al plan anterior
 
@@ -84,6 +84,7 @@ El origen de cada registro debe reconstruirse a partir de las fuentes y del libr
 | L07 | Conciliar repeticiones parciales y solapamientos entre fuentes | Cantidad pendiente de decisiones | Evidencia, fuente preferida por atributo y conflictos |
 | L08 | Evaluar coherencia administrativa | Mantener casos pendientes visibles | Incidencias, sin inventar correcciones |
 | L09 | Validar, exportar y comparar resultados | Conciliar todas las entradas | Base limpia, auditoría y reporte final |
+| L10 | Resolver dos parciales, revisar categorías, importes, fechas e identificadores y explorar por fuente | Dos filas complementarias consolidadas; 5.600 de salida | Cinco celdas recuperadas, 94 ausencias de ID homologadas, controles y siete gráficos |
 
 Este orden separa las reglas de representación de las decisiones de identidad. Después de normalizar pueden aparecer nuevas coincidencias exactas; deben volver a contarse y distinguirse de las 38 observadas al inicio.
 
@@ -92,7 +93,7 @@ Este orden separa las reglas de representación de las decisiones de identidad. 
 | Columna | Tratamiento propuesto | Qué no debe decidirse automáticamente |
 | :--- | :--- | :--- |
 | registro_id | Conservar el código de origen; posponer correspondencias y validación entre sistemas hasta los cruces | Cambiar códigos Oracle o eliminar filas por su identificador |
-| aspirante_id | Conservar vacíos, códigos y marcadores recibidos; mantener su diagnóstico sin resolver identidades todavía | Crear identificadores, convertir nan del identificador en esta etapa o unir personas solo por correo |
+| aspirante_id | Conservar códigos informados y diagnóstico; L10 homologa vacíos y nan como null, conservando el original por celda | Crear identificadores o unir personas solo por correo |
 | fecha_solicitud | Aplicar reglas por formato y conservar valor previo y procedencia | Intercambiar día y mes o sustituir la fecha Oracle por la principal sin evidencia |
 | programa | Unificar nombres y tildes mediante catálogo aprobado | Asignar un programa a los 27 casos sin identificación útil |
 | modalidad | Conservar la modalidad de la solicitud y su catálogo de tres valores | Sustituirla por la modalidad única del catálogo reducido |
@@ -228,7 +229,7 @@ Una carga futura a PostgreSQL necesita una nueva estructura que contemple las 18
 
 Está listo el diagnóstico de entrada, el inventario de las 5.640 filas, el listado de identificadores repetidos, la actualización del plan y las plantillas de control. Se reproducen con python scripts/diagnosticar_base_unificada.py.
 
-El notebook se ejecutó de principio a fin con 24 celdas de código. Verificó 5.040 procedencias principales, 100 CRM y 500 Oracle contra el libro congelado y el código de anexado. L02 estandarizó textos y categorías con config/limpieza/estandarizacion_v1.json: hubo 14.209 cambios de celda en 5.404 filas. En esa etapa se conservaron las 5.640 filas, las 18 columnas y las 38 repeticiones exactas adicionales. L02 no modificó fechas, puntajes, importes ni duración.
+El notebook se ejecutó de principio a fin con 30 celdas de código. Verificó 5.040 procedencias principales, 100 CRM y 500 Oracle contra el libro congelado y el código de anexado. L02 estandarizó textos y categorías con config/limpieza/estandarizacion_v1.json: hubo 14.209 cambios de celda en 5.404 filas. En esa etapa se conservaron las 5.640 filas, las 18 columnas y las 38 repeticiones exactas adicionales. L02 no modificó fechas, puntajes, importes ni duración.
 
 Los datos intermedios están en data/interim/taller_2 bajo una carpeta de versión. Los cambios por celda, equivalencias, procedencias, disposición de las 5.640 filas y controles están en reports/limpieza/ejecuciones. reports/limpieza/ultima_estandarizacion.json identifica la ejecución y sus hashes. Existe un HTML de lectura en reports/02_limpieza_base_unificada.html.
 
@@ -252,4 +253,20 @@ L08 revisó las filas representativas y registró 466 casos de solicitud posteri
 
 L09 verificó 16 controles, la lectura íntegra de CSV, Excel y JSONL y los destinos de las 5.640 entradas. Registra 2.110 incidencias en 1.766 filas de salida, con superposición de motivos. Existen diez decisiones abiertas sobre programas ausentes, catálogo, CRM y conflictos parciales, Oracle, fechas, periodos, estados y documentación, identidad y contacto, conceptos monetarios y reglas numéricas, y ausencias y aprobación final. Su alcance no equivale a errores confirmados.
 
-Las reglas están en config/limpieza/cierre_v1.json y el respaldo ejecutable en src/analitica_admisiones/cierre_limpieza.py y las celdas del notebook. El reporte está en reports/limpieza/reporte_cierre_limpieza.md y el estado vigente en reports/limpieza/ultimo_cierre.json. La base de revisión permite descripción provisional de registros; solicitudes únicas, tasas definitivas y comparación económica consolidada requieren resolver las decisiones y volver a ejecutar el proceso. Las tablas de Docker no se modificaron.
+Las reglas L09 están en config/limpieza/cierre_v1.json y el respaldo ejecutable en src/analitica_admisiones/cierre_limpieza.py y las celdas del notebook. El reporte L09 está en reports/limpieza/reporte_cierre_limpieza.md y su punto de control en reports/limpieza/ultimo_cierre.json. La versión posterior L10 se describe a continuación. Solicitudes únicas globales, tasas definitivas y comparación económica consolidada requieren resolver las decisiones y volver a ejecutar el proceso. Las tablas de Docker no se modificaron.
+
+## 12. Revisión L10 y salida actual
+
+El usuario pidió explorar la versión de revisión para evaluar estados, importes, fechas, identificadores y posibilidades de análisis administrativo. L10 aplica config/limpieza/revision_descriptiva_v1.json. Complementó REG003600 con 1.800.000 COP y REG004804 con programa, facultad, duración y nivel desde sus otras filas. Se exigió igualdad de los demás atributos y ausencia de contradicciones informadas. Se recuperaron cinco celdas y se consolidaron dos filas. El consolidado contiene 5.600 registros y la fuente principal 5.000 códigos de solicitud distintos. Cinco incidencias históricas quedan resueltas y cada entrada conserva su vínculo.
+
+La aclaración del usuario sobre nan motivó homologar 94 identificadores no informados a null, incluidos cuatro textos nan y 90 textos vacíos. Los marcadores originales se registran por celda. No se crean códigos ni se unen personas por correo. Pendiente sigue siendo una categoría de documentación. Las reglas L03 y L04 conservan sus resultados históricos de identificadores sin modificar; esta decisión se aplica después, en L10.
+
+Nuevo se mantiene distinto de Admitido. Las fases de presentación se incluyen en un control auxiliar y no aumentan las 18 columnas. La principal tiene 560 Nuevo, 572 Inscrito, 570 Documentación pendiente, 1.105 Admitido, 1.079 Matriculado, 550 No admitido y 564 Retirado. Se observan 351 Documentación pendiente con documentos Sí y 462 Matriculado con documentos No o Pendiente, sin reemplazar estados por esa relación.
+
+Las 63 combinaciones de programa identificado, modalidad y periodo tienen los cinco importes observados. En 21 comparaciones virtual frente a presencial por programa y periodo, 18 medianas son iguales, una es menor en virtual y dos mayores. No se deduce una tarifa ni se imputan matrículas. Los importes CRM se describen por separado por concepto económico.
+
+La fecha de matrícula está informada en los 1.079 matriculados principales y no en otros estados. Hay 165 solicitudes principales con formatos ambiguos señalados y ninguna matrícula principal anterior a solicitud. Se resumen 977 intervalos sin las alertas revisadas, con mediana de 33 días; 102 se conservan fuera de ese cálculo. La cobertura principal llega al 12 de septiembre de 2026, por lo que el mes final no se trata como completo. Las 32 fechas de matrícula anteriores a solicitud del consolidado L09 no pertenecen a la fuente principal.
+
+Hay 2.924 códigos de aspirante principales informados distintos y 90 solicitudes principales sin código. 1.363 códigos aparecen en varias solicitudes. De los 90 ausentes, 62 tienen un único código candidato en otras filas con el mismo correo; no se asignan por esa coincidencia. Se conserva aspirante_id para trazabilidad y revisión de recurrencia, fuera de los agrupadores de mercado.
+
+La salida actual se identifica en reports/limpieza/ultima_revision_descriptiva.json; ultimo_cierre.json conserva el punto de control previo L09. El Excel incluye BaseUnificada_Revision y Principal_Analisis con 18 columnas, además de Alcance. También se exportan el consolidado en CSV y JSONL y la cohorte principal en CSV. Hay siete figuras en PNG y PDF y tablas de frecuencias, cruces, importes, puntajes, fechas, intervalos y calidad. El reporte está en reports/limpieza/revision_descriptiva_y_parciales.md. Los datos originales y las tablas Docker conservan su estado.

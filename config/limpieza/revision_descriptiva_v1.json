@@ -19,6 +19,7 @@
   "cohorte_principal": "Filas de fuente Principal tras consolidar los dos parciales. Una fila por registro_id de esa fuente, sin afirmar aspirantes únicos. CRM y Oracle se describen por separado y no se suman como solicitudes nuevas.",
   "importes": "Comparar importes Principal por programa, modalidad y periodo. CRM separado por concepto económico. No imputar por promedio, mediana o moda ni modificar importes observados.",
   "fechas": "Conservar fechas. Señalar formatos ambiguos y referencias futuras. Los tiempos entre solicitud y matrícula requieren ambas fechas sin alertas de formato, no futuras y matrícula no anterior a solicitud. Periodos se evalúan aparte.",
-  "identificadores": "Conservar aspirante_id para trazabilidad y diagnóstico. No usarlo como predictor ni borrarlo por falta de asociación; no recuperar ID deduciéndolo del correo. Coincidencias de correo son candidatos de revisión.",
+  "identificadores": "Conservar códigos informados y columnas para trazabilidad. Según la aclaración del usuario sobre ausencias, homologar texto vacío y nan como null con motivo y original en auditoría. No inventar códigos ni recuperarlos deduciéndolos del correo. Coincidencias de correo son candidatos de revisión.",
+  "marcadores_ausencia_identificadores": ["", "nan"],
   "sin_cambios": ["CRM pendiente de conciliación", "Oracle pendiente de identidad", "fechas sin corrección automática", "estados originales conservados", "18 columnas de negocio"]
 }
