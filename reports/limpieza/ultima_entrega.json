@@ -1,12 +1,12 @@
 {
-  "id_ejecucion": "entrega_v1_6b14cc9ccf_7909b46d_e2c8755f_cedd9608",
+  "id_ejecucion": "entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2",
   "etapa": "L12 a L14 conciliación final y entrega",
-  "ejecutado_en": "2026-10-26T12:50:53.789133-05:00",
-  "entrada_L11": "identidad_estados_v1_3973db4f87_b26d6f5b_0122a31c_cedd9608",
+  "ejecutado_en": "2026-10-26T13:53:27.531383-05:00",
+  "entrada_L11": "identidad_estados_v1_3973db4f87_b26d6f5b_0122a31c_5cdda3c2",
   "sha256_entrada": "6b14cc9ccfed46ef066210b8c980daeef042e52e988f1ed91c036d52dfb5c9b5",
-  "sha256_reglas": "7909b46dde1ce220bfc3b1fab9982483ee1bebcc525eee64df473f4440112b6f",
-  "sha256_modulo": "e2c8755f9c4bd2936ecb39ee0d9a7e1a049ef1669f4042068d85d114ba0b82c9",
-  "sha256_codigo_notebook": "cedd960863c66fc3d457c27f5f20ad2aadc992b10f2d0b180a5311e2a0971d20",
+  "sha256_reglas": "716b06dfd68047468f63e4f8d7f67e8b16e99689a650688b83b035ae2f5822ca",
+  "sha256_modulo": "d0dca43887a7fce70991c19a2d6804b643c1913a51801c5607888a68b012a4da",
+  "sha256_codigo_notebook": "5cdda3c26816523d81b0153a3c8403932b0e279c31b05ae88b0e0149753b0902",
   "sha256_crm_original": "4c4c2b7f1edb9897076d4ac6b63c434f69527169fabbdd98a03300ac90f15987",
   "filas_entrada": 5600,
   "filas_salida": 5500,
@@ -58,22 +58,24 @@
     "fuentes": {
       "Principal": 5000,
       "Oracle": 500,
-      "principal_con_crm": 100
+      "principal_con_crm": 100,
+      "registros_con_similitud_entre_fuentes": 1000
     },
-    "controles_correctos": 23
+    "controles_correctos": 24
   },
-  "datos_salida": "data/processed/taller_2/entrega_v1_6b14cc9ccf_7909b46d_e2c8755f_cedd9608",
-  "auditoria": "reports/limpieza/ejecuciones/entrega_v1_6b14cc9ccf_7909b46d_e2c8755f_cedd9608",
-  "figuras": "reports/figuras/entrega/entrega_v1_6b14cc9ccf_7909b46d_e2c8755f_cedd9608",
-  "entregable": "deliverables/BaseUnificada_Entregable.xlsx",
-  "paquete": "deliverables/BaseUnificada_Entregable.zip",
+  "datos_salida": "data/processed/taller_2/entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2",
+  "auditoria": "reports/limpieza/ejecuciones/entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2",
+  "figuras": "reports/figuras/entrega/entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2",
+  "entregable": "deliverables/v1_1/BaseUnificada_Entregable.xlsx",
+  "paquete": "deliverables/v1_1/BaseUnificada_Entregable.zip",
   "archivos_entregables": {
-    "deliverables/BaseUnificada_Entregable.csv": "6ac4c96e1bd088efda10c1d1f6f3aa93a6e87473e997ac3332676122408f08ed",
-    "deliverables/BaseUnificada_Entregable.xlsx": "e393dd456d7d8f4b66b85cc7a4894fcf346d3b98d8ce438c8608c104d3347cd3",
-    "deliverables/BaseUnificada_Entregable.zip": "7551391190986b4dcda30249b6ccf745007691b66579518f0afc0e2c40e661d4",
-    "deliverables/Informe_BaseUnificada_Entregable.md": "2ad48a7b47698e3687b414f493cb5ce9c7c263817391b2e86e5d2681fc022bbc",
-    "deliverables/Informe_BaseUnificada_Entregable.pdf": "855a1f2f94a4f498b17b11716459a2579d58051869939da82ec190d72c3c4728",
-    "deliverables/Metadatos_Entrega.json": "0dbece9dd170ba68c8ceaf39fb73f8935ca523f4ba28d1e66ac5a3e8c3ff8b97"
+    "deliverables/v1_1/BaseUnificada_Entregable.csv": "6ac4c96e1bd088efda10c1d1f6f3aa93a6e87473e997ac3332676122408f08ed",
+    "deliverables/v1_1/BaseUnificada_Entregable.xlsx": "561b084b0501f2dedefe7286e2fa714242508f2f65301db2d605c52320ed223c",
+    "deliverables/v1_1/BaseUnificada_Entregable.zip": "982008383a5d4687447e3ff83b13dc6bd099ee1528b0ce46866f1a3a4ff7312b",
+    "deliverables/v1_1/Guia_Hojas.md": "ff20f2981348f119dc2d2d1c70e2f408dbce35acf3de154269d5f8ac6231b852",
+    "deliverables/v1_1/Informe_BaseUnificada_Entregable.md": "57f3dfb4fb95ca2840288a02aee0eedd02fe6e57739fd8e71a70198b4d20eb6c",
+    "deliverables/v1_1/Informe_BaseUnificada_Entregable.pdf": "91c78eecdfd7d6013cf7902ab4371e5acaf9e130c06af48df1326cee59da3bf6",
+    "deliverables/v1_1/Metadatos_Entrega.json": "bdee2ddc41e4aa4f31cfd633e128da815585884f3deed7b62db5ad4fd97eb90f"
   },
   "estado": "Preparación técnica completada y entregable listo para revisión externa",
   "limitaciones": [

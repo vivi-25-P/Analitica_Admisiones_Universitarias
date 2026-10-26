@@ -1,0 +1,19 @@
+﻿columna,tipo,descripcion,tratamiento_ausencia
+registro_id,Texto identificador,Código de solicitud de su sistema de origen. Único en el archivo entregado. No prueba independencia del evento entre sistemas.,Celda vacía. Motivos y criterios documentados
+aspirante_id,Texto identificador,Código de aspirante informado. Se interpreta junto con la fuente. Vacío cuando no está disponible.,Celda vacía. Motivos y criterios documentados
+fecha_solicitud,Fecha,"Fecha reportada de la solicitud. Presentación año, mes y día. Alertas de interpretación en Control_Calidad.",Celda vacía. Motivos y criterios documentados
+programa,Categoría de texto,Programa académico solicitado. Se conserva ausente cuando no existe información recuperable.,Celda vacía. Motivos y criterios documentados
+modalidad,Categoría de texto,"Modalidad de la solicitud: Presencial, Virtual o Híbrida. No se reemplaza por la modalidad del catálogo.",Celda vacía. Motivos y criterios documentados
+canal_captacion,Categoría de texto,Canal registrado de captación. Su frecuencia no acredita por sí sola eficacia comercial.,Celda vacía. Motivos y criterios documentados
+estado_proceso,Categoría de texto,Estado analítico. Nuevo se agrupa con Admitido. Los estados recibidos se conservan en Control_Calidad.,Celda vacía. Motivos y criterios documentados
+puntaje_admision,Número decimal,"Puntaje informado, sin sustituir ausencias por cero ni deducir una escala institucional oficial.",Celda vacía. Motivos y criterios documentados
+documentos_completos,Categoría de texto,"Sí, No o Pendiente. Pendiente conserva significado y no se convierte en ausencia.",Celda vacía. Motivos y criterios documentados
+valor_matricula_cop,"Número decimal, COP",Importe de matrícula reportado. Para CRM se utiliza matrícula base y se separan derechos administrativos. No acredita pago ni tarifa oficial.,Celda vacía. Motivos y criterios documentados
+ciudad_residencia,Categoría de texto,"Ciudad de residencia reportada, con escritura homologada.",Celda vacía. Motivos y criterios documentados
+asesor,Categoría de texto,Asesor asignado o Sin asignar. No se completa una asignación por suposición.,Celda vacía. Motivos y criterios documentados
+fecha_matricula,Fecha,Fecha de matrícula informada. Puede preceder al inicio de estudios. No determina automáticamente el periodo académico.,Celda vacía. Motivos y criterios documentados
+correo,Texto de contacto,Correo reportado. La estructura compatible no prueba entregabilidad o identidad civil.,Celda vacía. Motivos y criterios documentados
+periodo_academico,Código entero categórico,"Semestre de ingreso reportado: 20252, 20261 o 20262. No se suma ni promedia. No se deriva desde las fechas.",Celda vacía. Motivos y criterios documentados
+facultad,Categoría de texto,Facultad según el catálogo de trabajo adoptado. No se presenta como validación institucional externa.,Celda vacía. Motivos y criterios documentados
+duracion_semestres,"Entero, semestres",Duración según el catálogo de trabajo adoptado. Ausente si el programa no está identificado.,Celda vacía. Motivos y criterios documentados
+nivel_formacion,Categoría de texto,Pregrado o Posgrado según el catálogo de trabajo adoptado.,Celda vacía. Motivos y criterios documentados

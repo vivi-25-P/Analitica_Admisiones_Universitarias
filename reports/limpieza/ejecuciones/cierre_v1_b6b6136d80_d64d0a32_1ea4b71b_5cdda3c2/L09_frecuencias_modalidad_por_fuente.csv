@@ -1,0 +1,10 @@
+﻿fuente,valor,cantidad,denominador,porcentaje
+Principal,Virtual,1982,5002,39.6242
+Principal,Presencial,1981,5002,39.6042
+Principal,Híbrida,1039,5002,20.7717
+CRM,Presencial,42,100,42.0
+CRM,Virtual,40,100,40.0
+CRM,Híbrida,18,100,18.0
+Oracle,Presencial,212,500,42.4
+Oracle,Virtual,202,500,40.4
+Oracle,Híbrida,86,500,17.2

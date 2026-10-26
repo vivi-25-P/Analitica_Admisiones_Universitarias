@@ -1,0 +1,14 @@
+﻿id_fila_salida,registro_id,columna,valor_anterior,tipo_anterior,valor_posterior,regla,id_fila_crm,archivo_evidencia
+BU004511,REG001725,valor_matricula_cop,,null,2200000.00,recuperación desde matrícula base CRM para la misma solicitud,BU005049,Caso2 CRM Admisiones.csv
+BU004527,REG002552,valor_matricula_cop,,null,2200000.00,recuperación desde matrícula base CRM para la misma solicitud,BU005053,Caso2 CRM Admisiones.csv
+BU001151,REG000462,valor_matricula_cop,,null,2200000.00,recuperación desde matrícula base CRM para la misma solicitud,BU005059,Caso2 CRM Admisiones.csv
+BU004255,REG004619,valor_matricula_cop,,null,2200000.00,recuperación desde matrícula base CRM para la misma solicitud,BU005064,Caso2 CRM Admisiones.csv
+BU000939,REG000766,valor_matricula_cop,,null,2200000.00,recuperación desde matrícula base CRM para la misma solicitud,BU005071,Caso2 CRM Admisiones.csv
+BU002179,REG001149,valor_matricula_cop,,null,2200000.00,recuperación desde matrícula base CRM para la misma solicitud,BU005094,Caso2 CRM Admisiones.csv
+BU004702,REG003422,valor_matricula_cop,,null,2200000.00,recuperación desde matrícula base CRM para la misma solicitud,BU005104,Caso2 CRM Admisiones.csv
+BU003770,REG004572,valor_matricula_cop,,null,2200000.00,recuperación desde matrícula base CRM para la misma solicitud,BU005106,Caso2 CRM Admisiones.csv
+BU003707,REG002690,valor_matricula_cop,,null,2200000.00,recuperación desde matrícula base CRM para la misma solicitud,BU005107,Caso2 CRM Admisiones.csv
+BU004541,REG003189,valor_matricula_cop,,null,2200000.00,recuperación desde matrícula base CRM para la misma solicitud,BU005109,Caso2 CRM Admisiones.csv
+BU004795,REG000425,valor_matricula_cop,,null,2200000.00,recuperación desde matrícula base CRM para la misma solicitud,BU005116,Caso2 CRM Admisiones.csv
+BU001320,REG004529,valor_matricula_cop,,null,2200000.00,recuperación desde matrícula base CRM para la misma solicitud,BU005122,Caso2 CRM Admisiones.csv
+BU002470,REG004688,valor_matricula_cop,,null,2200000.00,recuperación desde matrícula base CRM para la misma solicitud,BU005140,Caso2 CRM Admisiones.csv

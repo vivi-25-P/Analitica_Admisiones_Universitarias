@@ -1,0 +1,25 @@
+﻿control,correcto
+5500 registros de salida,True
+18 columnas de negocio,True
+500 Oracle conservados,True
+100 CRM integrados con evidencia,True
+13 importes recuperados y 87 conservados,True
+Cambios limitados a importes recuperados,True
+Fechas periodos estados e IDs intactos,True
+Códigos de registro únicos,True
+5640 entradas con destino,True
+Destinos existentes,True
+Fuentes cubiertas,True
+Lectura completa Excel,True
+Lectura completa JSONL,True
+Lectura completa CSV,True
+500 correspondencias Oracle en entregable,True
+3424 identificadores por origen,True
+Identificadores de origen únicos,True
+90 registros sin ID conservados,True
+Registros explicados por vistas de aspirantes,True
+COP con dos decimales exactos,True
+Fuentes originales intactas,True
+Entrada preparada y libro intactos,True
+Entrada L11 intacta,True
+Similitud señalada en ambos registros relacionados,True

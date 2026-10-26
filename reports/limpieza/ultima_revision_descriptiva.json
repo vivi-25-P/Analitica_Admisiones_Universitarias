@@ -1,10 +1,10 @@
 {
-  "id_ejecucion": "revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_cedd9608",
+  "id_ejecucion": "revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_5cdda3c2",
   "etapa": "L10 resolución parcial y exploración descriptiva",
-  "ejecutado_en": "2026-10-26T12:50:15.102277-05:00",
-  "entrada_L09": "cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_cedd9608",
+  "ejecutado_en": "2026-10-26T13:52:43.898900-05:00",
+  "entrada_L09": "cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_5cdda3c2",
   "sha256_entrada_jsonl": "9fbbe58562ca7e3e1c89c41569082f2c01a162ffd76e65494736661846dc3411",
-  "sha256_codigo_notebook": "cedd960863c66fc3d457c27f5f20ad2aadc992b10f2d0b180a5311e2a0971d20",
+  "sha256_codigo_notebook": "5cdda3c26816523d81b0153a3c8403932b0e279c31b05ae88b0e0149753b0902",
   "sha256_modulo": "03c823d0e68638529f4d0256de63381fc4dff8a7ca27d19ed2242ee875ea0e42",
   "sha256_reglas": "b04de70c75dd451e9f5b4b56943b62f9c4cb64250bbd9d3fdd03ffce2c36e6b5",
   "filas_entrada": 5602,
@@ -77,12 +77,12 @@
     "controles_correctos": 15,
     "incidencias_heredadas_resueltas": 5
   },
-  "datos_salida": "data/processed/taller_2/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_cedd9608",
-  "auditoria": "reports/limpieza/ejecuciones/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_cedd9608",
-  "figuras": "reports/figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_cedd9608",
+  "datos_salida": "data/processed/taller_2/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_5cdda3c2",
+  "auditoria": "reports/limpieza/ejecuciones/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_5cdda3c2",
+  "figuras": "reports/figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_5cdda3c2",
   "archivos_datos": {
     "BaseUnificada_Revision.csv": "3973db4f87df6b3b3d335c85b2d8c1c7b33aaac4c746059606360e02f35963d5",
-    "BaseUnificada_Revision.xlsx": "43929206668219e1f2155a12f4f86c464756b64aa2e9ffb964bc49b52ba0e753",
+    "BaseUnificada_Revision.xlsx": "3012d23bcd03a8550236e237abda56a6a17538d314db762d9d8effc973d2367f",
     "BaseUnificada_Revision.jsonl": "f969b959fe19814c1be0ad113e41924944bc012768e506aeaa7e195c226c8d38",
     "Principal_Analisis.csv": "8be851ee77e15efc47b29f94e9eb29bc27bdbdd5da900609717bb5be678947d9"
   },

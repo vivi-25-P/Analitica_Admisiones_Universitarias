@@ -25,10 +25,10 @@ Un registro es una solicitud identificada por su código de origen. La unicidad 
 | Estandarización | Homologación de espacios, tildes, categorías, formatos y tipos. |
 | Ausencias | Separación de valores desconocidos y marcadores. Los identificadores vacíos y nan se representan como ausencia real. |
 | Repeticiones exactas | 38 filas adicionales consolidadas con evidencia de igualdad. |
-| Registros parciales | Dos filas complementarias consolidadas; cinco valores recuperados para REG003600 y REG004804. |
-| Estados | Nuevo agrupado analíticamente como Admitido; Matriculado conservado y estado recibido disponible en Control_Calidad. |
-| CRM | 100 aportes incorporados mediante correspondencia por código y 12 atributos; 13 importes recuperados. |
-| Oracle | 500 registros conservados; sus coincidencias y diferencias se exportan para revisión. |
+| Registros parciales | Dos filas complementarias consolidadas. Cinco valores recuperados para REG003600 y REG004804. |
+| Estados | Nuevo agrupado analíticamente como Admitido. Matriculado conservado y estado recibido disponible en Control_Calidad. |
+| CRM | 100 aportes incorporados mediante correspondencia por código y 12 atributos. 13 importes recuperados. |
+| Oracle | 500 registros conservados. Sus coincidencias y diferencias se exportan para revisión. |
 | Periodos | Códigos 20252, 20261 y 20262 conservados como semestres de ingreso, sin recalcularlos desde las fechas. |
 | Exportación | Excel con datos y controles, CSV, JSONL, informe y gráficos. |
 
@@ -42,17 +42,19 @@ La principal conserva 839 importes ausentes. El conjunto integrado tiene 920 aus
 
 ## 4. Revisión Oracle y procedencia
 
-Los 500 registros Oracle se conservaron. 500 presentan candidatos al comparar 11 atributos excluyendo identificadores y fechas; 49 coinciden también en los dos atributos de fecha comparados. Las reglas utilizan igualdad numérica y mantienen explícitas las ausencias. Una ausencia compartida no constituye evidencia independiente de identidad.
+Los 500 registros Oracle se conservaron. 500 presentan candidatos al comparar 11 atributos excluyendo identificadores y fechas. 49 coinciden también en los dos atributos de fecha comparados. Las reglas utilizan igualdad numérica y mantienen explícitas las ausencias. Una ausencia compartida no constituye evidencia independiente de identidad.
 
 Las sondas se documentan sobre el punto previo a recuperar importes CRM, para no perder candidatos por una recuperación posterior. Coincidencias_Oracle muestra las fechas y los importes finales disponibles. No se cambian los códigos Oracle ni se fusionan personas o solicitudes únicamente por la coincidencia de atributos.
 
 Origen_Registros tiene una fila por registro final y distingue la fuente de origen y las fuentes asociadas. Sus filas se relacionan con BaseUnificada por registro_id y no se anexan como registros nuevos.
 
+El control de similitud ya está aplicado. Se señala en ambos registros relacionados, incluidos los de la principal. Describe atributos coincidentes, sin afirmar identidad del evento ni una tarea de preparación sin ejecutar. Los distintos códigos son convenciones de origen y no se declaran errores.
+
 ## 5. Fechas, periodos y oportunidad
 
 El periodo académico representa el semestre de ingreso reportado. Una solicitud de octubre de 2025 puede corresponder al primer periodo de 2026. Una matrícula realizada antes del inicio de clases no determina por sí sola un periodo distinto. Los códigos recibidos se conservan y no se hacen coincidir automáticamente con las fechas.
 
-Se utiliza una ventana descriptiva de octubre a enero para el primer periodo y de mayo a julio para el segundo. Esta referencia no acredita el calendario oficial. Estar fuera de esa ventana solo genera una observación; no provoca exclusión o reasignación del periodo.
+Se utiliza una ventana descriptiva de octubre a enero para el primer periodo y de mayo a julio para el segundo. Esta referencia no acredita el calendario oficial. Estar fuera de esa ventana solo genera una observación. No provoca exclusión o reasignación del periodo.
 
 Hay 456 registros cuya solicitud tiene un año posterior al periodo reportado. Se mantienen para revisión, sin inventar cuál dato debe cambiarse. Hay 32 matrículas anteriores a la solicitud. Las fechas posteriores al 26 de octubre de 2026 se identifican como posteriores a la referencia de preparación, sin afirmar que sean errores o actividades ya realizadas.
 
@@ -62,7 +64,7 @@ Los intervalos entre solicitud y matrícula se calculan para 1.035 registros con
 
 Se registran 2.924 códigos de aspirante informados en la principal y 500 en Oracle: 3.424 identificadores por origen. La vista Aspirantes_Origen incluye ambos sistemas. Esta suma no confirma personas únicas entre sistemas, porque las correspondencias de identidad siguen siendo candidatas.
 
-Se conservan 90 registros sin código de aspirante. No se interpretan como ese mismo número de personas ni se agrupan como una sola persona. Un código de aspirante puede tener varias solicitudes de distintos programas o periodos. La clasificación por código se basa en cualquier solicitud con matrícula, después admisión sin matrícula y finalmente otros estados; no representa el estado actual.
+Se conservan 90 registros sin código de aspirante. No se interpretan como ese mismo número de personas ni se agrupan como una sola persona. Un código de aspirante puede tener varias solicitudes de distintos programas o periodos. La clasificación por código se basa en cualquier solicitud con matrícula, después admisión sin matrícula y finalmente otros estados. No representa el estado actual.
 
 Para medir registros se cuenta registro_id. Para describir identificadores de aspirante se utiliza la clave de origen de Aspirantes_Origen. Los conteos de aspirantes por programa, canal o estado pueden solaparse y no deben sumarse como nuevas personas. No se presentan tasas definitivas de conversión de personas entre sistemas.
 
@@ -122,11 +124,11 @@ Los importes de la tabla se expresan en COP y los puntajes en su unidad reportad
 | matriculado documentos no completos | 514 |
 | documentacion pendiente con documentos si | 393 |
 
-Las observaciones pueden superponerse en una misma fila y no deben sumarse como solicitudes diferentes. Una ausencia puede ser pertinente para un estado y limitar otro indicador; la falta de fecha de matrícula en una solicitud no matriculada no se declara automáticamente error.
+Las observaciones pueden superponerse en una misma fila y no deben sumarse como solicitudes diferentes. Una ausencia puede ser pertinente para un estado y limitar otro indicador. La falta de fecha de matrícula en una solicitud no matriculada no se declara automáticamente error.
 
 ## 9. Estado de cierre y condiciones de uso
 
-La preparación técnica y la conciliación CRM están completadas. Pasaron 23 controles finales, con lectura completa de Excel, CSV y JSONL y conservación de fuentes. El archivo puede entregarse para revisión y utilizarse en análisis descriptivo de registros con su procedencia y sus alertas.
+La preparación técnica y la conciliación CRM están completadas. Pasaron 24 controles finales, con lectura completa de Excel, CSV y JSONL y conservación de fuentes. El archivo puede entregarse para revisión y utilizarse en análisis descriptivo de registros con su procedencia y sus alertas.
 
 Para afirmar cantidades globales de personas únicas o conversiones entre sistemas sería necesario validar las correspondencias de identidad. Para presentar tarifas, ingresos cobrados o un calendario institucional oficial se requeriría una validación de esos conceptos. Estas limitaciones no provocan la eliminación de registros ni impiden revisar el conjunto integrado.
 
@@ -140,8 +142,8 @@ Se incluyen CSV y JSONL del conjunto, controles CSV, tablas descriptivas, seis g
 
 ## Trazabilidad interna de la ejecución
 
-Datos versionados: `data/processed/taller_2/entrega_v1_6b14cc9ccf_7909b46d_e2c8755f_cedd9608`.
+Datos versionados: `data/processed/taller_2/entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2`.
 
-Auditoría: `reports/limpieza/ejecuciones/entrega_v1_6b14cc9ccf_7909b46d_e2c8755f_cedd9608`.
+Auditoría: `reports/limpieza/ejecuciones/entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2`.
 
-La ejecución entrega_v1_6b14cc9ccf_7909b46d_e2c8755f_cedd9608 conserva cambios por celda, cruces CRM, comparaciones Oracle y destinos de las 5.640 entradas. El resumen vigente será reports/limpieza/ultima_entrega.json. Las fuentes y tablas Docker conservan su estado. El notebook principal reproduce las etapas previas y la preparación del entregable.
+La ejecución entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2 conserva cambios por celda, cruces CRM, comparaciones Oracle y destinos de las 5.640 entradas. El resumen vigente será reports/limpieza/ultima_entrega.json. Las fuentes y tablas Docker conservan su estado. El notebook principal reproduce las etapas previas y la preparación del entregable.

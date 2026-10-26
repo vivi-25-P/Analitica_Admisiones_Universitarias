@@ -1,0 +1,18 @@
+﻿control,correcto
+5600 registros y 18 columnas conservados,True
+Estados conforme a equivalencia documentada,True
+Otros 17 atributos intactos,True
+620 Nuevo reclasificados y sin cambio de Matriculado,True
+5000 solicitudes principales distintas,True
+2924 aspirantes informados sin duplicados,True
+90 solicitudes sin ID conservadas aparte,True
+4910 solicitudes enlazadas a aspirantes informados,True
+Clasificación excluyente suma 2924,True
+5640 entradas con destino,True
+Lectura completa CSV,True
+Lectura completa JSONL,True
+Lectura completa Excel consolidado,True
+Lectura completa Excel principal,True
+Hoja de aspirantes sin pérdida,True
+Solicitudes sin ID exportadas,True
+Entrada L10 intacta,True

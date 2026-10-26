@@ -76,14 +76,14 @@ Pasaron 17 controles de la nueva etapa, con lectura completa de CSV, JSONL y las
 
 ## Gráficos actualizados
 
-![Estados consolidados](../figuras/identidad_estados/identidad_estados_v1_3973db4f87_b26d6f5b_0122a31c_cedd9608/01_estados_consolidados.png)
+![Estados consolidados](../figuras/identidad_estados/identidad_estados_v1_3973db4f87_b26d6f5b_0122a31c_5cdda3c2/01_estados_consolidados.png)
 
-![Aspirantes sin doble conteo](../figuras/identidad_estados/identidad_estados_v1_3973db4f87_b26d6f5b_0122a31c_cedd9608/02_aspirantes_sin_doble_conteo.png)
+![Aspirantes sin doble conteo](../figuras/identidad_estados/identidad_estados_v1_3973db4f87_b26d6f5b_0122a31c_5cdda3c2/02_aspirantes_sin_doble_conteo.png)
 
 ## Documentación y respaldo
 
-Datos: `data/processed/taller_2/identidad_estados_v1_3973db4f87_b26d6f5b_0122a31c_cedd9608`.
+Datos: `data/processed/taller_2/identidad_estados_v1_3973db4f87_b26d6f5b_0122a31c_5cdda3c2`.
 
-Auditoría: `reports/limpieza/ejecuciones/identidad_estados_v1_3973db4f87_b26d6f5b_0122a31c_cedd9608`.
+Auditoría: `reports/limpieza/ejecuciones/identidad_estados_v1_3973db4f87_b26d6f5b_0122a31c_5cdda3c2`.
 
 La auditoría contiene cambios de estado, correspondencias de las 5.640 entradas, grupos para revisión de historial, comparación entre solicitudes y aspirantes, frecuencias con ambos conteos y un diccionario de indicadores y denominadores. El notebook principal reproduce todas las etapas. Los conteos por programa, canal, modalidad o estado pueden solaparse entre aspirantes y no deben sumarse como un total de personas.

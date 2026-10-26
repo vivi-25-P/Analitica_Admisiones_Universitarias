@@ -13,5 +13,6 @@
   "eliminar_oracle": false,
   "cargar_docker": false,
   "version_presentacion": "1.1",
-  "presentacion": "Oraciones separadas por punto y listas separadas por coma. Se conservan separadores técnicos de fecha y códigos. La similitud de atributos se informa de forma simétrica para los registros de ambas fuentes y no implica una tarea de preparación sin ejecutar."
+  "presentacion": "Oraciones separadas por punto y listas separadas por coma. Se conservan separadores técnicos de fecha y códigos. La similitud de atributos se informa de forma simétrica para los registros de ambas fuentes y no implica una tarea de preparación sin ejecutar.",
+  "directorio_entrega": "deliverables/v1_1"
 }

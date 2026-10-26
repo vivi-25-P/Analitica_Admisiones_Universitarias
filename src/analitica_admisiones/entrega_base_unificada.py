@@ -504,7 +504,7 @@ class EntregaBaseUnificada:
                 ('COP con dos decimales exactos',all(r['valor_matricula_cop'] is None or r['valor_matricula_cop'].as_tuple().exponent==-2 for r in self.all)),
                 ('Fuentes originales intactas',original_ok),('Entrada preparada y libro intactos',prepared_ok),
                 ('Entrada L11 intacta',sha(self.source)==self.input_sha),
-                ('Similitud señalada en ambos registros relacionados',all(i in self.similarity.get(j,set()) for j,items in self.similarity.items() for i in items))]
+                ('Similitud señalada en ambos registros relacionados',all(j in self.similarity.get(i,set()) for j,items in self.similarity.items() for i in items))]
         self.write('controles_finales.csv',[{'control':k,'correcto':bool(v)} for k,v in checks])
         assert all(v for _,v in checks),[k for k,v in checks if not v]
         self.metrics['controles_correctos']=len(checks)
@@ -650,7 +650,7 @@ class EntregaBaseUnificada:
                 if path.is_file():archive.write(path,arcname='BaseUnificada_Entregable/'+str(path.relative_to(self.public)))
         self.verificar_paquete(zip_path,public_meta)
         # Ubicación estable y sencilla para entregar; la versión interna conserva historia.
-        delivery=self.root/'deliverables';delivery.mkdir(exist_ok=True)
+        delivery=self.root/self.rules.get('directorio_entrega','deliverables');delivery.mkdir(parents=True,exist_ok=True)
         for name in ['BaseUnificada_Entregable.xlsx','BaseUnificada_Entregable.csv',
                      'Informe_BaseUnificada_Entregable.pdf','Informe_BaseUnificada_Entregable.md','Metadatos_Entrega.json','Guia_Hojas.md']:
             shutil.copy2(self.public/name,delivery/name)
@@ -663,7 +663,8 @@ class EntregaBaseUnificada:
             'aportes_crm_integrados':100,'importes_recuperados':13,'oracle_conservados':500,
             'metricas':self.metrics,'datos_salida':str(self.out.relative_to(self.root)),
             'auditoria':str(self.audit.relative_to(self.root)),'figuras':str(self.fig.relative_to(self.root)),
-            'entregable':'deliverables/BaseUnificada_Entregable.xlsx','paquete':'deliverables/BaseUnificada_Entregable.zip',
+            'entregable':str((delivery/'BaseUnificada_Entregable.xlsx').relative_to(self.root)),
+            'paquete':str((delivery/'BaseUnificada_Entregable.zip').relative_to(self.root)),
             'archivos_entregables':{str(p.relative_to(self.root)):sha(p) for p in sorted(delivery.iterdir()) if p.is_file()},
             'estado':'Preparación técnica completada y entregable listo para revisión externa',
             'limitaciones':['Identidad de eventos y personas entre sistemas no confirmada','Ausencias conservadas',

@@ -1,0 +1,91 @@
+﻿id_registro_salida,registro_id,aspirante_id,fecha_solicitud,programa,modalidad,canal_captacion,estado_proceso,puntaje_admision,documentos_completos,valor_matricula_cop,ciudad_residencia,asesor,fecha_matricula,correo,periodo_academico,facultad,duracion_semestres,nivel_formacion
+BU000067,REG004804,,2025-09-10,Ingeniería de Sistemas,Virtual,Referido,Documentación pendiente,53.0,Sí,3500000.00,Pasto,Asesor 2,,aspirante001259@ejemplo.com,20261,Ingeniería,8,Pregrado
+BU000097,REG003008,,2025-12-19,Especialización en Data Analytics,Presencial,Instagram,No admitido,82.0,No,3500000.00,Santander de Quilichao,Asesor 2,,aspirante001642@ejemplo.com,20262,Ingeniería,2,Posgrado
+BU000120,REG001994,,2025-11-19,Especialización en Data Analytics,Híbrida,Feria universitaria,Matriculado,92.0,Pendiente,3500000.00,Cali,Asesor 3,2025-12-11,aspirante004083@ejemplo.com,20262,Ingeniería,2,Posgrado
+BU000183,REG004323,,2026-07-14,Psicología,Presencial,Instagram,Inscrito,66.0,Sí,3100000.00,Popayán,Asesor 3,,aspirante000358@ejemplo.com,20261,Ciencias Sociales,10,Pregrado
+BU000251,REG002472,,2025-02-26,Psicología,Presencial,Web institucional,Admitido,88.0,No,3100000.00,Cali,Asesor 1,,aspirante003253@ejemplo.com,20252,Ciencias Sociales,10,Pregrado
+BU000349,REG001072,,2025-12-10,Contaduría Pública,Presencial,Feria universitaria,Retirado,95.0,Sí,3100000.00,Bogotá,Asesor 1,,aspirante002365@ejemplo.com,20262,Ciencias Económicas,10,Pregrado
+BU000370,REG002248,,2025-12-29,Especialización en Data Analytics,Virtual,Feria universitaria,Admitido,72.0,Sí,3500000.00,Bogotá,Sin asignar,,aspirante000007@ejemplo.com,20252,Ingeniería,2,Posgrado
+BU000374,REG004362,,2025-11-13,Especialización en Data Analytics,Virtual,Correo,Retirado,62.0,No,3500000.00,Cali,Asesor 1,,aspirante004158@ejemplo.com,20261,Ingeniería,2,Posgrado
+BU000431,REG004439,,2026-08-16,Contaduría Pública,Virtual,Web institucional,Admitido,85.0,Sí,,Medellín,Asesor 3,,aspirante003785@ejemplo.com,20252,Ciencias Económicas,10,Pregrado
+BU000538,REG004648,,2025-11-29,Especialización en Gerencia,Presencial,Landing page,Admitido,85.0,Sí,2200000.00,Bogotá,Asesor 1,,aspirante000223@ejemplo.com,20261,Ciencias Económicas,2,Posgrado
+BU000567,REG002082,,2025-11-15,Especialización en Gerencia,Virtual,Landing page,Admitido,43.0,No,,Popayán,Asesor 1,,aspirante000197@ejemplo.com,20261,Ciencias Económicas,2,Posgrado
+BU000576,REG001313,,2026-03-26,Derecho,Virtual,Landing page,Matriculado,74.0,No,2200000.00,Medellín,Asesor 2,2026-04-21,aspirante003696@ejemplo.com,20261,Ciencias Sociales,8,Pregrado
+BU000614,REG002050,,2025-04-18,Ingeniería de Sistemas,Virtual,Correo,Matriculado,,No,,Medellín,Asesor 2,2025-05-07,aspirante001229@ejemplo.com,20262,Ingeniería,8,Pregrado
+BU000626,REG000861,,2026-08-29,Especialización en Data Analytics,Virtual,Instagram,Admitido,71.0,No,2200000.00,Popayán,Asesor 1,,aspirante002655@ejemplo.com,20261,Ingeniería,2,Posgrado
+BU000630,REG003716,,2026-01-05,Administración de Empresas,Híbrida,Instagram,Admitido,64.0,No,2200000.00,Pasto,Asesor 2,,aspirante003703@ejemplo.com,20252,Ciencias Económicas,10,Pregrado
+BU000638,REG002568,,2025-01-08,Administración de Empresas,Presencial,Landing page,Admitido,83.0,Sí,1800000.00,Bogotá,Sin asignar,,aspirante000869@ejemplo.com,20262,Ciencias Económicas,10,Pregrado
+BU000668,REG002569,,2025-08-27,Psicología,Virtual,Landing page,Matriculado,77.0,Sí,,Popayán,Sin asignar,2025-08-31,aspirante002359@ejemplo.com,20262,Ciencias Sociales,10,Pregrado
+BU000704,REG001771,,2026-05-03,Derecho,Híbrida,Referido,Admitido,53.0,Sí,2200000.00,Popayán,Asesor 1,,aspirante003163@ejemplo.com,20261,Ciencias Sociales,8,Pregrado
+BU000766,REG001733,,2025-03-04,Especialización en Data Analytics,Presencial,Landing page,Admitido,59.0,Sí,2200000.00,Popayán,Sin asignar,,aspirante003680@ejemplo.com,20252,Ingeniería,2,Posgrado
+BU000768,REG004573,,2026-05-26,Derecho,Virtual,Web institucional,Matriculado,62.0,No,2500000.00,Cali,Asesor 1,2026-07-01,aspirante002575@ejemplo.com,20252,Ciencias Sociales,8,Pregrado
+BU000790,REG004475,,2025-02-11,Derecho,Presencial,Referido,Matriculado,49.0,Sí,3500000.00,Bogotá,Asesor 1,2025-03-24,aspirante000232@ejemplo.com,20261,Ciencias Sociales,8,Pregrado
+BU000812,REG001202,,2026-03-14,Especialización en Data Analytics,Presencial,Web institucional,Matriculado,62.0,No,1800000.00,Pasto,Asesor 2,2026-05-03,aspirante003344@ejemplo.com,20262,Ingeniería,2,Posgrado
+BU000821,REG000374,,2026-05-09,Administración de Empresas,Híbrida,Referido,Admitido,51.0,No,,Cali,Asesor 2,,aspirante003461@ejemplo.com,20262,Ciencias Económicas,10,Pregrado
+BU001229,REG004010,,2025-08-06,Especialización en Data Analytics,Presencial,Instagram,No admitido,79.0,No,2500000.00,Santander de Quilichao,Asesor 1,,aspirante002948@ejemplo.com,20262,Ingeniería,2,Posgrado
+BU001236,REG000409,,2025-06-09,Contaduría Pública,Presencial,Correo,Documentación pendiente,46.0,No,2200000.00,Cali,Asesor 1,,aspirante001917@ejemplo.com,20262,Ciencias Económicas,10,Pregrado
+BU001374,REG002565,,2026-07-22,Especialización en Data Analytics,Presencial,Landing page,Admitido,47.0,Pendiente,3100000.00,Cali,Asesor 2,,aspirante002012@ejemplo.com,20262,Ingeniería,2,Posgrado
+BU001428,REG002324,,2025-07-30,Derecho,Virtual,Web institucional,Retirado,81.0,Sí,3100000.00,Bogotá,Asesor 1,,aspirante002459@ejemplo.com,20252,Ciencias Sociales,8,Pregrado
+BU001441,REG001878,,2025-10-04,Especialización en Data Analytics,Virtual,Web institucional,Documentación pendiente,66.0,No,2500000.00,Pasto,Asesor 3,,aspirante003293@ejemplo.com,20252,Ingeniería,2,Posgrado
+BU001459,REG003572,,2026-05-07,Administración de Empresas,Virtual,Correo,Admitido,76.0,Sí,1800000.00,Popayán,Asesor 1,,aspirante001362@ejemplo.com,20252,Ciencias Económicas,10,Pregrado
+BU001541,REG002884,,2025-11-04,Derecho,Virtual,Feria universitaria,Matriculado,56.0,Sí,3100000.00,Pasto,Asesor 1,2025-12-31,aspirante003033@ejemplo.com,20262,Ciencias Sociales,8,Pregrado
+BU001551,REG000591,,2026-06-11,Especialización en Data Analytics,Presencial,Instagram,Matriculado,54.0,Sí,2200000.00,Cali,Asesor 1,2026-07-27,aspirante003258@ejemplo.com,20261,Ingeniería,2,Posgrado
+BU001559,REG001112,,2025-08-18,Derecho,Presencial,Referido,Admitido,80.0,Pendiente,2500000.00,Medellín,Asesor 2,,aspirante000174@ejemplo.com,20252,Ciencias Sociales,8,Pregrado
+BU001773,REG003962,,2026-06-02,Psicología,Híbrida,Landing page,Matriculado,42.0,Sí,2200000.00,Medellín,Asesor 1,2026-06-05,aspirante000845@ejemplo.com,20262,Ciencias Sociales,10,Pregrado
+BU001803,REG001692,,2025-02-11,Psicología,Virtual,Referido,Matriculado,,Sí,1800000.00,Santander de Quilichao,Asesor 3,2025-02-14,aspirante003253@ejemplo.com,20262,Ciencias Sociales,10,Pregrado
+BU001859,REG001449,,2025-12-12,Especialización en Gerencia,Presencial,Feria universitaria,Admitido,71.0,Sí,2200000.00,Medellín,Asesor 3,,aspirante000611@ejemplo.com,20261,Ciencias Económicas,2,Posgrado
+BU001906,REG002712,,2025-05-25,Derecho,Presencial,Referido,Matriculado,81.0,No,3500000.00,Bogotá,Asesor 1,2025-06-29,aspirante001723@ejemplo.com,20252,Ciencias Sociales,8,Pregrado
+BU001913,REG002970,,2026-07-30,Derecho,Presencial,Feria universitaria,No admitido,79.0,Sí,2200000.00,Bogotá,Asesor 3,,aspirante000633@ejemplo.com,20261,Ciencias Sociales,8,Pregrado
+BU002025,REG001252,,2026-08-14,Ingeniería de Sistemas,Híbrida,Feria universitaria,Documentación pendiente,47.0,Sí,3100000.00,Popayán,Asesor 1,,aspirante001831@ejemplo.com,20262,Ingeniería,8,Pregrado
+BU002030,REG001807,,2026-03-30,Especialización en Data Analytics,Virtual,Feria universitaria,Admitido,60.0,Sí,,Pasto,Asesor 1,,aspirante003736@ejemplo.com,20252,Ingeniería,2,Posgrado
+BU002047,REG004957,,2025-09-19,Derecho,Virtual,Feria universitaria,Retirado,47.0,No,2500000.00,Santander de Quilichao,Asesor 3,,aspirante002635@ejemplo.com,20262,Ciencias Sociales,8,Pregrado
+BU002178,REG004740,,2026-01-31,Psicología,Virtual,Correo,Admitido,61.0,Sí,1800000.00,Bogotá,Sin asignar,,aspirante002966@ejemplo.com,20262,Ciencias Sociales,10,Pregrado
+BU002216,REG000733,,2026-05-17,Derecho,Presencial,Correo,Retirado,75.0,Sí,,Pasto,Asesor 1,,aspirante003793@ejemplo.com,20262,Ciencias Sociales,8,Pregrado
+BU002255,REG003800,,2025-08-28,Especialización en Gerencia,Presencial,Referido,Documentación pendiente,93.0,Sí,,Bogotá,Asesor 1,,aspirante001408@ejemplo.com,20262,Ciencias Económicas,2,Posgrado
+BU002282,REG000805,,2025-07-24,Especialización en Data Analytics,Presencial,Referido,No admitido,95.0,Sí,1800000.00,Bogotá,Asesor 1,,aspirante003985@ejemplo.com,20252,Ingeniería,2,Posgrado
+BU002288,REG001600,,2026-06-14,Derecho,Presencial,Web institucional,Inscrito,68.0,Pendiente,1800000.00,Bogotá,Asesor 3,,aspirante003583@ejemplo.com,20262,Ciencias Sociales,8,Pregrado
+BU002353,REG003448,,2026-07-13,Derecho,Virtual,Correo,Matriculado,95.0,Pendiente,3500000.00,Popayán,Asesor 1,2026-09-01,aspirante002576@ejemplo.com,20262,Ciencias Sociales,8,Pregrado
+BU002398,REG001904,,2025-12-27,Ingeniería de Sistemas,Presencial,Correo,Matriculado,76.0,Sí,3500000.00,Popayán,Asesor 1,2026-01-19,aspirante001843@ejemplo.com,20261,Ingeniería,8,Pregrado
+BU002403,REG000041,,2025-02-11,Psicología,Virtual,Landing page,Retirado,40.0,Sí,2500000.00,Popayán,Sin asignar,,aspirante003099@ejemplo.com,20262,Ciencias Sociales,10,Pregrado
+BU002419,REG004742,,2025-03-04,Administración de Empresas,Virtual,Landing page,Matriculado,60.0,Pendiente,2200000.00,Bogotá,Asesor 3,2025-03-10,aspirante000653@ejemplo.com,20262,Ciencias Económicas,10,Pregrado
+BU002436,REG000798,,2025-04-30,Especialización en Data Analytics,Presencial,Landing page,Matriculado,92.0,Pendiente,2500000.00,Popayán,Asesor 1,2025-06-07,aspirante004090@ejemplo.com,20252,Ingeniería,2,Posgrado
+BU002534,REG004403,,2025-05-31,Derecho,Virtual,Landing page,Admitido,40.0,Sí,3100000.00,Popayán,Sin asignar,,aspirante000309@ejemplo.com,20262,Ciencias Sociales,8,Pregrado
+BU002689,REG004438,,2025-10-13,Especialización en Data Analytics,Presencial,Landing page,Inscrito,87.0,Sí,,Medellín,Asesor 1,,aspirante002449@ejemplo.com,20262,Ingeniería,2,Posgrado
+BU002707,REG000037,,2025-01-18,Administración de Empresas,Presencial,Web institucional,Admitido,56.0,Sí,3500000.00,Popayán,Sin asignar,,aspirante002423@ejemplo.com,20262,Ciencias Económicas,10,Pregrado
+BU002710,REG000232,,2026-03-19,Especialización en Data Analytics,Híbrida,Landing page,Admitido,82.0,Sí,2200000.00,Medellín,Asesor 3,,aspirante001517@ejemplo.com,20261,Ingeniería,2,Posgrado
+BU002872,REG002480,,2025-10-28,Especialización en Gerencia,Híbrida,Feria universitaria,Retirado,94.0,No,,Santander de Quilichao,Asesor 2,,aspirante003411@ejemplo.com,20261,Ciencias Económicas,2,Posgrado
+BU002952,REG000459,,2026-04-11,Ingeniería de Sistemas,Virtual,Referido,No admitido,76.0,Sí,2200000.00,Popayán,Asesor 1,,aspirante002558@ejemplo.com,20261,Ingeniería,8,Pregrado
+BU003044,REG004986,,2025-10-02,Contaduría Pública,Virtual,Feria universitaria,No admitido,87.0,Pendiente,2500000.00,Medellín,Asesor 3,,aspirante001310@ejemplo.com,20262,Ciencias Económicas,10,Pregrado
+BU003220,REG003181,,2025-09-28,Especialización en Data Analytics,Virtual,Referido,Matriculado,43.0,Sí,2200000.00,Bogotá,Asesor 1,2025-11-18,aspirante004086@ejemplo.com,20262,Ingeniería,2,Posgrado
+BU003239,REG002220,,2026-06-09,Derecho,Híbrida,Landing page,Retirado,96.0,Sí,2500000.00,Santander de Quilichao,Asesor 1,,aspirante001732@ejemplo.com,20262,Ciencias Sociales,8,Pregrado
+BU003279,REG003237,,2025-05-13,Especialización en Data Analytics,Presencial,Correo,Documentación pendiente,47.0,Sí,,Bogotá,Asesor 3,,aspirante000101@ejemplo.com,20252,Ingeniería,2,Posgrado
+BU003293,REG003651,,2025-08-13,Especialización en Data Analytics,Híbrida,Instagram,No admitido,87.0,Sí,2500000.00,Cali,Asesor 1,,aspirante003837@ejemplo.com,20262,Ingeniería,2,Posgrado
+BU003321,REG004592,,2025-07-07,Especialización en Gerencia,Virtual,Instagram,Admitido,60.0,Sí,2200000.00,Cali,Asesor 1,,,20252,Ciencias Económicas,2,Posgrado
+BU003379,REG002257,,2026-08-30,Especialización en Data Analytics,Híbrida,Landing page,Inscrito,,Sí,1800000.00,Bogotá,Asesor 3,,aspirante003497@ejemplo.com,20252,Ingeniería,2,Posgrado
+BU003395,REG000380,,2025-12-28,Especialización en Data Analytics,Híbrida,Instagram,Admitido,58.0,Sí,2500000.00,Medellín,Sin asignar,,aspirante000366@ejemplo.com,20252,Ingeniería,2,Posgrado
+BU003409,REG000290,,2025-06-01,Especialización en Data Analytics,Virtual,Referido,Documentación pendiente,52.0,Sí,,Bogotá,Asesor 1,,aspirante003552@ejemplo.com,20262,Ingeniería,2,Posgrado
+BU003463,REG004847,,2026-08-02,Especialización en Data Analytics,Presencial,Correo,Matriculado,85.0,Pendiente,3500000.00,Pasto,Asesor 3,2026-08-24,aspirante003603@ejemplo.com,20252,Ingeniería,2,Posgrado
+BU003504,REG002297,,2025-01-12,Ingeniería de Sistemas,Presencial,Instagram,Matriculado,40.0,Sí,3100000.00,Popayán,Asesor 2,2025-01-20,aspirante004141@ejemplo.com,20261,Ingeniería,8,Pregrado
+BU003510,REG003804,,2025-08-31,Especialización en Data Analytics,Presencial,Instagram,Matriculado,44.0,Sí,2200000.00,Cali,Asesor 2,2025-10-12,aspirante003722@ejemplo.com,20261,Ingeniería,2,Posgrado
+BU003628,REG000848,,2025-07-16,Derecho,Presencial,Referido,Retirado,50.0,Sí,1800000.00,Popayán,Asesor 3,,,20262,Ciencias Sociales,8,Pregrado
+BU003647,REG000860,,2025-08-14,Contaduría Pública,Presencial,Web institucional,Admitido,52.0,Pendiente,3500000.00,Bogotá,Asesor 1,,aspirante000644@ejemplo.com,20262,Ciencias Económicas,10,Pregrado
+BU003673,REG002952,,2025-06-27,Especialización en Data Analytics,Presencial,Landing page,Admitido,56.0,Sí,3500000.00,Cali,Asesor 2,,aspirante001049@ejemplo.com,20262,Ingeniería,2,Posgrado
+BU003685,REG001888,,2025-08-02,Ingeniería de Sistemas,Híbrida,Landing page,Admitido,91.0,Sí,1800000.00,Santander de Quilichao,Asesor 2,,aspirante003470@ejemplo.com,20261,Ingeniería,8,Pregrado
+BU003701,REG004657,,2026-03-20,Especialización en Data Analytics,Presencial,Landing page,Admitido,50.0,No,2500000.00,Santander de Quilichao,Asesor 2,,aspirante000533@ejemplo.com,20252,Ingeniería,2,Posgrado
+BU003707,REG002690,,2026-05-08,Especialización en Data Analytics,Presencial,Instagram,No admitido,59.0,Pendiente,,Medellín,Asesor 2,,aspirante001241@ejemplo.com,20261,Ingeniería,2,Posgrado
+BU003790,REG000415,,2026-06-04,Derecho,Presencial,Referido,Admitido,57.0,Pendiente,2200000.00,Bogotá,Asesor 2,,aspirante002783@ejemplo.com,20252,Ciencias Sociales,8,Pregrado
+BU003805,REG003384,,2025-04-10,Derecho,Híbrida,Instagram,Admitido,58.0,Sí,2200000.00,Popayán,Asesor 1,,aspirante002017@ejemplo.com,20261,Ciencias Sociales,8,Pregrado
+BU003960,REG001618,,2025-11-22,Administración de Empresas,Presencial,Correo,Admitido,84.0,Pendiente,3500000.00,Popayán,Sin asignar,,aspirante000208@ejemplo.com,20262,Ciencias Económicas,10,Pregrado
+BU003966,REG004137,,2025-09-19,Derecho,Presencial,Landing page,Retirado,55.0,Sí,,Santander de Quilichao,Asesor 3,,aspirante001796@ejemplo.com,20262,Ciencias Sociales,8,Pregrado
+BU004192,REG002090,,2025-01-14,Especialización en Data Analytics,Presencial,Web institucional,Documentación pendiente,63.0,No,,Medellín,Asesor 1,,aspirante000280@ejemplo.com,20252,Ingeniería,2,Posgrado
+BU004432,REG000318,,2025-01-01,Especialización en Data Analytics,Presencial,Landing page,Admitido,54.0,Sí,3500000.00,Pasto,Asesor 2,,aspirante002922@ejemplo.com,20261,Ingeniería,2,Posgrado
+BU004454,REG000402,,2026-02-14,Administración de Empresas,Presencial,Correo,No admitido,95.0,Pendiente,3500000.00,Pasto,Sin asignar,,aspirante000778@ejemplo.com,20252,Ciencias Económicas,10,Pregrado
+BU004467,REG001993,,2025-08-09,Especialización en Data Analytics,Híbrida,Landing page,Admitido,41.0,No,3500000.00,Pasto,Asesor 2,,aspirante001280@ejemplo.com,20262,Ingeniería,2,Posgrado
+BU004473,REG000769,,2025-02-04,Especialización en Gerencia,Presencial,Instagram,Retirado,74.0,Sí,2200000.00,Popayán,Asesor 1,,aspirante002604@ejemplo.com,20262,Ciencias Económicas,2,Posgrado
+BU004490,REG003803,,2025-07-28,Ingeniería de Sistemas,Virtual,Instagram,Retirado,70.0,Sí,3100000.00,Bogotá,Asesor 1,,aspirante003127@ejemplo.com,20262,Ingeniería,8,Pregrado
+BU004491,REG003687,,2026-01-12,Contaduría Pública,Presencial,Web institucional,Inscrito,50.0,Sí,3500000.00,Santander de Quilichao,Asesor 1,,aspirante001819@ejemplo.com,20261,Ciencias Económicas,10,Pregrado
+BU004506,REG003053,,2026-06-16,Contaduría Pública,Virtual,Web institucional,Retirado,73.0,Sí,,Cali,Asesor 1,,aspirante000487@ejemplo.com,20262,Ciencias Económicas,10,Pregrado
+BU004558,REG000420,,2025-07-29,Derecho,Presencial,Feria universitaria,Admitido,74.0,Sí,2500000.00,Cali,Asesor 1,,aspirante003822@ejemplo.com,20262,Ciencias Sociales,8,Pregrado
+BU004619,REG001029,,2026-08-24,Derecho,Virtual,Web institucional,Inscrito,61.0,Pendiente,2500000.00,Cali,Asesor 2,,aspirante001101@ejemplo.com,20252,Ciencias Sociales,8,Pregrado
+BU004655,REG000263,,2025-11-03,Contaduría Pública,Presencial,Feria universitaria,No admitido,61.0,Sí,3100000.00,Cali,Asesor 2,,aspirante002503@ejemplo.com,20261,Ciencias Económicas,10,Pregrado
+BU005006,REG002875,,2025-08-13,Contaduría Pública,Presencial,Instagram,Matriculado,,Pendiente,,Cali,Asesor 1,2025-09-10,aspirante002276@ejemplo.com,20252,Ciencias Económicas,10,Pregrado

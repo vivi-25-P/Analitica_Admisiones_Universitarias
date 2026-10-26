@@ -4,6 +4,8 @@ import csv
 import hashlib
 import json
 import os
+import shutil
+from collections import Counter
 
 os.environ.setdefault('MPLCONFIGDIR','/tmp/admisiones-matplotlib')
 Path(os.environ['MPLCONFIGDIR']).mkdir(parents=True,exist_ok=True)
@@ -56,6 +58,40 @@ ax.text(.5,.035,'La figura cuenta registros, no personas únicas.',ha='center',f
 fig.subplots_adjust(left=.015,right=.985,top=.98,bottom=.02)
 for ext in ['png','pdf']:fig.savefig(OUT/f'conciliacion_registros.{ext}',bbox_inches='tight',facecolor='white')
 plt.close(fig)
+
+public=ROOT/summary['datos_salida']/'entregable'
+with (public/'Control_Calidad.csv').open(encoding='utf-8-sig',newline='') as handle:
+    quality=list(csv.DictReader(handle))
+assert len(quality)==5500
+received=Counter(r['estado_recibido'] for r in quality)
+analytical=Counter(r['estado_analitico'] for r in quality)
+states=['Nuevo','Admitido','Matriculado','Inscrito','Documentación pendiente','No admitido','Retirado']
+fig,ax=plt.subplots(figsize=(9,4.8))
+y=list(range(len(states)))
+ax.barh([v-.2 for v in y],[received[s] for s in states],height=.38,color='#91AEBE',label='Estado recibido')
+bars=ax.barh([v+.2 for v in y],[analytical[s] for s in states],height=.38,color='#226C95',label='Estado homologado')
+ax.bar_label(bars,padding=3)
+ax.set_yticks(y,states);ax.invert_yaxis()
+ax.set_xlabel('Registros integrados, mismo conjunto de 5.500 filas')
+ax.set_title('Homologación de estados sin modificar la cantidad de registros')
+ax.legend(loc='lower right');ax.spines[['top','right']].set_visible(False)
+fig.tight_layout()
+for ext in ['png','pdf']:fig.savefig(OUT/f'homologacion_estados.{ext}',bbox_inches='tight',facecolor='white')
+plt.close(fig)
+for ext in ['png','pdf']:
+    shutil.copy2(ROOT/summary['figuras']/f'05_cobertura_temporal.{ext}',OUT/f'cobertura_temporal.{ext}')
+(OUT/'ubicacion_graficos.md').write_text('''# Ubicación de los gráficos en el informe
+
+| Figura | Ubicación recomendada | Qué demuestra |
+| :--- | :--- | :--- |
+| Conciliación de registros | Limpieza y transformación | Cómo se pasa de 5.640 a 5.500 filas, conservando Oracle. |
+| Homologación de estados | Limpieza y transformación, si se desea mostrar el efecto de la regla | Nuevo se agrupa con Admitido sobre el mismo conjunto de 5.500 filas. No son nuevas admisiones. |
+| Cobertura temporal | Revisión de fechas dentro de limpieza, o al inicio del análisis temporal | Diferencias de cobertura entre fuentes y observaciones de fecha. |
+| Distribución actual de estados | Análisis descriptivo de la base integrada | Cómo se distribuyen los registros entre los estados resultantes. |
+| Programas, modalidades, canales, ciudades e importes | Análisis descriptivo de la base integrada | Patrones administrativos de los registros disponibles. |
+
+Para una sección breve, conservar la tabla de tratamientos y la figura de conciliación. Si las fechas son un punto central, añadir cobertura temporal con su explicación. La homologación de estados sirve como evidencia adicional y puede ir en un anexo. No es necesario repetir todas las figuras del análisis descriptivo dentro de limpieza.
+''',encoding='utf8')
 
 text='# Limpieza y transformación de la base unificada\n\n## Verificación y preparación\n\nLa limpieza se realizó sobre los 5.640 registros y 18 columnas obtenidos después de integrar las fuentes y complementar el catálogo de programas. Se verificó su procedencia y se conservaron los archivos originales como respaldo. Los cambios quedaron registrados para identificar qué información se modificó y cuál fue su origen.\n\nSe uniformaron las categorías y los tipos de información. Las fechas se representaron en formato de año, mes y día. Los valores económicos se conservaron en pesos colombianos y los periodos se homologaron como códigos de semestre de ingreso. Los valores no disponibles se mantuvieron como ausencias, sin sustituirlos por cero, promedios o categorías supuestas.\n\n## Tratamientos aplicados\n\n**Tabla 5. Síntesis de la limpieza y transformación**\n\n| Aspecto | Tratamiento realizado | Resultado |\n| :--- | :--- | :--- |\n| Categorías y estados | Se unificaron variantes de escritura y Nuevo se agrupó analíticamente con Admitido. Matriculado permaneció separado y se conservó el estado recibido. | Categorías comparables, con el criterio de agrupación documentado. |\n| Ausencias | Se homologaron los vacíos y marcadores de información no disponible. Pendiente en documentación y Sin asignar en asesor conservaron su significado. | Ausencias identificadas sin inventar valores. |\n| Registros repetidos y parciales | Se consolidaron 38 repeticiones exactas y dos registros complementarios, recuperando cinco valores desde sus otras filas. | Se conservaron los vínculos con las entradas originales. |\n| Información CRM | Se incorporaron 100 aportes a las solicitudes correspondientes. Se conservaron 87 importes principales y se recuperaron 13 desde matrícula base CRM. Los derechos administrativos quedaron separados. | Se evitó repetir las solicitudes y se recuperó información económica disponible. |\n| Información Oracle | Se conservaron sus 500 registros. Las coincidencias con la principal se identificaron como candidatas, sin eliminarlas por semejanza. | Oracle permanece dentro de la base y del análisis integrado. |\n| Fechas y periodos | Se conservaron los periodos como semestres de ingreso. Las fechas ambiguas y diferencias temporales se señalaron, sin recalcular automáticamente el periodo. | Cada indicador puede identificar qué registros cumplen sus reglas temporales. |\n\n## Conciliación y comprobación del resultado\n\nLa Figura 5 muestra cómo cambió la cantidad de registros. La incorporación del CRM reúne información de solicitudes ya existentes. No representa la pérdida de 100 solicitudes diferentes. Los 500 registros Oracle permanecieron incluidos.\n\n**Figura 5. Conciliación de registros durante la limpieza**\n\n![Conciliación de registros durante la limpieza](conciliacion_registros.png)\n\n*Nota. Elaboración a partir del control de registros. Las cantidades corresponden a filas y no a personas únicas. La reducción reúne 38 repeticiones exactas, dos registros parciales y 100 aportes CRM incorporados a solicitudes existentes.*\n\nLa verificación final aprobó 23 controles, incluidos la conciliación de cantidades, la conservación de las fuentes y la lectura de los archivos exportados. Se obtuvo **BaseUnificada Entregable, con 5.500 registros y 18 columnas**, acompañada de diccionario, procedencia, metodología y controles de calidad.\n\nPermanecen 26 registros sin programa, 90 sin identificador de aspirante, 246 sin puntaje y 920 sin importe. Estas ausencias no se completaron por suposición. También se conservaron las observaciones temporales y las correspondencias entre sistemas no confirmadas. Para el análisis se distingue el conteo de registros del conteo de identificadores de aspirante, evitando presentar varias solicitudes de una persona como personas nuevas.\n'
 (OUT/'seccion_limpieza_transformacion.md').write_text(text,encoding='utf8')

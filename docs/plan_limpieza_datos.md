@@ -304,3 +304,13 @@ L14 publica deliverables/BaseUnificada_Entregable.xlsx, su CSV, un informe forma
 Pasaron 23 controles finales y la lectura completa de Excel, CSV y JSONL. Se conserva el inventario de las 5.640 entradas y se verifican los hashes de fuentes, archivo preparado y libro original. El resumen vigente es reports/limpieza/ultima_entrega.json. El informe interno es reports/limpieza/reporte_final_integracion_y_entrega.md. Las reglas están en config/limpieza/entrega_v1.json y el mismo notebook reproduce todo el proceso. Las tablas Docker no se modificaron.
 
 La preparación técnica queda cerrada para revisión externa y análisis descriptivo de registros. La identidad global entre sistemas, las ausencias no recuperables, el calendario oficial y la falta de fecha de actualización de estado son límites declarados. Para indicadores que requieran esa validación se mantendrán los denominadores y alcances correspondientes; no se sustituyen por supuestos silenciosos.
+
+## 15. Revisión de presentación 1.1 y guía de hojas
+
+El usuario pidió aclarar el uso de las diez hojas, las decisiones aplicadas y el significado de la marca de coincidencia, y reducir punto y coma y guiones en la redacción. La revisión 1.1 conserva los 5.500 registros y las 18 columnas de BaseUnificada. Las listas usan comas y las oraciones puntos. Se mantienen los separadores técnicos de fecha y los códigos originales.
+
+La marca coincidencia_oracle_pendiente se reemplaza por similitud_entre_fuentes_detectada. Se señala en ambos registros relacionados, de la principal y Oracle. Describe un resultado del control de atributos y no una transformación omitida. El cruce está ejecutado. La identidad del evento sigue sin confirmación, lo que se conserva como límite de la información. Los distintos códigos de origen no se declaran errores.
+
+Metodologia incorpora decisiones aplicadas y aspectos no confirmados. Guia_Hojas.md y Guia_Hojas.csv explican las diez hojas, sus filas y función. La última celda del notebook conserva la validación y exportación, muestra la guía y los totales y no repite el informe completo. El Excel previo estaba abierto y bloqueó la sustitución, por lo que la actualización se publica en deliverables/v1_1, conservando la versión anterior.
+
+La revisión añade el control de simetría, con 24 comprobaciones finales, y un control explícito de textos sin punto y coma en el paquete. Los estados antes y después se comparan sobre el mismo universo de 5.500 filas en reports/apoyo_informe_drive/homologacion_estados.png. La cobertura temporal también queda disponible como apoyo. La guía de ubicación distingue figuras de tratamiento y calidad de los gráficos descriptivos de programas, canales y estados resultantes.

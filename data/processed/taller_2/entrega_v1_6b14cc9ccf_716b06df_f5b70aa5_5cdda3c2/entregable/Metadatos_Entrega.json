@@ -1,0 +1,150 @@
+{
+  "titulo": "BaseUnificada Entregable",
+  "institucion": "Instituto Universitario Horizonte",
+  "version": "1.1",
+  "fecha_preparacion": "2026-10-26",
+  "filas": 5500,
+  "columnas": 18,
+  "fuentes": {
+    "registros_principales": 5000,
+    "aportes_crm_integrados": 100,
+    "registros_oracle_incluidos": 500
+  },
+  "identificadores_aspirante_por_origen": 3424,
+  "personas_globales_unicas_confirmadas": false,
+  "registros_sin_identificador": 90,
+  "control_final": {
+    "comprobaciones_correctas": 24
+  },
+  "formatos": {
+    "csv": "UTF8 con BOM, coma delimitadora, punto decimal",
+    "fecha": "AAAA-MM-DD",
+    "moneda": "COP, dos decimales"
+  },
+  "archivos": {
+    "Aspirantes_Origen.csv": {
+      "sha256": "9b295a4fc482953f33e0ae49e7d30d3d358dfa9bd4f084256ee49309e6a9ab81",
+      "bytes": 661984
+    },
+    "BaseUnificada_Entregable.csv": {
+      "sha256": "6ac4c96e1bd088efda10c1d1f6f3aa93a6e87473e997ac3332676122408f08ed",
+      "bytes": 1033566
+    },
+    "BaseUnificada_Entregable.jsonl": {
+      "sha256": "6be0de06c73055c81f78324874fd8d4edc2ebaeec2586057bd5dc4643c36cc4d",
+      "bytes": 3027310
+    },
+    "BaseUnificada_Entregable.xlsx": {
+      "sha256": "6e8df53e38d7f9bc3dd3f7570c065543fddcf839d0eb2d158ca9792527511745",
+      "bytes": 1186683
+    },
+    "Coincidencias_Oracle.csv": {
+      "sha256": "f62b07b63eae29aa69260b6a66cd305e7e652100e18dd55d596401700cd03bbd",
+      "bytes": 113463
+    },
+    "Control_Calidad.csv": {
+      "sha256": "f19110cca4ac65c98a9ca83899afde670c2ac1d1bb3d86b319c2eb5076f7b704",
+      "bytes": 815703
+    },
+    "Control_Economico.csv": {
+      "sha256": "1fedce3db6dd783aa66b0f3fc6ec62c5c410de0e1ae6919b36c071cb646d9c6a",
+      "bytes": 10891
+    },
+    "Cruces_Descriptivos.csv": {
+      "sha256": "26d11e242f6fd1cb29c97f066bae7752acadd34994a129236b3425f9726b09d7",
+      "bytes": 9515
+    },
+    "Diccionario_Datos.csv": {
+      "sha256": "81d376e5736cec660865380ed7cf96d9dee6eb3de80654e535945d633daffa4f",
+      "bytes": 3283
+    },
+    "Estadisticas_Numericas.csv": {
+      "sha256": "17837db12107bc684f6e4a4ba2a1d83eba5ce3f882888a420fcdfd778aede66c",
+      "bytes": 1099
+    },
+    "Frecuencias.csv": {
+      "sha256": "88b43505eb9f0d5a71daea96e5d79d03130b77bf4a8d5541b357b2dfcdf7175d",
+      "bytes": 6930
+    },
+    "Graficos/01_estados_integrados.pdf": {
+      "sha256": "0d6e41e93d69fff9031396eba41f0588fff99483e65eaed430c0692642d33336",
+      "bytes": 16616
+    },
+    "Graficos/01_estados_integrados.png": {
+      "sha256": "8918808c4258547292fb95092ddac86c9edf4ef099e8ea315256c56c7bedacff",
+      "bytes": 52261
+    },
+    "Graficos/02_programas_modalidades.pdf": {
+      "sha256": "4d56f9ee3a46ae58c95eac4fd795901fd66009fb069e8dbb29fd276bd54158fb",
+      "bytes": 18264
+    },
+    "Graficos/02_programas_modalidades.png": {
+      "sha256": "44fc07036e74df2be626e31cfe6283ab763fef8a49644705176f503b08b3fa06",
+      "bytes": 56855
+    },
+    "Graficos/03_canales_estados.pdf": {
+      "sha256": "4c236ef5c4a7f989c251b53b5558a509b1e0f0e8c9e755cd174c5257aec2725e",
+      "bytes": 16356
+    },
+    "Graficos/03_canales_estados.png": {
+      "sha256": "866871b2cb936792c7a7591bd3623f75975e07a77635cc145012455e5367f74d",
+      "bytes": 51840
+    },
+    "Graficos/04_importes_modalidad.pdf": {
+      "sha256": "2b534d9c09ea65f1a73319e82bd4fbc600bd58dc06ee4f98f9835506c238ce09",
+      "bytes": 18969
+    },
+    "Graficos/04_importes_modalidad.png": {
+      "sha256": "f3eba8e8d5ef20eb7e3cd015a9489a16517dac98c1bcd988de05c13bac10ce09",
+      "bytes": 44027
+    },
+    "Graficos/05_cobertura_temporal.pdf": {
+      "sha256": "9963248339d06cada102098eeeb1568ade8615457a091765fec3daf1254753f6",
+      "bytes": 19657
+    },
+    "Graficos/05_cobertura_temporal.png": {
+      "sha256": "355b2eb0a2e877f7aeb3c9a11210c68486dcc7569af178987a0103259471a822",
+      "bytes": 123260
+    },
+    "Graficos/06_ciudades_modalidades.pdf": {
+      "sha256": "3cf1413b66ccbd646171c68f27b0d8387fcc3ef0ef2a8b6230bad0425d6d22fb",
+      "bytes": 16332
+    },
+    "Graficos/06_ciudades_modalidades.png": {
+      "sha256": "a7d867a7de0abad2e23b5ce64630ec92a74f516aca7dacfd64b457f612693917",
+      "bytes": 40177
+    },
+    "Guia_Hojas.csv": {
+      "sha256": "746dfaeaf8b5cbf99022f7f4e46694f1963db979463159adfca15126281df21a",
+      "bytes": 1094
+    },
+    "Guia_Hojas.md": {
+      "sha256": "ff20f2981348f119dc2d2d1c70e2f408dbce35acf3de154269d5f8ac6231b852",
+      "bytes": 1649
+    },
+    "Informe_BaseUnificada_Entregable.md": {
+      "sha256": "57f3dfb4fb95ca2840288a02aee0eedd02fe6e57739fd8e71a70198b4d20eb6c",
+      "bytes": 11833
+    },
+    "Informe_BaseUnificada_Entregable.pdf": {
+      "sha256": "e7fb8fc5b14590d56fcd445e662507efb8602773d4694ed7587fa5976fadb8a5",
+      "bytes": 513971
+    },
+    "LEEME.md": {
+      "sha256": "834e90db48fce18b1447703e81402a520ecdfe7b79f5fb41a1d431c1bd54b3ca",
+      "bytes": 1173
+    },
+    "Origen_Registros.csv": {
+      "sha256": "872cd36635649c31f25c5b84edd1d8174d8a3a6eda9a57634057194f90396c97",
+      "bytes": 679214
+    },
+    "Registros_Sin_ID.csv": {
+      "sha256": "a367635c309220af3fc6bb8f60bfb02fe4195dce10f1ce710e546cf04eee2368",
+      "bytes": 12489
+    },
+    "Serie_Mensual.csv": {
+      "sha256": "4ab62eee50d5510f90ab12b245e0ff57d53c092f4edd4b468d4428bddceabe28",
+      "bytes": 583
+    }
+  }
+}

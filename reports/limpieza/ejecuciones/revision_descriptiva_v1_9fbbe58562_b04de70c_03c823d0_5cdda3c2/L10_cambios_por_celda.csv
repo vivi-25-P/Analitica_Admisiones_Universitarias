@@ -1,0 +1,6 @@
+﻿id_ejecucion,paso,registro_id,id_representante,columna,valor_anterior,tipo_anterior,valor_posterior,tipo_posterior,fila_evidencia,regla
+revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_5cdda3c2,L10,REG003600,BU001611,valor_matricula_cop,,ausencia,1800000.00,Decimal,BU002213,complementar ausencia con único valor informado; resto de atributos iguales
+revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_5cdda3c2,L10,REG004804,BU000067,programa,,ausencia,Ingeniería de Sistemas,str,BU003166,complementar ausencia con único valor informado; resto de atributos iguales
+revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_5cdda3c2,L10,REG004804,BU000067,facultad,,ausencia,Ingeniería,str,BU003166,complementar ausencia con único valor informado; resto de atributos iguales
+revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_5cdda3c2,L10,REG004804,BU000067,duracion_semestres,,ausencia,8,int,BU003166,complementar ausencia con único valor informado; resto de atributos iguales
+revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_5cdda3c2,L10,REG004804,BU000067,nivel_formacion,,ausencia,Pregrado,str,BU003166,complementar ausencia con único valor informado; resto de atributos iguales
