@@ -23,7 +23,7 @@ md('''
 Este cuaderno sigue el orden del plan en `docs/plan_limpieza_datos.md`.
 La integración previa se conserva en el libro de manejo y la entrada congelada.
 
-**Este cuaderno ejecuta L00 a L09:** identificación de la entrada,
+**Este cuaderno ejecuta L00 a L10:** identificación de la entrada,
 reconstrucción comprobada de la procedencia y estandarización textual mediante
 catálogos explícitos. L01 deja documentadas las decisiones económicas, temporales
 y de catálogo que siguen pendientes; no las da por resueltas. L03 representa las
@@ -37,7 +37,9 @@ No se imputan valores, se altera el valor numérico de importes ni se corrigen f
 por aproximación. El resultado es una base preparada para revisión y análisis
 descriptivo provisional, con decisiones administrativas pendientes. L02 conserva los marcadores recibidos;
 L03 aplica las reglas de ausencia documentadas sin completar datos por suposición.
-Los vacíos y nan de identificadores seguirán sin modificarse hasta los cruces.
+Los vacíos y nan de identificadores se conservan y se revisan mediante controles.
+L10 complementa y consolida los dos parciales con evidencia interna y realiza la
+exploración descriptiva del consolidado y de la cohorte principal sin solapamientos.
 
 Ejecutar desde el principio con el Python del proyecto y los grupos `notebooks`
 y `excel` de uv. Guardar el notebook antes de ejecutarlo para registrar su versión.
@@ -976,6 +978,9 @@ print('Auditoría L04:', L04_AUDIT.relative_to(ROOT))
 from celdas_cierre_limpieza import agregar_cierre
 agregar_cierre(md, code)
 
+from celdas_revision_descriptiva import agregar_revision
+agregar_revision(md, code)
+
 md('''
 ## Qué falta para aprobar la versión final
 
@@ -987,6 +992,8 @@ Las fechas dudosas y los importes con conceptos diferentes siguen señalados.
 L05 revisó el catálogo; L06 consolidó repeticiones exactas con trazabilidad; L07
 identificó conflictos entre fuentes. L08 documentó la coherencia administrativa y
 L09 exportó la versión de revisión, sus controles y las decisiones pendientes.
+L10 complementó y consolidó REG003600 y REG004804. La salida vigente contiene
+5.600 registros y la cohorte principal 5.000 códigos de solicitud distintos.
 Las decisiones del reporte deben validarse y aplicarse mediante reglas versionadas
 antes de aprobar solicitudes únicas y los indicadores administrativos definitivos.
 

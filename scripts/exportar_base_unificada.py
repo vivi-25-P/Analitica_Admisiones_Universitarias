@@ -27,7 +27,7 @@ def serialized(value):
     return str(value)
 
 
-def preserve_empty_text(path, rows):
+def preserve_empty_text(path, rows, worksheet_index=1):
     """Mantiene texto vacío distinto de celda ausente en el Excel nuevo.
 
     openpyxl omite el elemento inlineStr de los textos vacíos al guardar.
@@ -42,7 +42,7 @@ def preserve_empty_text(path, rows):
         entries = [(info, archive.read(info.filename)) for info in archive.infolist()]
     patched = []
     for info, data in entries:
-        if info.filename == "xl/worksheets/sheet1.xml":
+        if info.filename == f"xl/worksheets/sheet{worksheet_index}.xml":
             root = ET.fromstring(data)
             cells_by_position = {cell.attrib["r"]: cell for cell in root.iter(f"{{{namespace}}}c")}
             for pos in positions:

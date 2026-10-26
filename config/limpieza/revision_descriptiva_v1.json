@@ -1,0 +1,24 @@
+{
+  "version": "revision_descriptiva_v1",
+  "fecha_referencia": "2026-10-26",
+  "parciales": {
+    "REG003600": ["valor_matricula_cop"],
+    "REG004804": ["programa", "facultad", "duracion_semestres", "nivel_formacion"]
+  },
+  "regla_parciales": "Exigir dos registros de fuente Principal, igualdad de los demás atributos y un único valor informado en cada columna permitida. Complementar el representante de menor BU y conservar los dos orígenes. No resolver contradicciones entre valores informados.",
+  "fases_analiticas": {
+    "Nuevo": "Gestión inicial",
+    "Inscrito": "Gestión inicial",
+    "Documentación pendiente": "Gestión inicial",
+    "Admitido": "Admisión registrada",
+    "Matriculado": "Matrícula registrada",
+    "No admitido": "No admitido",
+    "Retirado": "Retirado"
+  },
+  "fases_alcance": "Agrupación de presentación en tabla auxiliar. No modifica estado_proceso, no demuestra transiciones, ni que Nuevo sea Admitido.",
+  "cohorte_principal": "Filas de fuente Principal tras consolidar los dos parciales. Una fila por registro_id de esa fuente, sin afirmar aspirantes únicos. CRM y Oracle se describen por separado y no se suman como solicitudes nuevas.",
+  "importes": "Comparar importes Principal por programa, modalidad y periodo. CRM separado por concepto económico. No imputar por promedio, mediana o moda ni modificar importes observados.",
+  "fechas": "Conservar fechas. Señalar formatos ambiguos y referencias futuras. Los tiempos entre solicitud y matrícula requieren ambas fechas sin alertas de formato, no futuras y matrícula no anterior a solicitud. Periodos se evalúan aparte.",
+  "identificadores": "Conservar aspirante_id para trazabilidad y diagnóstico. No usarlo como predictor ni borrarlo por falta de asociación; no recuperar ID deduciéndolo del correo. Coincidencias de correo son candidatos de revisión.",
+  "sin_cambios": ["CRM pendiente de conciliación", "Oracle pendiente de identidad", "fechas sin corrección automática", "estados originales conservados", "18 columnas de negocio"]
+}
