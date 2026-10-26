@@ -1,0 +1,69 @@
+{
+  "id_ejecucion": "tipos_v1_421d1186d3_e559610e_48cdf053_78fc6490",
+  "etapa": "L04",
+  "ejecutado_en": "2026-10-26T11:44:13.969029-05:00",
+  "entrada_l03_id": "ausencias_v1_526ff5e27b_8850cae3_78fc6490",
+  "sha256_entrada_l03_jsonl": "421d1186d31821df2c9401d3220c5840ab00ca7ac86743a990f8b7bb709c537a",
+  "sha256_reglas": "e559610e822395023122dd52d0e3a06631987b0785c2a9f6054532def9b3d6f7",
+  "sha256_modulo_tipado": "48cdf05397114d3bb959c87d29f80981f6e626cd1ef77a403e340b5a973fa04e",
+  "sha256_codigo_notebook": "78fc6490a6c25c36c2409ccae8e2dab009818286462dee61b59026b0a755d086",
+  "filas_entrada": 5640,
+  "filas_salida": 5640,
+  "columnas": 18,
+  "celdas_convertidas": 28186,
+  "errores_conversion": 0,
+  "alertas_validacion": 1293,
+  "filas_con_alertas": 1159,
+  "alertas_por_tipo": {
+    "matriculado_con_documentacion_no_completa": 524,
+    "solicitud_posterior_al_anio_del_periodo": 470,
+    "formato_dia_mes_ambiguo": 237,
+    "matricula_anterior_a_solicitud": 32,
+    "fecha_posterior_a_referencia": 30
+  },
+  "ausencias_conservadas": 5866,
+  "identificadores_sin_cambios": true,
+  "filas_eliminadas": 0,
+  "valores_imputados": 0,
+  "controles_correctos": true,
+  "tipos_logicos": {
+    "registro_id": "texto",
+    "aspirante_id": "texto",
+    "fecha_solicitud": "fecha",
+    "programa": "texto",
+    "modalidad": "texto",
+    "canal_captacion": "texto",
+    "estado_proceso": "texto",
+    "puntaje_admision": "decimal",
+    "documentos_completos": "texto",
+    "valor_matricula_cop": "decimal COP, escala 2",
+    "ciudad_residencia": "texto",
+    "asesor": "texto",
+    "fecha_matricula": "fecha",
+    "correo": "texto",
+    "periodo_academico": "entero identificador",
+    "facultad": "texto",
+    "duracion_semestres": "entero",
+    "nivel_formacion": "texto"
+  },
+  "formato_fecha": "AAAA-MM-DD",
+  "moneda": "COP",
+  "escala_monetaria": 2,
+  "periodos": {
+    "20261": 2291,
+    "20262": 2247,
+    "20252": 1102
+  },
+  "datos_intermedios": "data/interim/taller_2/tipos_v1_421d1186d3_e559610e_48cdf053_78fc6490",
+  "auditoria": "reports/limpieza/ejecuciones/tipos_v1_421d1186d3_e559610e_48cdf053_78fc6490",
+  "archivos_datos": {
+    "BaseUnificada_Tipada.csv": "fd6070e79512fb71993dc9bbc1d9ff9fa8ba1ab110d4e201057ae68bc6de8d54",
+    "BaseUnificada_Tipada.xlsx": "6080f30d43776a39267cecb15351fcee574b843d3d84e2e43e6258454fce1093",
+    "BaseUnificada_Tipada.jsonl": "b6b6136d80a212ca13eca6f808db08030162179e87d91123ffd59d3548d3f1a3"
+  },
+  "limites": [
+    "Convenciones ambiguas y fechas de negocio pendientes de validación",
+    "Importes de distintas fuentes no acreditan equivalencia de concepto ni pagos",
+    "CSV conserva punto decimal; presentación Excel depende de la configuración regional"
+  ]
+}

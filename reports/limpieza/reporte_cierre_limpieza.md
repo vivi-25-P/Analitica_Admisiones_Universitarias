@@ -63,9 +63,9 @@ Las decisiones se aplicarán mediante reglas versionadas y un registro por celda
 
 ## Archivos y trazabilidad
 
-Datos: `data/processed/taller_2/cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_cd91e63a`.
+Datos: `data/processed/taller_2/cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_78fc6490`.
 
-Auditoría: `reports/limpieza/ejecuciones/cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_cd91e63a`.
+Auditoría: `reports/limpieza/ejecuciones/cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_78fc6490`.
 
 El archivo reports/limpieza/ultimo_cierre.json identifica esta ejecución y los hashes de las tres salidas. L09_disposicion_filas.csv enlaza las 5.640 entradas con su salida. L09_incidencias_pendientes.csv conserva los casos individuales y L09_decisiones_pendientes.csv resume las reglas por resolver. Los motivos de ausencia se mantienen en L03 y se recuperan mediante esa relación de entradas.
 

@@ -1,0 +1,90 @@
+{
+  "id_ejecucion": "revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_78fc6490",
+  "etapa": "L10 resolución parcial y exploración descriptiva",
+  "ejecutado_en": "2026-10-26T11:44:42.964118-05:00",
+  "entrada_L09": "cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_78fc6490",
+  "sha256_entrada_jsonl": "9fbbe58562ca7e3e1c89c41569082f2c01a162ffd76e65494736661846dc3411",
+  "sha256_codigo_notebook": "78fc6490a6c25c36c2409ccae8e2dab009818286462dee61b59026b0a755d086",
+  "sha256_modulo": "03c823d0e68638529f4d0256de63381fc4dff8a7ca27d19ed2242ee875ea0e42",
+  "sha256_reglas": "b04de70c75dd451e9f5b4b56943b62f9c4cb64250bbd9d3fdd03ffce2c36e6b5",
+  "filas_entrada": 5602,
+  "filas_salida": 5600,
+  "columnas": 18,
+  "solicitudes_principal": 5000,
+  "metricas": {
+    "L10": {
+      "filas_entrada": 5602,
+      "filas_salida": 5600,
+      "filas_consolidadas": 2,
+      "celdas_recuperadas": 5,
+      "registros_principales": 5000,
+      "registro_id_principal_distintos": 5000,
+      "ausencias_identificadores_homologadas": 94,
+      "marcadores_nan_identificadores": 4
+    },
+    "categorias": {
+      "estados_principal": {
+        "Inscrito": 572,
+        "Matriculado": 1079,
+        "Admitido": 1105,
+        "Nuevo": 560,
+        "Documentación pendiente": 570,
+        "Retirado": 564,
+        "No admitido": 550
+      },
+      "fases_presentacion": {
+        "Gestión inicial": 1702,
+        "Matrícula registrada": 1079,
+        "Admisión registrada": 1105,
+        "Retirado": 564,
+        "No admitido": 550
+      },
+      "documentacion_pendiente_con_documentos_si": 351,
+      "matriculados_documentos_no_o_pendiente": 462
+    },
+    "importes": {
+      "grupos_programa_modalidad_periodo": 63,
+      "grupos_con_cinco_importes": 63,
+      "grupos_con_importe_unico": 0,
+      "comparaciones_virtual_presencial": 21,
+      "virtual_mediana_menor": 1,
+      "virtual_mediana_igual": 18,
+      "virtual_mediana_mayor": 2,
+      "importes_principales_ausentes": 852
+    },
+    "fechas": {
+      "matriculados_principal": 1079,
+      "fechas_matricula_principal": 1079,
+      "matricula_en_estado_distinto": 0,
+      "matricula_ausente_en_matriculados": 0,
+      "solicitudes_principales_formato_ambiguo": 165,
+      "matriculas_principales_anteriores_solicitud": 0,
+      "intervalos_sin_alertas_revisadas": 977,
+      "intervalos_excluidos_del_resumen": 102,
+      "mediana_dias_intervalos_sin_alertas": "33",
+      "fecha_maxima_solicitud_principal": "2026-09-12"
+    },
+    "identificadores": {
+      "solicitudes_principales": 5000,
+      "registro_id_distintos": 5000,
+      "aspirante_id_informados": 4910,
+      "aspirante_id_distintos_informados": 2924,
+      "filas_aspirante_id_ausente": 90,
+      "ids_con_mas_de_una_solicitud": 1363,
+      "ausentes_con_un_id_candidato_por_correo": 62,
+      "ids_recuperados_automaticamente": 0
+    },
+    "controles_correctos": 15,
+    "incidencias_heredadas_resueltas": 5
+  },
+  "datos_salida": "data/processed/taller_2/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_78fc6490",
+  "auditoria": "reports/limpieza/ejecuciones/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_78fc6490",
+  "figuras": "reports/figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_78fc6490",
+  "archivos_datos": {
+    "BaseUnificada_Revision.csv": "3973db4f87df6b3b3d335c85b2d8c1c7b33aaac4c746059606360e02f35963d5",
+    "BaseUnificada_Revision.xlsx": "cf17d581a491439fe8989a1df4c7941080802e9507a57e9ce4dc062c8322fca6",
+    "BaseUnificada_Revision.jsonl": "f969b959fe19814c1be0ad113e41924944bc012768e506aeaa7e195c226c8d38",
+    "Principal_Analisis.csv": "8be851ee77e15efc47b29f94e9eb29bc27bdbdd5da900609717bb5be678947d9"
+  },
+  "alcance": "Cohorte Principal de 5000 códigos de solicitud para exploración. Consolidado de 5600 registros aún con solapamiento entre fuentes; no suma de solicitudes únicas."
+}

@@ -1,0 +1,6 @@
+﻿columna,fuente,concepto,filas_denominador,informados,ausentes,minimo,maximo,promedio,mediana,q1,q3,limite_inferior_RIC,limite_superior_RIC,negativos,atipicos_RIC
+puntaje_admision,Todas,valor registrado,5602,5352,250,40.0,100.0,70.05997757847533632286995516,70.0,55.0,85.0,10.00,130.00,0,0
+valor_matricula_cop,Principal,importe reportado; concepto pendiente,5002,4149,853,1800000.00,3500000.00,2611496.746203904555314533623,2500000.00,2200000.00,3100000.00,850000.000,4450000.000,0,0
+valor_matricula_cop,CRM,base más derechos administrativos,100,100,0,1855220.00,3807591.00,2695490.88,2575769.50,2269363.50,3334164.00,672162.750,4931364.750,0,0
+valor_matricula_cop,Oracle,importe reportado; concepto pendiente,500,419,81,1800000.00,3500000.00,2637708.830548926014319809069,2500000.00,2200000.00,3100000.00,850000.000,4450000.000,0,0
+duracion_semestres,Todas,valor registrado,5602,5575,27,2,10,6.658654708520179372197309417,8,2,10,-10.0,22.0,0,0

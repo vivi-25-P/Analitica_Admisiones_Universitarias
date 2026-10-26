@@ -2,7 +2,7 @@
 
 Actualización: 26 de octubre de 2026.
 
-Estado: notebook ejecutado de L00 a L10. Se consolidaron 38 repeticiones exactas y, después, dos registros parciales complementarios. La salida vigente contiene 5.600 registros y 18 columnas y ofrece una cohorte principal de 5.000 códigos de solicitud distintos. Cada una de las 5.640 entradas mantiene un destino documentado. Los identificadores no informados se homologan a null, conservando sus marcadores originales. CRM y Oracle todavía requieren conciliación entre fuentes; los archivos BaseUnificada de partida permanecen intactos.
+Estado: notebook ejecutado de L00 a L11. Se consolidaron 38 repeticiones exactas y dos registros parciales complementarios. La salida vigente contiene 5.600 registros y 18 columnas, una cohorte principal de 5.000 códigos de solicitud y una vista de 2.924 códigos de aspirante informados distintos. Nuevo se agrupa analíticamente con Admitido según la aclaración del usuario; el estado recibido se conserva en auditoría. Cada una de las 5.640 entradas mantiene un destino. Las 90 solicitudes principales sin ID permanecen aparte del conteo de personas. CRM y Oracle todavía requieren conciliación entre fuentes; la entrada preparada permanece intacta.
 
 ## 1. Qué cambia respecto al plan anterior
 
@@ -85,6 +85,7 @@ El origen de cada registro debe reconstruirse a partir de las fuentes y del libr
 | L08 | Evaluar coherencia administrativa | Mantener casos pendientes visibles | Incidencias, sin inventar correcciones |
 | L09 | Validar, exportar y comparar resultados | Conciliar todas las entradas | Base limpia, auditoría y reporte final |
 | L10 | Resolver dos parciales, revisar categorías, importes, fechas e identificadores y explorar por fuente | Dos filas complementarias consolidadas; 5.600 de salida | Cinco celdas recuperadas, 94 ausencias de ID homologadas, controles y siete gráficos |
+| L11 | Consolidar estados según contexto y separar solicitudes de aspirantes | Mantiene las 5.600 filas; añade vistas auxiliares | Estados originales, una fila por código de aspirante, clasificación excluyente y denominadores |
 
 Este orden separa las reglas de representación de las decisiones de identidad. Después de normalizar pueden aparecer nuevas coincidencias exactas; deben volver a contarse y distinguirse de las 38 observadas al inicio.
 
@@ -98,7 +99,7 @@ Este orden separa las reglas de representación de las decisiones de identidad. 
 | programa | Unificar nombres y tildes mediante catálogo aprobado | Asignar un programa a los 27 casos sin identificación útil |
 | modalidad | Conservar la modalidad de la solicitud y su catálogo de tres valores | Sustituirla por la modalidad única del catálogo reducido |
 | canal_captacion | Revisar que las seis categorías actuales coincidan con el catálogo adoptado | Cambiar la atribución comercial por semejanza de texto |
-| estado_proceso | Mantener siete estados con nombres acordados y significado documentado | Inferir transiciones o reclasificar matriculados por documentación |
+| estado_proceso | L11 agrupa Nuevo con Admitido y conserva seis estados analíticos; el original se guarda por fila | Inferir transiciones, matrícula formal desde Nuevo o reclasificar matriculados por documentación |
 | puntaje_admision | Representar números; mantener motivo de ausencia para 200 vacíos y 51 Pendiente | Sustituir por cero, media o mediana; asumir escala oficial por el rango observado |
 | documentos_completos | Unificar Sí, sí y SI en Sí; conservar No y Pendiente | Reducir a booleano perdiendo la situación pendiente |
 | valor_matricula_cop | Representar el importe reportado y registrar su concepto por fuente | Sumar, restar o sustituir importes entre fuentes sin una definición común |
@@ -229,7 +230,7 @@ Una carga futura a PostgreSQL necesita una nueva estructura que contemple las 18
 
 Está listo el diagnóstico de entrada, el inventario de las 5.640 filas, el listado de identificadores repetidos, la actualización del plan y las plantillas de control. Se reproducen con python scripts/diagnosticar_base_unificada.py.
 
-El notebook se ejecutó de principio a fin con 30 celdas de código. Verificó 5.040 procedencias principales, 100 CRM y 500 Oracle contra el libro congelado y el código de anexado. L02 estandarizó textos y categorías con config/limpieza/estandarizacion_v1.json: hubo 14.209 cambios de celda en 5.404 filas. En esa etapa se conservaron las 5.640 filas, las 18 columnas y las 38 repeticiones exactas adicionales. L02 no modificó fechas, puntajes, importes ni duración.
+El notebook se ejecutó de principio a fin con 33 celdas de código. Verificó 5.040 procedencias principales, 100 CRM y 500 Oracle contra el libro congelado y el código de anexado. L02 estandarizó textos y categorías con config/limpieza/estandarizacion_v1.json: hubo 14.209 cambios de celda en 5.404 filas. En esa etapa se conservaron las 5.640 filas, las 18 columnas y las 38 repeticiones exactas adicionales. L02 no modificó fechas, puntajes, importes ni duración.
 
 Los datos intermedios están en data/interim/taller_2 bajo una carpeta de versión. Los cambios por celda, equivalencias, procedencias, disposición de las 5.640 filas y controles están en reports/limpieza/ejecuciones. reports/limpieza/ultima_estandarizacion.json identifica la ejecución y sus hashes. Existe un HTML de lectura en reports/02_limpieza_base_unificada.html.
 
@@ -261,7 +262,7 @@ El usuario pidió explorar la versión de revisión para evaluar estados, import
 
 La aclaración del usuario sobre nan motivó homologar 94 identificadores no informados a null, incluidos cuatro textos nan y 90 textos vacíos. Los marcadores originales se registran por celda. No se crean códigos ni se unen personas por correo. Pendiente sigue siendo una categoría de documentación. Las reglas L03 y L04 conservan sus resultados históricos de identificadores sin modificar; esta decisión se aplica después, en L10.
 
-Nuevo se mantiene distinto de Admitido. Las fases de presentación se incluyen en un control auxiliar y no aumentan las 18 columnas. La principal tiene 560 Nuevo, 572 Inscrito, 570 Documentación pendiente, 1.105 Admitido, 1.079 Matriculado, 550 No admitido y 564 Retirado. Se observan 351 Documentación pendiente con documentos Sí y 462 Matriculado con documentos No o Pendiente, sin reemplazar estados por esa relación.
+En el punto de control L10, Nuevo se mantuvo distinto de Admitido antes de la aclaración posterior del usuario. Las fases de presentación se incluyeron en un control auxiliar. Ese punto tiene 560 Nuevo, 572 Inscrito, 570 Documentación pendiente, 1.105 Admitido, 1.079 Matriculado, 550 No admitido y 564 Retirado. L11 aplica la agrupación posterior documentada. Se observan 351 Documentación pendiente con documentos Sí y 462 Matriculado con documentos No o Pendiente, sin reemplazar estados por esa relación.
 
 Las 63 combinaciones de programa identificado, modalidad y periodo tienen los cinco importes observados. En 21 comparaciones virtual frente a presencial por programa y periodo, 18 medianas son iguales, una es menor en virtual y dos mayores. No se deduce una tarifa ni se imputan matrículas. Los importes CRM se describen por separado por concepto económico.
 
@@ -270,3 +271,15 @@ La fecha de matrícula está informada en los 1.079 matriculados principales y n
 Hay 2.924 códigos de aspirante principales informados distintos y 90 solicitudes principales sin código. 1.363 códigos aparecen en varias solicitudes. De los 90 ausentes, 62 tienen un único código candidato en otras filas con el mismo correo; no se asignan por esa coincidencia. Se conserva aspirante_id para trazabilidad y revisión de recurrencia, fuera de los agrupadores de mercado.
 
 La salida actual se identifica en reports/limpieza/ultima_revision_descriptiva.json; ultimo_cierre.json conserva el punto de control previo L09. El Excel incluye BaseUnificada_Revision y Principal_Analisis con 18 columnas, además de Alcance. También se exportan el consolidado en CSV y JSONL y la cohorte principal en CSV. Hay siete figuras en PNG y PDF y tablas de frecuencias, cruces, importes, puntajes, fechas, intervalos y calidad. El reporte está en reports/limpieza/revision_descriptiva_y_parciales.md. Los datos originales y las tablas Docker conservan su estado.
+
+## 13. L11, estados y personas sin doble conteo
+
+El usuario aclaró que Nuevo indica alguien que ya ingresó y comenzará estudios y preguntó si conviene agruparlo como Admitido o Matriculado. Se adopta Nuevo como Admitido para el análisis. El criterio incorpora esa definición y conserva Matriculado separado, pues los 560 Nuevo no tienen fecha de matrícula y los 1.079 Matriculado sí. Esto no acredita una equivalencia institucional por la sola ausencia de fecha. Los estados recibidos se guardan por fila en la auditoría. Hay 620 celdas reclasificadas entre las tres fuentes, sin retirar filas ni modificar los otros 17 atributos.
+
+La cohorte principal mantiene 5.000 solicitudes y pasa a 1.665 Admitido y 1.079 Matriculado. La vista por aspirante tiene 2.924 códigos informados distintos, con 90 solicitudes sin identificador separadas. Un código puede tener solicitudes de varios programas, modalidades y periodos. Se observaron 1.363 códigos con varias solicitudes, 1.205 con varios estados originales, 1.210 con varios programas identificados y 966 con varios periodos. El conteo preliminar de 1.220 incluía el programa vacío como categoría adicional; se excluyó esa ausencia al contar programas distintos. Agrupar Nuevo deja 1.158 códigos con varios estados y no resuelve por sí solo el conteo de personas.
+
+Las sumas de aspirantes distintos por estado son 4.474 antes y 4.371 después de agrupar Nuevo. Son pertenencias superpuestas, no personas únicas. Para una distribución aditiva se ofrece una clasificación excluyente por aspirante: alguna solicitud Matriculado, después alguna Admitido sin Matriculado y finalmente los demás. No es estado actual. Se conservan los estados observados y los códigos de todas las solicitudes.
+
+La base no contiene fecha de actualización del estado. No se elige el último estado utilizando fecha de solicitud ni se elimina una solicitud por compartir aspirante. Los 48 grupos con el mismo aspirante, programa, modalidad y periodo se exportan para revisión; 39 presentan varios estados originales. Se mantienen sus 96 solicitudes porque no hay prueba de que todas sean versiones de una sola solicitud.
+
+Las reglas se encuentran en config/limpieza/identidad_estados_v1.json. El resumen vigente es reports/limpieza/ultima_identidad_estados.json y el reporte es reports/limpieza/reporte_estados_personas_y_cierre.md. El Excel conserva BaseUnificada_Revision y Principal_Analisis con 18 columnas y añade las vistas auxiliares Aspirantes_Principal, Solicitudes_Sin_ID y Alcance. Se exportan el original de cada estado modificado, el destino de las 5.640 entradas, grupos de posible historial, frecuencias por solicitud y aspirante y un diccionario de indicadores y denominadores. L09 y L10 permanecen como puntos de control históricos.

@@ -1,10 +1,10 @@
 {
-  "id_ejecucion": "estandarizacion_v1_f77076f7d8_150bd123_cd91e63a",
-  "ejecutado_en": "2026-10-26T11:21:35.062321-05:00",
+  "id_ejecucion": "estandarizacion_v1_f77076f7d8_150bd123_78fc6490",
+  "ejecutado_en": "2026-10-26T11:43:57.165113-05:00",
   "version_reglas": "estandarizacion_v1",
   "sha256_entrada": "f77076f7d800c9c4ca11ee4fd4e55ade447275adf0d342c099f722f4eb35c80e",
   "sha256_reglas": "150bd1231207d93d11b11e532067aa15479e949aa8f9e94195ced3748f45cba9",
-  "sha256_codigo_notebook": "cd91e63a86474619266507f78f3434360a5fc788b85dec77d248d1eda7e1cda5",
+  "sha256_codigo_notebook": "78fc6490a6c25c36c2409ccae8e2dab009818286462dee61b59026b0a755d086",
   "filas_entrada": 5640,
   "filas_salida": 5640,
   "columnas_negocio": 18,
@@ -23,10 +23,10 @@
   "repeticiones_exactas_despues": 38,
   "archivos_datos": {
     "BaseUnificada_Estandarizada.csv": "526ff5e27b24868e075bd9ed2e633de21ea24bd9358b3af236044bf430229afb",
-    "BaseUnificada_Estandarizada.xlsx": "0c710f1f1d7259481187750e74f4ffa5d759332b9712e3ceebd239ab81baac8f"
+    "BaseUnificada_Estandarizada.xlsx": "f3509bd0fb2b2da5a125fa5a8487db8ef241ba3aa7b6ae9046a13240b0b0fee9"
   },
-  "datos_intermedios": "data/interim/taller_2/estandarizacion_v1_f77076f7d8_150bd123_cd91e63a",
-  "auditoria": "reports/limpieza/ejecuciones/estandarizacion_v1_f77076f7d8_150bd123_cd91e63a",
+  "datos_intermedios": "data/interim/taller_2/estandarizacion_v1_f77076f7d8_150bd123_78fc6490",
+  "auditoria": "reports/limpieza/ejecuciones/estandarizacion_v1_f77076f7d8_150bd123_78fc6490",
   "etapas": [
     "L00 entrada identificada",
     "L01 procedencia verificada y decisiones documentadas",

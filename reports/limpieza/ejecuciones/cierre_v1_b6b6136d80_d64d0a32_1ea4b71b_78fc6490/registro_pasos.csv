@@ -1,0 +1,6 @@
+﻿id_ejecucion,paso,accion,filas_antes,filas_despues,celdas_modificadas,repeticiones_consolidadas,filas_excluidas,filas_generadas
+cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_78fc6490,L05,Reproducir catálogo de trabajo y comprobar atributos; conservar modalidad de solicitud,5640,5640,0,0,0,0
+cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_78fc6490,L06,Consolidar exactos preservando cada entrada en su representante,5640,5602,0,38,0,0
+cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_78fc6490,L07,Cruzar fuentes e identificar conflictos por atributo; conservar parciales y códigos,5602,5602,0,0,0,0
+cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_78fc6490,L08,"Evaluar coherencia, correos y valores inusuales; registrar incidencias sin imputar",5602,5602,0,0,0,0
+cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_78fc6490,L09,"Conciliar entradas, exportar base de revisión y controles, comparar antes y después",5602,5602,0,0,0,0
