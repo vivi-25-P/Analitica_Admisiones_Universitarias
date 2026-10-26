@@ -23,7 +23,7 @@ md('''
 Este cuaderno sigue el orden del plan en `docs/plan_limpieza_datos.md`.
 La integración previa se conserva en el libro de manejo y la entrada congelada.
 
-**Este cuaderno ejecuta L00 a L11:** identificación de la entrada,
+**Este cuaderno ejecuta L00 a L14:** identificación de la entrada,
 reconstrucción comprobada de la procedencia y estandarización textual mediante
 catálogos explícitos. L01 deja documentadas las decisiones económicas, temporales
 y de catálogo que siguen pendientes; no las da por resueltas. L03 representa las
@@ -42,6 +42,9 @@ L10 complementa y consolida los dos parciales con evidencia interna y realiza la
 exploración descriptiva del consolidado y de la cohorte principal sin solapamientos.
 L11 agrupa Nuevo con Admitido según el contexto del usuario, conserva el estado
 original en auditoría y distingue las vistas de solicitudes y aspirantes.
+L12 incorpora CRM y recupera los importes disponibles. L13 conserva Oracle en el
+conjunto integrado, revisa sus correspondencias y mantiene los periodos recibidos.
+L14 valida y prepara BaseUnificada Entregable para revisión externa.
 
 Ejecutar desde el principio con el Python del proyecto y los grupos `notebooks`
 y `excel` de uv. Guardar el notebook antes de ejecutarlo para registrar su versión.
@@ -986,23 +989,31 @@ agregar_revision(md, code)
 from celdas_identidad_estados import agregar_identidad
 agregar_identidad(md, code)
 
-md('''
-## Qué falta para aprobar la versión final
+from celdas_entrega_base_unificada import agregar_entrega
+agregar_entrega(md, code)
 
-L03 ya distingue las ausencias de las demás variables. Los cuatro nan y los vacíos de
-aspirante_id se mantienen registrados y sin modificar hasta la revisión de cruces.
+md('''
+## Cierre técnico y condiciones de uso
+
+L03 distingue motivos de ausencia y L10 homologa los identificadores no informados
+a null, conservando sus marcadores originales.
 L04 ya representa fechas y números y utiliza el código entero del periodo.
 Las fechas dudosas y los importes con conceptos diferentes siguen señalados.
 
 L05 revisó el catálogo; L06 consolidó repeticiones exactas con trazabilidad; L07
 identificó conflictos entre fuentes. L08 documentó la coherencia administrativa y
 L09 exportó la versión de revisión, sus controles y las decisiones pendientes.
-L10 complementó y consolidó REG003600 y REG004804. La salida vigente contiene
+L10 complementó y consolidó REG003600 y REG004804. Su punto de control contiene
 5.600 registros y la cohorte principal 5.000 códigos de solicitud distintos.
 L11 mantiene las solicitudes y ofrece una vista de 2.924 códigos de aspirante
 informados distintos, sin sumar categorías superpuestas como personas nuevas.
-Las decisiones del reporte deben validarse y aplicarse mediante reglas versionadas
-antes de aprobar solicitudes únicas y los indicadores administrativos definitivos.
+L12 incorporó los 100 aportes CRM y recuperó 13 importes de matrícula base.
+L13 conserva los 500 registros Oracle dentro de la base integrada, sin fusionarlos
+por semejanza. L14 entrega 5.500 registros y 18 columnas, con controles y metodología.
+Los códigos de aspirante por origen no se afirman como personas globales únicas.
+Los periodos académicos se conservan y no se hacen coincidir con el mes de las fechas.
+La preparación técnica está completa para revisión externa y análisis descriptivo;
+las limitaciones de identidad, fechas y conceptos de negocio permanecen explícitas.
 
 El notebook anterior sigue respaldando la exploración inicial de 5.040 filas. Este
 cuaderno respalda el trabajo sobre la base consolidada de 5.640 filas.

@@ -1,0 +1,15 @@
+{
+  "version": "entrega_v1",
+  "fecha_referencia": "2026-10-26",
+  "crm": "Consolidar las 100 filas CRM con su solicitud principal mediante registro_id, comparación de 12 atributos y control del aspirante informado. Conservar el importe principal; recuperar solo los 13 ausentes desde matrícula base CRM. Derechos y total CRM en control económico separado. Conservar todas las procedencias.",
+  "oracle": "Incluir las 500 filas Oracle en BaseUnificada. Comparar 11 atributos sin IDs ni fechas y 13 sin IDs, usando igualdad numérica y ausencias explícitas. Clasificar las correspondencias como candidatas, incluso las que coinciden en fechas, sin consolidar por semejanza. Conservar sus identificadores y datos originales.",
+  "periodo": "Conservar los códigos 20252, 20261 y 20262 recibidos y homologados. No inferir el periodo desde la fecha de solicitud o matrícula. Usar el año posterior al periodo como alerta de revisión, no corrección automática.",
+  "ventanas_orientativas": "Primer periodo: octubre del año anterior a enero del año de ingreso. Segundo periodo: mayo a julio del año de ingreso. Referencia descriptiva para revisar, sin afirmar calendario institucional oficial ni excluir registros.",
+  "fechas": "Conservar todas las fechas. Marcar formatos ambiguos, matrícula anterior a solicitud y fechas posteriores a la referencia. Calcular intervalos solo con ambas fechas sin las alertas definidas. Fechas sin alerta no acreditan exactitud externa.",
+  "identidad": "Una solicitud de origen por registro_id en la base final. Contar códigos de aspirante por sistema de origen, sin asumir que los códigos Oracle identifican personas nuevas. No sumar identificadores por fuente como personas civiles únicas. Solicitudes sin ID conservadas aparte.",
+  "estados": "Conservar la homologación analítica de Nuevo a Admitido y mantener Matriculado separado. La etiqueta original se informa en el control de calidad. No afirmar estado actual por persona ni reconstruir transiciones sin fecha de actualización.",
+  "entregable": "BaseUnificada_Entregable.xlsx con una hoja principal BaseUnificada de 18 columnas y hojas formales de diccionario, origen, calidad, economía, aspirantes por origen, coincidencias Oracle y metodología. Sin notas de conversación ni rutas locales. CSV, informe, gráficos, metadatos y paquete ZIP complementarios.",
+  "imputacion_estadistica": false,
+  "eliminar_oracle": false,
+  "cargar_docker": false
+}
