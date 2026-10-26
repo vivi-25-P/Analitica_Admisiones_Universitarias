@@ -1,0 +1,14 @@
+{
+  "resumen_fuente": "reports/limpieza/ultima_entrega.json",
+  "id_ejecucion_fuente": "entrega_v1_6b14cc9ccf_7909b46d_e2c8755f_cedd9608",
+  "sha256_resumen_fuente": "c27e92569c66166c5016ecc252bfb714b6fa48442160d6a70e35ec56246c34f7",
+  "secuencia_registros": [
+    5640,
+    5602,
+    5600,
+    5500
+  ],
+  "columnas_finales": 18,
+  "oracle_conservados": 500,
+  "uso": "Apoyo a la sección de limpieza del informe administrativo; no modifica los datos ni reemplaza el informe en Drive."
+}

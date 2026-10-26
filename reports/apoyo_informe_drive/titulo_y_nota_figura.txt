@@ -1,0 +1,3 @@
+Figura 5. Conciliación de registros durante la limpieza
+
+Nota. Elaboración a partir del control de registros. Las cantidades corresponden a filas y no a personas únicas. La reducción reúne 38 repeticiones exactas, dos registros parciales y 100 aportes CRM incorporados a solicitudes existentes. Los 500 registros Oracle permanecen incluidos.
