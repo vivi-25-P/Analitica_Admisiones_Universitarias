@@ -1,0 +1,27 @@
+{
+  "version": "identidad_estados_v1",
+  "fecha": "2026-10-26",
+  "contexto_usuario": "El usuario aclaró que Nuevo es una persona que ya entró a la universidad y va a empezar sus estudios. Solicita consolidar estados y evitar contar solicitudes de una misma persona como personas distintas.",
+  "estado_equivalencias": {
+    "Nuevo": "Admitido",
+    "Matriculado": "Matriculado",
+    "Admitido": "Admitido",
+    "Inscrito": "Inscrito",
+    "Documentación pendiente": "Documentación pendiente",
+    "No admitido": "No admitido",
+    "Retirado": "Retirado"
+  },
+  "alcance_equivalencia": "Según el contexto del usuario, Nuevo indica que la persona ingresó y empezará estudios. Se agrupa analíticamente con Admitido porque no tiene fecha de matrícula en la fuente principal. No se afirma equivalencia institucional demostrada. Matriculado permanece separado. El estado original se conserva por fila en auditoría.",
+  "unidad_solicitud": "Conservar las 5000 filas principales con registro_id único. Compartir aspirante_id no autoriza borrar solicitudes de programas, modalidades o periodos distintos.",
+  "unidad_persona": "Una fila por aspirante_id informado en fuente Principal. Son códigos distintos observados, sin afirmar identidad civil validada. Las 90 solicitudes sin ID permanecen aparte y no se cuentan como 90 personas ni como una sola persona.",
+  "clasificacion_persona": [
+    "Matrícula registrada en alguna solicitud",
+    "Admitido sin matrícula registrada",
+    "Otros estados sin admisión o matrícula registrada"
+  ],
+  "clasificacion_alcance": "Grupos excluyentes basados en estados de cualquiera de las solicitudes disponibles: primero cualquier Matriculado, después cualquier Admitido sin Matriculado, y resto otros. No representan estado actual ni secuencia temporal. Nuevo se incluye en Admitido solo bajo la regla analítica documentada.",
+  "fecha_actualizacion_estado": "No disponible. La fecha de solicitud no equivale a actualización del estado. No se elige el estado más reciente ni se ordenan siete etapas sin evidencia.",
+  "multiples_solicitudes": "Exportar grupos por aspirante, programa, modalidad y periodo para revisión; no consolidarlos automáticamente. No hay fecha de transición ni prueba de que sean versiones de una única solicitud.",
+  "fuentes": "La vista por aspirante usa Principal. CRM y Oracle siguen separados del conteo global de personas hasta conciliar identidades y procedencias.",
+  "agregacion": "Contar registro_id distintos para solicitudes y aspirante_id distintos informados para aspirantes. Los conteos por programa, canal o estado pueden solaparse y no deben sumarse como personas únicas. Usar la clasificación excluyente para una distribución aditiva por aspirante."
+}

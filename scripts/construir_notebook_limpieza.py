@@ -23,7 +23,7 @@ md('''
 Este cuaderno sigue el orden del plan en `docs/plan_limpieza_datos.md`.
 La integración previa se conserva en el libro de manejo y la entrada congelada.
 
-**Este cuaderno ejecuta L00 a L10:** identificación de la entrada,
+**Este cuaderno ejecuta L00 a L11:** identificación de la entrada,
 reconstrucción comprobada de la procedencia y estandarización textual mediante
 catálogos explícitos. L01 deja documentadas las decisiones económicas, temporales
 y de catálogo que siguen pendientes; no las da por resueltas. L03 representa las
@@ -40,6 +40,8 @@ L03 aplica las reglas de ausencia documentadas sin completar datos por suposici�
 Los vacíos y nan de identificadores se conservan y se revisan mediante controles.
 L10 complementa y consolida los dos parciales con evidencia interna y realiza la
 exploración descriptiva del consolidado y de la cohorte principal sin solapamientos.
+L11 agrupa Nuevo con Admitido según el contexto del usuario, conserva el estado
+original en auditoría y distingue las vistas de solicitudes y aspirantes.
 
 Ejecutar desde el principio con el Python del proyecto y los grupos `notebooks`
 y `excel` de uv. Guardar el notebook antes de ejecutarlo para registrar su versión.
@@ -981,6 +983,9 @@ agregar_cierre(md, code)
 from celdas_revision_descriptiva import agregar_revision
 agregar_revision(md, code)
 
+from celdas_identidad_estados import agregar_identidad
+agregar_identidad(md, code)
+
 md('''
 ## Qué falta para aprobar la versión final
 
@@ -994,6 +999,8 @@ identificó conflictos entre fuentes. L08 documentó la coherencia administrativ
 L09 exportó la versión de revisión, sus controles y las decisiones pendientes.
 L10 complementó y consolidó REG003600 y REG004804. La salida vigente contiene
 5.600 registros y la cohorte principal 5.000 códigos de solicitud distintos.
+L11 mantiene las solicitudes y ofrece una vista de 2.924 códigos de aspirante
+informados distintos, sin sumar categorías superpuestas como personas nuevas.
 Las decisiones del reporte deben validarse y aplicarse mediante reglas versionadas
 antes de aprobar solicitudes únicas y los indicadores administrativos definitivos.
 
