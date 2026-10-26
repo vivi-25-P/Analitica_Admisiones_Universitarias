@@ -10,5 +10,6 @@
   ],
   "columnas_finales": 18,
   "oracle_conservados": 500,
+  "controles_finales": 24,
   "uso": "Apoyo a la sección de limpieza del informe administrativo. No modifica los datos ni reemplaza el informe en Drive."
 }

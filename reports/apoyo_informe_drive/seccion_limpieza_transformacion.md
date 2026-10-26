@@ -29,6 +29,6 @@ La Figura 5 muestra cómo cambió la cantidad de registros. La incorporación de
 
 *Nota. Elaboración a partir del control de registros. Las cantidades corresponden a filas y no a personas únicas. La reducción reúne 38 repeticiones exactas, dos registros parciales y 100 aportes CRM incorporados a solicitudes existentes.*
 
-La verificación final aprobó 23 controles, incluidos la conciliación de cantidades, la conservación de las fuentes y la lectura de los archivos exportados. Se obtuvo **BaseUnificada Entregable, con 5.500 registros y 18 columnas**, acompañada de diccionario, procedencia, metodología y controles de calidad.
+La verificación final aprobó 24 controles, incluidos la conciliación de cantidades, la conservación de las fuentes y la lectura de los archivos exportados. Se obtuvo **BaseUnificada Entregable, con 5.500 registros y 18 columnas**, acompañada de diccionario, procedencia, metodología y controles de calidad.
 
 Permanecen 26 registros sin programa, 90 sin identificador de aspirante, 246 sin puntaje y 920 sin importe. Estas ausencias no se completaron por suposición. También se conservaron las observaciones temporales y las correspondencias entre sistemas no confirmadas. Para el análisis se distingue el conteo de registros del conteo de identificadores de aspirante, evitando presentar varias solicitudes de una persona como personas nuevas.

@@ -435,3 +435,11 @@ La última celda muestra validaciones, guía de hojas, cantidades y archivos, si
 Para el informe en Drive se prepararon una figura de estados antes y después sobre el mismo universo de 5.500 registros y una copia de cobertura temporal. La guía ubicacion_graficos.md diferencia evidencia de limpieza, cobertura y análisis descriptivo. Se verificó visualmente la comparación de estados. La sección de limpieza y su metadata se regeneraron contra el resumen actual, sin modificar el informe en Drive.
 
 Pasaron 24 controles finales y cuatro controles del paquete. La verificación independiente confirmó el CSV principal idéntico a la versión anterior, 37 celdas sin errores, las diez hojas, relaciones simétricas, hashes de archivos y ZIP y textos sin punto y coma. Se revisó el PDF de apoyo con PyMuPDF temporal de uv y se comprobó texto sin punto y coma y sin recortes. La suite tuvo 46 pruebas correctas y tres pruebas Docker no ejecutadas porque requieren una base aislada. Los originales permanecen intactos y no se modificaron tablas Docker.
+
+## 26 de octubre de 2026. Guía exacta para completar la sección en Drive
+
+El usuario preguntó si Oracle se había comparado y dónde estaban el texto y las imágenes para el informe. Se aclaró que las 500 filas fueron comparadas con la principal y que las 49 coincidencias con fechas permanecen como candidatas, sin identidad de evento confirmada. La base integrada puede utilizarse para describir registros, conservando la procedencia y sin afirmar personas o solicitudes independientes globales por la sola unicidad del código.
+
+Se revisó el apoyo de redacción y se corrigió su total de controles finales de 23 a los 24 de la revisión vigente. El generador toma ahora ese número del resumen de entrega. Se creó reports/apoyo_informe_drive/guia_insercion_drive.md con el texto que debe sustituirse, el lugar de la figura principal, títulos y notas de las imágenes opcionales y la ubicación de los gráficos descriptivos. Se mantuvieron las tres imágenes disponibles y se verificaron los archivos.
+
+La sección lista para copiar sigue en seccion_limpieza_transformacion.md de la misma carpeta. Se confirmó que los hashes de los archivos entregables no cambiaron. No se modificó directamente el documento en Drive ni los datos de BaseUnificada.

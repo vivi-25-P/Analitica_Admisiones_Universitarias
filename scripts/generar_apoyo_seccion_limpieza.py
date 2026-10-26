@@ -94,7 +94,44 @@ Para una sección breve, conservar la tabla de tratamientos y la figura de conci
 ''',encoding='utf8')
 
 text='# Limpieza y transformación de la base unificada\n\n## Verificación y preparación\n\nLa limpieza se realizó sobre los 5.640 registros y 18 columnas obtenidos después de integrar las fuentes y complementar el catálogo de programas. Se verificó su procedencia y se conservaron los archivos originales como respaldo. Los cambios quedaron registrados para identificar qué información se modificó y cuál fue su origen.\n\nSe uniformaron las categorías y los tipos de información. Las fechas se representaron en formato de año, mes y día. Los valores económicos se conservaron en pesos colombianos y los periodos se homologaron como códigos de semestre de ingreso. Los valores no disponibles se mantuvieron como ausencias, sin sustituirlos por cero, promedios o categorías supuestas.\n\n## Tratamientos aplicados\n\n**Tabla 5. Síntesis de la limpieza y transformación**\n\n| Aspecto | Tratamiento realizado | Resultado |\n| :--- | :--- | :--- |\n| Categorías y estados | Se unificaron variantes de escritura y Nuevo se agrupó analíticamente con Admitido. Matriculado permaneció separado y se conservó el estado recibido. | Categorías comparables, con el criterio de agrupación documentado. |\n| Ausencias | Se homologaron los vacíos y marcadores de información no disponible. Pendiente en documentación y Sin asignar en asesor conservaron su significado. | Ausencias identificadas sin inventar valores. |\n| Registros repetidos y parciales | Se consolidaron 38 repeticiones exactas y dos registros complementarios, recuperando cinco valores desde sus otras filas. | Se conservaron los vínculos con las entradas originales. |\n| Información CRM | Se incorporaron 100 aportes a las solicitudes correspondientes. Se conservaron 87 importes principales y se recuperaron 13 desde matrícula base CRM. Los derechos administrativos quedaron separados. | Se evitó repetir las solicitudes y se recuperó información económica disponible. |\n| Información Oracle | Se conservaron sus 500 registros. Las coincidencias con la principal se identificaron como candidatas, sin eliminarlas por semejanza. | Oracle permanece dentro de la base y del análisis integrado. |\n| Fechas y periodos | Se conservaron los periodos como semestres de ingreso. Las fechas ambiguas y diferencias temporales se señalaron, sin recalcular automáticamente el periodo. | Cada indicador puede identificar qué registros cumplen sus reglas temporales. |\n\n## Conciliación y comprobación del resultado\n\nLa Figura 5 muestra cómo cambió la cantidad de registros. La incorporación del CRM reúne información de solicitudes ya existentes. No representa la pérdida de 100 solicitudes diferentes. Los 500 registros Oracle permanecieron incluidos.\n\n**Figura 5. Conciliación de registros durante la limpieza**\n\n![Conciliación de registros durante la limpieza](conciliacion_registros.png)\n\n*Nota. Elaboración a partir del control de registros. Las cantidades corresponden a filas y no a personas únicas. La reducción reúne 38 repeticiones exactas, dos registros parciales y 100 aportes CRM incorporados a solicitudes existentes.*\n\nLa verificación final aprobó 23 controles, incluidos la conciliación de cantidades, la conservación de las fuentes y la lectura de los archivos exportados. Se obtuvo **BaseUnificada Entregable, con 5.500 registros y 18 columnas**, acompañada de diccionario, procedencia, metodología y controles de calidad.\n\nPermanecen 26 registros sin programa, 90 sin identificador de aspirante, 246 sin puntaje y 920 sin importe. Estas ausencias no se completaron por suposición. También se conservaron las observaciones temporales y las correspondencias entre sistemas no confirmadas. Para el análisis se distingue el conteo de registros del conteo de identificadores de aspirante, evitando presentar varias solicitudes de una persona como personas nuevas.\n'
+text=text.replace('aprobó 23 controles',f"aprobó {summary['metricas']['controles_correctos']} controles")
 (OUT/'seccion_limpieza_transformacion.md').write_text(text,encoding='utf8')
+insertion=f'''# Guía para incorporar la sección al informe en Drive
+
+El informe principal es el documento en Drive. El PDF generado sirve como apoyo interno.
+
+## Texto que debes copiar
+
+Abre [seccion_limpieza_transformacion.md](seccion_limpieza_transformacion.md) y copia el bloque completo bajo Limpieza y transformación de la base unificada. Sustituye los dos párrafos anteriores de Verificación y Estandarización para no duplicar explicaciones. Conserva las secciones previas de integración y catálogo.
+
+## Imagen principal de la sección
+
+Después del párrafo que comienza La Figura 5 muestra cómo cambió la cantidad de registros, inserta [conciliacion_registros.png](conciliacion_registros.png).
+
+Título: Figura 5. Conciliación de registros durante la limpieza.
+
+Nota: Las cantidades corresponden a registros y no a personas únicas. Se consolidaron 38 repeticiones exactas, dos parciales y 100 aportes CRM incorporados a solicitudes existentes. Los 500 registros Oracle permanecen incluidos.
+
+## Imágenes adicionales, si se quiere ampliar la evidencia
+
+| Archivo | Ubicación | Título y explicación |
+| :--- | :--- | :--- |
+| [homologacion_estados.png](homologacion_estados.png) | Después de la tabla de tratamientos, junto a la explicación de estados | Homologación de estados sobre el mismo conjunto de 5.500 registros. Los {received['Nuevo']} registros recibidos como Nuevo se agruparon con Admitido. El cambio de etiqueta no representa nuevas admisiones ni personas adicionales. |
+| [cobertura_temporal.png](cobertura_temporal.png) | Junto a la revisión de fechas o en un anexo | Cobertura temporal por fuente. La principal llega al 12 de septiembre de 2026. Las fechas posteriores a la referencia de revisión quedan señaladas. El periodo de ingreso se conserva y no se deduce desde el mes de solicitud. |
+
+La sección compacta puede llevar la tabla y únicamente la figura de conciliación. Los otros dos gráficos son evidencia adicional y pueden quedar en un anexo. Asigna su número consecutivo solo si los incorporas.
+
+## Dónde van los gráficos de resultados
+
+La distribución actual de estados, programas, modalidades, canales, ciudades e importes corresponde al apartado posterior Análisis descriptivo de la base integrada. Las cifras describen los 5.500 registros y no personas globales únicas confirmadas. No es necesario repetir las mismas imágenes en limpieza y en análisis.
+
+## Cierre y numeración
+
+Después de la imagen principal conserva los párrafos de resultado y limitaciones. La versión actual tiene {summary['metricas']['controles_correctos']} controles finales aprobados.
+
+La tabla de tratamientos sería Tabla 5. La tabla que estaba numerada como Tabla 5 en el Anexo A pasaría a Tabla 6. Actualiza el índice de tablas e ilustraciones según las figuras que decidas incorporar.
+'''
+(OUT/'guia_insercion_drive.md').write_text(insertion,encoding='utf8')
 caption='''Figura 5. Conciliación de registros durante la limpieza
 
 Nota. Elaboración a partir del control de registros. Las cantidades corresponden a filas y no a personas únicas. La reducción reúne 38 repeticiones exactas, dos registros parciales y 100 aportes CRM incorporados a solicitudes existentes. Los 500 registros Oracle permanecen incluidos.
@@ -105,6 +142,7 @@ metadata={'resumen_fuente':'reports/limpieza/ultima_entrega.json',
           'sha256_resumen_fuente':hashlib.sha256(source.read_bytes()).hexdigest(),
           'secuencia_registros':[r['registros'] for r in sequence],
           'columnas_finales':18,'oracle_conservados':500,
+          'controles_finales':summary['metricas']['controles_correctos'],
           'uso':'Apoyo a la sección de limpieza del informe administrativo. No modifica los datos ni reemplaza el informe en Drive.'}
 (OUT/'metadatos_apoyo.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 print('Sección redactada:',OUT/'seccion_limpieza_transformacion.md')
