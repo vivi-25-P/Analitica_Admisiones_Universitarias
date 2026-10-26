@@ -1,0 +1,6 @@
+﻿indicador,unidad,regla,denominador,precaucion
+Solicitudes principales,solicitud,COUNT DISTINCT registro_id en Principal,5000,No sumar CRM y Oracle como solicitudes nuevas
+Aspirantes identificados,código de aspirante informado,COUNT DISTINCT aspirante_id no ausente en Principal,2924,90 solicitudes sin ID fuera del conteo de personas; no asumir 90 personas
+Distribución excluyente por aspirante,código de aspirante informado,"Una clasificación por código: alguna matrícula registrada, luego admitido sin matrícula, luego otros",2924,No representa estado actual; considera cualquier solicitud disponible
+"Aspirantes por programa, canal o estado",código de aspirante dentro de grupo,COUNT DISTINCT aspirante_id en cada grupo,2924,Un código puede aparecer en varios grupos; no sumar como personas únicas
+Admitido consolidado,solicitud o aspirante según denominador explícito,"Estado original Nuevo o Admitido, según criterio analítico documentado",declarar por indicador,"No acredita fecha de matrícula, pago o matrícula formal en Nuevo"

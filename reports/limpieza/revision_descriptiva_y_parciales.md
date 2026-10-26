@@ -83,36 +83,36 @@ Pasaron 15 controles, incluida la lectura completa de CSV, Excel y JSONL. Los es
 
 ### Estados registrados
 
-![Estados registrados](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_78fc6490/01_estados.png)
+![Estados registrados](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_cedd9608/01_estados.png)
 
 ### Programas y modalidades
 
-![Programas y modalidades](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_78fc6490/02_programas_modalidades.png)
+![Programas y modalidades](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_cedd9608/02_programas_modalidades.png)
 
 ### Canales y estados
 
-![Canales y estados](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_78fc6490/03_canales_estados.png)
+![Canales y estados](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_cedd9608/03_canales_estados.png)
 
 ### Importes por modalidad
 
-![Importes por modalidad](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_78fc6490/04_importes_modalidad.png)
+![Importes por modalidad](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_cedd9608/04_importes_modalidad.png)
 
 ### Solicitudes por mes
 
-![Solicitudes por mes](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_78fc6490/05_solicitudes_mensuales.png)
+![Solicitudes por mes](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_cedd9608/05_solicitudes_mensuales.png)
 
 ### Intervalos de matrícula revisados
 
-![Intervalos de matrícula revisados](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_78fc6490/06_intervalos_matricula.png)
+![Intervalos de matrícula revisados](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_cedd9608/06_intervalos_matricula.png)
 
 ### Ciudades y modalidades
 
-![Ciudades y modalidades](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_78fc6490/07_ciudades_modalidades.png)
+![Ciudades y modalidades](../figuras/revision_descriptiva/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_cedd9608/07_ciudades_modalidades.png)
 
 ## Archivos de respaldo
 
-Datos: `data/processed/taller_2/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_78fc6490`.
+Datos: `data/processed/taller_2/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_cedd9608`.
 
-Auditoría y tablas descriptivas: `reports/limpieza/ejecuciones/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_78fc6490`.
+Auditoría y tablas descriptivas: `reports/limpieza/ejecuciones/revision_descriptiva_v1_9fbbe58562_b04de70c_03c823d0_cedd9608`.
 
 El resumen vigente está en reports/limpieza/ultima_revision_descriptiva.json. Los controles auxiliares no aumentan las 18 columnas de negocio. La base de cierre L09 conserva su condición de punto de control histórico; esta revisión L10 es su actualización para los dos parciales. No se modificaron las tablas Docker.

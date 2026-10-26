@@ -1,0 +1,85 @@
+{
+  "id_ejecucion": "entrega_v1_6b14cc9ccf_7909b46d_f350a468_cedd9608",
+  "etapa": "L12 a L14 conciliación final y entrega",
+  "ejecutado_en": "2026-10-26T12:45:45.625380-05:00",
+  "entrada_L11": "identidad_estados_v1_3973db4f87_b26d6f5b_0122a31c_cedd9608",
+  "sha256_entrada": "6b14cc9ccfed46ef066210b8c980daeef042e52e988f1ed91c036d52dfb5c9b5",
+  "sha256_reglas": "7909b46dde1ce220bfc3b1fab9982483ee1bebcc525eee64df473f4440112b6f",
+  "sha256_modulo": "f350a468d37fd106c0a2c7e2f3c5e8518ca2f08c65350d7d0ad90fdc2dd2a009",
+  "sha256_codigo_notebook": "cedd960863c66fc3d457c27f5f20ad2aadc992b10f2d0b180a5311e2a0971d20",
+  "sha256_crm_original": "4c4c2b7f1edb9897076d4ac6b63c434f69527169fabbdd98a03300ac90f15987",
+  "filas_entrada": 5600,
+  "filas_salida": 5500,
+  "columnas": 18,
+  "entradas_originales_con_destino": 5640,
+  "aportes_crm_integrados": 100,
+  "importes_recuperados": 13,
+  "oracle_conservados": 500,
+  "metricas": {
+    "crm": {
+      "registros_integrados": 100,
+      "importes_principales_conservados": 87,
+      "importes_recuperados": 13,
+      "filas_antes": 5600,
+      "filas_despues": 5500,
+      "importes_ausentes_principal": 839
+    },
+    "oracle": {
+      "registros_conservados": 500,
+      "con_candidato_11_atributos": 500,
+      "con_candidato_13_atributos": 49,
+      "con_varios_candidatos": 0,
+      "filas_retiradas": 0
+    },
+    "calidad": {
+      "programa_ausente": 26,
+      "aspirante_id_ausente": 90,
+      "puntaje_ausente": 246,
+      "importe_ausente": 920,
+      "fecha_matricula_ausente": 4321,
+      "fecha_solicitud_ambigua": 165,
+      "fecha_matricula_ambigua": 64,
+      "matricula_anterior_a_solicitud": 32,
+      "solicitud_posterior_al_anio_periodo": 456,
+      "fuera_ventana_orientativa": 4573,
+      "solicitud_posterior_referencia": 15,
+      "matricula_posterior_referencia": 13,
+      "matriculado_documentos_no_completos": 514,
+      "documentacion_pendiente_con_documentos_si": 393,
+      "intervalo_dias_apto_reglas_aplicadas": 1035
+    },
+    "identidad": {
+      "identificadores_por_origen": 3424,
+      "identificadores_principal": 2924,
+      "identificadores_oracle": 500,
+      "registros_sin_identificador": 90,
+      "personas_globales_unicas_confirmadas": false
+    },
+    "fuentes": {
+      "Principal": 5000,
+      "Oracle": 500,
+      "principal_con_crm": 100
+    },
+    "controles_correctos": 23
+  },
+  "datos_salida": "data/processed/taller_2/entrega_v1_6b14cc9ccf_7909b46d_f350a468_cedd9608",
+  "auditoria": "reports/limpieza/ejecuciones/entrega_v1_6b14cc9ccf_7909b46d_f350a468_cedd9608",
+  "figuras": "reports/figuras/entrega/entrega_v1_6b14cc9ccf_7909b46d_f350a468_cedd9608",
+  "entregable": "deliverables/BaseUnificada_Entregable.xlsx",
+  "paquete": "deliverables/BaseUnificada_Entregable.zip",
+  "archivos_entregables": {
+    "deliverables/BaseUnificada_Entregable.csv": "6ac4c96e1bd088efda10c1d1f6f3aa93a6e87473e997ac3332676122408f08ed",
+    "deliverables/BaseUnificada_Entregable.xlsx": "e1324173c66d919b5e38c74bd6ecb7cf0f517baefc12e26588732c2582afd1c0",
+    "deliverables/BaseUnificada_Entregable.zip": "7f0882b7dbaac5ba9d0c8da968401af97156c7dbc856d3ba00f25aa1369da023",
+    "deliverables/Informe_BaseUnificada_Entregable.md": "522e24e50e309541ef680abaeb9b1b65c3d11f949e7df947a46dc47d601d2efa",
+    "deliverables/Informe_BaseUnificada_Entregable.pdf": "3f114991dc7997db6bc7cc666af98bcc05dfeff48037bebe744ce0e291b66aa7",
+    "deliverables/Metadatos_Entrega.json": "09d31418116ec85fd5ffabb210c8febdcca3dde81005e4f9081a0f11c1600fd9"
+  },
+  "estado": "Preparación técnica completada y entregable listo para revisión externa",
+  "limitaciones": [
+    "Identidad de eventos y personas entre sistemas no confirmada",
+    "Ausencias conservadas",
+    "Calendario orientativo sin validación institucional externa",
+    "Sin fecha de actualización de estado"
+  ]
+}

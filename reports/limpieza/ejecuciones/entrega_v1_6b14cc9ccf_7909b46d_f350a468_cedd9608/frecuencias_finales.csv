@@ -1,0 +1,139 @@
+﻿alcance,variable,categoria,registros,denominador_registros,porcentaje
+Integrada,programa,Derecho,1233,5500,22.42
+Integrada,programa,Especialización en Data Analytics,1216,5500,22.11
+Integrada,programa,Ingeniería de Sistemas,630,5500,11.45
+Integrada,programa,Contaduría Pública,613,5500,11.15
+Integrada,programa,Especialización en Gerencia,605,5500,11.0
+Integrada,programa,Psicología,595,5500,10.82
+Integrada,programa,Administración de Empresas,582,5500,10.58
+Integrada,programa,Sin información,26,5500,0.47
+Integrada,modalidad,Presencial,2192,5500,39.85
+Integrada,modalidad,Virtual,2183,5500,39.69
+Integrada,modalidad,Híbrida,1125,5500,20.45
+Integrada,canal_captacion,Feria universitaria,941,5500,17.11
+Integrada,canal_captacion,Instagram,939,5500,17.07
+Integrada,canal_captacion,Correo,926,5500,16.84
+Integrada,canal_captacion,Referido,915,5500,16.64
+Integrada,canal_captacion,Web institucional,891,5500,16.2
+Integrada,canal_captacion,Landing page,888,5500,16.15
+Integrada,estado_proceso,Admitido,1822,5500,33.13
+Integrada,estado_proceso,Matriculado,1179,5500,21.44
+Integrada,estado_proceso,Documentación pendiente,638,5500,11.6
+Integrada,estado_proceso,Inscrito,630,5500,11.45
+Integrada,estado_proceso,No admitido,617,5500,11.22
+Integrada,estado_proceso,Retirado,614,5500,11.16
+Integrada,documentos_completos,Sí,3285,5500,59.73
+Integrada,documentos_completos,Pendiente,1117,5500,20.31
+Integrada,documentos_completos,No,1098,5500,19.96
+Integrada,ciudad_residencia,Bogotá,1278,5500,23.24
+Integrada,ciudad_residencia,Cali,1245,5500,22.64
+Integrada,ciudad_residencia,Popayán,1144,5500,20.8
+Integrada,ciudad_residencia,Medellín,614,5500,11.16
+Integrada,ciudad_residencia,Santander de Quilichao,614,5500,11.16
+Integrada,ciudad_residencia,Pasto,605,5500,11.0
+Integrada,asesor,Asesor 1,2218,5500,40.33
+Integrada,asesor,Sin asignar,1101,5500,20.02
+Integrada,asesor,Asesor 2,1095,5500,19.91
+Integrada,asesor,Asesor 3,1086,5500,19.75
+Integrada,periodo_academico,20261,2246,5500,40.84
+Integrada,periodo_academico,20262,2183,5500,39.69
+Integrada,periodo_academico,20252,1071,5500,19.47
+Integrada,facultad,Ingeniería,1846,5500,33.56
+Integrada,facultad,Ciencias Sociales,1828,5500,33.24
+Integrada,facultad,Ciencias Económicas,1800,5500,32.73
+Integrada,facultad,Sin información,26,5500,0.47
+Integrada,nivel_formacion,Pregrado,3653,5500,66.42
+Integrada,nivel_formacion,Posgrado,1821,5500,33.11
+Integrada,nivel_formacion,Sin información,26,5500,0.47
+Principal,programa,Especialización en Data Analytics,1127,5000,22.54
+Principal,programa,Derecho,1113,5000,22.26
+Principal,programa,Ingeniería de Sistemas,569,5000,11.38
+Principal,programa,Contaduría Pública,554,5000,11.08
+Principal,programa,Especialización en Gerencia,549,5000,10.98
+Principal,programa,Psicología,544,5000,10.88
+Principal,programa,Administración de Empresas,520,5000,10.4
+Principal,programa,Sin información,24,5000,0.48
+Principal,modalidad,Virtual,1981,5000,39.62
+Principal,modalidad,Presencial,1980,5000,39.6
+Principal,modalidad,Híbrida,1039,5000,20.78
+Principal,canal_captacion,Feria universitaria,855,5000,17.1
+Principal,canal_captacion,Instagram,853,5000,17.06
+Principal,canal_captacion,Correo,838,5000,16.76
+Principal,canal_captacion,Referido,825,5000,16.5
+Principal,canal_captacion,Landing page,822,5000,16.44
+Principal,canal_captacion,Web institucional,807,5000,16.14
+Principal,estado_proceso,Admitido,1665,5000,33.3
+Principal,estado_proceso,Matriculado,1079,5000,21.58
+Principal,estado_proceso,Inscrito,572,5000,11.44
+Principal,estado_proceso,Documentación pendiente,570,5000,11.4
+Principal,estado_proceso,Retirado,564,5000,11.28
+Principal,estado_proceso,No admitido,550,5000,11.0
+Principal,documentos_completos,Sí,3001,5000,60.02
+Principal,documentos_completos,Pendiente,1009,5000,20.18
+Principal,documentos_completos,No,990,5000,19.8
+Principal,ciudad_residencia,Bogotá,1162,5000,23.24
+Principal,ciudad_residencia,Cali,1128,5000,22.56
+Principal,ciudad_residencia,Popayán,1035,5000,20.7
+Principal,ciudad_residencia,Santander de Quilichao,565,5000,11.3
+Principal,ciudad_residencia,Medellín,559,5000,11.18
+Principal,ciudad_residencia,Pasto,551,5000,11.02
+Principal,asesor,Asesor 1,2020,5000,40.4
+Principal,asesor,Sin asignar,1002,5000,20.04
+Principal,asesor,Asesor 2,990,5000,19.8
+Principal,asesor,Asesor 3,988,5000,19.76
+Principal,periodo_academico,20261,2020,5000,40.4
+Principal,periodo_academico,20262,2009,5000,40.18
+Principal,periodo_academico,20252,971,5000,19.42
+Principal,facultad,Ingeniería,1696,5000,33.92
+Principal,facultad,Ciencias Sociales,1657,5000,33.14
+Principal,facultad,Ciencias Económicas,1623,5000,32.46
+Principal,facultad,Sin información,24,5000,0.48
+Principal,nivel_formacion,Pregrado,3300,5000,66.0
+Principal,nivel_formacion,Posgrado,1676,5000,33.52
+Principal,nivel_formacion,Sin información,24,5000,0.48
+Oracle,programa,Derecho,120,500,24.0
+Oracle,programa,Especialización en Data Analytics,89,500,17.8
+Oracle,programa,Administración de Empresas,62,500,12.4
+Oracle,programa,Ingeniería de Sistemas,61,500,12.2
+Oracle,programa,Contaduría Pública,59,500,11.8
+Oracle,programa,Especialización en Gerencia,56,500,11.2
+Oracle,programa,Psicología,51,500,10.2
+Oracle,programa,Sin información,2,500,0.4
+Oracle,modalidad,Presencial,212,500,42.4
+Oracle,modalidad,Virtual,202,500,40.4
+Oracle,modalidad,Híbrida,86,500,17.2
+Oracle,canal_captacion,Referido,90,500,18.0
+Oracle,canal_captacion,Correo,88,500,17.6
+Oracle,canal_captacion,Feria universitaria,86,500,17.2
+Oracle,canal_captacion,Instagram,86,500,17.2
+Oracle,canal_captacion,Web institucional,84,500,16.8
+Oracle,canal_captacion,Landing page,66,500,13.2
+Oracle,estado_proceso,Admitido,157,500,31.4
+Oracle,estado_proceso,Matriculado,100,500,20.0
+Oracle,estado_proceso,Documentación pendiente,68,500,13.6
+Oracle,estado_proceso,No admitido,67,500,13.4
+Oracle,estado_proceso,Inscrito,58,500,11.6
+Oracle,estado_proceso,Retirado,50,500,10.0
+Oracle,documentos_completos,Sí,284,500,56.8
+Oracle,documentos_completos,Pendiente,108,500,21.6
+Oracle,documentos_completos,No,108,500,21.6
+Oracle,ciudad_residencia,Cali,117,500,23.4
+Oracle,ciudad_residencia,Bogotá,116,500,23.2
+Oracle,ciudad_residencia,Popayán,109,500,21.8
+Oracle,ciudad_residencia,Medellín,55,500,11.0
+Oracle,ciudad_residencia,Pasto,54,500,10.8
+Oracle,ciudad_residencia,Santander de Quilichao,49,500,9.8
+Oracle,asesor,Asesor 1,198,500,39.6
+Oracle,asesor,Asesor 2,105,500,21.0
+Oracle,asesor,Sin asignar,99,500,19.8
+Oracle,asesor,Asesor 3,98,500,19.6
+Oracle,periodo_academico,20261,226,500,45.2
+Oracle,periodo_academico,20262,174,500,34.8
+Oracle,periodo_academico,20252,100,500,20.0
+Oracle,facultad,Ciencias Económicas,177,500,35.4
+Oracle,facultad,Ciencias Sociales,171,500,34.2
+Oracle,facultad,Ingeniería,150,500,30.0
+Oracle,facultad,Sin información,2,500,0.4
+Oracle,nivel_formacion,Pregrado,353,500,70.6
+Oracle,nivel_formacion,Posgrado,145,500,29.0
+Oracle,nivel_formacion,Sin información,2,500,0.4

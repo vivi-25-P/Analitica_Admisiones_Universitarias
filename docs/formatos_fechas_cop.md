@@ -37,4 +37,4 @@ L04 registra formatos de día y mes ambiguos, fechas posteriores a la referencia
 
 COP identifica la unidad monetaria, pero no acredita equivalencia entre matrícula base, total CRM e importes de otras fuentes, ni prueba un pago. Esa conciliación continúa pendiente.
 
-El estado actual y las rutas de datos y controles están en reports/limpieza/ultima_tipificacion.json. El notebook conserva la explicación y los resultados de las etapas previas.
+El punto de control L04 y sus rutas están en reports/limpieza/ultima_tipificacion.json. La entrega integrada posterior se identifica en reports/limpieza/ultima_entrega.json. El notebook conserva la explicación y los resultados de todas las etapas.

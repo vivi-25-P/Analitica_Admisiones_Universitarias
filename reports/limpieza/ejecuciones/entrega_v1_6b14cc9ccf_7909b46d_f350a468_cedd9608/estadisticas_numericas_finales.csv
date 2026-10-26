@@ -1,0 +1,10 @@
+﻿alcance,variable,registros,informados,ausentes,minimo,maximo,promedio,mediana,unidad
+Integrada,puntaje_admision,5500,5254,246,40.0,100.0,70.07061286638751427483821850,70.0,puntaje registrado
+Integrada,valor_matricula_cop,5500,4580,920,1800000.00,3500000.00,2612532.751091703056768558952,2500000.00,"COP, importe reportado; no acredita pago"
+Integrada,duracion_semestres,5500,5474,26,2,10,6.658019729630982827913774205,8,semestres
+Principal,puntaje_admision,5000,4772,228,40.0,100.0,70.05343671416596814752724225,70.0,puntaje registrado
+Principal,valor_matricula_cop,5000,4161,839,1800000.00,3500000.00,2609997.596731554914683970199,2500000.00,"COP, importe reportado; no acredita pago"
+Principal,duracion_semestres,5000,4976,24,2,10,6.629421221864951768488745981,8,semestres
+Oracle,puntaje_admision,500,482,18,40,100,70.24066390041493775933609959,70,puntaje registrado
+Oracle,valor_matricula_cop,500,419,81,1800000.00,3500000.00,2637708.830548926014319809069,2500000.00,"COP, importe reportado; no acredita pago"
+Oracle,duracion_semestres,500,498,2,2,10,6.943775100401606425702811245,8,semestres

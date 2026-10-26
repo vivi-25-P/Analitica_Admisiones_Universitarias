@@ -1,0 +1,19 @@
+﻿fuente,valor,cantidad,denominador,porcentaje
+Principal,Feria universitaria,856,5002,17.1132
+Principal,Instagram,853,5002,17.0532
+Principal,Correo,838,5002,16.7533
+Principal,Referido,826,5002,16.5134
+Principal,Landing page,822,5002,16.4334
+Principal,Web institucional,807,5002,16.1335
+CRM,Web institucional,22,100,22.0
+CRM,Landing page,20,100,20.0
+CRM,Instagram,17,100,17.0
+CRM,Feria universitaria,16,100,16.0
+CRM,Correo,13,100,13.0
+CRM,Referido,12,100,12.0
+Oracle,Referido,90,500,18.0
+Oracle,Correo,88,500,17.6
+Oracle,Feria universitaria,86,500,17.2
+Oracle,Instagram,86,500,17.2
+Oracle,Web institucional,84,500,16.8
+Oracle,Landing page,66,500,13.2

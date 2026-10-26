@@ -1,0 +1,9 @@
+﻿archivo,contenido,existe
+BITACORA.md,Decisiones y acciones por fecha,True
+README.md,Guía de la salida vigente,True
+docs/plan_limpieza_datos.md,Secuencia y reglas,True
+notebooks/02_limpieza_base_unificada.ipynb,Respaldo ejecutable,True
+config/limpieza/identidad_estados_v1.json,Definición de estados y unidades,True
+reports/limpieza/ultima_revision_descriptiva.json,Punto de control L10 previo,True
+reports/limpieza/ultima_identidad_estados.json,Estado vigente L11,True
+reports/limpieza/reporte_estados_personas_y_cierre.md,Reporte de revisión y cierre,True

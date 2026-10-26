@@ -1,0 +1,79 @@
+﻿variable_grupo,categoria_grupo,variable_comparacion,categoria_comparacion,registros,denominador_grupo,porcentaje_grupo,unidad
+programa,Derecho,modalidad,Virtual,501,1233,40.63,Registros integrados; no personas únicas confirmadas
+programa,Administración de Empresas,modalidad,Presencial,218,582,37.46,Registros integrados; no personas únicas confirmadas
+programa,Especialización en Gerencia,modalidad,Virtual,238,605,39.34,Registros integrados; no personas únicas confirmadas
+programa,Ingeniería de Sistemas,modalidad,Virtual,235,630,37.3,Registros integrados; no personas únicas confirmadas
+programa,Ingeniería de Sistemas,modalidad,Presencial,267,630,42.38,Registros integrados; no personas únicas confirmadas
+programa,Psicología,modalidad,Presencial,217,595,36.47,Registros integrados; no personas únicas confirmadas
+programa,Especialización en Gerencia,modalidad,Presencial,233,605,38.51,Registros integrados; no personas únicas confirmadas
+programa,Derecho,modalidad,Presencial,484,1233,39.25,Registros integrados; no personas únicas confirmadas
+programa,Especialización en Data Analytics,modalidad,Presencial,514,1216,42.27,Registros integrados; no personas únicas confirmadas
+programa,Psicología,modalidad,Virtual,255,595,42.86,Registros integrados; no personas únicas confirmadas
+programa,Administración de Empresas,modalidad,Virtual,244,582,41.92,Registros integrados; no personas únicas confirmadas
+programa,Especialización en Data Analytics,modalidad,Híbrida,249,1216,20.48,Registros integrados; no personas únicas confirmadas
+programa,Administración de Empresas,modalidad,Híbrida,120,582,20.62,Registros integrados; no personas únicas confirmadas
+programa,Especialización en Gerencia,modalidad,Híbrida,134,605,22.15,Registros integrados; no personas únicas confirmadas
+programa,Derecho,modalidad,Híbrida,248,1233,20.11,Registros integrados; no personas únicas confirmadas
+programa,Especialización en Data Analytics,modalidad,Virtual,453,1216,37.25,Registros integrados; no personas únicas confirmadas
+programa,Contaduría Pública,modalidad,Virtual,247,613,40.29,Registros integrados; no personas únicas confirmadas
+programa,Ingeniería de Sistemas,modalidad,Híbrida,128,630,20.32,Registros integrados; no personas únicas confirmadas
+programa,Psicología,modalidad,Híbrida,123,595,20.67,Registros integrados; no personas únicas confirmadas
+programa,Contaduría Pública,modalidad,Presencial,246,613,40.13,Registros integrados; no personas únicas confirmadas
+programa,Contaduría Pública,modalidad,Híbrida,120,613,19.58,Registros integrados; no personas únicas confirmadas
+programa,Sin información,modalidad,Virtual,10,26,38.46,Registros integrados; no personas únicas confirmadas
+programa,Sin información,modalidad,Presencial,13,26,50.0,Registros integrados; no personas únicas confirmadas
+programa,Sin información,modalidad,Híbrida,3,26,11.54,Registros integrados; no personas únicas confirmadas
+canal_captacion,Instagram,estado_proceso,Inscrito,103,939,10.97,Registros integrados; no personas únicas confirmadas
+canal_captacion,Landing page,estado_proceso,Matriculado,182,888,20.5,Registros integrados; no personas únicas confirmadas
+canal_captacion,Correo,estado_proceso,Admitido,310,926,33.48,Registros integrados; no personas únicas confirmadas
+canal_captacion,Feria universitaria,estado_proceso,Matriculado,194,941,20.62,Registros integrados; no personas únicas confirmadas
+canal_captacion,Landing page,estado_proceso,Admitido,312,888,35.14,Registros integrados; no personas únicas confirmadas
+canal_captacion,Instagram,estado_proceso,Admitido,273,939,29.07,Registros integrados; no personas únicas confirmadas
+canal_captacion,Feria universitaria,estado_proceso,Documentación pendiente,104,941,11.05,Registros integrados; no personas únicas confirmadas
+canal_captacion,Correo,estado_proceso,Inscrito,131,926,14.15,Registros integrados; no personas únicas confirmadas
+canal_captacion,Landing page,estado_proceso,Retirado,113,888,12.73,Registros integrados; no personas únicas confirmadas
+canal_captacion,Correo,estado_proceso,No admitido,76,926,8.21,Registros integrados; no personas únicas confirmadas
+canal_captacion,Web institucional,estado_proceso,Admitido,314,891,35.24,Registros integrados; no personas únicas confirmadas
+canal_captacion,Referido,estado_proceso,Retirado,113,915,12.35,Registros integrados; no personas únicas confirmadas
+canal_captacion,Landing page,estado_proceso,Documentación pendiente,90,888,10.14,Registros integrados; no personas únicas confirmadas
+canal_captacion,Instagram,estado_proceso,Matriculado,224,939,23.86,Registros integrados; no personas únicas confirmadas
+canal_captacion,Correo,estado_proceso,Retirado,96,926,10.37,Registros integrados; no personas únicas confirmadas
+canal_captacion,Feria universitaria,estado_proceso,Retirado,95,941,10.1,Registros integrados; no personas únicas confirmadas
+canal_captacion,Correo,estado_proceso,Matriculado,206,926,22.25,Registros integrados; no personas únicas confirmadas
+canal_captacion,Web institucional,estado_proceso,Inscrito,97,891,10.89,Registros integrados; no personas únicas confirmadas
+canal_captacion,Feria universitaria,estado_proceso,Admitido,330,941,35.07,Registros integrados; no personas únicas confirmadas
+canal_captacion,Web institucional,estado_proceso,Documentación pendiente,99,891,11.11,Registros integrados; no personas únicas confirmadas
+canal_captacion,Correo,estado_proceso,Documentación pendiente,107,926,11.56,Registros integrados; no personas únicas confirmadas
+canal_captacion,Referido,estado_proceso,Documentación pendiente,119,915,13.01,Registros integrados; no personas únicas confirmadas
+canal_captacion,Web institucional,estado_proceso,No admitido,95,891,10.66,Registros integrados; no personas únicas confirmadas
+canal_captacion,Instagram,estado_proceso,Documentación pendiente,119,939,12.67,Registros integrados; no personas únicas confirmadas
+canal_captacion,Referido,estado_proceso,Matriculado,180,915,19.67,Registros integrados; no personas únicas confirmadas
+canal_captacion,Referido,estado_proceso,Admitido,283,915,30.93,Registros integrados; no personas únicas confirmadas
+canal_captacion,Web institucional,estado_proceso,Matriculado,193,891,21.66,Registros integrados; no personas únicas confirmadas
+canal_captacion,Referido,estado_proceso,Inscrito,100,915,10.93,Registros integrados; no personas únicas confirmadas
+canal_captacion,Web institucional,estado_proceso,Retirado,93,891,10.44,Registros integrados; no personas únicas confirmadas
+canal_captacion,Landing page,estado_proceso,Inscrito,97,888,10.92,Registros integrados; no personas únicas confirmadas
+canal_captacion,Feria universitaria,estado_proceso,Inscrito,102,941,10.84,Registros integrados; no personas únicas confirmadas
+canal_captacion,Instagram,estado_proceso,No admitido,116,939,12.35,Registros integrados; no personas únicas confirmadas
+canal_captacion,Referido,estado_proceso,No admitido,120,915,13.11,Registros integrados; no personas únicas confirmadas
+canal_captacion,Instagram,estado_proceso,Retirado,104,939,11.08,Registros integrados; no personas únicas confirmadas
+canal_captacion,Landing page,estado_proceso,No admitido,94,888,10.59,Registros integrados; no personas únicas confirmadas
+canal_captacion,Feria universitaria,estado_proceso,No admitido,116,941,12.33,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Cali,modalidad,Virtual,490,1245,39.36,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Medellín,modalidad,Virtual,227,614,36.97,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Pasto,modalidad,Presencial,266,605,43.97,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Bogotá,modalidad,Virtual,517,1278,40.45,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Popayán,modalidad,Virtual,453,1144,39.6,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Popayán,modalidad,Presencial,450,1144,39.34,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Santander de Quilichao,modalidad,Virtual,270,614,43.97,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Santander de Quilichao,modalidad,Presencial,232,614,37.79,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Bogotá,modalidad,Presencial,522,1278,40.85,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Cali,modalidad,Presencial,481,1245,38.63,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Medellín,modalidad,Presencial,241,614,39.25,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Popayán,modalidad,Híbrida,241,1144,21.07,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Cali,modalidad,Híbrida,274,1245,22.01,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Bogotá,modalidad,Híbrida,239,1278,18.7,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Pasto,modalidad,Virtual,226,605,37.36,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Pasto,modalidad,Híbrida,113,605,18.68,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Medellín,modalidad,Híbrida,146,614,23.78,Registros integrados; no personas únicas confirmadas
+ciudad_residencia,Santander de Quilichao,modalidad,Híbrida,112,614,18.24,Registros integrados; no personas únicas confirmadas

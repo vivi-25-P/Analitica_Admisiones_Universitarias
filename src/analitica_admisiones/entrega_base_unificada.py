@@ -530,7 +530,12 @@ class EntregaBaseUnificada:
                   '| :--- | ---: | ---: | ---: | ---: | ---: | ---: |']
         for row in self.numbers:
             if row['alcance']=='Integrada':
-                lines.append(f"| {row['variable']} | {n(row['informados'])} | {n(row['ausentes'])} | {row['minimo']} | {row['maximo']} | {Decimal(row['promedio']):.2f} | {row['mediana']} |")
+                if row['variable']=='valor_matricula_cop':
+                    monetary=lambda value:format(Decimal(value),',.2f').translate(str.maketrans(',.','.,'))
+                    minimum,maximum,average,mid=[monetary(row[c]) for c in ['minimo','maximo','promedio','mediana']]
+                else:
+                    minimum,maximum,average,mid=row['minimo'],row['maximo'],f"{Decimal(row['promedio']):.2f}",row['mediana']
+                lines.append(f"| {row['variable']} | {n(row['informados'])} | {n(row['ausentes'])} | {minimum} | {maximum} | {average} | {mid} |")
         lines += ['', 'Los importes de la tabla se expresan en COP y los puntajes en su unidad reportada. La presencia de concentraciones por programa, ciudad o canal identifica patrones del registro disponible. No demuestra causalidad comercial, capacidad de oferta o rentabilidad. Para evaluar oportunidad de mercado se debe mantener esta distinción.',
                   '', '## 8. Observaciones que acompañan la revisión','',
                   '| Observación | Registros |','| :--- | ---: |']

@@ -1,0 +1,200 @@
+﻿criterio,aspirante_id,programa,periodo_academico,modalidad,solicitudes,estados_originales,codigos_solicitud,accion
+aspirante_programa_periodo,A003446,Derecho,20262,varias posibles,2,"Inscrito, Nuevo","REG004364, REG004455",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001835,Derecho,20261,varias posibles,2,"Inscrito, Matriculado","REG003460, REG003929",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003144,Psicología,20252,varias posibles,2,"Admitido, No admitido","REG000194, REG001728",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002088,Derecho,20262,varias posibles,2,"Documentación pendiente, Inscrito","REG000554, REG004316",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A004152,Especialización en Data Analytics,20261,varias posibles,2,"Admitido, Inscrito","REG004199, REG004829",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001212,Psicología,20261,varias posibles,2,"Matriculado, Nuevo","REG002762, REG004896",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000602,Psicología,20261,varias posibles,2,"Documentación pendiente, Retirado","REG003844, REG004593",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003576,Psicología,20261,varias posibles,2,Matriculado,"REG001338, REG005000",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000621,Derecho,20261,varias posibles,2,"Matriculado, Retirado","REG003352, REG004625",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003732,Especialización en Data Analytics,20261,varias posibles,2,Documentación pendiente,"REG000709, REG002950",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002116,Derecho,20261,varias posibles,2,"Admitido, Matriculado","REG002111, REG002316",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002619,Derecho,20262,varias posibles,2,"Matriculado, Nuevo","REG003212, REG004313",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000804,Especialización en Gerencia,20262,varias posibles,2,"Nuevo, Retirado","REG004414, REG004580",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000345,Derecho,20261,varias posibles,2,"Inscrito, Nuevo","REG001176, REG001534",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001365,Especialización en Data Analytics,20262,varias posibles,2,"Documentación pendiente, Matriculado","REG001553, REG002561",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000058,Contaduría Pública,20262,varias posibles,2,"Admitido, Nuevo","REG002491, REG004943",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002556,Derecho,20262,varias posibles,2,"Matriculado, No admitido","REG002839, REG003329",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000867,Derecho,20252,varias posibles,2,"Documentación pendiente, No admitido","REG001390, REG001636",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003831,Derecho,20262,varias posibles,2,"Inscrito, Retirado","REG000738, REG001308",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003642,Especialización en Data Analytics,20262,varias posibles,2,"Matriculado, Retirado","REG002307, REG003726",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000603,Especialización en Data Analytics,20261,varias posibles,2,"Admitido, No admitido","REG001290, REG002834",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001248,Especialización en Data Analytics,20261,varias posibles,2,Retirado,"REG004357, REG004735",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000209,Administración de Empresas,20262,varias posibles,2,"Inscrito, No admitido","REG001461, REG004743",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000230,Derecho,20262,varias posibles,2,"Matriculado, No admitido","REG000784, REG001940",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001334,Derecho,20262,varias posibles,2,"Inscrito, Retirado","REG000442, REG001740",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003840,Especialización en Data Analytics,20262,varias posibles,2,"Documentación pendiente, Matriculado","REG001206, REG002921",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001890,Especialización en Gerencia,20261,varias posibles,2,"Admitido, No admitido","REG000509, REG002582",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001938,Administración de Empresas,20262,varias posibles,2,Inscrito,"REG003684, REG003730",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002503,Especialización en Data Analytics,20261,varias posibles,2,"Admitido, Matriculado","REG001579, REG004146",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000288,Especialización en Gerencia,20261,varias posibles,2,"Documentación pendiente, Matriculado","REG000648, REG003422",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002005,Especialización en Data Analytics,20262,varias posibles,2,"Admitido, Documentación pendiente","REG002908, REG004033",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003230,Ingeniería de Sistemas,20262,varias posibles,2,"Documentación pendiente, No admitido","REG001349, REG001635",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002293,Especialización en Data Analytics,20252,varias posibles,2,"Documentación pendiente, Nuevo","REG000770, REG003491",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000759,Especialización en Data Analytics,20252,varias posibles,2,"Matriculado, Retirado","REG001129, REG004830",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000984,Especialización en Data Analytics,20262,varias posibles,2,"Documentación pendiente, Retirado","REG000495, REG001241",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003630,Especialización en Data Analytics,20262,varias posibles,2,"Documentación pendiente, Inscrito","REG001430, REG003347",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000068,Especialización en Data Analytics,20262,varias posibles,2,"Matriculado, Retirado","REG000185, REG000205",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001796,Ingeniería de Sistemas,20252,varias posibles,2,Nuevo,"REG001769, REG001947",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002279,Administración de Empresas,20262,varias posibles,2,"Admitido, Inscrito","REG000418, REG001484",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000456,Administración de Empresas,20261,varias posibles,2,"Matriculado, No admitido","REG002770, REG004871",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001137,Especialización en Data Analytics,20262,varias posibles,2,"Admitido, Inscrito","REG002670, REG003999",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003794,Derecho,20262,varias posibles,2,"Admitido, Matriculado","REG001156, REG004139",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002659,Derecho,20252,varias posibles,2,"Admitido, Nuevo","REG004817, REG004845",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000876,Contaduría Pública,20261,varias posibles,2,"Matriculado, Nuevo","REG001388, REG002664",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002667,Ingeniería de Sistemas,20252,varias posibles,2,"Admitido, No admitido","REG004510, REG004630",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002849,Derecho,20261,varias posibles,2,"Documentación pendiente, No admitido","REG000257, REG000457",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000391,Ingeniería de Sistemas,20252,varias posibles,2,"Admitido, Nuevo","REG000261, REG004553",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000114,Ingeniería de Sistemas,20261,varias posibles,2,"Admitido, Inscrito","REG002867, REG003610",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003478,Derecho,20261,varias posibles,2,"Admitido, Nuevo","REG002415, REG002609",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003312,Especialización en Data Analytics,20261,varias posibles,2,"Admitido, Matriculado","REG001912, REG002069",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002974,Ingeniería de Sistemas,20262,varias posibles,2,"No admitido, Nuevo","REG000159, REG001116",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A004074,Derecho,20261,varias posibles,2,No admitido,"REG000515, REG001262",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003508,Contaduría Pública,20262,varias posibles,2,"Matriculado, Nuevo","REG001115, REG004237",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003465,Especialización en Data Analytics,20261,varias posibles,2,"Admitido, Matriculado","REG001273, REG003507",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000558,Especialización en Data Analytics,20262,varias posibles,2,"Matriculado, Nuevo","REG002166, REG004955",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001288,Especialización en Data Analytics,20261,varias posibles,2,"Admitido, Nuevo","REG001644, REG004241",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002003,Contaduría Pública,20262,varias posibles,2,"Matriculado, No admitido","REG000903, REG001421",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000896,Derecho,20262,varias posibles,2,"Matriculado, Nuevo","REG000965, REG001532",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003027,Contaduría Pública,20261,varias posibles,2,"Matriculado, Retirado","REG000503, REG000631",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000917,Derecho,20262,varias posibles,2,"Matriculado, Nuevo","REG002144, REG003928",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002153,Especialización en Data Analytics,20262,varias posibles,3,"Admitido, Retirado","REG002014, REG002243, REG003588",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001469,Especialización en Data Analytics,20262,varias posibles,2,"Documentación pendiente, Nuevo","REG001242, REG003997",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000606,Administración de Empresas,20262,varias posibles,2,"Admitido, Nuevo","REG002181, REG004754",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000196,Especialización en Data Analytics,20262,varias posibles,2,"Matriculado, Nuevo","REG001447, REG004157",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000063,Especialización en Data Analytics,20261,varias posibles,2,"Documentación pendiente, Matriculado","REG003582, REG004419",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002053,Especialización en Data Analytics,20262,varias posibles,2,"Nuevo, Retirado","REG000015, REG004182",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000653,Derecho,20262,varias posibles,2,"Matriculado, Nuevo","REG002789, REG003811",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A004150,Especialización en Data Analytics,20261,varias posibles,2,"Admitido, No admitido","REG003852, REG004982",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002368,Derecho,20262,varias posibles,2,"Inscrito, Matriculado","REG000657, REG003000",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002374,Psicología,20262,varias posibles,2,"Admitido, Matriculado","REG003174, REG004656",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002489,Especialización en Data Analytics,20261,varias posibles,2,"Admitido, Inscrito","REG002890, REG003963",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002751,Derecho,20261,varias posibles,2,Admitido,"REG003191, REG004978",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003816,Derecho,20261,varias posibles,3,"Admitido, Matriculado, Nuevo","REG001071, REG001255, REG001266",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000869,Ingeniería de Sistemas,20262,varias posibles,2,"Matriculado, Retirado","REG002400, REG003600",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001875,Especialización en Data Analytics,20262,varias posibles,2,"Documentación pendiente, Nuevo","REG000703, REG004973",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A004183,Ingeniería de Sistemas,20262,varias posibles,2,"Inscrito, Nuevo","REG002260, REG002778",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001225,Administración de Empresas,20261,varias posibles,2,Matriculado,"REG001369, REG003888",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002094,Ingeniería de Sistemas,20261,varias posibles,2,"Admitido, Matriculado","REG001547, REG002102",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001435,Especialización en Gerencia,20261,varias posibles,2,"Inscrito, No admitido","REG001895, REG004462",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000390,Especialización en Data Analytics,20262,varias posibles,2,Admitido,"REG001919, REG004422",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000645,Derecho,20261,varias posibles,2,"Matriculado, Nuevo","REG000751, REG004800",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000499,Especialización en Gerencia,20261,varias posibles,2,"Admitido, Nuevo","REG001799, REG002645",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002758,Ingeniería de Sistemas,20261,varias posibles,2,"Matriculado, Nuevo","REG000325, REG004244",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002400,Administración de Empresas,20252,varias posibles,2,"Admitido, Nuevo","REG001570, REG002765",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001391,Especialización en Data Analytics,20252,varias posibles,2,"Matriculado, Retirado","REG003894, REG004391",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002047,Especialización en Data Analytics,20261,varias posibles,2,"Matriculado, Nuevo","REG002107, REG002686",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A004071,Administración de Empresas,20261,varias posibles,2,"Admitido, Retirado","REG002726, REG002959",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001916,Psicología,20262,varias posibles,2,Matriculado,"REG002624, REG004618",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A004045,Psicología,20261,varias posibles,2,"Admitido, Matriculado","REG000472, REG002139",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003801,Psicología,20261,varias posibles,2,"Admitido, Nuevo","REG000712, REG004492",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001250,Especialización en Data Analytics,20262,varias posibles,2,"Matriculado, No admitido","REG002011, REG002718",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001720,Ingeniería de Sistemas,20262,varias posibles,2,"Documentación pendiente, Matriculado","REG002820, REG003889",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000781,Especialización en Data Analytics,20261,varias posibles,2,"No admitido, Nuevo","REG002907, REG004201",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003993,Derecho,20261,varias posibles,2,"Admitido, No admitido","REG000985, REG003911",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002652,Especialización en Data Analytics,20262,varias posibles,2,"Documentación pendiente, Matriculado","REG000004, REG003249",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001161,Derecho,20252,varias posibles,2,"Matriculado, No admitido","REG000873, REG003983",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000065,Psicología,20261,varias posibles,2,Retirado,"REG000758, REG003024",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003211,Derecho,20261,varias posibles,2,"Inscrito, Retirado","REG001317, REG003187",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001976,Psicología,20261,varias posibles,2,Inscrito,"REG001857, REG002238",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A004096,Administración de Empresas,20262,varias posibles,2,Matriculado,"REG000189, REG001744",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001630,Administración de Empresas,20261,varias posibles,2,"Admitido, No admitido","REG001554, REG003170",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003326,Especialización en Data Analytics,20262,varias posibles,2,"Matriculado, Retirado","REG001153, REG002899",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001710,Especialización en Data Analytics,20261,varias posibles,2,"Inscrito, No admitido","REG001894, REG002622",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002285,Administración de Empresas,20262,varias posibles,2,"Admitido, Nuevo","REG003043, REG004905",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003072,Especialización en Data Analytics,20262,varias posibles,2,"Admitido, Matriculado","REG001875, REG002289",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001016,Derecho,20262,varias posibles,2,Admitido,"REG000433, REG003307",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000552,Especialización en Data Analytics,20261,varias posibles,2,"Admitido, Matriculado","REG001884, REG004042",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003904,Derecho,20252,varias posibles,2,"Inscrito, Nuevo","REG000488, REG001496",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000094,Derecho,20252,varias posibles,2,"Documentación pendiente, No admitido","REG000350, REG000476",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002612,Contaduría Pública,20262,varias posibles,2,Admitido,"REG000448, REG004460",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001933,Especialización en Data Analytics,20262,varias posibles,2,"Admitido, No admitido","REG001082, REG004711",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003049,Especialización en Data Analytics,20261,varias posibles,2,No admitido,"REG000009, REG002748",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000692,Psicología,20261,varias posibles,2,Admitido,"REG002649, REG002995",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003117,Derecho,20262,varias posibles,2,"Admitido, Nuevo","REG000562, REG004937",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000902,Psicología,20262,varias posibles,2,"Documentación pendiente, Matriculado","REG000870, REG001382",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000428,Psicología,20261,varias posibles,2,"Inscrito, Retirado","REG001616, REG002457",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001059,Especialización en Data Analytics,20262,varias posibles,2,"Admitido, Inscrito","REG002229, REG003026",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002001,Ingeniería de Sistemas,20262,varias posibles,2,"Documentación pendiente, Inscrito","REG001456, REG001963",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003244,Derecho,20252,varias posibles,2,No admitido,"REG004485, REG004977",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001282,Especialización en Data Analytics,20252,varias posibles,2,Retirado,"REG001810, REG002848",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001814,Especialización en Data Analytics,20262,varias posibles,2,"Inscrito, No admitido","REG003842, REG004483",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003336,Administración de Empresas,20261,varias posibles,2,"Matriculado, Retirado","REG002694, REG003477",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A004087,Derecho,20261,varias posibles,2,"Admitido, Retirado","REG000127, REG004717",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000626,Especialización en Data Analytics,20261,varias posibles,2,"Inscrito, No admitido","REG003545, REG004842",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A004137,Administración de Empresas,20261,varias posibles,2,"Admitido, Documentación pendiente","REG001299, REG002809",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003156,Especialización en Data Analytics,20252,varias posibles,2,"Admitido, Matriculado","REG000940, REG001788",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003523,Contaduría Pública,20262,varias posibles,2,Matriculado,"REG001034, REG002595",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002655,Especialización en Data Analytics,20262,varias posibles,2,"Admitido, Nuevo","REG002780, REG003371",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001456,Derecho,20261,varias posibles,2,"Documentación pendiente, Nuevo","REG000852, REG001691",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000130,Especialización en Gerencia,20262,varias posibles,2,"Inscrito, No admitido","REG002063, REG004129",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000437,Derecho,20262,varias posibles,2,"Documentación pendiente, Matriculado","REG003851, REG003883",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001856,Derecho,20261,varias posibles,2,"Documentación pendiente, Matriculado","REG003225, REG003717",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003671,Contaduría Pública,20261,varias posibles,2,"Documentación pendiente, Matriculado","REG000943, REG002017",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000874,Especialización en Gerencia,20261,varias posibles,2,"Inscrito, Retirado","REG002542, REG004227",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002598,Ingeniería de Sistemas,20261,varias posibles,2,Admitido,"REG003790, REG004035",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000501,Psicología,20261,varias posibles,2,"Documentación pendiente, Inscrito","REG002384, REG003244",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000814,Especialización en Data Analytics,20262,varias posibles,2,"No admitido, Nuevo","REG003812, REG004406",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001633,Psicología,20262,varias posibles,2,"Admitido, Documentación pendiente","REG001693, REG004095",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001396,Especialización en Gerencia,20261,varias posibles,2,"Inscrito, Matriculado","REG001942, REG003862",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003051,Especialización en Data Analytics,20262,varias posibles,2,Nuevo,"REG000465, REG001275",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003626,Derecho,20262,varias posibles,2,"Admitido, Documentación pendiente","REG001806, REG004039",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A003286,Derecho,20261,varias posibles,2,"Admitido, Nuevo","REG002070, REG004895",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000347,Derecho,20261,varias posibles,2,"Admitido, No admitido","REG003320, REG003500",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002468,Especialización en Data Analytics,20261,varias posibles,2,"Documentación pendiente, Retirado","REG002373, REG003143",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A002351,Especialización en Data Analytics,20261,varias posibles,2,Documentación pendiente,"REG003380, REG004344",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000094,Derecho,20262,varias posibles,2,Matriculado,"REG000876, REG003666",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001717,Contaduría Pública,20261,varias posibles,2,"Documentación pendiente, No admitido","REG002662, REG003652",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A000806,Derecho,20262,varias posibles,2,No admitido,"REG003073, REG003129",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001010,Especialización en Gerencia,20261,varias posibles,2,"Matriculado, Nuevo","REG002833, REG003138",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001188,Derecho,20252,varias posibles,2,"Admitido, Retirado","REG001581, REG002294",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_periodo,A001416,Derecho,20261,varias posibles,2,"Inscrito, No admitido","REG001469, REG001749",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A003446,Derecho,20262,Virtual,2,"Inscrito, Nuevo","REG004364, REG004455",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A003144,Psicología,20252,Virtual,2,"Admitido, No admitido","REG000194, REG001728",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A004152,Especialización en Data Analytics,20261,Presencial,2,"Admitido, Inscrito","REG004199, REG004829",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000602,Psicología,20261,Presencial,2,"Documentación pendiente, Retirado","REG003844, REG004593",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A003576,Psicología,20261,Virtual,2,Matriculado,"REG001338, REG005000",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A001365,Especialización en Data Analytics,20262,Presencial,2,"Documentación pendiente, Matriculado","REG001553, REG002561",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000058,Contaduría Pública,20262,Presencial,2,"Admitido, Nuevo","REG002491, REG004943",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000603,Especialización en Data Analytics,20261,Presencial,2,"Admitido, No admitido","REG001290, REG002834",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A001334,Derecho,20262,Presencial,2,"Inscrito, Retirado","REG000442, REG001740",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A001938,Administración de Empresas,20262,Presencial,2,Inscrito,"REG003684, REG003730",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A003230,Ingeniería de Sistemas,20262,Virtual,2,"Documentación pendiente, No admitido","REG001349, REG001635",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A002279,Administración de Empresas,20262,Híbrida,2,"Admitido, Inscrito","REG000418, REG001484",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000876,Contaduría Pública,20261,Virtual,2,"Matriculado, Nuevo","REG001388, REG002664",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A002667,Ingeniería de Sistemas,20252,Virtual,2,"Admitido, No admitido","REG004510, REG004630",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A004074,Derecho,20261,Presencial,2,No admitido,"REG000515, REG001262",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A003508,Contaduría Pública,20262,Presencial,2,"Matriculado, Nuevo","REG001115, REG004237",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A003465,Especialización en Data Analytics,20261,Presencial,2,"Admitido, Matriculado","REG001273, REG003507",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000558,Especialización en Data Analytics,20262,Presencial,2,"Matriculado, Nuevo","REG002166, REG004955",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000896,Derecho,20262,Virtual,2,"Matriculado, Nuevo","REG000965, REG001532",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000917,Derecho,20262,Presencial,2,"Matriculado, Nuevo","REG002144, REG003928",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A002153,Especialización en Data Analytics,20262,Virtual,2,"Admitido, Retirado","REG002014, REG002243",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A002053,Especialización en Data Analytics,20262,Presencial,2,"Nuevo, Retirado","REG000015, REG004182",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A002751,Derecho,20261,Presencial,2,Admitido,"REG003191, REG004978",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A003816,Derecho,20261,Presencial,2,"Admitido, Nuevo","REG001255, REG001266",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A001225,Administración de Empresas,20261,Virtual,2,Matriculado,"REG001369, REG003888",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A002094,Ingeniería de Sistemas,20261,Virtual,2,"Admitido, Matriculado","REG001547, REG002102",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000390,Especialización en Data Analytics,20262,Virtual,2,Admitido,"REG001919, REG004422",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000645,Derecho,20261,Presencial,2,"Matriculado, Nuevo","REG000751, REG004800",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000499,Especialización en Gerencia,20261,Presencial,2,"Admitido, Nuevo","REG001799, REG002645",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A004045,Psicología,20261,Presencial,2,"Admitido, Matriculado","REG000472, REG002139",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A001250,Especialización en Data Analytics,20262,Virtual,2,"Matriculado, No admitido","REG002011, REG002718",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000781,Especialización en Data Analytics,20261,Virtual,2,"No admitido, Nuevo","REG002907, REG004201",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A003211,Derecho,20261,Presencial,2,"Inscrito, Retirado","REG001317, REG003187",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A001630,Administración de Empresas,20261,Presencial,2,"Admitido, No admitido","REG001554, REG003170",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A001016,Derecho,20262,Presencial,2,Admitido,"REG000433, REG003307",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A003049,Especialización en Data Analytics,20261,Híbrida,2,No admitido,"REG000009, REG002748",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000902,Psicología,20262,Virtual,2,"Documentación pendiente, Matriculado","REG000870, REG001382",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A004087,Derecho,20261,Presencial,2,"Admitido, Retirado","REG000127, REG004717",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000626,Especialización en Data Analytics,20261,Virtual,2,"Inscrito, No admitido","REG003545, REG004842",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A004137,Administración de Empresas,20261,Presencial,2,"Admitido, Documentación pendiente","REG001299, REG002809",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A003156,Especialización en Data Analytics,20252,Virtual,2,"Admitido, Matriculado","REG000940, REG001788",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A003671,Contaduría Pública,20261,Presencial,2,"Documentación pendiente, Matriculado","REG000943, REG002017",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000501,Psicología,20261,Virtual,2,"Documentación pendiente, Inscrito","REG002384, REG003244",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000814,Especialización en Data Analytics,20262,Presencial,2,"No admitido, Nuevo","REG003812, REG004406",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A003286,Derecho,20261,Presencial,2,"Admitido, Nuevo","REG002070, REG004895",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A001717,Contaduría Pública,20261,Presencial,2,"Documentación pendiente, No admitido","REG002662, REG003652",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A000806,Derecho,20262,Híbrida,2,No admitido,"REG003073, REG003129",conservar solicitudes; no hay prueba de historial de una misma solicitud
+aspirante_programa_modalidad_periodo,A001188,Derecho,20252,Virtual,2,"Admitido, Retirado","REG001581, REG002294",conservar solicitudes; no hay prueba de historial de una misma solicitud

@@ -2,7 +2,7 @@
 
 Actualización: 26 de octubre de 2026.
 
-Estado: notebook ejecutado de L00 a L11. Se consolidaron 38 repeticiones exactas y dos registros parciales complementarios. La salida vigente contiene 5.600 registros y 18 columnas, una cohorte principal de 5.000 códigos de solicitud y una vista de 2.924 códigos de aspirante informados distintos. Nuevo se agrupa analíticamente con Admitido según la aclaración del usuario; el estado recibido se conserva en auditoría. Cada una de las 5.640 entradas mantiene un destino. Las 90 solicitudes principales sin ID permanecen aparte del conteo de personas. CRM y Oracle todavía requieren conciliación entre fuentes; la entrada preparada permanece intacta.
+Estado: notebook ejecutado de L00 a L14. Se consolidaron 38 repeticiones exactas, dos parciales y 100 aportes CRM incorporados a solicitudes existentes. La entrega contiene 5.500 registros y 18 columnas, incluidos los 500 Oracle, con 13 importes recuperados desde matrícula base CRM. Cada una de las 5.640 entradas mantiene un destino. Los periodos se conservan como semestres de ingreso. La preparación técnica está completada para revisión externa y análisis descriptivo, con observaciones de identidad y negocio explícitas. El estado vigente es reports/limpieza/ultima_entrega.json y el archivo externo deliverables/BaseUnificada_Entregable.xlsx. La entrada preparada y las fuentes permanecen intactas.
 
 ## 1. Qué cambia respecto al plan anterior
 
@@ -86,6 +86,9 @@ El origen de cada registro debe reconstruirse a partir de las fuentes y del libr
 | L09 | Validar, exportar y comparar resultados | Conciliar todas las entradas | Base limpia, auditoría y reporte final |
 | L10 | Resolver dos parciales, revisar categorías, importes, fechas e identificadores y explorar por fuente | Dos filas complementarias consolidadas; 5.600 de salida | Cinco celdas recuperadas, 94 ausencias de ID homologadas, controles y siete gráficos |
 | L11 | Consolidar estados según contexto y separar solicitudes de aspirantes | Mantiene las 5.600 filas; añade vistas auxiliares | Estados originales, una fila por código de aspirante, clasificación excluyente y denominadores |
+| L12 | Incorporar 100 CRM a solicitudes correspondientes y recuperar matrícula base ausente | 5.500 registros | Correspondencias por código y 12 atributos, conceptos económicos y 13 recuperaciones |
+| L13 | Conservar Oracle, revisar correspondencias y aplicar reglas temporales e identidad | Mantiene 5.500 registros | Las 500 filas Oracle incluidas, controles por fuente y periodos sin recalcular |
+| L14 | Validar y publicar BaseUnificada Entregable | 5.500 registros y 18 columnas | Excel, CSV, JSONL, informe formal, gráficos, controles, hashes y ZIP sin notas personales |
 
 Este orden separa las reglas de representación de las decisiones de identidad. Después de normalizar pueden aparecer nuevas coincidencias exactas; deben volver a contarse y distinguirse de las 38 observadas al inicio.
 
@@ -230,7 +233,7 @@ Una carga futura a PostgreSQL necesita una nueva estructura que contemple las 18
 
 Está listo el diagnóstico de entrada, el inventario de las 5.640 filas, el listado de identificadores repetidos, la actualización del plan y las plantillas de control. Se reproducen con python scripts/diagnosticar_base_unificada.py.
 
-El notebook se ejecutó de principio a fin con 33 celdas de código. Verificó 5.040 procedencias principales, 100 CRM y 500 Oracle contra el libro congelado y el código de anexado. L02 estandarizó textos y categorías con config/limpieza/estandarizacion_v1.json: hubo 14.209 cambios de celda en 5.404 filas. En esa etapa se conservaron las 5.640 filas, las 18 columnas y las 38 repeticiones exactas adicionales. L02 no modificó fechas, puntajes, importes ni duración.
+El notebook se ejecutó de principio a fin con 37 celdas de código. Verificó 5.040 procedencias principales, 100 CRM y 500 Oracle contra el libro congelado y el código de anexado. L02 estandarizó textos y categorías con config/limpieza/estandarizacion_v1.json: hubo 14.209 cambios de celda en 5.404 filas. En esa etapa se conservaron las 5.640 filas, las 18 columnas y las 38 repeticiones exactas adicionales. L02 no modificó fechas, puntajes, importes ni duración.
 
 Los datos intermedios están en data/interim/taller_2 bajo una carpeta de versión. Los cambios por celda, equivalencias, procedencias, disposición de las 5.640 filas y controles están en reports/limpieza/ejecuciones. reports/limpieza/ultima_estandarizacion.json identifica la ejecución y sus hashes. Existe un HTML de lectura en reports/02_limpieza_base_unificada.html.
 
@@ -283,3 +286,21 @@ Las sumas de aspirantes distintos por estado son 4.474 antes y 4.371 después de
 La base no contiene fecha de actualización del estado. No se elige el último estado utilizando fecha de solicitud ni se elimina una solicitud por compartir aspirante. Los 48 grupos con el mismo aspirante, programa, modalidad y periodo se exportan para revisión; 39 presentan varios estados originales. Se mantienen sus 96 solicitudes porque no hay prueba de que todas sean versiones de una sola solicitud.
 
 Las reglas se encuentran en config/limpieza/identidad_estados_v1.json. El resumen vigente es reports/limpieza/ultima_identidad_estados.json y el reporte es reports/limpieza/reporte_estados_personas_y_cierre.md. El Excel conserva BaseUnificada_Revision y Principal_Analisis con 18 columnas y añade las vistas auxiliares Aspirantes_Principal, Solicitudes_Sin_ID y Alcance. Se exportan el original de cada estado modificado, el destino de las 5.640 entradas, grupos de posible historial, frecuencias por solicitud y aspirante y un diccionario de indicadores y denominadores. L09 y L10 permanecen como puntos de control históricos.
+
+## 14. Cierre integrado y entrega para revisión
+
+El usuario autorizó completar el proceso y entregar una versión formal sin notas personales. L12 incorpora los 100 aportes CRM mediante registro_id, compatibilidad de 12 atributos y control de los identificadores informados. Se conservan 87 matrículas principales iguales a la base CRM y se recuperan las 13 ausentes desde esa base. Derechos administrativos y total CRM permanecen en el control económico. No se imputan promedios ni se modifican importes principales informados. La principal tiene 839 importes ausentes después de la recuperación.
+
+L13 conserva las 500 filas Oracle dentro del conjunto integrado. Las 500 tienen candidatos por 11 atributos y 49 también por los dos atributos de fecha comparados. Las sondas utilizan igualdad numérica y las ausencias se identifican explícitamente; las coincidencias no prueban identidad. Se comparan contra el estado previo a recuperar importes para no perder candidatos por el enriquecimiento posterior. Los códigos Oracle y los datos de sus 500 filas se conservan.
+
+Los periodos son semestres de ingreso y permanecen como llegaron tras su homologación. No se recalculan desde solicitud o matrícula. Las ventanas de octubre a enero y de mayo a julio son referencias descriptivas, sin afirmar calendario institucional ni excluir registros. Las fechas futuras y de orden inverso se señalan; los intervalos solo se calculan con ambas fechas sin las alertas aplicadas. No se crean fechas de actualización de estado.
+
+La salida tiene 5.500 registros y 18 columnas: 5.000 principales enriquecidos y 500 Oracle. Cada una de las 5.640 entradas conserva su destino. Hay 26 programas sin identificar, 90 identificadores de aspirante ausentes, 246 puntajes ausentes y 920 importes ausentes. Hay 456 solicitudes con año posterior al periodo, 32 matrículas anteriores a solicitud y 28 fechas posteriores a la referencia del 26 de octubre. Las observaciones pueden superponerse y no se suman como registros nuevos. Se conservan 4.321 ausencias de fecha de matrícula; su ausencia en estados no matriculados no se declara error automáticamente.
+
+Aspirantes_Origen incluye 2.924 identificadores principales y 500 Oracle: 3.424 códigos de origen y no personas globales únicas confirmadas. Los 90 casos sin identificador permanecen. Los gráficos integrados utilizan los 5.500 registros e identifican las limitaciones de independencia y cobertura por fuente.
+
+L14 publica deliverables/BaseUnificada_Entregable.xlsx, su CSV, un informe formal PDF y Markdown, metadatos y BaseUnificada_Entregable.zip. La hoja BaseUnificada tiene 18 columnas. Diccionario_Datos, Origen_Registros, Control_Calidad, Resumen_Calidad, Aspirantes_Origen, Coincidencias_Oracle, Control_Economico, Registros_Sin_ID y Metodologia permiten revisión autónoma. El paquete contiene controles CSV y seis gráficos PNG y PDF. Se verifican contenido, hashes y ausencia de notas de conversación o rutas locales. La auditoría interna no se incorpora al paquete externo.
+
+Pasaron 23 controles finales y la lectura completa de Excel, CSV y JSONL. Se conserva el inventario de las 5.640 entradas y se verifican los hashes de fuentes, archivo preparado y libro original. El resumen vigente es reports/limpieza/ultima_entrega.json. El informe interno es reports/limpieza/reporte_final_integracion_y_entrega.md. Las reglas están en config/limpieza/entrega_v1.json y el mismo notebook reproduce todo el proceso. Las tablas Docker no se modificaron.
+
+La preparación técnica queda cerrada para revisión externa y análisis descriptivo de registros. La identidad global entre sistemas, las ausencias no recuperables, el calendario oficial y la falta de fecha de actualización de estado son límites declarados. Para indicadores que requieran esa validación se mantendrán los denominadores y alcances correspondientes; no se sustituyen por supuestos silenciosos.

@@ -1,0 +1,14 @@
+﻿version,estado,solicitudes,porcentaje_solicitudes,aspirantes_distintos_con_ese_estado,denominador_aspirantes_informados,conteos_por_estado_no_aditivos
+Original,Inscrito,572,11.44,529,2924,True
+Original,Matriculado,1079,21.58,930,2924,True
+Original,Admitido,1105,22.1,974,2924,True
+Original,Nuevo,560,11.2,498,2924,True
+Original,Documentación pendiente,570,11.4,521,2924,True
+Original,Retirado,564,11.28,515,2924,True
+Original,No admitido,550,11.0,507,2924,True
+Consolidado,Inscrito,572,11.44,529,2924,True
+Consolidado,Matriculado,1079,21.58,930,2924,True
+Consolidado,Admitido,1665,33.3,1369,2924,True
+Consolidado,Documentación pendiente,570,11.4,521,2924,True
+Consolidado,Retirado,564,11.28,515,2924,True
+Consolidado,No admitido,550,11.0,507,2924,True
