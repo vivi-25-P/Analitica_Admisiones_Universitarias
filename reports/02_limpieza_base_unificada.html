@@ -7796,23 +7796,25 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fb1f7ae8">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7c167463">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Limpieza-y-transformaci%C3%B3n-de-BaseUnificada">Limpieza y transformación de BaseUnificada<a class="anchor-link" href="#Limpieza-y-transformaci%C3%B3n-de-BaseUnificada">¶</a></h1><p>Este cuaderno sigue el orden del plan en <code>docs/plan_limpieza_datos.md</code>.
 La integración previa se conserva en el libro de manejo y la entrada congelada.</p>
-<p><strong>Este avance cubre L00 a L04:</strong> identificación de la entrada,
+<p><strong>Este cuaderno ejecuta L00 a L09:</strong> identificación de la entrada,
 reconstrucción comprobada de la procedencia y estandarización textual mediante
 catálogos explícitos. L01 deja documentadas las decisiones económicas, temporales
 y de catálogo que siguen pendientes; no las da por resueltas. L03 representa las
 ausencias de las demás variables y conserva sus motivos en controles separados.
 L04 interpreta tipos con reglas explícitas, presenta fechas como AAAA-MM-DD y
 mantiene importes decimales exactos en COP; las alertas no se corrigen automáticamente.</p>
-<p><strong>No se elimina ninguna fila.</strong> No se imputan valores, se fusionan solicitudes,
-se altera el valor numérico de importes ni se corrigen fechas por aproximación. El resultado es un estado
-intermedio, no una base limpia definitiva. L02 conserva los marcadores recibidos;
+<p>L06 consolida únicamente repeticiones exactas de la misma fuente y conserva todos
+sus orígenes. Las filas con diferencias se mantienen pendientes de conciliación.
+No se imputan valores, se altera el valor numérico de importes ni se corrigen fechas
+por aproximación. El resultado es una base preparada para revisión y análisis
+descriptivo provisional, con decisiones administrativas pendientes. L02 conserva los marcadores recibidos;
 L03 aplica las reglas de ausencia documentadas sin completar datos por suposición.
 Los vacíos y nan de identificadores seguirán sin modificarse hasta los cruces.</p>
 <p>Ejecutar desde el principio con el Python del proyecto y los grupos <code>notebooks</code>
@@ -7820,7 +7822,7 @@ y <code>excel</code> de uv. Guardar el notebook antes de ejecutarlo para registr
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=541d9db1">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=6ae42dda">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7874,7 +7876,7 @@ y <code>excel</code> de uv. Guardar el notebook antes de ejecutarlo para registr
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e5a975ac">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=20dfd2b0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7885,7 +7887,7 @@ de negocio corresponde a L04. El índice BU identifica filas de esta versión, n
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b6af262f">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4786005b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7978,7 +7980,7 @@ de negocio corresponde a L04. El índice BU identifica filas de esta versión, n
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ba2e64fb">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c829a4e1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7993,7 +7995,7 @@ Oracle en identificador institucional de persona ni resuelve cuál fuente tiene 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=32a711e8">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e6d810a7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8112,7 +8114,7 @@ Oracle en identificador institucional de persona ni resuelve cuál fuente tiene 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=289d4d38">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bc19086b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8194,7 +8196,7 @@ Oracle en identificador institucional de persona ni resuelve cuál fuente tiene 
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=923ba877">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ecc68db3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8208,7 +8210,7 @@ son diagnóstico y el índice BU sirve para auditar filas, no para reemplazar c�
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7fab169a">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=71fcc482">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8222,7 +8224,7 @@ como fueron recibidos. nan no se trata todavía como ausencia: corresponde a L03
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=eba1f637">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e8ae0554">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8396,7 +8398,7 @@ como fueron recibidos. nan no se trata todavía como ausencia: corresponde a L03
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1b83cbce">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e2e0355b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8649,7 +8651,7 @@ como fueron recibidos. nan no se trata todavía como ausencia: corresponde a L03
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f5124295">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=414a289c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8659,7 +8661,7 @@ La suma de cambios de varias columnas no equivale a filas eliminadas ni a person
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f5f520ac">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=913a0289">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8852,7 +8854,7 @@ La suma de cambios de varias columnas no equivale a filas eliminadas ni a person
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1cb0f1e3">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a92d67c1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9151,7 +9153,7 @@ La suma de cambios de varias columnas no equivale a filas eliminadas ni a person
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=156fc1be">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9da8f7e7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9163,7 +9165,7 @@ las fuentes. Las columnas pendientes se conservaron sin modificar.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c2123b8d">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=54befbcc">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9353,7 +9355,7 @@ las fuentes. Las columnas pendientes se conservaron sin modificar.</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e9f8a0c3">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1674d2d4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9367,7 +9369,7 @@ etapa cada entrada se conserva como salida individual.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=701914b2">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=19eb0b1c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9496,15 +9498,15 @@ etapa cada entrada se conserva como salida individual.</p>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Datos intermedios: data/interim/taller_2/estandarizacion_v1_f77076f7d8_150bd123_a1cf0008
-Auditoría: reports/limpieza/ejecuciones/estandarizacion_v1_f77076f7d8_150bd123_a1cf0008
+<pre>Datos intermedios: data/interim/taller_2/estandarizacion_v1_f77076f7d8_150bd123_c6cfb2ad
+Auditoría: reports/limpieza/ejecuciones/estandarizacion_v1_f77076f7d8_150bd123_c6cfb2ad
 </pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=671a41d6">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=adb33206">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9519,7 +9521,7 @@ en la base; no se presume su causa institucional ni se convierte en cero.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0877b7b7">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=91610d16">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9619,7 +9621,7 @@ en la base; no se presume su causa institucional ni se convierte en cero.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=930a7dee">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3ee965a5">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9877,7 +9879,7 @@ en la base; no se presume su causa institucional ni se convierte en cero.</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dc07398f">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9b325343">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9888,7 +9890,7 @@ La relación de identificadores pospuestos es solo un listado de revisión, sin 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7cec18a8">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=13c074f2">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10066,7 +10068,7 @@ La relación de identificadores pospuestos es solo un listado de revisión, sin 
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=745bcb34">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9c5a4f34">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10078,7 +10080,7 @@ de ausencia, el inventario de identificadores pospuestos y el resumen de ejecuci
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4f5863aa">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7f83406e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10210,15 +10212,15 @@ de ausencia, el inventario de identificadores pospuestos y el resumen de ejecuci
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Datos L03: data/interim/taller_2/ausencias_v1_526ff5e27b_8850cae3_a1cf0008
-Auditoría L03: reports/limpieza/ejecuciones/ausencias_v1_526ff5e27b_8850cae3_a1cf0008
+<pre>Datos L03: data/interim/taller_2/ausencias_v1_526ff5e27b_8850cae3_c6cfb2ad
+Auditoría L03: reports/limpieza/ejecuciones/ausencias_v1_526ff5e27b_8850cae3_c6cfb2ad
 </pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f36004a0">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=eaf1a7c4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10238,7 +10240,7 @@ Los conceptos económicos distintos de las fuentes siguen pendientes de concilia
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=de81fd7b">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=272a07d6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10421,7 +10423,7 @@ Los conceptos económicos distintos de las fuentes siguen pendientes de concilia
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=935f434e">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4afe735a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10521,7 +10523,7 @@ Los conceptos económicos distintos de las fuentes siguen pendientes de concilia
 <tbody>
 <tr>
 <th>0</th>
-<td>tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008</td>
+<td>tipos_v1_421d1186d3_e559610e_48cdf053_c6cfb2ad</td>
 <td>L04</td>
 <td>T01</td>
 <td>fecha_solicitud</td>
@@ -10535,7 +10537,7 @@ Los conceptos económicos distintos de las fuentes siguen pendientes de concilia
 </tr>
 <tr>
 <th>1</th>
-<td>tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008</td>
+<td>tipos_v1_421d1186d3_e559610e_48cdf053_c6cfb2ad</td>
 <td>L04</td>
 <td>T02</td>
 <td>fecha_matricula</td>
@@ -10549,7 +10551,7 @@ Los conceptos económicos distintos de las fuentes siguen pendientes de concilia
 </tr>
 <tr>
 <th>2</th>
-<td>tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008</td>
+<td>tipos_v1_421d1186d3_e559610e_48cdf053_c6cfb2ad</td>
 <td>L04</td>
 <td>T03</td>
 <td>puntaje_admision</td>
@@ -10563,7 +10565,7 @@ Los conceptos económicos distintos de las fuentes siguen pendientes de concilia
 </tr>
 <tr>
 <th>3</th>
-<td>tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008</td>
+<td>tipos_v1_421d1186d3_e559610e_48cdf053_c6cfb2ad</td>
 <td>L04</td>
 <td>T04</td>
 <td>valor_matricula_cop</td>
@@ -10577,7 +10579,7 @@ Los conceptos económicos distintos de las fuentes siguen pendientes de concilia
 </tr>
 <tr>
 <th>4</th>
-<td>tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008</td>
+<td>tipos_v1_421d1186d3_e559610e_48cdf053_c6cfb2ad</td>
 <td>L04</td>
 <td>T05</td>
 <td>duracion_semestres</td>
@@ -10591,7 +10593,7 @@ Los conceptos económicos distintos de las fuentes siguen pendientes de concilia
 </tr>
 <tr>
 <th>5</th>
-<td>tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008</td>
+<td>tipos_v1_421d1186d3_e559610e_48cdf053_c6cfb2ad</td>
 <td>L04</td>
 <td>T06</td>
 <td>periodo_academico</td>
@@ -10672,7 +10674,7 @@ Los conceptos económicos distintos de las fuentes siguen pendientes de concilia
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3cdd70d4">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=843632a4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10684,7 +10686,7 @@ una escala oficial de puntaje ni una tarifa de matrícula a partir del rango obs
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c9f1fb47">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=461abde5">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10991,7 +10993,7 @@ una escala oficial de puntaje ni una tarifa de matrícula a partir del rango obs
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4a64667b">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=df06bb69">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11137,7 +11139,7 @@ una escala oficial de puntaje ni una tarifa de matrícula a partir del rango obs
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8c3d024f">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ec4b9a0e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11152,7 +11154,7 @@ guardar el CSV otra vez desde Excel sin revisar sus separadores y sus tipos.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6248fb33">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4034ba52">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11515,27 +11517,1121 @@ guardar el CSV otra vez desde Excel sin revisar sus separadores y sus tipos.</p>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Datos L04: data/interim/taller_2/tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008
-Auditoría L04: reports/limpieza/ejecuciones/tipos_v1_421d1186d3_e559610e_48cdf053_a1cf0008
+<pre>Datos L04: data/interim/taller_2/tipos_v1_421d1186d3_e559610e_48cdf053_c6cfb2ad
+Auditoría L04: reports/limpieza/ejecuciones/tipos_v1_421d1186d3_e559610e_48cdf053_c6cfb2ad
 </pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ad82cbb1">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ecd92d12">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="C%C3%B3mo-continuaremos">Cómo continuaremos<a class="anchor-link" href="#C%C3%B3mo-continuaremos">¶</a></h2><p>L03 ya distingue las ausencias de las demás variables. Los cuatro nan y los vacíos de
+<h2 id="L05.-Revisi%C3%B3n-del-cat%C3%A1logo-y-de-las-asignaciones">L05. Revisión del catálogo y de las asignaciones<a class="anchor-link" href="#L05.-Revisi%C3%B3n-del-cat%C3%A1logo-y-de-las-asignaciones">¶</a></h2><p>Se reproduce la correspondencia por una clave normalizada única desde el catálogo
+guardado. Se verifican facultad, duración y nivel; se conserva la modalidad de la
+solicitud. El nombre del fuzzy histórico fue retirado, por lo que esta comprobación
+demuestra compatibilidad con el catálogo de trabajo y no recupera ese nombre.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6579bd80">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">analitica_admisiones.cierre_limpieza</span><span class="w"> </span><span class="kn">import</span> <span class="n">CierreLimpieza</span>
+<span class="n">cierre</span> <span class="o">=</span> <span class="n">CierreLimpieza</span><span class="p">(</span><span class="n">ROOT</span><span class="p">,</span> <span class="n">df_tipadas</span><span class="p">,</span> <span class="n">original</span><span class="p">,</span> <span class="n">ids_fila</span><span class="p">,</span> <span class="n">origen_df</span><span class="p">,</span>
+                       <span class="n">alertas_l04_df</span><span class="p">,</span> <span class="n">resumen_l04</span><span class="p">,</span> <span class="n">CODE_SHA</span><span class="p">)</span>
+<span class="n">resultado_l05</span> <span class="o">=</span> <span class="n">cierre</span><span class="o">.</span><span class="n">l05</span><span class="p">(</span><span class="n">MANEJO</span><span class="p">,</span> <span class="n">codigo_integracion</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span><span class="n">resultado_l05</span><span class="p">]))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>filas_revisadas</th>
+<th>programas_catalogo</th>
+<th>con_correspondencia_reproducida</th>
+<th>sin_correspondencia</th>
+<th>atributos_discrepantes</th>
+<th>modalidades_diferentes_catalogo</th>
+<th>nombre_fuzzy_historico_disponible</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>5640</td>
+<td>7</td>
+<td>5613</td>
+<td>27</td>
+<td>0</td>
+<td>3385</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=afda61a6">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="L06.-Consolidaci%C3%B3n-de-repeticiones-exactas">L06. Consolidación de repeticiones exactas<a class="anchor-link" href="#L06.-Consolidaci%C3%B3n-de-repeticiones-exactas">¶</a></h2><p>Se aplica la autorización de completar la limpieza del 26 de octubre. Solo se
+consolidan filas de la misma fuente que sean idénticas en las 18 columnas originales
+y tipadas. Se conserva el menor índice BU como representante técnico. El inventario
+de destinos mantiene cada entrada, con sus valores y motivos de ausencia previos.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ff8ec784">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">resultado_l06</span> <span class="o">=</span> <span class="n">cierre</span><span class="o">.</span><span class="n">l06</span><span class="p">()</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span><span class="n">resultado_l06</span><span class="p">]))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>grupos_exactos</th>
+<th>filas_en_grupos</th>
+<th>repeticiones_consolidadas</th>
+<th>filas_salida</th>
+<th>regla_representante</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>38</td>
+<td>76</td>
+<td>38</td>
+<td>5602</td>
+<td>menor índice BU, sin precedencia administrativa</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=688e8d77">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="L07.-Conciliaci%C3%B3n-de-fuentes-y-repeticiones-parciales">L07. Conciliación de fuentes y repeticiones parciales<a class="anchor-link" href="#L07.-Conciliaci%C3%B3n-de-fuentes-y-repeticiones-parciales">¶</a></h2><p>Se cruzan los identificadores compartidos de CRM y la principal y se muestran las
+diferencias por atributo. Oracle se compara mediante sondas de 11 y 13 atributos,
+sin cambiar sus códigos. La igualdad incluye ausencias, que no aportan evidencia
+independiente. Los candidatos se conservan hasta confirmar su identidad y precedencia.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=35d147d1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">resultado_l07</span> <span class="o">=</span> <span class="n">cierre</span><span class="o">.</span><span class="n">l07</span><span class="p">()</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span><span class="n">resultado_l07</span><span class="p">]))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">cierre</span><span class="o">.</span><span class="n">audit</span> <span class="o">/</span> <span class="s1">'L07_diferencias_por_par.csv'</span><span class="p">,</span>
+                    <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf-8-sig'</span><span class="p">,</span> <span class="n">keep_default_na</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">8</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>grupos_registro_id_repetido</th>
+<th>filas_en_grupos_repetidos</th>
+<th>crm_con_codigo_en_principal</th>
+<th>crm_con_importe_principal_ausente</th>
+<th>oracle_candidatos_11</th>
+<th>oracle_candidatos_13</th>
+<th>oracle_candidatos_con_programa_original_equivalente</th>
+<th>oracle_candidatos_dependen_homologacion_programa_ausente</th>
+<th>oracle_compatibles_intercambio_fecha</th>
+<th>filas_conciliadas_automaticamente</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>102</td>
+<td>204</td>
+<td>100</td>
+<td>13</td>
+<td>500</td>
+<td>49</td>
+<td>498</td>
+<td>2</td>
+<td>16</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>registro_id</th>
+<th>fila_a</th>
+<th>fuente_a</th>
+<th>fila_b</th>
+<th>fuente_b</th>
+<th>columnas_distintas</th>
+<th>diferencias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>REG004804</td>
+<td>BU000067</td>
+<td>Principal</td>
+<td>BU003166</td>
+<td>Principal</td>
+<td>programa, facultad, duracion_semestres, nivel_...</td>
+<td>{"programa": ["", "Ingeniería de Sistemas"], "...</td>
+</tr>
+<tr>
+<th>1</th>
+<td>REG002731</td>
+<td>BU000091</td>
+<td>Principal</td>
+<td>BU005086</td>
+<td>CRM</td>
+<td>valor_matricula_cop</td>
+<td>{"valor_matricula_cop": ["3500000.00", "378401...</td>
+</tr>
+<tr>
+<th>2</th>
+<td>REG000841</td>
+<td>BU000121</td>
+<td>Principal</td>
+<td>BU005045</td>
+<td>CRM</td>
+<td>valor_matricula_cop</td>
+<td>{"valor_matricula_cop": ["2500000.00", "265632...</td>
+</tr>
+<tr>
+<th>3</th>
+<td>REG001216</td>
+<td>BU000136</td>
+<td>Principal</td>
+<td>BU005041</td>
+<td>CRM</td>
+<td>valor_matricula_cop</td>
+<td>{"valor_matricula_cop": ["2500000.00", "270958...</td>
+</tr>
+<tr>
+<th>4</th>
+<td>REG001620</td>
+<td>BU000141</td>
+<td>Principal</td>
+<td>BU005135</td>
+<td>CRM</td>
+<td>valor_matricula_cop</td>
+<td>{"valor_matricula_cop": ["1800000.00", "190367...</td>
+</tr>
+<tr>
+<th>5</th>
+<td>REG000917</td>
+<td>BU000164</td>
+<td>Principal</td>
+<td>BU005095</td>
+<td>CRM</td>
+<td>valor_matricula_cop</td>
+<td>{"valor_matricula_cop": ["3500000.00", "368939...</td>
+</tr>
+<tr>
+<th>6</th>
+<td>REG003969</td>
+<td>BU000318</td>
+<td>Principal</td>
+<td>BU005123</td>
+<td>CRM</td>
+<td>valor_matricula_cop</td>
+<td>{"valor_matricula_cop": ["2200000.00", "230992...</td>
+</tr>
+<tr>
+<th>7</th>
+<td>REG000777</td>
+<td>BU000358</td>
+<td>Principal</td>
+<td>BU005111</td>
+<td>CRM</td>
+<td>valor_matricula_cop</td>
+<td>{"valor_matricula_cop": ["2200000.00", "236930...</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1eb65b52">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="L08.-Coherencia-administrativa-y-valores-inusuales">L08. Coherencia administrativa y valores inusuales<a class="anchor-link" href="#L08.-Coherencia-administrativa-y-valores-inusuales">¶</a></h2><p>Se revisan fechas, estados, documentos, identificadores, correo y categorías.
+Los controles numéricos utilizan el criterio intercuartílico inclusivo, por fuente
+para importes. Los valores inusuales no se eliminan. La referencia temporal del
+26 de octubre es una fecha de revisión; requiere confirmar el corte institucional.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=545ea41b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">resultado_l08</span> <span class="o">=</span> <span class="n">cierre</span><span class="o">.</span><span class="n">l08</span><span class="p">()</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">resultado_l08</span><span class="p">[</span><span class="s1">'alertas_negocio_en_representantes'</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">()),</span>
+                     <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'Alerta'</span><span class="p">,</span> <span class="s1">'Casos en representantes'</span><span class="p">]))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">cierre</span><span class="o">.</span><span class="n">audit</span> <span class="o">/</span> <span class="s1">'L08_estadisticas_numericas.csv'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf-8-sig'</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Alerta</th>
+<th>Casos en representantes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>solicitud_posterior_al_anio_del_periodo</td>
+<td>466</td>
+</tr>
+<tr>
+<th>1</th>
+<td>matriculado_con_documentacion_no_completa</td>
+<td>521</td>
+</tr>
+<tr>
+<th>2</th>
+<td>identificador_ausente_o_marcador</td>
+<td>95</td>
+</tr>
+<tr>
+<th>3</th>
+<td>fecha_posterior_a_referencia</td>
+<td>28</td>
+</tr>
+<tr>
+<th>4</th>
+<td>matricula_anterior_a_solicitud</td>
+<td>32</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>columna</th>
+<th>fuente</th>
+<th>concepto</th>
+<th>filas_denominador</th>
+<th>informados</th>
+<th>ausentes</th>
+<th>minimo</th>
+<th>maximo</th>
+<th>promedio</th>
+<th>mediana</th>
+<th>q1</th>
+<th>q3</th>
+<th>limite_inferior_RIC</th>
+<th>limite_superior_RIC</th>
+<th>negativos</th>
+<th>atipicos_RIC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>puntaje_admision</td>
+<td>Todas</td>
+<td>valor registrado</td>
+<td>5602</td>
+<td>5352</td>
+<td>250</td>
+<td>40.0</td>
+<td>100.0</td>
+<td>7.005998e+01</td>
+<td>70.0</td>
+<td>55.0</td>
+<td>85.0</td>
+<td>10.00</td>
+<td>130.00</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>1</th>
+<td>valor_matricula_cop</td>
+<td>Principal</td>
+<td>importe reportado; concepto pendiente</td>
+<td>5002</td>
+<td>4149</td>
+<td>853</td>
+<td>1800000.0</td>
+<td>3500000.0</td>
+<td>2.611497e+06</td>
+<td>2500000.0</td>
+<td>2200000.0</td>
+<td>3100000.0</td>
+<td>850000.00</td>
+<td>4450000.00</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>2</th>
+<td>valor_matricula_cop</td>
+<td>CRM</td>
+<td>base más derechos administrativos</td>
+<td>100</td>
+<td>100</td>
+<td>0</td>
+<td>1855220.0</td>
+<td>3807591.0</td>
+<td>2.695491e+06</td>
+<td>2575769.5</td>
+<td>2269363.5</td>
+<td>3334164.0</td>
+<td>672162.75</td>
+<td>4931364.75</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>3</th>
+<td>valor_matricula_cop</td>
+<td>Oracle</td>
+<td>importe reportado; concepto pendiente</td>
+<td>500</td>
+<td>419</td>
+<td>81</td>
+<td>1800000.0</td>
+<td>3500000.0</td>
+<td>2.637709e+06</td>
+<td>2500000.0</td>
+<td>2200000.0</td>
+<td>3100000.0</td>
+<td>850000.00</td>
+<td>4450000.00</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>4</th>
+<td>duracion_semestres</td>
+<td>Todas</td>
+<td>valor registrado</td>
+<td>5602</td>
+<td>5575</td>
+<td>27</td>
+<td>2.0</td>
+<td>10.0</td>
+<td>6.658655e+00</td>
+<td>8.0</td>
+<td>2.0</td>
+<td>10.0</td>
+<td>-10.00</td>
+<td>22.00</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6d75d555">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="L09.-Exportaci%C3%B3n,-conciliaci%C3%B3n-y-decisiones-pendientes">L09. Exportación, conciliación y decisiones pendientes<a class="anchor-link" href="#L09.-Exportaci%C3%B3n,-conciliaci%C3%B3n-y-decisiones-pendientes">¶</a></h2><p>Cada entrada debe tener un destino. Se exportan 18 columnas de negocio en CSV,
+Excel y JSONL, con auditoría separada y lectura íntegra de los tres archivos.
+La salida se llama BaseUnificada_Revision: permite descripción provisional de
+registros; las solicitudes únicas, conversión y comparación monetaria requieren
+las decisiones de negocio documentadas. No se actualizan tablas de Docker.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e64f45a7">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">resultado_cierre</span> <span class="o">=</span> <span class="n">cierre</span><span class="o">.</span><span class="n">l09</span><span class="p">(</span><span class="n">preserve_empty_text</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">cierre</span><span class="o">.</span><span class="n">steps</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">cierre</span><span class="o">.</span><span class="n">decisions</span><span class="p">)[[</span><span class="s1">'id_decision'</span><span class="p">,</span> <span class="s1">'tema'</span><span class="p">,</span> <span class="s1">'filas_salida_en_alcance'</span><span class="p">,</span> <span class="s1">'que_decidir'</span><span class="p">]])</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">cierre</span><span class="o">.</span><span class="n">audit</span> <span class="o">/</span> <span class="s1">'L09_controles.csv'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf-8-sig'</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">((</span><span class="n">ROOT</span> <span class="o">/</span> <span class="s1">'reports/limpieza/reporte_cierre_limpieza.md'</span><span class="p">)</span><span class="o">.</span><span class="n">read_text</span><span class="p">()))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Salida:'</span><span class="p">,</span> <span class="n">resultado_cierre</span><span class="p">[</span><span class="s1">'datos_salida'</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Auditoría:'</span><span class="p">,</span> <span class="n">resultado_cierre</span><span class="p">[</span><span class="s1">'auditoria'</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>id_ejecucion</th>
+<th>paso</th>
+<th>accion</th>
+<th>filas_antes</th>
+<th>filas_despues</th>
+<th>celdas_modificadas</th>
+<th>repeticiones_consolidadas</th>
+<th>filas_excluidas</th>
+<th>filas_generadas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_c6cfb2ad</td>
+<td>L05</td>
+<td>Reproducir catálogo de trabajo y comprobar atr...</td>
+<td>5640</td>
+<td>5640</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>1</th>
+<td>cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_c6cfb2ad</td>
+<td>L06</td>
+<td>Consolidar exactos preservando cada entrada en...</td>
+<td>5640</td>
+<td>5602</td>
+<td>0</td>
+<td>38</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>2</th>
+<td>cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_c6cfb2ad</td>
+<td>L07</td>
+<td>Cruzar fuentes e identificar conflictos por at...</td>
+<td>5602</td>
+<td>5602</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>3</th>
+<td>cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_c6cfb2ad</td>
+<td>L08</td>
+<td>Evaluar coherencia, correos y valores inusuale...</td>
+<td>5602</td>
+<td>5602</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>4</th>
+<td>cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_c6cfb2ad</td>
+<td>L09</td>
+<td>Conciliar entradas, exportar base de revisión ...</td>
+<td>5602</td>
+<td>5602</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>id_decision</th>
+<th>tema</th>
+<th>filas_salida_en_alcance</th>
+<th>que_decidir</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>D01</td>
+<td>Programas no identificados</td>
+<td>27</td>
+<td>Recuperar el programa desde la solicitud origi...</td>
+</tr>
+<tr>
+<th>1</th>
+<td>D02</td>
+<td>Catálogo institucional y modalidad</td>
+<td>5575</td>
+<td>Confirmar los siete programas, sus atributos y...</td>
+</tr>
+<tr>
+<th>2</th>
+<td>D03</td>
+<td>CRM y registros parciales</td>
+<td>204</td>
+<td>Definir la unidad solicitud y la precedencia p...</td>
+</tr>
+<tr>
+<th>3</th>
+<td>D04</td>
+<td>Solapamiento Oracle</td>
+<td>500</td>
+<td>Confirmar si cada candidato es la misma solici...</td>
+</tr>
+<tr>
+<th>4</th>
+<td>D05</td>
+<td>Fechas y referencia temporal</td>
+<td>287</td>
+<td>Confirmar las convenciones de día y mes, fecha...</td>
+</tr>
+<tr>
+<th>5</th>
+<td>D06</td>
+<td>Periodos académicos</td>
+<td>466</td>
+<td>Validar solicitudes de 2026 asociadas a 20252 ...</td>
+</tr>
+<tr>
+<th>6</th>
+<td>D07</td>
+<td>Estados, documentación y matrícula</td>
+<td>521</td>
+<td>Confirmar excepciones documentales y significa...</td>
+</tr>
+<tr>
+<th>7</th>
+<td>D08</td>
+<td>Identidad y datos de contacto</td>
+<td>95</td>
+<td>Recuperar los ID vacíos y nan con fuente autor...</td>
+</tr>
+<tr>
+<th>8</th>
+<td>D09</td>
+<td>Importes y reglas numéricas</td>
+<td>5602</td>
+<td>Acordar si el indicador económico es matrícula...</td>
+</tr>
+<tr>
+<th>9</th>
+<td>D10</td>
+<td>Ausencias y versión final</td>
+<td>4672</td>
+<td>Definir qué vacíos son admisibles por estado, ...</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>control</th>
+<th>correcto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Fuentes originales intactas</td>
+<td>True</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Entrada preparada intacta</td>
+<td>True</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Todas las entradas tienen un destino</td>
+<td>True</td>
+</tr>
+<tr>
+<th>3</th>
+<td>Destinos existentes</td>
+<td>True</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Conciliación de filas</td>
+<td>True</td>
+</tr>
+<tr>
+<th>5</th>
+<td>Consolidación solo de exactos con misma fuente...</td>
+<td>True</td>
+</tr>
+<tr>
+<th>6</th>
+<td>Valores de representantes e identificadores co...</td>
+<td>True</td>
+</tr>
+<tr>
+<th>7</th>
+<td>18 columnas de negocio</td>
+<td>True</td>
+</tr>
+<tr>
+<th>8</th>
+<td>Lectura completa JSONL exacta</td>
+<td>True</td>
+</tr>
+<tr>
+<th>9</th>
+<td>Lectura completa Excel exacta</td>
+<td>True</td>
+</tr>
+<tr>
+<th>10</th>
+<td>Lectura completa CSV exacta</td>
+<td>True</td>
+</tr>
+<tr>
+<th>11</th>
+<td>Incidencias con destino válido</td>
+<td>True</td>
+</tr>
+<tr>
+<th>12</th>
+<td>Referencias de decisión existentes</td>
+<td>True</td>
+</tr>
+<tr>
+<th>13</th>
+<td>Reproducibilidad de representantes</td>
+<td>True</td>
+</tr>
+<tr>
+<th>14</th>
+<td>Sin cambios durante L05 a L09</td>
+<td>True</td>
+</tr>
+<tr>
+<th>15</th>
+<td>Sin repeticiones exactas adicionales en salida</td>
+<td>True</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown" tabindex="0">
+<h1 id="Reporte-de-limpieza-y-decisiones-pendientes">Reporte de limpieza y decisiones pendientes<a class="anchor-link" href="#Reporte-de-limpieza-y-decisiones-pendientes">¶</a></h1><p>Fecha de revisión: 26 de octubre de 2026.</p>
+<p>Se ejecutaron las etapas L05 a L09 sobre las 5.640 filas ya estandarizadas y tipadas. La salida conserva <strong>5.602 registros y 18 columnas</strong>, después de consolidar 38 repeticiones exactas de la misma fuente. Cada entrada mantiene su destino en la auditoría. No se completaron datos por suposición ni se fusionaron registros con diferencias.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Etapa</th>
+<th style="text-align:left">Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">L05, catálogo</td>
+<td style="text-align:left">5.613 correspondencias reproducibles y 27 sin programa identificado; 0 discrepancias en los atributos de trabajo.</td>
+</tr>
+<tr>
+<td style="text-align:left">L06, exactos</td>
+<td style="text-align:left">38 grupos; 38 filas adicionales consolidadas. Representante por índice BU, sin atribuirle mayor actualidad.</td>
+</tr>
+<tr>
+<td style="text-align:left">L07, fuentes</td>
+<td style="text-align:left">100 filas CRM con código en principal y 102 grupos de código repetido conservados. Oracle tiene 500 filas con candidatos por 11 atributos y 49 por 13; son sondas, no identidades confirmadas.</td>
+</tr>
+<tr>
+<td style="text-align:left">L08, coherencia</td>
+<td style="text-align:left">Se revisaron fechas, periodos, documentación, estados, identificadores, correos y valores numéricos; los casos pendientes se conservan.</td>
+</tr>
+<tr>
+<td style="text-align:left">L09, cierre técnico</td>
+<td style="text-align:left">16 controles correctos; CSV, Excel y JSONL verificados íntegramente; frecuencias y completitud recalculadas.</td>
+</tr>
+</tbody>
+</table>
+<p>Las fechas usan año, mes y día. Los importes conservan precisión exacta en COP; la presentación colombiana se aplica en las tablas y según la configuración regional en Excel. Los periodos mantienen 20252, 20261 y 20262 como códigos. Los identificadores originales se conservan.</p>
+<h2 id="Qu%C3%A9-queda-disponible-para-an%C3%A1lisis">Qué queda disponible para análisis<a class="anchor-link" href="#Qu%C3%A9-queda-disponible-para-an%C3%A1lisis">¶</a></h2><p>La base permite describir los 5.602 registros conservados por programa, modalidad, canal y estado, citando el denominador. Todavía no permite afirmar solicitudes o aspirantes únicos, ni tasas definitivas de conversión. Los importes se resumen por fuente porque CRM incluye derechos administrativos y el concepto de las otras fuentes está por confirmar.</p>
+<p>L09 registra 2.110 incidencias en 1.766 filas de salida distintas. Los alcances se superponen y no deben sumarse como personas. La ausencia de alertas particulares tampoco acredita validación institucional.</p>
+<h2 id="Hallazgos-de-revisi%C3%B3n">Hallazgos de revisión<a class="anchor-link" href="#Hallazgos-de-revisi%C3%B3n">¶</a></h2><p>Las modalidades de solicitud difieren de la modalidad única del catálogo en 3.385 entradas anteriores a la consolidación. Se conserva la modalidad de solicitud. Los tres atributos del catálogo coinciden con la reproducción por una clave normalizada única. El nombre asignado originalmente por fuzzy fue retirado del libro final: la reproducción actual no recupera esa evidencia histórica.</p>
+<p>En CRM hay 13 filas con importe informado cuyo candidato principal no tiene importe. No se utiliza el total CRM para rellenarlas sin acordar antes el concepto y la precedencia. REG003600 conserva una diferencia de importe y REG004804 una diferencia de programa y atributos asociados.</p>
+<p>Oracle presenta 16 filas candidatas compatibles con intercambio de día y mes en alguna fecha de solicitud principal. Esa compatibilidad no demuestra cuál fecha es correcta y no se aplica una corrección automática. Las sondas incluyen ausencias iguales; el detalle indica cuántos de los 11 atributos están informados.</p>
+<p>De las 500 coincidencias Oracle por 11 atributos, 498 también tienen un programa original equivalente. Las otras 2 aparecen al homologar como ausencia Sin especificar y programa vacío. No representan nueva evidencia de identidad ni recuperan el programa: el detalle conserva ambos valores originales. Por eso el conteo de candidatos aumenta frente a los 498 del diagnóstico anterior.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Alerta administrativa en representantes</th>
+<th style="text-align:right">Casos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">solicitud posterior al anio del periodo</td>
+<td style="text-align:right">466</td>
+</tr>
+<tr>
+<td style="text-align:left">matriculado con documentacion no completa</td>
+<td style="text-align:right">521</td>
+</tr>
+<tr>
+<td style="text-align:left">identificador ausente o marcador</td>
+<td style="text-align:right">95</td>
+</tr>
+<tr>
+<td style="text-align:left">fecha posterior a referencia</td>
+<td style="text-align:right">28</td>
+</tr>
+<tr>
+<td style="text-align:left">matricula anterior a solicitud</td>
+<td style="text-align:right">32</td>
+</tr>
+</tbody>
+</table>
+<p>La referencia L08 es el 26 de octubre de 2026, fecha de revisión. L04 conserva su referencia histórica del día 24. Ninguna equivale a un corte institucional confirmado; los conteos de fechas posteriores no deben compararse sin indicar la referencia.</p>
+<p>El control de correos registra {'estructura compatible': 5471, 'sin información': 131}. Se revisó estructura, sin comprobar existencia o entregabilidad. La evaluación numérica detectó 0 negativos y 0 valores fuera del criterio intercuartílico aplicado por variable y por fuente en los importes. Esto no acredita que todos los valores sean exactos.</p>
+<h2 id="Decisiones-necesarias-para-aprobar-la-versi%C3%B3n-final">Decisiones necesarias para aprobar la versión final<a class="anchor-link" href="#Decisiones-necesarias-para-aprobar-la-versi%C3%B3n-final">¶</a></h2><table>
+<thead>
+<tr>
+<th style="text-align:left">Decisión</th>
+<th style="text-align:right">Alcance en filas de salida</th>
+<th style="text-align:left">Qué resolver</th>
+<th style="text-align:left">Efecto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">D01: Programas no identificados</td>
+<td style="text-align:right">27</td>
+<td style="text-align:left">Recuperar el programa desde la solicitud original o conservarlo ausente</td>
+<td style="text-align:left">Permite asignar facultad, duración y nivel; evita inventar el programa</td>
+</tr>
+<tr>
+<td style="text-align:left">D02: Catálogo institucional y modalidad</td>
+<td style="text-align:right">5.575</td>
+<td style="text-align:left">Confirmar los siete programas, sus atributos y la selección de Data Analytics Ingeniería; revisar diferencias de modalidad sin reemplazar la solicitud</td>
+<td style="text-align:left">Valida análisis por facultad y nivel. La reproducción de nombres no demuestra que el fuzzy histórico asignó el nombre correcto</td>
+</tr>
+<tr>
+<td style="text-align:left">D03: CRM y registros parciales</td>
+<td style="text-align:right">204</td>
+<td style="text-align:left">Definir la unidad solicitud y la precedencia por atributo para los 100 CRM; resolver REG003600 y REG004804 con evidencia</td>
+<td style="text-align:left">Determina qué filas consolidar y evita contar una misma solicitud dos veces</td>
+</tr>
+<tr>
+<td style="text-align:left">D04: Solapamiento Oracle</td>
+<td style="text-align:right">500</td>
+<td style="text-align:left">Confirmar si cada candidato es la misma solicitud o un evento distinto; conservar códigos propios y documentar equivalencias si se aprueban</td>
+<td style="text-align:left">Determina el volumen real; no fusionar por parecido de atributos</td>
+</tr>
+<tr>
+<td style="text-align:left">D05: Fechas y referencia temporal</td>
+<td style="text-align:right">287</td>
+<td style="text-align:left">Confirmar las convenciones de día y mes, fechas contradictorias y el corte institucional; definir si hay fechas programadas</td>
+<td style="text-align:left">Valida tendencias temporales y duraciones; no intercambiar fechas por conveniencia</td>
+</tr>
+<tr>
+<td style="text-align:left">D06: Periodos académicos</td>
+<td style="text-align:right">466</td>
+<td style="text-align:left">Validar solicitudes de 2026 asociadas a 20252 sin deducir la corrección del año</td>
+<td style="text-align:left">Valida comparaciones entre periodos; el código entero ya está aprobado</td>
+</tr>
+<tr>
+<td style="text-align:left">D07: Estados, documentación y matrícula</td>
+<td style="text-align:right">521</td>
+<td style="text-align:left">Confirmar excepciones documentales y significado de fecha de matrícula en cada estado; acordar qué acredita matrícula efectiva</td>
+<td style="text-align:left">Permite medir avance y después conversión con denominador definido</td>
+</tr>
+<tr>
+<td style="text-align:left">D08: Identidad y datos de contacto</td>
+<td style="text-align:right">95</td>
+<td style="text-align:left">Recuperar los ID vacíos y nan con fuente autorizada; validar correos sin asumir que correo equivale a persona</td>
+<td style="text-align:left">Permite contar aspirantes; conservar códigos Oracle. Un correo válido en estructura no acredita entregabilidad</td>
+</tr>
+<tr>
+<td style="text-align:left">D09: Importes y reglas numéricas</td>
+<td style="text-align:right">5.602</td>
+<td style="text-align:left">Acordar si el indicador económico es matrícula base o base más derechos y reconstruir una medida comparable; confirmar escala oficial de puntajes y tarifas si se quieren validar</td>
+<td style="text-align:left">Evita promediar conceptos diferentes y confundir matrícula con pago. Los extremos estadísticos no se eliminan automáticamente</td>
+</tr>
+<tr>
+<td style="text-align:left">D10: Ausencias y versión final</td>
+<td style="text-align:right">4.672</td>
+<td style="text-align:left">Definir qué vacíos son admisibles por estado, qué recuperar y quién valida cada excepción; aprobar la versión y el denominador final</td>
+<td style="text-align:left">Conserva motivos de ausencia; no imputar ceros o promedios para completar</td>
+</tr>
+</tbody>
+</table>
+<p>Los alcances indican filas que podrían verse afectadas por una decisión, no errores confirmados. Por ejemplo, validar el catálogo alcanza a todas sus asignaciones y acordar el concepto monetario afecta al diseño de indicadores de toda la base.</p>
+<p>Las decisiones se aplicarán mediante reglas versionadas y un registro por celda o consolidación. Luego se recalcularán los destinos, controles y denominadores. La versión se denomina BaseUnificada_Revision para identificar que su preparación técnica está terminada y su conciliación administrativa sigue pendiente.</p>
+<h2 id="Archivos-y-trazabilidad">Archivos y trazabilidad<a class="anchor-link" href="#Archivos-y-trazabilidad">¶</a></h2><p>Datos: <code>data/processed/taller_2/cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_c6cfb2ad</code>.</p>
+<p>Auditoría: <code>reports/limpieza/ejecuciones/cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_c6cfb2ad</code>.</p>
+<p>El archivo reports/limpieza/ultimo_cierre.json identifica esta ejecución y los hashes de las tres salidas. L09_disposicion_filas.csv enlaza las 5.640 entradas con su salida. L09_incidencias_pendientes.csv conserva los casos individuales y L09_decisiones_pendientes.csv resume las reglas por resolver. Los motivos de ausencia se mantienen en L03 y se recuperan mediante esa relación de entradas.</p>
+<p>Los archivos originales y preparados permanecen intactos. Esta ejecución no carga ni reemplaza las tablas de Docker. El notebook 01 conserva la evidencia de la exploración inicial; el notebook 02 respalda la base consolidada y las etapas de limpieza.</p>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Salida: data/processed/taller_2/cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_c6cfb2ad
+Auditoría: reports/limpieza/ejecuciones/cierre_v1_b6b6136d80_d64d0a32_1ea4b71b_c6cfb2ad
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=352d06ae">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Qu%C3%A9-falta-para-aprobar-la-versi%C3%B3n-final">Qué falta para aprobar la versión final<a class="anchor-link" href="#Qu%C3%A9-falta-para-aprobar-la-versi%C3%B3n-final">¶</a></h2><p>L03 ya distingue las ausencias de las demás variables. Los cuatro nan y los vacíos de
 aspirante_id se mantienen registrados y sin modificar hasta la revisión de cruces.
 L04 ya representa fechas y números y utiliza el código entero del periodo.
 Las fechas dudosas y los importes con conceptos diferentes siguen señalados.</p>
-<p>Después se revisará el enriquecimiento del catálogo en L05. Solo en L06 y L07 se
-evaluará retirar repeticiones o conciliar filas. Cada entrada mantendrá un destino
-documentado y se actualizarán los denominadores. Las reglas que no cuenten con evidencia
-no se convertirán en correcciones inventadas.</p>
+<p>L05 revisó el catálogo; L06 consolidó repeticiones exactas con trazabilidad; L07
+identificó conflictos entre fuentes. L08 documentó la coherencia administrativa y
+L09 exportó la versión de revisión, sus controles y las decisiones pendientes.
+Las decisiones del reporte deben validarse y aplicarse mediante reglas versionadas
+antes de aprobar solicitudes únicas y los indicadores administrativos definitivos.</p>
 <p>El notebook anterior sigue respaldando la exploración inicial de 5.040 filas. Este
 cuaderno respalda el trabajo sobre la base consolidada de 5.640 filas.</p>
 </div>

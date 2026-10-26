@@ -1,0 +1,103 @@
+﻿etapa,columna,valor,cantidad,denominador_registros,porcentaje
+entrada_preparada,programa,Derecho,1259,5640,22.3227
+entrada_preparada,programa,Especialización En Data Analytics,676,5640,11.9858
+entrada_preparada,programa,Ingeniería De Sistemas,646,5640,11.4539
+entrada_preparada,programa,Contaduría Pública,631,5640,11.1879
+entrada_preparada,programa,Especialización En Gerencia,619,5640,10.9752
+entrada_preparada,programa,Psicología,613,5640,10.8688
+entrada_preparada,programa,Administración De Empresas,595,5640,10.5496
+entrada_preparada,programa,Especializacion En Data Analytics,574,5640,10.1773
+entrada_preparada,programa,,25,5640,0.4433
+entrada_preparada,programa,Sin Especificar,2,5640,0.0355
+entrada_preparada,modalidad,Presencial,2248,5640,39.8582
+entrada_preparada,modalidad,Virtual,2239,5640,39.6986
+entrada_preparada,modalidad,Híbrida,1153,5640,20.4433
+entrada_preparada,canal_captacion,Feria Universitaria,963,5640,17.0745
+entrada_preparada,canal_captacion,Instagram,962,5640,17.0567
+entrada_preparada,canal_captacion,Correo,948,5640,16.8085
+entrada_preparada,canal_captacion,Referido,931,5640,16.5071
+entrada_preparada,canal_captacion,Web Institucional,922,5640,16.3475
+entrada_preparada,canal_captacion,Landing Page,914,5640,16.2057
+entrada_preparada,estado_proceso,Admitido,1240,5640,21.9858
+entrada_preparada,estado_proceso,Matriculado,1206,5640,21.383
+entrada_preparada,estado_proceso,Documentación Pendiente,656,5640,11.6312
+entrada_preparada,estado_proceso,Inscrito,645,5640,11.4362
+entrada_preparada,estado_proceso,No Admitido,635,5640,11.2589
+entrada_preparada,estado_proceso,Retirado,633,5640,11.2234
+entrada_preparada,estado_proceso,Nuevo,625,5640,11.0816
+entrada_preparada,documentos_completos,Sí,1332,5640,23.617
+entrada_preparada,documentos_completos,Pendiente,1145,5640,20.3014
+entrada_preparada,documentos_completos,No,1124,5640,19.9291
+entrada_preparada,documentos_completos,sí,1020,5640,18.0851
+entrada_preparada,documentos_completos,SI,1019,5640,18.0674
+entrada_preparada,ciudad_residencia,Cali,1285,5640,22.7837
+entrada_preparada,ciudad_residencia,Bogotá,702,5640,12.4468
+entrada_preparada,ciudad_residencia,Popayán,657,5640,11.6489
+entrada_preparada,ciudad_residencia,Medellín,633,5640,11.2234
+entrada_preparada,ciudad_residencia,Santander De Quilichao,632,5640,11.2057
+entrada_preparada,ciudad_residencia,Pasto,617,5640,10.9397
+entrada_preparada,ciudad_residencia,Bogota,605,5640,10.727
+entrada_preparada,ciudad_residencia,Popayan,509,5640,9.0248
+entrada_preparada,asesor,Asesor 1,2271,5640,40.266
+entrada_preparada,asesor,Sin Asignar,1132,5640,20.0709
+entrada_preparada,asesor,Asesor 2,1125,5640,19.9468
+entrada_preparada,asesor,Asesor 3,1112,5640,19.7163
+entrada_preparada,periodo_academico,2026-1,1271,5640,22.5355
+entrada_preparada,periodo_academico,2026-2,1177,5640,20.8688
+entrada_preparada,periodo_academico,2025-2,1102,5640,19.539
+entrada_preparada,periodo_academico,2026 II,1070,5640,18.9716
+entrada_preparada,periodo_academico,2026-I,1020,5640,18.0851
+entrada_preparada,facultad,Ingeniería,1896,5640,33.617
+entrada_preparada,facultad,Ciencias Sociales,1872,5640,33.1915
+entrada_preparada,facultad,Ciencias Económicas,1845,5640,32.7128
+entrada_preparada,facultad,,27,5640,0.4787
+entrada_preparada,nivel_formacion,Pregrado,3744,5640,66.383
+entrada_preparada,nivel_formacion,Posgrado,1869,5640,33.1383
+entrada_preparada,nivel_formacion,,27,5640,0.4787
+salida_revision,programa,Derecho,1250,5602,22.3135
+salida_revision,programa,Especialización en Data Analytics,1241,5602,22.1528
+salida_revision,programa,Ingeniería de Sistemas,644,5602,11.4959
+salida_revision,programa,Contaduría Pública,627,5602,11.1924
+salida_revision,programa,Especialización en Gerencia,614,5602,10.9604
+salida_revision,programa,Psicología,608,5602,10.8533
+salida_revision,programa,Administración de Empresas,591,5602,10.5498
+salida_revision,programa,,27,5602,0.482
+salida_revision,modalidad,Presencial,2235,5602,39.8965
+salida_revision,modalidad,Virtual,2224,5602,39.7001
+salida_revision,modalidad,Híbrida,1143,5602,20.4034
+salida_revision,canal_captacion,Feria universitaria,958,5602,17.101
+salida_revision,canal_captacion,Instagram,956,5602,17.0653
+salida_revision,canal_captacion,Correo,939,5602,16.7619
+salida_revision,canal_captacion,Referido,928,5602,16.5655
+salida_revision,canal_captacion,Web institucional,913,5602,16.2978
+salida_revision,canal_captacion,Landing page,908,5602,16.2085
+salida_revision,estado_proceso,Admitido,1230,5602,21.9564
+salida_revision,estado_proceso,Matriculado,1200,5602,21.4209
+salida_revision,estado_proceso,Documentación pendiente,651,5602,11.6208
+salida_revision,estado_proceso,Inscrito,639,5602,11.4066
+salida_revision,estado_proceso,No admitido,633,5602,11.2995
+salida_revision,estado_proceso,Retirado,629,5602,11.2281
+salida_revision,estado_proceso,Nuevo,620,5602,11.0675
+salida_revision,documentos_completos,Sí,3351,5602,59.8179
+salida_revision,documentos_completos,Pendiente,1136,5602,20.2785
+salida_revision,documentos_completos,No,1115,5602,19.9036
+salida_revision,ciudad_residencia,Bogotá,1298,5602,23.1703
+salida_revision,ciudad_residencia,Cali,1274,5602,22.7419
+salida_revision,ciudad_residencia,Popayán,1163,5602,20.7604
+salida_revision,ciudad_residencia,Medellín,626,5602,11.1746
+salida_revision,ciudad_residencia,Santander de Quilichao,626,5602,11.1746
+salida_revision,ciudad_residencia,Pasto,615,5602,10.9782
+salida_revision,asesor,Asesor 1,2254,5602,40.2356
+salida_revision,asesor,Sin asignar,1125,5602,20.0821
+salida_revision,asesor,Asesor 2,1119,5602,19.975
+salida_revision,asesor,Asesor 3,1104,5602,19.7072
+salida_revision,periodo_academico,20261,2279,5602,40.6819
+salida_revision,periodo_academico,20262,2231,5602,39.8251
+salida_revision,periodo_academico,20252,1092,5602,19.493
+salida_revision,facultad,Ingeniería,1885,5602,33.6487
+salida_revision,facultad,Ciencias Sociales,1858,5602,33.1667
+salida_revision,facultad,Ciencias Económicas,1832,5602,32.7026
+salida_revision,facultad,,27,5602,0.482
+salida_revision,nivel_formacion,Pregrado,3720,5602,66.4049
+salida_revision,nivel_formacion,Posgrado,1855,5602,33.1132
+salida_revision,nivel_formacion,,27,5602,0.482

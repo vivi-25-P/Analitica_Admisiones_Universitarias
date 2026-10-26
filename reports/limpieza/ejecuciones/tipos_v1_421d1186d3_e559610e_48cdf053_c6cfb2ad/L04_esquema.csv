@@ -1,0 +1,19 @@
+﻿columna,tipo_logico,valores_informados,ausentes,representacion_csv
+registro_id,texto,5640,0,texto
+aspirante_id,texto,5640,0,texto
+fecha_solicitud,fecha,5640,0,AAAA-MM-DD
+programa,texto,5613,27,texto
+modalidad,texto,5640,0,texto
+canal_captacion,texto,5640,0,texto
+estado_proceso,texto,5640,0,texto
+puntaje_admision,decimal,5389,251,decimal
+documentos_completos,texto,5640,0,texto
+valor_matricula_cop,"decimal COP, escala 2",4698,942,"Punto decimal, sin miles ni símbolo"
+ciudad_residencia,texto,5640,0,texto
+asesor,texto,5640,0,texto
+fecha_matricula,fecha,1206,4434,AAAA-MM-DD
+correo,texto,5509,131,texto
+periodo_academico,entero identificador,5640,0,entero identificador
+facultad,texto,5613,27,texto
+duracion_semestres,entero,5613,27,entero
+nivel_formacion,texto,5613,27,texto

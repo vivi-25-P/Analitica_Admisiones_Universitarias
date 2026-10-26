@@ -1,0 +1,17 @@
+﻿control,correcto
+Fuentes originales intactas,True
+Entrada preparada intacta,True
+Todas las entradas tienen un destino,True
+Destinos existentes,True
+Conciliación de filas,True
+Consolidación solo de exactos con misma fuente y originales,True
+Valores de representantes e identificadores conservados,True
+18 columnas de negocio,True
+Lectura completa JSONL exacta,True
+Lectura completa Excel exacta,True
+Lectura completa CSV exacta,True
+Incidencias con destino válido,True
+Referencias de decisión existentes,True
+Reproducibilidad de representantes,True
+Sin cambios durante L05 a L09,True
+Sin repeticiones exactas adicionales en salida,True

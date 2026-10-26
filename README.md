@@ -8,7 +8,9 @@ El [notebook de limpieza](notebooks/02_limpieza_base_unificada.ipynb) es el luga
 
 L03 también está ejecutado: normaliza ausencias de las demás variables conservando su motivo, sin cambiar identificadores, imputar o quitar filas. Las reglas están en `config/limpieza/ausencias_v1.json` y la salida de esta etapa se identifica en `reports/limpieza/ultima_ausencias.json`. El CSV requiere la auditoría para distinguir tipos de ausencia; JSONL los representa como null y conserva texto vacío cuando corresponde.
 
-L04 ya está ejecutado: fechas AAAA-MM-DD, números exactos en COP y periodo entero, sin eliminar filas. [La guía de formatos](docs/formatos_fechas_cop.md) explica el Excel y el intercambio CSV/JSONL. `reports/limpieza/ultima_tipificacion.json` identifica la salida tipada, sus hashes y sus alertas de revisión. El siguiente paso vigente es L05. Los resúmenes de L02 y L03 describen sus propios puntos de control históricos.
+L04 ya está ejecutado: fechas AAAA-MM-DD, números exactos en COP y periodo entero, sin eliminar filas. [La guía de formatos](docs/formatos_fechas_cop.md) explica el Excel y el intercambio CSV/JSONL. `reports/limpieza/ultima_tipificacion.json` identifica la salida tipada, sus hashes y sus alertas de revisión. Los resúmenes de L02 a L04 describen sus propios puntos de control.
+
+L05 a L09 están ejecutados con revisión del catálogo, cruces entre fuentes, controles administrativos y exportaciones. Se consolidaron 38 repeticiones exactas y se generó **BaseUnificada_Revision, con 5.602 registros y 18 columnas**, en `data/processed/taller_2` bajo una carpeta de versión. Cada una de las 5.640 entradas conserva su destino. El [reporte de cierre](reports/limpieza/reporte_cierre_limpieza.md) presenta los resultados y las diez decisiones pendientes. `reports/limpieza/ultimo_cierre.json` identifica archivos, hashes y auditoría. La base permite descripción provisional; las solicitudes únicas y las medidas definitivas requieren resolver esas decisiones. Las tablas de Docker conservan su estado anterior.
 
 ```bash
 uv sync --locked --group notebooks --group excel
@@ -19,9 +21,9 @@ uv run --locked --group notebooks --group excel python scripts/ejecutar_notebook
 
 Los cuatro archivos recibidos están organizados en `docs/referencias/taller_2`, `data/raw/taller_2` y `sql/fuentes/taller_2`, con sus bytes originales y hashes registrados. Consulta [el análisis del taller y la ruta de trabajo](docs/analisis_taller_2.md).
 
-La revisión se reproduce con `python scripts/revisar_fuentes_taller_2.py` y genera `reports/taller_2/revision_fuentes.json`. Es una inspección de archivos: no carga SQL ni modifica la base. El taller exige una vista Oracle, transformaciones en Power Query y un Excel final llamado `Base_unificada`. La fuente y una vista de ejemplo ya están preparadas; las transformaciones y el Excel final siguen pendientes.
+La revisión de fuentes se reproduce con `python scripts/revisar_fuentes_taller_2.py` y genera `reports/taller_2/revision_fuentes.json`. Es una inspección de archivos. La vista Oracle y la integración en Power Query están respaldadas en los archivos del proyecto y en el libro de manejo. El notebook de limpieza continúa ese proceso y genera una versión de revisión; la aprobación administrativa definitiva está pendiente.
 
-Para preparar la fuente Oracle del taller, con Docker activo, ejecuta `python scripts/preparar_oracle.py`. Usa un proyecto Docker independiente y crea el esquema CASO2 y una vista compatible. Consulta [la guía de conexión desde DBeaver y Excel](docs/oracle_taller_2.md). La integración y la limpieza en Power Query siguen pendientes.
+Para preparar la fuente Oracle del taller, con Docker activo, ejecuta `python scripts/preparar_oracle.py`. Usa un proyecto Docker independiente y crea el esquema CASO2 y una vista compatible. Consulta [la guía de conexión desde DBeaver y Excel](docs/oracle_taller_2.md). La limpieza actual se ejecuta en Python; su notebook no acredita que las mismas transformaciones se hayan realizado en Power Query.
 
 El [reporte comparativo de las cuatro fuentes](docs/reporte_comparativo_fuentes_taller_2.md) describe la compatibilidad de las 15 columnas y los perfiles y solapamientos. Su respaldo está en `reports/taller_2/comparacion/`. Para actualizarlo, captura primero la vista con `python scripts/capturar_vista_oracle.py` y ejecuta `python scripts/analizar_relaciones_taller_2.py`. Estos comandos no aplican limpieza ni integración.
 

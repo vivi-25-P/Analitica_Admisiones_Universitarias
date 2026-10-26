@@ -1,0 +1,22 @@
+﻿fuente,valor,cantidad,denominador,porcentaje
+Principal,Admitido,1105,5002,22.0912
+Principal,Matriculado,1079,5002,21.5714
+Principal,Inscrito,572,5002,11.4354
+Principal,Documentación pendiente,571,5002,11.4154
+Principal,Retirado,565,5002,11.2955
+Principal,Nuevo,560,5002,11.1955
+Principal,No admitido,550,5002,10.9956
+CRM,Matriculado,21,100,21.0
+CRM,Admitido,19,100,19.0
+CRM,No admitido,16,100,16.0
+CRM,Retirado,14,100,14.0
+CRM,Documentación pendiente,12,100,12.0
+CRM,Nuevo,9,100,9.0
+CRM,Inscrito,9,100,9.0
+Oracle,Admitido,106,500,21.2
+Oracle,Matriculado,100,500,20.0
+Oracle,Documentación pendiente,68,500,13.6
+Oracle,No admitido,67,500,13.4
+Oracle,Inscrito,58,500,11.6
+Oracle,Nuevo,51,500,10.2
+Oracle,Retirado,50,500,10.0

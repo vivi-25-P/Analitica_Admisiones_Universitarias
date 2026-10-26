@@ -1,8 +1,8 @@
 # Plan de limpieza y transformación de BaseUnificada
 
-Actualización: 24 de octubre de 2026.
+Actualización: 26 de octubre de 2026.
 
-Estado: diagnóstico e inventario preparados y avance ejecutado en notebooks/02_limpieza_base_unificada.ipynb hasta L04. Se completaron L00, la comprobación de procedencia y documentación de pendientes de L01, la estandarización textual de L02, el tratamiento de ausencias L03 y el tipado y validaciones L04. Se mantienen 5.640 filas y 18 columnas. No se eliminaron ni consolidaron registros y no se modificaron los archivos BaseUnificada de partida.
+Estado: notebook ejecutado de L00 a L09. Después de L02, estandarización, L03, ausencias, y L04, tipado, se revisaron el catálogo y las fuentes y se consolidaron 38 repeticiones exactas. La salida de revisión contiene 5.602 registros y 18 columnas. Cada una de las 5.640 entradas mantiene un destino documentado. La preparación técnica está ejecutada; la conciliación de conflictos y la validación administrativa requieren las decisiones del reporte de cierre. Los archivos BaseUnificada de partida permanecen intactos.
 
 ## 1. Qué cambia respecto al plan anterior
 
@@ -148,7 +148,7 @@ Los 470 casos con periodo 20252 y fecha de solicitud en 2026 siguen siendo incid
 
 Las 140 repeticiones adicionales de registro_id no son 140 eliminaciones autorizadas. Los 139 grupos incluyen repeticiones exactas, los dos conflictos históricos y solicitudes presentes tanto en la principal como en CRM. Un mismo grupo puede tener filas exactas y otra fila diferente.
 
-Si únicamente se consolidaran las 38 repeticiones exactas observadas al inicio, quedarían 5.602 filas. Esta es una simulación condicionada a esa decisión, no el número final esperado. Cada fila consolidada debe vincularse con el representante, que se elige mediante una regla reproducible y no por su posición como prueba de actualidad.
+L06 consolidó las 38 repeticiones exactas con la autorización del usuario del 26 de octubre para completar los pasos pendientes. Se exigió igualdad de las 18 columnas originales y tipadas y una misma fuente. La salida tiene 5.602 filas. El menor índice BU identifica al representante técnico, sin acreditar mayor actualidad. Cada entrada conserva su vínculo; la cantidad definitiva de solicitudes sigue pendiente de la conciliación parcial.
 
 Los 100 códigos CRM ya existen en la principal, pero sus importes fueron sumados y difieren del concepto registrado en la principal. Deben conciliarse por solicitud y por atributo, no borrar una fuente entera automáticamente. Los dos conflictos originales REG004804 y REG003600 siguen necesitando resolución documentada.
 
@@ -216,7 +216,7 @@ El número final de filas no se fija antes de resolver los grupos. Tampoco se ex
 
 ## 10. Archivos de salida propuestos
 
-La limpieza generará data/processed/taller_2/BaseUnificada_Limpia.xlsx y BaseUnificada_Limpia.csv, con su versión, fecha y hashes. El Excel podrá incluir hojas de control además de la base; los CSV de auditoría se guardarán en reports/limpieza/ejecuciones junto a la identificación de la ejecución, con los hashes del código del notebook y de las reglas utilizadas.
+La ejecución genera BaseUnificada_Revision.xlsx, BaseUnificada_Revision.csv y BaseUnificada_Revision.jsonl en data/processed/taller_2 bajo una carpeta de versión. El nombre identifica las decisiones administrativas pendientes y evita presentar como definitiva una base con conflictos por resolver. El Excel incluye una hoja Alcance. Los controles CSV se guardan en reports/limpieza/ejecuciones junto a los hashes de código y reglas. reports/limpieza/ultimo_cierre.json identifica la salida vigente. Una versión BaseUnificada_Limpia se publicará tras resolver las decisiones y repetir los controles.
 
 Las 18 columnas actuales son de negocio. Los índices, estados de revisión y correspondencias se mantienen en controles separados o en consultas auxiliares. Si se acuerda añadir una variable analítica nueva, se documentará el cambio del esquema y del diccionario.
 
@@ -228,7 +228,7 @@ Una carga futura a PostgreSQL necesita una nueva estructura que contemple las 18
 
 Está listo el diagnóstico de entrada, el inventario de las 5.640 filas, el listado de identificadores repetidos, la actualización del plan y las plantillas de control. Se reproducen con python scripts/diagnosticar_base_unificada.py.
 
-El notebook se ejecutó de principio a fin con 19 celdas de código. Verificó 5.040 procedencias principales, 100 CRM y 500 Oracle contra el libro congelado y el código de anexado. L02 estandarizó textos y categorías con config/limpieza/estandarizacion_v1.json: hubo 14.209 cambios de celda en 5.404 filas. Se conservaron las 5.640 filas, las 18 columnas y las 38 repeticiones exactas adicionales. L02 no modificó fechas, puntajes, importes ni duración.
+El notebook se ejecutó de principio a fin con 24 celdas de código. Verificó 5.040 procedencias principales, 100 CRM y 500 Oracle contra el libro congelado y el código de anexado. L02 estandarizó textos y categorías con config/limpieza/estandarizacion_v1.json: hubo 14.209 cambios de celda en 5.404 filas. En esa etapa se conservaron las 5.640 filas, las 18 columnas y las 38 repeticiones exactas adicionales. L02 no modificó fechas, puntajes, importes ni duración.
 
 Los datos intermedios están en data/interim/taller_2 bajo una carpeta de versión. Los cambios por celda, equivalencias, procedencias, disposición de las 5.640 filas y controles están en reports/limpieza/ejecuciones. reports/limpieza/ultima_estandarizacion.json identifica la ejecución y sus hashes. Existe un HTML de lectura en reports/02_limpieza_base_unificada.html.
 
@@ -242,4 +242,14 @@ L04 dejó 1.293 alertas en 1.159 filas distintas: 524 de documentación en matri
 
 Los 12 controles L04 y la lectura completa de CSV, Excel y JSONL pasaron. El Excel mantiene números y fechas reales con formato; el CSV conserva punto decimal y fechas ISO; JSONL representa decimales exactos como números y fechas como texto ISO. La salida vigente se identifica en reports/limpieza/ultima_tipificacion.json. docs/formatos_fechas_cop.md explica los formatos y su relación con la configuración regional. Las reejecuciones de las etapas previas mantienen sus mismos datos CSV o JSONL y no son nuevas transformaciones acumuladas.
 
-El siguiente paso es L05, revisión del enriquecimiento y sus asignaciones. Las decisiones de identidad, precedencia económica, fechas conflictivas y catálogo institucional siguen pendientes y se resolverán con evidencia. Todavía no se ejecutaron L05 a L09 ni existe una base final depurada generada por este plan.
+L05 comprobó 5.613 correspondencias reproducibles con los siete programas y 27 ausencias de programa útil. Los atributos coinciden con el catálogo de trabajo, sin recuperar el nombre descartado por el fuzzy histórico. Se conservó la modalidad de solicitud ante las 3.385 diferencias frente a la modalidad única del catálogo. L06 consolidó 38 repeticiones exactas, con 5.602 registros de salida: 5.002 principal, 100 CRM y 500 Oracle.
+
+L07 conservó 102 grupos con registro_id repetido y diferencias, que involucran 204 filas. Los 100 CRM coinciden con la principal en 12 atributos ajenos a los identificadores y al importe; 96 tienen también el mismo aspirante_id y cuatro mantienen nan. Trece tienen candidato principal sin importe. Los conflictos REG003600 y REG004804 permanecen documentados.
+
+Oracle tiene candidatos en 500 filas mediante la sonda de 11 atributos, frente a los 498 del diagnóstico anterior. Dos coincidencias aparecen al representar Sin especificar y programa vacío como una misma ausencia; no constituyen evidencia nueva de identidad. Se conservan ambos programas originales y las ausencias compartidas en la comparación. La sonda de 13 atributos identifica 49 filas candidatas y 16 casos son compatibles con intercambio de día y mes de solicitud. No se cambiaron fechas ni códigos.
+
+L08 revisó las filas representativas y registró 466 casos de solicitud posterior al año del periodo, 521 matriculados con documentación No o Pendiente, 95 identificadores de aspirante vacíos o nan, 32 matrículas anteriores a solicitud y 28 fechas posteriores a la referencia del 26 de octubre. El control de correos encontró 5.471 estructuras compatibles y 131 ausencias. No se detectaron negativos ni valores fuera del criterio intercuartílico aplicado; los importes se analizaron por fuente y concepto.
+
+L09 verificó 16 controles, la lectura íntegra de CSV, Excel y JSONL y los destinos de las 5.640 entradas. Registra 2.110 incidencias en 1.766 filas de salida, con superposición de motivos. Existen diez decisiones abiertas sobre programas ausentes, catálogo, CRM y conflictos parciales, Oracle, fechas, periodos, estados y documentación, identidad y contacto, conceptos monetarios y reglas numéricas, y ausencias y aprobación final. Su alcance no equivale a errores confirmados.
+
+Las reglas están en config/limpieza/cierre_v1.json y el respaldo ejecutable en src/analitica_admisiones/cierre_limpieza.py y las celdas del notebook. El reporte está en reports/limpieza/reporte_cierre_limpieza.md y el estado vigente en reports/limpieza/ultimo_cierre.json. La base de revisión permite descripción provisional de registros; solicitudes únicas, tasas definitivas y comparación económica consolidada requieren resolver las decisiones y volver a ejecutar el proceso. Las tablas de Docker no se modificaron.

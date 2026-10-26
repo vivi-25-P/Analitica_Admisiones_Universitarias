@@ -1,0 +1,19 @@
+﻿columna,tipo_logico,filas_antes,ausentes_L04,filas_despues,ausentes_salida,texto_vacio_salida,literal_nan_salida
+registro_id,texto,5640,0,5602,0,0,0
+aspirante_id,texto,5640,0,5602,0,91,4
+fecha_solicitud,fecha,5640,0,5602,0,0,0
+programa,texto,5640,27,5602,27,0,0
+modalidad,texto,5640,0,5602,0,0,0
+canal_captacion,texto,5640,0,5602,0,0,0
+estado_proceso,texto,5640,0,5602,0,0,0
+puntaje_admision,decimal,5640,251,5602,250,0,0
+documentos_completos,texto,5640,0,5602,0,0,0
+valor_matricula_cop,"decimal COP, escala 2",5640,942,5602,934,0,0
+ciudad_residencia,texto,5640,0,5602,0,0,0
+asesor,texto,5640,0,5602,0,0,0
+fecha_matricula,fecha,5640,4434,5602,4402,0,0
+correo,texto,5640,131,5602,131,0,0
+periodo_academico,entero identificador,5640,0,5602,0,0,0
+facultad,texto,5640,27,5602,27,0,0
+duracion_semestres,entero,5640,27,5602,27,0,0
+nivel_formacion,texto,5640,27,5602,27,0,0

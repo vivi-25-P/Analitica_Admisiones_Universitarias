@@ -227,8 +227,12 @@ class CierreLimpieza:
             row = self.by_id[ident]
             candidates = index11.get(tuple(row[c] for c in cols11), [])
             full = index13.get(tuple(row[c] for c in cols13), [])
+            same_original_program = [i for i in candidates
+                                     if key(self.raw_by_id[i]['programa']) == key(self.raw_by_id[ident]['programa'])]
             oracle.append({'fila_oracle': ident, 'registro_id_oracle': row['registro_id'],
                            'candidatos_11_atributos': len(candidates), 'candidatos_13_atributos': len(full),
+                           'candidatos_con_programa_original_equivalente': len(same_original_program),
+                           'programa_original_oracle': self.raw_by_id[ident]['programa'],
                            'ids_candidatos_distintos': len({self.by_id[i]['registro_id'] for i in candidates}),
                            'atributos_informados_de_11': sum(row[c] is not None and row[c] != '' for c in cols11),
                            'candidatos': ', '.join(candidates), 'accion': 'no fusionar; igualdad de atributos no confirma solicitud'})
@@ -237,6 +241,10 @@ class CierreLimpieza:
                 a, b = base['fecha_solicitud'], row['fecha_solicitud']
                 swapped = a != b and a.year == b.year and a.day == b.month and a.month == b.day
                 oracle_pairs.append({'fila_oracle': ident, 'fila_principal': other,
+                                     'programa_original_oracle': self.raw_by_id[ident]['programa'],
+                                     'programa_original_principal': self.raw_by_id[other]['programa'],
+                                     'programa_original_equivalente': other in same_original_program,
+                                     'ausencias_iguales_en_11': ', '.join(c for c in cols11 if row[c] is None),
                                      'fecha_solicitud_principal': serial(a), 'fecha_solicitud_oracle': serial(b),
                                      'solicitud_igual': a == b, 'compatible_intercambio_dia_mes': swapped,
                                      'fecha_matricula_principal': serial(base['fecha_matricula']),
@@ -253,6 +261,8 @@ class CierreLimpieza:
                                'crm_con_importe_principal_ausente': len({r['fila_crm'] for r in crm if r['importe_principal_ausente']}),
                                'oracle_candidatos_11': sum(r['candidatos_11_atributos'] > 0 for r in oracle),
                                'oracle_candidatos_13': sum(r['candidatos_13_atributos'] > 0 for r in oracle),
+                               'oracle_candidatos_con_programa_original_equivalente': sum(r['candidatos_con_programa_original_equivalente'] > 0 for r in oracle),
+                               'oracle_candidatos_dependen_homologacion_programa_ausente': sum(r['candidatos_11_atributos'] > 0 and r['candidatos_con_programa_original_equivalente'] == 0 for r in oracle),
                                'oracle_compatibles_intercambio_fecha': len({r['fila_oracle'] for r in oracle_pairs if r['compatible_intercambio_dia_mes']}),
                                'filas_conciliadas_automaticamente': 0}
         self.step('L07', len(self.kept), len(self.kept), 'Cruzar fuentes e identificar conflictos por atributo; conservar parciales y códigos')
@@ -529,6 +539,7 @@ class CierreLimpieza:
                  f"Las modalidades de solicitud difieren de la modalidad única del catálogo en {f(m['L05']['modalidades_diferentes_catalogo'])} entradas anteriores a la consolidación. Se conserva la modalidad de solicitud. Los tres atributos del catálogo coinciden con la reproducción por una clave normalizada única. El nombre asignado originalmente por fuzzy fue retirado del libro final: la reproducción actual no recupera esa evidencia histórica.",
                  '', f"En CRM hay {m['L07']['crm_con_importe_principal_ausente']} filas con importe informado cuyo candidato principal no tiene importe. No se utiliza el total CRM para rellenarlas sin acordar antes el concepto y la precedencia. REG003600 conserva una diferencia de importe y REG004804 una diferencia de programa y atributos asociados.",
                  '', f"Oracle presenta {m['L07']['oracle_compatibles_intercambio_fecha']} filas candidatas compatibles con intercambio de día y mes en alguna fecha de solicitud principal. Esa compatibilidad no demuestra cuál fecha es correcta y no se aplica una corrección automática. Las sondas incluyen ausencias iguales; el detalle indica cuántos de los 11 atributos están informados.",
+                 '', f"De las {m['L07']['oracle_candidatos_11']} coincidencias Oracle por 11 atributos, {m['L07']['oracle_candidatos_con_programa_original_equivalente']} también tienen un programa original equivalente. Las otras {m['L07']['oracle_candidatos_dependen_homologacion_programa_ausente']} aparecen al homologar como ausencia Sin especificar y programa vacío. No representan nueva evidencia de identidad ni recuperan el programa: el detalle conserva ambos valores originales. Por eso el conteo de candidatos aumenta frente a los 498 del diagnóstico anterior.",
                  '', '| Alerta administrativa en representantes | Casos |', '| :--- | ---: |']
         for kind,count in m['L08']['alertas_negocio_en_representantes'].items():
             lines.append(f'| {kind.replace("_"," ")} | {f(count)} |')
