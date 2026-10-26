@@ -11,5 +11,7 @@
   "entregable": "BaseUnificada_Entregable.xlsx con una hoja principal BaseUnificada de 18 columnas y hojas formales de diccionario, origen, calidad, economía, aspirantes por origen, coincidencias Oracle y metodología. Sin notas de conversación ni rutas locales. CSV, informe, gráficos, metadatos y paquete ZIP complementarios.",
   "imputacion_estadistica": false,
   "eliminar_oracle": false,
-  "cargar_docker": false
+  "cargar_docker": false,
+  "version_presentacion": "1.1",
+  "presentacion": "Oraciones separadas por punto y listas separadas por coma. Se conservan separadores técnicos de fecha y códigos. La similitud de atributos se informa de forma simétrica para los registros de ambas fuentes y no implica una tarea de preparación sin ejecutar."
 }

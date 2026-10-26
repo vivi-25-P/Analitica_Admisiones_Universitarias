@@ -40,6 +40,15 @@ def en_ventana_orientativa(fecha, periodo):
     raise ValueError('Periodo sin semestre reconocido')
 
 
+def indice_similitud_entre_fuentes(candidatos):
+    relaciones=defaultdict(set)
+    for registro,coincidencias in candidatos.items():
+        for otro in coincidencias:
+            relaciones[registro].add(otro)
+            relaciones[otro].add(registro)
+    return dict(relaciones)
+
+
 class EntregaBaseUnificada:
     def __init__(self, root, code_sha):
         self.root=Path(root)
@@ -161,7 +170,8 @@ class EntregaBaseUnificada:
                 'fecha_matricula_oracle':row['fecha_matricula'],'fechas_matricula_principal':', '.join(enrol_dates),
                 'importe_oracle_COP':row['valor_matricula_cop'],'importes_principales_finales_COP':', '.join(money_final),
                 'clasificacion':'Coincidencia de atributos y fechas' if exact else 'Coincidencia de atributos con diferencias temporales' if candidates else 'Sin correspondencia por la regla aplicada',
-                'tratamiento':'Conservado en BaseUnificada; identidad de solicitud entre sistemas no confirmada'})
+                'tratamiento':'Conservado en BaseUnificada. Identidad de solicitud entre sistemas no confirmada'})
+        self.similarity=indice_similitud_entre_fuentes(self.oracle_by_id)
         self.write('correspondencias_oracle.csv',self.oracle_matches)
         self.metrics['oracle']={'registros_conservados':len(self.oracle),
                                'con_candidato_11_atributos':sum(r['candidatos_por_11_atributos']>0 for r in self.oracle_matches),
@@ -205,17 +215,17 @@ class EntregaBaseUnificada:
                 'intervalo_dias_apto_reglas_aplicadas':interval_ok,
                 'dias_solicitud_matricula':(enrol-request).days if interval_ok else None,
                 'fecha_solicitud_apta_reglas_aplicadas':not ambiguous_request and not future_request,
-                'referencia_revision':self.reference.isoformat()})
+                'referencia_revision':self.reference})
             self.origins.append({'registro_id':row['registro_id'],'fuente_origen':source,
-                'fuentes_asociadas':'; '.join(sorted(self.source_sets[ident])),
+                'fuentes_asociadas':', '.join(sorted(self.source_sets[ident])),
                 'crm_incorporado':'CRM' in self.source_sets[ident],
                 'importe_recuperado_crm':any(c['id_fila_salida']==ident for c in self.changes),
-                'coincidencia_oracle_pendiente':source=='Oracle' and bool(self.oracle_by_id.get(ident)),
-                'unidad':'registro de solicitud de origen; independencia entre sistemas no confirmada'})
+                'similitud_entre_fuentes_detectada':bool(self.similarity.get(ident)),
+                'unidad':'registro de solicitud de origen. Independencia entre sistemas no confirmada'})
             if row['aspirante_id'] is None:
                 self.unknown.append({'registro_id':row['registro_id'],'fuente_origen':source,'programa':row['programa'],
                                      'estado_proceso':row['estado_proceso'],'periodo_academico':row['periodo_academico'],
-                                     'motivo':'Identificador de aspirante no informado; cantidad de personas no determinada'})
+                                     'motivo':'Identificador de aspirante no informado. Cantidad de personas no determinada'})
             else:groups[(source,row['aspirante_id'])].append(row)
         for (source,code),rows in sorted(groups.items()):
             states=sorted({r['estado_proceso'] for r in rows})
@@ -223,9 +233,9 @@ class EntregaBaseUnificada:
                 'clave_identificador_origen':source+':'+code,'registros':len(rows),
                 'programas_distintos_informados':len({r['programa'] for r in rows if r['programa']}),
                 'periodos_distintos':len({r['periodo_academico'] for r in rows}),
-                'estados_observados':'; '.join(states),'clasificacion_observada':clasificar_aspirante(states),
-                'codigos_registro':'; '.join(sorted(r['registro_id'] for r in rows)),
-                'alcance':'Código de origen; equivalencia de personas entre sistemas sin confirmar'})
+                'estados_observados':', '.join(states),'clasificacion_observada':clasificar_aspirante(states),
+                'codigos_registro':', '.join(sorted(r['registro_id'] for r in rows)),
+                'alcance':'Código de origen. Equivalencia de personas entre sistemas sin confirmar'})
         self.quality_by_id={q['registro_id']:q for q in self.quality}
         self.origin_by_id={r['registro_id']:r for r in self.origins}
         self.write('control_calidad_final.csv',self.quality)
@@ -243,7 +253,8 @@ class EntregaBaseUnificada:
             'identificadores_oracle':sum(r['fuente_origen']=='Oracle' for r in self.people),
             'registros_sin_identificador':len(self.unknown),'personas_globales_unicas_confirmadas':False}
         self.metrics['fuentes']={'Principal':len(self.principal),'Oracle':len(self.oracle),
-                                'principal_con_crm':sum(r['crm_incorporado'] for r in self.origins)}
+                                'principal_con_crm':sum(r['crm_incorporado'] for r in self.origins),
+                                'registros_con_similitud_entre_fuentes':sum(r['similitud_entre_fuentes_detectada'] for r in self.origins)}
         return pd.DataFrame([self.metrics['calidad']]),pd.DataFrame([self.metrics['identidad']])
 
     def describir(self):
@@ -258,14 +269,14 @@ class EntregaBaseUnificada:
                 self.numbers.append({'alcance':scope,'variable':col,'registros':len(rows),'informados':len(nums),
                     'ausentes':len(rows)-len(nums),'minimo':serial(min(nums)),'maximo':serial(max(nums)),
                     'promedio':serial(sum(nums)/len(nums)),'mediana':serial(median(nums)),
-                    'unidad':'COP, importe reportado; no acredita pago' if col=='valor_matricula_cop' else 'semestres' if col=='duracion_semestres' else 'puntaje registrado'})
+                    'unidad':'COP, importe reportado. No acredita pago' if col=='valor_matricula_cop' else 'semestres' if col=='duracion_semestres' else 'puntaje registrado'})
         for first,second in [('programa','modalidad'),('canal_captacion','estado_proceso'),('ciudad_residencia','modalidad')]:
             counts=Counter((r[first],r[second]) for r in self.all);totals=Counter(r[first] for r in self.all)
             for (a,b),count in counts.items():
                 self.crossings.append({'variable_grupo':first,'categoria_grupo':a or 'Sin información',
                     'variable_comparacion':second,'categoria_comparacion':b,'registros':count,
                     'denominador_grupo':totals[a],'porcentaje_grupo':round(count*100/totals[a],2),
-                    'unidad':'Registros integrados; no personas únicas confirmadas'})
+                    'unidad':'Registros integrados. No personas únicas confirmadas'})
         months=defaultdict(lambda:{'Principal':0,'Oracle':0,'sin_alertas':0})
         for ident in self.ids_out:
             row=self.rows[ident];month=row['fecha_solicitud'].strftime('%Y-%m')
@@ -324,25 +335,25 @@ class EntregaBaseUnificada:
 
     def diccionario(self):
         descriptions=[
-            ('registro_id','Texto identificador','Código de solicitud de su sistema de origen. Único en el archivo entregado; no prueba independencia del evento entre sistemas.'),
-            ('aspirante_id','Texto identificador','Código de aspirante informado. Se interpreta junto con la fuente; vacío cuando no está disponible.'),
-            ('fecha_solicitud','Fecha','Fecha reportada de la solicitud. Presentación año, mes y día; alertas de interpretación en Control_Calidad.'),
+            ('registro_id','Texto identificador','Código de solicitud de su sistema de origen. Único en el archivo entregado. No prueba independencia del evento entre sistemas.'),
+            ('aspirante_id','Texto identificador','Código de aspirante informado. Se interpreta junto con la fuente. Vacío cuando no está disponible.'),
+            ('fecha_solicitud','Fecha','Fecha reportada de la solicitud. Presentación año, mes y día. Alertas de interpretación en Control_Calidad.'),
             ('programa','Categoría de texto','Programa académico solicitado. Se conserva ausente cuando no existe información recuperable.'),
             ('modalidad','Categoría de texto','Modalidad de la solicitud: Presencial, Virtual o Híbrida. No se reemplaza por la modalidad del catálogo.'),
             ('canal_captacion','Categoría de texto','Canal registrado de captación. Su frecuencia no acredita por sí sola eficacia comercial.'),
-            ('estado_proceso','Categoría de texto','Estado analítico. Nuevo se agrupa con Admitido; los estados recibidos se conservan en Control_Calidad.'),
+            ('estado_proceso','Categoría de texto','Estado analítico. Nuevo se agrupa con Admitido. Los estados recibidos se conservan en Control_Calidad.'),
             ('puntaje_admision','Número decimal','Puntaje informado, sin sustituir ausencias por cero ni deducir una escala institucional oficial.'),
             ('documentos_completos','Categoría de texto','Sí, No o Pendiente. Pendiente conserva significado y no se convierte en ausencia.'),
             ('valor_matricula_cop','Número decimal, COP','Importe de matrícula reportado. Para CRM se utiliza matrícula base y se separan derechos administrativos. No acredita pago ni tarifa oficial.'),
             ('ciudad_residencia','Categoría de texto','Ciudad de residencia reportada, con escritura homologada.'),
             ('asesor','Categoría de texto','Asesor asignado o Sin asignar. No se completa una asignación por suposición.'),
-            ('fecha_matricula','Fecha','Fecha de matrícula informada. Puede preceder al inicio de estudios; no determina automáticamente el periodo académico.'),
+            ('fecha_matricula','Fecha','Fecha de matrícula informada. Puede preceder al inicio de estudios. No determina automáticamente el periodo académico.'),
             ('correo','Texto de contacto','Correo reportado. La estructura compatible no prueba entregabilidad o identidad civil.'),
-            ('periodo_academico','Código entero categórico','Semestre de ingreso reportado: 20252, 20261 o 20262. No se suma ni promedia; no se deriva desde las fechas.'),
+            ('periodo_academico','Código entero categórico','Semestre de ingreso reportado: 20252, 20261 o 20262. No se suma ni promedia. No se deriva desde las fechas.'),
             ('facultad','Categoría de texto','Facultad según el catálogo de trabajo adoptado. No se presenta como validación institucional externa.'),
             ('duracion_semestres','Entero, semestres','Duración según el catálogo de trabajo adoptado. Ausente si el programa no está identificado.'),
             ('nivel_formacion','Categoría de texto','Pregrado o Posgrado según el catálogo de trabajo adoptado.')]
-        return [{'columna':c,'tipo':t,'descripcion':d,'tratamiento_ausencia':'Celda vacía; motivos y criterios documentados'} for c,t,d in descriptions]
+        return [{'columna':c,'tipo':t,'descripcion':d,'tratamiento_ausencia':'Celda vacía. Motivos y criterios documentados'} for c,t,d in descriptions]
 
     def metodologia(self):
         return [
@@ -351,8 +362,8 @@ class EntregaBaseUnificada:
             {'aspecto':'Fecha de preparación','criterio':'26 de octubre de 2026'},
             {'aspecto':'Unidad de la tabla principal','criterio':'Registro de solicitud identificado por su código de origen. 5.500 registros y 18 columnas.'},
             {'aspecto':'Fuentes incorporadas','criterio':'5.000 registros principales, 100 aportes CRM incorporados a esos registros y 500 registros Oracle conservados.'},
-            {'aspecto':'Conciliación CRM','criterio':'Mismo código de solicitud y 12 atributos compatibles. Se conservan 87 importes y se recuperan 13 matrículas base; derechos separados.'},
-            {'aspecto':'Tratamiento Oracle','criterio':'Los 500 registros están incluidos. Las coincidencias con la principal se identifican como candidatas; no se asume identidad del evento por semejanza.'},
+            {'aspecto':'Conciliación CRM','criterio':'Mismo código de solicitud y 12 atributos compatibles. Se conservan 87 importes y se recuperan 13 matrículas base. Derechos separados.'},
+            {'aspecto':'Tratamiento Oracle','criterio':'Los 500 registros están incluidos. Las coincidencias con la principal se identifican como candidatas. No se asume identidad del evento por semejanza.'},
             {'aspecto':'Estados','criterio':'Nuevo se agrupa analíticamente con Admitido. Matriculado permanece separado. No se inventan pagos ni fechas.'},
             {'aspecto':'Periodo académico','criterio':'Semestre de ingreso reportado. Se conserva y no se recalcula desde solicitud o matrícula.'},
             {'aspecto':'Ventana orientativa del primer periodo','criterio':'Octubre del año anterior a enero del año de ingreso, como referencia descriptiva sin validar calendario oficial.'},
@@ -361,11 +372,27 @@ class EntregaBaseUnificada:
             {'aspecto':'Intervalos','criterio':'Solo se calculan con ambas fechas y sin las alertas definidas. El periodo académico no se exige igual al semestre de las fechas.'},
             {'aspecto':'Importes','criterio':'COP exactos con dos decimales. No se completan por programa, modalidad, promedio, moda o mediana.'},
             {'aspecto':'Personas','criterio':'Aspirantes_Origen tiene una fila por código informado y fuente. No representa una cantidad global de personas únicas confirmadas.'},
-            {'aspecto':'Identificadores ausentes','criterio':'Los vacíos y nan se representan como ausencia real. Los registros permanecen; no se inventan identificadores.'},
-            {'aspecto':'Clasificación por aspirante','criterio':'Presencia de matrícula en alguna solicitud; después admisión sin matrícula; después otros estados. Es una clasificación excluyente por código de origen, no estado actual.'},
+            {'aspecto':'Identificadores ausentes','criterio':'Los vacíos y nan se representan como ausencia real. Los registros permanecen. No se inventan identificadores.'},
+            {'aspecto':'Clasificación por aspirante','criterio':'Presencia de matrícula en alguna solicitud. Después admisión sin matrícula. Después otros estados. Es una clasificación excluyente por código de origen, no estado actual.'},
             {'aspecto':'Conteos por grupos','criterio':'Un mismo código puede aparecer en varios programas, canales o estados. No sumar esos conteos como personas nuevas.'},
             {'aspecto':'Procedencia y calidad','criterio':'Origen_Registros y Control_Calidad se relacionan con BaseUnificada por registro_id, sin multiplicar filas.'},
-            {'aspecto':'Alcance','criterio':'Preparación técnica terminada para revisión y análisis descriptivo. Las correspondencias entre sistemas y los datos no recuperables mantienen limitaciones explícitas.'}]
+            {'aspecto':'Alcance','criterio':'Preparación técnica terminada para revisión y análisis descriptivo. Las correspondencias entre sistemas y los datos no recuperables mantienen limitaciones explícitas.'},
+            {'aspecto':'Decisiones de preparación aplicadas','criterio':'CRM incorporado, Oracle incluido, periodos conservados, ausencias explícitas y Nuevo agrupado con Admitido. No son tareas de preparación pendientes.'},
+            {'aspecto':'Similitud entre fuentes','criterio':'La marca indica atributos coincidentes y se informa en ambos registros relacionados. El cruce ya fue ejecutado. La similitud no confirma identidad de solicitud o persona.'},
+            {'aspecto':'Datos no confirmados','criterio':'Persisten correspondencias entre sistemas, valores desconocidos y observaciones temporales. Son límites de la información, no transformaciones omitidas.'}]
+
+    def guia_hojas(self):
+        return [
+            {'hoja':'BaseUnificada','filas':5500,'uso':'Tabla principal para analizar los registros integrados. Contiene 18 columnas.'},
+            {'hoja':'Diccionario_Datos','filas':18,'uso':'Significado, tipo y tratamiento de las 18 columnas.'},
+            {'hoja':'Origen_Registros','filas':5500,'uso':'Procedencia y aportes CRM. Señala similitudes detectadas entre fuentes, sin afirmar identidad.'},
+            {'hoja':'Control_Calidad','filas':5500,'uso':'Observaciones por registro, estado recibido y condiciones para cálculos de fechas.'},
+            {'hoja':'Resumen_Calidad','filas':len(self.metrics['calidad']),'uso':'Conteos de observaciones. Pueden superponerse y no deben sumarse como filas distintas.'},
+            {'hoja':'Aspirantes_Origen','filas':len(self.people),'uso':'Una fila por código de aspirante y sistema de origen. No es un total global confirmado de personas.'},
+            {'hoja':'Coincidencias_Oracle','filas':500,'uso':'Comparación de registros Oracle con candidatos principales, con fechas e importes.'},
+            {'hoja':'Control_Economico','filas':100,'uso':'Evidencia de matrícula base, derechos y total CRM, junto con el importe conservado o recuperado.'},
+            {'hoja':'Registros_Sin_ID','filas':90,'uso':'Registros incluidos en la base que no tienen código de aspirante. No son filas adicionales.'},
+            {'hoja':'Metodologia','filas':len(self.metodologia()),'uso':'Reglas aplicadas, decisiones cerradas, denominadores y límites de interpretación.'}]
 
     def exportar(self,preserve_empty_text):
         self.public=self.out/'entregable'
@@ -387,9 +414,14 @@ class EntregaBaseUnificada:
         self.write('Estadisticas_Numericas.csv',self.numbers,folder=self.public)
         self.write('Cruces_Descriptivos.csv',self.crossings,folder=self.public)
         self.write('Serie_Mensual.csv',self.months,folder=self.public)
+        self.write('Guia_Hojas.csv',self.guia_hojas(),folder=self.public)
+        guide=['# Guía de hojas de BaseUnificada Entregable','','La tabla para el análisis es BaseUnificada. Las otras hojas explican, controlan o resumen sus mismos registros. No se suman como fuentes nuevas.','','| Hoja | Filas | Uso |','| :--- | ---: | :--- |']
+        guide.extend(f"| {r['hoja']} | {r['filas']} | {r['uso']} |" for r in self.guia_hojas())
+        guide.extend(['','El cruce entre fuentes ya se ejecutó. La similitud detectada es un resultado de ese control y no demuestra por sí sola identidad del evento. Las reglas de preparación están aplicadas. Persisten datos no confirmados y ausencias que se conservan explícitamente.'])
+        (self.public/'Guia_Hojas.md').write_text('\n'.join(guide)+'\n',encoding='utf8')
         quality_summary=[{'observacion':name.replace('_',' '),'registros':count,
                           'denominador':5500,'porcentaje':round(count/55,2),
-                          'interpretacion':'Observaciones superpuestas; no sumar como registros diferentes. No acreditan error por sí solas.'}
+                          'interpretacion':'Observaciones superpuestas. No sumar como registros diferentes. No acreditan error por sí solas.'}
                           for name,count in self.metrics['calidad'].items()]
         book=Workbook();book.remove(book.active)
         sheets=[('BaseUnificada',self.all),('Diccionario_Datos',self.diccionario()),('Origen_Registros',self.origins),
@@ -471,7 +503,8 @@ class EntregaBaseUnificada:
                 ('Registros explicados por vistas de aspirantes',sum(r['registros'] for r in self.people)+len(self.unknown)==5500),
                 ('COP con dos decimales exactos',all(r['valor_matricula_cop'] is None or r['valor_matricula_cop'].as_tuple().exponent==-2 for r in self.all)),
                 ('Fuentes originales intactas',original_ok),('Entrada preparada y libro intactos',prepared_ok),
-                ('Entrada L11 intacta',sha(self.source)==self.input_sha)]
+                ('Entrada L11 intacta',sha(self.source)==self.input_sha),
+                ('Similitud señalada en ambos registros relacionados',all(i in self.similarity.get(j,set()) for j,items in self.similarity.items() for i in items))]
         self.write('controles_finales.csv',[{'control':k,'correcto':bool(v)} for k,v in checks])
         assert all(v for _,v in checks),[k for k,v in checks if not v]
         self.metrics['controles_correctos']=len(checks)
@@ -496,10 +529,10 @@ class EntregaBaseUnificada:
             '| Estandarización | Homologación de espacios, tildes, categorías, formatos y tipos. |',
             '| Ausencias | Separación de valores desconocidos y marcadores. Los identificadores vacíos y nan se representan como ausencia real. |',
             '| Repeticiones exactas | 38 filas adicionales consolidadas con evidencia de igualdad. |',
-            '| Registros parciales | Dos filas complementarias consolidadas; cinco valores recuperados para REG003600 y REG004804. |',
-            '| Estados | Nuevo agrupado analíticamente como Admitido; Matriculado conservado y estado recibido disponible en Control_Calidad. |',
-            '| CRM | 100 aportes incorporados mediante correspondencia por código y 12 atributos; 13 importes recuperados. |',
-            '| Oracle | 500 registros conservados; sus coincidencias y diferencias se exportan para revisión. |',
+            '| Registros parciales | Dos filas complementarias consolidadas. Cinco valores recuperados para REG003600 y REG004804. |',
+            '| Estados | Nuevo agrupado analíticamente como Admitido. Matriculado conservado y estado recibido disponible en Control_Calidad. |',
+            '| CRM | 100 aportes incorporados mediante correspondencia por código y 12 atributos. 13 importes recuperados. |',
+            '| Oracle | 500 registros conservados. Sus coincidencias y diferencias se exportan para revisión. |',
             '| Periodos | Códigos 20252, 20261 y 20262 conservados como semestres de ingreso, sin recalcularlos desde las fechas. |',
             '| Exportación | Excel con datos y controles, CSV, JSONL, informe y gráficos. |',
             '', 'La conciliación de cantidades es: 5.640 entradas, menos 38 repeticiones exactas, menos dos parciales y menos 100 aportes CRM integrados, igual a 5.500 registros. No se retiran registros por ser Oracle, tener información faltante o estar fuera de una ventana temporal orientativa.',
@@ -507,17 +540,18 @@ class EntregaBaseUnificada:
             'En los 100 cruces CRM, los códigos y 12 atributos comparados son compatibles. En 87 casos la matrícula principal coincide con la matrícula base CRM y se conserva. En 13 casos el principal está ausente y se recupera la matrícula base desde el CRM. Los derechos administrativos y el total CRM se mantienen en Control_Economico. No se suman silenciosamente al importe de matrícula.',
             '', f"La principal conserva {n(self.metrics['crm']['importes_ausentes_principal'])} importes ausentes. El conjunto integrado tiene {n(c['importe_ausente'])} ausencias de importe. No se completaron por programa, modalidad, promedio, mediana o moda. El importe reportado no acredita un pago ni una tarifa institucional oficial.",
             '', '## 4. Revisión Oracle y procedencia','',
-            f"Los 500 registros Oracle se conservaron. {o['con_candidato_11_atributos']} presentan candidatos al comparar 11 atributos excluyendo identificadores y fechas; {o['con_candidato_13_atributos']} coinciden también en los dos atributos de fecha comparados. Las reglas utilizan igualdad numérica y mantienen explícitas las ausencias. Una ausencia compartida no constituye evidencia independiente de identidad.",
+            f"Los 500 registros Oracle se conservaron. {o['con_candidato_11_atributos']} presentan candidatos al comparar 11 atributos excluyendo identificadores y fechas. {o['con_candidato_13_atributos']} coinciden también en los dos atributos de fecha comparados. Las reglas utilizan igualdad numérica y mantienen explícitas las ausencias. Una ausencia compartida no constituye evidencia independiente de identidad.",
             '', 'Las sondas se documentan sobre el punto previo a recuperar importes CRM, para no perder candidatos por una recuperación posterior. Coincidencias_Oracle muestra las fechas y los importes finales disponibles. No se cambian los códigos Oracle ni se fusionan personas o solicitudes únicamente por la coincidencia de atributos.',
             '', 'Origen_Registros tiene una fila por registro final y distingue la fuente de origen y las fuentes asociadas. Sus filas se relacionan con BaseUnificada por registro_id y no se anexan como registros nuevos.',
+            '', 'El control de similitud ya está aplicado. Se señala en ambos registros relacionados, incluidos los de la principal. Describe atributos coincidentes, sin afirmar identidad del evento ni una tarea de preparación sin ejecutar. Los distintos códigos son convenciones de origen y no se declaran errores.',
             '', '## 5. Fechas, periodos y oportunidad','',
             'El periodo académico representa el semestre de ingreso reportado. Una solicitud de octubre de 2025 puede corresponder al primer periodo de 2026. Una matrícula realizada antes del inicio de clases no determina por sí sola un periodo distinto. Los códigos recibidos se conservan y no se hacen coincidir automáticamente con las fechas.',
-            '', 'Se utiliza una ventana descriptiva de octubre a enero para el primer periodo y de mayo a julio para el segundo. Esta referencia no acredita el calendario oficial. Estar fuera de esa ventana solo genera una observación; no provoca exclusión o reasignación del periodo.',
+            '', 'Se utiliza una ventana descriptiva de octubre a enero para el primer periodo y de mayo a julio para el segundo. Esta referencia no acredita el calendario oficial. Estar fuera de esa ventana solo genera una observación. No provoca exclusión o reasignación del periodo.',
             '', f"Hay {n(c['solicitud_posterior_al_anio_periodo'])} registros cuya solicitud tiene un año posterior al periodo reportado. Se mantienen para revisión, sin inventar cuál dato debe cambiarse. Hay {n(c['matricula_anterior_a_solicitud'])} matrículas anteriores a la solicitud. Las fechas posteriores al 26 de octubre de 2026 se identifican como posteriores a la referencia de preparación, sin afirmar que sean errores o actividades ya realizadas.",
             '', f"Los intervalos entre solicitud y matrícula se calculan para {n(c['intervalo_dias_apto_reglas_aplicadas'])} registros con ambas fechas y sin las alertas definidas. El periodo académico no se exige igual al semestre de las fechas. No existe fecha de actualización de estado y no se reconstruyen transiciones ni un último estado por persona.",
             '', '## 6. Identidad y prevención del doble conteo','',
             f"Se registran {n(ids['identificadores_principal'])} códigos de aspirante informados en la principal y {n(ids['identificadores_oracle'])} en Oracle: {n(ids['identificadores_por_origen'])} identificadores por origen. La vista Aspirantes_Origen incluye ambos sistemas. Esta suma no confirma personas únicas entre sistemas, porque las correspondencias de identidad siguen siendo candidatas.",
-            '', f"Se conservan {n(ids['registros_sin_identificador'])} registros sin código de aspirante. No se interpretan como ese mismo número de personas ni se agrupan como una sola persona. Un código de aspirante puede tener varias solicitudes de distintos programas o periodos. La clasificación por código se basa en cualquier solicitud con matrícula, después admisión sin matrícula y finalmente otros estados; no representa el estado actual.",
+            '', f"Se conservan {n(ids['registros_sin_identificador'])} registros sin código de aspirante. No se interpretan como ese mismo número de personas ni se agrupan como una sola persona. Un código de aspirante puede tener varias solicitudes de distintos programas o periodos. La clasificación por código se basa en cualquier solicitud con matrícula, después admisión sin matrícula y finalmente otros estados. No representa el estado actual.",
             '', 'Para medir registros se cuenta registro_id. Para describir identificadores de aspirante se utiliza la clave de origen de Aspirantes_Origen. Los conteos de aspirantes por programa, canal o estado pueden solaparse y no deben sumarse como nuevas personas. No se presentan tasas definitivas de conversión de personas entre sistemas.',
             '', '## 7. Perfil descriptivo integrado','',
             'Las siguientes frecuencias y gráficos utilizan los 5.500 registros integrados, incluidos los 500 Oracle. Describen registros, sin afirmar personas únicas o independencia confirmada de todos los eventos.',
@@ -544,7 +578,7 @@ class EntregaBaseUnificada:
                     'solicitud_posterior_al_anio_periodo','solicitud_posterior_referencia','matricula_posterior_referencia',
                     'matriculado_documentos_no_completos','documentacion_pendiente_con_documentos_si']:
             lines.append(f"| {key.replace('_',' ')} | {n(c[key])} |")
-        lines += ['', 'Las observaciones pueden superponerse en una misma fila y no deben sumarse como solicitudes diferentes. Una ausencia puede ser pertinente para un estado y limitar otro indicador; la falta de fecha de matrícula en una solicitud no matriculada no se declara automáticamente error.',
+        lines += ['', 'Las observaciones pueden superponerse en una misma fila y no deben sumarse como solicitudes diferentes. Una ausencia puede ser pertinente para un estado y limitar otro indicador. La falta de fecha de matrícula en una solicitud no matriculada no se declara automáticamente error.',
                   '', '## 9. Estado de cierre y condiciones de uso','',
                   f"La preparación técnica y la conciliación CRM están completadas. Pasaron {self.metrics['controles_correctos']} controles finales, con lectura completa de Excel, CSV y JSONL y conservación de fuentes. El archivo puede entregarse para revisión y utilizarse en análisis descriptivo de registros con su procedencia y sus alertas.",
                   '', 'Para afirmar cantidades globales de personas únicas o conversiones entre sistemas sería necesario validar las correspondencias de identidad. Para presentar tarifas, ingresos cobrados o un calendario institucional oficial se requeriría una validación de esos conceptos. Estas limitaciones no provocan la eliminación de registros ni impiden revisar el conjunto integrado.',
@@ -568,7 +602,7 @@ class EntregaBaseUnificada:
         for raw in body.splitlines():
             if raw.startswith('| :') or raw.startswith('| ---'):continue
             if raw.startswith('|'):
-                raw='  ;  '.join(p.strip() for p in raw.strip('|').split('|'))
+                raw='. '.join(p.strip() for p in raw.strip('|').split('|'))
             raw=raw.replace('**','').replace('`','')
             if raw.startswith('#'):raw=raw.lstrip('#').strip().upper()
             lines.extend(textwrap.wrap(raw,width=94,break_long_words=False,break_on_hyphens=False) or [''])
@@ -595,14 +629,14 @@ class EntregaBaseUnificada:
         for name,_ in self.figures:
             for ext in ['png','pdf']:shutil.copy2(self.fig/f'{name}.{ext}',graphics/f'{name}.{ext}')
         (self.public/'LEEME.md').write_text(
-            '# BaseUnificada Entregable\n\nInstituto Universitario Horizonte. Versión 1.0, 26 de octubre de 2026.\n\n'
-            'Abra BaseUnificada_Entregable.xlsx y comience por Metodologia y Diccionario_Datos. La hoja BaseUnificada contiene 5.500 registros y 18 columnas. Incluye los 500 registros Oracle y los aportes de 100 CRM incorporados a la principal.\n\n'
+            '# BaseUnificada Entregable\n\nInstituto Universitario Horizonte. Versión 1.1, 26 de octubre de 2026.\n\n'
+            'Abra BaseUnificada_Entregable.xlsx y consulte Guia_Hojas.md, Metodologia y Diccionario_Datos. La hoja BaseUnificada contiene 5.500 registros y 18 columnas. Incluye los 500 registros Oracle y los aportes de 100 CRM incorporados a la principal.\n\n'
             'Origen_Registros y Control_Calidad se relacionan por registro_id y tienen una fila por registro. Las otras hojas son controles o resúmenes, no fuentes que se suman a la base.\n\n'
             'Aspirantes_Origen agrupa códigos de aspirante por sistema. Sus 3.424 filas no representan personas globales únicas confirmadas. Los 90 registros sin identificador se conservan aparte.\n\n'
-            'CSV: UTF8 con BOM, separador coma, punto decimal y fechas año, mes y día. JSONL conserva null y números decimales. Excel conserva números y fechas reales; los separadores visuales dependen de la configuración regional.\n\n'
+            'CSV: UTF8 con BOM, separador coma, punto decimal y fechas año, mes y día. JSONL conserva null y números decimales. Excel conserva números y fechas reales. Los separadores visuales dependen de la configuración regional.\n\n'
             'Consulte Informe_BaseUnificada_Entregable.pdf para resultados, metodología y limitaciones. Los gráficos y controles forman parte de la entrega. No existen conexiones externas, macros ni consultas dependientes del equipo de preparación.\n',encoding='utf8')
         public_files=[p for p in self.public.rglob('*') if p.is_file() and p.name!='Metadatos_Entrega.json']
-        public_meta={'titulo':'BaseUnificada Entregable','institucion':'Instituto Universitario Horizonte','version':'1.0',
+        public_meta={'titulo':'BaseUnificada Entregable','institucion':'Instituto Universitario Horizonte','version':self.rules['version_presentacion'],
             'fecha_preparacion':'2026-10-26','filas':5500,'columnas':18,
             'fuentes':{'registros_principales':5000,'aportes_crm_integrados':100,'registros_oracle_incluidos':500},
             'identificadores_aspirante_por_origen':3424,'personas_globales_unicas_confirmadas':False,
@@ -618,7 +652,7 @@ class EntregaBaseUnificada:
         # Ubicación estable y sencilla para entregar; la versión interna conserva historia.
         delivery=self.root/'deliverables';delivery.mkdir(exist_ok=True)
         for name in ['BaseUnificada_Entregable.xlsx','BaseUnificada_Entregable.csv',
-                     'Informe_BaseUnificada_Entregable.pdf','Informe_BaseUnificada_Entregable.md','Metadatos_Entrega.json']:
+                     'Informe_BaseUnificada_Entregable.pdf','Informe_BaseUnificada_Entregable.md','Metadatos_Entrega.json','Guia_Hojas.md']:
             shutil.copy2(self.public/name,delivery/name)
         shutil.copy2(zip_path,delivery/zip_path.name)
         summary={'id_ejecucion':self.run,'etapa':'L12 a L14 conciliación final y entrega',
@@ -645,11 +679,14 @@ class EntregaBaseUnificada:
             if path.suffix.lower() in ['.md','.json','.csv','.jsonl']:
                 content=path.read_text(encoding='utf-8-sig')
                 assert not any(term.casefold() in content.casefold() for term in bad_terms),path
+                assert ';' not in content,('Punto y coma en archivo de entrega',path)
         book=load_workbook(self.public/'BaseUnificada_Entregable.xlsx',read_only=True,data_only=True)
         for sheet in book:
             for row in sheet.values:
                 for value in row:
-                    if isinstance(value,str):assert not any(term.casefold() in value.casefold() for term in bad_terms),(sheet.title,value)
+                    if isinstance(value,str):
+                        assert not any(term.casefold() in value.casefold() for term in bad_terms),(sheet.title,value)
+                        assert ';' not in value,('Punto y coma en celda',sheet.title,value)
         book.close()
         with zipfile.ZipFile(zip_path) as archive:
             assert archive.testzip() is None
@@ -659,4 +696,5 @@ class EntregaBaseUnificada:
                     assert hashlib.sha256(archive.read(entry)).hexdigest()==sha(path)
         self.write('control_paquete_externo.csv',[{'control':'Sin notas personales ni rutas locales','correcto':True},
             {'control':'Huellas de archivos coinciden con metadatos','correcto':True},
-            {'control':'Archivo ZIP íntegro y contenido verificado','correcto':True}])
+            {'control':'Archivo ZIP íntegro y contenido verificado','correcto':True},
+            {'control':'Textos y listas sin punto y coma','correcto':True}])

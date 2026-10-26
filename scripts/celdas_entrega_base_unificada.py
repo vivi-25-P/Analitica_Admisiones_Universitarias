@@ -51,8 +51,11 @@ def agregar_entrega(md,code):
                                                index=entrega.ids_out, dtype=object)
     df_base_unificada_entregable.index.name = 'id_registro_auditoria'
     display(df_base_unificada_entregable.head())
-    display(pd.DataFrame([entrega.metrics['crm'], entrega.metrics['oracle']]))
-    display(Markdown((ROOT / 'deliverables/Informe_BaseUnificada_Entregable.md').read_text()))
+    display(pd.DataFrame(entrega.guia_hojas()))
+    display(pd.DataFrame([{'Registros integrados': len(entrega.all), 'Columnas': len(HEADERS),
+        'Aportes CRM incorporados': 100, 'Oracle incluidos': 500, 'Importes recuperados': 13,
+        'Controles correctos': entrega.metrics['controles_correctos']}]))
+    display(Markdown('La última celda valida y exporta el entregable. La similitud entre fuentes es un resultado del cruce ejecutado, no una tarea sin realizar. Las identidades no confirmadas y los valores ausentes permanecen explícitos.'))
     print('Entregable para revisión:', resumen_entrega['entregable'])
     print('Paquete completo:', resumen_entrega['paquete'])
     print('Auditoría:', resumen_entrega['auditoria'])

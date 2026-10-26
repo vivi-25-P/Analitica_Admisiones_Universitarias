@@ -1,10 +1,19 @@
 import unittest
 from decimal import Decimal
 from datetime import date
-from analitica_admisiones.entrega_base_unificada import conciliar_importe, en_ventana_orientativa
+from analitica_admisiones.entrega_base_unificada import conciliar_importe, en_ventana_orientativa, indice_similitud_entre_fuentes
 
 
 class EntregaTest(unittest.TestCase):
+    def test_similitud_se_senala_en_ambas_fuentes(self):
+        relations=indice_similitud_entre_fuentes({'OR1':['PR1'],'OR2':['PR1']})
+        self.assertEqual(relations['PR1'],{'OR1','OR2'})
+        self.assertEqual(relations['OR1'],{'PR1'})
+        self.assertEqual(len(relations),3)
+
+    def test_sin_candidato_no_inventa_relacion(self):
+        self.assertEqual(indice_similitud_entre_fuentes({'OR1':[]}),{})
+
     def test_recupera_base_no_total(self):
         value,_=conciliar_importe(None,Decimal('2500000.00'),Decimal('209587.00'),Decimal('2709587.00'))
         self.assertEqual(value,Decimal('2500000.00'))
