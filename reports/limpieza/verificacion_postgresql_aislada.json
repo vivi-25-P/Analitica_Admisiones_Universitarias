@@ -1,0 +1,16 @@
+{
+  "escenarios": [
+    "respaldo_anterior",
+    "instalacion_nueva"
+  ],
+  "respaldo_sha256": "f3842aeb5157d96c86425fcb043779d83ee9c4322f8655410961bf99b42e2683",
+  "controles": [
+    "Restauración o inicialización de originales y tipadas",
+    "Migración 002 aplicada",
+    "Carga dos veces sin duplicar",
+    "Comparación íntegra de datos y trazabilidad",
+    "Alteración detectada",
+    "Bases temporales retiradas"
+  ],
+  "resultado": "Correcto"
+}

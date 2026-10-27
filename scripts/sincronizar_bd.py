@@ -158,9 +158,8 @@ def main():
     if args.estado:
         print('Consulta finalizada. No se aplicaron las migraciones pendientes.', flush=True)
         return
-    if pending:
-        from scripts.respaldar_bd import main as backup
-        backup()
+    from scripts.respaldar_bd import main as backup
+    backup()
     from scripts.preparar_tipos import main as prepare_types
     prepare_types()
     for migration in pending:
@@ -169,7 +168,9 @@ def main():
     final = registry()
     if plan(migrations, final):
         raise RuntimeError('Quedaron migraciones sin aplicar.')
-    print('Base sincronizada con el repositorio. Las tablas originales permanecen intactas.', flush=True)
+    from scripts.cargar_base_unificada import cargar
+    cargar()
+    print('Base sincronizada con el repositorio, incluida la entrega analítica. Las tablas originales permanecen intactas.', flush=True)
 
 
 if __name__=='__main__':

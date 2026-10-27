@@ -1,0 +1,38 @@
+{
+  "carga_id": "0130897a166782a42d8a891fb5dbfccd1a8911e29fbd8c1f8037b35cb87d5aed",
+  "accion": "Carga existente verificada, sin duplicar registros",
+  "registros": 5500,
+  "columnas": 18,
+  "destinos_entrada": 5640,
+  "archivos_conservados": 102,
+  "controles": {
+    "publicacion_correcta": true,
+    "18_columnas_en_orden": true,
+    "5500_filas_todos_los_valores_iguales": true,
+    "5640_destinos_iguales": true,
+    "9_hojas_auxiliares_iguales": true,
+    "archivos_completos_y_huellas": true,
+    "fuente_Caso2_Admisiones_Universitarias.csv": true,
+    "fuente_Caso2 CRM Admisiones.csv": true,
+    "fuente_Caso2 Programas.csv": true,
+    "fuente_Caso2_Oracle_Admisiones.csv": true,
+    "fuente_BaseUnificada.csv": true,
+    "origen_recuperacion_y_oracle": true,
+    "controles_temporales": true,
+    "100_importes_crm_conciliados": true,
+    "tablas_anteriores_intactas": true
+  },
+  "tablas_anteriores": {
+    "admisiones_original": {
+      "filas": 5040,
+      "huella_sql": "cbadc35e5c679efe66cfea08a5d68b27"
+    },
+    "admisiones_tipadas": {
+      "filas": 5040,
+      "huella_sql": "884d93bf6af52f508131f50ae0a95d85"
+    }
+  },
+  "excel": "deliverables/BaseUnificada_Entregable.xlsx",
+  "sha256_excel": "561b084b0501f2dedefe7286e2fa714242508f2f65301db2d605c52320ed223c",
+  "vista_powerbi": "analitica.base_unificada"
+}

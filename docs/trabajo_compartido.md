@@ -11,8 +11,8 @@ La configuración utiliza rutas relativas. La base se levanta con PostgreSQL 17 
 Instalar Git, Docker con Compose y uv. Clonar el repositorio y entrar en su carpeta. Mantener Docker en ejecución.
 
 ```bash
-uv sync --locked --group notebooks
-uv run --locked --group notebooks python scripts/sincronizar_bd.py
+uv sync --locked --group notebooks --group excel
+uv run --locked --group notebooks --group excel python scripts/sincronizar_bd.py
 ```
 
 Si .env no existe, el sincronizador lo crea con una contraseña aleatoria local. Si se copió .env.example manualmente, reemplazar la contraseña de ejemplo antes de ejecutar. No se cambia ni se imprime una contraseña ya existente.
@@ -38,8 +38,8 @@ Los comandos directos de scripts y notebooks funcionan sin instalar el proyecto 
 
 ```bash
 git pull --ff-only
-uv sync --locked --group notebooks
-uv run --locked --group notebooks python scripts/sincronizar_bd.py
+uv sync --locked --group notebooks --group excel
+uv run --locked --group notebooks --group excel python scripts/sincronizar_bd.py
 ```
 
 ## Actualizaciones con pip
@@ -93,3 +93,7 @@ requirements.txt permanece como entrada alternativa al mismo archivo. Cada equip
 ## Alcance de las pruebas
 
 Las pruebas verifican planificación, versiones inmutables, orden y preservación de datos. Las ejecuciones con Docker se documentan en BITACORA.md. La portabilidad de configuración no sustituye una ejecución real en Linux o macOS; esa validación debe registrarse al realizarse.
+
+## Capa integrada vigente
+
+El sincronizador ya incorpora la entrega final y sus controles mediante la migración 002 y scripts/cargar_base_unificada.py. No basta con aplicar el SQL para poblar las tablas. La carga compara todos los datos con el Excel, conserva fuentes y reglas, registra los 5.640 destinos y publica una sola vista vigente. Consulta [la guía de PostgreSQL y Excel para Power BI](postgresql_base_unificada_powerbi.md). Instala también el grupo excel de uv. Los comandos anteriores que describen únicamente las tablas original y tipada corresponden a la etapa inicial.

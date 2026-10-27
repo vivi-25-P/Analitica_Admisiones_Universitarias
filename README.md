@@ -2,7 +2,7 @@
 
 **Única base para entregar:** [BaseUnificada_Entregable.xlsx](deliverables/BaseUnificada_Entregable.xlsx), con **5.500 registros y 18 columnas**. Incluye los 500 registros Oracle y los 100 aportes CRM incorporados a sus solicitudes principales, con 13 importes recuperados. El diccionario, la metodología y los controles están dentro del mismo Excel. El otro entregable es el informe administrativo mantenido en Drive. Los CSV, paquetes, informes de apoyo y puntos de control permanecen como evidencia interna, fuera de la carpeta de entrega. `reports/limpieza/ultima_entrega.json` identifica el Excel vigente y su huella. No hay carpetas de versiones en deliverables.
 
-La preparación técnica está completada para revisión externa y análisis descriptivo de registros. Los 3.424 identificadores de aspirante por origen no se afirman como personas globales únicas; las correspondencias Oracle, las ausencias y las observaciones temporales permanecen explícitas. Los periodos se conservan como semestres de ingreso y no se recalculan desde las fechas. Las tablas Docker conservan su estado anterior.
+La preparación técnica está completada para revisión externa y análisis descriptivo de registros. Los 3.424 identificadores de aspirante por origen no se afirman como personas globales únicas; las correspondencias Oracle, las ausencias y las observaciones temporales permanecen explícitas. Los periodos se conservan como semestres de ingreso y no se recalculan desde las fechas. PostgreSQL ya publica la misma entrega en analitica.base_unificada, conservando las tablas originales y tipadas. Consulta la guía de conexión a PostgreSQL y Excel enlazada más abajo.
 
 Para la entrega del informe, el documento principal es el informe administrativo en Drive junto con BaseUnificada. El PDF generado queda como apoyo interno. La [sección de limpieza lista para copiar](reports/apoyo_informe_drive/seccion_limpieza_transformacion.md) propone una tabla y una [figura de conciliación](reports/apoyo_informe_drive/conciliacion_registros.png). Se añadieron [estados antes y después](reports/apoyo_informe_drive/homologacion_estados.png) y [cobertura temporal](reports/apoyo_informe_drive/cobertura_temporal.png) para explicar tratamientos y fechas. La [guía de ubicación](reports/apoyo_informe_drive/ubicacion_graficos.md) distingue limpieza del análisis descriptivo. Estos apoyos se regeneran con `python scripts/generar_apoyo_seccion_limpieza.py`.
 
@@ -44,8 +44,8 @@ El [reporte comparativo de las cuatro fuentes](docs/reporte_comparativo_fuentes_
 Después de clonar el repositorio o ejecutar `git pull --ff-only`, con Docker en ejecución:
 
 ```bash
-uv sync --locked --group notebooks
-uv run --locked --group notebooks python scripts/sincronizar_bd.py
+uv sync --locked --group notebooks --group excel
+uv run --locked --group notebooks --group excel python scripts/sincronizar_bd.py
 ```
 
 Con pip y un entorno Python 3.12 activado:
@@ -55,7 +55,7 @@ python -m pip install -r requirement.pip
 python scripts/sincronizar_bd.py
 ```
 
-También se admite `requirements.txt`. El sincronizador crea `.env` con contraseña local si falta, verifica el CSV, reproduce las dos tablas actuales y aplica una sola vez cada versión SQL pendiente. Las versiones se registran en `public.migraciones_proyecto`. La limpieza integrada se ejecuta en los notebooks. Este sincronizador conserva las tablas de la etapa original y tipada, sin cargar automáticamente la entrega final.
+También se admite `requirements.txt`. El sincronizador crea `.env` con contraseña local si falta, verifica el CSV, reproduce las dos tablas actuales y aplica una sola vez cada versión SQL pendiente. Las versiones se registran en `public.migraciones_proyecto`. La limpieza integrada se ejecuta en los notebooks. Este sincronizador conserva las tablas de la etapa original y tipada y carga la entrega final en la capa analítica con trazabilidad.
 
 Consulta [la guía para trabajar en varios computadores](docs/trabajo_compartido.md). Git comparte archivos y procedimientos; cada equipo mantiene su propio volumen PostgreSQL. El pull descarga las migraciones y el comando anterior las aplica. No se modifican los datos originales ni se copian volúmenes entre equipos.
 
@@ -181,7 +181,7 @@ El respaldo principal está en `notebooks/01_respaldo_informe_descriptivo.ipynb`
 Para instalar las herramientas del cuaderno:
 
 ```bash
-uv sync --locked --group notebooks
+uv sync --locked --group notebooks --group excel
 ```
 
 Para ejecutar de nuevo todas sus celdas y exportar HTML:
@@ -221,3 +221,7 @@ Para validar o repetir la proyección sin duplicar filas: `uv run --group notebo
 ## Análisis administrativo y Power BI
 
 La siguiente fase sigue [el plan de análisis y dashboard](docs/plan_analisis_administrativo_powerbi.md). El informe y Power BI utilizarán la misma base y definiciones de indicadores. Todavía no se ha construido el dashboard ni se han redactado conclusiones finales de esta fase.
+
+## Base analítica en PostgreSQL y alternativa Excel
+
+PostgreSQL está actualizado con la base final, sus fuentes y trazabilidad. La vista `analitica.base_unificada` contiene los mismos 5.500 registros y 18 columnas del Excel entregable. Las tablas originales y tipadas de 5.040 filas se conservan. [La guía de conexión y sincronización](docs/postgresql_base_unificada_powerbi.md) explica los esquemas, las pruebas y cómo elegir PostgreSQL o Excel para Power BI. La [plantilla Power Query](powerbi/BaseUnificada.pq) prepara una consulta con fuentes alternativas. No se anexan las dos copias. La conexión dentro de Power BI Desktop sigue pendiente de probar durante la construcción del dashboard.

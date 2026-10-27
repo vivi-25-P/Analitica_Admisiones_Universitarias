@@ -76,3 +76,7 @@ La nueva tabla `public.admisiones_tipadas` ya está creada y cargada con 5.040 f
 ## Sincronización de versiones compartidas
 
 La entrada recomendada para una instalación nueva o una actualización es `python scripts/sincronizar_bd.py`, después de instalar las dependencias con uv o pip. Se registra cada versión SQL en public.migraciones_proyecto y se verifican las tablas de origen. La [guía compartida](trabajo_compartido.md) contiene los comandos de instalación y actualización. No basta con agregar nuevos archivos a docker/init sobre un volumen ya existente.
+
+## Actualización del 26 de octubre de 2026
+
+Se retomó el contenedor existente y se aplicó 002_base_unificada_analitica.sql. PostgreSQL conserva public.admisiones_original y public.admisiones_tipadas y expone analitica.base_unificada con 5.500 registros y 18 columnas iguales al Excel final. Se conservan fuentes, reglas, archivos de auditoría, nueve hojas auxiliares y los 5.640 destinos. La carga y las comprobaciones se ejecutan automáticamente desde scripts/sincronizar_bd.py. [La guía actualizada](postgresql_base_unificada_powerbi.md) reemplaza el alcance inicial para consultas analíticas y conexión a Power BI.

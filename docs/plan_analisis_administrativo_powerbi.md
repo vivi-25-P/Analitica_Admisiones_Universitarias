@@ -77,3 +77,7 @@ Se propondrán decisiones sobre comunicación por segmento, seguimiento document
 ## Criterios de cierre de la fase
 
 Notebook ejecutado y tablas reproducibles. Pregunta general respondida y alcance de las tres preguntas particulares explícito. Hallazgos con numeradores y denominadores, gráficos legibles y recomendaciones vinculadas con evidencia. Power BI conciliado contra los mismos resultados y filtros. Informe en Drive actualizado. Base maestra conservada e integridad comprobada. El dashboard permanece pendiente hasta realizar esa construcción y sus verificaciones.
+
+## Actualización de infraestructura
+
+La base final ya está disponible en PostgreSQL como analitica.base_unificada. El Excel entregable permanece idéntico como alternativa. No se creó todavía el modelo dimensional o dashboard. La selección de fuente y la preservación de trazabilidad están descritas en [la guía de conexión](postgresql_base_unificada_powerbi.md).
