@@ -1,0 +1,28 @@
+{
+  "fecha": "2026-10-28",
+  "documento_apoyo_id": "1CmPCb7gjZQF12KqPOTr5W21VOiFnzCxfQdUPQY9UzYk",
+  "url": "https://docs.google.com/document/d/1CmPCb7gjZQF12KqPOTr5W21VOiFnzCxfQdUPQY9UzYk/edit?usp=drivesdk",
+  "carpeta_drive_id": "10JQjUxCCvBJJMFVsWDyrGJt0s_KkgUBq",
+  "informe_original_id": "1WV9TFQ0z838CI6EZphmFh96CfeIfSaiE",
+  "revision_original_consultada": "2026-10-28T16:12:56.230Z",
+  "informe_original_modificado": false,
+  "fuente_local": "reports/apoyo_informe_drive/analisis_negocio_para_informe.md",
+  "respaldo_calculos": "notebooks/04_analisis_administrativo.ipynb",
+  "filas_analizadas": 5500,
+  "columnas_analizadas": 18,
+  "indicadores_tabla": 7,
+  "figuras_incorporadas": 3,
+  "verificacion_lectura": {
+    "tabla_unica": true,
+    "tabla_indicadores_exacta": true,
+    "imagenes_tres": true,
+    "parrafos_completos": true,
+    "tres_hipotesis": true,
+    "tres_preguntas": true,
+    "tres_condiciones": true,
+    "tres_respuestas": true,
+    "sin_puntuacion_no_deseada": true,
+    "encabezados_nativos": true
+  },
+  "alcance": "Redacción de apoyo para copiar. No modifica los datos ni vuelve a ejecutar cálculos. Las condiciones de identidad, matrícula efectiva y seguimiento se explicitan en cada respuesta."
+}
