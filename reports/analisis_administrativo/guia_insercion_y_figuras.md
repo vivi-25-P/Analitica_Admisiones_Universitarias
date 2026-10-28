@@ -19,3 +19,10 @@ Si se incorporan solo las tres figuras principales, irían después de la figura
 El informe de apoyo completo contiene tablas para revisión. No es obligatorio pegar todas. Si se añade una tabla nueva antes del Anexo A, renumerar también la tabla de reglas que estaba como Tabla 6. Las cifras y las notas del informe y Power BI deben coincidir.
 
 No se ha editado el documento de Drive ni construido el dashboard. La base Excel y PostgreSQL conservan su contenido. El siguiente paso es revisar esta redacción y construir las medidas y visuales de Power BI usando las tablas calculadas.
+
+
+## Respuestas y conocimiento de negocio
+
+La sección vigente ahora se titula Análisis de admisiones y oportunidades de mejora. Además de los resultados incorpora las respuestas explícitas a las tres hipótesis, las oportunidades concretas, el cuadro de indicadores y las decisiones propuestas. Mantener estas conclusiones en el cuerpo del informe. Las fichas completas de indicadores y las comparaciones extensas pueden quedar en anexo.
+
+El apartado anterior Preguntas e hipótesis para el análisis posterior debe actualizarse: ya no presentar las tres como si no se hubieran examinado. Referir su respuesta actual y conservar como preguntas futuras las condiciones aún no medibles, como conversión definitiva, rentabilidad y tiempos por etapa.

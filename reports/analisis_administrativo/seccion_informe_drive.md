@@ -1,4 +1,6 @@
-# Análisis descriptivo de la base integrada
+# Análisis de admisiones y oportunidades de mejora
+
+El análisis transforma la información disponible en prioridades de atención, oportunidades de captación y criterios para evaluar decisiones. Se distinguen hechos observados, explicaciones por revisar y acciones que pueden comprobarse mediante seguimiento. Las metas y los responsables son propuestas para acordar con la institución.
 
 La base integrada reúne 5.500 registros de solicitudes. El análisis permite reconocer dónde se concentra el interés registrado y qué aspectos del seguimiento requieren atención. Los resultados corresponden a registros disponibles y no deben interpretarse como aspirantes únicos o tasas definitivas de conversión.
 
@@ -6,22 +8,36 @@ Derecho y Especialización en Data Analytics reúnen 2.449 registros, equivalent
 
 [Insertar aquí el gráfico 01_programas_modalidades.png.]
 
-Los canales presentan volúmenes cercanos. Instagram registra una proporción Matriculado de 23,86 % y Referido de 19,67 %. La amplitud entre canales es 4,18 puntos porcentuales en la base completa. En el soporte comparable es 4,03 puntos antes de ponderar y 3,20 puntos con pesos comunes por programa, modalidad y periodo. Esta comparación utiliza 5.474 registros en grupos con presencia de todos los canales y contiene celdas pequeñas. Por ello, sus resultados justifican profundizar la comparación, pero no reasignar presupuesto únicamente por el porcentaje observado.
+## Respuesta a las preguntas e hipótesis
+
+### Interés y matrícula por programa
+
+La concentración de interés en Derecho y Data Analytics ya estaba presente en la fuente principal. Agrupar sus distintas escrituras hizo visible ese interés. La conciliación de repeticiones cambió muy poco sus participaciones dentro de la misma fuente. La incorporación de Oracle modificó la composición y el orden de los programas. Por tanto, no debe atribuirse ese cambio a crecimiento institucional ni a un aumento de demanda provocado por la limpieza.
+
+### Diferencias entre canales
 
 [Insertar aquí el gráfico 02_canales_comparables.png.]
 
-El estado Matriculado reúne 1.179 registros, equivalentes al 21,44 %. Dentro de ellos, 514 tienen documentación registrada como No o Pendiente. Además, 393 registros con estado Documentación pendiente señalan documentos completos. Se recomienda revisar las reglas y la actualización de ambas columnas antes de interpretar estas diferencias como incumplimientos. La base no contiene un historial que permita reconstruir el avance de cada aspirante.
+Las diferencias entre canales se mantienen al comparar una misma composición de programas, modalidades y periodos. En los grupos comunes, la amplitud baja de 4,03 a 3,20 puntos porcentuales. Esto permite plantear pruebas comerciales con oferta equivalente, pero no decidir qué canal es más rentable con la información actual.
+
+### Documentación, asesor y estado
+
+La hipótesis de que la documentación incompleta se relaciona con más registros pendientes o retirados no se observa de forma general en la comparación bruta: esos estados representan el 21,94 % con documentos No o Pendiente y el 23,32 % con documentos Sí. La diferencia entre Sin asignar y Con asesor es de aproximadamente 0,50 puntos. Estas cifras orientan a revisar la calidad y actualización del seguimiento, sin culpar a asesores ni afirmar que los documentos incompletos favorecen la matrícula.
 
 [Insertar aquí el gráfico 03_documentacion_estados.png.]
 
-El promedio del puntaje disponible es 70,21 en Admitido y 67,80 en No admitido. Esta diferencia requiere contrastarse con la distribución de puntajes y los criterios de admisión, sin asumir que el promedio explica las decisiones. Los importes se mantienen como contexto económico. Los siete programas presentan cinco valores y la misma mediana de 2.500.000 COP, con 920 importes ausentes, por lo que no se deducen tarifas ni ingresos recibidos.
+## Oportunidades comerciales y de seguimiento
 
-Los intervalos entre el primer y tercer cuartil de ambos estados se superponen. En los intervalos temporales aptos, las medianas por documentación son 33 días para Sí, 34 para No y 33 para Pendiente. Describen únicamente los casos con ambas fechas que cumplen los controles y no permiten atribuir una demora al estado documental.
+Administración virtual en Cali presenta 19 registros Matriculado de 44, el 43,18 %, y en Bogotá 22 de 66, el 33,33 %. Son combinaciones para evaluar campañas piloto, con capacidad disponible y seguimiento comparable. Su tamaño impide tratarlas como ventajas comerciales confirmadas. Contaduría presencial en Medellín presenta 13 de 31, el 41,94 %, y requiere especial prudencia por su tamaño reducido.
 
-Hay 1.101 registros Sin asignar, aproximadamente el 20,02 %. En la fuente principal, 1.363 de 2.924 códigos de aspirante aparecen en varias solicitudes. Estas condiciones justifican mejorar la asignación y mantener separados los conteos de solicitudes y códigos identificados, sin atribuir resultados a la gestión de un asesor o declarar duplicadas todas las recurrencias.
+Derecho virtual en Bogotá combina 133 registros con 21 Matriculado, el 15,79 %. Derecho presencial en Popayán presenta 13 de 101, el 12,87 %, mientras Derecho virtual en la misma ciudad reúne 29 de 106, el 27,36 %. Estas diferencias justifican revisar la distribución de estados, periodos y fuentes antes de aumentar captación o atribuir un problema a la modalidad. No permiten declarar perdidas las solicitudes que todavía no figuran Matriculado.
 
-Para explorar oportunidades de captación se identificaron combinaciones de ciudad, programa y modalidad con mayor volumen. Estas concentraciones sirven para seleccionar campañas piloto y contrastar su respuesta. No permiten afirmar que exista un nicho desatendido. Los grupos pequeños se muestran con su cantidad y las correspondencias entre fuentes conservan su incertidumbre. El escenario hipotético de contar una vez los 49 pares compatibles cambia como máximo 2,37 puntos la proporción Matriculado de los segmentos con al menos 30 registros.
+## Indicadores para gestionar el proceso
 
-La comparación con la etapa inicial separa el efecto de agrupar categorías y consolidar repeticiones del efecto de incorporar Oracle. La fuente principal pasó de 5.040 a 5.000 registros por conciliación. La incorporación de 500 registros Oracle produjo la base integrada de 5.500. Este aumento no representa crecimiento de la demanda institucional.
+La línea de referencia incluye 21,44 % de registros Matriculado, 79,98 % con asesor registrado y 59,73 % con documentos Sí. La coherencia documental requiere revisar el 43,60 % de Matriculado con documentos No o Pendiente y el 61,60 % de Documentación pendiente que indica documentos Sí. Los intervalos aptos presentan mediana de 33 días entre solicitud y matrícula, sin representar tiempos de primera atención o permanencia por etapa.
 
-Las acciones propuestas son revisar las inconsistencias documentales, validar la asignación de solicitudes, contrastar los criterios de admisión y evaluar campañas piloto con oferta y seguimiento comparables. Su evaluación requiere registrar responsables, fechas, costos y resultados, y no se presenta como una decisión institucional ya adoptada.
+Cada indicador debe mostrarse con su numerador, denominador, periodo y cobertura. Sus metas deben acordarse con la institución. El retorno de inversión, el retorno publicitario y el costo de adquisición quedan pendientes de gastos e ingresos atribuibles. No se sustituyen esos datos por importes de matrícula registrados. La conversión definitiva también requiere validar unidad única, resultado y ventana de seguimiento.
+
+## Decisiones que estos resultados permiten preparar
+
+Se propone comenzar por revisar los casos documentales y la asignación efectiva. En captación, se propone una prueba acotada de Administración virtual en Cali y Bogotá y una revisión del seguimiento de Derecho en las combinaciones señaladas. Antes de redistribuir presupuesto por canal, debe registrarse inversión y resultado atribuible. Cada acción debe tener responsable acordado, plazo, línea de referencia y revisión posterior. Estas son decisiones propuestas a partir de evidencia, no acciones institucionales ya ejecutadas ni beneficios garantizados.

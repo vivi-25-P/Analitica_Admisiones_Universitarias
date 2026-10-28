@@ -1,0 +1,7 @@
+﻿indicador,por_que_no_se_calcula,tratamiento
+Conversión definitiva a matrícula,"Falta validar unidad única, matrícula efectiva y ventana de seguimiento",Proporción observada Matriculado disponible como indicador distinto
+Costo por solicitud o adquisición,Faltan inversión atribuible y unidad de adquisición validada,No se divide un gasto supuesto por los 5.500 registros
+ROI,"Faltan ingresos y costos atribuibles, incluido el costo relevante del servicio",No calcular con importes de matrícula como si fueran pagos
+ROAS,Faltan inversión publicitaria e ingresos atribuibles a campañas,No se calcula una rentabilidad estimada para completar el dashboard
+Cumplimiento de primera atención,"Faltan fecha de asignación, contacto y plazo acordado",La asignación registrada no prueba atención ni cumplimiento de un SLA
+Conversión entre etapas,Falta historial de eventos con fechas y unidad consistente,Los estados actuales no forman un embudo de transiciones

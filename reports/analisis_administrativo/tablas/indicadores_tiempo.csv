@@ -1,0 +1,2 @@
+﻿indicador,mediana_dias,percentil_90_dias,intervalos_aptos,ambito,limite,meta
+Días entre solicitud y matrícula,33.000000,55.000000,1035,Solo registros con las dos fechas y controles temporales aptos,No mide tiempo de primera atención o permanencia por etapa,"Por acordar, sin tratar esta mediana como un plazo institucional"

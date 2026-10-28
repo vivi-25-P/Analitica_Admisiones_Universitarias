@@ -599,6 +599,7 @@ No se ha editado el documento de Drive ni construido el dashboard. La base Excel
             'entradas_lectura_intactas':all(sha(path)==digest for path,digest in self.inputs.items()),
             'sin_inferencia_automatica':not self.rules['inferencia_automatica'],
         }
+        checks.update(getattr(self,'checks_negocio',{}))
         checks = {name:bool(value) for name,value in checks.items()}
         assert all(checks.values()), checks
         self.save('controles',pd.DataFrame(list(checks.items()),columns=['control','correcto']))
@@ -609,6 +610,8 @@ No se ha editado el documento de Drive ni construido el dashboard. La base Excel
             'filas_maestras':5500,'columnas_maestras':18,'filas_eliminadas':0,'valores_imputados':0,
             'controles':checks,'figuras':self.figures,
             'archivo_powerbi_creado':False,'documento_drive_modificado':False,
+            'cuadro_indicadores_negocio_definido':hasattr(self,'checks_negocio'),
+            'metas_institucionales_aprobadas':False,
             'archivos':{str(p.relative_to(self.out)):sha(p) for p in sorted(self.out.rglob('*'))
                         if p.is_file() and p.name!='metadatos_analisis.json'}}
         (self.out/'metadatos_analisis.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n',encoding='utf8')

@@ -135,10 +135,29 @@ capacidad, costos y una línea de referencia. El informe en Drive no se edita au
 code('''
 display(analisis.redactar())
 display(analisis.tables['acciones_propuestas'])
+''')
+md('''
+## 8. Conocimiento de negocio, hipótesis, indicadores y decisiones
+
+Se responde explícitamente la pregunta general, cada una de las tres hipótesis y
+la línea de mercado. El cuadro de indicadores incluye fórmulas, numeradores,
+denominadores, responsables propuestos y metas por acordar. No se inventan ROI,
+ROAS, conversión definitiva o metas de gestión cuando faltan sus datos y definiciones.
+Las oportunidades concretas se distinguen entre captación piloto y revisión de
+seguimiento. La redacción vigente incorpora estas respuestas y decisiones propuestas.
+''')
+code('''
+from analitica_admisiones.conocimiento_negocio import generar_conocimiento
+respuestas, indicadores, oportunidades, decisiones = generar_conocimiento(analisis)
+for titulo, tabla in [('Respuestas e hipótesis', respuestas),
+                      ('Indicadores de negocio', indicadores),
+                      ('Oportunidades', oportunidades), ('Decisiones propuestas', decisiones)]:
+    display(Markdown('### ' + titulo))
+    display(tabla)
 display(Markdown((analisis.out / 'seccion_informe_drive.md').read_text()))
 ''')
 md('''
-## 8. Controles y archivos
+## 9. Controles y archivos
 
 Se verifica que las tablas reconcilien, que los pesos y ámbitos sean válidos y que la
 entrega y las entradas no cambien. Las figuras, tablas, redacción administrativa,

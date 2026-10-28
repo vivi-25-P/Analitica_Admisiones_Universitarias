@@ -239,3 +239,7 @@ uv run --locked --group notebooks --group excel python scripts/ejecutar_notebook
 ```
 
 La plantilla se reconstruye con scripts/construir_notebook_analisis_administrativo.py. El cálculo está en src/analitica_admisiones/analisis_administrativo.py y sus criterios en config/analisis_administrativo.json. Los metadatos registran entradas, código, reglas, archivos generados y controles.
+
+## Interpretación de negocio y cuadro de indicadores
+
+El notebook 04 incorpora respuestas explícitas a la pregunta general y las tres hipótesis, diez indicadores con sus definiciones y seis decisiones propuestas. [La síntesis de inteligencia de negocios](reports/analisis_administrativo/sintesis_inteligencia_negocios.md) resume qué sabemos, qué oportunidades priorizar para revisión y qué indicadores aún no se pueden calcular. [La misma redacción administrativa](reports/analisis_administrativo/seccion_informe_drive.md) integra esta lectura, sin crear otra versión de la base. Los responsables y metas son propuestas para acordar con la institución. La incorporación a Drive y la construcción del dashboard siguen pendientes.

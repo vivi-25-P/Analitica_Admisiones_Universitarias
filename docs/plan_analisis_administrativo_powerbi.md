@@ -105,3 +105,13 @@ La base final ya está disponible en PostgreSQL como analitica.base_unificada. E
 Se ejecutó el notebook 04 sobre la entrega sin cambiar datos. Se calcularon distribuciones, comparación de canales con soporte común y pesos por programa, modalidad y periodo, documentación y asesor por estado, puntajes y franjas descriptivas, intervalos aptos, recurrencia por fuente, importes de contexto y segmentos con sensibilidad de los 49 pares. Se separó el efecto de agrupar etiquetas, conciliar la principal e incorporar Oracle.
 
 Se prepararon siete figuras, tablas de respaldo, siete hallazgos con límites y seis acciones propuestas. La narrativa administrativa está en reports/analisis_administrativo/seccion_informe_drive.md y su guía de inserción en la misma carpeta. Drive no se modificó. El modelo, las medidas y el archivo de Power BI siguen pendientes, usando estas mismas definiciones y cifras.
+
+## Conocimiento de negocio e indicadores
+
+La salida del análisis debe responder expresamente la pregunta general, H1, H2, H3 y las oportunidades de mercado. La interpretación distingue los cambios medidos de las condiciones todavía no verificadas, sin dejar las hipótesis como preguntas sin examinar. La tercera hipótesis se contrasta con la proporción observada de Documentación pendiente o Retirado según documentos y asignación, y con sus cruces detallados. No se trata esa comparación como prueba de causalidad o equivalencia.
+
+El notebook 04 incorpora una síntesis de negocio y un cuadro de diez indicadores con objetivo de lectura, fórmula, numerador, denominador, responsable propuesto, frecuencia, línea de referencia y acción de seguimiento. Las metas institucionales siguen por acordar. Se separan los indicadores calculables de ROI, ROAS, costo de adquisición, conversión definitiva y tiempos por etapa, que requieren información o definiciones ausentes. No se sustituyen por importes registrados ni resultados supuestos.
+
+Se priorizan para evaluación Administración virtual en Cali y Bogotá, Contaduría presencial en Medellín con cautela por su tamaño, y seguimiento de Derecho en Bogotá y Popayán. La selección no constituye un ranking de rentabilidad o nichos confirmados. Las decisiones propuestas tienen evidencia, condición para actuar, responsable y forma de evaluación.
+
+La redacción vigente conserva el mismo archivo reports/analisis_administrativo/seccion_informe_drive.md, con el título Análisis de admisiones y oportunidades de mejora. La síntesis de respuestas, indicadores y decisiones está en sintesis_inteligencia_negocios.md. Power BI deberá reflejar esa lectura ejecutiva y no solo reproducir gráficos. El documento de Drive y el archivo de Power BI todavía no se modifican en esta ampliación.
