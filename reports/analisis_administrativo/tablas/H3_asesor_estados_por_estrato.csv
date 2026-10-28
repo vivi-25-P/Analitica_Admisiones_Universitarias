@@ -1,0 +1,1513 @@
+﻿programa,modalidad,periodo_academico,estado_proceso,registros_estado,registros_grupo_estrato,peso_comun,grupo,variable,porcentaje_estado_estrato
+Administración de Empresas,Híbrida,20252,Admitido,0,3,0.003106,Asesor 1,asesor,0.000000
+Administración de Empresas,Híbrida,20261,Admitido,7,26,0.010047,Asesor 1,asesor,26.923077
+Administración de Empresas,Híbrida,20262,Admitido,7,21,0.008769,Asesor 1,asesor,33.333333
+Administración de Empresas,Presencial,20252,Admitido,13,24,0.008586,Asesor 1,asesor,54.166667
+Administración de Empresas,Presencial,20261,Admitido,12,30,0.016076,Asesor 1,asesor,40.000000
+Administración de Empresas,Presencial,20262,Admitido,12,37,0.015163,Asesor 1,asesor,32.432432
+Administración de Empresas,Virtual,20252,Admitido,4,12,0.007673,Asesor 1,asesor,33.333333
+Administración de Empresas,Virtual,20261,Admitido,13,34,0.017903,Asesor 1,asesor,38.235294
+Administración de Empresas,Virtual,20262,Admitido,3,34,0.018999,Asesor 1,asesor,8.823529
+Contaduría Pública,Híbrida,20252,Admitido,3,8,0.004932,Asesor 1,asesor,37.500000
+Contaduría Pública,Híbrida,20261,Admitido,4,21,0.008038,Asesor 1,asesor,19.047619
+Contaduría Pública,Híbrida,20262,Admitido,5,21,0.008951,Asesor 1,asesor,23.809524
+Contaduría Pública,Presencial,20252,Admitido,7,23,0.008951,Asesor 1,asesor,30.434783
+Contaduría Pública,Presencial,20261,Admitido,5,29,0.018634,Asesor 1,asesor,17.241379
+Contaduría Pública,Presencial,20262,Admitido,13,35,0.017355,Asesor 1,asesor,37.142857
+Contaduría Pública,Virtual,20252,Admitido,10,32,0.009865,Asesor 1,asesor,31.250000
+Contaduría Pública,Virtual,20261,Admitido,20,46,0.017903,Asesor 1,asesor,43.478261
+Contaduría Pública,Virtual,20262,Admitido,11,37,0.017355,Asesor 1,asesor,29.729730
+Derecho,Híbrida,20252,Admitido,4,19,0.009134,Asesor 1,asesor,21.052632
+Derecho,Híbrida,20261,Admitido,23,53,0.018816,Asesor 1,asesor,43.396226
+Derecho,Híbrida,20262,Admitido,13,40,0.017355,Asesor 1,asesor,32.500000
+Derecho,Presencial,20252,Admitido,12,38,0.015893,Asesor 1,asesor,31.578947
+Derecho,Presencial,20261,Admitido,33,83,0.039094,Asesor 1,asesor,39.759036
+Derecho,Presencial,20262,Admitido,17,61,0.033431,Asesor 1,asesor,27.868852
+Derecho,Virtual,20252,Admitido,9,39,0.016989,Asesor 1,asesor,23.076923
+Derecho,Virtual,20261,Admitido,21,81,0.036719,Asesor 1,asesor,25.925926
+Derecho,Virtual,20262,Admitido,35,98,0.037815,Asesor 1,asesor,35.714286
+Especialización en Data Analytics,Híbrida,20252,Admitido,5,14,0.009499,Asesor 1,asesor,35.714286
+Especialización en Data Analytics,Híbrida,20261,Admitido,7,26,0.014615,Asesor 1,asesor,26.923077
+Especialización en Data Analytics,Híbrida,20262,Admitido,20,53,0.021374,Asesor 1,asesor,37.735849
+Especialización en Data Analytics,Presencial,20252,Admitido,10,34,0.016989,Asesor 1,asesor,29.411765
+Especialización en Data Analytics,Presencial,20261,Admitido,37,91,0.037815,Asesor 1,asesor,40.659341
+Especialización en Data Analytics,Presencial,20262,Admitido,30,89,0.039094,Asesor 1,asesor,33.707865
+Especialización en Data Analytics,Virtual,20252,Admitido,18,39,0.015711,Asesor 1,asesor,46.153846
+Especialización en Data Analytics,Virtual,20261,Admitido,25,71,0.032517,Asesor 1,asesor,35.211268
+Especialización en Data Analytics,Virtual,20262,Admitido,25,70,0.034527,Asesor 1,asesor,35.714286
+Especialización en Gerencia,Híbrida,20252,Admitido,7,12,0.005480,Asesor 1,asesor,58.333333
+Especialización en Gerencia,Híbrida,20261,Admitido,6,17,0.009499,Asesor 1,asesor,35.294118
+Especialización en Gerencia,Híbrida,20262,Admitido,8,25,0.009499,Asesor 1,asesor,32.000000
+Especialización en Gerencia,Presencial,20252,Admitido,9,21,0.008769,Asesor 1,asesor,42.857143
+Especialización en Gerencia,Presencial,20261,Admitido,11,38,0.017720,Asesor 1,asesor,28.947368
+Especialización en Gerencia,Presencial,20262,Admitido,9,32,0.016076,Asesor 1,asesor,28.125000
+Especialización en Gerencia,Virtual,20252,Admitido,7,24,0.009134,Asesor 1,asesor,29.166667
+Especialización en Gerencia,Virtual,20261,Admitido,9,42,0.018999,Asesor 1,asesor,21.428571
+Especialización en Gerencia,Virtual,20262,Admitido,11,31,0.015345,Asesor 1,asesor,35.483871
+Ingeniería de Sistemas,Híbrida,20252,Admitido,3,8,0.005115,Asesor 1,asesor,37.500000
+Ingeniería de Sistemas,Híbrida,20261,Admitido,8,21,0.009682,Asesor 1,asesor,38.095238
+Ingeniería de Sistemas,Híbrida,20262,Admitido,7,22,0.008586,Asesor 1,asesor,31.818182
+Ingeniería de Sistemas,Presencial,20252,Admitido,8,22,0.009317,Asesor 1,asesor,36.363636
+Ingeniería de Sistemas,Presencial,20261,Admitido,10,41,0.020643,Asesor 1,asesor,24.390244
+Ingeniería de Sistemas,Presencial,20262,Admitido,18,48,0.018816,Asesor 1,asesor,37.500000
+Ingeniería de Sistemas,Virtual,20252,Admitido,10,21,0.009865,Asesor 1,asesor,47.619048
+Ingeniería de Sistemas,Virtual,20261,Admitido,13,36,0.016076,Asesor 1,asesor,36.111111
+Ingeniería de Sistemas,Virtual,20262,Admitido,7,37,0.016989,Asesor 1,asesor,18.918919
+Psicología,Híbrida,20252,Admitido,0,7,0.003654,Asesor 1,asesor,0.000000
+Psicología,Híbrida,20261,Admitido,4,20,0.009499,Asesor 1,asesor,20.000000
+Psicología,Híbrida,20262,Admitido,4,25,0.009317,Asesor 1,asesor,16.000000
+Psicología,Presencial,20252,Admitido,8,16,0.008769,Asesor 1,asesor,50.000000
+Psicología,Presencial,20261,Admitido,14,39,0.017172,Asesor 1,asesor,35.897436
+Psicología,Presencial,20262,Admitido,8,31,0.013701,Asesor 1,asesor,25.806452
+Psicología,Virtual,20252,Admitido,8,17,0.007307,Asesor 1,asesor,47.058824
+Psicología,Virtual,20261,Admitido,13,37,0.020278,Asesor 1,asesor,35.135135
+Psicología,Virtual,20262,Admitido,9,48,0.018999,Asesor 1,asesor,18.750000
+Administración de Empresas,Híbrida,20252,Documentación pendiente,1,3,0.003106,Asesor 1,asesor,33.333333
+Administración de Empresas,Híbrida,20261,Documentación pendiente,0,26,0.010047,Asesor 1,asesor,0.000000
+Administración de Empresas,Híbrida,20262,Documentación pendiente,4,21,0.008769,Asesor 1,asesor,19.047619
+Administración de Empresas,Presencial,20252,Documentación pendiente,0,24,0.008586,Asesor 1,asesor,0.000000
+Administración de Empresas,Presencial,20261,Documentación pendiente,3,30,0.016076,Asesor 1,asesor,10.000000
+Administración de Empresas,Presencial,20262,Documentación pendiente,3,37,0.015163,Asesor 1,asesor,8.108108
+Administración de Empresas,Virtual,20252,Documentación pendiente,2,12,0.007673,Asesor 1,asesor,16.666667
+Administración de Empresas,Virtual,20261,Documentación pendiente,2,34,0.017903,Asesor 1,asesor,5.882353
+Administración de Empresas,Virtual,20262,Documentación pendiente,7,34,0.018999,Asesor 1,asesor,20.588235
+Contaduría Pública,Híbrida,20252,Documentación pendiente,1,8,0.004932,Asesor 1,asesor,12.500000
+Contaduría Pública,Híbrida,20261,Documentación pendiente,0,21,0.008038,Asesor 1,asesor,0.000000
+Contaduría Pública,Híbrida,20262,Documentación pendiente,2,21,0.008951,Asesor 1,asesor,9.523810
+Contaduría Pública,Presencial,20252,Documentación pendiente,1,23,0.008951,Asesor 1,asesor,4.347826
+Contaduría Pública,Presencial,20261,Documentación pendiente,3,29,0.018634,Asesor 1,asesor,10.344828
+Contaduría Pública,Presencial,20262,Documentación pendiente,7,35,0.017355,Asesor 1,asesor,20.000000
+Contaduría Pública,Virtual,20252,Documentación pendiente,1,32,0.009865,Asesor 1,asesor,3.125000
+Contaduría Pública,Virtual,20261,Documentación pendiente,3,46,0.017903,Asesor 1,asesor,6.521739
+Contaduría Pública,Virtual,20262,Documentación pendiente,1,37,0.017355,Asesor 1,asesor,2.702703
+Derecho,Híbrida,20252,Documentación pendiente,6,19,0.009134,Asesor 1,asesor,31.578947
+Derecho,Híbrida,20261,Documentación pendiente,2,53,0.018816,Asesor 1,asesor,3.773585
+Derecho,Híbrida,20262,Documentación pendiente,6,40,0.017355,Asesor 1,asesor,15.000000
+Derecho,Presencial,20252,Documentación pendiente,4,38,0.015893,Asesor 1,asesor,10.526316
+Derecho,Presencial,20261,Documentación pendiente,9,83,0.039094,Asesor 1,asesor,10.843373
+Derecho,Presencial,20262,Documentación pendiente,10,61,0.033431,Asesor 1,asesor,16.393443
+Derecho,Virtual,20252,Documentación pendiente,5,39,0.016989,Asesor 1,asesor,12.820513
+Derecho,Virtual,20261,Documentación pendiente,14,81,0.036719,Asesor 1,asesor,17.283951
+Derecho,Virtual,20262,Documentación pendiente,9,98,0.037815,Asesor 1,asesor,9.183673
+Especialización en Data Analytics,Híbrida,20252,Documentación pendiente,1,14,0.009499,Asesor 1,asesor,7.142857
+Especialización en Data Analytics,Híbrida,20261,Documentación pendiente,6,26,0.014615,Asesor 1,asesor,23.076923
+Especialización en Data Analytics,Híbrida,20262,Documentación pendiente,5,53,0.021374,Asesor 1,asesor,9.433962
+Especialización en Data Analytics,Presencial,20252,Documentación pendiente,2,34,0.016989,Asesor 1,asesor,5.882353
+Especialización en Data Analytics,Presencial,20261,Documentación pendiente,8,91,0.037815,Asesor 1,asesor,8.791209
+Especialización en Data Analytics,Presencial,20262,Documentación pendiente,14,89,0.039094,Asesor 1,asesor,15.730337
+Especialización en Data Analytics,Virtual,20252,Documentación pendiente,6,39,0.015711,Asesor 1,asesor,15.384615
+Especialización en Data Analytics,Virtual,20261,Documentación pendiente,9,71,0.032517,Asesor 1,asesor,12.676056
+Especialización en Data Analytics,Virtual,20262,Documentación pendiente,8,70,0.034527,Asesor 1,asesor,11.428571
+Especialización en Gerencia,Híbrida,20252,Documentación pendiente,1,12,0.005480,Asesor 1,asesor,8.333333
+Especialización en Gerencia,Híbrida,20261,Documentación pendiente,4,17,0.009499,Asesor 1,asesor,23.529412
+Especialización en Gerencia,Híbrida,20262,Documentación pendiente,3,25,0.009499,Asesor 1,asesor,12.000000
+Especialización en Gerencia,Presencial,20252,Documentación pendiente,4,21,0.008769,Asesor 1,asesor,19.047619
+Especialización en Gerencia,Presencial,20261,Documentación pendiente,5,38,0.017720,Asesor 1,asesor,13.157895
+Especialización en Gerencia,Presencial,20262,Documentación pendiente,5,32,0.016076,Asesor 1,asesor,15.625000
+Especialización en Gerencia,Virtual,20252,Documentación pendiente,2,24,0.009134,Asesor 1,asesor,8.333333
+Especialización en Gerencia,Virtual,20261,Documentación pendiente,11,42,0.018999,Asesor 1,asesor,26.190476
+Especialización en Gerencia,Virtual,20262,Documentación pendiente,4,31,0.015345,Asesor 1,asesor,12.903226
+Ingeniería de Sistemas,Híbrida,20252,Documentación pendiente,0,8,0.005115,Asesor 1,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Documentación pendiente,0,21,0.009682,Asesor 1,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20262,Documentación pendiente,5,22,0.008586,Asesor 1,asesor,22.727273
+Ingeniería de Sistemas,Presencial,20252,Documentación pendiente,3,22,0.009317,Asesor 1,asesor,13.636364
+Ingeniería de Sistemas,Presencial,20261,Documentación pendiente,3,41,0.020643,Asesor 1,asesor,7.317073
+Ingeniería de Sistemas,Presencial,20262,Documentación pendiente,8,48,0.018816,Asesor 1,asesor,16.666667
+Ingeniería de Sistemas,Virtual,20252,Documentación pendiente,4,21,0.009865,Asesor 1,asesor,19.047619
+Ingeniería de Sistemas,Virtual,20261,Documentación pendiente,2,36,0.016076,Asesor 1,asesor,5.555556
+Ingeniería de Sistemas,Virtual,20262,Documentación pendiente,3,37,0.016989,Asesor 1,asesor,8.108108
+Psicología,Híbrida,20252,Documentación pendiente,2,7,0.003654,Asesor 1,asesor,28.571429
+Psicología,Híbrida,20261,Documentación pendiente,4,20,0.009499,Asesor 1,asesor,20.000000
+Psicología,Híbrida,20262,Documentación pendiente,2,25,0.009317,Asesor 1,asesor,8.000000
+Psicología,Presencial,20252,Documentación pendiente,2,16,0.008769,Asesor 1,asesor,12.500000
+Psicología,Presencial,20261,Documentación pendiente,2,39,0.017172,Asesor 1,asesor,5.128205
+Psicología,Presencial,20262,Documentación pendiente,2,31,0.013701,Asesor 1,asesor,6.451613
+Psicología,Virtual,20252,Documentación pendiente,2,17,0.007307,Asesor 1,asesor,11.764706
+Psicología,Virtual,20261,Documentación pendiente,4,37,0.020278,Asesor 1,asesor,10.810811
+Psicología,Virtual,20262,Documentación pendiente,8,48,0.018999,Asesor 1,asesor,16.666667
+Administración de Empresas,Híbrida,20252,Inscrito,1,3,0.003106,Asesor 1,asesor,33.333333
+Administración de Empresas,Híbrida,20261,Inscrito,2,26,0.010047,Asesor 1,asesor,7.692308
+Administración de Empresas,Híbrida,20262,Inscrito,3,21,0.008769,Asesor 1,asesor,14.285714
+Administración de Empresas,Presencial,20252,Inscrito,2,24,0.008586,Asesor 1,asesor,8.333333
+Administración de Empresas,Presencial,20261,Inscrito,2,30,0.016076,Asesor 1,asesor,6.666667
+Administración de Empresas,Presencial,20262,Inscrito,4,37,0.015163,Asesor 1,asesor,10.810811
+Administración de Empresas,Virtual,20252,Inscrito,1,12,0.007673,Asesor 1,asesor,8.333333
+Administración de Empresas,Virtual,20261,Inscrito,2,34,0.017903,Asesor 1,asesor,5.882353
+Administración de Empresas,Virtual,20262,Inscrito,7,34,0.018999,Asesor 1,asesor,20.588235
+Contaduría Pública,Híbrida,20252,Inscrito,0,8,0.004932,Asesor 1,asesor,0.000000
+Contaduría Pública,Híbrida,20261,Inscrito,3,21,0.008038,Asesor 1,asesor,14.285714
+Contaduría Pública,Híbrida,20262,Inscrito,9,21,0.008951,Asesor 1,asesor,42.857143
+Contaduría Pública,Presencial,20252,Inscrito,8,23,0.008951,Asesor 1,asesor,34.782609
+Contaduría Pública,Presencial,20261,Inscrito,6,29,0.018634,Asesor 1,asesor,20.689655
+Contaduría Pública,Presencial,20262,Inscrito,4,35,0.017355,Asesor 1,asesor,11.428571
+Contaduría Pública,Virtual,20252,Inscrito,8,32,0.009865,Asesor 1,asesor,25.000000
+Contaduría Pública,Virtual,20261,Inscrito,6,46,0.017903,Asesor 1,asesor,13.043478
+Contaduría Pública,Virtual,20262,Inscrito,4,37,0.017355,Asesor 1,asesor,10.810811
+Derecho,Híbrida,20252,Inscrito,3,19,0.009134,Asesor 1,asesor,15.789474
+Derecho,Híbrida,20261,Inscrito,5,53,0.018816,Asesor 1,asesor,9.433962
+Derecho,Híbrida,20262,Inscrito,0,40,0.017355,Asesor 1,asesor,0.000000
+Derecho,Presencial,20252,Inscrito,7,38,0.015893,Asesor 1,asesor,18.421053
+Derecho,Presencial,20261,Inscrito,9,83,0.039094,Asesor 1,asesor,10.843373
+Derecho,Presencial,20262,Inscrito,6,61,0.033431,Asesor 1,asesor,9.836066
+Derecho,Virtual,20252,Inscrito,7,39,0.016989,Asesor 1,asesor,17.948718
+Derecho,Virtual,20261,Inscrito,4,81,0.036719,Asesor 1,asesor,4.938272
+Derecho,Virtual,20262,Inscrito,11,98,0.037815,Asesor 1,asesor,11.224490
+Especialización en Data Analytics,Híbrida,20252,Inscrito,0,14,0.009499,Asesor 1,asesor,0.000000
+Especialización en Data Analytics,Híbrida,20261,Inscrito,2,26,0.014615,Asesor 1,asesor,7.692308
+Especialización en Data Analytics,Híbrida,20262,Inscrito,4,53,0.021374,Asesor 1,asesor,7.547170
+Especialización en Data Analytics,Presencial,20252,Inscrito,4,34,0.016989,Asesor 1,asesor,11.764706
+Especialización en Data Analytics,Presencial,20261,Inscrito,14,91,0.037815,Asesor 1,asesor,15.384615
+Especialización en Data Analytics,Presencial,20262,Inscrito,7,89,0.039094,Asesor 1,asesor,7.865169
+Especialización en Data Analytics,Virtual,20252,Inscrito,3,39,0.015711,Asesor 1,asesor,7.692308
+Especialización en Data Analytics,Virtual,20261,Inscrito,8,71,0.032517,Asesor 1,asesor,11.267606
+Especialización en Data Analytics,Virtual,20262,Inscrito,4,70,0.034527,Asesor 1,asesor,5.714286
+Especialización en Gerencia,Híbrida,20252,Inscrito,1,12,0.005480,Asesor 1,asesor,8.333333
+Especialización en Gerencia,Híbrida,20261,Inscrito,2,17,0.009499,Asesor 1,asesor,11.764706
+Especialización en Gerencia,Híbrida,20262,Inscrito,3,25,0.009499,Asesor 1,asesor,12.000000
+Especialización en Gerencia,Presencial,20252,Inscrito,3,21,0.008769,Asesor 1,asesor,14.285714
+Especialización en Gerencia,Presencial,20261,Inscrito,5,38,0.017720,Asesor 1,asesor,13.157895
+Especialización en Gerencia,Presencial,20262,Inscrito,5,32,0.016076,Asesor 1,asesor,15.625000
+Especialización en Gerencia,Virtual,20252,Inscrito,4,24,0.009134,Asesor 1,asesor,16.666667
+Especialización en Gerencia,Virtual,20261,Inscrito,9,42,0.018999,Asesor 1,asesor,21.428571
+Especialización en Gerencia,Virtual,20262,Inscrito,3,31,0.015345,Asesor 1,asesor,9.677419
+Ingeniería de Sistemas,Híbrida,20252,Inscrito,1,8,0.005115,Asesor 1,asesor,12.500000
+Ingeniería de Sistemas,Híbrida,20261,Inscrito,7,21,0.009682,Asesor 1,asesor,33.333333
+Ingeniería de Sistemas,Híbrida,20262,Inscrito,3,22,0.008586,Asesor 1,asesor,13.636364
+Ingeniería de Sistemas,Presencial,20252,Inscrito,3,22,0.009317,Asesor 1,asesor,13.636364
+Ingeniería de Sistemas,Presencial,20261,Inscrito,6,41,0.020643,Asesor 1,asesor,14.634146
+Ingeniería de Sistemas,Presencial,20262,Inscrito,3,48,0.018816,Asesor 1,asesor,6.250000
+Ingeniería de Sistemas,Virtual,20252,Inscrito,2,21,0.009865,Asesor 1,asesor,9.523810
+Ingeniería de Sistemas,Virtual,20261,Inscrito,5,36,0.016076,Asesor 1,asesor,13.888889
+Ingeniería de Sistemas,Virtual,20262,Inscrito,6,37,0.016989,Asesor 1,asesor,16.216216
+Psicología,Híbrida,20252,Inscrito,2,7,0.003654,Asesor 1,asesor,28.571429
+Psicología,Híbrida,20261,Inscrito,3,20,0.009499,Asesor 1,asesor,15.000000
+Psicología,Híbrida,20262,Inscrito,4,25,0.009317,Asesor 1,asesor,16.000000
+Psicología,Presencial,20252,Inscrito,2,16,0.008769,Asesor 1,asesor,12.500000
+Psicología,Presencial,20261,Inscrito,3,39,0.017172,Asesor 1,asesor,7.692308
+Psicología,Presencial,20262,Inscrito,2,31,0.013701,Asesor 1,asesor,6.451613
+Psicología,Virtual,20252,Inscrito,1,17,0.007307,Asesor 1,asesor,5.882353
+Psicología,Virtual,20261,Inscrito,2,37,0.020278,Asesor 1,asesor,5.405405
+Psicología,Virtual,20262,Inscrito,7,48,0.018999,Asesor 1,asesor,14.583333
+Administración de Empresas,Híbrida,20252,Matriculado,1,3,0.003106,Asesor 1,asesor,33.333333
+Administración de Empresas,Híbrida,20261,Matriculado,8,26,0.010047,Asesor 1,asesor,30.769231
+Administración de Empresas,Híbrida,20262,Matriculado,2,21,0.008769,Asesor 1,asesor,9.523810
+Administración de Empresas,Presencial,20252,Matriculado,2,24,0.008586,Asesor 1,asesor,8.333333
+Administración de Empresas,Presencial,20261,Matriculado,8,30,0.016076,Asesor 1,asesor,26.666667
+Administración de Empresas,Presencial,20262,Matriculado,8,37,0.015163,Asesor 1,asesor,21.621622
+Administración de Empresas,Virtual,20252,Matriculado,4,12,0.007673,Asesor 1,asesor,33.333333
+Administración de Empresas,Virtual,20261,Matriculado,13,34,0.017903,Asesor 1,asesor,38.235294
+Administración de Empresas,Virtual,20262,Matriculado,10,34,0.018999,Asesor 1,asesor,29.411765
+Contaduría Pública,Híbrida,20252,Matriculado,1,8,0.004932,Asesor 1,asesor,12.500000
+Contaduría Pública,Híbrida,20261,Matriculado,9,21,0.008038,Asesor 1,asesor,42.857143
+Contaduría Pública,Híbrida,20262,Matriculado,4,21,0.008951,Asesor 1,asesor,19.047619
+Contaduría Pública,Presencial,20252,Matriculado,4,23,0.008951,Asesor 1,asesor,17.391304
+Contaduría Pública,Presencial,20261,Matriculado,10,29,0.018634,Asesor 1,asesor,34.482759
+Contaduría Pública,Presencial,20262,Matriculado,0,35,0.017355,Asesor 1,asesor,0.000000
+Contaduría Pública,Virtual,20252,Matriculado,2,32,0.009865,Asesor 1,asesor,6.250000
+Contaduría Pública,Virtual,20261,Matriculado,12,46,0.017903,Asesor 1,asesor,26.086957
+Contaduría Pública,Virtual,20262,Matriculado,12,37,0.017355,Asesor 1,asesor,32.432432
+Derecho,Híbrida,20252,Matriculado,4,19,0.009134,Asesor 1,asesor,21.052632
+Derecho,Híbrida,20261,Matriculado,13,53,0.018816,Asesor 1,asesor,24.528302
+Derecho,Híbrida,20262,Matriculado,11,40,0.017355,Asesor 1,asesor,27.500000
+Derecho,Presencial,20252,Matriculado,7,38,0.015893,Asesor 1,asesor,18.421053
+Derecho,Presencial,20261,Matriculado,20,83,0.039094,Asesor 1,asesor,24.096386
+Derecho,Presencial,20262,Matriculado,15,61,0.033431,Asesor 1,asesor,24.590164
+Derecho,Virtual,20252,Matriculado,9,39,0.016989,Asesor 1,asesor,23.076923
+Derecho,Virtual,20261,Matriculado,17,81,0.036719,Asesor 1,asesor,20.987654
+Derecho,Virtual,20262,Matriculado,24,98,0.037815,Asesor 1,asesor,24.489796
+Especialización en Data Analytics,Híbrida,20252,Matriculado,5,14,0.009499,Asesor 1,asesor,35.714286
+Especialización en Data Analytics,Híbrida,20261,Matriculado,2,26,0.014615,Asesor 1,asesor,7.692308
+Especialización en Data Analytics,Híbrida,20262,Matriculado,10,53,0.021374,Asesor 1,asesor,18.867925
+Especialización en Data Analytics,Presencial,20252,Matriculado,4,34,0.016989,Asesor 1,asesor,11.764706
+Especialización en Data Analytics,Presencial,20261,Matriculado,17,91,0.037815,Asesor 1,asesor,18.681319
+Especialización en Data Analytics,Presencial,20262,Matriculado,17,89,0.039094,Asesor 1,asesor,19.101124
+Especialización en Data Analytics,Virtual,20252,Matriculado,8,39,0.015711,Asesor 1,asesor,20.512821
+Especialización en Data Analytics,Virtual,20261,Matriculado,15,71,0.032517,Asesor 1,asesor,21.126761
+Especialización en Data Analytics,Virtual,20262,Matriculado,17,70,0.034527,Asesor 1,asesor,24.285714
+Especialización en Gerencia,Híbrida,20252,Matriculado,2,12,0.005480,Asesor 1,asesor,16.666667
+Especialización en Gerencia,Híbrida,20261,Matriculado,0,17,0.009499,Asesor 1,asesor,0.000000
+Especialización en Gerencia,Híbrida,20262,Matriculado,5,25,0.009499,Asesor 1,asesor,20.000000
+Especialización en Gerencia,Presencial,20252,Matriculado,4,21,0.008769,Asesor 1,asesor,19.047619
+Especialización en Gerencia,Presencial,20261,Matriculado,9,38,0.017720,Asesor 1,asesor,23.684211
+Especialización en Gerencia,Presencial,20262,Matriculado,4,32,0.016076,Asesor 1,asesor,12.500000
+Especialización en Gerencia,Virtual,20252,Matriculado,6,24,0.009134,Asesor 1,asesor,25.000000
+Especialización en Gerencia,Virtual,20261,Matriculado,7,42,0.018999,Asesor 1,asesor,16.666667
+Especialización en Gerencia,Virtual,20262,Matriculado,4,31,0.015345,Asesor 1,asesor,12.903226
+Ingeniería de Sistemas,Híbrida,20252,Matriculado,2,8,0.005115,Asesor 1,asesor,25.000000
+Ingeniería de Sistemas,Híbrida,20261,Matriculado,2,21,0.009682,Asesor 1,asesor,9.523810
+Ingeniería de Sistemas,Híbrida,20262,Matriculado,4,22,0.008586,Asesor 1,asesor,18.181818
+Ingeniería de Sistemas,Presencial,20252,Matriculado,2,22,0.009317,Asesor 1,asesor,9.090909
+Ingeniería de Sistemas,Presencial,20261,Matriculado,11,41,0.020643,Asesor 1,asesor,26.829268
+Ingeniería de Sistemas,Presencial,20262,Matriculado,4,48,0.018816,Asesor 1,asesor,8.333333
+Ingeniería de Sistemas,Virtual,20252,Matriculado,3,21,0.009865,Asesor 1,asesor,14.285714
+Ingeniería de Sistemas,Virtual,20261,Matriculado,5,36,0.016076,Asesor 1,asesor,13.888889
+Ingeniería de Sistemas,Virtual,20262,Matriculado,9,37,0.016989,Asesor 1,asesor,24.324324
+Psicología,Híbrida,20252,Matriculado,0,7,0.003654,Asesor 1,asesor,0.000000
+Psicología,Híbrida,20261,Matriculado,5,20,0.009499,Asesor 1,asesor,25.000000
+Psicología,Híbrida,20262,Matriculado,12,25,0.009317,Asesor 1,asesor,48.000000
+Psicología,Presencial,20252,Matriculado,3,16,0.008769,Asesor 1,asesor,18.750000
+Psicología,Presencial,20261,Matriculado,11,39,0.017172,Asesor 1,asesor,28.205128
+Psicología,Presencial,20262,Matriculado,8,31,0.013701,Asesor 1,asesor,25.806452
+Psicología,Virtual,20252,Matriculado,1,17,0.007307,Asesor 1,asesor,5.882353
+Psicología,Virtual,20261,Matriculado,10,37,0.020278,Asesor 1,asesor,27.027027
+Psicología,Virtual,20262,Matriculado,6,48,0.018999,Asesor 1,asesor,12.500000
+Administración de Empresas,Híbrida,20252,No admitido,0,3,0.003106,Asesor 1,asesor,0.000000
+Administración de Empresas,Híbrida,20261,No admitido,1,26,0.010047,Asesor 1,asesor,3.846154
+Administración de Empresas,Híbrida,20262,No admitido,1,21,0.008769,Asesor 1,asesor,4.761905
+Administración de Empresas,Presencial,20252,No admitido,5,24,0.008586,Asesor 1,asesor,20.833333
+Administración de Empresas,Presencial,20261,No admitido,1,30,0.016076,Asesor 1,asesor,3.333333
+Administración de Empresas,Presencial,20262,No admitido,5,37,0.015163,Asesor 1,asesor,13.513514
+Administración de Empresas,Virtual,20252,No admitido,1,12,0.007673,Asesor 1,asesor,8.333333
+Administración de Empresas,Virtual,20261,No admitido,3,34,0.017903,Asesor 1,asesor,8.823529
+Administración de Empresas,Virtual,20262,No admitido,6,34,0.018999,Asesor 1,asesor,17.647059
+Contaduría Pública,Híbrida,20252,No admitido,3,8,0.004932,Asesor 1,asesor,37.500000
+Contaduría Pública,Híbrida,20261,No admitido,4,21,0.008038,Asesor 1,asesor,19.047619
+Contaduría Pública,Híbrida,20262,No admitido,0,21,0.008951,Asesor 1,asesor,0.000000
+Contaduría Pública,Presencial,20252,No admitido,3,23,0.008951,Asesor 1,asesor,13.043478
+Contaduría Pública,Presencial,20261,No admitido,2,29,0.018634,Asesor 1,asesor,6.896552
+Contaduría Pública,Presencial,20262,No admitido,8,35,0.017355,Asesor 1,asesor,22.857143
+Contaduría Pública,Virtual,20252,No admitido,9,32,0.009865,Asesor 1,asesor,28.125000
+Contaduría Pública,Virtual,20261,No admitido,3,46,0.017903,Asesor 1,asesor,6.521739
+Contaduría Pública,Virtual,20262,No admitido,4,37,0.017355,Asesor 1,asesor,10.810811
+Derecho,Híbrida,20252,No admitido,1,19,0.009134,Asesor 1,asesor,5.263158
+Derecho,Híbrida,20261,No admitido,5,53,0.018816,Asesor 1,asesor,9.433962
+Derecho,Híbrida,20262,No admitido,4,40,0.017355,Asesor 1,asesor,10.000000
+Derecho,Presencial,20252,No admitido,4,38,0.015893,Asesor 1,asesor,10.526316
+Derecho,Presencial,20261,No admitido,4,83,0.039094,Asesor 1,asesor,4.819277
+Derecho,Presencial,20262,No admitido,5,61,0.033431,Asesor 1,asesor,8.196721
+Derecho,Virtual,20252,No admitido,3,39,0.016989,Asesor 1,asesor,7.692308
+Derecho,Virtual,20261,No admitido,15,81,0.036719,Asesor 1,asesor,18.518519
+Derecho,Virtual,20262,No admitido,10,98,0.037815,Asesor 1,asesor,10.204082
+Especialización en Data Analytics,Híbrida,20252,No admitido,1,14,0.009499,Asesor 1,asesor,7.142857
+Especialización en Data Analytics,Híbrida,20261,No admitido,3,26,0.014615,Asesor 1,asesor,11.538462
+Especialización en Data Analytics,Híbrida,20262,No admitido,8,53,0.021374,Asesor 1,asesor,15.094340
+Especialización en Data Analytics,Presencial,20252,No admitido,9,34,0.016989,Asesor 1,asesor,26.470588
+Especialización en Data Analytics,Presencial,20261,No admitido,11,91,0.037815,Asesor 1,asesor,12.087912
+Especialización en Data Analytics,Presencial,20262,No admitido,10,89,0.039094,Asesor 1,asesor,11.235955
+Especialización en Data Analytics,Virtual,20252,No admitido,3,39,0.015711,Asesor 1,asesor,7.692308
+Especialización en Data Analytics,Virtual,20261,No admitido,5,71,0.032517,Asesor 1,asesor,7.042254
+Especialización en Data Analytics,Virtual,20262,No admitido,13,70,0.034527,Asesor 1,asesor,18.571429
+Especialización en Gerencia,Híbrida,20252,No admitido,1,12,0.005480,Asesor 1,asesor,8.333333
+Especialización en Gerencia,Híbrida,20261,No admitido,2,17,0.009499,Asesor 1,asesor,11.764706
+Especialización en Gerencia,Híbrida,20262,No admitido,3,25,0.009499,Asesor 1,asesor,12.000000
+Especialización en Gerencia,Presencial,20252,No admitido,1,21,0.008769,Asesor 1,asesor,4.761905
+Especialización en Gerencia,Presencial,20261,No admitido,3,38,0.017720,Asesor 1,asesor,7.894737
+Especialización en Gerencia,Presencial,20262,No admitido,4,32,0.016076,Asesor 1,asesor,12.500000
+Especialización en Gerencia,Virtual,20252,No admitido,1,24,0.009134,Asesor 1,asesor,4.166667
+Especialización en Gerencia,Virtual,20261,No admitido,1,42,0.018999,Asesor 1,asesor,2.380952
+Especialización en Gerencia,Virtual,20262,No admitido,4,31,0.015345,Asesor 1,asesor,12.903226
+Ingeniería de Sistemas,Híbrida,20252,No admitido,2,8,0.005115,Asesor 1,asesor,25.000000
+Ingeniería de Sistemas,Híbrida,20261,No admitido,2,21,0.009682,Asesor 1,asesor,9.523810
+Ingeniería de Sistemas,Híbrida,20262,No admitido,1,22,0.008586,Asesor 1,asesor,4.545455
+Ingeniería de Sistemas,Presencial,20252,No admitido,3,22,0.009317,Asesor 1,asesor,13.636364
+Ingeniería de Sistemas,Presencial,20261,No admitido,4,41,0.020643,Asesor 1,asesor,9.756098
+Ingeniería de Sistemas,Presencial,20262,No admitido,8,48,0.018816,Asesor 1,asesor,16.666667
+Ingeniería de Sistemas,Virtual,20252,No admitido,1,21,0.009865,Asesor 1,asesor,4.761905
+Ingeniería de Sistemas,Virtual,20261,No admitido,6,36,0.016076,Asesor 1,asesor,16.666667
+Ingeniería de Sistemas,Virtual,20262,No admitido,4,37,0.016989,Asesor 1,asesor,10.810811
+Psicología,Híbrida,20252,No admitido,2,7,0.003654,Asesor 1,asesor,28.571429
+Psicología,Híbrida,20261,No admitido,4,20,0.009499,Asesor 1,asesor,20.000000
+Psicología,Híbrida,20262,No admitido,2,25,0.009317,Asesor 1,asesor,8.000000
+Psicología,Presencial,20252,No admitido,1,16,0.008769,Asesor 1,asesor,6.250000
+Psicología,Presencial,20261,No admitido,6,39,0.017172,Asesor 1,asesor,15.384615
+Psicología,Presencial,20262,No admitido,1,31,0.013701,Asesor 1,asesor,3.225806
+Psicología,Virtual,20252,No admitido,1,17,0.007307,Asesor 1,asesor,5.882353
+Psicología,Virtual,20261,No admitido,7,37,0.020278,Asesor 1,asesor,18.918919
+Psicología,Virtual,20262,No admitido,7,48,0.018999,Asesor 1,asesor,14.583333
+Administración de Empresas,Híbrida,20252,Retirado,0,3,0.003106,Asesor 1,asesor,0.000000
+Administración de Empresas,Híbrida,20261,Retirado,8,26,0.010047,Asesor 1,asesor,30.769231
+Administración de Empresas,Híbrida,20262,Retirado,4,21,0.008769,Asesor 1,asesor,19.047619
+Administración de Empresas,Presencial,20252,Retirado,2,24,0.008586,Asesor 1,asesor,8.333333
+Administración de Empresas,Presencial,20261,Retirado,4,30,0.016076,Asesor 1,asesor,13.333333
+Administración de Empresas,Presencial,20262,Retirado,5,37,0.015163,Asesor 1,asesor,13.513514
+Administración de Empresas,Virtual,20252,Retirado,0,12,0.007673,Asesor 1,asesor,0.000000
+Administración de Empresas,Virtual,20261,Retirado,1,34,0.017903,Asesor 1,asesor,2.941176
+Administración de Empresas,Virtual,20262,Retirado,1,34,0.018999,Asesor 1,asesor,2.941176
+Contaduría Pública,Híbrida,20252,Retirado,0,8,0.004932,Asesor 1,asesor,0.000000
+Contaduría Pública,Híbrida,20261,Retirado,1,21,0.008038,Asesor 1,asesor,4.761905
+Contaduría Pública,Híbrida,20262,Retirado,1,21,0.008951,Asesor 1,asesor,4.761905
+Contaduría Pública,Presencial,20252,Retirado,0,23,0.008951,Asesor 1,asesor,0.000000
+Contaduría Pública,Presencial,20261,Retirado,3,29,0.018634,Asesor 1,asesor,10.344828
+Contaduría Pública,Presencial,20262,Retirado,3,35,0.017355,Asesor 1,asesor,8.571429
+Contaduría Pública,Virtual,20252,Retirado,2,32,0.009865,Asesor 1,asesor,6.250000
+Contaduría Pública,Virtual,20261,Retirado,2,46,0.017903,Asesor 1,asesor,4.347826
+Contaduría Pública,Virtual,20262,Retirado,5,37,0.017355,Asesor 1,asesor,13.513514
+Derecho,Híbrida,20252,Retirado,1,19,0.009134,Asesor 1,asesor,5.263158
+Derecho,Híbrida,20261,Retirado,5,53,0.018816,Asesor 1,asesor,9.433962
+Derecho,Híbrida,20262,Retirado,6,40,0.017355,Asesor 1,asesor,15.000000
+Derecho,Presencial,20252,Retirado,4,38,0.015893,Asesor 1,asesor,10.526316
+Derecho,Presencial,20261,Retirado,8,83,0.039094,Asesor 1,asesor,9.638554
+Derecho,Presencial,20262,Retirado,8,61,0.033431,Asesor 1,asesor,13.114754
+Derecho,Virtual,20252,Retirado,6,39,0.016989,Asesor 1,asesor,15.384615
+Derecho,Virtual,20261,Retirado,10,81,0.036719,Asesor 1,asesor,12.345679
+Derecho,Virtual,20262,Retirado,9,98,0.037815,Asesor 1,asesor,9.183673
+Especialización en Data Analytics,Híbrida,20252,Retirado,2,14,0.009499,Asesor 1,asesor,14.285714
+Especialización en Data Analytics,Híbrida,20261,Retirado,6,26,0.014615,Asesor 1,asesor,23.076923
+Especialización en Data Analytics,Híbrida,20262,Retirado,6,53,0.021374,Asesor 1,asesor,11.320755
+Especialización en Data Analytics,Presencial,20252,Retirado,5,34,0.016989,Asesor 1,asesor,14.705882
+Especialización en Data Analytics,Presencial,20261,Retirado,4,91,0.037815,Asesor 1,asesor,4.395604
+Especialización en Data Analytics,Presencial,20262,Retirado,11,89,0.039094,Asesor 1,asesor,12.359551
+Especialización en Data Analytics,Virtual,20252,Retirado,1,39,0.015711,Asesor 1,asesor,2.564103
+Especialización en Data Analytics,Virtual,20261,Retirado,9,71,0.032517,Asesor 1,asesor,12.676056
+Especialización en Data Analytics,Virtual,20262,Retirado,3,70,0.034527,Asesor 1,asesor,4.285714
+Especialización en Gerencia,Híbrida,20252,Retirado,0,12,0.005480,Asesor 1,asesor,0.000000
+Especialización en Gerencia,Híbrida,20261,Retirado,3,17,0.009499,Asesor 1,asesor,17.647059
+Especialización en Gerencia,Híbrida,20262,Retirado,3,25,0.009499,Asesor 1,asesor,12.000000
+Especialización en Gerencia,Presencial,20252,Retirado,0,21,0.008769,Asesor 1,asesor,0.000000
+Especialización en Gerencia,Presencial,20261,Retirado,5,38,0.017720,Asesor 1,asesor,13.157895
+Especialización en Gerencia,Presencial,20262,Retirado,5,32,0.016076,Asesor 1,asesor,15.625000
+Especialización en Gerencia,Virtual,20252,Retirado,4,24,0.009134,Asesor 1,asesor,16.666667
+Especialización en Gerencia,Virtual,20261,Retirado,5,42,0.018999,Asesor 1,asesor,11.904762
+Especialización en Gerencia,Virtual,20262,Retirado,5,31,0.015345,Asesor 1,asesor,16.129032
+Ingeniería de Sistemas,Híbrida,20252,Retirado,0,8,0.005115,Asesor 1,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Retirado,2,21,0.009682,Asesor 1,asesor,9.523810
+Ingeniería de Sistemas,Híbrida,20262,Retirado,2,22,0.008586,Asesor 1,asesor,9.090909
+Ingeniería de Sistemas,Presencial,20252,Retirado,3,22,0.009317,Asesor 1,asesor,13.636364
+Ingeniería de Sistemas,Presencial,20261,Retirado,7,41,0.020643,Asesor 1,asesor,17.073171
+Ingeniería de Sistemas,Presencial,20262,Retirado,7,48,0.018816,Asesor 1,asesor,14.583333
+Ingeniería de Sistemas,Virtual,20252,Retirado,1,21,0.009865,Asesor 1,asesor,4.761905
+Ingeniería de Sistemas,Virtual,20261,Retirado,5,36,0.016076,Asesor 1,asesor,13.888889
+Ingeniería de Sistemas,Virtual,20262,Retirado,8,37,0.016989,Asesor 1,asesor,21.621622
+Psicología,Híbrida,20252,Retirado,1,7,0.003654,Asesor 1,asesor,14.285714
+Psicología,Híbrida,20261,Retirado,0,20,0.009499,Asesor 1,asesor,0.000000
+Psicología,Híbrida,20262,Retirado,1,25,0.009317,Asesor 1,asesor,4.000000
+Psicología,Presencial,20252,Retirado,0,16,0.008769,Asesor 1,asesor,0.000000
+Psicología,Presencial,20261,Retirado,3,39,0.017172,Asesor 1,asesor,7.692308
+Psicología,Presencial,20262,Retirado,10,31,0.013701,Asesor 1,asesor,32.258065
+Psicología,Virtual,20252,Retirado,4,17,0.007307,Asesor 1,asesor,23.529412
+Psicología,Virtual,20261,Retirado,1,37,0.020278,Asesor 1,asesor,2.702703
+Psicología,Virtual,20262,Retirado,11,48,0.018999,Asesor 1,asesor,22.916667
+Administración de Empresas,Híbrida,20252,Admitido,2,4,0.003106,Asesor 2,asesor,50.000000
+Administración de Empresas,Híbrida,20261,Admitido,2,10,0.010047,Asesor 2,asesor,20.000000
+Administración de Empresas,Híbrida,20262,Admitido,4,7,0.008769,Asesor 2,asesor,57.142857
+Administración de Empresas,Presencial,20252,Admitido,4,8,0.008586,Asesor 2,asesor,50.000000
+Administración de Empresas,Presencial,20261,Admitido,7,22,0.016076,Asesor 2,asesor,31.818182
+Administración de Empresas,Presencial,20262,Admitido,4,11,0.015163,Asesor 2,asesor,36.363636
+Administración de Empresas,Virtual,20252,Admitido,2,5,0.007673,Asesor 2,asesor,40.000000
+Administración de Empresas,Virtual,20261,Admitido,7,18,0.017903,Asesor 2,asesor,38.888889
+Administración de Empresas,Virtual,20262,Admitido,6,27,0.018999,Asesor 2,asesor,22.222222
+Contaduría Pública,Híbrida,20252,Admitido,1,6,0.004932,Asesor 2,asesor,16.666667
+Contaduría Pública,Híbrida,20261,Admitido,2,11,0.008038,Asesor 2,asesor,18.181818
+Contaduría Pública,Híbrida,20262,Admitido,2,10,0.008951,Asesor 2,asesor,20.000000
+Contaduría Pública,Presencial,20252,Admitido,2,4,0.008951,Asesor 2,asesor,50.000000
+Contaduría Pública,Presencial,20261,Admitido,8,27,0.018634,Asesor 2,asesor,29.629630
+Contaduría Pública,Presencial,20262,Admitido,4,16,0.017355,Asesor 2,asesor,25.000000
+Contaduría Pública,Virtual,20252,Admitido,1,6,0.009865,Asesor 2,asesor,16.666667
+Contaduría Pública,Virtual,20261,Admitido,6,16,0.017903,Asesor 2,asesor,37.500000
+Contaduría Pública,Virtual,20262,Admitido,3,10,0.017355,Asesor 2,asesor,30.000000
+Derecho,Híbrida,20252,Admitido,3,11,0.009134,Asesor 2,asesor,27.272727
+Derecho,Híbrida,20261,Admitido,3,11,0.018816,Asesor 2,asesor,27.272727
+Derecho,Híbrida,20262,Admitido,7,13,0.017355,Asesor 2,asesor,53.846154
+Derecho,Presencial,20252,Admitido,2,7,0.015893,Asesor 2,asesor,28.571429
+Derecho,Presencial,20261,Admitido,16,52,0.039094,Asesor 2,asesor,30.769231
+Derecho,Presencial,20262,Admitido,12,47,0.033431,Asesor 2,asesor,25.531915
+Derecho,Virtual,20252,Admitido,8,24,0.016989,Asesor 2,asesor,33.333333
+Derecho,Virtual,20261,Admitido,14,37,0.036719,Asesor 2,asesor,37.837838
+Derecho,Virtual,20262,Admitido,11,34,0.037815,Asesor 2,asesor,32.352941
+Especialización en Data Analytics,Híbrida,20252,Admitido,3,10,0.009499,Asesor 2,asesor,30.000000
+Especialización en Data Analytics,Híbrida,20261,Admitido,4,14,0.014615,Asesor 2,asesor,28.571429
+Especialización en Data Analytics,Híbrida,20262,Admitido,8,20,0.021374,Asesor 2,asesor,40.000000
+Especialización en Data Analytics,Presencial,20252,Admitido,12,25,0.016989,Asesor 2,asesor,48.000000
+Especialización en Data Analytics,Presencial,20261,Admitido,7,38,0.037815,Asesor 2,asesor,18.421053
+Especialización en Data Analytics,Presencial,20262,Admitido,16,52,0.039094,Asesor 2,asesor,30.769231
+Especialización en Data Analytics,Virtual,20252,Admitido,4,15,0.015711,Asesor 2,asesor,26.666667
+Especialización en Data Analytics,Virtual,20261,Admitido,15,35,0.032517,Asesor 2,asesor,42.857143
+Especialización en Data Analytics,Virtual,20262,Admitido,7,31,0.034527,Asesor 2,asesor,22.580645
+Especialización en Gerencia,Híbrida,20252,Admitido,2,5,0.005480,Asesor 2,asesor,40.000000
+Especialización en Gerencia,Híbrida,20261,Admitido,3,13,0.009499,Asesor 2,asesor,23.076923
+Especialización en Gerencia,Híbrida,20262,Admitido,4,11,0.009499,Asesor 2,asesor,36.363636
+Especialización en Gerencia,Presencial,20252,Admitido,5,8,0.008769,Asesor 2,asesor,62.500000
+Especialización en Gerencia,Presencial,20261,Admitido,9,22,0.017720,Asesor 2,asesor,40.909091
+Especialización en Gerencia,Presencial,20262,Admitido,10,23,0.016076,Asesor 2,asesor,43.478261
+Especialización en Gerencia,Virtual,20252,Admitido,2,5,0.009134,Asesor 2,asesor,40.000000
+Especialización en Gerencia,Virtual,20261,Admitido,9,19,0.018999,Asesor 2,asesor,47.368421
+Especialización en Gerencia,Virtual,20262,Admitido,5,18,0.015345,Asesor 2,asesor,27.777778
+Ingeniería de Sistemas,Híbrida,20252,Admitido,5,9,0.005115,Asesor 2,asesor,55.555556
+Ingeniería de Sistemas,Híbrida,20261,Admitido,3,11,0.009682,Asesor 2,asesor,27.272727
+Ingeniería de Sistemas,Híbrida,20262,Admitido,4,8,0.008586,Asesor 2,asesor,50.000000
+Ingeniería de Sistemas,Presencial,20252,Admitido,4,7,0.009317,Asesor 2,asesor,57.142857
+Ingeniería de Sistemas,Presencial,20261,Admitido,9,24,0.020643,Asesor 2,asesor,37.500000
+Ingeniería de Sistemas,Presencial,20262,Admitido,6,24,0.018816,Asesor 2,asesor,25.000000
+Ingeniería de Sistemas,Virtual,20252,Admitido,8,20,0.009865,Asesor 2,asesor,40.000000
+Ingeniería de Sistemas,Virtual,20261,Admitido,4,16,0.016076,Asesor 2,asesor,25.000000
+Ingeniería de Sistemas,Virtual,20262,Admitido,6,25,0.016989,Asesor 2,asesor,24.000000
+Psicología,Híbrida,20252,Admitido,1,6,0.003654,Asesor 2,asesor,16.666667
+Psicología,Híbrida,20261,Admitido,2,11,0.009499,Asesor 2,asesor,18.181818
+Psicología,Híbrida,20262,Admitido,2,7,0.009317,Asesor 2,asesor,28.571429
+Psicología,Presencial,20252,Admitido,8,13,0.008769,Asesor 2,asesor,61.538462
+Psicología,Presencial,20261,Admitido,5,19,0.017172,Asesor 2,asesor,26.315789
+Psicología,Presencial,20262,Admitido,5,19,0.013701,Asesor 2,asesor,26.315789
+Psicología,Virtual,20252,Admitido,2,8,0.007307,Asesor 2,asesor,25.000000
+Psicología,Virtual,20261,Admitido,6,24,0.020278,Asesor 2,asesor,25.000000
+Psicología,Virtual,20262,Admitido,7,18,0.018999,Asesor 2,asesor,38.888889
+Administración de Empresas,Híbrida,20252,Documentación pendiente,1,4,0.003106,Asesor 2,asesor,25.000000
+Administración de Empresas,Híbrida,20261,Documentación pendiente,4,10,0.010047,Asesor 2,asesor,40.000000
+Administración de Empresas,Híbrida,20262,Documentación pendiente,0,7,0.008769,Asesor 2,asesor,0.000000
+Administración de Empresas,Presencial,20252,Documentación pendiente,1,8,0.008586,Asesor 2,asesor,12.500000
+Administración de Empresas,Presencial,20261,Documentación pendiente,1,22,0.016076,Asesor 2,asesor,4.545455
+Administración de Empresas,Presencial,20262,Documentación pendiente,1,11,0.015163,Asesor 2,asesor,9.090909
+Administración de Empresas,Virtual,20252,Documentación pendiente,3,5,0.007673,Asesor 2,asesor,60.000000
+Administración de Empresas,Virtual,20261,Documentación pendiente,4,18,0.017903,Asesor 2,asesor,22.222222
+Administración de Empresas,Virtual,20262,Documentación pendiente,3,27,0.018999,Asesor 2,asesor,11.111111
+Contaduría Pública,Híbrida,20252,Documentación pendiente,1,6,0.004932,Asesor 2,asesor,16.666667
+Contaduría Pública,Híbrida,20261,Documentación pendiente,3,11,0.008038,Asesor 2,asesor,27.272727
+Contaduría Pública,Híbrida,20262,Documentación pendiente,2,10,0.008951,Asesor 2,asesor,20.000000
+Contaduría Pública,Presencial,20252,Documentación pendiente,1,4,0.008951,Asesor 2,asesor,25.000000
+Contaduría Pública,Presencial,20261,Documentación pendiente,1,27,0.018634,Asesor 2,asesor,3.703704
+Contaduría Pública,Presencial,20262,Documentación pendiente,1,16,0.017355,Asesor 2,asesor,6.250000
+Contaduría Pública,Virtual,20252,Documentación pendiente,0,6,0.009865,Asesor 2,asesor,0.000000
+Contaduría Pública,Virtual,20261,Documentación pendiente,0,16,0.017903,Asesor 2,asesor,0.000000
+Contaduría Pública,Virtual,20262,Documentación pendiente,1,10,0.017355,Asesor 2,asesor,10.000000
+Derecho,Híbrida,20252,Documentación pendiente,1,11,0.009134,Asesor 2,asesor,9.090909
+Derecho,Híbrida,20261,Documentación pendiente,4,11,0.018816,Asesor 2,asesor,36.363636
+Derecho,Híbrida,20262,Documentación pendiente,3,13,0.017355,Asesor 2,asesor,23.076923
+Derecho,Presencial,20252,Documentación pendiente,1,7,0.015893,Asesor 2,asesor,14.285714
+Derecho,Presencial,20261,Documentación pendiente,6,52,0.039094,Asesor 2,asesor,11.538462
+Derecho,Presencial,20262,Documentación pendiente,8,47,0.033431,Asesor 2,asesor,17.021277
+Derecho,Virtual,20252,Documentación pendiente,2,24,0.016989,Asesor 2,asesor,8.333333
+Derecho,Virtual,20261,Documentación pendiente,5,37,0.036719,Asesor 2,asesor,13.513514
+Derecho,Virtual,20262,Documentación pendiente,4,34,0.037815,Asesor 2,asesor,11.764706
+Especialización en Data Analytics,Híbrida,20252,Documentación pendiente,1,10,0.009499,Asesor 2,asesor,10.000000
+Especialización en Data Analytics,Híbrida,20261,Documentación pendiente,1,14,0.014615,Asesor 2,asesor,7.142857
+Especialización en Data Analytics,Híbrida,20262,Documentación pendiente,2,20,0.021374,Asesor 2,asesor,10.000000
+Especialización en Data Analytics,Presencial,20252,Documentación pendiente,0,25,0.016989,Asesor 2,asesor,0.000000
+Especialización en Data Analytics,Presencial,20261,Documentación pendiente,6,38,0.037815,Asesor 2,asesor,15.789474
+Especialización en Data Analytics,Presencial,20262,Documentación pendiente,7,52,0.039094,Asesor 2,asesor,13.461538
+Especialización en Data Analytics,Virtual,20252,Documentación pendiente,3,15,0.015711,Asesor 2,asesor,20.000000
+Especialización en Data Analytics,Virtual,20261,Documentación pendiente,4,35,0.032517,Asesor 2,asesor,11.428571
+Especialización en Data Analytics,Virtual,20262,Documentación pendiente,3,31,0.034527,Asesor 2,asesor,9.677419
+Especialización en Gerencia,Híbrida,20252,Documentación pendiente,0,5,0.005480,Asesor 2,asesor,0.000000
+Especialización en Gerencia,Híbrida,20261,Documentación pendiente,1,13,0.009499,Asesor 2,asesor,7.692308
+Especialización en Gerencia,Híbrida,20262,Documentación pendiente,2,11,0.009499,Asesor 2,asesor,18.181818
+Especialización en Gerencia,Presencial,20252,Documentación pendiente,0,8,0.008769,Asesor 2,asesor,0.000000
+Especialización en Gerencia,Presencial,20261,Documentación pendiente,2,22,0.017720,Asesor 2,asesor,9.090909
+Especialización en Gerencia,Presencial,20262,Documentación pendiente,2,23,0.016076,Asesor 2,asesor,8.695652
+Especialización en Gerencia,Virtual,20252,Documentación pendiente,1,5,0.009134,Asesor 2,asesor,20.000000
+Especialización en Gerencia,Virtual,20261,Documentación pendiente,1,19,0.018999,Asesor 2,asesor,5.263158
+Especialización en Gerencia,Virtual,20262,Documentación pendiente,2,18,0.015345,Asesor 2,asesor,11.111111
+Ingeniería de Sistemas,Híbrida,20252,Documentación pendiente,0,9,0.005115,Asesor 2,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Documentación pendiente,4,11,0.009682,Asesor 2,asesor,36.363636
+Ingeniería de Sistemas,Híbrida,20262,Documentación pendiente,0,8,0.008586,Asesor 2,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20252,Documentación pendiente,2,7,0.009317,Asesor 2,asesor,28.571429
+Ingeniería de Sistemas,Presencial,20261,Documentación pendiente,3,24,0.020643,Asesor 2,asesor,12.500000
+Ingeniería de Sistemas,Presencial,20262,Documentación pendiente,0,24,0.018816,Asesor 2,asesor,0.000000
+Ingeniería de Sistemas,Virtual,20252,Documentación pendiente,1,20,0.009865,Asesor 2,asesor,5.000000
+Ingeniería de Sistemas,Virtual,20261,Documentación pendiente,7,16,0.016076,Asesor 2,asesor,43.750000
+Ingeniería de Sistemas,Virtual,20262,Documentación pendiente,3,25,0.016989,Asesor 2,asesor,12.000000
+Psicología,Híbrida,20252,Documentación pendiente,0,6,0.003654,Asesor 2,asesor,0.000000
+Psicología,Híbrida,20261,Documentación pendiente,3,11,0.009499,Asesor 2,asesor,27.272727
+Psicología,Híbrida,20262,Documentación pendiente,0,7,0.009317,Asesor 2,asesor,0.000000
+Psicología,Presencial,20252,Documentación pendiente,2,13,0.008769,Asesor 2,asesor,15.384615
+Psicología,Presencial,20261,Documentación pendiente,2,19,0.017172,Asesor 2,asesor,10.526316
+Psicología,Presencial,20262,Documentación pendiente,3,19,0.013701,Asesor 2,asesor,15.789474
+Psicología,Virtual,20252,Documentación pendiente,1,8,0.007307,Asesor 2,asesor,12.500000
+Psicología,Virtual,20261,Documentación pendiente,2,24,0.020278,Asesor 2,asesor,8.333333
+Psicología,Virtual,20262,Documentación pendiente,4,18,0.018999,Asesor 2,asesor,22.222222
+Administración de Empresas,Híbrida,20252,Inscrito,0,4,0.003106,Asesor 2,asesor,0.000000
+Administración de Empresas,Híbrida,20261,Inscrito,1,10,0.010047,Asesor 2,asesor,10.000000
+Administración de Empresas,Híbrida,20262,Inscrito,1,7,0.008769,Asesor 2,asesor,14.285714
+Administración de Empresas,Presencial,20252,Inscrito,1,8,0.008586,Asesor 2,asesor,12.500000
+Administración de Empresas,Presencial,20261,Inscrito,3,22,0.016076,Asesor 2,asesor,13.636364
+Administración de Empresas,Presencial,20262,Inscrito,1,11,0.015163,Asesor 2,asesor,9.090909
+Administración de Empresas,Virtual,20252,Inscrito,0,5,0.007673,Asesor 2,asesor,0.000000
+Administración de Empresas,Virtual,20261,Inscrito,1,18,0.017903,Asesor 2,asesor,5.555556
+Administración de Empresas,Virtual,20262,Inscrito,3,27,0.018999,Asesor 2,asesor,11.111111
+Contaduría Pública,Híbrida,20252,Inscrito,1,6,0.004932,Asesor 2,asesor,16.666667
+Contaduría Pública,Híbrida,20261,Inscrito,0,11,0.008038,Asesor 2,asesor,0.000000
+Contaduría Pública,Híbrida,20262,Inscrito,1,10,0.008951,Asesor 2,asesor,10.000000
+Contaduría Pública,Presencial,20252,Inscrito,1,4,0.008951,Asesor 2,asesor,25.000000
+Contaduría Pública,Presencial,20261,Inscrito,4,27,0.018634,Asesor 2,asesor,14.814815
+Contaduría Pública,Presencial,20262,Inscrito,1,16,0.017355,Asesor 2,asesor,6.250000
+Contaduría Pública,Virtual,20252,Inscrito,3,6,0.009865,Asesor 2,asesor,50.000000
+Contaduría Pública,Virtual,20261,Inscrito,2,16,0.017903,Asesor 2,asesor,12.500000
+Contaduría Pública,Virtual,20262,Inscrito,1,10,0.017355,Asesor 2,asesor,10.000000
+Derecho,Híbrida,20252,Inscrito,0,11,0.009134,Asesor 2,asesor,0.000000
+Derecho,Híbrida,20261,Inscrito,3,11,0.018816,Asesor 2,asesor,27.272727
+Derecho,Híbrida,20262,Inscrito,2,13,0.017355,Asesor 2,asesor,15.384615
+Derecho,Presencial,20252,Inscrito,1,7,0.015893,Asesor 2,asesor,14.285714
+Derecho,Presencial,20261,Inscrito,6,52,0.039094,Asesor 2,asesor,11.538462
+Derecho,Presencial,20262,Inscrito,6,47,0.033431,Asesor 2,asesor,12.765957
+Derecho,Virtual,20252,Inscrito,4,24,0.016989,Asesor 2,asesor,16.666667
+Derecho,Virtual,20261,Inscrito,1,37,0.036719,Asesor 2,asesor,2.702703
+Derecho,Virtual,20262,Inscrito,4,34,0.037815,Asesor 2,asesor,11.764706
+Especialización en Data Analytics,Híbrida,20252,Inscrito,1,10,0.009499,Asesor 2,asesor,10.000000
+Especialización en Data Analytics,Híbrida,20261,Inscrito,1,14,0.014615,Asesor 2,asesor,7.142857
+Especialización en Data Analytics,Híbrida,20262,Inscrito,3,20,0.021374,Asesor 2,asesor,15.000000
+Especialización en Data Analytics,Presencial,20252,Inscrito,3,25,0.016989,Asesor 2,asesor,12.000000
+Especialización en Data Analytics,Presencial,20261,Inscrito,4,38,0.037815,Asesor 2,asesor,10.526316
+Especialización en Data Analytics,Presencial,20262,Inscrito,2,52,0.039094,Asesor 2,asesor,3.846154
+Especialización en Data Analytics,Virtual,20252,Inscrito,1,15,0.015711,Asesor 2,asesor,6.666667
+Especialización en Data Analytics,Virtual,20261,Inscrito,2,35,0.032517,Asesor 2,asesor,5.714286
+Especialización en Data Analytics,Virtual,20262,Inscrito,2,31,0.034527,Asesor 2,asesor,6.451613
+Especialización en Gerencia,Híbrida,20252,Inscrito,0,5,0.005480,Asesor 2,asesor,0.000000
+Especialización en Gerencia,Híbrida,20261,Inscrito,1,13,0.009499,Asesor 2,asesor,7.692308
+Especialización en Gerencia,Híbrida,20262,Inscrito,1,11,0.009499,Asesor 2,asesor,9.090909
+Especialización en Gerencia,Presencial,20252,Inscrito,1,8,0.008769,Asesor 2,asesor,12.500000
+Especialización en Gerencia,Presencial,20261,Inscrito,1,22,0.017720,Asesor 2,asesor,4.545455
+Especialización en Gerencia,Presencial,20262,Inscrito,1,23,0.016076,Asesor 2,asesor,4.347826
+Especialización en Gerencia,Virtual,20252,Inscrito,0,5,0.009134,Asesor 2,asesor,0.000000
+Especialización en Gerencia,Virtual,20261,Inscrito,4,19,0.018999,Asesor 2,asesor,21.052632
+Especialización en Gerencia,Virtual,20262,Inscrito,5,18,0.015345,Asesor 2,asesor,27.777778
+Ingeniería de Sistemas,Híbrida,20252,Inscrito,0,9,0.005115,Asesor 2,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Inscrito,1,11,0.009682,Asesor 2,asesor,9.090909
+Ingeniería de Sistemas,Híbrida,20262,Inscrito,2,8,0.008586,Asesor 2,asesor,25.000000
+Ingeniería de Sistemas,Presencial,20252,Inscrito,0,7,0.009317,Asesor 2,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20261,Inscrito,3,24,0.020643,Asesor 2,asesor,12.500000
+Ingeniería de Sistemas,Presencial,20262,Inscrito,2,24,0.018816,Asesor 2,asesor,8.333333
+Ingeniería de Sistemas,Virtual,20252,Inscrito,0,20,0.009865,Asesor 2,asesor,0.000000
+Ingeniería de Sistemas,Virtual,20261,Inscrito,1,16,0.016076,Asesor 2,asesor,6.250000
+Ingeniería de Sistemas,Virtual,20262,Inscrito,7,25,0.016989,Asesor 2,asesor,28.000000
+Psicología,Híbrida,20252,Inscrito,0,6,0.003654,Asesor 2,asesor,0.000000
+Psicología,Híbrida,20261,Inscrito,1,11,0.009499,Asesor 2,asesor,9.090909
+Psicología,Híbrida,20262,Inscrito,1,7,0.009317,Asesor 2,asesor,14.285714
+Psicología,Presencial,20252,Inscrito,0,13,0.008769,Asesor 2,asesor,0.000000
+Psicología,Presencial,20261,Inscrito,2,19,0.017172,Asesor 2,asesor,10.526316
+Psicología,Presencial,20262,Inscrito,1,19,0.013701,Asesor 2,asesor,5.263158
+Psicología,Virtual,20252,Inscrito,1,8,0.007307,Asesor 2,asesor,12.500000
+Psicología,Virtual,20261,Inscrito,6,24,0.020278,Asesor 2,asesor,25.000000
+Psicología,Virtual,20262,Inscrito,2,18,0.018999,Asesor 2,asesor,11.111111
+Administración de Empresas,Híbrida,20252,Matriculado,0,4,0.003106,Asesor 2,asesor,0.000000
+Administración de Empresas,Híbrida,20261,Matriculado,2,10,0.010047,Asesor 2,asesor,20.000000
+Administración de Empresas,Híbrida,20262,Matriculado,0,7,0.008769,Asesor 2,asesor,0.000000
+Administración de Empresas,Presencial,20252,Matriculado,0,8,0.008586,Asesor 2,asesor,0.000000
+Administración de Empresas,Presencial,20261,Matriculado,7,22,0.016076,Asesor 2,asesor,31.818182
+Administración de Empresas,Presencial,20262,Matriculado,3,11,0.015163,Asesor 2,asesor,27.272727
+Administración de Empresas,Virtual,20252,Matriculado,0,5,0.007673,Asesor 2,asesor,0.000000
+Administración de Empresas,Virtual,20261,Matriculado,3,18,0.017903,Asesor 2,asesor,16.666667
+Administración de Empresas,Virtual,20262,Matriculado,7,27,0.018999,Asesor 2,asesor,25.925926
+Contaduría Pública,Híbrida,20252,Matriculado,3,6,0.004932,Asesor 2,asesor,50.000000
+Contaduría Pública,Híbrida,20261,Matriculado,1,11,0.008038,Asesor 2,asesor,9.090909
+Contaduría Pública,Híbrida,20262,Matriculado,2,10,0.008951,Asesor 2,asesor,20.000000
+Contaduría Pública,Presencial,20252,Matriculado,0,4,0.008951,Asesor 2,asesor,0.000000
+Contaduría Pública,Presencial,20261,Matriculado,5,27,0.018634,Asesor 2,asesor,18.518519
+Contaduría Pública,Presencial,20262,Matriculado,7,16,0.017355,Asesor 2,asesor,43.750000
+Contaduría Pública,Virtual,20252,Matriculado,1,6,0.009865,Asesor 2,asesor,16.666667
+Contaduría Pública,Virtual,20261,Matriculado,2,16,0.017903,Asesor 2,asesor,12.500000
+Contaduría Pública,Virtual,20262,Matriculado,1,10,0.017355,Asesor 2,asesor,10.000000
+Derecho,Híbrida,20252,Matriculado,3,11,0.009134,Asesor 2,asesor,27.272727
+Derecho,Híbrida,20261,Matriculado,1,11,0.018816,Asesor 2,asesor,9.090909
+Derecho,Híbrida,20262,Matriculado,1,13,0.017355,Asesor 2,asesor,7.692308
+Derecho,Presencial,20252,Matriculado,0,7,0.015893,Asesor 2,asesor,0.000000
+Derecho,Presencial,20261,Matriculado,8,52,0.039094,Asesor 2,asesor,15.384615
+Derecho,Presencial,20262,Matriculado,10,47,0.033431,Asesor 2,asesor,21.276596
+Derecho,Virtual,20252,Matriculado,6,24,0.016989,Asesor 2,asesor,25.000000
+Derecho,Virtual,20261,Matriculado,8,37,0.036719,Asesor 2,asesor,21.621622
+Derecho,Virtual,20262,Matriculado,8,34,0.037815,Asesor 2,asesor,23.529412
+Especialización en Data Analytics,Híbrida,20252,Matriculado,2,10,0.009499,Asesor 2,asesor,20.000000
+Especialización en Data Analytics,Híbrida,20261,Matriculado,6,14,0.014615,Asesor 2,asesor,42.857143
+Especialización en Data Analytics,Híbrida,20262,Matriculado,2,20,0.021374,Asesor 2,asesor,10.000000
+Especialización en Data Analytics,Presencial,20252,Matriculado,5,25,0.016989,Asesor 2,asesor,20.000000
+Especialización en Data Analytics,Presencial,20261,Matriculado,10,38,0.037815,Asesor 2,asesor,26.315789
+Especialización en Data Analytics,Presencial,20262,Matriculado,7,52,0.039094,Asesor 2,asesor,13.461538
+Especialización en Data Analytics,Virtual,20252,Matriculado,4,15,0.015711,Asesor 2,asesor,26.666667
+Especialización en Data Analytics,Virtual,20261,Matriculado,6,35,0.032517,Asesor 2,asesor,17.142857
+Especialización en Data Analytics,Virtual,20262,Matriculado,6,31,0.034527,Asesor 2,asesor,19.354839
+Especialización en Gerencia,Híbrida,20252,Matriculado,2,5,0.005480,Asesor 2,asesor,40.000000
+Especialización en Gerencia,Híbrida,20261,Matriculado,4,13,0.009499,Asesor 2,asesor,30.769231
+Especialización en Gerencia,Híbrida,20262,Matriculado,3,11,0.009499,Asesor 2,asesor,27.272727
+Especialización en Gerencia,Presencial,20252,Matriculado,2,8,0.008769,Asesor 2,asesor,25.000000
+Especialización en Gerencia,Presencial,20261,Matriculado,7,22,0.017720,Asesor 2,asesor,31.818182
+Especialización en Gerencia,Presencial,20262,Matriculado,4,23,0.016076,Asesor 2,asesor,17.391304
+Especialización en Gerencia,Virtual,20252,Matriculado,1,5,0.009134,Asesor 2,asesor,20.000000
+Especialización en Gerencia,Virtual,20261,Matriculado,3,19,0.018999,Asesor 2,asesor,15.789474
+Especialización en Gerencia,Virtual,20262,Matriculado,4,18,0.015345,Asesor 2,asesor,22.222222
+Ingeniería de Sistemas,Híbrida,20252,Matriculado,3,9,0.005115,Asesor 2,asesor,33.333333
+Ingeniería de Sistemas,Híbrida,20261,Matriculado,1,11,0.009682,Asesor 2,asesor,9.090909
+Ingeniería de Sistemas,Híbrida,20262,Matriculado,0,8,0.008586,Asesor 2,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20252,Matriculado,0,7,0.009317,Asesor 2,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20261,Matriculado,5,24,0.020643,Asesor 2,asesor,20.833333
+Ingeniería de Sistemas,Presencial,20262,Matriculado,7,24,0.018816,Asesor 2,asesor,29.166667
+Ingeniería de Sistemas,Virtual,20252,Matriculado,8,20,0.009865,Asesor 2,asesor,40.000000
+Ingeniería de Sistemas,Virtual,20261,Matriculado,1,16,0.016076,Asesor 2,asesor,6.250000
+Ingeniería de Sistemas,Virtual,20262,Matriculado,5,25,0.016989,Asesor 2,asesor,20.000000
+Psicología,Híbrida,20252,Matriculado,3,6,0.003654,Asesor 2,asesor,50.000000
+Psicología,Híbrida,20261,Matriculado,3,11,0.009499,Asesor 2,asesor,27.272727
+Psicología,Híbrida,20262,Matriculado,0,7,0.009317,Asesor 2,asesor,0.000000
+Psicología,Presencial,20252,Matriculado,3,13,0.008769,Asesor 2,asesor,23.076923
+Psicología,Presencial,20261,Matriculado,1,19,0.017172,Asesor 2,asesor,5.263158
+Psicología,Presencial,20262,Matriculado,3,19,0.013701,Asesor 2,asesor,15.789474
+Psicología,Virtual,20252,Matriculado,3,8,0.007307,Asesor 2,asesor,37.500000
+Psicología,Virtual,20261,Matriculado,3,24,0.020278,Asesor 2,asesor,12.500000
+Psicología,Virtual,20262,Matriculado,4,18,0.018999,Asesor 2,asesor,22.222222
+Administración de Empresas,Híbrida,20252,No admitido,0,4,0.003106,Asesor 2,asesor,0.000000
+Administración de Empresas,Híbrida,20261,No admitido,0,10,0.010047,Asesor 2,asesor,0.000000
+Administración de Empresas,Híbrida,20262,No admitido,2,7,0.008769,Asesor 2,asesor,28.571429
+Administración de Empresas,Presencial,20252,No admitido,2,8,0.008586,Asesor 2,asesor,25.000000
+Administración de Empresas,Presencial,20261,No admitido,2,22,0.016076,Asesor 2,asesor,9.090909
+Administración de Empresas,Presencial,20262,No admitido,1,11,0.015163,Asesor 2,asesor,9.090909
+Administración de Empresas,Virtual,20252,No admitido,0,5,0.007673,Asesor 2,asesor,0.000000
+Administración de Empresas,Virtual,20261,No admitido,1,18,0.017903,Asesor 2,asesor,5.555556
+Administración de Empresas,Virtual,20262,No admitido,4,27,0.018999,Asesor 2,asesor,14.814815
+Contaduría Pública,Híbrida,20252,No admitido,0,6,0.004932,Asesor 2,asesor,0.000000
+Contaduría Pública,Híbrida,20261,No admitido,1,11,0.008038,Asesor 2,asesor,9.090909
+Contaduría Pública,Híbrida,20262,No admitido,0,10,0.008951,Asesor 2,asesor,0.000000
+Contaduría Pública,Presencial,20252,No admitido,0,4,0.008951,Asesor 2,asesor,0.000000
+Contaduría Pública,Presencial,20261,No admitido,4,27,0.018634,Asesor 2,asesor,14.814815
+Contaduría Pública,Presencial,20262,No admitido,1,16,0.017355,Asesor 2,asesor,6.250000
+Contaduría Pública,Virtual,20252,No admitido,0,6,0.009865,Asesor 2,asesor,0.000000
+Contaduría Pública,Virtual,20261,No admitido,4,16,0.017903,Asesor 2,asesor,25.000000
+Contaduría Pública,Virtual,20262,No admitido,1,10,0.017355,Asesor 2,asesor,10.000000
+Derecho,Híbrida,20252,No admitido,1,11,0.009134,Asesor 2,asesor,9.090909
+Derecho,Híbrida,20261,No admitido,0,11,0.018816,Asesor 2,asesor,0.000000
+Derecho,Híbrida,20262,No admitido,0,13,0.017355,Asesor 2,asesor,0.000000
+Derecho,Presencial,20252,No admitido,1,7,0.015893,Asesor 2,asesor,14.285714
+Derecho,Presencial,20261,No admitido,9,52,0.039094,Asesor 2,asesor,17.307692
+Derecho,Presencial,20262,No admitido,7,47,0.033431,Asesor 2,asesor,14.893617
+Derecho,Virtual,20252,No admitido,4,24,0.016989,Asesor 2,asesor,16.666667
+Derecho,Virtual,20261,No admitido,6,37,0.036719,Asesor 2,asesor,16.216216
+Derecho,Virtual,20262,No admitido,1,34,0.037815,Asesor 2,asesor,2.941176
+Especialización en Data Analytics,Híbrida,20252,No admitido,2,10,0.009499,Asesor 2,asesor,20.000000
+Especialización en Data Analytics,Híbrida,20261,No admitido,2,14,0.014615,Asesor 2,asesor,14.285714
+Especialización en Data Analytics,Híbrida,20262,No admitido,2,20,0.021374,Asesor 2,asesor,10.000000
+Especialización en Data Analytics,Presencial,20252,No admitido,2,25,0.016989,Asesor 2,asesor,8.000000
+Especialización en Data Analytics,Presencial,20261,No admitido,4,38,0.037815,Asesor 2,asesor,10.526316
+Especialización en Data Analytics,Presencial,20262,No admitido,18,52,0.039094,Asesor 2,asesor,34.615385
+Especialización en Data Analytics,Virtual,20252,No admitido,1,15,0.015711,Asesor 2,asesor,6.666667
+Especialización en Data Analytics,Virtual,20261,No admitido,3,35,0.032517,Asesor 2,asesor,8.571429
+Especialización en Data Analytics,Virtual,20262,No admitido,4,31,0.034527,Asesor 2,asesor,12.903226
+Especialización en Gerencia,Híbrida,20252,No admitido,0,5,0.005480,Asesor 2,asesor,0.000000
+Especialización en Gerencia,Híbrida,20261,No admitido,1,13,0.009499,Asesor 2,asesor,7.692308
+Especialización en Gerencia,Híbrida,20262,No admitido,1,11,0.009499,Asesor 2,asesor,9.090909
+Especialización en Gerencia,Presencial,20252,No admitido,0,8,0.008769,Asesor 2,asesor,0.000000
+Especialización en Gerencia,Presencial,20261,No admitido,2,22,0.017720,Asesor 2,asesor,9.090909
+Especialización en Gerencia,Presencial,20262,No admitido,3,23,0.016076,Asesor 2,asesor,13.043478
+Especialización en Gerencia,Virtual,20252,No admitido,0,5,0.009134,Asesor 2,asesor,0.000000
+Especialización en Gerencia,Virtual,20261,No admitido,1,19,0.018999,Asesor 2,asesor,5.263158
+Especialización en Gerencia,Virtual,20262,No admitido,0,18,0.015345,Asesor 2,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20252,No admitido,0,9,0.005115,Asesor 2,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20261,No admitido,1,11,0.009682,Asesor 2,asesor,9.090909
+Ingeniería de Sistemas,Híbrida,20262,No admitido,1,8,0.008586,Asesor 2,asesor,12.500000
+Ingeniería de Sistemas,Presencial,20252,No admitido,1,7,0.009317,Asesor 2,asesor,14.285714
+Ingeniería de Sistemas,Presencial,20261,No admitido,4,24,0.020643,Asesor 2,asesor,16.666667
+Ingeniería de Sistemas,Presencial,20262,No admitido,2,24,0.018816,Asesor 2,asesor,8.333333
+Ingeniería de Sistemas,Virtual,20252,No admitido,3,20,0.009865,Asesor 2,asesor,15.000000
+Ingeniería de Sistemas,Virtual,20261,No admitido,1,16,0.016076,Asesor 2,asesor,6.250000
+Ingeniería de Sistemas,Virtual,20262,No admitido,3,25,0.016989,Asesor 2,asesor,12.000000
+Psicología,Híbrida,20252,No admitido,1,6,0.003654,Asesor 2,asesor,16.666667
+Psicología,Híbrida,20261,No admitido,1,11,0.009499,Asesor 2,asesor,9.090909
+Psicología,Híbrida,20262,No admitido,1,7,0.009317,Asesor 2,asesor,14.285714
+Psicología,Presencial,20252,No admitido,0,13,0.008769,Asesor 2,asesor,0.000000
+Psicología,Presencial,20261,No admitido,6,19,0.017172,Asesor 2,asesor,31.578947
+Psicología,Presencial,20262,No admitido,2,19,0.013701,Asesor 2,asesor,10.526316
+Psicología,Virtual,20252,No admitido,0,8,0.007307,Asesor 2,asesor,0.000000
+Psicología,Virtual,20261,No admitido,1,24,0.020278,Asesor 2,asesor,4.166667
+Psicología,Virtual,20262,No admitido,1,18,0.018999,Asesor 2,asesor,5.555556
+Administración de Empresas,Híbrida,20252,Retirado,1,4,0.003106,Asesor 2,asesor,25.000000
+Administración de Empresas,Híbrida,20261,Retirado,1,10,0.010047,Asesor 2,asesor,10.000000
+Administración de Empresas,Híbrida,20262,Retirado,0,7,0.008769,Asesor 2,asesor,0.000000
+Administración de Empresas,Presencial,20252,Retirado,0,8,0.008586,Asesor 2,asesor,0.000000
+Administración de Empresas,Presencial,20261,Retirado,2,22,0.016076,Asesor 2,asesor,9.090909
+Administración de Empresas,Presencial,20262,Retirado,1,11,0.015163,Asesor 2,asesor,9.090909
+Administración de Empresas,Virtual,20252,Retirado,0,5,0.007673,Asesor 2,asesor,0.000000
+Administración de Empresas,Virtual,20261,Retirado,2,18,0.017903,Asesor 2,asesor,11.111111
+Administración de Empresas,Virtual,20262,Retirado,4,27,0.018999,Asesor 2,asesor,14.814815
+Contaduría Pública,Híbrida,20252,Retirado,0,6,0.004932,Asesor 2,asesor,0.000000
+Contaduría Pública,Híbrida,20261,Retirado,4,11,0.008038,Asesor 2,asesor,36.363636
+Contaduría Pública,Híbrida,20262,Retirado,3,10,0.008951,Asesor 2,asesor,30.000000
+Contaduría Pública,Presencial,20252,Retirado,0,4,0.008951,Asesor 2,asesor,0.000000
+Contaduría Pública,Presencial,20261,Retirado,5,27,0.018634,Asesor 2,asesor,18.518519
+Contaduría Pública,Presencial,20262,Retirado,2,16,0.017355,Asesor 2,asesor,12.500000
+Contaduría Pública,Virtual,20252,Retirado,1,6,0.009865,Asesor 2,asesor,16.666667
+Contaduría Pública,Virtual,20261,Retirado,2,16,0.017903,Asesor 2,asesor,12.500000
+Contaduría Pública,Virtual,20262,Retirado,3,10,0.017355,Asesor 2,asesor,30.000000
+Derecho,Híbrida,20252,Retirado,3,11,0.009134,Asesor 2,asesor,27.272727
+Derecho,Híbrida,20261,Retirado,0,11,0.018816,Asesor 2,asesor,0.000000
+Derecho,Híbrida,20262,Retirado,0,13,0.017355,Asesor 2,asesor,0.000000
+Derecho,Presencial,20252,Retirado,2,7,0.015893,Asesor 2,asesor,28.571429
+Derecho,Presencial,20261,Retirado,7,52,0.039094,Asesor 2,asesor,13.461538
+Derecho,Presencial,20262,Retirado,4,47,0.033431,Asesor 2,asesor,8.510638
+Derecho,Virtual,20252,Retirado,0,24,0.016989,Asesor 2,asesor,0.000000
+Derecho,Virtual,20261,Retirado,3,37,0.036719,Asesor 2,asesor,8.108108
+Derecho,Virtual,20262,Retirado,6,34,0.037815,Asesor 2,asesor,17.647059
+Especialización en Data Analytics,Híbrida,20252,Retirado,1,10,0.009499,Asesor 2,asesor,10.000000
+Especialización en Data Analytics,Híbrida,20261,Retirado,0,14,0.014615,Asesor 2,asesor,0.000000
+Especialización en Data Analytics,Híbrida,20262,Retirado,3,20,0.021374,Asesor 2,asesor,15.000000
+Especialización en Data Analytics,Presencial,20252,Retirado,3,25,0.016989,Asesor 2,asesor,12.000000
+Especialización en Data Analytics,Presencial,20261,Retirado,7,38,0.037815,Asesor 2,asesor,18.421053
+Especialización en Data Analytics,Presencial,20262,Retirado,2,52,0.039094,Asesor 2,asesor,3.846154
+Especialización en Data Analytics,Virtual,20252,Retirado,2,15,0.015711,Asesor 2,asesor,13.333333
+Especialización en Data Analytics,Virtual,20261,Retirado,5,35,0.032517,Asesor 2,asesor,14.285714
+Especialización en Data Analytics,Virtual,20262,Retirado,9,31,0.034527,Asesor 2,asesor,29.032258
+Especialización en Gerencia,Híbrida,20252,Retirado,1,5,0.005480,Asesor 2,asesor,20.000000
+Especialización en Gerencia,Híbrida,20261,Retirado,3,13,0.009499,Asesor 2,asesor,23.076923
+Especialización en Gerencia,Híbrida,20262,Retirado,0,11,0.009499,Asesor 2,asesor,0.000000
+Especialización en Gerencia,Presencial,20252,Retirado,0,8,0.008769,Asesor 2,asesor,0.000000
+Especialización en Gerencia,Presencial,20261,Retirado,1,22,0.017720,Asesor 2,asesor,4.545455
+Especialización en Gerencia,Presencial,20262,Retirado,3,23,0.016076,Asesor 2,asesor,13.043478
+Especialización en Gerencia,Virtual,20252,Retirado,1,5,0.009134,Asesor 2,asesor,20.000000
+Especialización en Gerencia,Virtual,20261,Retirado,1,19,0.018999,Asesor 2,asesor,5.263158
+Especialización en Gerencia,Virtual,20262,Retirado,2,18,0.015345,Asesor 2,asesor,11.111111
+Ingeniería de Sistemas,Híbrida,20252,Retirado,1,9,0.005115,Asesor 2,asesor,11.111111
+Ingeniería de Sistemas,Híbrida,20261,Retirado,1,11,0.009682,Asesor 2,asesor,9.090909
+Ingeniería de Sistemas,Híbrida,20262,Retirado,1,8,0.008586,Asesor 2,asesor,12.500000
+Ingeniería de Sistemas,Presencial,20252,Retirado,0,7,0.009317,Asesor 2,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20261,Retirado,0,24,0.020643,Asesor 2,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20262,Retirado,7,24,0.018816,Asesor 2,asesor,29.166667
+Ingeniería de Sistemas,Virtual,20252,Retirado,0,20,0.009865,Asesor 2,asesor,0.000000
+Ingeniería de Sistemas,Virtual,20261,Retirado,2,16,0.016076,Asesor 2,asesor,12.500000
+Ingeniería de Sistemas,Virtual,20262,Retirado,1,25,0.016989,Asesor 2,asesor,4.000000
+Psicología,Híbrida,20252,Retirado,1,6,0.003654,Asesor 2,asesor,16.666667
+Psicología,Híbrida,20261,Retirado,1,11,0.009499,Asesor 2,asesor,9.090909
+Psicología,Híbrida,20262,Retirado,3,7,0.009317,Asesor 2,asesor,42.857143
+Psicología,Presencial,20252,Retirado,0,13,0.008769,Asesor 2,asesor,0.000000
+Psicología,Presencial,20261,Retirado,3,19,0.017172,Asesor 2,asesor,15.789474
+Psicología,Presencial,20262,Retirado,5,19,0.013701,Asesor 2,asesor,26.315789
+Psicología,Virtual,20252,Retirado,1,8,0.007307,Asesor 2,asesor,12.500000
+Psicología,Virtual,20261,Retirado,6,24,0.020278,Asesor 2,asesor,25.000000
+Psicología,Virtual,20262,Retirado,0,18,0.018999,Asesor 2,asesor,0.000000
+Administración de Empresas,Híbrida,20252,Admitido,1,6,0.003106,Asesor 3,asesor,16.666667
+Administración de Empresas,Híbrida,20261,Admitido,6,9,0.010047,Asesor 3,asesor,66.666667
+Administración de Empresas,Híbrida,20262,Admitido,4,11,0.008769,Asesor 3,asesor,36.363636
+Administración de Empresas,Presencial,20252,Admitido,0,9,0.008586,Asesor 3,asesor,0.000000
+Administración de Empresas,Presencial,20261,Admitido,3,13,0.016076,Asesor 3,asesor,23.076923
+Administración de Empresas,Presencial,20262,Admitido,5,12,0.015163,Asesor 3,asesor,41.666667
+Administración de Empresas,Virtual,20252,Admitido,4,12,0.007673,Asesor 3,asesor,33.333333
+Administración de Empresas,Virtual,20261,Admitido,10,21,0.017903,Asesor 3,asesor,47.619048
+Administración de Empresas,Virtual,20262,Admitido,10,23,0.018999,Asesor 3,asesor,43.478261
+Contaduría Pública,Híbrida,20252,Admitido,3,5,0.004932,Asesor 3,asesor,60.000000
+Contaduría Pública,Híbrida,20261,Admitido,3,6,0.008038,Asesor 3,asesor,50.000000
+Contaduría Pública,Híbrida,20262,Admitido,6,13,0.008951,Asesor 3,asesor,46.153846
+Contaduría Pública,Presencial,20252,Admitido,5,13,0.008951,Asesor 3,asesor,38.461538
+Contaduría Pública,Presencial,20261,Admitido,4,22,0.018634,Asesor 3,asesor,18.181818
+Contaduría Pública,Presencial,20262,Admitido,5,19,0.017355,Asesor 3,asesor,26.315789
+Contaduría Pública,Virtual,20252,Admitido,4,6,0.009865,Asesor 3,asesor,66.666667
+Contaduría Pública,Virtual,20261,Admitido,5,16,0.017903,Asesor 3,asesor,31.250000
+Contaduría Pública,Virtual,20262,Admitido,2,24,0.017355,Asesor 3,asesor,8.333333
+Derecho,Híbrida,20252,Admitido,3,10,0.009134,Asesor 3,asesor,30.000000
+Derecho,Híbrida,20261,Admitido,6,19,0.018816,Asesor 3,asesor,31.578947
+Derecho,Híbrida,20262,Admitido,7,27,0.017355,Asesor 3,asesor,25.925926
+Derecho,Presencial,20252,Admitido,9,17,0.015893,Asesor 3,asesor,52.941176
+Derecho,Presencial,20261,Admitido,16,41,0.039094,Asesor 3,asesor,39.024390
+Derecho,Presencial,20262,Admitido,16,44,0.033431,Asesor 3,asesor,36.363636
+Derecho,Virtual,20252,Admitido,6,14,0.016989,Asesor 3,asesor,42.857143
+Derecho,Virtual,20261,Admitido,17,44,0.036719,Asesor 3,asesor,38.636364
+Derecho,Virtual,20262,Admitido,17,44,0.037815,Asesor 3,asesor,38.636364
+Especialización en Data Analytics,Híbrida,20252,Admitido,9,15,0.009499,Asesor 3,asesor,60.000000
+Especialización en Data Analytics,Híbrida,20261,Admitido,7,22,0.014615,Asesor 3,asesor,31.818182
+Especialización en Data Analytics,Híbrida,20262,Admitido,7,24,0.021374,Asesor 3,asesor,29.166667
+Especialización en Data Analytics,Presencial,20252,Admitido,5,13,0.016989,Asesor 3,asesor,38.461538
+Especialización en Data Analytics,Presencial,20261,Admitido,14,32,0.037815,Asesor 3,asesor,43.750000
+Especialización en Data Analytics,Presencial,20262,Admitido,12,32,0.039094,Asesor 3,asesor,37.500000
+Especialización en Data Analytics,Virtual,20252,Admitido,3,16,0.015711,Asesor 3,asesor,18.750000
+Especialización en Data Analytics,Virtual,20261,Admitido,10,35,0.032517,Asesor 3,asesor,28.571429
+Especialización en Data Analytics,Virtual,20262,Admitido,13,46,0.034527,Asesor 3,asesor,28.260870
+Especialización en Gerencia,Híbrida,20252,Admitido,5,10,0.005480,Asesor 3,asesor,50.000000
+Especialización en Gerencia,Híbrida,20261,Admitido,6,8,0.009499,Asesor 3,asesor,75.000000
+Especialización en Gerencia,Híbrida,20262,Admitido,2,7,0.009499,Asesor 3,asesor,28.571429
+Especialización en Gerencia,Presencial,20252,Admitido,0,8,0.008769,Asesor 3,asesor,0.000000
+Especialización en Gerencia,Presencial,20261,Admitido,10,23,0.017720,Asesor 3,asesor,43.478261
+Especialización en Gerencia,Presencial,20262,Admitido,5,18,0.016076,Asesor 3,asesor,27.777778
+Especialización en Gerencia,Virtual,20252,Admitido,8,14,0.009134,Asesor 3,asesor,57.142857
+Especialización en Gerencia,Virtual,20261,Admitido,9,16,0.018999,Asesor 3,asesor,56.250000
+Especialización en Gerencia,Virtual,20262,Admitido,6,17,0.015345,Asesor 3,asesor,35.294118
+Ingeniería de Sistemas,Híbrida,20252,Admitido,2,2,0.005115,Asesor 3,asesor,100.000000
+Ingeniería de Sistemas,Híbrida,20261,Admitido,2,9,0.009682,Asesor 3,asesor,22.222222
+Ingeniería de Sistemas,Híbrida,20262,Admitido,3,9,0.008586,Asesor 3,asesor,33.333333
+Ingeniería de Sistemas,Presencial,20252,Admitido,4,10,0.009317,Asesor 3,asesor,40.000000
+Ingeniería de Sistemas,Presencial,20261,Admitido,8,26,0.020643,Asesor 3,asesor,30.769231
+Ingeniería de Sistemas,Presencial,20262,Admitido,5,18,0.018816,Asesor 3,asesor,27.777778
+Ingeniería de Sistemas,Virtual,20252,Admitido,3,6,0.009865,Asesor 3,asesor,50.000000
+Ingeniería de Sistemas,Virtual,20261,Admitido,6,21,0.016076,Asesor 3,asesor,28.571429
+Ingeniería de Sistemas,Virtual,20262,Admitido,3,13,0.016989,Asesor 3,asesor,23.076923
+Psicología,Híbrida,20252,Admitido,1,1,0.003654,Asesor 3,asesor,100.000000
+Psicología,Híbrida,20261,Admitido,1,12,0.009499,Asesor 3,asesor,8.333333
+Psicología,Híbrida,20262,Admitido,1,10,0.009317,Asesor 3,asesor,10.000000
+Psicología,Presencial,20252,Admitido,5,7,0.008769,Asesor 3,asesor,71.428571
+Psicología,Presencial,20261,Admitido,9,20,0.017172,Asesor 3,asesor,45.000000
+Psicología,Presencial,20262,Admitido,5,18,0.013701,Asesor 3,asesor,27.777778
+Psicología,Virtual,20252,Admitido,1,5,0.007307,Asesor 3,asesor,20.000000
+Psicología,Virtual,20261,Admitido,8,22,0.020278,Asesor 3,asesor,36.363636
+Psicología,Virtual,20262,Admitido,3,16,0.018999,Asesor 3,asesor,18.750000
+Administración de Empresas,Híbrida,20252,Documentación pendiente,0,6,0.003106,Asesor 3,asesor,0.000000
+Administración de Empresas,Híbrida,20261,Documentación pendiente,0,9,0.010047,Asesor 3,asesor,0.000000
+Administración de Empresas,Híbrida,20262,Documentación pendiente,0,11,0.008769,Asesor 3,asesor,0.000000
+Administración de Empresas,Presencial,20252,Documentación pendiente,1,9,0.008586,Asesor 3,asesor,11.111111
+Administración de Empresas,Presencial,20261,Documentación pendiente,0,13,0.016076,Asesor 3,asesor,0.000000
+Administración de Empresas,Presencial,20262,Documentación pendiente,2,12,0.015163,Asesor 3,asesor,16.666667
+Administración de Empresas,Virtual,20252,Documentación pendiente,0,12,0.007673,Asesor 3,asesor,0.000000
+Administración de Empresas,Virtual,20261,Documentación pendiente,0,21,0.017903,Asesor 3,asesor,0.000000
+Administración de Empresas,Virtual,20262,Documentación pendiente,2,23,0.018999,Asesor 3,asesor,8.695652
+Contaduría Pública,Híbrida,20252,Documentación pendiente,1,5,0.004932,Asesor 3,asesor,20.000000
+Contaduría Pública,Híbrida,20261,Documentación pendiente,0,6,0.008038,Asesor 3,asesor,0.000000
+Contaduría Pública,Híbrida,20262,Documentación pendiente,1,13,0.008951,Asesor 3,asesor,7.692308
+Contaduría Pública,Presencial,20252,Documentación pendiente,0,13,0.008951,Asesor 3,asesor,0.000000
+Contaduría Pública,Presencial,20261,Documentación pendiente,2,22,0.018634,Asesor 3,asesor,9.090909
+Contaduría Pública,Presencial,20262,Documentación pendiente,3,19,0.017355,Asesor 3,asesor,15.789474
+Contaduría Pública,Virtual,20252,Documentación pendiente,1,6,0.009865,Asesor 3,asesor,16.666667
+Contaduría Pública,Virtual,20261,Documentación pendiente,3,16,0.017903,Asesor 3,asesor,18.750000
+Contaduría Pública,Virtual,20262,Documentación pendiente,3,24,0.017355,Asesor 3,asesor,12.500000
+Derecho,Híbrida,20252,Documentación pendiente,0,10,0.009134,Asesor 3,asesor,0.000000
+Derecho,Híbrida,20261,Documentación pendiente,2,19,0.018816,Asesor 3,asesor,10.526316
+Derecho,Híbrida,20262,Documentación pendiente,0,27,0.017355,Asesor 3,asesor,0.000000
+Derecho,Presencial,20252,Documentación pendiente,2,17,0.015893,Asesor 3,asesor,11.764706
+Derecho,Presencial,20261,Documentación pendiente,3,41,0.039094,Asesor 3,asesor,7.317073
+Derecho,Presencial,20262,Documentación pendiente,6,44,0.033431,Asesor 3,asesor,13.636364
+Derecho,Virtual,20252,Documentación pendiente,2,14,0.016989,Asesor 3,asesor,14.285714
+Derecho,Virtual,20261,Documentación pendiente,4,44,0.036719,Asesor 3,asesor,9.090909
+Derecho,Virtual,20262,Documentación pendiente,6,44,0.037815,Asesor 3,asesor,13.636364
+Especialización en Data Analytics,Híbrida,20252,Documentación pendiente,0,15,0.009499,Asesor 3,asesor,0.000000
+Especialización en Data Analytics,Híbrida,20261,Documentación pendiente,4,22,0.014615,Asesor 3,asesor,18.181818
+Especialización en Data Analytics,Híbrida,20262,Documentación pendiente,1,24,0.021374,Asesor 3,asesor,4.166667
+Especialización en Data Analytics,Presencial,20252,Documentación pendiente,1,13,0.016989,Asesor 3,asesor,7.692308
+Especialización en Data Analytics,Presencial,20261,Documentación pendiente,4,32,0.037815,Asesor 3,asesor,12.500000
+Especialización en Data Analytics,Presencial,20262,Documentación pendiente,9,32,0.039094,Asesor 3,asesor,28.125000
+Especialización en Data Analytics,Virtual,20252,Documentación pendiente,5,16,0.015711,Asesor 3,asesor,31.250000
+Especialización en Data Analytics,Virtual,20261,Documentación pendiente,3,35,0.032517,Asesor 3,asesor,8.571429
+Especialización en Data Analytics,Virtual,20262,Documentación pendiente,5,46,0.034527,Asesor 3,asesor,10.869565
+Especialización en Gerencia,Híbrida,20252,Documentación pendiente,2,10,0.005480,Asesor 3,asesor,20.000000
+Especialización en Gerencia,Híbrida,20261,Documentación pendiente,0,8,0.009499,Asesor 3,asesor,0.000000
+Especialización en Gerencia,Híbrida,20262,Documentación pendiente,2,7,0.009499,Asesor 3,asesor,28.571429
+Especialización en Gerencia,Presencial,20252,Documentación pendiente,1,8,0.008769,Asesor 3,asesor,12.500000
+Especialización en Gerencia,Presencial,20261,Documentación pendiente,1,23,0.017720,Asesor 3,asesor,4.347826
+Especialización en Gerencia,Presencial,20262,Documentación pendiente,3,18,0.016076,Asesor 3,asesor,16.666667
+Especialización en Gerencia,Virtual,20252,Documentación pendiente,2,14,0.009134,Asesor 3,asesor,14.285714
+Especialización en Gerencia,Virtual,20261,Documentación pendiente,0,16,0.018999,Asesor 3,asesor,0.000000
+Especialización en Gerencia,Virtual,20262,Documentación pendiente,1,17,0.015345,Asesor 3,asesor,5.882353
+Ingeniería de Sistemas,Híbrida,20252,Documentación pendiente,0,2,0.005115,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Documentación pendiente,0,9,0.009682,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20262,Documentación pendiente,1,9,0.008586,Asesor 3,asesor,11.111111
+Ingeniería de Sistemas,Presencial,20252,Documentación pendiente,0,10,0.009317,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20261,Documentación pendiente,3,26,0.020643,Asesor 3,asesor,11.538462
+Ingeniería de Sistemas,Presencial,20262,Documentación pendiente,2,18,0.018816,Asesor 3,asesor,11.111111
+Ingeniería de Sistemas,Virtual,20252,Documentación pendiente,0,6,0.009865,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Virtual,20261,Documentación pendiente,0,21,0.016076,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Virtual,20262,Documentación pendiente,2,13,0.016989,Asesor 3,asesor,15.384615
+Psicología,Híbrida,20252,Documentación pendiente,0,1,0.003654,Asesor 3,asesor,0.000000
+Psicología,Híbrida,20261,Documentación pendiente,3,12,0.009499,Asesor 3,asesor,25.000000
+Psicología,Híbrida,20262,Documentación pendiente,1,10,0.009317,Asesor 3,asesor,10.000000
+Psicología,Presencial,20252,Documentación pendiente,0,7,0.008769,Asesor 3,asesor,0.000000
+Psicología,Presencial,20261,Documentación pendiente,1,20,0.017172,Asesor 3,asesor,5.000000
+Psicología,Presencial,20262,Documentación pendiente,1,18,0.013701,Asesor 3,asesor,5.555556
+Psicología,Virtual,20252,Documentación pendiente,1,5,0.007307,Asesor 3,asesor,20.000000
+Psicología,Virtual,20261,Documentación pendiente,5,22,0.020278,Asesor 3,asesor,22.727273
+Psicología,Virtual,20262,Documentación pendiente,1,16,0.018999,Asesor 3,asesor,6.250000
+Administración de Empresas,Híbrida,20252,Inscrito,1,6,0.003106,Asesor 3,asesor,16.666667
+Administración de Empresas,Híbrida,20261,Inscrito,2,9,0.010047,Asesor 3,asesor,22.222222
+Administración de Empresas,Híbrida,20262,Inscrito,0,11,0.008769,Asesor 3,asesor,0.000000
+Administración de Empresas,Presencial,20252,Inscrito,3,9,0.008586,Asesor 3,asesor,33.333333
+Administración de Empresas,Presencial,20261,Inscrito,1,13,0.016076,Asesor 3,asesor,7.692308
+Administración de Empresas,Presencial,20262,Inscrito,1,12,0.015163,Asesor 3,asesor,8.333333
+Administración de Empresas,Virtual,20252,Inscrito,1,12,0.007673,Asesor 3,asesor,8.333333
+Administración de Empresas,Virtual,20261,Inscrito,2,21,0.017903,Asesor 3,asesor,9.523810
+Administración de Empresas,Virtual,20262,Inscrito,2,23,0.018999,Asesor 3,asesor,8.695652
+Contaduría Pública,Híbrida,20252,Inscrito,0,5,0.004932,Asesor 3,asesor,0.000000
+Contaduría Pública,Híbrida,20261,Inscrito,0,6,0.008038,Asesor 3,asesor,0.000000
+Contaduría Pública,Híbrida,20262,Inscrito,1,13,0.008951,Asesor 3,asesor,7.692308
+Contaduría Pública,Presencial,20252,Inscrito,3,13,0.008951,Asesor 3,asesor,23.076923
+Contaduría Pública,Presencial,20261,Inscrito,5,22,0.018634,Asesor 3,asesor,22.727273
+Contaduría Pública,Presencial,20262,Inscrito,0,19,0.017355,Asesor 3,asesor,0.000000
+Contaduría Pública,Virtual,20252,Inscrito,1,6,0.009865,Asesor 3,asesor,16.666667
+Contaduría Pública,Virtual,20261,Inscrito,1,16,0.017903,Asesor 3,asesor,6.250000
+Contaduría Pública,Virtual,20262,Inscrito,1,24,0.017355,Asesor 3,asesor,4.166667
+Derecho,Híbrida,20252,Inscrito,0,10,0.009134,Asesor 3,asesor,0.000000
+Derecho,Híbrida,20261,Inscrito,2,19,0.018816,Asesor 3,asesor,10.526316
+Derecho,Híbrida,20262,Inscrito,4,27,0.017355,Asesor 3,asesor,14.814815
+Derecho,Presencial,20252,Inscrito,0,17,0.015893,Asesor 3,asesor,0.000000
+Derecho,Presencial,20261,Inscrito,4,41,0.039094,Asesor 3,asesor,9.756098
+Derecho,Presencial,20262,Inscrito,5,44,0.033431,Asesor 3,asesor,11.363636
+Derecho,Virtual,20252,Inscrito,2,14,0.016989,Asesor 3,asesor,14.285714
+Derecho,Virtual,20261,Inscrito,6,44,0.036719,Asesor 3,asesor,13.636364
+Derecho,Virtual,20262,Inscrito,3,44,0.037815,Asesor 3,asesor,6.818182
+Especialización en Data Analytics,Híbrida,20252,Inscrito,1,15,0.009499,Asesor 3,asesor,6.666667
+Especialización en Data Analytics,Híbrida,20261,Inscrito,1,22,0.014615,Asesor 3,asesor,4.545455
+Especialización en Data Analytics,Híbrida,20262,Inscrito,5,24,0.021374,Asesor 3,asesor,20.833333
+Especialización en Data Analytics,Presencial,20252,Inscrito,2,13,0.016989,Asesor 3,asesor,15.384615
+Especialización en Data Analytics,Presencial,20261,Inscrito,3,32,0.037815,Asesor 3,asesor,9.375000
+Especialización en Data Analytics,Presencial,20262,Inscrito,2,32,0.039094,Asesor 3,asesor,6.250000
+Especialización en Data Analytics,Virtual,20252,Inscrito,1,16,0.015711,Asesor 3,asesor,6.250000
+Especialización en Data Analytics,Virtual,20261,Inscrito,5,35,0.032517,Asesor 3,asesor,14.285714
+Especialización en Data Analytics,Virtual,20262,Inscrito,5,46,0.034527,Asesor 3,asesor,10.869565
+Especialización en Gerencia,Híbrida,20252,Inscrito,1,10,0.005480,Asesor 3,asesor,10.000000
+Especialización en Gerencia,Híbrida,20261,Inscrito,0,8,0.009499,Asesor 3,asesor,0.000000
+Especialización en Gerencia,Híbrida,20262,Inscrito,0,7,0.009499,Asesor 3,asesor,0.000000
+Especialización en Gerencia,Presencial,20252,Inscrito,2,8,0.008769,Asesor 3,asesor,25.000000
+Especialización en Gerencia,Presencial,20261,Inscrito,2,23,0.017720,Asesor 3,asesor,8.695652
+Especialización en Gerencia,Presencial,20262,Inscrito,1,18,0.016076,Asesor 3,asesor,5.555556
+Especialización en Gerencia,Virtual,20252,Inscrito,1,14,0.009134,Asesor 3,asesor,7.142857
+Especialización en Gerencia,Virtual,20261,Inscrito,1,16,0.018999,Asesor 3,asesor,6.250000
+Especialización en Gerencia,Virtual,20262,Inscrito,3,17,0.015345,Asesor 3,asesor,17.647059
+Ingeniería de Sistemas,Híbrida,20252,Inscrito,0,2,0.005115,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Inscrito,0,9,0.009682,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20262,Inscrito,0,9,0.008586,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20252,Inscrito,1,10,0.009317,Asesor 3,asesor,10.000000
+Ingeniería de Sistemas,Presencial,20261,Inscrito,4,26,0.020643,Asesor 3,asesor,15.384615
+Ingeniería de Sistemas,Presencial,20262,Inscrito,3,18,0.018816,Asesor 3,asesor,16.666667
+Ingeniería de Sistemas,Virtual,20252,Inscrito,0,6,0.009865,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Virtual,20261,Inscrito,6,21,0.016076,Asesor 3,asesor,28.571429
+Ingeniería de Sistemas,Virtual,20262,Inscrito,1,13,0.016989,Asesor 3,asesor,7.692308
+Psicología,Híbrida,20252,Inscrito,0,1,0.003654,Asesor 3,asesor,0.000000
+Psicología,Híbrida,20261,Inscrito,1,12,0.009499,Asesor 3,asesor,8.333333
+Psicología,Híbrida,20262,Inscrito,1,10,0.009317,Asesor 3,asesor,10.000000
+Psicología,Presencial,20252,Inscrito,1,7,0.008769,Asesor 3,asesor,14.285714
+Psicología,Presencial,20261,Inscrito,2,20,0.017172,Asesor 3,asesor,10.000000
+Psicología,Presencial,20262,Inscrito,4,18,0.013701,Asesor 3,asesor,22.222222
+Psicología,Virtual,20252,Inscrito,0,5,0.007307,Asesor 3,asesor,0.000000
+Psicología,Virtual,20261,Inscrito,0,22,0.020278,Asesor 3,asesor,0.000000
+Psicología,Virtual,20262,Inscrito,3,16,0.018999,Asesor 3,asesor,18.750000
+Administración de Empresas,Híbrida,20252,Matriculado,3,6,0.003106,Asesor 3,asesor,50.000000
+Administración de Empresas,Híbrida,20261,Matriculado,0,9,0.010047,Asesor 3,asesor,0.000000
+Administración de Empresas,Híbrida,20262,Matriculado,3,11,0.008769,Asesor 3,asesor,27.272727
+Administración de Empresas,Presencial,20252,Matriculado,5,9,0.008586,Asesor 3,asesor,55.555556
+Administración de Empresas,Presencial,20261,Matriculado,3,13,0.016076,Asesor 3,asesor,23.076923
+Administración de Empresas,Presencial,20262,Matriculado,3,12,0.015163,Asesor 3,asesor,25.000000
+Administración de Empresas,Virtual,20252,Matriculado,4,12,0.007673,Asesor 3,asesor,33.333333
+Administración de Empresas,Virtual,20261,Matriculado,8,21,0.017903,Asesor 3,asesor,38.095238
+Administración de Empresas,Virtual,20262,Matriculado,5,23,0.018999,Asesor 3,asesor,21.739130
+Contaduría Pública,Híbrida,20252,Matriculado,1,5,0.004932,Asesor 3,asesor,20.000000
+Contaduría Pública,Híbrida,20261,Matriculado,1,6,0.008038,Asesor 3,asesor,16.666667
+Contaduría Pública,Híbrida,20262,Matriculado,3,13,0.008951,Asesor 3,asesor,23.076923
+Contaduría Pública,Presencial,20252,Matriculado,2,13,0.008951,Asesor 3,asesor,15.384615
+Contaduría Pública,Presencial,20261,Matriculado,8,22,0.018634,Asesor 3,asesor,36.363636
+Contaduría Pública,Presencial,20262,Matriculado,9,19,0.017355,Asesor 3,asesor,47.368421
+Contaduría Pública,Virtual,20252,Matriculado,0,6,0.009865,Asesor 3,asesor,0.000000
+Contaduría Pública,Virtual,20261,Matriculado,4,16,0.017903,Asesor 3,asesor,25.000000
+Contaduría Pública,Virtual,20262,Matriculado,10,24,0.017355,Asesor 3,asesor,41.666667
+Derecho,Híbrida,20252,Matriculado,3,10,0.009134,Asesor 3,asesor,30.000000
+Derecho,Híbrida,20261,Matriculado,1,19,0.018816,Asesor 3,asesor,5.263158
+Derecho,Híbrida,20262,Matriculado,7,27,0.017355,Asesor 3,asesor,25.925926
+Derecho,Presencial,20252,Matriculado,3,17,0.015893,Asesor 3,asesor,17.647059
+Derecho,Presencial,20261,Matriculado,10,41,0.039094,Asesor 3,asesor,24.390244
+Derecho,Presencial,20262,Matriculado,7,44,0.033431,Asesor 3,asesor,15.909091
+Derecho,Virtual,20252,Matriculado,3,14,0.016989,Asesor 3,asesor,21.428571
+Derecho,Virtual,20261,Matriculado,10,44,0.036719,Asesor 3,asesor,22.727273
+Derecho,Virtual,20262,Matriculado,5,44,0.037815,Asesor 3,asesor,11.363636
+Especialización en Data Analytics,Híbrida,20252,Matriculado,3,15,0.009499,Asesor 3,asesor,20.000000
+Especialización en Data Analytics,Híbrida,20261,Matriculado,5,22,0.014615,Asesor 3,asesor,22.727273
+Especialización en Data Analytics,Híbrida,20262,Matriculado,7,24,0.021374,Asesor 3,asesor,29.166667
+Especialización en Data Analytics,Presencial,20252,Matriculado,3,13,0.016989,Asesor 3,asesor,23.076923
+Especialización en Data Analytics,Presencial,20261,Matriculado,5,32,0.037815,Asesor 3,asesor,15.625000
+Especialización en Data Analytics,Presencial,20262,Matriculado,4,32,0.039094,Asesor 3,asesor,12.500000
+Especialización en Data Analytics,Virtual,20252,Matriculado,4,16,0.015711,Asesor 3,asesor,25.000000
+Especialización en Data Analytics,Virtual,20261,Matriculado,5,35,0.032517,Asesor 3,asesor,14.285714
+Especialización en Data Analytics,Virtual,20262,Matriculado,14,46,0.034527,Asesor 3,asesor,30.434783
+Especialización en Gerencia,Híbrida,20252,Matriculado,2,10,0.005480,Asesor 3,asesor,20.000000
+Especialización en Gerencia,Híbrida,20261,Matriculado,1,8,0.009499,Asesor 3,asesor,12.500000
+Especialización en Gerencia,Híbrida,20262,Matriculado,2,7,0.009499,Asesor 3,asesor,28.571429
+Especialización en Gerencia,Presencial,20252,Matriculado,1,8,0.008769,Asesor 3,asesor,12.500000
+Especialización en Gerencia,Presencial,20261,Matriculado,3,23,0.017720,Asesor 3,asesor,13.043478
+Especialización en Gerencia,Presencial,20262,Matriculado,4,18,0.016076,Asesor 3,asesor,22.222222
+Especialización en Gerencia,Virtual,20252,Matriculado,0,14,0.009134,Asesor 3,asesor,0.000000
+Especialización en Gerencia,Virtual,20261,Matriculado,5,16,0.018999,Asesor 3,asesor,31.250000
+Especialización en Gerencia,Virtual,20262,Matriculado,5,17,0.015345,Asesor 3,asesor,29.411765
+Ingeniería de Sistemas,Híbrida,20252,Matriculado,0,2,0.005115,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Matriculado,5,9,0.009682,Asesor 3,asesor,55.555556
+Ingeniería de Sistemas,Híbrida,20262,Matriculado,2,9,0.008586,Asesor 3,asesor,22.222222
+Ingeniería de Sistemas,Presencial,20252,Matriculado,1,10,0.009317,Asesor 3,asesor,10.000000
+Ingeniería de Sistemas,Presencial,20261,Matriculado,5,26,0.020643,Asesor 3,asesor,19.230769
+Ingeniería de Sistemas,Presencial,20262,Matriculado,4,18,0.018816,Asesor 3,asesor,22.222222
+Ingeniería de Sistemas,Virtual,20252,Matriculado,1,6,0.009865,Asesor 3,asesor,16.666667
+Ingeniería de Sistemas,Virtual,20261,Matriculado,5,21,0.016076,Asesor 3,asesor,23.809524
+Ingeniería de Sistemas,Virtual,20262,Matriculado,6,13,0.016989,Asesor 3,asesor,46.153846
+Psicología,Híbrida,20252,Matriculado,0,1,0.003654,Asesor 3,asesor,0.000000
+Psicología,Híbrida,20261,Matriculado,4,12,0.009499,Asesor 3,asesor,33.333333
+Psicología,Híbrida,20262,Matriculado,6,10,0.009317,Asesor 3,asesor,60.000000
+Psicología,Presencial,20252,Matriculado,1,7,0.008769,Asesor 3,asesor,14.285714
+Psicología,Presencial,20261,Matriculado,5,20,0.017172,Asesor 3,asesor,25.000000
+Psicología,Presencial,20262,Matriculado,2,18,0.013701,Asesor 3,asesor,11.111111
+Psicología,Virtual,20252,Matriculado,0,5,0.007307,Asesor 3,asesor,0.000000
+Psicología,Virtual,20261,Matriculado,4,22,0.020278,Asesor 3,asesor,18.181818
+Psicología,Virtual,20262,Matriculado,6,16,0.018999,Asesor 3,asesor,37.500000
+Administración de Empresas,Híbrida,20252,No admitido,0,6,0.003106,Asesor 3,asesor,0.000000
+Administración de Empresas,Híbrida,20261,No admitido,0,9,0.010047,Asesor 3,asesor,0.000000
+Administración de Empresas,Híbrida,20262,No admitido,1,11,0.008769,Asesor 3,asesor,9.090909
+Administración de Empresas,Presencial,20252,No admitido,0,9,0.008586,Asesor 3,asesor,0.000000
+Administración de Empresas,Presencial,20261,No admitido,0,13,0.016076,Asesor 3,asesor,0.000000
+Administración de Empresas,Presencial,20262,No admitido,0,12,0.015163,Asesor 3,asesor,0.000000
+Administración de Empresas,Virtual,20252,No admitido,0,12,0.007673,Asesor 3,asesor,0.000000
+Administración de Empresas,Virtual,20261,No admitido,1,21,0.017903,Asesor 3,asesor,4.761905
+Administración de Empresas,Virtual,20262,No admitido,3,23,0.018999,Asesor 3,asesor,13.043478
+Contaduría Pública,Híbrida,20252,No admitido,0,5,0.004932,Asesor 3,asesor,0.000000
+Contaduría Pública,Híbrida,20261,No admitido,1,6,0.008038,Asesor 3,asesor,16.666667
+Contaduría Pública,Híbrida,20262,No admitido,1,13,0.008951,Asesor 3,asesor,7.692308
+Contaduría Pública,Presencial,20252,No admitido,1,13,0.008951,Asesor 3,asesor,7.692308
+Contaduría Pública,Presencial,20261,No admitido,2,22,0.018634,Asesor 3,asesor,9.090909
+Contaduría Pública,Presencial,20262,No admitido,1,19,0.017355,Asesor 3,asesor,5.263158
+Contaduría Pública,Virtual,20252,No admitido,0,6,0.009865,Asesor 3,asesor,0.000000
+Contaduría Pública,Virtual,20261,No admitido,2,16,0.017903,Asesor 3,asesor,12.500000
+Contaduría Pública,Virtual,20262,No admitido,5,24,0.017355,Asesor 3,asesor,20.833333
+Derecho,Híbrida,20252,No admitido,1,10,0.009134,Asesor 3,asesor,10.000000
+Derecho,Híbrida,20261,No admitido,2,19,0.018816,Asesor 3,asesor,10.526316
+Derecho,Híbrida,20262,No admitido,5,27,0.017355,Asesor 3,asesor,18.518519
+Derecho,Presencial,20252,No admitido,3,17,0.015893,Asesor 3,asesor,17.647059
+Derecho,Presencial,20261,No admitido,7,41,0.039094,Asesor 3,asesor,17.073171
+Derecho,Presencial,20262,No admitido,3,44,0.033431,Asesor 3,asesor,6.818182
+Derecho,Virtual,20252,No admitido,1,14,0.016989,Asesor 3,asesor,7.142857
+Derecho,Virtual,20261,No admitido,4,44,0.036719,Asesor 3,asesor,9.090909
+Derecho,Virtual,20262,No admitido,4,44,0.037815,Asesor 3,asesor,9.090909
+Especialización en Data Analytics,Híbrida,20252,No admitido,0,15,0.009499,Asesor 3,asesor,0.000000
+Especialización en Data Analytics,Híbrida,20261,No admitido,2,22,0.014615,Asesor 3,asesor,9.090909
+Especialización en Data Analytics,Híbrida,20262,No admitido,3,24,0.021374,Asesor 3,asesor,12.500000
+Especialización en Data Analytics,Presencial,20252,No admitido,1,13,0.016989,Asesor 3,asesor,7.692308
+Especialización en Data Analytics,Presencial,20261,No admitido,4,32,0.037815,Asesor 3,asesor,12.500000
+Especialización en Data Analytics,Presencial,20262,No admitido,4,32,0.039094,Asesor 3,asesor,12.500000
+Especialización en Data Analytics,Virtual,20252,No admitido,1,16,0.015711,Asesor 3,asesor,6.250000
+Especialización en Data Analytics,Virtual,20261,No admitido,8,35,0.032517,Asesor 3,asesor,22.857143
+Especialización en Data Analytics,Virtual,20262,No admitido,9,46,0.034527,Asesor 3,asesor,19.565217
+Especialización en Gerencia,Híbrida,20252,No admitido,0,10,0.005480,Asesor 3,asesor,0.000000
+Especialización en Gerencia,Híbrida,20261,No admitido,0,8,0.009499,Asesor 3,asesor,0.000000
+Especialización en Gerencia,Híbrida,20262,No admitido,0,7,0.009499,Asesor 3,asesor,0.000000
+Especialización en Gerencia,Presencial,20252,No admitido,1,8,0.008769,Asesor 3,asesor,12.500000
+Especialización en Gerencia,Presencial,20261,No admitido,5,23,0.017720,Asesor 3,asesor,21.739130
+Especialización en Gerencia,Presencial,20262,No admitido,2,18,0.016076,Asesor 3,asesor,11.111111
+Especialización en Gerencia,Virtual,20252,No admitido,3,14,0.009134,Asesor 3,asesor,21.428571
+Especialización en Gerencia,Virtual,20261,No admitido,0,16,0.018999,Asesor 3,asesor,0.000000
+Especialización en Gerencia,Virtual,20262,No admitido,0,17,0.015345,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20252,No admitido,0,2,0.005115,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20261,No admitido,1,9,0.009682,Asesor 3,asesor,11.111111
+Ingeniería de Sistemas,Híbrida,20262,No admitido,0,9,0.008586,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20252,No admitido,1,10,0.009317,Asesor 3,asesor,10.000000
+Ingeniería de Sistemas,Presencial,20261,No admitido,4,26,0.020643,Asesor 3,asesor,15.384615
+Ingeniería de Sistemas,Presencial,20262,No admitido,3,18,0.018816,Asesor 3,asesor,16.666667
+Ingeniería de Sistemas,Virtual,20252,No admitido,1,6,0.009865,Asesor 3,asesor,16.666667
+Ingeniería de Sistemas,Virtual,20261,No admitido,2,21,0.016076,Asesor 3,asesor,9.523810
+Ingeniería de Sistemas,Virtual,20262,No admitido,0,13,0.016989,Asesor 3,asesor,0.000000
+Psicología,Híbrida,20252,No admitido,0,1,0.003654,Asesor 3,asesor,0.000000
+Psicología,Híbrida,20261,No admitido,2,12,0.009499,Asesor 3,asesor,16.666667
+Psicología,Híbrida,20262,No admitido,1,10,0.009317,Asesor 3,asesor,10.000000
+Psicología,Presencial,20252,No admitido,0,7,0.008769,Asesor 3,asesor,0.000000
+Psicología,Presencial,20261,No admitido,3,20,0.017172,Asesor 3,asesor,15.000000
+Psicología,Presencial,20262,No admitido,3,18,0.013701,Asesor 3,asesor,16.666667
+Psicología,Virtual,20252,No admitido,1,5,0.007307,Asesor 3,asesor,20.000000
+Psicología,Virtual,20261,No admitido,1,22,0.020278,Asesor 3,asesor,4.545455
+Psicología,Virtual,20262,No admitido,2,16,0.018999,Asesor 3,asesor,12.500000
+Administración de Empresas,Híbrida,20252,Retirado,1,6,0.003106,Asesor 3,asesor,16.666667
+Administración de Empresas,Híbrida,20261,Retirado,1,9,0.010047,Asesor 3,asesor,11.111111
+Administración de Empresas,Híbrida,20262,Retirado,3,11,0.008769,Asesor 3,asesor,27.272727
+Administración de Empresas,Presencial,20252,Retirado,0,9,0.008586,Asesor 3,asesor,0.000000
+Administración de Empresas,Presencial,20261,Retirado,6,13,0.016076,Asesor 3,asesor,46.153846
+Administración de Empresas,Presencial,20262,Retirado,1,12,0.015163,Asesor 3,asesor,8.333333
+Administración de Empresas,Virtual,20252,Retirado,3,12,0.007673,Asesor 3,asesor,25.000000
+Administración de Empresas,Virtual,20261,Retirado,0,21,0.017903,Asesor 3,asesor,0.000000
+Administración de Empresas,Virtual,20262,Retirado,1,23,0.018999,Asesor 3,asesor,4.347826
+Contaduría Pública,Híbrida,20252,Retirado,0,5,0.004932,Asesor 3,asesor,0.000000
+Contaduría Pública,Híbrida,20261,Retirado,1,6,0.008038,Asesor 3,asesor,16.666667
+Contaduría Pública,Híbrida,20262,Retirado,1,13,0.008951,Asesor 3,asesor,7.692308
+Contaduría Pública,Presencial,20252,Retirado,2,13,0.008951,Asesor 3,asesor,15.384615
+Contaduría Pública,Presencial,20261,Retirado,1,22,0.018634,Asesor 3,asesor,4.545455
+Contaduría Pública,Presencial,20262,Retirado,1,19,0.017355,Asesor 3,asesor,5.263158
+Contaduría Pública,Virtual,20252,Retirado,0,6,0.009865,Asesor 3,asesor,0.000000
+Contaduría Pública,Virtual,20261,Retirado,1,16,0.017903,Asesor 3,asesor,6.250000
+Contaduría Pública,Virtual,20262,Retirado,3,24,0.017355,Asesor 3,asesor,12.500000
+Derecho,Híbrida,20252,Retirado,3,10,0.009134,Asesor 3,asesor,30.000000
+Derecho,Híbrida,20261,Retirado,6,19,0.018816,Asesor 3,asesor,31.578947
+Derecho,Híbrida,20262,Retirado,4,27,0.017355,Asesor 3,asesor,14.814815
+Derecho,Presencial,20252,Retirado,0,17,0.015893,Asesor 3,asesor,0.000000
+Derecho,Presencial,20261,Retirado,1,41,0.039094,Asesor 3,asesor,2.439024
+Derecho,Presencial,20262,Retirado,7,44,0.033431,Asesor 3,asesor,15.909091
+Derecho,Virtual,20252,Retirado,0,14,0.016989,Asesor 3,asesor,0.000000
+Derecho,Virtual,20261,Retirado,3,44,0.036719,Asesor 3,asesor,6.818182
+Derecho,Virtual,20262,Retirado,9,44,0.037815,Asesor 3,asesor,20.454545
+Especialización en Data Analytics,Híbrida,20252,Retirado,2,15,0.009499,Asesor 3,asesor,13.333333
+Especialización en Data Analytics,Híbrida,20261,Retirado,3,22,0.014615,Asesor 3,asesor,13.636364
+Especialización en Data Analytics,Híbrida,20262,Retirado,1,24,0.021374,Asesor 3,asesor,4.166667
+Especialización en Data Analytics,Presencial,20252,Retirado,1,13,0.016989,Asesor 3,asesor,7.692308
+Especialización en Data Analytics,Presencial,20261,Retirado,2,32,0.037815,Asesor 3,asesor,6.250000
+Especialización en Data Analytics,Presencial,20262,Retirado,1,32,0.039094,Asesor 3,asesor,3.125000
+Especialización en Data Analytics,Virtual,20252,Retirado,2,16,0.015711,Asesor 3,asesor,12.500000
+Especialización en Data Analytics,Virtual,20261,Retirado,4,35,0.032517,Asesor 3,asesor,11.428571
+Especialización en Data Analytics,Virtual,20262,Retirado,0,46,0.034527,Asesor 3,asesor,0.000000
+Especialización en Gerencia,Híbrida,20252,Retirado,0,10,0.005480,Asesor 3,asesor,0.000000
+Especialización en Gerencia,Híbrida,20261,Retirado,1,8,0.009499,Asesor 3,asesor,12.500000
+Especialización en Gerencia,Híbrida,20262,Retirado,1,7,0.009499,Asesor 3,asesor,14.285714
+Especialización en Gerencia,Presencial,20252,Retirado,3,8,0.008769,Asesor 3,asesor,37.500000
+Especialización en Gerencia,Presencial,20261,Retirado,2,23,0.017720,Asesor 3,asesor,8.695652
+Especialización en Gerencia,Presencial,20262,Retirado,3,18,0.016076,Asesor 3,asesor,16.666667
+Especialización en Gerencia,Virtual,20252,Retirado,0,14,0.009134,Asesor 3,asesor,0.000000
+Especialización en Gerencia,Virtual,20261,Retirado,1,16,0.018999,Asesor 3,asesor,6.250000
+Especialización en Gerencia,Virtual,20262,Retirado,2,17,0.015345,Asesor 3,asesor,11.764706
+Ingeniería de Sistemas,Híbrida,20252,Retirado,0,2,0.005115,Asesor 3,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Retirado,1,9,0.009682,Asesor 3,asesor,11.111111
+Ingeniería de Sistemas,Híbrida,20262,Retirado,3,9,0.008586,Asesor 3,asesor,33.333333
+Ingeniería de Sistemas,Presencial,20252,Retirado,3,10,0.009317,Asesor 3,asesor,30.000000
+Ingeniería de Sistemas,Presencial,20261,Retirado,2,26,0.020643,Asesor 3,asesor,7.692308
+Ingeniería de Sistemas,Presencial,20262,Retirado,1,18,0.018816,Asesor 3,asesor,5.555556
+Ingeniería de Sistemas,Virtual,20252,Retirado,1,6,0.009865,Asesor 3,asesor,16.666667
+Ingeniería de Sistemas,Virtual,20261,Retirado,2,21,0.016076,Asesor 3,asesor,9.523810
+Ingeniería de Sistemas,Virtual,20262,Retirado,1,13,0.016989,Asesor 3,asesor,7.692308
+Psicología,Híbrida,20252,Retirado,0,1,0.003654,Asesor 3,asesor,0.000000
+Psicología,Híbrida,20261,Retirado,1,12,0.009499,Asesor 3,asesor,8.333333
+Psicología,Híbrida,20262,Retirado,0,10,0.009317,Asesor 3,asesor,0.000000
+Psicología,Presencial,20252,Retirado,0,7,0.008769,Asesor 3,asesor,0.000000
+Psicología,Presencial,20261,Retirado,0,20,0.017172,Asesor 3,asesor,0.000000
+Psicología,Presencial,20262,Retirado,3,18,0.013701,Asesor 3,asesor,16.666667
+Psicología,Virtual,20252,Retirado,2,5,0.007307,Asesor 3,asesor,40.000000
+Psicología,Virtual,20261,Retirado,4,22,0.020278,Asesor 3,asesor,18.181818
+Psicología,Virtual,20262,Retirado,1,16,0.018999,Asesor 3,asesor,6.250000
+Administración de Empresas,Híbrida,20252,Admitido,2,4,0.003106,Sin asignar,asesor,50.000000
+Administración de Empresas,Híbrida,20261,Admitido,2,10,0.010047,Sin asignar,asesor,20.000000
+Administración de Empresas,Híbrida,20262,Admitido,4,9,0.008769,Sin asignar,asesor,44.444444
+Administración de Empresas,Presencial,20252,Admitido,2,6,0.008586,Sin asignar,asesor,33.333333
+Administración de Empresas,Presencial,20261,Admitido,10,23,0.016076,Sin asignar,asesor,43.478261
+Administración de Empresas,Presencial,20262,Admitido,18,23,0.015163,Sin asignar,asesor,78.260870
+Administración de Empresas,Virtual,20252,Admitido,6,13,0.007673,Sin asignar,asesor,46.153846
+Administración de Empresas,Virtual,20261,Admitido,4,25,0.017903,Sin asignar,asesor,16.000000
+Administración de Empresas,Virtual,20262,Admitido,11,20,0.018999,Sin asignar,asesor,55.000000
+Contaduría Pública,Híbrida,20252,Admitido,3,8,0.004932,Sin asignar,asesor,37.500000
+Contaduría Pública,Híbrida,20261,Admitido,1,6,0.008038,Sin asignar,asesor,16.666667
+Contaduría Pública,Híbrida,20262,Admitido,2,5,0.008951,Sin asignar,asesor,40.000000
+Contaduría Pública,Presencial,20252,Admitido,3,9,0.008951,Sin asignar,asesor,33.333333
+Contaduría Pública,Presencial,20261,Admitido,7,24,0.018634,Sin asignar,asesor,29.166667
+Contaduría Pública,Presencial,20262,Admitido,7,25,0.017355,Sin asignar,asesor,28.000000
+Contaduría Pública,Virtual,20252,Admitido,4,10,0.009865,Sin asignar,asesor,40.000000
+Contaduría Pública,Virtual,20261,Admitido,5,20,0.017903,Sin asignar,asesor,25.000000
+Contaduría Pública,Virtual,20262,Admitido,9,24,0.017355,Sin asignar,asesor,37.500000
+Derecho,Híbrida,20252,Admitido,5,10,0.009134,Sin asignar,asesor,50.000000
+Derecho,Híbrida,20261,Admitido,8,20,0.018816,Sin asignar,asesor,40.000000
+Derecho,Híbrida,20262,Admitido,5,15,0.017355,Sin asignar,asesor,33.333333
+Derecho,Presencial,20252,Admitido,7,25,0.015893,Sin asignar,asesor,28.000000
+Derecho,Presencial,20261,Admitido,11,38,0.039094,Sin asignar,asesor,28.947368
+Derecho,Presencial,20262,Admitido,11,31,0.033431,Sin asignar,asesor,35.483871
+Derecho,Virtual,20252,Admitido,6,16,0.016989,Sin asignar,asesor,37.500000
+Derecho,Virtual,20261,Admitido,11,39,0.036719,Sin asignar,asesor,28.205128
+Derecho,Virtual,20262,Admitido,9,31,0.037815,Sin asignar,asesor,29.032258
+Especialización en Data Analytics,Híbrida,20252,Admitido,3,13,0.009499,Sin asignar,asesor,23.076923
+Especialización en Data Analytics,Híbrida,20261,Admitido,5,18,0.014615,Sin asignar,asesor,27.777778
+Especialización en Data Analytics,Híbrida,20262,Admitido,4,20,0.021374,Sin asignar,asesor,20.000000
+Especialización en Data Analytics,Presencial,20252,Admitido,9,21,0.016989,Sin asignar,asesor,42.857143
+Especialización en Data Analytics,Presencial,20261,Admitido,10,46,0.037815,Sin asignar,asesor,21.739130
+Especialización en Data Analytics,Presencial,20262,Admitido,11,41,0.039094,Sin asignar,asesor,26.829268
+Especialización en Data Analytics,Virtual,20252,Admitido,4,16,0.015711,Sin asignar,asesor,25.000000
+Especialización en Data Analytics,Virtual,20261,Admitido,10,37,0.032517,Sin asignar,asesor,27.027027
+Especialización en Data Analytics,Virtual,20262,Admitido,18,42,0.034527,Sin asignar,asesor,42.857143
+Especialización en Gerencia,Híbrida,20252,Admitido,2,3,0.005480,Sin asignar,asesor,66.666667
+Especialización en Gerencia,Híbrida,20261,Admitido,6,14,0.009499,Sin asignar,asesor,42.857143
+Especialización en Gerencia,Híbrida,20262,Admitido,4,9,0.009499,Sin asignar,asesor,44.444444
+Especialización en Gerencia,Presencial,20252,Admitido,6,11,0.008769,Sin asignar,asesor,54.545455
+Especialización en Gerencia,Presencial,20261,Admitido,6,14,0.017720,Sin asignar,asesor,42.857143
+Especialización en Gerencia,Presencial,20262,Admitido,6,15,0.016076,Sin asignar,asesor,40.000000
+Especialización en Gerencia,Virtual,20252,Admitido,2,7,0.009134,Sin asignar,asesor,28.571429
+Especialización en Gerencia,Virtual,20261,Admitido,9,27,0.018999,Sin asignar,asesor,33.333333
+Especialización en Gerencia,Virtual,20262,Admitido,3,18,0.015345,Sin asignar,asesor,16.666667
+Ingeniería de Sistemas,Híbrida,20252,Admitido,2,9,0.005115,Sin asignar,asesor,22.222222
+Ingeniería de Sistemas,Híbrida,20261,Admitido,4,12,0.009682,Sin asignar,asesor,33.333333
+Ingeniería de Sistemas,Híbrida,20262,Admitido,3,8,0.008586,Sin asignar,asesor,37.500000
+Ingeniería de Sistemas,Presencial,20252,Admitido,6,12,0.009317,Sin asignar,asesor,50.000000
+Ingeniería de Sistemas,Presencial,20261,Admitido,7,22,0.020643,Sin asignar,asesor,31.818182
+Ingeniería de Sistemas,Presencial,20262,Admitido,5,13,0.018816,Sin asignar,asesor,38.461538
+Ingeniería de Sistemas,Virtual,20252,Admitido,3,7,0.009865,Sin asignar,asesor,42.857143
+Ingeniería de Sistemas,Virtual,20261,Admitido,6,15,0.016076,Sin asignar,asesor,40.000000
+Ingeniería de Sistemas,Virtual,20262,Admitido,5,18,0.016989,Sin asignar,asesor,27.777778
+Psicología,Híbrida,20252,Admitido,1,6,0.003654,Sin asignar,asesor,16.666667
+Psicología,Híbrida,20261,Admitido,1,9,0.009499,Sin asignar,asesor,11.111111
+Psicología,Híbrida,20262,Admitido,7,9,0.009317,Sin asignar,asesor,77.777778
+Psicología,Presencial,20252,Admitido,2,12,0.008769,Sin asignar,asesor,16.666667
+Psicología,Presencial,20261,Admitido,3,16,0.017172,Sin asignar,asesor,18.750000
+Psicología,Presencial,20262,Admitido,0,7,0.013701,Sin asignar,asesor,0.000000
+Psicología,Virtual,20252,Admitido,1,10,0.007307,Sin asignar,asesor,10.000000
+Psicología,Virtual,20261,Admitido,5,28,0.020278,Sin asignar,asesor,17.857143
+Psicología,Virtual,20262,Admitido,6,22,0.018999,Sin asignar,asesor,27.272727
+Administración de Empresas,Híbrida,20252,Documentación pendiente,0,4,0.003106,Sin asignar,asesor,0.000000
+Administración de Empresas,Híbrida,20261,Documentación pendiente,1,10,0.010047,Sin asignar,asesor,10.000000
+Administración de Empresas,Híbrida,20262,Documentación pendiente,2,9,0.008769,Sin asignar,asesor,22.222222
+Administración de Empresas,Presencial,20252,Documentación pendiente,0,6,0.008586,Sin asignar,asesor,0.000000
+Administración de Empresas,Presencial,20261,Documentación pendiente,4,23,0.016076,Sin asignar,asesor,17.391304
+Administración de Empresas,Presencial,20262,Documentación pendiente,2,23,0.015163,Sin asignar,asesor,8.695652
+Administración de Empresas,Virtual,20252,Documentación pendiente,0,13,0.007673,Sin asignar,asesor,0.000000
+Administración de Empresas,Virtual,20261,Documentación pendiente,5,25,0.017903,Sin asignar,asesor,20.000000
+Administración de Empresas,Virtual,20262,Documentación pendiente,1,20,0.018999,Sin asignar,asesor,5.000000
+Contaduría Pública,Híbrida,20252,Documentación pendiente,1,8,0.004932,Sin asignar,asesor,12.500000
+Contaduría Pública,Híbrida,20261,Documentación pendiente,2,6,0.008038,Sin asignar,asesor,33.333333
+Contaduría Pública,Híbrida,20262,Documentación pendiente,0,5,0.008951,Sin asignar,asesor,0.000000
+Contaduría Pública,Presencial,20252,Documentación pendiente,0,9,0.008951,Sin asignar,asesor,0.000000
+Contaduría Pública,Presencial,20261,Documentación pendiente,2,24,0.018634,Sin asignar,asesor,8.333333
+Contaduría Pública,Presencial,20262,Documentación pendiente,3,25,0.017355,Sin asignar,asesor,12.000000
+Contaduría Pública,Virtual,20252,Documentación pendiente,1,10,0.009865,Sin asignar,asesor,10.000000
+Contaduría Pública,Virtual,20261,Documentación pendiente,3,20,0.017903,Sin asignar,asesor,15.000000
+Contaduría Pública,Virtual,20262,Documentación pendiente,5,24,0.017355,Sin asignar,asesor,20.833333
+Derecho,Híbrida,20252,Documentación pendiente,0,10,0.009134,Sin asignar,asesor,0.000000
+Derecho,Híbrida,20261,Documentación pendiente,3,20,0.018816,Sin asignar,asesor,15.000000
+Derecho,Híbrida,20262,Documentación pendiente,3,15,0.017355,Sin asignar,asesor,20.000000
+Derecho,Presencial,20252,Documentación pendiente,4,25,0.015893,Sin asignar,asesor,16.000000
+Derecho,Presencial,20261,Documentación pendiente,5,38,0.039094,Sin asignar,asesor,13.157895
+Derecho,Presencial,20262,Documentación pendiente,3,31,0.033431,Sin asignar,asesor,9.677419
+Derecho,Virtual,20252,Documentación pendiente,0,16,0.016989,Sin asignar,asesor,0.000000
+Derecho,Virtual,20261,Documentación pendiente,8,39,0.036719,Sin asignar,asesor,20.512821
+Derecho,Virtual,20262,Documentación pendiente,5,31,0.037815,Sin asignar,asesor,16.129032
+Especialización en Data Analytics,Híbrida,20252,Documentación pendiente,3,13,0.009499,Sin asignar,asesor,23.076923
+Especialización en Data Analytics,Híbrida,20261,Documentación pendiente,1,18,0.014615,Sin asignar,asesor,5.555556
+Especialización en Data Analytics,Híbrida,20262,Documentación pendiente,3,20,0.021374,Sin asignar,asesor,15.000000
+Especialización en Data Analytics,Presencial,20252,Documentación pendiente,0,21,0.016989,Sin asignar,asesor,0.000000
+Especialización en Data Analytics,Presencial,20261,Documentación pendiente,5,46,0.037815,Sin asignar,asesor,10.869565
+Especialización en Data Analytics,Presencial,20262,Documentación pendiente,6,41,0.039094,Sin asignar,asesor,14.634146
+Especialización en Data Analytics,Virtual,20252,Documentación pendiente,2,16,0.015711,Sin asignar,asesor,12.500000
+Especialización en Data Analytics,Virtual,20261,Documentación pendiente,5,37,0.032517,Sin asignar,asesor,13.513514
+Especialización en Data Analytics,Virtual,20262,Documentación pendiente,2,42,0.034527,Sin asignar,asesor,4.761905
+Especialización en Gerencia,Híbrida,20252,Documentación pendiente,0,3,0.005480,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Híbrida,20261,Documentación pendiente,2,14,0.009499,Sin asignar,asesor,14.285714
+Especialización en Gerencia,Híbrida,20262,Documentación pendiente,0,9,0.009499,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Presencial,20252,Documentación pendiente,1,11,0.008769,Sin asignar,asesor,9.090909
+Especialización en Gerencia,Presencial,20261,Documentación pendiente,2,14,0.017720,Sin asignar,asesor,14.285714
+Especialización en Gerencia,Presencial,20262,Documentación pendiente,2,15,0.016076,Sin asignar,asesor,13.333333
+Especialización en Gerencia,Virtual,20252,Documentación pendiente,0,7,0.009134,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Virtual,20261,Documentación pendiente,4,27,0.018999,Sin asignar,asesor,14.814815
+Especialización en Gerencia,Virtual,20262,Documentación pendiente,1,18,0.015345,Sin asignar,asesor,5.555556
+Ingeniería de Sistemas,Híbrida,20252,Documentación pendiente,3,9,0.005115,Sin asignar,asesor,33.333333
+Ingeniería de Sistemas,Híbrida,20261,Documentación pendiente,0,12,0.009682,Sin asignar,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20262,Documentación pendiente,3,8,0.008586,Sin asignar,asesor,37.500000
+Ingeniería de Sistemas,Presencial,20252,Documentación pendiente,2,12,0.009317,Sin asignar,asesor,16.666667
+Ingeniería de Sistemas,Presencial,20261,Documentación pendiente,1,22,0.020643,Sin asignar,asesor,4.545455
+Ingeniería de Sistemas,Presencial,20262,Documentación pendiente,3,13,0.018816,Sin asignar,asesor,23.076923
+Ingeniería de Sistemas,Virtual,20252,Documentación pendiente,1,7,0.009865,Sin asignar,asesor,14.285714
+Ingeniería de Sistemas,Virtual,20261,Documentación pendiente,3,15,0.016076,Sin asignar,asesor,20.000000
+Ingeniería de Sistemas,Virtual,20262,Documentación pendiente,3,18,0.016989,Sin asignar,asesor,16.666667
+Psicología,Híbrida,20252,Documentación pendiente,0,6,0.003654,Sin asignar,asesor,0.000000
+Psicología,Híbrida,20261,Documentación pendiente,0,9,0.009499,Sin asignar,asesor,0.000000
+Psicología,Híbrida,20262,Documentación pendiente,0,9,0.009317,Sin asignar,asesor,0.000000
+Psicología,Presencial,20252,Documentación pendiente,1,12,0.008769,Sin asignar,asesor,8.333333
+Psicología,Presencial,20261,Documentación pendiente,0,16,0.017172,Sin asignar,asesor,0.000000
+Psicología,Presencial,20262,Documentación pendiente,0,7,0.013701,Sin asignar,asesor,0.000000
+Psicología,Virtual,20252,Documentación pendiente,0,10,0.007307,Sin asignar,asesor,0.000000
+Psicología,Virtual,20261,Documentación pendiente,6,28,0.020278,Sin asignar,asesor,21.428571
+Psicología,Virtual,20262,Documentación pendiente,2,22,0.018999,Sin asignar,asesor,9.090909
+Administración de Empresas,Híbrida,20252,Inscrito,0,4,0.003106,Sin asignar,asesor,0.000000
+Administración de Empresas,Híbrida,20261,Inscrito,2,10,0.010047,Sin asignar,asesor,20.000000
+Administración de Empresas,Híbrida,20262,Inscrito,0,9,0.008769,Sin asignar,asesor,0.000000
+Administración de Empresas,Presencial,20252,Inscrito,0,6,0.008586,Sin asignar,asesor,0.000000
+Administración de Empresas,Presencial,20261,Inscrito,1,23,0.016076,Sin asignar,asesor,4.347826
+Administración de Empresas,Presencial,20262,Inscrito,2,23,0.015163,Sin asignar,asesor,8.695652
+Administración de Empresas,Virtual,20252,Inscrito,0,13,0.007673,Sin asignar,asesor,0.000000
+Administración de Empresas,Virtual,20261,Inscrito,0,25,0.017903,Sin asignar,asesor,0.000000
+Administración de Empresas,Virtual,20262,Inscrito,0,20,0.018999,Sin asignar,asesor,0.000000
+Contaduría Pública,Híbrida,20252,Inscrito,0,8,0.004932,Sin asignar,asesor,0.000000
+Contaduría Pública,Híbrida,20261,Inscrito,1,6,0.008038,Sin asignar,asesor,16.666667
+Contaduría Pública,Híbrida,20262,Inscrito,1,5,0.008951,Sin asignar,asesor,20.000000
+Contaduría Pública,Presencial,20252,Inscrito,1,9,0.008951,Sin asignar,asesor,11.111111
+Contaduría Pública,Presencial,20261,Inscrito,4,24,0.018634,Sin asignar,asesor,16.666667
+Contaduría Pública,Presencial,20262,Inscrito,3,25,0.017355,Sin asignar,asesor,12.000000
+Contaduría Pública,Virtual,20252,Inscrito,1,10,0.009865,Sin asignar,asesor,10.000000
+Contaduría Pública,Virtual,20261,Inscrito,1,20,0.017903,Sin asignar,asesor,5.000000
+Contaduría Pública,Virtual,20262,Inscrito,1,24,0.017355,Sin asignar,asesor,4.166667
+Derecho,Híbrida,20252,Inscrito,2,10,0.009134,Sin asignar,asesor,20.000000
+Derecho,Híbrida,20261,Inscrito,4,20,0.018816,Sin asignar,asesor,20.000000
+Derecho,Híbrida,20262,Inscrito,3,15,0.017355,Sin asignar,asesor,20.000000
+Derecho,Presencial,20252,Inscrito,5,25,0.015893,Sin asignar,asesor,20.000000
+Derecho,Presencial,20261,Inscrito,7,38,0.039094,Sin asignar,asesor,18.421053
+Derecho,Presencial,20262,Inscrito,7,31,0.033431,Sin asignar,asesor,22.580645
+Derecho,Virtual,20252,Inscrito,4,16,0.016989,Sin asignar,asesor,25.000000
+Derecho,Virtual,20261,Inscrito,4,39,0.036719,Sin asignar,asesor,10.256410
+Derecho,Virtual,20262,Inscrito,2,31,0.037815,Sin asignar,asesor,6.451613
+Especialización en Data Analytics,Híbrida,20252,Inscrito,1,13,0.009499,Sin asignar,asesor,7.692308
+Especialización en Data Analytics,Híbrida,20261,Inscrito,3,18,0.014615,Sin asignar,asesor,16.666667
+Especialización en Data Analytics,Híbrida,20262,Inscrito,5,20,0.021374,Sin asignar,asesor,25.000000
+Especialización en Data Analytics,Presencial,20252,Inscrito,1,21,0.016989,Sin asignar,asesor,4.761905
+Especialización en Data Analytics,Presencial,20261,Inscrito,7,46,0.037815,Sin asignar,asesor,15.217391
+Especialización en Data Analytics,Presencial,20262,Inscrito,4,41,0.039094,Sin asignar,asesor,9.756098
+Especialización en Data Analytics,Virtual,20252,Inscrito,1,16,0.015711,Sin asignar,asesor,6.250000
+Especialización en Data Analytics,Virtual,20261,Inscrito,3,37,0.032517,Sin asignar,asesor,8.108108
+Especialización en Data Analytics,Virtual,20262,Inscrito,5,42,0.034527,Sin asignar,asesor,11.904762
+Especialización en Gerencia,Híbrida,20252,Inscrito,0,3,0.005480,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Híbrida,20261,Inscrito,1,14,0.009499,Sin asignar,asesor,7.142857
+Especialización en Gerencia,Híbrida,20262,Inscrito,2,9,0.009499,Sin asignar,asesor,22.222222
+Especialización en Gerencia,Presencial,20252,Inscrito,2,11,0.008769,Sin asignar,asesor,18.181818
+Especialización en Gerencia,Presencial,20261,Inscrito,1,14,0.017720,Sin asignar,asesor,7.142857
+Especialización en Gerencia,Presencial,20262,Inscrito,3,15,0.016076,Sin asignar,asesor,20.000000
+Especialización en Gerencia,Virtual,20252,Inscrito,5,7,0.009134,Sin asignar,asesor,71.428571
+Especialización en Gerencia,Virtual,20261,Inscrito,0,27,0.018999,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Virtual,20262,Inscrito,1,18,0.015345,Sin asignar,asesor,5.555556
+Ingeniería de Sistemas,Híbrida,20252,Inscrito,0,9,0.005115,Sin asignar,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Inscrito,1,12,0.009682,Sin asignar,asesor,8.333333
+Ingeniería de Sistemas,Híbrida,20262,Inscrito,1,8,0.008586,Sin asignar,asesor,12.500000
+Ingeniería de Sistemas,Presencial,20252,Inscrito,0,12,0.009317,Sin asignar,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20261,Inscrito,4,22,0.020643,Sin asignar,asesor,18.181818
+Ingeniería de Sistemas,Presencial,20262,Inscrito,2,13,0.018816,Sin asignar,asesor,15.384615
+Ingeniería de Sistemas,Virtual,20252,Inscrito,1,7,0.009865,Sin asignar,asesor,14.285714
+Ingeniería de Sistemas,Virtual,20261,Inscrito,1,15,0.016076,Sin asignar,asesor,6.666667
+Ingeniería de Sistemas,Virtual,20262,Inscrito,4,18,0.016989,Sin asignar,asesor,22.222222
+Psicología,Híbrida,20252,Inscrito,1,6,0.003654,Sin asignar,asesor,16.666667
+Psicología,Híbrida,20261,Inscrito,3,9,0.009499,Sin asignar,asesor,33.333333
+Psicología,Híbrida,20262,Inscrito,0,9,0.009317,Sin asignar,asesor,0.000000
+Psicología,Presencial,20252,Inscrito,4,12,0.008769,Sin asignar,asesor,33.333333
+Psicología,Presencial,20261,Inscrito,1,16,0.017172,Sin asignar,asesor,6.250000
+Psicología,Presencial,20262,Inscrito,0,7,0.013701,Sin asignar,asesor,0.000000
+Psicología,Virtual,20252,Inscrito,2,10,0.007307,Sin asignar,asesor,20.000000
+Psicología,Virtual,20261,Inscrito,3,28,0.020278,Sin asignar,asesor,10.714286
+Psicología,Virtual,20262,Inscrito,2,22,0.018999,Sin asignar,asesor,9.090909
+Administración de Empresas,Híbrida,20252,Matriculado,0,4,0.003106,Sin asignar,asesor,0.000000
+Administración de Empresas,Híbrida,20261,Matriculado,1,10,0.010047,Sin asignar,asesor,10.000000
+Administración de Empresas,Híbrida,20262,Matriculado,2,9,0.008769,Sin asignar,asesor,22.222222
+Administración de Empresas,Presencial,20252,Matriculado,1,6,0.008586,Sin asignar,asesor,16.666667
+Administración de Empresas,Presencial,20261,Matriculado,2,23,0.016076,Sin asignar,asesor,8.695652
+Administración de Empresas,Presencial,20262,Matriculado,1,23,0.015163,Sin asignar,asesor,4.347826
+Administración de Empresas,Virtual,20252,Matriculado,4,13,0.007673,Sin asignar,asesor,30.769231
+Administración de Empresas,Virtual,20261,Matriculado,12,25,0.017903,Sin asignar,asesor,48.000000
+Administración de Empresas,Virtual,20262,Matriculado,4,20,0.018999,Sin asignar,asesor,20.000000
+Contaduría Pública,Híbrida,20252,Matriculado,1,8,0.004932,Sin asignar,asesor,12.500000
+Contaduría Pública,Híbrida,20261,Matriculado,0,6,0.008038,Sin asignar,asesor,0.000000
+Contaduría Pública,Híbrida,20262,Matriculado,2,5,0.008951,Sin asignar,asesor,40.000000
+Contaduría Pública,Presencial,20252,Matriculado,5,9,0.008951,Sin asignar,asesor,55.555556
+Contaduría Pública,Presencial,20261,Matriculado,9,24,0.018634,Sin asignar,asesor,37.500000
+Contaduría Pública,Presencial,20262,Matriculado,4,25,0.017355,Sin asignar,asesor,16.000000
+Contaduría Pública,Virtual,20252,Matriculado,1,10,0.009865,Sin asignar,asesor,10.000000
+Contaduría Pública,Virtual,20261,Matriculado,6,20,0.017903,Sin asignar,asesor,30.000000
+Contaduría Pública,Virtual,20262,Matriculado,3,24,0.017355,Sin asignar,asesor,12.500000
+Derecho,Híbrida,20252,Matriculado,1,10,0.009134,Sin asignar,asesor,10.000000
+Derecho,Híbrida,20261,Matriculado,2,20,0.018816,Sin asignar,asesor,10.000000
+Derecho,Híbrida,20262,Matriculado,1,15,0.017355,Sin asignar,asesor,6.666667
+Derecho,Presencial,20252,Matriculado,6,25,0.015893,Sin asignar,asesor,24.000000
+Derecho,Presencial,20261,Matriculado,5,38,0.039094,Sin asignar,asesor,13.157895
+Derecho,Presencial,20262,Matriculado,6,31,0.033431,Sin asignar,asesor,19.354839
+Derecho,Virtual,20252,Matriculado,3,16,0.016989,Sin asignar,asesor,18.750000
+Derecho,Virtual,20261,Matriculado,8,39,0.036719,Sin asignar,asesor,20.512821
+Derecho,Virtual,20262,Matriculado,5,31,0.037815,Sin asignar,asesor,16.129032
+Especialización en Data Analytics,Híbrida,20252,Matriculado,4,13,0.009499,Sin asignar,asesor,30.769231
+Especialización en Data Analytics,Híbrida,20261,Matriculado,3,18,0.014615,Sin asignar,asesor,16.666667
+Especialización en Data Analytics,Híbrida,20262,Matriculado,4,20,0.021374,Sin asignar,asesor,20.000000
+Especialización en Data Analytics,Presencial,20252,Matriculado,8,21,0.016989,Sin asignar,asesor,38.095238
+Especialización en Data Analytics,Presencial,20261,Matriculado,10,46,0.037815,Sin asignar,asesor,21.739130
+Especialización en Data Analytics,Presencial,20262,Matriculado,13,41,0.039094,Sin asignar,asesor,31.707317
+Especialización en Data Analytics,Virtual,20252,Matriculado,5,16,0.015711,Sin asignar,asesor,31.250000
+Especialización en Data Analytics,Virtual,20261,Matriculado,8,37,0.032517,Sin asignar,asesor,21.621622
+Especialización en Data Analytics,Virtual,20262,Matriculado,9,42,0.034527,Sin asignar,asesor,21.428571
+Especialización en Gerencia,Híbrida,20252,Matriculado,1,3,0.005480,Sin asignar,asesor,33.333333
+Especialización en Gerencia,Híbrida,20261,Matriculado,5,14,0.009499,Sin asignar,asesor,35.714286
+Especialización en Gerencia,Híbrida,20262,Matriculado,3,9,0.009499,Sin asignar,asesor,33.333333
+Especialización en Gerencia,Presencial,20252,Matriculado,0,11,0.008769,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Presencial,20261,Matriculado,0,14,0.017720,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Presencial,20262,Matriculado,2,15,0.016076,Sin asignar,asesor,13.333333
+Especialización en Gerencia,Virtual,20252,Matriculado,0,7,0.009134,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Virtual,20261,Matriculado,7,27,0.018999,Sin asignar,asesor,25.925926
+Especialización en Gerencia,Virtual,20262,Matriculado,5,18,0.015345,Sin asignar,asesor,27.777778
+Ingeniería de Sistemas,Híbrida,20252,Matriculado,4,9,0.005115,Sin asignar,asesor,44.444444
+Ingeniería de Sistemas,Híbrida,20261,Matriculado,5,12,0.009682,Sin asignar,asesor,41.666667
+Ingeniería de Sistemas,Híbrida,20262,Matriculado,1,8,0.008586,Sin asignar,asesor,12.500000
+Ingeniería de Sistemas,Presencial,20252,Matriculado,3,12,0.009317,Sin asignar,asesor,25.000000
+Ingeniería de Sistemas,Presencial,20261,Matriculado,5,22,0.020643,Sin asignar,asesor,22.727273
+Ingeniería de Sistemas,Presencial,20262,Matriculado,1,13,0.018816,Sin asignar,asesor,7.692308
+Ingeniería de Sistemas,Virtual,20252,Matriculado,0,7,0.009865,Sin asignar,asesor,0.000000
+Ingeniería de Sistemas,Virtual,20261,Matriculado,4,15,0.016076,Sin asignar,asesor,26.666667
+Ingeniería de Sistemas,Virtual,20262,Matriculado,3,18,0.016989,Sin asignar,asesor,16.666667
+Psicología,Híbrida,20252,Matriculado,3,6,0.003654,Sin asignar,asesor,50.000000
+Psicología,Híbrida,20261,Matriculado,1,9,0.009499,Sin asignar,asesor,11.111111
+Psicología,Híbrida,20262,Matriculado,2,9,0.009317,Sin asignar,asesor,22.222222
+Psicología,Presencial,20252,Matriculado,1,12,0.008769,Sin asignar,asesor,8.333333
+Psicología,Presencial,20261,Matriculado,6,16,0.017172,Sin asignar,asesor,37.500000
+Psicología,Presencial,20262,Matriculado,3,7,0.013701,Sin asignar,asesor,42.857143
+Psicología,Virtual,20252,Matriculado,3,10,0.007307,Sin asignar,asesor,30.000000
+Psicología,Virtual,20261,Matriculado,4,28,0.020278,Sin asignar,asesor,14.285714
+Psicología,Virtual,20262,Matriculado,6,22,0.018999,Sin asignar,asesor,27.272727
+Administración de Empresas,Híbrida,20252,No admitido,0,4,0.003106,Sin asignar,asesor,0.000000
+Administración de Empresas,Híbrida,20261,No admitido,1,10,0.010047,Sin asignar,asesor,10.000000
+Administración de Empresas,Híbrida,20262,No admitido,0,9,0.008769,Sin asignar,asesor,0.000000
+Administración de Empresas,Presencial,20252,No admitido,3,6,0.008586,Sin asignar,asesor,50.000000
+Administración de Empresas,Presencial,20261,No admitido,3,23,0.016076,Sin asignar,asesor,13.043478
+Administración de Empresas,Presencial,20262,No admitido,0,23,0.015163,Sin asignar,asesor,0.000000
+Administración de Empresas,Virtual,20252,No admitido,0,13,0.007673,Sin asignar,asesor,0.000000
+Administración de Empresas,Virtual,20261,No admitido,1,25,0.017903,Sin asignar,asesor,4.000000
+Administración de Empresas,Virtual,20262,No admitido,1,20,0.018999,Sin asignar,asesor,5.000000
+Contaduría Pública,Híbrida,20252,No admitido,2,8,0.004932,Sin asignar,asesor,25.000000
+Contaduría Pública,Híbrida,20261,No admitido,1,6,0.008038,Sin asignar,asesor,16.666667
+Contaduría Pública,Híbrida,20262,No admitido,0,5,0.008951,Sin asignar,asesor,0.000000
+Contaduría Pública,Presencial,20252,No admitido,0,9,0.008951,Sin asignar,asesor,0.000000
+Contaduría Pública,Presencial,20261,No admitido,1,24,0.018634,Sin asignar,asesor,4.166667
+Contaduría Pública,Presencial,20262,No admitido,6,25,0.017355,Sin asignar,asesor,24.000000
+Contaduría Pública,Virtual,20252,No admitido,3,10,0.009865,Sin asignar,asesor,30.000000
+Contaduría Pública,Virtual,20261,No admitido,4,20,0.017903,Sin asignar,asesor,20.000000
+Contaduría Pública,Virtual,20262,No admitido,3,24,0.017355,Sin asignar,asesor,12.500000
+Derecho,Híbrida,20252,No admitido,2,10,0.009134,Sin asignar,asesor,20.000000
+Derecho,Híbrida,20261,No admitido,3,20,0.018816,Sin asignar,asesor,15.000000
+Derecho,Híbrida,20262,No admitido,3,15,0.017355,Sin asignar,asesor,20.000000
+Derecho,Presencial,20252,No admitido,1,25,0.015893,Sin asignar,asesor,4.000000
+Derecho,Presencial,20261,No admitido,6,38,0.039094,Sin asignar,asesor,15.789474
+Derecho,Presencial,20262,No admitido,4,31,0.033431,Sin asignar,asesor,12.903226
+Derecho,Virtual,20252,No admitido,1,16,0.016989,Sin asignar,asesor,6.250000
+Derecho,Virtual,20261,No admitido,3,39,0.036719,Sin asignar,asesor,7.692308
+Derecho,Virtual,20262,No admitido,2,31,0.037815,Sin asignar,asesor,6.451613
+Especialización en Data Analytics,Híbrida,20252,No admitido,2,13,0.009499,Sin asignar,asesor,15.384615
+Especialización en Data Analytics,Híbrida,20261,No admitido,2,18,0.014615,Sin asignar,asesor,11.111111
+Especialización en Data Analytics,Híbrida,20262,No admitido,2,20,0.021374,Sin asignar,asesor,10.000000
+Especialización en Data Analytics,Presencial,20252,No admitido,2,21,0.016989,Sin asignar,asesor,9.523810
+Especialización en Data Analytics,Presencial,20261,No admitido,7,46,0.037815,Sin asignar,asesor,15.217391
+Especialización en Data Analytics,Presencial,20262,No admitido,3,41,0.039094,Sin asignar,asesor,7.317073
+Especialización en Data Analytics,Virtual,20252,No admitido,2,16,0.015711,Sin asignar,asesor,12.500000
+Especialización en Data Analytics,Virtual,20261,No admitido,4,37,0.032517,Sin asignar,asesor,10.810811
+Especialización en Data Analytics,Virtual,20262,No admitido,2,42,0.034527,Sin asignar,asesor,4.761905
+Especialización en Gerencia,Híbrida,20252,No admitido,0,3,0.005480,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Híbrida,20261,No admitido,0,14,0.009499,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Híbrida,20262,No admitido,0,9,0.009499,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Presencial,20252,No admitido,2,11,0.008769,Sin asignar,asesor,18.181818
+Especialización en Gerencia,Presencial,20261,No admitido,2,14,0.017720,Sin asignar,asesor,14.285714
+Especialización en Gerencia,Presencial,20262,No admitido,1,15,0.016076,Sin asignar,asesor,6.666667
+Especialización en Gerencia,Virtual,20252,No admitido,0,7,0.009134,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Virtual,20261,No admitido,5,27,0.018999,Sin asignar,asesor,18.518519
+Especialización en Gerencia,Virtual,20262,No admitido,5,18,0.015345,Sin asignar,asesor,27.777778
+Ingeniería de Sistemas,Híbrida,20252,No admitido,0,9,0.005115,Sin asignar,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20261,No admitido,1,12,0.009682,Sin asignar,asesor,8.333333
+Ingeniería de Sistemas,Híbrida,20262,No admitido,0,8,0.008586,Sin asignar,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20252,No admitido,0,12,0.009317,Sin asignar,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20261,No admitido,0,22,0.020643,Sin asignar,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20262,No admitido,0,13,0.018816,Sin asignar,asesor,0.000000
+Ingeniería de Sistemas,Virtual,20252,No admitido,1,7,0.009865,Sin asignar,asesor,14.285714
+Ingeniería de Sistemas,Virtual,20261,No admitido,0,15,0.016076,Sin asignar,asesor,0.000000
+Ingeniería de Sistemas,Virtual,20262,No admitido,3,18,0.016989,Sin asignar,asesor,16.666667
+Psicología,Híbrida,20252,No admitido,1,6,0.003654,Sin asignar,asesor,16.666667
+Psicología,Híbrida,20261,No admitido,3,9,0.009499,Sin asignar,asesor,33.333333
+Psicología,Híbrida,20262,No admitido,0,9,0.009317,Sin asignar,asesor,0.000000
+Psicología,Presencial,20252,No admitido,3,12,0.008769,Sin asignar,asesor,25.000000
+Psicología,Presencial,20261,No admitido,0,16,0.017172,Sin asignar,asesor,0.000000
+Psicología,Presencial,20262,No admitido,1,7,0.013701,Sin asignar,asesor,14.285714
+Psicología,Virtual,20252,No admitido,2,10,0.007307,Sin asignar,asesor,20.000000
+Psicología,Virtual,20261,No admitido,5,28,0.020278,Sin asignar,asesor,17.857143
+Psicología,Virtual,20262,No admitido,1,22,0.018999,Sin asignar,asesor,4.545455
+Administración de Empresas,Híbrida,20252,Retirado,2,4,0.003106,Sin asignar,asesor,50.000000
+Administración de Empresas,Híbrida,20261,Retirado,3,10,0.010047,Sin asignar,asesor,30.000000
+Administración de Empresas,Híbrida,20262,Retirado,1,9,0.008769,Sin asignar,asesor,11.111111
+Administración de Empresas,Presencial,20252,Retirado,0,6,0.008586,Sin asignar,asesor,0.000000
+Administración de Empresas,Presencial,20261,Retirado,3,23,0.016076,Sin asignar,asesor,13.043478
+Administración de Empresas,Presencial,20262,Retirado,0,23,0.015163,Sin asignar,asesor,0.000000
+Administración de Empresas,Virtual,20252,Retirado,3,13,0.007673,Sin asignar,asesor,23.076923
+Administración de Empresas,Virtual,20261,Retirado,3,25,0.017903,Sin asignar,asesor,12.000000
+Administración de Empresas,Virtual,20262,Retirado,3,20,0.018999,Sin asignar,asesor,15.000000
+Contaduría Pública,Híbrida,20252,Retirado,1,8,0.004932,Sin asignar,asesor,12.500000
+Contaduría Pública,Híbrida,20261,Retirado,1,6,0.008038,Sin asignar,asesor,16.666667
+Contaduría Pública,Híbrida,20262,Retirado,0,5,0.008951,Sin asignar,asesor,0.000000
+Contaduría Pública,Presencial,20252,Retirado,0,9,0.008951,Sin asignar,asesor,0.000000
+Contaduría Pública,Presencial,20261,Retirado,1,24,0.018634,Sin asignar,asesor,4.166667
+Contaduría Pública,Presencial,20262,Retirado,2,25,0.017355,Sin asignar,asesor,8.000000
+Contaduría Pública,Virtual,20252,Retirado,0,10,0.009865,Sin asignar,asesor,0.000000
+Contaduría Pública,Virtual,20261,Retirado,1,20,0.017903,Sin asignar,asesor,5.000000
+Contaduría Pública,Virtual,20262,Retirado,3,24,0.017355,Sin asignar,asesor,12.500000
+Derecho,Híbrida,20252,Retirado,0,10,0.009134,Sin asignar,asesor,0.000000
+Derecho,Híbrida,20261,Retirado,0,20,0.018816,Sin asignar,asesor,0.000000
+Derecho,Híbrida,20262,Retirado,0,15,0.017355,Sin asignar,asesor,0.000000
+Derecho,Presencial,20252,Retirado,2,25,0.015893,Sin asignar,asesor,8.000000
+Derecho,Presencial,20261,Retirado,4,38,0.039094,Sin asignar,asesor,10.526316
+Derecho,Presencial,20262,Retirado,0,31,0.033431,Sin asignar,asesor,0.000000
+Derecho,Virtual,20252,Retirado,2,16,0.016989,Sin asignar,asesor,12.500000
+Derecho,Virtual,20261,Retirado,5,39,0.036719,Sin asignar,asesor,12.820513
+Derecho,Virtual,20262,Retirado,8,31,0.037815,Sin asignar,asesor,25.806452
+Especialización en Data Analytics,Híbrida,20252,Retirado,0,13,0.009499,Sin asignar,asesor,0.000000
+Especialización en Data Analytics,Híbrida,20261,Retirado,4,18,0.014615,Sin asignar,asesor,22.222222
+Especialización en Data Analytics,Híbrida,20262,Retirado,2,20,0.021374,Sin asignar,asesor,10.000000
+Especialización en Data Analytics,Presencial,20252,Retirado,1,21,0.016989,Sin asignar,asesor,4.761905
+Especialización en Data Analytics,Presencial,20261,Retirado,7,46,0.037815,Sin asignar,asesor,15.217391
+Especialización en Data Analytics,Presencial,20262,Retirado,4,41,0.039094,Sin asignar,asesor,9.756098
+Especialización en Data Analytics,Virtual,20252,Retirado,2,16,0.015711,Sin asignar,asesor,12.500000
+Especialización en Data Analytics,Virtual,20261,Retirado,7,37,0.032517,Sin asignar,asesor,18.918919
+Especialización en Data Analytics,Virtual,20262,Retirado,6,42,0.034527,Sin asignar,asesor,14.285714
+Especialización en Gerencia,Híbrida,20252,Retirado,0,3,0.005480,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Híbrida,20261,Retirado,0,14,0.009499,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Híbrida,20262,Retirado,0,9,0.009499,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Presencial,20252,Retirado,0,11,0.008769,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Presencial,20261,Retirado,3,14,0.017720,Sin asignar,asesor,21.428571
+Especialización en Gerencia,Presencial,20262,Retirado,1,15,0.016076,Sin asignar,asesor,6.666667
+Especialización en Gerencia,Virtual,20252,Retirado,0,7,0.009134,Sin asignar,asesor,0.000000
+Especialización en Gerencia,Virtual,20261,Retirado,2,27,0.018999,Sin asignar,asesor,7.407407
+Especialización en Gerencia,Virtual,20262,Retirado,3,18,0.015345,Sin asignar,asesor,16.666667
+Ingeniería de Sistemas,Híbrida,20252,Retirado,0,9,0.005115,Sin asignar,asesor,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Retirado,1,12,0.009682,Sin asignar,asesor,8.333333
+Ingeniería de Sistemas,Híbrida,20262,Retirado,0,8,0.008586,Sin asignar,asesor,0.000000
+Ingeniería de Sistemas,Presencial,20252,Retirado,1,12,0.009317,Sin asignar,asesor,8.333333
+Ingeniería de Sistemas,Presencial,20261,Retirado,5,22,0.020643,Sin asignar,asesor,22.727273
+Ingeniería de Sistemas,Presencial,20262,Retirado,2,13,0.018816,Sin asignar,asesor,15.384615
+Ingeniería de Sistemas,Virtual,20252,Retirado,1,7,0.009865,Sin asignar,asesor,14.285714
+Ingeniería de Sistemas,Virtual,20261,Retirado,1,15,0.016076,Sin asignar,asesor,6.666667
+Ingeniería de Sistemas,Virtual,20262,Retirado,0,18,0.016989,Sin asignar,asesor,0.000000
+Psicología,Híbrida,20252,Retirado,0,6,0.003654,Sin asignar,asesor,0.000000
+Psicología,Híbrida,20261,Retirado,1,9,0.009499,Sin asignar,asesor,11.111111
+Psicología,Híbrida,20262,Retirado,0,9,0.009317,Sin asignar,asesor,0.000000
+Psicología,Presencial,20252,Retirado,1,12,0.008769,Sin asignar,asesor,8.333333
+Psicología,Presencial,20261,Retirado,6,16,0.017172,Sin asignar,asesor,37.500000
+Psicología,Presencial,20262,Retirado,3,7,0.013701,Sin asignar,asesor,42.857143
+Psicología,Virtual,20252,Retirado,2,10,0.007307,Sin asignar,asesor,20.000000
+Psicología,Virtual,20261,Retirado,5,28,0.020278,Sin asignar,asesor,17.857143
+Psicología,Virtual,20262,Retirado,5,22,0.018999,Sin asignar,asesor,22.727273

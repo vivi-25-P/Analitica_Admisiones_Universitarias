@@ -7,6 +7,41 @@ import pandas as pd
 from .analisis_administrativo import fmt, sha
 
 
+def comparar_estados_condicionados(frame, variable, umbral=30):
+    """Distribuye todos los estados con pesos comunes sobre estratos compartidos."""
+    dims = ['programa','modalidad','periodo_academico']
+    known = frame[frame.programa.notna() & frame.programa.ne('Sin información')]
+    presence = known.groupby([*dims,variable]).size().unstack(variable,fill_value=0)
+    common = presence.index[presence.gt(0).all(axis=1)]
+    support = known[pd.MultiIndex.from_frame(known[dims]).isin(common)]
+    if support.empty:
+        raise ValueError('No existen estratos comunes para comparar los grupos')
+    weights = support.groupby(dims).size().div(len(support)).rename('peso_comun')
+    states = sorted(frame.estado_proceso.unique())
+    profiles, details = [], []
+    for group, subset in support.groupby(variable):
+        denominators = subset.groupby(dims).size().reindex(common)
+        counts = pd.crosstab([subset[c] for c in dims],subset.estado_proceso).reindex(
+            index=common,columns=states,fill_value=0)
+        conditional = counts.div(denominators,axis=0)
+        weighted = conditional.mul(weights,axis=0).sum().mul(100)
+        for state in states:
+            profiles.append({'variable':variable,'grupo':group,'estado_proceso':state,
+                'registros_grupo_comun':len(subset), 'registros_estado_grupo':int(counts[state].sum()),
+                'porcentaje_bruto_soporte':counts[state].sum()/len(subset)*100,
+                'porcentaje_ponderado':weighted[state], 'estratos_comunes':len(common),
+                'celdas_grupo_menores_30':int(denominators.lt(umbral).sum()),
+                'registros_soporte_total':len(support), 'registros_fuera_soporte':len(frame)-len(support)})
+        detail = counts.reset_index().melt(id_vars=dims,var_name='estado_proceso',value_name='registros_estado')
+        detail = detail.merge(denominators.rename('registros_grupo_estrato').reset_index(),on=dims,validate='many_to_one')
+        detail = detail.merge(weights.reset_index(),on=dims,validate='many_to_one')
+        detail['grupo'] = group
+        detail['variable'] = variable
+        detail['porcentaje_estado_estrato'] = detail.registros_estado/detail.registros_grupo_estrato*100
+        details.append(detail)
+    return pd.DataFrame(profiles),pd.concat(details,ignore_index=True)
+
+
 def generar_conocimiento(analysis):
     d = analysis.df
     n = len(d)
@@ -28,6 +63,31 @@ def generar_conocimiento(analysis):
                 'pendiente_o_retirado':int(pending_or_retired.loc[group.index].sum()),
                 'proporcion_pendiente_o_retirado_pct':pending_or_retired.loc[group.index].mean()*100})
     comparison = analysis.save('contraste_hipotesis_documentacion_asesor',pd.DataFrame(diagnostics))
+    profiles = []
+    for variable, name in [('documentos_completos','documentos'),('asesor','asesor')]:
+        profile, detail = comparar_estados_condicionados(d,variable)
+        analysis.save('H3_'+name+'_estados_condicionados',profile)
+        analysis.save('H3_'+name+'_estados_por_estrato',detail)
+        profiles.append(profile)
+    binary = d.copy()
+    binary['situacion_documental'] = docs_missing.map({True:'No o Pendiente',False:'Sí'})
+    binary['situacion_asesor'] = no_advisor.map({True:'Sin asignar',False:'Con asesor registrado'})
+    hypothesis_contrasts = []
+    for variable in ['situacion_documental','situacion_asesor']:
+        profile,_ = comparar_estados_condicionados(binary,variable)
+        selected = profile[profile.estado_proceso.isin(['Documentación pendiente','Retirado'])]
+        contrast = selected.groupby(['variable','grupo'],as_index=False).agg(
+            pendiente_o_retirado_ponderado_pct=('porcentaje_ponderado','sum'),
+            pendiente_o_retirado_bruto_soporte_pct=('porcentaje_bruto_soporte','sum'),
+            registros_grupo_comun=('registros_grupo_comun','first'),
+            estratos_comunes=('estratos_comunes','first'),
+            celdas_grupo_menores_30=('celdas_grupo_menores_30','first'))
+        hypothesis_contrasts.append(contrast)
+    conditioned = analysis.save('H3_comparacion_hipotesis_condicionada',pd.concat(hypothesis_contrasts,ignore_index=True))
+    c_docs_no = conditioned[conditioned.grupo.eq('No o Pendiente')].iloc[0]
+    c_docs_yes = conditioned[conditioned.grupo.eq('Sí')].iloc[0]
+    c_advisor_no = conditioned[conditioned.grupo.eq('Sin asignar')].iloc[0]
+    c_advisor_yes = conditioned[conditioned.grupo.eq('Con asesor registrado')].iloc[0]
 
     # Cada indicador define el ámbito y no confunde una foto de estados con una transición.
     indicators = []
@@ -129,8 +189,8 @@ def generar_conocimiento(analysis):
          'Evaluar canales con igual oferta, calendario y seguimiento antes de cambiar presupuesto',
          'Muchas celdas son pequeñas. No demuestra eficacia o rentabilidad'],
         ['H3','Documentación incompleta y ausencia de asesor podrían asociarse con más pendientes o retirados',
-         'La comparación bruta no respalda una conclusión general',
-         f'Pendiente o Retirado: {fmt(docs_no.proporcion_pendiente_o_retirado_pct,2)} % con documentos No o Pendiente y {fmt(docs_yes.proporcion_pendiente_o_retirado_pct,2)} % con Sí. Sin asignar: {fmt(advisor_no.proporcion_pendiente_o_retirado_pct,2)} % frente a {fmt(advisor_yes.proporcion_pendiente_o_retirado_pct,2)} % con asesor.',
+         'Distribución condicionada de todos los estados completada, con límites de identidad y actualización',
+         f'Con pesos comunes por programa, modalidad y periodo, Pendiente o Retirado es {fmt(c_docs_no.pendiente_o_retirado_ponderado_pct,2)} % con documentos No o Pendiente y {fmt(c_docs_yes.pendiente_o_retirado_ponderado_pct,2)} % con Sí. Sin asignar: {fmt(c_advisor_no.pendiente_o_retirado_ponderado_pct,2)} % frente a {fmt(c_advisor_yes.pendiente_o_retirado_ponderado_pct,2)} % con asesor. Se conservan los perfiles completos por los seis estados y cada estrato.',
          'Revisar coherencia y actualización. No responsabilizar al asesor ni inferir que documentos incompletos favorecen matrícula',
          'No es rechazo estadístico o prueba de ausencia de asociación. Los cruces detallados y fechas conservan límites'],
         ['Mercado','Qué combinaciones merecen explorar captación o seguimiento',
@@ -214,6 +274,8 @@ Las diferencias entre canales se mantienen al comparar una misma composición de
 
 La hipótesis de que la documentación incompleta se relaciona con más registros pendientes o retirados no se observa de forma general en la comparación bruta: esos estados representan el {fmt(docs_no.proporcion_pendiente_o_retirado_pct,2)} % con documentos No o Pendiente y el {fmt(docs_yes.proporcion_pendiente_o_retirado_pct,2)} % con documentos Sí. La diferencia entre Sin asignar y Con asesor es de aproximadamente {fmt(advisor_no.proporcion_pendiente_o_retirado_pct-advisor_yes.proporcion_pendiente_o_retirado_pct,2)} puntos. Estas cifras orientan a revisar la calidad y actualización del seguimiento, sin culpar a asesores ni afirmar que los documentos incompletos favorecen la matrícula.
 
+Al comparar una composición común de programa, modalidad y periodo, Pendiente o Retirado representa el {fmt(c_docs_no.pendiente_o_retirado_ponderado_pct,2)} % con documentos No o Pendiente y el {fmt(c_docs_yes.pendiente_o_retirado_ponderado_pct,2)} % con Sí. Sin asignar presenta {fmt(c_advisor_no.pendiente_o_retirado_ponderado_pct,2)} % frente a {fmt(c_advisor_yes.pendiente_o_retirado_ponderado_pct,2)} % con asesor. Los perfiles de los seis estados se compararon dentro de los grupos y se resumieron con pesos comunes. La comparación comprende 5.474 registros con programa identificado y conserva la advertencia de celdas pequeñas. No permite atribuir causas o reconstruir transiciones.
+
 ## Oportunidades comerciales y de seguimiento
 
 Administración virtual en Cali presenta 19 registros Matriculado de 44, el 43,18 %, y en Bogotá 22 de 66, el 33,33 %. Son combinaciones para evaluar campañas piloto, con capacidad disponible y seguimiento comparable. Su tamaño impide tratarlas como ventajas comerciales confirmadas. Contaduría presencial en Medellín presenta 13 de 31, el 41,94 %, y requiere especial prudencia por su tamaño reducido.
@@ -287,5 +349,12 @@ El apartado anterior Preguntas e hipótesis para el análisis posterior debe act
         'pregunta_general_tres_hipotesis_y_mercado':set(responses.referencia)=={'General','H1','H2','H3','Mercado'},
         'oportunidades_reconcilian_y_no_son_conversiones':all(r['matriculados']<=r['registros'] for r in opportunities),
         'metas_no_inventadas':registry.meta.eq('Por acordar con la institución').all(),
+        'H3_perfiles_condicionados_suman_100':all(
+            profile.groupby('grupo').porcentaje_ponderado.sum().sub(100).abs().lt(1e-8).all()
+            for profile in profiles),
+        'H3_perfiles_reconcilian_soporte':all(
+            profile.registros_estado_grupo.sum()==profile.registros_soporte_total.iloc[0]
+            for profile in profiles),
+        'H3_detalle_todos_los_estados':all(profile.estado_proceso.nunique()==d.estado_proceso.nunique() for profile in profiles),
     }
     return responses,registry,analysis.tables['oportunidades_negocio'],analysis.tables['decisiones_negocio']

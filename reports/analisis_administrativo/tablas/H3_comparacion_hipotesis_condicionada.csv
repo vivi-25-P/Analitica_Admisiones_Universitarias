@@ -1,0 +1,5 @@
+﻿variable,grupo,pendiente_o_retirado_ponderado_pct,pendiente_o_retirado_bruto_soporte_pct,registros_grupo_comun,estratos_comunes,celdas_grupo_menores_30
+situacion_documental,No o Pendiente,21.921098,22.015433,2203,63,30
+situacion_documental,Sí,23.448233,23.326200,3271,63,18
+situacion_asesor,Con asesor registrado,22.676149,22.704431,4378,63,6
+situacion_asesor,Sin asignar,23.358336,23.175182,1096,63,55

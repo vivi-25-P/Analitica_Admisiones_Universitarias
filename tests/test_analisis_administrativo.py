@@ -4,6 +4,7 @@ import unittest
 import pandas as pd
 
 from analitica_admisiones.analisis_administrativo import AnalisisAdministrativo
+from analitica_admisiones.conocimiento_negocio import comparar_estados_condicionados
 
 
 class CanalHarness(AnalisisAdministrativo):
@@ -28,6 +29,18 @@ def example():
 
 
 class ComparacionCanalesTest(unittest.TestCase):
+    def test_perfil_completo_respeta_pesos_y_no_altera_datos(self):
+        frame = pd.DataFrame(example()).rename(columns={'canal_captacion':'asesor'})
+        frame['estado_proceso'] = frame.matriculado.map({1:'Matriculado',0:'Retirado'})
+        original = frame.copy(deep=True)
+        profile,detail = comparar_estados_condicionados(frame,'asesor')
+        enrolled = profile[profile.estado_proceso.eq('Matriculado')].set_index('grupo')
+        self.assertEqual(enrolled.loc['A','porcentaje_ponderado'],50)
+        self.assertEqual(enrolled.loc['B','porcentaje_ponderado'],50)
+        self.assertTrue(profile.groupby('grupo').porcentaje_ponderado.sum().eq(100).all())
+        self.assertEqual(detail.registros_estado.sum(),20)
+        self.assertTrue(frame.equals(original))
+
     def test_misma_proporcion_en_estratos_no_inventa_ventaja_ajustada(self):
         analysis = CanalHarness(example())
         result = analysis.canales_comparables().set_index('canal_captacion')

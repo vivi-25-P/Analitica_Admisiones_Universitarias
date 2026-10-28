@@ -1,0 +1,25 @@
+﻿variable,grupo,estado_proceso,registros_grupo_comun,registros_estado_grupo,porcentaje_bruto_soporte,porcentaje_ponderado,estratos_comunes,celdas_grupo_menores_30,registros_soporte_total,registros_fuera_soporte
+asesor,Asesor 1,Admitido,2210,722,32.669683,32.346929,63,28,5474,26
+asesor,Asesor 1,Documentación pendiente,2210,260,11.764706,12.044975,63,28,5474,26
+asesor,Asesor 1,Inscrito,2210,267,12.081448,11.983747,63,28,5474,26
+asesor,Asesor 1,Matriculado,2210,464,20.995475,21.198777,63,28,5474,26
+asesor,Asesor 1,No admitido,2210,255,11.538462,11.529270,63,28,5474,26
+asesor,Asesor 1,Retirado,2210,242,10.950226,10.896302,63,28,5474,26
+asesor,Asesor 2,Admitido,1087,355,32.658694,32.909586,63,55,5474,26
+asesor,Asesor 2,Documentación pendiente,1087,137,12.603496,13.282643,63,55,5474,26
+asesor,Asesor 2,Inscrito,1087,115,10.579577,10.990336,63,55,5474,26
+asesor,Asesor 2,Matriculado,1087,220,20.239190,19.222111,63,55,5474,26
+asesor,Asesor 2,No admitido,1087,127,11.683533,11.080643,63,55,5474,26
+asesor,Asesor 2,Retirado,1087,133,12.235511,12.514680,63,55,5474,26
+asesor,Asesor 3,Admitido,1081,378,34.967623,35.782606,63,55,5474,26
+asesor,Asesor 3,Documentación pendiente,1081,109,10.083256,10.341827,63,55,5474,26
+asesor,Asesor 3,Inscrito,1081,114,10.545791,10.266038,63,55,5474,26
+asesor,Asesor 3,Matriculado,1081,251,23.219241,22.836569,63,55,5474,26
+asesor,Asesor 3,No admitido,1081,116,10.730805,10.357048,63,55,5474,26
+asesor,Asesor 3,Retirado,1081,113,10.453284,10.415913,63,55,5474,26
+asesor,Sin asignar,Admitido,1096,358,32.664234,32.505931,63,55,5474,26
+asesor,Sin asignar,Documentación pendiente,1096,130,11.861314,11.722104,63,55,5474,26
+asesor,Sin asignar,Inscrito,1096,131,11.952555,12.416285,63,55,5474,26
+asesor,Sin asignar,Matriculado,1096,237,21.624088,21.186566,63,55,5474,26
+asesor,Sin asignar,No admitido,1096,116,10.583942,10.532882,63,55,5474,26
+asesor,Sin asignar,Retirado,1096,124,11.313869,11.636232,63,55,5474,26

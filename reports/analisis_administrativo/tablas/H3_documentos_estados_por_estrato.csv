@@ -1,0 +1,1135 @@
+﻿programa,modalidad,periodo_academico,estado_proceso,registros_estado,registros_grupo_estrato,peso_comun,grupo,variable,porcentaje_estado_estrato
+Administración de Empresas,Híbrida,20252,Admitido,1,7,0.003106,No,documentos_completos,14.285714
+Administración de Empresas,Híbrida,20261,Admitido,2,9,0.010047,No,documentos_completos,22.222222
+Administración de Empresas,Híbrida,20262,Admitido,4,9,0.008769,No,documentos_completos,44.444444
+Administración de Empresas,Presencial,20252,Admitido,3,13,0.008586,No,documentos_completos,23.076923
+Administración de Empresas,Presencial,20261,Admitido,3,12,0.016076,No,documentos_completos,25.000000
+Administración de Empresas,Presencial,20262,Admitido,6,8,0.015163,No,documentos_completos,75.000000
+Administración de Empresas,Virtual,20252,Admitido,2,8,0.007673,No,documentos_completos,25.000000
+Administración de Empresas,Virtual,20261,Admitido,6,22,0.017903,No,documentos_completos,27.272727
+Administración de Empresas,Virtual,20262,Admitido,8,24,0.018999,No,documentos_completos,33.333333
+Contaduría Pública,Híbrida,20252,Admitido,0,7,0.004932,No,documentos_completos,0.000000
+Contaduría Pública,Híbrida,20261,Admitido,2,10,0.008038,No,documentos_completos,20.000000
+Contaduría Pública,Híbrida,20262,Admitido,0,9,0.008951,No,documentos_completos,0.000000
+Contaduría Pública,Presencial,20252,Admitido,3,9,0.008951,No,documentos_completos,33.333333
+Contaduría Pública,Presencial,20261,Admitido,5,22,0.018634,No,documentos_completos,22.727273
+Contaduría Pública,Presencial,20262,Admitido,5,21,0.017355,No,documentos_completos,23.809524
+Contaduría Pública,Virtual,20252,Admitido,3,7,0.009865,No,documentos_completos,42.857143
+Contaduría Pública,Virtual,20261,Admitido,13,24,0.017903,No,documentos_completos,54.166667
+Contaduría Pública,Virtual,20262,Admitido,2,20,0.017355,No,documentos_completos,10.000000
+Derecho,Híbrida,20252,Admitido,5,9,0.009134,No,documentos_completos,55.555556
+Derecho,Híbrida,20261,Admitido,10,29,0.018816,No,documentos_completos,34.482759
+Derecho,Híbrida,20262,Admitido,1,14,0.017355,No,documentos_completos,7.142857
+Derecho,Presencial,20252,Admitido,9,21,0.015893,No,documentos_completos,42.857143
+Derecho,Presencial,20261,Admitido,13,35,0.039094,No,documentos_completos,37.142857
+Derecho,Presencial,20262,Admitido,11,35,0.033431,No,documentos_completos,31.428571
+Derecho,Virtual,20252,Admitido,5,23,0.016989,No,documentos_completos,21.739130
+Derecho,Virtual,20261,Admitido,10,37,0.036719,No,documentos_completos,27.027027
+Derecho,Virtual,20262,Admitido,20,52,0.037815,No,documentos_completos,38.461538
+Especialización en Data Analytics,Híbrida,20252,Admitido,6,16,0.009499,No,documentos_completos,37.500000
+Especialización en Data Analytics,Híbrida,20261,Admitido,6,19,0.014615,No,documentos_completos,31.578947
+Especialización en Data Analytics,Híbrida,20262,Admitido,2,15,0.021374,No,documentos_completos,13.333333
+Especialización en Data Analytics,Presencial,20252,Admitido,5,19,0.016989,No,documentos_completos,26.315789
+Especialización en Data Analytics,Presencial,20261,Admitido,15,45,0.037815,No,documentos_completos,33.333333
+Especialización en Data Analytics,Presencial,20262,Admitido,6,33,0.039094,No,documentos_completos,18.181818
+Especialización en Data Analytics,Virtual,20252,Admitido,5,17,0.015711,No,documentos_completos,29.411765
+Especialización en Data Analytics,Virtual,20261,Admitido,7,27,0.032517,No,documentos_completos,25.925926
+Especialización en Data Analytics,Virtual,20262,Admitido,9,32,0.034527,No,documentos_completos,28.125000
+Especialización en Gerencia,Híbrida,20252,Admitido,5,6,0.005480,No,documentos_completos,83.333333
+Especialización en Gerencia,Híbrida,20261,Admitido,2,12,0.009499,No,documentos_completos,16.666667
+Especialización en Gerencia,Híbrida,20262,Admitido,5,13,0.009499,No,documentos_completos,38.461538
+Especialización en Gerencia,Presencial,20252,Admitido,7,14,0.008769,No,documentos_completos,50.000000
+Especialización en Gerencia,Presencial,20261,Admitido,5,12,0.017720,No,documentos_completos,41.666667
+Especialización en Gerencia,Presencial,20262,Admitido,13,21,0.016076,No,documentos_completos,61.904762
+Especialización en Gerencia,Virtual,20252,Admitido,4,8,0.009134,No,documentos_completos,50.000000
+Especialización en Gerencia,Virtual,20261,Admitido,10,27,0.018999,No,documentos_completos,37.037037
+Especialización en Gerencia,Virtual,20262,Admitido,3,12,0.015345,No,documentos_completos,25.000000
+Ingeniería de Sistemas,Híbrida,20252,Admitido,2,4,0.005115,No,documentos_completos,50.000000
+Ingeniería de Sistemas,Híbrida,20261,Admitido,5,11,0.009682,No,documentos_completos,45.454545
+Ingeniería de Sistemas,Híbrida,20262,Admitido,4,10,0.008586,No,documentos_completos,40.000000
+Ingeniería de Sistemas,Presencial,20252,Admitido,8,14,0.009317,No,documentos_completos,57.142857
+Ingeniería de Sistemas,Presencial,20261,Admitido,5,27,0.020643,No,documentos_completos,18.518519
+Ingeniería de Sistemas,Presencial,20262,Admitido,7,20,0.018816,No,documentos_completos,35.000000
+Ingeniería de Sistemas,Virtual,20252,Admitido,6,15,0.009865,No,documentos_completos,40.000000
+Ingeniería de Sistemas,Virtual,20261,Admitido,4,19,0.016076,No,documentos_completos,21.052632
+Ingeniería de Sistemas,Virtual,20262,Admitido,4,19,0.016989,No,documentos_completos,21.052632
+Psicología,Híbrida,20252,Admitido,0,4,0.003654,No,documentos_completos,0.000000
+Psicología,Híbrida,20261,Admitido,2,12,0.009499,No,documentos_completos,16.666667
+Psicología,Híbrida,20262,Admitido,1,6,0.009317,No,documentos_completos,16.666667
+Psicología,Presencial,20252,Admitido,7,10,0.008769,No,documentos_completos,70.000000
+Psicología,Presencial,20261,Admitido,2,13,0.017172,No,documentos_completos,15.384615
+Psicología,Presencial,20262,Admitido,2,18,0.013701,No,documentos_completos,11.111111
+Psicología,Virtual,20252,Admitido,3,7,0.007307,No,documentos_completos,42.857143
+Psicología,Virtual,20261,Admitido,6,22,0.020278,No,documentos_completos,27.272727
+Psicología,Virtual,20262,Admitido,4,17,0.018999,No,documentos_completos,23.529412
+Administración de Empresas,Híbrida,20252,Documentación pendiente,0,7,0.003106,No,documentos_completos,0.000000
+Administración de Empresas,Híbrida,20261,Documentación pendiente,1,9,0.010047,No,documentos_completos,11.111111
+Administración de Empresas,Híbrida,20262,Documentación pendiente,0,9,0.008769,No,documentos_completos,0.000000
+Administración de Empresas,Presencial,20252,Documentación pendiente,1,13,0.008586,No,documentos_completos,7.692308
+Administración de Empresas,Presencial,20261,Documentación pendiente,2,12,0.016076,No,documentos_completos,16.666667
+Administración de Empresas,Presencial,20262,Documentación pendiente,1,8,0.015163,No,documentos_completos,12.500000
+Administración de Empresas,Virtual,20252,Documentación pendiente,3,8,0.007673,No,documentos_completos,37.500000
+Administración de Empresas,Virtual,20261,Documentación pendiente,1,22,0.017903,No,documentos_completos,4.545455
+Administración de Empresas,Virtual,20262,Documentación pendiente,3,24,0.018999,No,documentos_completos,12.500000
+Contaduría Pública,Híbrida,20252,Documentación pendiente,2,7,0.004932,No,documentos_completos,28.571429
+Contaduría Pública,Híbrida,20261,Documentación pendiente,2,10,0.008038,No,documentos_completos,20.000000
+Contaduría Pública,Híbrida,20262,Documentación pendiente,3,9,0.008951,No,documentos_completos,33.333333
+Contaduría Pública,Presencial,20252,Documentación pendiente,1,9,0.008951,No,documentos_completos,11.111111
+Contaduría Pública,Presencial,20261,Documentación pendiente,1,22,0.018634,No,documentos_completos,4.545455
+Contaduría Pública,Presencial,20262,Documentación pendiente,2,21,0.017355,No,documentos_completos,9.523810
+Contaduría Pública,Virtual,20252,Documentación pendiente,0,7,0.009865,No,documentos_completos,0.000000
+Contaduría Pública,Virtual,20261,Documentación pendiente,2,24,0.017903,No,documentos_completos,8.333333
+Contaduría Pública,Virtual,20262,Documentación pendiente,0,20,0.017355,No,documentos_completos,0.000000
+Derecho,Híbrida,20252,Documentación pendiente,1,9,0.009134,No,documentos_completos,11.111111
+Derecho,Híbrida,20261,Documentación pendiente,3,29,0.018816,No,documentos_completos,10.344828
+Derecho,Híbrida,20262,Documentación pendiente,1,14,0.017355,No,documentos_completos,7.142857
+Derecho,Presencial,20252,Documentación pendiente,3,21,0.015893,No,documentos_completos,14.285714
+Derecho,Presencial,20261,Documentación pendiente,4,35,0.039094,No,documentos_completos,11.428571
+Derecho,Presencial,20262,Documentación pendiente,4,35,0.033431,No,documentos_completos,11.428571
+Derecho,Virtual,20252,Documentación pendiente,2,23,0.016989,No,documentos_completos,8.695652
+Derecho,Virtual,20261,Documentación pendiente,5,37,0.036719,No,documentos_completos,13.513514
+Derecho,Virtual,20262,Documentación pendiente,9,52,0.037815,No,documentos_completos,17.307692
+Especialización en Data Analytics,Híbrida,20252,Documentación pendiente,2,16,0.009499,No,documentos_completos,12.500000
+Especialización en Data Analytics,Híbrida,20261,Documentación pendiente,0,19,0.014615,No,documentos_completos,0.000000
+Especialización en Data Analytics,Híbrida,20262,Documentación pendiente,3,15,0.021374,No,documentos_completos,20.000000
+Especialización en Data Analytics,Presencial,20252,Documentación pendiente,1,19,0.016989,No,documentos_completos,5.263158
+Especialización en Data Analytics,Presencial,20261,Documentación pendiente,2,45,0.037815,No,documentos_completos,4.444444
+Especialización en Data Analytics,Presencial,20262,Documentación pendiente,6,33,0.039094,No,documentos_completos,18.181818
+Especialización en Data Analytics,Virtual,20252,Documentación pendiente,3,17,0.015711,No,documentos_completos,17.647059
+Especialización en Data Analytics,Virtual,20261,Documentación pendiente,3,27,0.032517,No,documentos_completos,11.111111
+Especialización en Data Analytics,Virtual,20262,Documentación pendiente,0,32,0.034527,No,documentos_completos,0.000000
+Especialización en Gerencia,Híbrida,20252,Documentación pendiente,0,6,0.005480,No,documentos_completos,0.000000
+Especialización en Gerencia,Híbrida,20261,Documentación pendiente,4,12,0.009499,No,documentos_completos,33.333333
+Especialización en Gerencia,Híbrida,20262,Documentación pendiente,2,13,0.009499,No,documentos_completos,15.384615
+Especialización en Gerencia,Presencial,20252,Documentación pendiente,4,14,0.008769,No,documentos_completos,28.571429
+Especialización en Gerencia,Presencial,20261,Documentación pendiente,1,12,0.017720,No,documentos_completos,8.333333
+Especialización en Gerencia,Presencial,20262,Documentación pendiente,1,21,0.016076,No,documentos_completos,4.761905
+Especialización en Gerencia,Virtual,20252,Documentación pendiente,1,8,0.009134,No,documentos_completos,12.500000
+Especialización en Gerencia,Virtual,20261,Documentación pendiente,3,27,0.018999,No,documentos_completos,11.111111
+Especialización en Gerencia,Virtual,20262,Documentación pendiente,1,12,0.015345,No,documentos_completos,8.333333
+Ingeniería de Sistemas,Híbrida,20252,Documentación pendiente,0,4,0.005115,No,documentos_completos,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Documentación pendiente,0,11,0.009682,No,documentos_completos,0.000000
+Ingeniería de Sistemas,Híbrida,20262,Documentación pendiente,2,10,0.008586,No,documentos_completos,20.000000
+Ingeniería de Sistemas,Presencial,20252,Documentación pendiente,1,14,0.009317,No,documentos_completos,7.142857
+Ingeniería de Sistemas,Presencial,20261,Documentación pendiente,1,27,0.020643,No,documentos_completos,3.703704
+Ingeniería de Sistemas,Presencial,20262,Documentación pendiente,2,20,0.018816,No,documentos_completos,10.000000
+Ingeniería de Sistemas,Virtual,20252,Documentación pendiente,3,15,0.009865,No,documentos_completos,20.000000
+Ingeniería de Sistemas,Virtual,20261,Documentación pendiente,4,19,0.016076,No,documentos_completos,21.052632
+Ingeniería de Sistemas,Virtual,20262,Documentación pendiente,5,19,0.016989,No,documentos_completos,26.315789
+Psicología,Híbrida,20252,Documentación pendiente,1,4,0.003654,No,documentos_completos,25.000000
+Psicología,Híbrida,20261,Documentación pendiente,1,12,0.009499,No,documentos_completos,8.333333
+Psicología,Híbrida,20262,Documentación pendiente,0,6,0.009317,No,documentos_completos,0.000000
+Psicología,Presencial,20252,Documentación pendiente,0,10,0.008769,No,documentos_completos,0.000000
+Psicología,Presencial,20261,Documentación pendiente,2,13,0.017172,No,documentos_completos,15.384615
+Psicología,Presencial,20262,Documentación pendiente,4,18,0.013701,No,documentos_completos,22.222222
+Psicología,Virtual,20252,Documentación pendiente,0,7,0.007307,No,documentos_completos,0.000000
+Psicología,Virtual,20261,Documentación pendiente,1,22,0.020278,No,documentos_completos,4.545455
+Psicología,Virtual,20262,Documentación pendiente,1,17,0.018999,No,documentos_completos,5.882353
+Administración de Empresas,Híbrida,20252,Inscrito,1,7,0.003106,No,documentos_completos,14.285714
+Administración de Empresas,Híbrida,20261,Inscrito,2,9,0.010047,No,documentos_completos,22.222222
+Administración de Empresas,Híbrida,20262,Inscrito,0,9,0.008769,No,documentos_completos,0.000000
+Administración de Empresas,Presencial,20252,Inscrito,1,13,0.008586,No,documentos_completos,7.692308
+Administración de Empresas,Presencial,20261,Inscrito,3,12,0.016076,No,documentos_completos,25.000000
+Administración de Empresas,Presencial,20262,Inscrito,1,8,0.015163,No,documentos_completos,12.500000
+Administración de Empresas,Virtual,20252,Inscrito,0,8,0.007673,No,documentos_completos,0.000000
+Administración de Empresas,Virtual,20261,Inscrito,2,22,0.017903,No,documentos_completos,9.090909
+Administración de Empresas,Virtual,20262,Inscrito,4,24,0.018999,No,documentos_completos,16.666667
+Contaduría Pública,Híbrida,20252,Inscrito,1,7,0.004932,No,documentos_completos,14.285714
+Contaduría Pública,Híbrida,20261,Inscrito,2,10,0.008038,No,documentos_completos,20.000000
+Contaduría Pública,Híbrida,20262,Inscrito,2,9,0.008951,No,documentos_completos,22.222222
+Contaduría Pública,Presencial,20252,Inscrito,2,9,0.008951,No,documentos_completos,22.222222
+Contaduría Pública,Presencial,20261,Inscrito,2,22,0.018634,No,documentos_completos,9.090909
+Contaduría Pública,Presencial,20262,Inscrito,1,21,0.017355,No,documentos_completos,4.761905
+Contaduría Pública,Virtual,20252,Inscrito,1,7,0.009865,No,documentos_completos,14.285714
+Contaduría Pública,Virtual,20261,Inscrito,0,24,0.017903,No,documentos_completos,0.000000
+Contaduría Pública,Virtual,20262,Inscrito,2,20,0.017355,No,documentos_completos,10.000000
+Derecho,Híbrida,20252,Inscrito,0,9,0.009134,No,documentos_completos,0.000000
+Derecho,Híbrida,20261,Inscrito,5,29,0.018816,No,documentos_completos,17.241379
+Derecho,Híbrida,20262,Inscrito,2,14,0.017355,No,documentos_completos,14.285714
+Derecho,Presencial,20252,Inscrito,1,21,0.015893,No,documentos_completos,4.761905
+Derecho,Presencial,20261,Inscrito,4,35,0.039094,No,documentos_completos,11.428571
+Derecho,Presencial,20262,Inscrito,5,35,0.033431,No,documentos_completos,14.285714
+Derecho,Virtual,20252,Inscrito,8,23,0.016989,No,documentos_completos,34.782609
+Derecho,Virtual,20261,Inscrito,3,37,0.036719,No,documentos_completos,8.108108
+Derecho,Virtual,20262,Inscrito,4,52,0.037815,No,documentos_completos,7.692308
+Especialización en Data Analytics,Híbrida,20252,Inscrito,1,16,0.009499,No,documentos_completos,6.250000
+Especialización en Data Analytics,Híbrida,20261,Inscrito,2,19,0.014615,No,documentos_completos,10.526316
+Especialización en Data Analytics,Híbrida,20262,Inscrito,3,15,0.021374,No,documentos_completos,20.000000
+Especialización en Data Analytics,Presencial,20252,Inscrito,2,19,0.016989,No,documentos_completos,10.526316
+Especialización en Data Analytics,Presencial,20261,Inscrito,8,45,0.037815,No,documentos_completos,17.777778
+Especialización en Data Analytics,Presencial,20262,Inscrito,4,33,0.039094,No,documentos_completos,12.121212
+Especialización en Data Analytics,Virtual,20252,Inscrito,1,17,0.015711,No,documentos_completos,5.882353
+Especialización en Data Analytics,Virtual,20261,Inscrito,1,27,0.032517,No,documentos_completos,3.703704
+Especialización en Data Analytics,Virtual,20262,Inscrito,2,32,0.034527,No,documentos_completos,6.250000
+Especialización en Gerencia,Híbrida,20252,Inscrito,0,6,0.005480,No,documentos_completos,0.000000
+Especialización en Gerencia,Híbrida,20261,Inscrito,0,12,0.009499,No,documentos_completos,0.000000
+Especialización en Gerencia,Híbrida,20262,Inscrito,2,13,0.009499,No,documentos_completos,15.384615
+Especialización en Gerencia,Presencial,20252,Inscrito,1,14,0.008769,No,documentos_completos,7.142857
+Especialización en Gerencia,Presencial,20261,Inscrito,0,12,0.017720,No,documentos_completos,0.000000
+Especialización en Gerencia,Presencial,20262,Inscrito,2,21,0.016076,No,documentos_completos,9.523810
+Especialización en Gerencia,Virtual,20252,Inscrito,1,8,0.009134,No,documentos_completos,12.500000
+Especialización en Gerencia,Virtual,20261,Inscrito,5,27,0.018999,No,documentos_completos,18.518519
+Especialización en Gerencia,Virtual,20262,Inscrito,1,12,0.015345,No,documentos_completos,8.333333
+Ingeniería de Sistemas,Híbrida,20252,Inscrito,0,4,0.005115,No,documentos_completos,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Inscrito,2,11,0.009682,No,documentos_completos,18.181818
+Ingeniería de Sistemas,Híbrida,20262,Inscrito,1,10,0.008586,No,documentos_completos,10.000000
+Ingeniería de Sistemas,Presencial,20252,Inscrito,2,14,0.009317,No,documentos_completos,14.285714
+Ingeniería de Sistemas,Presencial,20261,Inscrito,8,27,0.020643,No,documentos_completos,29.629630
+Ingeniería de Sistemas,Presencial,20262,Inscrito,3,20,0.018816,No,documentos_completos,15.000000
+Ingeniería de Sistemas,Virtual,20252,Inscrito,1,15,0.009865,No,documentos_completos,6.666667
+Ingeniería de Sistemas,Virtual,20261,Inscrito,1,19,0.016076,No,documentos_completos,5.263158
+Ingeniería de Sistemas,Virtual,20262,Inscrito,2,19,0.016989,No,documentos_completos,10.526316
+Psicología,Híbrida,20252,Inscrito,1,4,0.003654,No,documentos_completos,25.000000
+Psicología,Híbrida,20261,Inscrito,0,12,0.009499,No,documentos_completos,0.000000
+Psicología,Híbrida,20262,Inscrito,0,6,0.009317,No,documentos_completos,0.000000
+Psicología,Presencial,20252,Inscrito,1,10,0.008769,No,documentos_completos,10.000000
+Psicología,Presencial,20261,Inscrito,2,13,0.017172,No,documentos_completos,15.384615
+Psicología,Presencial,20262,Inscrito,2,18,0.013701,No,documentos_completos,11.111111
+Psicología,Virtual,20252,Inscrito,0,7,0.007307,No,documentos_completos,0.000000
+Psicología,Virtual,20261,Inscrito,2,22,0.020278,No,documentos_completos,9.090909
+Psicología,Virtual,20262,Inscrito,3,17,0.018999,No,documentos_completos,17.647059
+Administración de Empresas,Híbrida,20252,Matriculado,3,7,0.003106,No,documentos_completos,42.857143
+Administración de Empresas,Híbrida,20261,Matriculado,1,9,0.010047,No,documentos_completos,11.111111
+Administración de Empresas,Híbrida,20262,Matriculado,2,9,0.008769,No,documentos_completos,22.222222
+Administración de Empresas,Presencial,20252,Matriculado,5,13,0.008586,No,documentos_completos,38.461538
+Administración de Empresas,Presencial,20261,Matriculado,1,12,0.016076,No,documentos_completos,8.333333
+Administración de Empresas,Presencial,20262,Matriculado,0,8,0.015163,No,documentos_completos,0.000000
+Administración de Empresas,Virtual,20252,Matriculado,3,8,0.007673,No,documentos_completos,37.500000
+Administración de Empresas,Virtual,20261,Matriculado,8,22,0.017903,No,documentos_completos,36.363636
+Administración de Empresas,Virtual,20262,Matriculado,7,24,0.018999,No,documentos_completos,29.166667
+Contaduría Pública,Híbrida,20252,Matriculado,3,7,0.004932,No,documentos_completos,42.857143
+Contaduría Pública,Híbrida,20261,Matriculado,1,10,0.008038,No,documentos_completos,10.000000
+Contaduría Pública,Híbrida,20262,Matriculado,3,9,0.008951,No,documentos_completos,33.333333
+Contaduría Pública,Presencial,20252,Matriculado,1,9,0.008951,No,documentos_completos,11.111111
+Contaduría Pública,Presencial,20261,Matriculado,9,22,0.018634,No,documentos_completos,40.909091
+Contaduría Pública,Presencial,20262,Matriculado,7,21,0.017355,No,documentos_completos,33.333333
+Contaduría Pública,Virtual,20252,Matriculado,0,7,0.009865,No,documentos_completos,0.000000
+Contaduría Pública,Virtual,20261,Matriculado,6,24,0.017903,No,documentos_completos,25.000000
+Contaduría Pública,Virtual,20262,Matriculado,7,20,0.017355,No,documentos_completos,35.000000
+Derecho,Híbrida,20252,Matriculado,2,9,0.009134,No,documentos_completos,22.222222
+Derecho,Híbrida,20261,Matriculado,5,29,0.018816,No,documentos_completos,17.241379
+Derecho,Híbrida,20262,Matriculado,5,14,0.017355,No,documentos_completos,35.714286
+Derecho,Presencial,20252,Matriculado,5,21,0.015893,No,documentos_completos,23.809524
+Derecho,Presencial,20261,Matriculado,6,35,0.039094,No,documentos_completos,17.142857
+Derecho,Presencial,20262,Matriculado,6,35,0.033431,No,documentos_completos,17.142857
+Derecho,Virtual,20252,Matriculado,7,23,0.016989,No,documentos_completos,30.434783
+Derecho,Virtual,20261,Matriculado,7,37,0.036719,No,documentos_completos,18.918919
+Derecho,Virtual,20262,Matriculado,9,52,0.037815,No,documentos_completos,17.307692
+Especialización en Data Analytics,Híbrida,20252,Matriculado,2,16,0.009499,No,documentos_completos,12.500000
+Especialización en Data Analytics,Híbrida,20261,Matriculado,5,19,0.014615,No,documentos_completos,26.315789
+Especialización en Data Analytics,Híbrida,20262,Matriculado,2,15,0.021374,No,documentos_completos,13.333333
+Especialización en Data Analytics,Presencial,20252,Matriculado,8,19,0.016989,No,documentos_completos,42.105263
+Especialización en Data Analytics,Presencial,20261,Matriculado,10,45,0.037815,No,documentos_completos,22.222222
+Especialización en Data Analytics,Presencial,20262,Matriculado,6,33,0.039094,No,documentos_completos,18.181818
+Especialización en Data Analytics,Virtual,20252,Matriculado,6,17,0.015711,No,documentos_completos,35.294118
+Especialización en Data Analytics,Virtual,20261,Matriculado,7,27,0.032517,No,documentos_completos,25.925926
+Especialización en Data Analytics,Virtual,20262,Matriculado,8,32,0.034527,No,documentos_completos,25.000000
+Especialización en Gerencia,Híbrida,20252,Matriculado,1,6,0.005480,No,documentos_completos,16.666667
+Especialización en Gerencia,Híbrida,20261,Matriculado,3,12,0.009499,No,documentos_completos,25.000000
+Especialización en Gerencia,Híbrida,20262,Matriculado,2,13,0.009499,No,documentos_completos,15.384615
+Especialización en Gerencia,Presencial,20252,Matriculado,2,14,0.008769,No,documentos_completos,14.285714
+Especialización en Gerencia,Presencial,20261,Matriculado,3,12,0.017720,No,documentos_completos,25.000000
+Especialización en Gerencia,Presencial,20262,Matriculado,2,21,0.016076,No,documentos_completos,9.523810
+Especialización en Gerencia,Virtual,20252,Matriculado,1,8,0.009134,No,documentos_completos,12.500000
+Especialización en Gerencia,Virtual,20261,Matriculado,8,27,0.018999,No,documentos_completos,29.629630
+Especialización en Gerencia,Virtual,20262,Matriculado,2,12,0.015345,No,documentos_completos,16.666667
+Ingeniería de Sistemas,Híbrida,20252,Matriculado,2,4,0.005115,No,documentos_completos,50.000000
+Ingeniería de Sistemas,Híbrida,20261,Matriculado,2,11,0.009682,No,documentos_completos,18.181818
+Ingeniería de Sistemas,Híbrida,20262,Matriculado,0,10,0.008586,No,documentos_completos,0.000000
+Ingeniería de Sistemas,Presencial,20252,Matriculado,1,14,0.009317,No,documentos_completos,7.142857
+Ingeniería de Sistemas,Presencial,20261,Matriculado,6,27,0.020643,No,documentos_completos,22.222222
+Ingeniería de Sistemas,Presencial,20262,Matriculado,1,20,0.018816,No,documentos_completos,5.000000
+Ingeniería de Sistemas,Virtual,20252,Matriculado,4,15,0.009865,No,documentos_completos,26.666667
+Ingeniería de Sistemas,Virtual,20261,Matriculado,5,19,0.016076,No,documentos_completos,26.315789
+Ingeniería de Sistemas,Virtual,20262,Matriculado,4,19,0.016989,No,documentos_completos,21.052632
+Psicología,Híbrida,20252,Matriculado,1,4,0.003654,No,documentos_completos,25.000000
+Psicología,Híbrida,20261,Matriculado,5,12,0.009499,No,documentos_completos,41.666667
+Psicología,Híbrida,20262,Matriculado,3,6,0.009317,No,documentos_completos,50.000000
+Psicología,Presencial,20252,Matriculado,1,10,0.008769,No,documentos_completos,10.000000
+Psicología,Presencial,20261,Matriculado,3,13,0.017172,No,documentos_completos,23.076923
+Psicología,Presencial,20262,Matriculado,5,18,0.013701,No,documentos_completos,27.777778
+Psicología,Virtual,20252,Matriculado,1,7,0.007307,No,documentos_completos,14.285714
+Psicología,Virtual,20261,Matriculado,5,22,0.020278,No,documentos_completos,22.727273
+Psicología,Virtual,20262,Matriculado,5,17,0.018999,No,documentos_completos,29.411765
+Administración de Empresas,Híbrida,20252,No admitido,0,7,0.003106,No,documentos_completos,0.000000
+Administración de Empresas,Híbrida,20261,No admitido,0,9,0.010047,No,documentos_completos,0.000000
+Administración de Empresas,Híbrida,20262,No admitido,3,9,0.008769,No,documentos_completos,33.333333
+Administración de Empresas,Presencial,20252,No admitido,3,13,0.008586,No,documentos_completos,23.076923
+Administración de Empresas,Presencial,20261,No admitido,1,12,0.016076,No,documentos_completos,8.333333
+Administración de Empresas,Presencial,20262,No admitido,0,8,0.015163,No,documentos_completos,0.000000
+Administración de Empresas,Virtual,20252,No admitido,0,8,0.007673,No,documentos_completos,0.000000
+Administración de Empresas,Virtual,20261,No admitido,2,22,0.017903,No,documentos_completos,9.090909
+Administración de Empresas,Virtual,20262,No admitido,1,24,0.018999,No,documentos_completos,4.166667
+Contaduría Pública,Híbrida,20252,No admitido,1,7,0.004932,No,documentos_completos,14.285714
+Contaduría Pública,Híbrida,20261,No admitido,1,10,0.008038,No,documentos_completos,10.000000
+Contaduría Pública,Híbrida,20262,No admitido,0,9,0.008951,No,documentos_completos,0.000000
+Contaduría Pública,Presencial,20252,No admitido,2,9,0.008951,No,documentos_completos,22.222222
+Contaduría Pública,Presencial,20261,No admitido,3,22,0.018634,No,documentos_completos,13.636364
+Contaduría Pública,Presencial,20262,No admitido,4,21,0.017355,No,documentos_completos,19.047619
+Contaduría Pública,Virtual,20252,No admitido,3,7,0.009865,No,documentos_completos,42.857143
+Contaduría Pública,Virtual,20261,No admitido,3,24,0.017903,No,documentos_completos,12.500000
+Contaduría Pública,Virtual,20262,No admitido,8,20,0.017355,No,documentos_completos,40.000000
+Derecho,Híbrida,20252,No admitido,1,9,0.009134,No,documentos_completos,11.111111
+Derecho,Híbrida,20261,No admitido,3,29,0.018816,No,documentos_completos,10.344828
+Derecho,Híbrida,20262,No admitido,3,14,0.017355,No,documentos_completos,21.428571
+Derecho,Presencial,20252,No admitido,2,21,0.015893,No,documentos_completos,9.523810
+Derecho,Presencial,20261,No admitido,4,35,0.039094,No,documentos_completos,11.428571
+Derecho,Presencial,20262,No admitido,7,35,0.033431,No,documentos_completos,20.000000
+Derecho,Virtual,20252,No admitido,1,23,0.016989,No,documentos_completos,4.347826
+Derecho,Virtual,20261,No admitido,6,37,0.036719,No,documentos_completos,16.216216
+Derecho,Virtual,20262,No admitido,3,52,0.037815,No,documentos_completos,5.769231
+Especialización en Data Analytics,Híbrida,20252,No admitido,4,16,0.009499,No,documentos_completos,25.000000
+Especialización en Data Analytics,Híbrida,20261,No admitido,2,19,0.014615,No,documentos_completos,10.526316
+Especialización en Data Analytics,Híbrida,20262,No admitido,2,15,0.021374,No,documentos_completos,13.333333
+Especialización en Data Analytics,Presencial,20252,No admitido,1,19,0.016989,No,documentos_completos,5.263158
+Especialización en Data Analytics,Presencial,20261,No admitido,6,45,0.037815,No,documentos_completos,13.333333
+Especialización en Data Analytics,Presencial,20262,No admitido,9,33,0.039094,No,documentos_completos,27.272727
+Especialización en Data Analytics,Virtual,20252,No admitido,1,17,0.015711,No,documentos_completos,5.882353
+Especialización en Data Analytics,Virtual,20261,No admitido,3,27,0.032517,No,documentos_completos,11.111111
+Especialización en Data Analytics,Virtual,20262,No admitido,11,32,0.034527,No,documentos_completos,34.375000
+Especialización en Gerencia,Híbrida,20252,No admitido,0,6,0.005480,No,documentos_completos,0.000000
+Especialización en Gerencia,Híbrida,20261,No admitido,0,12,0.009499,No,documentos_completos,0.000000
+Especialización en Gerencia,Híbrida,20262,No admitido,1,13,0.009499,No,documentos_completos,7.692308
+Especialización en Gerencia,Presencial,20252,No admitido,0,14,0.008769,No,documentos_completos,0.000000
+Especialización en Gerencia,Presencial,20261,No admitido,1,12,0.017720,No,documentos_completos,8.333333
+Especialización en Gerencia,Presencial,20262,No admitido,1,21,0.016076,No,documentos_completos,4.761905
+Especialización en Gerencia,Virtual,20252,No admitido,0,8,0.009134,No,documentos_completos,0.000000
+Especialización en Gerencia,Virtual,20261,No admitido,1,27,0.018999,No,documentos_completos,3.703704
+Especialización en Gerencia,Virtual,20262,No admitido,2,12,0.015345,No,documentos_completos,16.666667
+Ingeniería de Sistemas,Híbrida,20252,No admitido,0,4,0.005115,No,documentos_completos,0.000000
+Ingeniería de Sistemas,Híbrida,20261,No admitido,0,11,0.009682,No,documentos_completos,0.000000
+Ingeniería de Sistemas,Híbrida,20262,No admitido,0,10,0.008586,No,documentos_completos,0.000000
+Ingeniería de Sistemas,Presencial,20252,No admitido,1,14,0.009317,No,documentos_completos,7.142857
+Ingeniería de Sistemas,Presencial,20261,No admitido,4,27,0.020643,No,documentos_completos,14.814815
+Ingeniería de Sistemas,Presencial,20262,No admitido,4,20,0.018816,No,documentos_completos,20.000000
+Ingeniería de Sistemas,Virtual,20252,No admitido,1,15,0.009865,No,documentos_completos,6.666667
+Ingeniería de Sistemas,Virtual,20261,No admitido,2,19,0.016076,No,documentos_completos,10.526316
+Ingeniería de Sistemas,Virtual,20262,No admitido,1,19,0.016989,No,documentos_completos,5.263158
+Psicología,Híbrida,20252,No admitido,0,4,0.003654,No,documentos_completos,0.000000
+Psicología,Híbrida,20261,No admitido,4,12,0.009499,No,documentos_completos,33.333333
+Psicología,Híbrida,20262,No admitido,1,6,0.009317,No,documentos_completos,16.666667
+Psicología,Presencial,20252,No admitido,1,10,0.008769,No,documentos_completos,10.000000
+Psicología,Presencial,20261,No admitido,1,13,0.017172,No,documentos_completos,7.692308
+Psicología,Presencial,20262,No admitido,0,18,0.013701,No,documentos_completos,0.000000
+Psicología,Virtual,20252,No admitido,0,7,0.007307,No,documentos_completos,0.000000
+Psicología,Virtual,20261,No admitido,3,22,0.020278,No,documentos_completos,13.636364
+Psicología,Virtual,20262,No admitido,0,17,0.018999,No,documentos_completos,0.000000
+Administración de Empresas,Híbrida,20252,Retirado,2,7,0.003106,No,documentos_completos,28.571429
+Administración de Empresas,Híbrida,20261,Retirado,3,9,0.010047,No,documentos_completos,33.333333
+Administración de Empresas,Híbrida,20262,Retirado,0,9,0.008769,No,documentos_completos,0.000000
+Administración de Empresas,Presencial,20252,Retirado,0,13,0.008586,No,documentos_completos,0.000000
+Administración de Empresas,Presencial,20261,Retirado,2,12,0.016076,No,documentos_completos,16.666667
+Administración de Empresas,Presencial,20262,Retirado,0,8,0.015163,No,documentos_completos,0.000000
+Administración de Empresas,Virtual,20252,Retirado,0,8,0.007673,No,documentos_completos,0.000000
+Administración de Empresas,Virtual,20261,Retirado,3,22,0.017903,No,documentos_completos,13.636364
+Administración de Empresas,Virtual,20262,Retirado,1,24,0.018999,No,documentos_completos,4.166667
+Contaduría Pública,Híbrida,20252,Retirado,0,7,0.004932,No,documentos_completos,0.000000
+Contaduría Pública,Híbrida,20261,Retirado,2,10,0.008038,No,documentos_completos,20.000000
+Contaduría Pública,Híbrida,20262,Retirado,1,9,0.008951,No,documentos_completos,11.111111
+Contaduría Pública,Presencial,20252,Retirado,0,9,0.008951,No,documentos_completos,0.000000
+Contaduría Pública,Presencial,20261,Retirado,2,22,0.018634,No,documentos_completos,9.090909
+Contaduría Pública,Presencial,20262,Retirado,2,21,0.017355,No,documentos_completos,9.523810
+Contaduría Pública,Virtual,20252,Retirado,0,7,0.009865,No,documentos_completos,0.000000
+Contaduría Pública,Virtual,20261,Retirado,0,24,0.017903,No,documentos_completos,0.000000
+Contaduría Pública,Virtual,20262,Retirado,1,20,0.017355,No,documentos_completos,5.000000
+Derecho,Híbrida,20252,Retirado,0,9,0.009134,No,documentos_completos,0.000000
+Derecho,Híbrida,20261,Retirado,3,29,0.018816,No,documentos_completos,10.344828
+Derecho,Híbrida,20262,Retirado,2,14,0.017355,No,documentos_completos,14.285714
+Derecho,Presencial,20252,Retirado,1,21,0.015893,No,documentos_completos,4.761905
+Derecho,Presencial,20261,Retirado,4,35,0.039094,No,documentos_completos,11.428571
+Derecho,Presencial,20262,Retirado,2,35,0.033431,No,documentos_completos,5.714286
+Derecho,Virtual,20252,Retirado,0,23,0.016989,No,documentos_completos,0.000000
+Derecho,Virtual,20261,Retirado,6,37,0.036719,No,documentos_completos,16.216216
+Derecho,Virtual,20262,Retirado,7,52,0.037815,No,documentos_completos,13.461538
+Especialización en Data Analytics,Híbrida,20252,Retirado,1,16,0.009499,No,documentos_completos,6.250000
+Especialización en Data Analytics,Híbrida,20261,Retirado,4,19,0.014615,No,documentos_completos,21.052632
+Especialización en Data Analytics,Híbrida,20262,Retirado,3,15,0.021374,No,documentos_completos,20.000000
+Especialización en Data Analytics,Presencial,20252,Retirado,2,19,0.016989,No,documentos_completos,10.526316
+Especialización en Data Analytics,Presencial,20261,Retirado,4,45,0.037815,No,documentos_completos,8.888889
+Especialización en Data Analytics,Presencial,20262,Retirado,2,33,0.039094,No,documentos_completos,6.060606
+Especialización en Data Analytics,Virtual,20252,Retirado,1,17,0.015711,No,documentos_completos,5.882353
+Especialización en Data Analytics,Virtual,20261,Retirado,6,27,0.032517,No,documentos_completos,22.222222
+Especialización en Data Analytics,Virtual,20262,Retirado,2,32,0.034527,No,documentos_completos,6.250000
+Especialización en Gerencia,Híbrida,20252,Retirado,0,6,0.005480,No,documentos_completos,0.000000
+Especialización en Gerencia,Híbrida,20261,Retirado,3,12,0.009499,No,documentos_completos,25.000000
+Especialización en Gerencia,Híbrida,20262,Retirado,1,13,0.009499,No,documentos_completos,7.692308
+Especialización en Gerencia,Presencial,20252,Retirado,0,14,0.008769,No,documentos_completos,0.000000
+Especialización en Gerencia,Presencial,20261,Retirado,2,12,0.017720,No,documentos_completos,16.666667
+Especialización en Gerencia,Presencial,20262,Retirado,2,21,0.016076,No,documentos_completos,9.523810
+Especialización en Gerencia,Virtual,20252,Retirado,1,8,0.009134,No,documentos_completos,12.500000
+Especialización en Gerencia,Virtual,20261,Retirado,0,27,0.018999,No,documentos_completos,0.000000
+Especialización en Gerencia,Virtual,20262,Retirado,3,12,0.015345,No,documentos_completos,25.000000
+Ingeniería de Sistemas,Híbrida,20252,Retirado,0,4,0.005115,No,documentos_completos,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Retirado,2,11,0.009682,No,documentos_completos,18.181818
+Ingeniería de Sistemas,Híbrida,20262,Retirado,3,10,0.008586,No,documentos_completos,30.000000
+Ingeniería de Sistemas,Presencial,20252,Retirado,1,14,0.009317,No,documentos_completos,7.142857
+Ingeniería de Sistemas,Presencial,20261,Retirado,3,27,0.020643,No,documentos_completos,11.111111
+Ingeniería de Sistemas,Presencial,20262,Retirado,3,20,0.018816,No,documentos_completos,15.000000
+Ingeniería de Sistemas,Virtual,20252,Retirado,0,15,0.009865,No,documentos_completos,0.000000
+Ingeniería de Sistemas,Virtual,20261,Retirado,3,19,0.016076,No,documentos_completos,15.789474
+Ingeniería de Sistemas,Virtual,20262,Retirado,3,19,0.016989,No,documentos_completos,15.789474
+Psicología,Híbrida,20252,Retirado,1,4,0.003654,No,documentos_completos,25.000000
+Psicología,Híbrida,20261,Retirado,0,12,0.009499,No,documentos_completos,0.000000
+Psicología,Híbrida,20262,Retirado,1,6,0.009317,No,documentos_completos,16.666667
+Psicología,Presencial,20252,Retirado,0,10,0.008769,No,documentos_completos,0.000000
+Psicología,Presencial,20261,Retirado,3,13,0.017172,No,documentos_completos,23.076923
+Psicología,Presencial,20262,Retirado,5,18,0.013701,No,documentos_completos,27.777778
+Psicología,Virtual,20252,Retirado,3,7,0.007307,No,documentos_completos,42.857143
+Psicología,Virtual,20261,Retirado,5,22,0.020278,No,documentos_completos,22.727273
+Psicología,Virtual,20262,Retirado,4,17,0.018999,No,documentos_completos,23.529412
+Administración de Empresas,Híbrida,20252,Admitido,2,4,0.003106,Pendiente,documentos_completos,50.000000
+Administración de Empresas,Híbrida,20261,Admitido,6,15,0.010047,Pendiente,documentos_completos,40.000000
+Administración de Empresas,Híbrida,20262,Admitido,3,14,0.008769,Pendiente,documentos_completos,21.428571
+Administración de Empresas,Presencial,20252,Admitido,4,9,0.008586,Pendiente,documentos_completos,44.444444
+Administración de Empresas,Presencial,20261,Admitido,9,17,0.016076,Pendiente,documentos_completos,52.941176
+Administración de Empresas,Presencial,20262,Admitido,13,21,0.015163,Pendiente,documentos_completos,61.904762
+Administración de Empresas,Virtual,20252,Admitido,1,8,0.007673,Pendiente,documentos_completos,12.500000
+Administración de Empresas,Virtual,20261,Admitido,8,21,0.017903,Pendiente,documentos_completos,38.095238
+Administración de Empresas,Virtual,20262,Admitido,10,23,0.018999,Pendiente,documentos_completos,43.478261
+Contaduría Pública,Híbrida,20252,Admitido,2,5,0.004932,Pendiente,documentos_completos,40.000000
+Contaduría Pública,Híbrida,20261,Admitido,2,7,0.008038,Pendiente,documentos_completos,28.571429
+Contaduría Pública,Híbrida,20262,Admitido,3,10,0.008951,Pendiente,documentos_completos,30.000000
+Contaduría Pública,Presencial,20252,Admitido,2,12,0.008951,Pendiente,documentos_completos,16.666667
+Contaduría Pública,Presencial,20261,Admitido,7,21,0.018634,Pendiente,documentos_completos,33.333333
+Contaduría Pública,Presencial,20262,Admitido,4,20,0.017355,Pendiente,documentos_completos,20.000000
+Contaduría Pública,Virtual,20252,Admitido,2,5,0.009865,Pendiente,documentos_completos,40.000000
+Contaduría Pública,Virtual,20261,Admitido,7,19,0.017903,Pendiente,documentos_completos,36.842105
+Contaduría Pública,Virtual,20262,Admitido,7,18,0.017355,Pendiente,documentos_completos,38.888889
+Derecho,Híbrida,20252,Admitido,4,11,0.009134,Pendiente,documentos_completos,36.363636
+Derecho,Híbrida,20261,Admitido,6,12,0.018816,Pendiente,documentos_completos,50.000000
+Derecho,Híbrida,20262,Admitido,13,29,0.017355,Pendiente,documentos_completos,44.827586
+Derecho,Presencial,20252,Admitido,8,13,0.015893,Pendiente,documentos_completos,61.538462
+Derecho,Presencial,20261,Admitido,13,42,0.039094,Pendiente,documentos_completos,30.952381
+Derecho,Presencial,20262,Admitido,13,35,0.033431,Pendiente,documentos_completos,37.142857
+Derecho,Virtual,20252,Admitido,6,17,0.016989,Pendiente,documentos_completos,35.294118
+Derecho,Virtual,20261,Admitido,13,29,0.036719,Pendiente,documentos_completos,44.827586
+Derecho,Virtual,20262,Admitido,14,44,0.037815,Pendiente,documentos_completos,31.818182
+Especialización en Data Analytics,Híbrida,20252,Admitido,0,9,0.009499,Pendiente,documentos_completos,0.000000
+Especialización en Data Analytics,Híbrida,20261,Admitido,5,18,0.014615,Pendiente,documentos_completos,27.777778
+Especialización en Data Analytics,Híbrida,20262,Admitido,8,22,0.021374,Pendiente,documentos_completos,36.363636
+Especialización en Data Analytics,Presencial,20252,Admitido,5,15,0.016989,Pendiente,documentos_completos,33.333333
+Especialización en Data Analytics,Presencial,20261,Admitido,9,37,0.037815,Pendiente,documentos_completos,24.324324
+Especialización en Data Analytics,Presencial,20262,Admitido,17,49,0.039094,Pendiente,documentos_completos,34.693878
+Especialización en Data Analytics,Virtual,20252,Admitido,3,16,0.015711,Pendiente,documentos_completos,18.750000
+Especialización en Data Analytics,Virtual,20261,Admitido,19,38,0.032517,Pendiente,documentos_completos,50.000000
+Especialización en Data Analytics,Virtual,20262,Admitido,11,36,0.034527,Pendiente,documentos_completos,30.555556
+Especialización en Gerencia,Híbrida,20252,Admitido,5,7,0.005480,Pendiente,documentos_completos,71.428571
+Especialización en Gerencia,Híbrida,20261,Admitido,7,13,0.009499,Pendiente,documentos_completos,53.846154
+Especialización en Gerencia,Híbrida,20262,Admitido,5,15,0.009499,Pendiente,documentos_completos,33.333333
+Especialización en Gerencia,Presencial,20252,Admitido,1,7,0.008769,Pendiente,documentos_completos,14.285714
+Especialización en Gerencia,Presencial,20261,Admitido,6,16,0.017720,Pendiente,documentos_completos,37.500000
+Especialización en Gerencia,Presencial,20262,Admitido,5,18,0.016076,Pendiente,documentos_completos,27.777778
+Especialización en Gerencia,Virtual,20252,Admitido,5,9,0.009134,Pendiente,documentos_completos,55.555556
+Especialización en Gerencia,Virtual,20261,Admitido,5,20,0.018999,Pendiente,documentos_completos,25.000000
+Especialización en Gerencia,Virtual,20262,Admitido,4,23,0.015345,Pendiente,documentos_completos,17.391304
+Ingeniería de Sistemas,Híbrida,20252,Admitido,5,9,0.005115,Pendiente,documentos_completos,55.555556
+Ingeniería de Sistemas,Híbrida,20261,Admitido,6,12,0.009682,Pendiente,documentos_completos,50.000000
+Ingeniería de Sistemas,Híbrida,20262,Admitido,2,8,0.008586,Pendiente,documentos_completos,25.000000
+Ingeniería de Sistemas,Presencial,20252,Admitido,3,7,0.009317,Pendiente,documentos_completos,42.857143
+Ingeniería de Sistemas,Presencial,20261,Admitido,6,26,0.020643,Pendiente,documentos_completos,23.076923
+Ingeniería de Sistemas,Presencial,20262,Admitido,13,31,0.018816,Pendiente,documentos_completos,41.935484
+Ingeniería de Sistemas,Virtual,20252,Admitido,4,8,0.009865,Pendiente,documentos_completos,50.000000
+Ingeniería de Sistemas,Virtual,20261,Admitido,9,25,0.016076,Pendiente,documentos_completos,36.000000
+Ingeniería de Sistemas,Virtual,20262,Admitido,3,11,0.016989,Pendiente,documentos_completos,27.272727
+Psicología,Híbrida,20252,Admitido,0,3,0.003654,Pendiente,documentos_completos,0.000000
+Psicología,Híbrida,20261,Admitido,3,13,0.009499,Pendiente,documentos_completos,23.076923
+Psicología,Híbrida,20262,Admitido,3,9,0.009317,Pendiente,documentos_completos,33.333333
+Psicología,Presencial,20252,Admitido,5,11,0.008769,Pendiente,documentos_completos,45.454545
+Psicología,Presencial,20261,Admitido,2,20,0.017172,Pendiente,documentos_completos,10.000000
+Psicología,Presencial,20262,Admitido,5,12,0.013701,Pendiente,documentos_completos,41.666667
+Psicología,Virtual,20252,Admitido,3,9,0.007307,Pendiente,documentos_completos,33.333333
+Psicología,Virtual,20261,Admitido,7,25,0.020278,Pendiente,documentos_completos,28.000000
+Psicología,Virtual,20262,Admitido,7,23,0.018999,Pendiente,documentos_completos,30.434783
+Administración de Empresas,Híbrida,20252,Documentación pendiente,1,4,0.003106,Pendiente,documentos_completos,25.000000
+Administración de Empresas,Híbrida,20261,Documentación pendiente,2,15,0.010047,Pendiente,documentos_completos,13.333333
+Administración de Empresas,Híbrida,20262,Documentación pendiente,3,14,0.008769,Pendiente,documentos_completos,21.428571
+Administración de Empresas,Presencial,20252,Documentación pendiente,0,9,0.008586,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Presencial,20261,Documentación pendiente,1,17,0.016076,Pendiente,documentos_completos,5.882353
+Administración de Empresas,Presencial,20262,Documentación pendiente,1,21,0.015163,Pendiente,documentos_completos,4.761905
+Administración de Empresas,Virtual,20252,Documentación pendiente,0,8,0.007673,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Virtual,20261,Documentación pendiente,0,21,0.017903,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Virtual,20262,Documentación pendiente,6,23,0.018999,Pendiente,documentos_completos,26.086957
+Contaduría Pública,Híbrida,20252,Documentación pendiente,1,5,0.004932,Pendiente,documentos_completos,20.000000
+Contaduría Pública,Híbrida,20261,Documentación pendiente,0,7,0.008038,Pendiente,documentos_completos,0.000000
+Contaduría Pública,Híbrida,20262,Documentación pendiente,0,10,0.008951,Pendiente,documentos_completos,0.000000
+Contaduría Pública,Presencial,20252,Documentación pendiente,1,12,0.008951,Pendiente,documentos_completos,8.333333
+Contaduría Pública,Presencial,20261,Documentación pendiente,1,21,0.018634,Pendiente,documentos_completos,4.761905
+Contaduría Pública,Presencial,20262,Documentación pendiente,2,20,0.017355,Pendiente,documentos_completos,10.000000
+Contaduría Pública,Virtual,20252,Documentación pendiente,0,5,0.009865,Pendiente,documentos_completos,0.000000
+Contaduría Pública,Virtual,20261,Documentación pendiente,3,19,0.017903,Pendiente,documentos_completos,15.789474
+Contaduría Pública,Virtual,20262,Documentación pendiente,1,18,0.017355,Pendiente,documentos_completos,5.555556
+Derecho,Híbrida,20252,Documentación pendiente,2,11,0.009134,Pendiente,documentos_completos,18.181818
+Derecho,Híbrida,20261,Documentación pendiente,2,12,0.018816,Pendiente,documentos_completos,16.666667
+Derecho,Híbrida,20262,Documentación pendiente,5,29,0.017355,Pendiente,documentos_completos,17.241379
+Derecho,Presencial,20252,Documentación pendiente,3,13,0.015893,Pendiente,documentos_completos,23.076923
+Derecho,Presencial,20261,Documentación pendiente,3,42,0.039094,Pendiente,documentos_completos,7.142857
+Derecho,Presencial,20262,Documentación pendiente,3,35,0.033431,Pendiente,documentos_completos,8.571429
+Derecho,Virtual,20252,Documentación pendiente,1,17,0.016989,Pendiente,documentos_completos,5.882353
+Derecho,Virtual,20261,Documentación pendiente,0,29,0.036719,Pendiente,documentos_completos,0.000000
+Derecho,Virtual,20262,Documentación pendiente,4,44,0.037815,Pendiente,documentos_completos,9.090909
+Especialización en Data Analytics,Híbrida,20252,Documentación pendiente,0,9,0.009499,Pendiente,documentos_completos,0.000000
+Especialización en Data Analytics,Híbrida,20261,Documentación pendiente,4,18,0.014615,Pendiente,documentos_completos,22.222222
+Especialización en Data Analytics,Híbrida,20262,Documentación pendiente,2,22,0.021374,Pendiente,documentos_completos,9.090909
+Especialización en Data Analytics,Presencial,20252,Documentación pendiente,1,15,0.016989,Pendiente,documentos_completos,6.666667
+Especialización en Data Analytics,Presencial,20261,Documentación pendiente,5,37,0.037815,Pendiente,documentos_completos,13.513514
+Especialización en Data Analytics,Presencial,20262,Documentación pendiente,5,49,0.039094,Pendiente,documentos_completos,10.204082
+Especialización en Data Analytics,Virtual,20252,Documentación pendiente,5,16,0.015711,Pendiente,documentos_completos,31.250000
+Especialización en Data Analytics,Virtual,20261,Documentación pendiente,3,38,0.032517,Pendiente,documentos_completos,7.894737
+Especialización en Data Analytics,Virtual,20262,Documentación pendiente,1,36,0.034527,Pendiente,documentos_completos,2.777778
+Especialización en Gerencia,Híbrida,20252,Documentación pendiente,0,7,0.005480,Pendiente,documentos_completos,0.000000
+Especialización en Gerencia,Híbrida,20261,Documentación pendiente,1,13,0.009499,Pendiente,documentos_completos,7.692308
+Especialización en Gerencia,Híbrida,20262,Documentación pendiente,1,15,0.009499,Pendiente,documentos_completos,6.666667
+Especialización en Gerencia,Presencial,20252,Documentación pendiente,1,7,0.008769,Pendiente,documentos_completos,14.285714
+Especialización en Gerencia,Presencial,20261,Documentación pendiente,1,16,0.017720,Pendiente,documentos_completos,6.250000
+Especialización en Gerencia,Presencial,20262,Documentación pendiente,2,18,0.016076,Pendiente,documentos_completos,11.111111
+Especialización en Gerencia,Virtual,20252,Documentación pendiente,1,9,0.009134,Pendiente,documentos_completos,11.111111
+Especialización en Gerencia,Virtual,20261,Documentación pendiente,3,20,0.018999,Pendiente,documentos_completos,15.000000
+Especialización en Gerencia,Virtual,20262,Documentación pendiente,3,23,0.015345,Pendiente,documentos_completos,13.043478
+Ingeniería de Sistemas,Híbrida,20252,Documentación pendiente,0,9,0.005115,Pendiente,documentos_completos,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Documentación pendiente,1,12,0.009682,Pendiente,documentos_completos,8.333333
+Ingeniería de Sistemas,Híbrida,20262,Documentación pendiente,2,8,0.008586,Pendiente,documentos_completos,25.000000
+Ingeniería de Sistemas,Presencial,20252,Documentación pendiente,3,7,0.009317,Pendiente,documentos_completos,42.857143
+Ingeniería de Sistemas,Presencial,20261,Documentación pendiente,2,26,0.020643,Pendiente,documentos_completos,7.692308
+Ingeniería de Sistemas,Presencial,20262,Documentación pendiente,8,31,0.018816,Pendiente,documentos_completos,25.806452
+Ingeniería de Sistemas,Virtual,20252,Documentación pendiente,0,8,0.009865,Pendiente,documentos_completos,0.000000
+Ingeniería de Sistemas,Virtual,20261,Documentación pendiente,1,25,0.016076,Pendiente,documentos_completos,4.000000
+Ingeniería de Sistemas,Virtual,20262,Documentación pendiente,1,11,0.016989,Pendiente,documentos_completos,9.090909
+Psicología,Híbrida,20252,Documentación pendiente,0,3,0.003654,Pendiente,documentos_completos,0.000000
+Psicología,Híbrida,20261,Documentación pendiente,2,13,0.009499,Pendiente,documentos_completos,15.384615
+Psicología,Híbrida,20262,Documentación pendiente,3,9,0.009317,Pendiente,documentos_completos,33.333333
+Psicología,Presencial,20252,Documentación pendiente,2,11,0.008769,Pendiente,documentos_completos,18.181818
+Psicología,Presencial,20261,Documentación pendiente,1,20,0.017172,Pendiente,documentos_completos,5.000000
+Psicología,Presencial,20262,Documentación pendiente,1,12,0.013701,Pendiente,documentos_completos,8.333333
+Psicología,Virtual,20252,Documentación pendiente,2,9,0.007307,Pendiente,documentos_completos,22.222222
+Psicología,Virtual,20261,Documentación pendiente,6,25,0.020278,Pendiente,documentos_completos,24.000000
+Psicología,Virtual,20262,Documentación pendiente,3,23,0.018999,Pendiente,documentos_completos,13.043478
+Administración de Empresas,Híbrida,20252,Inscrito,1,4,0.003106,Pendiente,documentos_completos,25.000000
+Administración de Empresas,Híbrida,20261,Inscrito,0,15,0.010047,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Híbrida,20262,Inscrito,3,14,0.008769,Pendiente,documentos_completos,21.428571
+Administración de Empresas,Presencial,20252,Inscrito,0,9,0.008586,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Presencial,20261,Inscrito,0,17,0.016076,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Presencial,20262,Inscrito,0,21,0.015163,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Virtual,20252,Inscrito,0,8,0.007673,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Virtual,20261,Inscrito,0,21,0.017903,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Virtual,20262,Inscrito,2,23,0.018999,Pendiente,documentos_completos,8.695652
+Contaduría Pública,Híbrida,20252,Inscrito,0,5,0.004932,Pendiente,documentos_completos,0.000000
+Contaduría Pública,Híbrida,20261,Inscrito,1,7,0.008038,Pendiente,documentos_completos,14.285714
+Contaduría Pública,Híbrida,20262,Inscrito,4,10,0.008951,Pendiente,documentos_completos,40.000000
+Contaduría Pública,Presencial,20252,Inscrito,1,12,0.008951,Pendiente,documentos_completos,8.333333
+Contaduría Pública,Presencial,20261,Inscrito,3,21,0.018634,Pendiente,documentos_completos,14.285714
+Contaduría Pública,Presencial,20262,Inscrito,4,20,0.017355,Pendiente,documentos_completos,20.000000
+Contaduría Pública,Virtual,20252,Inscrito,0,5,0.009865,Pendiente,documentos_completos,0.000000
+Contaduría Pública,Virtual,20261,Inscrito,2,19,0.017903,Pendiente,documentos_completos,10.526316
+Contaduría Pública,Virtual,20262,Inscrito,1,18,0.017355,Pendiente,documentos_completos,5.555556
+Derecho,Híbrida,20252,Inscrito,1,11,0.009134,Pendiente,documentos_completos,9.090909
+Derecho,Híbrida,20261,Inscrito,1,12,0.018816,Pendiente,documentos_completos,8.333333
+Derecho,Híbrida,20262,Inscrito,3,29,0.017355,Pendiente,documentos_completos,10.344828
+Derecho,Presencial,20252,Inscrito,0,13,0.015893,Pendiente,documentos_completos,0.000000
+Derecho,Presencial,20261,Inscrito,8,42,0.039094,Pendiente,documentos_completos,19.047619
+Derecho,Presencial,20262,Inscrito,6,35,0.033431,Pendiente,documentos_completos,17.142857
+Derecho,Virtual,20252,Inscrito,2,17,0.016989,Pendiente,documentos_completos,11.764706
+Derecho,Virtual,20261,Inscrito,5,29,0.036719,Pendiente,documentos_completos,17.241379
+Derecho,Virtual,20262,Inscrito,5,44,0.037815,Pendiente,documentos_completos,11.363636
+Especialización en Data Analytics,Híbrida,20252,Inscrito,0,9,0.009499,Pendiente,documentos_completos,0.000000
+Especialización en Data Analytics,Híbrida,20261,Inscrito,0,18,0.014615,Pendiente,documentos_completos,0.000000
+Especialización en Data Analytics,Híbrida,20262,Inscrito,3,22,0.021374,Pendiente,documentos_completos,13.636364
+Especialización en Data Analytics,Presencial,20252,Inscrito,1,15,0.016989,Pendiente,documentos_completos,6.666667
+Especialización en Data Analytics,Presencial,20261,Inscrito,7,37,0.037815,Pendiente,documentos_completos,18.918919
+Especialización en Data Analytics,Presencial,20262,Inscrito,4,49,0.039094,Pendiente,documentos_completos,8.163265
+Especialización en Data Analytics,Virtual,20252,Inscrito,1,16,0.015711,Pendiente,documentos_completos,6.250000
+Especialización en Data Analytics,Virtual,20261,Inscrito,2,38,0.032517,Pendiente,documentos_completos,5.263158
+Especialización en Data Analytics,Virtual,20262,Inscrito,5,36,0.034527,Pendiente,documentos_completos,13.888889
+Especialización en Gerencia,Híbrida,20252,Inscrito,0,7,0.005480,Pendiente,documentos_completos,0.000000
+Especialización en Gerencia,Híbrida,20261,Inscrito,1,13,0.009499,Pendiente,documentos_completos,7.692308
+Especialización en Gerencia,Híbrida,20262,Inscrito,1,15,0.009499,Pendiente,documentos_completos,6.666667
+Especialización en Gerencia,Presencial,20252,Inscrito,3,7,0.008769,Pendiente,documentos_completos,42.857143
+Especialización en Gerencia,Presencial,20261,Inscrito,0,16,0.017720,Pendiente,documentos_completos,0.000000
+Especialización en Gerencia,Presencial,20262,Inscrito,1,18,0.016076,Pendiente,documentos_completos,5.555556
+Especialización en Gerencia,Virtual,20252,Inscrito,3,9,0.009134,Pendiente,documentos_completos,33.333333
+Especialización en Gerencia,Virtual,20261,Inscrito,0,20,0.018999,Pendiente,documentos_completos,0.000000
+Especialización en Gerencia,Virtual,20262,Inscrito,2,23,0.015345,Pendiente,documentos_completos,8.695652
+Ingeniería de Sistemas,Híbrida,20252,Inscrito,1,9,0.005115,Pendiente,documentos_completos,11.111111
+Ingeniería de Sistemas,Híbrida,20261,Inscrito,2,12,0.009682,Pendiente,documentos_completos,16.666667
+Ingeniería de Sistemas,Híbrida,20262,Inscrito,1,8,0.008586,Pendiente,documentos_completos,12.500000
+Ingeniería de Sistemas,Presencial,20252,Inscrito,0,7,0.009317,Pendiente,documentos_completos,0.000000
+Ingeniería de Sistemas,Presencial,20261,Inscrito,3,26,0.020643,Pendiente,documentos_completos,11.538462
+Ingeniería de Sistemas,Presencial,20262,Inscrito,4,31,0.018816,Pendiente,documentos_completos,12.903226
+Ingeniería de Sistemas,Virtual,20252,Inscrito,1,8,0.009865,Pendiente,documentos_completos,12.500000
+Ingeniería de Sistemas,Virtual,20261,Inscrito,6,25,0.016076,Pendiente,documentos_completos,24.000000
+Ingeniería de Sistemas,Virtual,20262,Inscrito,1,11,0.016989,Pendiente,documentos_completos,9.090909
+Psicología,Híbrida,20252,Inscrito,0,3,0.003654,Pendiente,documentos_completos,0.000000
+Psicología,Híbrida,20261,Inscrito,2,13,0.009499,Pendiente,documentos_completos,15.384615
+Psicología,Híbrida,20262,Inscrito,1,9,0.009317,Pendiente,documentos_completos,11.111111
+Psicología,Presencial,20252,Inscrito,2,11,0.008769,Pendiente,documentos_completos,18.181818
+Psicología,Presencial,20261,Inscrito,1,20,0.017172,Pendiente,documentos_completos,5.000000
+Psicología,Presencial,20262,Inscrito,0,12,0.013701,Pendiente,documentos_completos,0.000000
+Psicología,Virtual,20252,Inscrito,1,9,0.007307,Pendiente,documentos_completos,11.111111
+Psicología,Virtual,20261,Inscrito,0,25,0.020278,Pendiente,documentos_completos,0.000000
+Psicología,Virtual,20262,Inscrito,1,23,0.018999,Pendiente,documentos_completos,4.347826
+Administración de Empresas,Híbrida,20252,Matriculado,0,4,0.003106,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Híbrida,20261,Matriculado,5,15,0.010047,Pendiente,documentos_completos,33.333333
+Administración de Empresas,Híbrida,20262,Matriculado,2,14,0.008769,Pendiente,documentos_completos,14.285714
+Administración de Empresas,Presencial,20252,Matriculado,1,9,0.008586,Pendiente,documentos_completos,11.111111
+Administración de Empresas,Presencial,20261,Matriculado,3,17,0.016076,Pendiente,documentos_completos,17.647059
+Administración de Empresas,Presencial,20262,Matriculado,3,21,0.015163,Pendiente,documentos_completos,14.285714
+Administración de Empresas,Virtual,20252,Matriculado,6,8,0.007673,Pendiente,documentos_completos,75.000000
+Administración de Empresas,Virtual,20261,Matriculado,11,21,0.017903,Pendiente,documentos_completos,52.380952
+Administración de Empresas,Virtual,20262,Matriculado,4,23,0.018999,Pendiente,documentos_completos,17.391304
+Contaduría Pública,Híbrida,20252,Matriculado,1,5,0.004932,Pendiente,documentos_completos,20.000000
+Contaduría Pública,Híbrida,20261,Matriculado,1,7,0.008038,Pendiente,documentos_completos,14.285714
+Contaduría Pública,Híbrida,20262,Matriculado,1,10,0.008951,Pendiente,documentos_completos,10.000000
+Contaduría Pública,Presencial,20252,Matriculado,6,12,0.008951,Pendiente,documentos_completos,50.000000
+Contaduría Pública,Presencial,20261,Matriculado,4,21,0.018634,Pendiente,documentos_completos,19.047619
+Contaduría Pública,Presencial,20262,Matriculado,5,20,0.017355,Pendiente,documentos_completos,25.000000
+Contaduría Pública,Virtual,20252,Matriculado,1,5,0.009865,Pendiente,documentos_completos,20.000000
+Contaduría Pública,Virtual,20261,Matriculado,4,19,0.017903,Pendiente,documentos_completos,21.052632
+Contaduría Pública,Virtual,20262,Matriculado,3,18,0.017355,Pendiente,documentos_completos,16.666667
+Derecho,Híbrida,20252,Matriculado,3,11,0.009134,Pendiente,documentos_completos,27.272727
+Derecho,Híbrida,20261,Matriculado,1,12,0.018816,Pendiente,documentos_completos,8.333333
+Derecho,Híbrida,20262,Matriculado,1,29,0.017355,Pendiente,documentos_completos,3.448276
+Derecho,Presencial,20252,Matriculado,0,13,0.015893,Pendiente,documentos_completos,0.000000
+Derecho,Presencial,20261,Matriculado,11,42,0.039094,Pendiente,documentos_completos,26.190476
+Derecho,Presencial,20262,Matriculado,8,35,0.033431,Pendiente,documentos_completos,22.857143
+Derecho,Virtual,20252,Matriculado,6,17,0.016989,Pendiente,documentos_completos,35.294118
+Derecho,Virtual,20261,Matriculado,6,29,0.036719,Pendiente,documentos_completos,20.689655
+Derecho,Virtual,20262,Matriculado,5,44,0.037815,Pendiente,documentos_completos,11.363636
+Especialización en Data Analytics,Híbrida,20252,Matriculado,7,9,0.009499,Pendiente,documentos_completos,77.777778
+Especialización en Data Analytics,Híbrida,20261,Matriculado,3,18,0.014615,Pendiente,documentos_completos,16.666667
+Especialización en Data Analytics,Híbrida,20262,Matriculado,5,22,0.021374,Pendiente,documentos_completos,22.727273
+Especialización en Data Analytics,Presencial,20252,Matriculado,5,15,0.016989,Pendiente,documentos_completos,33.333333
+Especialización en Data Analytics,Presencial,20261,Matriculado,7,37,0.037815,Pendiente,documentos_completos,18.918919
+Especialización en Data Analytics,Presencial,20262,Matriculado,15,49,0.039094,Pendiente,documentos_completos,30.612245
+Especialización en Data Analytics,Virtual,20252,Matriculado,3,16,0.015711,Pendiente,documentos_completos,18.750000
+Especialización en Data Analytics,Virtual,20261,Matriculado,6,38,0.032517,Pendiente,documentos_completos,15.789474
+Especialización en Data Analytics,Virtual,20262,Matriculado,14,36,0.034527,Pendiente,documentos_completos,38.888889
+Especialización en Gerencia,Híbrida,20252,Matriculado,2,7,0.005480,Pendiente,documentos_completos,28.571429
+Especialización en Gerencia,Híbrida,20261,Matriculado,3,13,0.009499,Pendiente,documentos_completos,23.076923
+Especialización en Gerencia,Híbrida,20262,Matriculado,4,15,0.009499,Pendiente,documentos_completos,26.666667
+Especialización en Gerencia,Presencial,20252,Matriculado,1,7,0.008769,Pendiente,documentos_completos,14.285714
+Especialización en Gerencia,Presencial,20261,Matriculado,3,16,0.017720,Pendiente,documentos_completos,18.750000
+Especialización en Gerencia,Presencial,20262,Matriculado,4,18,0.016076,Pendiente,documentos_completos,22.222222
+Especialización en Gerencia,Virtual,20252,Matriculado,0,9,0.009134,Pendiente,documentos_completos,0.000000
+Especialización en Gerencia,Virtual,20261,Matriculado,8,20,0.018999,Pendiente,documentos_completos,40.000000
+Especialización en Gerencia,Virtual,20262,Matriculado,7,23,0.015345,Pendiente,documentos_completos,30.434783
+Ingeniería de Sistemas,Híbrida,20252,Matriculado,1,9,0.005115,Pendiente,documentos_completos,11.111111
+Ingeniería de Sistemas,Híbrida,20261,Matriculado,2,12,0.009682,Pendiente,documentos_completos,16.666667
+Ingeniería de Sistemas,Híbrida,20262,Matriculado,3,8,0.008586,Pendiente,documentos_completos,37.500000
+Ingeniería de Sistemas,Presencial,20252,Matriculado,1,7,0.009317,Pendiente,documentos_completos,14.285714
+Ingeniería de Sistemas,Presencial,20261,Matriculado,9,26,0.020643,Pendiente,documentos_completos,34.615385
+Ingeniería de Sistemas,Presencial,20262,Matriculado,0,31,0.018816,Pendiente,documentos_completos,0.000000
+Ingeniería de Sistemas,Virtual,20252,Matriculado,2,8,0.009865,Pendiente,documentos_completos,25.000000
+Ingeniería de Sistemas,Virtual,20261,Matriculado,2,25,0.016076,Pendiente,documentos_completos,8.000000
+Ingeniería de Sistemas,Virtual,20262,Matriculado,3,11,0.016989,Pendiente,documentos_completos,27.272727
+Psicología,Híbrida,20252,Matriculado,2,3,0.003654,Pendiente,documentos_completos,66.666667
+Psicología,Híbrida,20261,Matriculado,4,13,0.009499,Pendiente,documentos_completos,30.769231
+Psicología,Híbrida,20262,Matriculado,2,9,0.009317,Pendiente,documentos_completos,22.222222
+Psicología,Presencial,20252,Matriculado,1,11,0.008769,Pendiente,documentos_completos,9.090909
+Psicología,Presencial,20261,Matriculado,9,20,0.017172,Pendiente,documentos_completos,45.000000
+Psicología,Presencial,20262,Matriculado,3,12,0.013701,Pendiente,documentos_completos,25.000000
+Psicología,Virtual,20252,Matriculado,2,9,0.007307,Pendiente,documentos_completos,22.222222
+Psicología,Virtual,20261,Matriculado,6,25,0.020278,Pendiente,documentos_completos,24.000000
+Psicología,Virtual,20262,Matriculado,6,23,0.018999,Pendiente,documentos_completos,26.086957
+Administración de Empresas,Híbrida,20252,No admitido,0,4,0.003106,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Híbrida,20261,No admitido,0,15,0.010047,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Híbrida,20262,No admitido,0,14,0.008769,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Presencial,20252,No admitido,4,9,0.008586,Pendiente,documentos_completos,44.444444
+Administración de Empresas,Presencial,20261,No admitido,0,17,0.016076,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Presencial,20262,No admitido,0,21,0.015163,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Virtual,20252,No admitido,1,8,0.007673,Pendiente,documentos_completos,12.500000
+Administración de Empresas,Virtual,20261,No admitido,1,21,0.017903,Pendiente,documentos_completos,4.761905
+Administración de Empresas,Virtual,20262,No admitido,1,23,0.018999,Pendiente,documentos_completos,4.347826
+Contaduría Pública,Híbrida,20252,No admitido,1,5,0.004932,Pendiente,documentos_completos,20.000000
+Contaduría Pública,Híbrida,20261,No admitido,3,7,0.008038,Pendiente,documentos_completos,42.857143
+Contaduría Pública,Híbrida,20262,No admitido,1,10,0.008951,Pendiente,documentos_completos,10.000000
+Contaduría Pública,Presencial,20252,No admitido,0,12,0.008951,Pendiente,documentos_completos,0.000000
+Contaduría Pública,Presencial,20261,No admitido,4,21,0.018634,Pendiente,documentos_completos,19.047619
+Contaduría Pública,Presencial,20262,No admitido,5,20,0.017355,Pendiente,documentos_completos,25.000000
+Contaduría Pública,Virtual,20252,No admitido,2,5,0.009865,Pendiente,documentos_completos,40.000000
+Contaduría Pública,Virtual,20261,No admitido,2,19,0.017903,Pendiente,documentos_completos,10.526316
+Contaduría Pública,Virtual,20262,No admitido,2,18,0.017355,Pendiente,documentos_completos,11.111111
+Derecho,Híbrida,20252,No admitido,0,11,0.009134,Pendiente,documentos_completos,0.000000
+Derecho,Híbrida,20261,No admitido,2,12,0.018816,Pendiente,documentos_completos,16.666667
+Derecho,Híbrida,20262,No admitido,5,29,0.017355,Pendiente,documentos_completos,17.241379
+Derecho,Presencial,20252,No admitido,0,13,0.015893,Pendiente,documentos_completos,0.000000
+Derecho,Presencial,20261,No admitido,2,42,0.039094,Pendiente,documentos_completos,4.761905
+Derecho,Presencial,20262,No admitido,2,35,0.033431,Pendiente,documentos_completos,5.714286
+Derecho,Virtual,20252,No admitido,1,17,0.016989,Pendiente,documentos_completos,5.882353
+Derecho,Virtual,20261,No admitido,1,29,0.036719,Pendiente,documentos_completos,3.448276
+Derecho,Virtual,20262,No admitido,5,44,0.037815,Pendiente,documentos_completos,11.363636
+Especialización en Data Analytics,Híbrida,20252,No admitido,1,9,0.009499,Pendiente,documentos_completos,11.111111
+Especialización en Data Analytics,Híbrida,20261,No admitido,4,18,0.014615,Pendiente,documentos_completos,22.222222
+Especialización en Data Analytics,Híbrida,20262,No admitido,2,22,0.021374,Pendiente,documentos_completos,9.090909
+Especialización en Data Analytics,Presencial,20252,No admitido,3,15,0.016989,Pendiente,documentos_completos,20.000000
+Especialización en Data Analytics,Presencial,20261,No admitido,4,37,0.037815,Pendiente,documentos_completos,10.810811
+Especialización en Data Analytics,Presencial,20262,No admitido,5,49,0.039094,Pendiente,documentos_completos,10.204082
+Especialización en Data Analytics,Virtual,20252,No admitido,2,16,0.015711,Pendiente,documentos_completos,12.500000
+Especialización en Data Analytics,Virtual,20261,No admitido,5,38,0.032517,Pendiente,documentos_completos,13.157895
+Especialización en Data Analytics,Virtual,20262,No admitido,3,36,0.034527,Pendiente,documentos_completos,8.333333
+Especialización en Gerencia,Híbrida,20252,No admitido,0,7,0.005480,Pendiente,documentos_completos,0.000000
+Especialización en Gerencia,Híbrida,20261,No admitido,0,13,0.009499,Pendiente,documentos_completos,0.000000
+Especialización en Gerencia,Híbrida,20262,No admitido,2,15,0.009499,Pendiente,documentos_completos,13.333333
+Especialización en Gerencia,Presencial,20252,No admitido,0,7,0.008769,Pendiente,documentos_completos,0.000000
+Especialización en Gerencia,Presencial,20261,No admitido,5,16,0.017720,Pendiente,documentos_completos,31.250000
+Especialización en Gerencia,Presencial,20262,No admitido,4,18,0.016076,Pendiente,documentos_completos,22.222222
+Especialización en Gerencia,Virtual,20252,No admitido,0,9,0.009134,Pendiente,documentos_completos,0.000000
+Especialización en Gerencia,Virtual,20261,No admitido,1,20,0.018999,Pendiente,documentos_completos,5.000000
+Especialización en Gerencia,Virtual,20262,No admitido,3,23,0.015345,Pendiente,documentos_completos,13.043478
+Ingeniería de Sistemas,Híbrida,20252,No admitido,2,9,0.005115,Pendiente,documentos_completos,22.222222
+Ingeniería de Sistemas,Híbrida,20261,No admitido,1,12,0.009682,Pendiente,documentos_completos,8.333333
+Ingeniería de Sistemas,Híbrida,20262,No admitido,0,8,0.008586,Pendiente,documentos_completos,0.000000
+Ingeniería de Sistemas,Presencial,20252,No admitido,0,7,0.009317,Pendiente,documentos_completos,0.000000
+Ingeniería de Sistemas,Presencial,20261,No admitido,2,26,0.020643,Pendiente,documentos_completos,7.692308
+Ingeniería de Sistemas,Presencial,20262,No admitido,1,31,0.018816,Pendiente,documentos_completos,3.225806
+Ingeniería de Sistemas,Virtual,20252,No admitido,1,8,0.009865,Pendiente,documentos_completos,12.500000
+Ingeniería de Sistemas,Virtual,20261,No admitido,3,25,0.016076,Pendiente,documentos_completos,12.000000
+Ingeniería de Sistemas,Virtual,20262,No admitido,1,11,0.016989,Pendiente,documentos_completos,9.090909
+Psicología,Híbrida,20252,No admitido,0,3,0.003654,Pendiente,documentos_completos,0.000000
+Psicología,Híbrida,20261,No admitido,0,13,0.009499,Pendiente,documentos_completos,0.000000
+Psicología,Híbrida,20262,No admitido,0,9,0.009317,Pendiente,documentos_completos,0.000000
+Psicología,Presencial,20252,No admitido,1,11,0.008769,Pendiente,documentos_completos,9.090909
+Psicología,Presencial,20261,No admitido,3,20,0.017172,Pendiente,documentos_completos,15.000000
+Psicología,Presencial,20262,No admitido,0,12,0.013701,Pendiente,documentos_completos,0.000000
+Psicología,Virtual,20252,No admitido,0,9,0.007307,Pendiente,documentos_completos,0.000000
+Psicología,Virtual,20261,No admitido,3,25,0.020278,Pendiente,documentos_completos,12.000000
+Psicología,Virtual,20262,No admitido,3,23,0.018999,Pendiente,documentos_completos,13.043478
+Administración de Empresas,Híbrida,20252,Retirado,0,4,0.003106,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Híbrida,20261,Retirado,2,15,0.010047,Pendiente,documentos_completos,13.333333
+Administración de Empresas,Híbrida,20262,Retirado,3,14,0.008769,Pendiente,documentos_completos,21.428571
+Administración de Empresas,Presencial,20252,Retirado,0,9,0.008586,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Presencial,20261,Retirado,4,17,0.016076,Pendiente,documentos_completos,23.529412
+Administración de Empresas,Presencial,20262,Retirado,4,21,0.015163,Pendiente,documentos_completos,19.047619
+Administración de Empresas,Virtual,20252,Retirado,0,8,0.007673,Pendiente,documentos_completos,0.000000
+Administración de Empresas,Virtual,20261,Retirado,1,21,0.017903,Pendiente,documentos_completos,4.761905
+Administración de Empresas,Virtual,20262,Retirado,0,23,0.018999,Pendiente,documentos_completos,0.000000
+Contaduría Pública,Híbrida,20252,Retirado,0,5,0.004932,Pendiente,documentos_completos,0.000000
+Contaduría Pública,Híbrida,20261,Retirado,0,7,0.008038,Pendiente,documentos_completos,0.000000
+Contaduría Pública,Híbrida,20262,Retirado,1,10,0.008951,Pendiente,documentos_completos,10.000000
+Contaduría Pública,Presencial,20252,Retirado,2,12,0.008951,Pendiente,documentos_completos,16.666667
+Contaduría Pública,Presencial,20261,Retirado,2,21,0.018634,Pendiente,documentos_completos,9.523810
+Contaduría Pública,Presencial,20262,Retirado,0,20,0.017355,Pendiente,documentos_completos,0.000000
+Contaduría Pública,Virtual,20252,Retirado,0,5,0.009865,Pendiente,documentos_completos,0.000000
+Contaduría Pública,Virtual,20261,Retirado,1,19,0.017903,Pendiente,documentos_completos,5.263158
+Contaduría Pública,Virtual,20262,Retirado,4,18,0.017355,Pendiente,documentos_completos,22.222222
+Derecho,Híbrida,20252,Retirado,1,11,0.009134,Pendiente,documentos_completos,9.090909
+Derecho,Híbrida,20261,Retirado,0,12,0.018816,Pendiente,documentos_completos,0.000000
+Derecho,Híbrida,20262,Retirado,2,29,0.017355,Pendiente,documentos_completos,6.896552
+Derecho,Presencial,20252,Retirado,2,13,0.015893,Pendiente,documentos_completos,15.384615
+Derecho,Presencial,20261,Retirado,5,42,0.039094,Pendiente,documentos_completos,11.904762
+Derecho,Presencial,20262,Retirado,3,35,0.033431,Pendiente,documentos_completos,8.571429
+Derecho,Virtual,20252,Retirado,1,17,0.016989,Pendiente,documentos_completos,5.882353
+Derecho,Virtual,20261,Retirado,4,29,0.036719,Pendiente,documentos_completos,13.793103
+Derecho,Virtual,20262,Retirado,11,44,0.037815,Pendiente,documentos_completos,25.000000
+Especialización en Data Analytics,Híbrida,20252,Retirado,1,9,0.009499,Pendiente,documentos_completos,11.111111
+Especialización en Data Analytics,Híbrida,20261,Retirado,2,18,0.014615,Pendiente,documentos_completos,11.111111
+Especialización en Data Analytics,Híbrida,20262,Retirado,2,22,0.021374,Pendiente,documentos_completos,9.090909
+Especialización en Data Analytics,Presencial,20252,Retirado,0,15,0.016989,Pendiente,documentos_completos,0.000000
+Especialización en Data Analytics,Presencial,20261,Retirado,5,37,0.037815,Pendiente,documentos_completos,13.513514
+Especialización en Data Analytics,Presencial,20262,Retirado,3,49,0.039094,Pendiente,documentos_completos,6.122449
+Especialización en Data Analytics,Virtual,20252,Retirado,2,16,0.015711,Pendiente,documentos_completos,12.500000
+Especialización en Data Analytics,Virtual,20261,Retirado,3,38,0.032517,Pendiente,documentos_completos,7.894737
+Especialización en Data Analytics,Virtual,20262,Retirado,2,36,0.034527,Pendiente,documentos_completos,5.555556
+Especialización en Gerencia,Híbrida,20252,Retirado,0,7,0.005480,Pendiente,documentos_completos,0.000000
+Especialización en Gerencia,Híbrida,20261,Retirado,1,13,0.009499,Pendiente,documentos_completos,7.692308
+Especialización en Gerencia,Híbrida,20262,Retirado,2,15,0.009499,Pendiente,documentos_completos,13.333333
+Especialización en Gerencia,Presencial,20252,Retirado,1,7,0.008769,Pendiente,documentos_completos,14.285714
+Especialización en Gerencia,Presencial,20261,Retirado,1,16,0.017720,Pendiente,documentos_completos,6.250000
+Especialización en Gerencia,Presencial,20262,Retirado,2,18,0.016076,Pendiente,documentos_completos,11.111111
+Especialización en Gerencia,Virtual,20252,Retirado,0,9,0.009134,Pendiente,documentos_completos,0.000000
+Especialización en Gerencia,Virtual,20261,Retirado,3,20,0.018999,Pendiente,documentos_completos,15.000000
+Especialización en Gerencia,Virtual,20262,Retirado,4,23,0.015345,Pendiente,documentos_completos,17.391304
+Ingeniería de Sistemas,Híbrida,20252,Retirado,0,9,0.005115,Pendiente,documentos_completos,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Retirado,0,12,0.009682,Pendiente,documentos_completos,0.000000
+Ingeniería de Sistemas,Híbrida,20262,Retirado,0,8,0.008586,Pendiente,documentos_completos,0.000000
+Ingeniería de Sistemas,Presencial,20252,Retirado,0,7,0.009317,Pendiente,documentos_completos,0.000000
+Ingeniería de Sistemas,Presencial,20261,Retirado,4,26,0.020643,Pendiente,documentos_completos,15.384615
+Ingeniería de Sistemas,Presencial,20262,Retirado,5,31,0.018816,Pendiente,documentos_completos,16.129032
+Ingeniería de Sistemas,Virtual,20252,Retirado,0,8,0.009865,Pendiente,documentos_completos,0.000000
+Ingeniería de Sistemas,Virtual,20261,Retirado,4,25,0.016076,Pendiente,documentos_completos,16.000000
+Ingeniería de Sistemas,Virtual,20262,Retirado,2,11,0.016989,Pendiente,documentos_completos,18.181818
+Psicología,Híbrida,20252,Retirado,1,3,0.003654,Pendiente,documentos_completos,33.333333
+Psicología,Híbrida,20261,Retirado,2,13,0.009499,Pendiente,documentos_completos,15.384615
+Psicología,Híbrida,20262,Retirado,0,9,0.009317,Pendiente,documentos_completos,0.000000
+Psicología,Presencial,20252,Retirado,0,11,0.008769,Pendiente,documentos_completos,0.000000
+Psicología,Presencial,20261,Retirado,4,20,0.017172,Pendiente,documentos_completos,20.000000
+Psicología,Presencial,20262,Retirado,3,12,0.013701,Pendiente,documentos_completos,25.000000
+Psicología,Virtual,20252,Retirado,1,9,0.007307,Pendiente,documentos_completos,11.111111
+Psicología,Virtual,20261,Retirado,3,25,0.020278,Pendiente,documentos_completos,12.000000
+Psicología,Virtual,20262,Retirado,3,23,0.018999,Pendiente,documentos_completos,13.043478
+Administración de Empresas,Híbrida,20252,Admitido,2,6,0.003106,Sí,documentos_completos,33.333333
+Administración de Empresas,Híbrida,20261,Admitido,9,31,0.010047,Sí,documentos_completos,29.032258
+Administración de Empresas,Híbrida,20262,Admitido,12,25,0.008769,Sí,documentos_completos,48.000000
+Administración de Empresas,Presencial,20252,Admitido,12,25,0.008586,Sí,documentos_completos,48.000000
+Administración de Empresas,Presencial,20261,Admitido,20,59,0.016076,Sí,documentos_completos,33.898305
+Administración de Empresas,Presencial,20262,Admitido,20,54,0.015163,Sí,documentos_completos,37.037037
+Administración de Empresas,Virtual,20252,Admitido,13,26,0.007673,Sí,documentos_completos,50.000000
+Administración de Empresas,Virtual,20261,Admitido,20,55,0.017903,Sí,documentos_completos,36.363636
+Administración de Empresas,Virtual,20262,Admitido,12,57,0.018999,Sí,documentos_completos,21.052632
+Contaduría Pública,Híbrida,20252,Admitido,8,15,0.004932,Sí,documentos_completos,53.333333
+Contaduría Pública,Híbrida,20261,Admitido,6,27,0.008038,Sí,documentos_completos,22.222222
+Contaduría Pública,Híbrida,20262,Admitido,12,30,0.008951,Sí,documentos_completos,40.000000
+Contaduría Pública,Presencial,20252,Admitido,12,28,0.008951,Sí,documentos_completos,42.857143
+Contaduría Pública,Presencial,20261,Admitido,12,59,0.018634,Sí,documentos_completos,20.338983
+Contaduría Pública,Presencial,20262,Admitido,20,54,0.017355,Sí,documentos_completos,37.037037
+Contaduría Pública,Virtual,20252,Admitido,14,42,0.009865,Sí,documentos_completos,33.333333
+Contaduría Pública,Virtual,20261,Admitido,16,55,0.017903,Sí,documentos_completos,29.090909
+Contaduría Pública,Virtual,20262,Admitido,16,57,0.017355,Sí,documentos_completos,28.070175
+Derecho,Híbrida,20252,Admitido,6,30,0.009134,Sí,documentos_completos,20.000000
+Derecho,Híbrida,20261,Admitido,24,62,0.018816,Sí,documentos_completos,38.709677
+Derecho,Híbrida,20262,Admitido,18,52,0.017355,Sí,documentos_completos,34.615385
+Derecho,Presencial,20252,Admitido,13,53,0.015893,Sí,documentos_completos,24.528302
+Derecho,Presencial,20261,Admitido,50,137,0.039094,Sí,documentos_completos,36.496350
+Derecho,Presencial,20262,Admitido,32,113,0.033431,Sí,documentos_completos,28.318584
+Derecho,Virtual,20252,Admitido,18,53,0.016989,Sí,documentos_completos,33.962264
+Derecho,Virtual,20261,Admitido,40,135,0.036719,Sí,documentos_completos,29.629630
+Derecho,Virtual,20262,Admitido,38,111,0.037815,Sí,documentos_completos,34.234234
+Especialización en Data Analytics,Híbrida,20252,Admitido,14,27,0.009499,Sí,documentos_completos,51.851852
+Especialización en Data Analytics,Híbrida,20261,Admitido,12,43,0.014615,Sí,documentos_completos,27.906977
+Especialización en Data Analytics,Híbrida,20262,Admitido,29,80,0.021374,Sí,documentos_completos,36.250000
+Especialización en Data Analytics,Presencial,20252,Admitido,26,59,0.016989,Sí,documentos_completos,44.067797
+Especialización en Data Analytics,Presencial,20261,Admitido,44,125,0.037815,Sí,documentos_completos,35.200000
+Especialización en Data Analytics,Presencial,20262,Admitido,46,132,0.039094,Sí,documentos_completos,34.848485
+Especialización en Data Analytics,Virtual,20252,Admitido,21,53,0.015711,Sí,documentos_completos,39.622642
+Especialización en Data Analytics,Virtual,20261,Admitido,34,113,0.032517,Sí,documentos_completos,30.088496
+Especialización en Data Analytics,Virtual,20262,Admitido,43,121,0.034527,Sí,documentos_completos,35.537190
+Especialización en Gerencia,Híbrida,20252,Admitido,6,17,0.005480,Sí,documentos_completos,35.294118
+Especialización en Gerencia,Híbrida,20261,Admitido,12,27,0.009499,Sí,documentos_completos,44.444444
+Especialización en Gerencia,Híbrida,20262,Admitido,8,24,0.009499,Sí,documentos_completos,33.333333
+Especialización en Gerencia,Presencial,20252,Admitido,12,27,0.008769,Sí,documentos_completos,44.444444
+Especialización en Gerencia,Presencial,20261,Admitido,25,69,0.017720,Sí,documentos_completos,36.231884
+Especialización en Gerencia,Presencial,20262,Admitido,12,49,0.016076,Sí,documentos_completos,24.489796
+Especialización en Gerencia,Virtual,20252,Admitido,10,33,0.009134,Sí,documentos_completos,30.303030
+Especialización en Gerencia,Virtual,20261,Admitido,21,57,0.018999,Sí,documentos_completos,36.842105
+Especialización en Gerencia,Virtual,20262,Admitido,18,49,0.015345,Sí,documentos_completos,36.734694
+Ingeniería de Sistemas,Híbrida,20252,Admitido,5,15,0.005115,Sí,documentos_completos,33.333333
+Ingeniería de Sistemas,Híbrida,20261,Admitido,6,30,0.009682,Sí,documentos_completos,20.000000
+Ingeniería de Sistemas,Híbrida,20262,Admitido,11,29,0.008586,Sí,documentos_completos,37.931034
+Ingeniería de Sistemas,Presencial,20252,Admitido,11,30,0.009317,Sí,documentos_completos,36.666667
+Ingeniería de Sistemas,Presencial,20261,Admitido,23,60,0.020643,Sí,documentos_completos,38.333333
+Ingeniería de Sistemas,Presencial,20262,Admitido,14,52,0.018816,Sí,documentos_completos,26.923077
+Ingeniería de Sistemas,Virtual,20252,Admitido,14,31,0.009865,Sí,documentos_completos,45.161290
+Ingeniería de Sistemas,Virtual,20261,Admitido,16,44,0.016076,Sí,documentos_completos,36.363636
+Ingeniería de Sistemas,Virtual,20262,Admitido,14,63,0.016989,Sí,documentos_completos,22.222222
+Psicología,Híbrida,20252,Admitido,3,13,0.003654,Sí,documentos_completos,23.076923
+Psicología,Híbrida,20261,Admitido,3,27,0.009499,Sí,documentos_completos,11.111111
+Psicología,Híbrida,20262,Admitido,10,36,0.009317,Sí,documentos_completos,27.777778
+Psicología,Presencial,20252,Admitido,11,27,0.008769,Sí,documentos_completos,40.740741
+Psicología,Presencial,20261,Admitido,27,61,0.017172,Sí,documentos_completos,44.262295
+Psicología,Presencial,20262,Admitido,11,45,0.013701,Sí,documentos_completos,24.444444
+Psicología,Virtual,20252,Admitido,6,24,0.007307,Sí,documentos_completos,25.000000
+Psicología,Virtual,20261,Admitido,19,64,0.020278,Sí,documentos_completos,29.687500
+Psicología,Virtual,20262,Admitido,14,64,0.018999,Sí,documentos_completos,21.875000
+Administración de Empresas,Híbrida,20252,Documentación pendiente,1,6,0.003106,Sí,documentos_completos,16.666667
+Administración de Empresas,Híbrida,20261,Documentación pendiente,2,31,0.010047,Sí,documentos_completos,6.451613
+Administración de Empresas,Híbrida,20262,Documentación pendiente,3,25,0.008769,Sí,documentos_completos,12.000000
+Administración de Empresas,Presencial,20252,Documentación pendiente,1,25,0.008586,Sí,documentos_completos,4.000000
+Administración de Empresas,Presencial,20261,Documentación pendiente,5,59,0.016076,Sí,documentos_completos,8.474576
+Administración de Empresas,Presencial,20262,Documentación pendiente,6,54,0.015163,Sí,documentos_completos,11.111111
+Administración de Empresas,Virtual,20252,Documentación pendiente,2,26,0.007673,Sí,documentos_completos,7.692308
+Administración de Empresas,Virtual,20261,Documentación pendiente,10,55,0.017903,Sí,documentos_completos,18.181818
+Administración de Empresas,Virtual,20262,Documentación pendiente,4,57,0.018999,Sí,documentos_completos,7.017544
+Contaduría Pública,Híbrida,20252,Documentación pendiente,1,15,0.004932,Sí,documentos_completos,6.666667
+Contaduría Pública,Híbrida,20261,Documentación pendiente,3,27,0.008038,Sí,documentos_completos,11.111111
+Contaduría Pública,Híbrida,20262,Documentación pendiente,2,30,0.008951,Sí,documentos_completos,6.666667
+Contaduría Pública,Presencial,20252,Documentación pendiente,0,28,0.008951,Sí,documentos_completos,0.000000
+Contaduría Pública,Presencial,20261,Documentación pendiente,6,59,0.018634,Sí,documentos_completos,10.169492
+Contaduría Pública,Presencial,20262,Documentación pendiente,10,54,0.017355,Sí,documentos_completos,18.518519
+Contaduría Pública,Virtual,20252,Documentación pendiente,3,42,0.009865,Sí,documentos_completos,7.142857
+Contaduría Pública,Virtual,20261,Documentación pendiente,4,55,0.017903,Sí,documentos_completos,7.272727
+Contaduría Pública,Virtual,20262,Documentación pendiente,9,57,0.017355,Sí,documentos_completos,15.789474
+Derecho,Híbrida,20252,Documentación pendiente,4,30,0.009134,Sí,documentos_completos,13.333333
+Derecho,Híbrida,20261,Documentación pendiente,6,62,0.018816,Sí,documentos_completos,9.677419
+Derecho,Híbrida,20262,Documentación pendiente,6,52,0.017355,Sí,documentos_completos,11.538462
+Derecho,Presencial,20252,Documentación pendiente,5,53,0.015893,Sí,documentos_completos,9.433962
+Derecho,Presencial,20261,Documentación pendiente,16,137,0.039094,Sí,documentos_completos,11.678832
+Derecho,Presencial,20262,Documentación pendiente,20,113,0.033431,Sí,documentos_completos,17.699115
+Derecho,Virtual,20252,Documentación pendiente,6,53,0.016989,Sí,documentos_completos,11.320755
+Derecho,Virtual,20261,Documentación pendiente,26,135,0.036719,Sí,documentos_completos,19.259259
+Derecho,Virtual,20262,Documentación pendiente,11,111,0.037815,Sí,documentos_completos,9.909910
+Especialización en Data Analytics,Híbrida,20252,Documentación pendiente,3,27,0.009499,Sí,documentos_completos,11.111111
+Especialización en Data Analytics,Híbrida,20261,Documentación pendiente,8,43,0.014615,Sí,documentos_completos,18.604651
+Especialización en Data Analytics,Híbrida,20262,Documentación pendiente,6,80,0.021374,Sí,documentos_completos,7.500000
+Especialización en Data Analytics,Presencial,20252,Documentación pendiente,1,59,0.016989,Sí,documentos_completos,1.694915
+Especialización en Data Analytics,Presencial,20261,Documentación pendiente,16,125,0.037815,Sí,documentos_completos,12.800000
+Especialización en Data Analytics,Presencial,20262,Documentación pendiente,25,132,0.039094,Sí,documentos_completos,18.939394
+Especialización en Data Analytics,Virtual,20252,Documentación pendiente,8,53,0.015711,Sí,documentos_completos,15.094340
+Especialización en Data Analytics,Virtual,20261,Documentación pendiente,15,113,0.032517,Sí,documentos_completos,13.274336
+Especialización en Data Analytics,Virtual,20262,Documentación pendiente,17,121,0.034527,Sí,documentos_completos,14.049587
+Especialización en Gerencia,Híbrida,20252,Documentación pendiente,3,17,0.005480,Sí,documentos_completos,17.647059
+Especialización en Gerencia,Híbrida,20261,Documentación pendiente,2,27,0.009499,Sí,documentos_completos,7.407407
+Especialización en Gerencia,Híbrida,20262,Documentación pendiente,4,24,0.009499,Sí,documentos_completos,16.666667
+Especialización en Gerencia,Presencial,20252,Documentación pendiente,1,27,0.008769,Sí,documentos_completos,3.703704
+Especialización en Gerencia,Presencial,20261,Documentación pendiente,8,69,0.017720,Sí,documentos_completos,11.594203
+Especialización en Gerencia,Presencial,20262,Documentación pendiente,9,49,0.016076,Sí,documentos_completos,18.367347
+Especialización en Gerencia,Virtual,20252,Documentación pendiente,3,33,0.009134,Sí,documentos_completos,9.090909
+Especialización en Gerencia,Virtual,20261,Documentación pendiente,10,57,0.018999,Sí,documentos_completos,17.543860
+Especialización en Gerencia,Virtual,20262,Documentación pendiente,4,49,0.015345,Sí,documentos_completos,8.163265
+Ingeniería de Sistemas,Híbrida,20252,Documentación pendiente,3,15,0.005115,Sí,documentos_completos,20.000000
+Ingeniería de Sistemas,Híbrida,20261,Documentación pendiente,3,30,0.009682,Sí,documentos_completos,10.000000
+Ingeniería de Sistemas,Híbrida,20262,Documentación pendiente,5,29,0.008586,Sí,documentos_completos,17.241379
+Ingeniería de Sistemas,Presencial,20252,Documentación pendiente,3,30,0.009317,Sí,documentos_completos,10.000000
+Ingeniería de Sistemas,Presencial,20261,Documentación pendiente,7,60,0.020643,Sí,documentos_completos,11.666667
+Ingeniería de Sistemas,Presencial,20262,Documentación pendiente,3,52,0.018816,Sí,documentos_completos,5.769231
+Ingeniería de Sistemas,Virtual,20252,Documentación pendiente,3,31,0.009865,Sí,documentos_completos,9.677419
+Ingeniería de Sistemas,Virtual,20261,Documentación pendiente,7,44,0.016076,Sí,documentos_completos,15.909091
+Ingeniería de Sistemas,Virtual,20262,Documentación pendiente,5,63,0.016989,Sí,documentos_completos,7.936508
+Psicología,Híbrida,20252,Documentación pendiente,1,13,0.003654,Sí,documentos_completos,7.692308
+Psicología,Híbrida,20261,Documentación pendiente,7,27,0.009499,Sí,documentos_completos,25.925926
+Psicología,Híbrida,20262,Documentación pendiente,0,36,0.009317,Sí,documentos_completos,0.000000
+Psicología,Presencial,20252,Documentación pendiente,3,27,0.008769,Sí,documentos_completos,11.111111
+Psicología,Presencial,20261,Documentación pendiente,2,61,0.017172,Sí,documentos_completos,3.278689
+Psicología,Presencial,20262,Documentación pendiente,1,45,0.013701,Sí,documentos_completos,2.222222
+Psicología,Virtual,20252,Documentación pendiente,2,24,0.007307,Sí,documentos_completos,8.333333
+Psicología,Virtual,20261,Documentación pendiente,10,64,0.020278,Sí,documentos_completos,15.625000
+Psicología,Virtual,20262,Documentación pendiente,11,64,0.018999,Sí,documentos_completos,17.187500
+Administración de Empresas,Híbrida,20252,Inscrito,0,6,0.003106,Sí,documentos_completos,0.000000
+Administración de Empresas,Híbrida,20261,Inscrito,5,31,0.010047,Sí,documentos_completos,16.129032
+Administración de Empresas,Híbrida,20262,Inscrito,1,25,0.008769,Sí,documentos_completos,4.000000
+Administración de Empresas,Presencial,20252,Inscrito,5,25,0.008586,Sí,documentos_completos,20.000000
+Administración de Empresas,Presencial,20261,Inscrito,4,59,0.016076,Sí,documentos_completos,6.779661
+Administración de Empresas,Presencial,20262,Inscrito,7,54,0.015163,Sí,documentos_completos,12.962963
+Administración de Empresas,Virtual,20252,Inscrito,2,26,0.007673,Sí,documentos_completos,7.692308
+Administración de Empresas,Virtual,20261,Inscrito,3,55,0.017903,Sí,documentos_completos,5.454545
+Administración de Empresas,Virtual,20262,Inscrito,6,57,0.018999,Sí,documentos_completos,10.526316
+Contaduría Pública,Híbrida,20252,Inscrito,0,15,0.004932,Sí,documentos_completos,0.000000
+Contaduría Pública,Híbrida,20261,Inscrito,1,27,0.008038,Sí,documentos_completos,3.703704
+Contaduría Pública,Híbrida,20262,Inscrito,6,30,0.008951,Sí,documentos_completos,20.000000
+Contaduría Pública,Presencial,20252,Inscrito,10,28,0.008951,Sí,documentos_completos,35.714286
+Contaduría Pública,Presencial,20261,Inscrito,14,59,0.018634,Sí,documentos_completos,23.728814
+Contaduría Pública,Presencial,20262,Inscrito,3,54,0.017355,Sí,documentos_completos,5.555556
+Contaduría Pública,Virtual,20252,Inscrito,12,42,0.009865,Sí,documentos_completos,28.571429
+Contaduría Pública,Virtual,20261,Inscrito,8,55,0.017903,Sí,documentos_completos,14.545455
+Contaduría Pública,Virtual,20262,Inscrito,4,57,0.017355,Sí,documentos_completos,7.017544
+Derecho,Híbrida,20252,Inscrito,4,30,0.009134,Sí,documentos_completos,13.333333
+Derecho,Híbrida,20261,Inscrito,8,62,0.018816,Sí,documentos_completos,12.903226
+Derecho,Híbrida,20262,Inscrito,4,52,0.017355,Sí,documentos_completos,7.692308
+Derecho,Presencial,20252,Inscrito,12,53,0.015893,Sí,documentos_completos,22.641509
+Derecho,Presencial,20261,Inscrito,14,137,0.039094,Sí,documentos_completos,10.218978
+Derecho,Presencial,20262,Inscrito,13,113,0.033431,Sí,documentos_completos,11.504425
+Derecho,Virtual,20252,Inscrito,7,53,0.016989,Sí,documentos_completos,13.207547
+Derecho,Virtual,20261,Inscrito,7,135,0.036719,Sí,documentos_completos,5.185185
+Derecho,Virtual,20262,Inscrito,11,111,0.037815,Sí,documentos_completos,9.909910
+Especialización en Data Analytics,Híbrida,20252,Inscrito,2,27,0.009499,Sí,documentos_completos,7.407407
+Especialización en Data Analytics,Híbrida,20261,Inscrito,5,43,0.014615,Sí,documentos_completos,11.627907
+Especialización en Data Analytics,Híbrida,20262,Inscrito,11,80,0.021374,Sí,documentos_completos,13.750000
+Especialización en Data Analytics,Presencial,20252,Inscrito,7,59,0.016989,Sí,documentos_completos,11.864407
+Especialización en Data Analytics,Presencial,20261,Inscrito,13,125,0.037815,Sí,documentos_completos,10.400000
+Especialización en Data Analytics,Presencial,20262,Inscrito,7,132,0.039094,Sí,documentos_completos,5.303030
+Especialización en Data Analytics,Virtual,20252,Inscrito,4,53,0.015711,Sí,documentos_completos,7.547170
+Especialización en Data Analytics,Virtual,20261,Inscrito,15,113,0.032517,Sí,documentos_completos,13.274336
+Especialización en Data Analytics,Virtual,20262,Inscrito,9,121,0.034527,Sí,documentos_completos,7.438017
+Especialización en Gerencia,Híbrida,20252,Inscrito,2,17,0.005480,Sí,documentos_completos,11.764706
+Especialización en Gerencia,Híbrida,20261,Inscrito,3,27,0.009499,Sí,documentos_completos,11.111111
+Especialización en Gerencia,Híbrida,20262,Inscrito,3,24,0.009499,Sí,documentos_completos,12.500000
+Especialización en Gerencia,Presencial,20252,Inscrito,4,27,0.008769,Sí,documentos_completos,14.814815
+Especialización en Gerencia,Presencial,20261,Inscrito,9,69,0.017720,Sí,documentos_completos,13.043478
+Especialización en Gerencia,Presencial,20262,Inscrito,7,49,0.016076,Sí,documentos_completos,14.285714
+Especialización en Gerencia,Virtual,20252,Inscrito,6,33,0.009134,Sí,documentos_completos,18.181818
+Especialización en Gerencia,Virtual,20261,Inscrito,9,57,0.018999,Sí,documentos_completos,15.789474
+Especialización en Gerencia,Virtual,20262,Inscrito,9,49,0.015345,Sí,documentos_completos,18.367347
+Ingeniería de Sistemas,Híbrida,20252,Inscrito,0,15,0.005115,Sí,documentos_completos,0.000000
+Ingeniería de Sistemas,Híbrida,20261,Inscrito,5,30,0.009682,Sí,documentos_completos,16.666667
+Ingeniería de Sistemas,Híbrida,20262,Inscrito,4,29,0.008586,Sí,documentos_completos,13.793103
+Ingeniería de Sistemas,Presencial,20252,Inscrito,2,30,0.009317,Sí,documentos_completos,6.666667
+Ingeniería de Sistemas,Presencial,20261,Inscrito,6,60,0.020643,Sí,documentos_completos,10.000000
+Ingeniería de Sistemas,Presencial,20262,Inscrito,3,52,0.018816,Sí,documentos_completos,5.769231
+Ingeniería de Sistemas,Virtual,20252,Inscrito,1,31,0.009865,Sí,documentos_completos,3.225806
+Ingeniería de Sistemas,Virtual,20261,Inscrito,6,44,0.016076,Sí,documentos_completos,13.636364
+Ingeniería de Sistemas,Virtual,20262,Inscrito,15,63,0.016989,Sí,documentos_completos,23.809524
+Psicología,Híbrida,20252,Inscrito,2,13,0.003654,Sí,documentos_completos,15.384615
+Psicología,Híbrida,20261,Inscrito,6,27,0.009499,Sí,documentos_completos,22.222222
+Psicología,Híbrida,20262,Inscrito,5,36,0.009317,Sí,documentos_completos,13.888889
+Psicología,Presencial,20252,Inscrito,4,27,0.008769,Sí,documentos_completos,14.814815
+Psicología,Presencial,20261,Inscrito,5,61,0.017172,Sí,documentos_completos,8.196721
+Psicología,Presencial,20262,Inscrito,5,45,0.013701,Sí,documentos_completos,11.111111
+Psicología,Virtual,20252,Inscrito,3,24,0.007307,Sí,documentos_completos,12.500000
+Psicología,Virtual,20261,Inscrito,9,64,0.020278,Sí,documentos_completos,14.062500
+Psicología,Virtual,20262,Inscrito,10,64,0.018999,Sí,documentos_completos,15.625000
+Administración de Empresas,Híbrida,20252,Matriculado,1,6,0.003106,Sí,documentos_completos,16.666667
+Administración de Empresas,Híbrida,20261,Matriculado,5,31,0.010047,Sí,documentos_completos,16.129032
+Administración de Empresas,Híbrida,20262,Matriculado,3,25,0.008769,Sí,documentos_completos,12.000000
+Administración de Empresas,Presencial,20252,Matriculado,2,25,0.008586,Sí,documentos_completos,8.000000
+Administración de Empresas,Presencial,20261,Matriculado,16,59,0.016076,Sí,documentos_completos,27.118644
+Administración de Empresas,Presencial,20262,Matriculado,12,54,0.015163,Sí,documentos_completos,22.222222
+Administración de Empresas,Virtual,20252,Matriculado,3,26,0.007673,Sí,documentos_completos,11.538462
+Administración de Empresas,Virtual,20261,Matriculado,17,55,0.017903,Sí,documentos_completos,30.909091
+Administración de Empresas,Virtual,20262,Matriculado,15,57,0.018999,Sí,documentos_completos,26.315789
+Contaduría Pública,Híbrida,20252,Matriculado,2,15,0.004932,Sí,documentos_completos,13.333333
+Contaduría Pública,Híbrida,20261,Matriculado,9,27,0.008038,Sí,documentos_completos,33.333333
+Contaduría Pública,Híbrida,20262,Matriculado,7,30,0.008951,Sí,documentos_completos,23.333333
+Contaduría Pública,Presencial,20252,Matriculado,4,28,0.008951,Sí,documentos_completos,14.285714
+Contaduría Pública,Presencial,20261,Matriculado,19,59,0.018634,Sí,documentos_completos,32.203390
+Contaduría Pública,Presencial,20262,Matriculado,8,54,0.017355,Sí,documentos_completos,14.814815
+Contaduría Pública,Virtual,20252,Matriculado,3,42,0.009865,Sí,documentos_completos,7.142857
+Contaduría Pública,Virtual,20261,Matriculado,14,55,0.017903,Sí,documentos_completos,25.454545
+Contaduría Pública,Virtual,20262,Matriculado,16,57,0.017355,Sí,documentos_completos,28.070175
+Derecho,Híbrida,20252,Matriculado,6,30,0.009134,Sí,documentos_completos,20.000000
+Derecho,Híbrida,20261,Matriculado,11,62,0.018816,Sí,documentos_completos,17.741935
+Derecho,Híbrida,20262,Matriculado,14,52,0.017355,Sí,documentos_completos,26.923077
+Derecho,Presencial,20252,Matriculado,11,53,0.015893,Sí,documentos_completos,20.754717
+Derecho,Presencial,20261,Matriculado,26,137,0.039094,Sí,documentos_completos,18.978102
+Derecho,Presencial,20262,Matriculado,24,113,0.033431,Sí,documentos_completos,21.238938
+Derecho,Virtual,20252,Matriculado,8,53,0.016989,Sí,documentos_completos,15.094340
+Derecho,Virtual,20261,Matriculado,30,135,0.036719,Sí,documentos_completos,22.222222
+Derecho,Virtual,20262,Matriculado,28,111,0.037815,Sí,documentos_completos,25.225225
+Especialización en Data Analytics,Híbrida,20252,Matriculado,5,27,0.009499,Sí,documentos_completos,18.518519
+Especialización en Data Analytics,Híbrida,20261,Matriculado,8,43,0.014615,Sí,documentos_completos,18.604651
+Especialización en Data Analytics,Híbrida,20262,Matriculado,16,80,0.021374,Sí,documentos_completos,20.000000
+Especialización en Data Analytics,Presencial,20252,Matriculado,7,59,0.016989,Sí,documentos_completos,11.864407
+Especialización en Data Analytics,Presencial,20261,Matriculado,25,125,0.037815,Sí,documentos_completos,20.000000
+Especialización en Data Analytics,Presencial,20262,Matriculado,20,132,0.039094,Sí,documentos_completos,15.151515
+Especialización en Data Analytics,Virtual,20252,Matriculado,12,53,0.015711,Sí,documentos_completos,22.641509
+Especialización en Data Analytics,Virtual,20261,Matriculado,21,113,0.032517,Sí,documentos_completos,18.584071
+Especialización en Data Analytics,Virtual,20262,Matriculado,24,121,0.034527,Sí,documentos_completos,19.834711
+Especialización en Gerencia,Híbrida,20252,Matriculado,4,17,0.005480,Sí,documentos_completos,23.529412
+Especialización en Gerencia,Híbrida,20261,Matriculado,4,27,0.009499,Sí,documentos_completos,14.814815
+Especialización en Gerencia,Híbrida,20262,Matriculado,7,24,0.009499,Sí,documentos_completos,29.166667
+Especialización en Gerencia,Presencial,20252,Matriculado,4,27,0.008769,Sí,documentos_completos,14.814815
+Especialización en Gerencia,Presencial,20261,Matriculado,13,69,0.017720,Sí,documentos_completos,18.840580
+Especialización en Gerencia,Presencial,20262,Matriculado,8,49,0.016076,Sí,documentos_completos,16.326531
+Especialización en Gerencia,Virtual,20252,Matriculado,6,33,0.009134,Sí,documentos_completos,18.181818
+Especialización en Gerencia,Virtual,20261,Matriculado,6,57,0.018999,Sí,documentos_completos,10.526316
+Especialización en Gerencia,Virtual,20262,Matriculado,9,49,0.015345,Sí,documentos_completos,18.367347
+Ingeniería de Sistemas,Híbrida,20252,Matriculado,6,15,0.005115,Sí,documentos_completos,40.000000
+Ingeniería de Sistemas,Híbrida,20261,Matriculado,9,30,0.009682,Sí,documentos_completos,30.000000
+Ingeniería de Sistemas,Híbrida,20262,Matriculado,4,29,0.008586,Sí,documentos_completos,13.793103
+Ingeniería de Sistemas,Presencial,20252,Matriculado,4,30,0.009317,Sí,documentos_completos,13.333333
+Ingeniería de Sistemas,Presencial,20261,Matriculado,11,60,0.020643,Sí,documentos_completos,18.333333
+Ingeniería de Sistemas,Presencial,20262,Matriculado,15,52,0.018816,Sí,documentos_completos,28.846154
+Ingeniería de Sistemas,Virtual,20252,Matriculado,6,31,0.009865,Sí,documentos_completos,19.354839
+Ingeniería de Sistemas,Virtual,20261,Matriculado,8,44,0.016076,Sí,documentos_completos,18.181818
+Ingeniería de Sistemas,Virtual,20262,Matriculado,16,63,0.016989,Sí,documentos_completos,25.396825
+Psicología,Híbrida,20252,Matriculado,3,13,0.003654,Sí,documentos_completos,23.076923
+Psicología,Híbrida,20261,Matriculado,4,27,0.009499,Sí,documentos_completos,14.814815
+Psicología,Híbrida,20262,Matriculado,15,36,0.009317,Sí,documentos_completos,41.666667
+Psicología,Presencial,20252,Matriculado,6,27,0.008769,Sí,documentos_completos,22.222222
+Psicología,Presencial,20261,Matriculado,11,61,0.017172,Sí,documentos_completos,18.032787
+Psicología,Presencial,20262,Matriculado,8,45,0.013701,Sí,documentos_completos,17.777778
+Psicología,Virtual,20252,Matriculado,4,24,0.007307,Sí,documentos_completos,16.666667
+Psicología,Virtual,20261,Matriculado,10,64,0.020278,Sí,documentos_completos,15.625000
+Psicología,Virtual,20262,Matriculado,11,64,0.018999,Sí,documentos_completos,17.187500
+Administración de Empresas,Híbrida,20252,No admitido,0,6,0.003106,Sí,documentos_completos,0.000000
+Administración de Empresas,Híbrida,20261,No admitido,2,31,0.010047,Sí,documentos_completos,6.451613
+Administración de Empresas,Híbrida,20262,No admitido,1,25,0.008769,Sí,documentos_completos,4.000000
+Administración de Empresas,Presencial,20252,No admitido,3,25,0.008586,Sí,documentos_completos,12.000000
+Administración de Empresas,Presencial,20261,No admitido,5,59,0.016076,Sí,documentos_completos,8.474576
+Administración de Empresas,Presencial,20262,No admitido,6,54,0.015163,Sí,documentos_completos,11.111111
+Administración de Empresas,Virtual,20252,No admitido,0,26,0.007673,Sí,documentos_completos,0.000000
+Administración de Empresas,Virtual,20261,No admitido,3,55,0.017903,Sí,documentos_completos,5.454545
+Administración de Empresas,Virtual,20262,No admitido,12,57,0.018999,Sí,documentos_completos,21.052632
+Contaduría Pública,Híbrida,20252,No admitido,3,15,0.004932,Sí,documentos_completos,20.000000
+Contaduría Pública,Híbrida,20261,No admitido,3,27,0.008038,Sí,documentos_completos,11.111111
+Contaduría Pública,Híbrida,20262,No admitido,0,30,0.008951,Sí,documentos_completos,0.000000
+Contaduría Pública,Presencial,20252,No admitido,2,28,0.008951,Sí,documentos_completos,7.142857
+Contaduría Pública,Presencial,20261,No admitido,2,59,0.018634,Sí,documentos_completos,3.389831
+Contaduría Pública,Presencial,20262,No admitido,7,54,0.017355,Sí,documentos_completos,12.962963
+Contaduría Pública,Virtual,20252,No admitido,7,42,0.009865,Sí,documentos_completos,16.666667
+Contaduría Pública,Virtual,20261,No admitido,8,55,0.017903,Sí,documentos_completos,14.545455
+Contaduría Pública,Virtual,20262,No admitido,3,57,0.017355,Sí,documentos_completos,5.263158
+Derecho,Híbrida,20252,No admitido,4,30,0.009134,Sí,documentos_completos,13.333333
+Derecho,Híbrida,20261,No admitido,5,62,0.018816,Sí,documentos_completos,8.064516
+Derecho,Híbrida,20262,No admitido,4,52,0.017355,Sí,documentos_completos,7.692308
+Derecho,Presencial,20252,No admitido,7,53,0.015893,Sí,documentos_completos,13.207547
+Derecho,Presencial,20261,No admitido,20,137,0.039094,Sí,documentos_completos,14.598540
+Derecho,Presencial,20262,No admitido,10,113,0.033431,Sí,documentos_completos,8.849558
+Derecho,Virtual,20252,No admitido,7,53,0.016989,Sí,documentos_completos,13.207547
+Derecho,Virtual,20261,No admitido,21,135,0.036719,Sí,documentos_completos,15.555556
+Derecho,Virtual,20262,No admitido,9,111,0.037815,Sí,documentos_completos,8.108108
+Especialización en Data Analytics,Híbrida,20252,No admitido,0,27,0.009499,Sí,documentos_completos,0.000000
+Especialización en Data Analytics,Híbrida,20261,No admitido,3,43,0.014615,Sí,documentos_completos,6.976744
+Especialización en Data Analytics,Híbrida,20262,No admitido,11,80,0.021374,Sí,documentos_completos,13.750000
+Especialización en Data Analytics,Presencial,20252,No admitido,10,59,0.016989,Sí,documentos_completos,16.949153
+Especialización en Data Analytics,Presencial,20261,No admitido,16,125,0.037815,Sí,documentos_completos,12.800000
+Especialización en Data Analytics,Presencial,20262,No admitido,21,132,0.039094,Sí,documentos_completos,15.909091
+Especialización en Data Analytics,Virtual,20252,No admitido,4,53,0.015711,Sí,documentos_completos,7.547170
+Especialización en Data Analytics,Virtual,20261,No admitido,12,113,0.032517,Sí,documentos_completos,10.619469
+Especialización en Data Analytics,Virtual,20262,No admitido,14,121,0.034527,Sí,documentos_completos,11.570248
+Especialización en Gerencia,Híbrida,20252,No admitido,1,17,0.005480,Sí,documentos_completos,5.882353
+Especialización en Gerencia,Híbrida,20261,No admitido,3,27,0.009499,Sí,documentos_completos,11.111111
+Especialización en Gerencia,Híbrida,20262,No admitido,1,24,0.009499,Sí,documentos_completos,4.166667
+Especialización en Gerencia,Presencial,20252,No admitido,4,27,0.008769,Sí,documentos_completos,14.814815
+Especialización en Gerencia,Presencial,20261,No admitido,6,69,0.017720,Sí,documentos_completos,8.695652
+Especialización en Gerencia,Presencial,20262,No admitido,5,49,0.016076,Sí,documentos_completos,10.204082
+Especialización en Gerencia,Virtual,20252,No admitido,4,33,0.009134,Sí,documentos_completos,12.121212
+Especialización en Gerencia,Virtual,20261,No admitido,5,57,0.018999,Sí,documentos_completos,8.771930
+Especialización en Gerencia,Virtual,20262,No admitido,4,49,0.015345,Sí,documentos_completos,8.163265
+Ingeniería de Sistemas,Híbrida,20252,No admitido,0,15,0.005115,Sí,documentos_completos,0.000000
+Ingeniería de Sistemas,Híbrida,20261,No admitido,4,30,0.009682,Sí,documentos_completos,13.333333
+Ingeniería de Sistemas,Híbrida,20262,No admitido,2,29,0.008586,Sí,documentos_completos,6.896552
+Ingeniería de Sistemas,Presencial,20252,No admitido,4,30,0.009317,Sí,documentos_completos,13.333333
+Ingeniería de Sistemas,Presencial,20261,No admitido,6,60,0.020643,Sí,documentos_completos,10.000000
+Ingeniería de Sistemas,Presencial,20262,No admitido,8,52,0.018816,Sí,documentos_completos,15.384615
+Ingeniería de Sistemas,Virtual,20252,No admitido,4,31,0.009865,Sí,documentos_completos,12.903226
+Ingeniería de Sistemas,Virtual,20261,No admitido,4,44,0.016076,Sí,documentos_completos,9.090909
+Ingeniería de Sistemas,Virtual,20262,No admitido,8,63,0.016989,Sí,documentos_completos,12.698413
+Psicología,Híbrida,20252,No admitido,4,13,0.003654,Sí,documentos_completos,30.769231
+Psicología,Híbrida,20261,No admitido,6,27,0.009499,Sí,documentos_completos,22.222222
+Psicología,Híbrida,20262,No admitido,3,36,0.009317,Sí,documentos_completos,8.333333
+Psicología,Presencial,20252,No admitido,2,27,0.008769,Sí,documentos_completos,7.407407
+Psicología,Presencial,20261,No admitido,11,61,0.017172,Sí,documentos_completos,18.032787
+Psicología,Presencial,20262,No admitido,7,45,0.013701,Sí,documentos_completos,15.555556
+Psicología,Virtual,20252,No admitido,4,24,0.007307,Sí,documentos_completos,16.666667
+Psicología,Virtual,20261,No admitido,8,64,0.020278,Sí,documentos_completos,12.500000
+Psicología,Virtual,20262,No admitido,8,64,0.018999,Sí,documentos_completos,12.500000
+Administración de Empresas,Híbrida,20252,Retirado,2,6,0.003106,Sí,documentos_completos,33.333333
+Administración de Empresas,Híbrida,20261,Retirado,8,31,0.010047,Sí,documentos_completos,25.806452
+Administración de Empresas,Híbrida,20262,Retirado,5,25,0.008769,Sí,documentos_completos,20.000000
+Administración de Empresas,Presencial,20252,Retirado,2,25,0.008586,Sí,documentos_completos,8.000000
+Administración de Empresas,Presencial,20261,Retirado,9,59,0.016076,Sí,documentos_completos,15.254237
+Administración de Empresas,Presencial,20262,Retirado,3,54,0.015163,Sí,documentos_completos,5.555556
+Administración de Empresas,Virtual,20252,Retirado,6,26,0.007673,Sí,documentos_completos,23.076923
+Administración de Empresas,Virtual,20261,Retirado,2,55,0.017903,Sí,documentos_completos,3.636364
+Administración de Empresas,Virtual,20262,Retirado,8,57,0.018999,Sí,documentos_completos,14.035088
+Contaduría Pública,Híbrida,20252,Retirado,1,15,0.004932,Sí,documentos_completos,6.666667
+Contaduría Pública,Híbrida,20261,Retirado,5,27,0.008038,Sí,documentos_completos,18.518519
+Contaduría Pública,Híbrida,20262,Retirado,3,30,0.008951,Sí,documentos_completos,10.000000
+Contaduría Pública,Presencial,20252,Retirado,0,28,0.008951,Sí,documentos_completos,0.000000
+Contaduría Pública,Presencial,20261,Retirado,6,59,0.018634,Sí,documentos_completos,10.169492
+Contaduría Pública,Presencial,20262,Retirado,6,54,0.017355,Sí,documentos_completos,11.111111
+Contaduría Pública,Virtual,20252,Retirado,3,42,0.009865,Sí,documentos_completos,7.142857
+Contaduría Pública,Virtual,20261,Retirado,5,55,0.017903,Sí,documentos_completos,9.090909
+Contaduría Pública,Virtual,20262,Retirado,9,57,0.017355,Sí,documentos_completos,15.789474
+Derecho,Híbrida,20252,Retirado,6,30,0.009134,Sí,documentos_completos,20.000000
+Derecho,Híbrida,20261,Retirado,8,62,0.018816,Sí,documentos_completos,12.903226
+Derecho,Híbrida,20262,Retirado,6,52,0.017355,Sí,documentos_completos,11.538462
+Derecho,Presencial,20252,Retirado,5,53,0.015893,Sí,documentos_completos,9.433962
+Derecho,Presencial,20261,Retirado,11,137,0.039094,Sí,documentos_completos,8.029197
+Derecho,Presencial,20262,Retirado,14,113,0.033431,Sí,documentos_completos,12.389381
+Derecho,Virtual,20252,Retirado,7,53,0.016989,Sí,documentos_completos,13.207547
+Derecho,Virtual,20261,Retirado,11,135,0.036719,Sí,documentos_completos,8.148148
+Derecho,Virtual,20262,Retirado,14,111,0.037815,Sí,documentos_completos,12.612613
+Especialización en Data Analytics,Híbrida,20252,Retirado,3,27,0.009499,Sí,documentos_completos,11.111111
+Especialización en Data Analytics,Híbrida,20261,Retirado,7,43,0.014615,Sí,documentos_completos,16.279070
+Especialización en Data Analytics,Híbrida,20262,Retirado,7,80,0.021374,Sí,documentos_completos,8.750000
+Especialización en Data Analytics,Presencial,20252,Retirado,8,59,0.016989,Sí,documentos_completos,13.559322
+Especialización en Data Analytics,Presencial,20261,Retirado,11,125,0.037815,Sí,documentos_completos,8.800000
+Especialización en Data Analytics,Presencial,20262,Retirado,13,132,0.039094,Sí,documentos_completos,9.848485
+Especialización en Data Analytics,Virtual,20252,Retirado,4,53,0.015711,Sí,documentos_completos,7.547170
+Especialización en Data Analytics,Virtual,20261,Retirado,16,113,0.032517,Sí,documentos_completos,14.159292
+Especialización en Data Analytics,Virtual,20262,Retirado,14,121,0.034527,Sí,documentos_completos,11.570248
+Especialización en Gerencia,Híbrida,20252,Retirado,1,17,0.005480,Sí,documentos_completos,5.882353
+Especialización en Gerencia,Híbrida,20261,Retirado,3,27,0.009499,Sí,documentos_completos,11.111111
+Especialización en Gerencia,Híbrida,20262,Retirado,1,24,0.009499,Sí,documentos_completos,4.166667
+Especialización en Gerencia,Presencial,20252,Retirado,2,27,0.008769,Sí,documentos_completos,7.407407
+Especialización en Gerencia,Presencial,20261,Retirado,8,69,0.017720,Sí,documentos_completos,11.594203
+Especialización en Gerencia,Presencial,20262,Retirado,8,49,0.016076,Sí,documentos_completos,16.326531
+Especialización en Gerencia,Virtual,20252,Retirado,4,33,0.009134,Sí,documentos_completos,12.121212
+Especialización en Gerencia,Virtual,20261,Retirado,6,57,0.018999,Sí,documentos_completos,10.526316
+Especialización en Gerencia,Virtual,20262,Retirado,5,49,0.015345,Sí,documentos_completos,10.204082
+Ingeniería de Sistemas,Híbrida,20252,Retirado,1,15,0.005115,Sí,documentos_completos,6.666667
+Ingeniería de Sistemas,Híbrida,20261,Retirado,3,30,0.009682,Sí,documentos_completos,10.000000
+Ingeniería de Sistemas,Híbrida,20262,Retirado,3,29,0.008586,Sí,documentos_completos,10.344828
+Ingeniería de Sistemas,Presencial,20252,Retirado,6,30,0.009317,Sí,documentos_completos,20.000000
+Ingeniería de Sistemas,Presencial,20261,Retirado,7,60,0.020643,Sí,documentos_completos,11.666667
+Ingeniería de Sistemas,Presencial,20262,Retirado,9,52,0.018816,Sí,documentos_completos,17.307692
+Ingeniería de Sistemas,Virtual,20252,Retirado,3,31,0.009865,Sí,documentos_completos,9.677419
+Ingeniería de Sistemas,Virtual,20261,Retirado,3,44,0.016076,Sí,documentos_completos,6.818182
+Ingeniería de Sistemas,Virtual,20262,Retirado,5,63,0.016989,Sí,documentos_completos,7.936508
+Psicología,Híbrida,20252,Retirado,0,13,0.003654,Sí,documentos_completos,0.000000
+Psicología,Híbrida,20261,Retirado,1,27,0.009499,Sí,documentos_completos,3.703704
+Psicología,Híbrida,20262,Retirado,3,36,0.009317,Sí,documentos_completos,8.333333
+Psicología,Presencial,20252,Retirado,1,27,0.008769,Sí,documentos_completos,3.703704
+Psicología,Presencial,20261,Retirado,5,61,0.017172,Sí,documentos_completos,8.196721
+Psicología,Presencial,20262,Retirado,13,45,0.013701,Sí,documentos_completos,28.888889
+Psicología,Virtual,20252,Retirado,5,24,0.007307,Sí,documentos_completos,20.833333
+Psicología,Virtual,20261,Retirado,8,64,0.020278,Sí,documentos_completos,12.500000
+Psicología,Virtual,20262,Retirado,10,64,0.018999,Sí,documentos_completos,15.625000

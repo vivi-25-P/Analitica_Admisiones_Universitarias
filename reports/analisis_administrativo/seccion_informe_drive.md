@@ -24,6 +24,8 @@ Las diferencias entre canales se mantienen al comparar una misma composición de
 
 La hipótesis de que la documentación incompleta se relaciona con más registros pendientes o retirados no se observa de forma general en la comparación bruta: esos estados representan el 21,94 % con documentos No o Pendiente y el 23,32 % con documentos Sí. La diferencia entre Sin asignar y Con asesor es de aproximadamente 0,50 puntos. Estas cifras orientan a revisar la calidad y actualización del seguimiento, sin culpar a asesores ni afirmar que los documentos incompletos favorecen la matrícula.
 
+Al comparar una composición común de programa, modalidad y periodo, Pendiente o Retirado representa el 21,92 % con documentos No o Pendiente y el 23,45 % con Sí. Sin asignar presenta 23,36 % frente a 22,68 % con asesor. Los perfiles de los seis estados se compararon dentro de los grupos y se resumieron con pesos comunes. La comparación comprende 5.474 registros con programa identificado y conserva la advertencia de celdas pequeñas. No permite atribuir causas o reconstruir transiciones.
+
 [Insertar aquí el gráfico 03_documentacion_estados.png.]
 
 ## Oportunidades comerciales y de seguimiento

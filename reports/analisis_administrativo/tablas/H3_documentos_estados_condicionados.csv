@@ -1,0 +1,19 @@
+﻿variable,grupo,estado_proceso,registros_grupo_comun,registros_estado_grupo,porcentaje_bruto_soporte,porcentaje_ponderado,estratos_comunes,celdas_grupo_menores_30,registros_soporte_total,registros_fuera_soporte
+documentos_completos,No,Admitido,1092,339,31.043956,30.704116,63,56,5474,26
+documentos_completos,No,Documentación pendiente,1092,122,11.172161,11.087425,63,56,5474,26
+documentos_completos,No,Inscrito,1092,126,11.538462,11.435265,63,56,5474,26
+documentos_completos,No,Matriculado,1092,251,22.985348,22.598420,63,56,5474,26
+documentos_completos,No,No admitido,1092,133,12.179487,12.605200,63,56,5474,26
+documentos_completos,No,Retirado,1092,121,11.080586,11.569574,63,56,5474,26
+documentos_completos,Pendiente,Admitido,1111,388,34.923492,34.941785,63,55,5474,26
+documentos_completos,Pendiente,Documentación pendiente,1111,123,11.071107,10.825989,63,55,5474,26
+documentos_completos,Pendiente,Inscrito,1111,114,10.261026,10.232598,63,55,5474,26
+documentos_completos,Pendiente,Matriculado,1111,257,23.132313,23.422389,63,55,5474,26
+documentos_completos,Pendiente,No admitido,1111,110,9.900990,10.118843,63,55,5474,26
+documentos_completos,Pendiente,Retirado,1111,119,10.711071,10.458395,63,55,5474,26
+documentos_completos,Sí,Admitido,3271,1086,33.200856,33.227549,63,18,5474,26
+documentos_completos,Sí,Documentación pendiente,3271,391,11.953531,12.006450,63,18,5474,26
+documentos_completos,Sí,Inscrito,3271,387,11.831244,11.769871,63,18,5474,26
+documentos_completos,Sí,Matriculado,3271,664,20.299603,20.326734,63,18,5474,26
+documentos_completos,Sí,No admitido,3271,371,11.342097,11.227613,63,18,5474,26
+documentos_completos,Sí,Retirado,3271,372,11.372669,11.441783,63,18,5474,26
