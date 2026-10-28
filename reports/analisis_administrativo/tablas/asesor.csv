@@ -1,0 +1,5 @@
+﻿asesor,registros,matriculados,puntajes_informados,importes_informados,participacion_registros_pct,proporcion_matriculado_pct,diferencia_pp_frente_total_ambito,cobertura_puntaje_pct,cobertura_importe_pct,grupo_pequeno,denominador_ambito
+Asesor 1,2218,467,2118,1836,40.327273,21.055005,-0.381359,95.491434,82.777277,False,5500
+Asesor 2,1095,221,1044,921,19.909091,20.182648,-1.253715,95.342466,84.109589,False,5500
+Asesor 3,1086,252,1041,912,19.745455,23.204420,1.768056,95.856354,83.977901,False,5500
+Sin asignar,1101,239,1051,911,20.018182,21.707539,0.271175,95.458674,82.742961,False,5500

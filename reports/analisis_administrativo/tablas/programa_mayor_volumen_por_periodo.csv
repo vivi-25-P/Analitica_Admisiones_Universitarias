@@ -1,0 +1,4 @@
+﻿programa,periodo_academico,registros,matriculados,puntajes_informados,importes_informados,participacion_registros_pct,proporcion_matriculado_pct,diferencia_pp_frente_total_ambito,cobertura_puntaje_pct,cobertura_importe_pct,grupo_pequeno,denominador_ambito,denominador_periodo,participacion_dentro_periodo_pct
+Especialización en Data Analytics,20252,231,55,223,188,4.200000,23.809524,2.373160,96.536797,81.385281,False,5500,1071,21.568627
+Derecho,20261,518,103,486,423,9.418182,19.884170,-1.552194,93.822394,81.660232,False,5500,2246,23.063224
+Especialización en Data Analytics,20262,520,110,498,440,9.454545,21.153846,-0.282517,95.769231,84.615385,False,5500,2183,23.820431

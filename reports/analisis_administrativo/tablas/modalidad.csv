@@ -1,0 +1,4 @@
+﻿modalidad,registros,matriculados,puntajes_informados,importes_informados,participacion_registros_pct,proporcion_matriculado_pct,diferencia_pp_frente_total_ambito,cobertura_puntaje_pct,cobertura_importe_pct,grupo_pequeno,denominador_ambito
+Presencial,2192,444,2102,1830,39.854545,20.255474,-1.180889,95.894161,83.485401,False,5500
+Virtual,2183,486,2076,1822,39.690909,22.262941,0.826577,95.098488,83.463124,False,5500
+Híbrida,1125,249,1076,928,20.454545,22.133333,0.696970,95.644444,82.488889,False,5500

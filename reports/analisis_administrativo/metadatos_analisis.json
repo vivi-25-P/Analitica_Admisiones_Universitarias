@@ -1,0 +1,132 @@
+{
+  "entrada": "entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2",
+  "sha256_excel": "561b084b0501f2dedefe7286e2fa714242508f2f65301db2d605c52320ed223c",
+  "sha256_codigo_notebook": "0e11a4c14fa22e031617521b169fe01fffd11505d5e98cdaf789644f732ee4fc",
+  "sha256_modulo": "65a3078307caeb19aef36478c96178192650cd143b9e6ca4b5385ba91072c50f",
+  "sha256_reglas": "329e808d6bed5c0ba1bffd08303fc20142524ae5cdc91cbedf54b732cbcc65c7",
+  "entradas": {
+    "deliverables/BaseUnificada_Entregable.xlsx": "561b084b0501f2dedefe7286e2fa714242508f2f65301db2d605c52320ed223c",
+    "reports/limpieza/ultima_entrega.json": "4669b78e06eff61533fb5a9e307eb83d5c69fd1942c490876be78f98b7d3399a",
+    "config/analisis_administrativo.json": "329e808d6bed5c0ba1bffd08303fc20142524ae5cdc91cbedf54b732cbcc65c7",
+    "reports/validacion_analisis/ultima_validacion.json": "d89e262ce2f7ee812e31f9eabbea8d98327cbeb19ab6ef39ce696ad4fccad669",
+    "reports/validacion_analisis/entrega_v1_6b14cc9ccf_716b06df_d0dca438_5cdda3c2/revision_pares_oracle.csv": "f10481e00653369337cea32b9f19e046aaf8bf213f70de283622541818741d5d",
+    "data/raw/Caso2_Admisiones_Universitarias.csv": "0d4c756649ccff9dcf5c2c2cc5edba0ced8f8e3c157ee2c1f5b4bd2939b8f467",
+    "config/limpieza/estandarizacion_v1.json": "150bd1231207d93d11b11e532067aa15479e949aa8f9e94195ced3748f45cba9"
+  },
+  "filas_maestras": 5500,
+  "columnas_maestras": 18,
+  "filas_eliminadas": 0,
+  "valores_imputados": 0,
+  "controles": {
+    "excel_intacto": true,
+    "base_en_memoria_intacta": true,
+    "5500_registros_18_columnas": true,
+    "llave_unica_y_joins_sin_multiplicar": true,
+    "1179_estados_matriculado": true,
+    "5254_puntajes": true,
+    "4580_importes": true,
+    "1035_intervalos_aptos": true,
+    "5320_solicitudes_con_fecha_apta": true,
+    "grupos_principales_reconcilian": true,
+    "segmentos_reconcilian": true,
+    "cruces_finos_reconcilian": true,
+    "pesos_comunes_suman_uno": true,
+    "soporte_comun_mismo_numero_estratos": true,
+    "proporciones_comparables_validas": true,
+    "escenario_hipotetico_no_cambia_entrega": true,
+    "antes_despues_reconcilian": true,
+    "recurrencia_sin_sumar_personas": true,
+    "entradas_lectura_intactas": true,
+    "sin_inferencia_automatica": true
+  },
+  "figuras": [
+    {
+      "archivo": "01_programas_modalidades.png",
+      "titulo": "Registros por programa y modalidad"
+    },
+    {
+      "archivo": "02_canales_comparables.png",
+      "titulo": "Canales, volumen y comparación descriptiva"
+    },
+    {
+      "archivo": "03_documentacion_estados.png",
+      "titulo": "Estados según documentación registrada"
+    },
+    {
+      "archivo": "04_puntajes_estados.png",
+      "titulo": "Puntajes disponibles según estado registrado"
+    },
+    {
+      "archivo": "05_asesor_recurrencia.png",
+      "titulo": "Asignación y recurrencia de códigos"
+    },
+    {
+      "archivo": "06_ciudades_programas.png",
+      "titulo": "Interés registrado por ciudad y programa"
+    },
+    {
+      "archivo": "07_cobertura_mensual.png",
+      "titulo": "Cobertura mensual de las solicitudes"
+    }
+  ],
+  "archivo_powerbi_creado": false,
+  "documento_drive_modificado": false,
+  "archivos": {
+    "figuras/01_programas_modalidades.pdf": "f2217fc47b256e149aae4ef90507d1c58e9d128929e92f6444f221badf47a34c",
+    "figuras/01_programas_modalidades.png": "03286db51a878a09a184fcbf0e1071d2ba26c84766bbbc41e963313f6c0fd270",
+    "figuras/02_canales_comparables.pdf": "e3b36bd0e4b73f2177e58ce486ed0ee88c5ac9791fb49eada283745b177fb137",
+    "figuras/02_canales_comparables.png": "ce3f650536d05cfbb31ed59c82312f1320fbb1efb1fbdbe152167faf83225e73",
+    "figuras/03_documentacion_estados.pdf": "048b9d3b6d092e9a502e390e92756d9192410ecf1eec56946f07311e25477f4d",
+    "figuras/03_documentacion_estados.png": "7b8a2e6d1076914055a2e902ca0b947c4f27fd4759ec721000435035936e0e65",
+    "figuras/04_puntajes_estados.pdf": "26af92bca27ea323aef322bd03044967f4dcee07544dc6da6328176959553838",
+    "figuras/04_puntajes_estados.png": "1ae86ee27fab8b74bc9e3dcc8be50d7ff86b38007f73702e06446898389f0658",
+    "figuras/05_asesor_recurrencia.pdf": "a14b0c9c2f3176634120ab8d8b6b89804feb1a382f36b9e5f2879c8955f0dc63",
+    "figuras/05_asesor_recurrencia.png": "b8c643dadc97f8147dc7575a4b95f5eedcb4a75090bfc10f5eb159b28148afa4",
+    "figuras/06_ciudades_programas.pdf": "2240b3da33c892c497f1ff203516b2f6ec62ba71f2686cefe6231a9ef8b7d44e",
+    "figuras/06_ciudades_programas.png": "33dfa9eb580c450cf827ba4f3a68379acee26cf095062ddb61a84506f1688ce0",
+    "figuras/07_cobertura_mensual.pdf": "7abfe783b696eb8caa3d9984042b7468ef0ccb4275fea4073802cf7b52c320e7",
+    "figuras/07_cobertura_mensual.png": "af9b95fdc980ca0258ef35a271b11f980005040cfc8b7cf4572652596aeebee9",
+    "guia_insercion_y_figuras.md": "0ecd14b54ba0be66aba00905c917e3569712423c9df442d976b7c93c2f2e53e7",
+    "reporte_analisis_administrativo.md": "38538d9d8e14b11909b8a50bdf84bb76baa74a1a1512023cb89c108a96d3855e",
+    "seccion_informe_drive.md": "184664f4da0e4370a0f44a1cad0c897f9e2b74875d9182df5d1e6e25288a726a",
+    "tablas/acciones_propuestas.csv": "7da9d2811584445851b76e74092b171b0d363c2a72850bef660a5c8dd52a7448",
+    "tablas/antes_despues_ambitos_separados.csv": "75939386439b118e72c30dab16bc7b78aadd4f2e3bcd443c951be8f7168693a4",
+    "tablas/asesor.csv": "2b64280ca619a67da1789969477bb1fceb20ec0cb753a4daf9976deaa4eee46d",
+    "tablas/asesor_programa_modalidad_periodo_academico.csv": "39e5d4307c84ac83b6a1cc5a0083c3e4ceee4633faa51a29c33d0d19de32f0d7",
+    "tablas/canal_captacion.csv": "7501be19368997f453792b45a69ab1b4515a6ceb8cfe1ab768e1e1a46c3e1981",
+    "tablas/canal_captacion_programa_modalidad_periodo_academico.csv": "4c068a54fd20df345b55c99d3890bacf7a2addab52dae6f7ddb26fed1d318fe7",
+    "tablas/canal_estado_conteos.csv": "0f789806528e04a7ba25aa1088bdf83f0529df2cef937ecef4699418fa42d5ee",
+    "tablas/canal_estado_porcentajes.csv": "0e1ef1766a1b7c690dcb4972cb6e60f4f269624d7aec4d1477f45dceb73a8261",
+    "tablas/canales_comparables.csv": "b292cd961fc088ec7f37fe7f6e5f3d819facf91aaa11b1e3c6898c6997212765",
+    "tablas/ciudad_residencia.csv": "80019aeb04e0011fa3a6fa4ba887444884b004677fcef0412088fe592534cedf",
+    "tablas/comparacion_por_fuente.csv": "562920bf03775a10279a44b70914155be14d3ae72b5d8c46261422d06a92b298",
+    "tablas/controles.csv": "8430f4849206b413b339cbe6edded9a59cda8ecc60153ddf29ef31493cf6b2a0",
+    "tablas/documentacion_estado.csv": "73d205b374b138edb23248de09cb87459dfc8d4712447d1301c4f4cb9345a767",
+    "tablas/documentos_completos.csv": "16f8b4f308a1d111f2f31b4c920d5befced490daf2230b4522a0d47ac6760489",
+    "tablas/documentos_completos_programa_modalidad_periodo_academico.csv": "a49b6c83b4eda5648ba390b1613d258bbff07e3579f2b2a7d165c5ab5be35a47",
+    "tablas/efecto_escrituras_mismo_universo.csv": "d0a1e2013ea741a9713f41b8f281ab90bbdeebcf408e8a49cd2400fa8669332d",
+    "tablas/estado_proceso.csv": "ba681569324bfeb194ff79f424a5c20ea1ba5dc5f93edf15967cdb75ebe41988",
+    "tablas/evolucion_cantidades.csv": "b3799fc65e1b44474f4283ecbca033d862dbbf444314c4425731dcca9573e331",
+    "tablas/franja_puntaje_estado.csv": "f2a603a5863b421e9f8d80047a80ef8c8e2f7b4731279bcb917860b8c7567440",
+    "tablas/franja_puntaje_estados_porcentajes.csv": "aac1b3a884ce5967645bc1c587703135ba750e5cdfb830d224709252142111d9",
+    "tablas/fuente_origen.csv": "f2468d942477a16f37ef2f0db073d350413dea76827bc18a9d20e89603fc303b",
+    "tablas/hallazgos_administrativos.csv": "42eea4f2cb009a3be8fb575f4ed5faded9bd4acd0f343725b425dc41f0052088",
+    "tablas/importes_por_programa.csv": "bba53c37ac938fecebc060e49c8cc17419e49aef0bfe801b6bf66a15280f822e",
+    "tablas/intervalos_por_documentacion.csv": "90fc0f9388fd76f427987e1048e4e31ace31b5febcea66133ce828eceb26dfdc",
+    "tablas/modalidad.csv": "c808c9b4a9c0c2c8eac3b7633747503ab17ffe7bfe7379e0e3b12cd887bbbaab",
+    "tablas/periodo_academico.csv": "fc31a0719836407d8e26218e2706428041e270b9ca6fa3c036660206b66c55b5",
+    "tablas/pesos_estratos_comunes.csv": "44407abe96ffb60629889e76d36f436df0930664750f899ca9295a54f17f3f25",
+    "tablas/programa.csv": "0be40cd067d00689575ceff532c5c3eb1b956d84bb2e0107e9b6ac06440bc9f2",
+    "tablas/programa_mayor_volumen_por_periodo.csv": "b2a77aa130d782380afffc7b494713d3bea9c11dfcdc1f618ea521d70abe25c1",
+    "tablas/programa_modalidad.csv": "a0bef6858db949bf9f2d489fdd60fd602c76eb525926e2895a172af504bc0808",
+    "tablas/programa_periodo_academico.csv": "9538f7cf2a88b97af87b2d77ed6effe67ab2d9e20b77cc1accd64f5287451888",
+    "tablas/puntajes_por_estado.csv": "e46f11869407ef86f6b3bc8a09dc7071c7cbf5491274c61d82fd42d3c37cb508",
+    "tablas/recurrencia_codigos.csv": "794ded121bffe844b6a1bce491fb82b13cafd2d003855affd889261dd71c3d0b",
+    "tablas/resumen.csv": "bb8514624536b981b714d2364f0bdee67cfbef02b114a50a26a6905e00733368",
+    "tablas/segmentos_completos.csv": "1c15b91519c85ac0419ded2786f9bd3465d2f588d2a2f0a5438be55e1f350883",
+    "tablas/segmentos_por_canal_periodo.csv": "c2581c78797e98d595c2e50ae3c96c82624cf61fc23af9c4ec3679e3b4f486c4",
+    "tablas/segmentos_volumen_priorizados_revision.csv": "e0aaa9de26420bc6ac20d536875aef6876c75fb0a3f96f5ba1ca6769b9c2ffc1",
+    "tablas/sensibilidad_49_pares.csv": "1fef521541605946a470b7ccd59fe3e2e3329bc404258dd3e5aa82f84b11e06d",
+    "tablas/serie_mensual.csv": "da856f361410d992ffa8e4c0d1a6210a37c58270863fc8a36b380beace8cf56e"
+  }
+}

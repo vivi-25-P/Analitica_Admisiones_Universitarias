@@ -220,8 +220,22 @@ Para validar o repetir la proyección sin duplicar filas: `uv run --group notebo
 
 ## Análisis administrativo y Power BI
 
-La siguiente fase sigue [el plan de análisis y dashboard](docs/plan_analisis_administrativo_powerbi.md). El informe y Power BI utilizarán la misma base y definiciones de indicadores. Todavía no se ha construido el dashboard ni se han redactado conclusiones finales de esta fase.
+La siguiente fase sigue [el plan de análisis y dashboard](docs/plan_analisis_administrativo_powerbi.md). El informe y Power BI utilizarán la misma base y definiciones de indicadores. El notebook 04 ya calcula el análisis y deja un borrador administrativo para revisión. El dashboard continúa pendiente de construcción y las acciones son propuestas, no decisiones institucionales adoptadas.
 
 ## Base analítica en PostgreSQL y alternativa Excel
 
 PostgreSQL está actualizado con la base final, sus fuentes y trazabilidad. La vista `analitica.base_unificada` contiene los mismos 5.500 registros y 18 columnas del Excel entregable. Las tablas originales y tipadas de 5.040 filas se conservan. [La guía de conexión y sincronización](docs/postgresql_base_unificada_powerbi.md) explica los esquemas, las pruebas y cómo elegir PostgreSQL o Excel para Power BI. La [plantilla Power Query](powerbi/BaseUnificada.pq) prepara una consulta con fuentes alternativas. No se anexan las dos copias. La conexión dentro de Power BI Desktop sigue pendiente de probar durante la construcción del dashboard.
+
+## Análisis administrativo ejecutado
+
+El [notebook 04](notebooks/04_analisis_administrativo.ipynb), disponible también en [HTML](reports/04_analisis_administrativo.html), responde la pregunta general, las tres específicas y la línea adicional de segmentos. Incluye canales comparables, puntajes y documentación por estado, asesor, recurrencia, intervalos aptos y antes y después con universos separados. El análisis no aplica inferencia automática ni presenta registros como personas independientes.
+
+La [redacción para el informe en Drive](reports/analisis_administrativo/seccion_informe_drive.md) tiene marcadores de las tres figuras principales. La [guía de inserción](reports/analisis_administrativo/guia_insercion_y_figuras.md) explica qué agregar y cómo revisar la numeración de figuras. El [reporte de respaldo](reports/analisis_administrativo/reporte_analisis_administrativo.md) conserva las preguntas, hallazgos y acciones propuestas. Las tablas y siete figuras en PNG y PDF están en reports/analisis_administrativo. La base de entrega no se modifica. No se actualizó Drive ni se creó un PBIX en esta fase.
+
+Para repetir únicamente el análisis:
+
+```bash
+uv run --locked --group notebooks --group excel python scripts/ejecutar_notebook.py --notebook notebooks/04_analisis_administrativo.ipynb
+```
+
+La plantilla se reconstruye con scripts/construir_notebook_analisis_administrativo.py. El cálculo está en src/analitica_admisiones/analisis_administrativo.py y sus criterios en config/analisis_administrativo.json. Los metadatos registran entradas, código, reglas, archivos generados y controles.

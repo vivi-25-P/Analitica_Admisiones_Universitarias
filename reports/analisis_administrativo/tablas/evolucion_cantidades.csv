@@ -1,0 +1,4 @@
+﻿etapa,registros,interpretacion
+Original,5040,Fuente original con repeticiones
+Principal conciliada,5000,38 repeticiones exactas y dos parciales consolidadas
+Integrada,5500,"Se incorporan 500 registros Oracle, no es efecto de limpieza"

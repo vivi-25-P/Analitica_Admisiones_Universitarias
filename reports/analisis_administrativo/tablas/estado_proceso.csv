@@ -1,0 +1,7 @@
+﻿estado_proceso,registros,matriculados,puntajes_informados,importes_informados,participacion_registros_pct,proporcion_matriculado_pct,diferencia_pp_frente_total_ambito,cobertura_puntaje_pct,cobertura_importe_pct,grupo_pequeno,denominador_ambito
+Admitido,1822,0,1745,1501,33.127273,0.000000,-21.436364,95.773875,82.381998,False,5500
+Matriculado,1179,1179,1124,986,21.436364,100.000000,78.563636,95.335030,83.630195,False,5500
+Documentación pendiente,638,0,599,537,11.600000,0.000000,-21.436364,93.887147,84.169279,False,5500
+Inscrito,630,0,600,525,11.454545,0.000000,-21.436364,95.238095,83.333333,False,5500
+No admitido,617,0,598,519,11.218182,0.000000,-21.436364,96.920583,84.116694,False,5500
+Retirado,614,0,588,512,11.163636,0.000000,-21.436364,95.765472,83.387622,False,5500

@@ -1,0 +1,70 @@
+﻿variable,categoria,etapa,registros,denominador,porcentaje
+programa,Especialización en Data Analytics,Original con etiquetas alineadas,1136,5040,22.539683
+programa,Derecho,Original con etiquetas alineadas,1122,5040,22.261905
+programa,Ingeniería de Sistemas,Original con etiquetas alineadas,572,5040,11.349206
+programa,Contaduría Pública,Original con etiquetas alineadas,558,5040,11.071429
+programa,Especialización en Gerencia,Original con etiquetas alineadas,554,5040,10.992063
+programa,Psicología,Original con etiquetas alineadas,549,5040,10.892857
+programa,Administración de Empresas,Original con etiquetas alineadas,524,5040,10.396825
+programa,Sin información,Original con etiquetas alineadas,25,5040,0.496032
+programa,Especialización en Data Analytics,Principal conciliada con CRM,1127,5000,22.540000
+programa,Derecho,Principal conciliada con CRM,1113,5000,22.260000
+programa,Ingeniería de Sistemas,Principal conciliada con CRM,569,5000,11.380000
+programa,Contaduría Pública,Principal conciliada con CRM,554,5000,11.080000
+programa,Especialización en Gerencia,Principal conciliada con CRM,549,5000,10.980000
+programa,Psicología,Principal conciliada con CRM,544,5000,10.880000
+programa,Administración de Empresas,Principal conciliada con CRM,520,5000,10.400000
+programa,Sin información,Principal conciliada con CRM,24,5000,0.480000
+programa,Derecho,Integrada con Oracle,1233,5500,22.418182
+programa,Especialización en Data Analytics,Integrada con Oracle,1216,5500,22.109091
+programa,Ingeniería de Sistemas,Integrada con Oracle,630,5500,11.454545
+programa,Contaduría Pública,Integrada con Oracle,613,5500,11.145455
+programa,Especialización en Gerencia,Integrada con Oracle,605,5500,11.000000
+programa,Psicología,Integrada con Oracle,595,5500,10.818182
+programa,Administración de Empresas,Integrada con Oracle,582,5500,10.581818
+programa,Sin información,Integrada con Oracle,26,5500,0.472727
+modalidad,Virtual,Original con etiquetas alineadas,1997,5040,39.623016
+modalidad,Presencial,Original con etiquetas alineadas,1994,5040,39.563492
+modalidad,Híbrida,Original con etiquetas alineadas,1049,5040,20.813492
+modalidad,Virtual,Principal conciliada con CRM,1981,5000,39.620000
+modalidad,Presencial,Principal conciliada con CRM,1980,5000,39.600000
+modalidad,Híbrida,Principal conciliada con CRM,1039,5000,20.780000
+modalidad,Presencial,Integrada con Oracle,2192,5500,39.854545
+modalidad,Virtual,Integrada con Oracle,2183,5500,39.690909
+modalidad,Híbrida,Integrada con Oracle,1125,5500,20.454545
+canal_captacion,Feria universitaria,Original con etiquetas alineadas,861,5040,17.083333
+canal_captacion,Instagram,Original con etiquetas alineadas,859,5040,17.043651
+canal_captacion,Correo,Original con etiquetas alineadas,847,5040,16.805556
+canal_captacion,Referido,Original con etiquetas alineadas,829,5040,16.448413
+canal_captacion,Landing page,Original con etiquetas alineadas,828,5040,16.428571
+canal_captacion,Web institucional,Original con etiquetas alineadas,816,5040,16.190476
+canal_captacion,Feria universitaria,Principal conciliada con CRM,855,5000,17.100000
+canal_captacion,Instagram,Principal conciliada con CRM,853,5000,17.060000
+canal_captacion,Correo,Principal conciliada con CRM,838,5000,16.760000
+canal_captacion,Referido,Principal conciliada con CRM,825,5000,16.500000
+canal_captacion,Landing page,Principal conciliada con CRM,822,5000,16.440000
+canal_captacion,Web institucional,Principal conciliada con CRM,807,5000,16.140000
+canal_captacion,Feria universitaria,Integrada con Oracle,941,5500,17.109091
+canal_captacion,Instagram,Integrada con Oracle,939,5500,17.072727
+canal_captacion,Correo,Integrada con Oracle,926,5500,16.836364
+canal_captacion,Referido,Integrada con Oracle,915,5500,16.636364
+canal_captacion,Web institucional,Integrada con Oracle,891,5500,16.200000
+canal_captacion,Landing page,Integrada con Oracle,888,5500,16.145455
+estado_proceso,Admitido,Original con etiquetas alineadas,1680,5040,33.333333
+estado_proceso,Matriculado,Original con etiquetas alineadas,1085,5040,21.527778
+estado_proceso,Inscrito,Original con etiquetas alineadas,578,5040,11.468254
+estado_proceso,Documentación pendiente,Original con etiquetas alineadas,576,5040,11.428571
+estado_proceso,Retirado,Original con etiquetas alineadas,569,5040,11.289683
+estado_proceso,No admitido,Original con etiquetas alineadas,552,5040,10.952381
+estado_proceso,Admitido,Principal conciliada con CRM,1665,5000,33.300000
+estado_proceso,Matriculado,Principal conciliada con CRM,1079,5000,21.580000
+estado_proceso,Inscrito,Principal conciliada con CRM,572,5000,11.440000
+estado_proceso,Documentación pendiente,Principal conciliada con CRM,570,5000,11.400000
+estado_proceso,Retirado,Principal conciliada con CRM,564,5000,11.280000
+estado_proceso,No admitido,Principal conciliada con CRM,550,5000,11.000000
+estado_proceso,Admitido,Integrada con Oracle,1822,5500,33.127273
+estado_proceso,Matriculado,Integrada con Oracle,1179,5500,21.436364
+estado_proceso,Documentación pendiente,Integrada con Oracle,638,5500,11.600000
+estado_proceso,Inscrito,Integrada con Oracle,630,5500,11.454545
+estado_proceso,No admitido,Integrada con Oracle,617,5500,11.218182
+estado_proceso,Retirado,Integrada con Oracle,614,5500,11.163636

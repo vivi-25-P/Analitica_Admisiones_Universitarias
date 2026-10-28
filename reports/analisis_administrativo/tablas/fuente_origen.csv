@@ -1,0 +1,3 @@
+﻿fuente_origen,registros,matriculados,puntajes_informados,importes_informados,participacion_registros_pct,proporcion_matriculado_pct,diferencia_pp_frente_total_ambito,cobertura_puntaje_pct,cobertura_importe_pct,grupo_pequeno,denominador_ambito
+Principal,5000,1079,4772,4161,90.909091,21.580000,0.143636,95.440000,83.220000,False,5500
+Oracle,500,100,482,419,9.090909,20.000000,-1.436364,96.400000,83.800000,False,5500

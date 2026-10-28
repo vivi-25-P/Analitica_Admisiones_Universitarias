@@ -1,0 +1,13 @@
+{
+  "version": "analisis_administrativo_v1",
+  "grupos_pequenos_menores_de": 30,
+  "interpretacion_umbral": "Marca visual de prudencia, no garantía de precisión ni prueba estadística",
+  "franjas_puntaje": [40, 60, 80, 100.000001],
+  "etiquetas_puntaje": ["40 a menos de 60", "60 a menos de 80", "80 a 100"],
+  "inferencia_automatica": false,
+  "causalidad": false,
+  "universo": "Registros de solicitud de origen. Identidad global entre fuentes no confirmada",
+  "fuente_maestra": "deliverables/BaseUnificada_Entregable.xlsx",
+  "comparacion_oracle": "Escenario hipotético de los pares compatibles ya revisados, sin cambiar la entrega",
+  "comparacion_limpieza": "Separar agrupación de categorías, conciliación de la principal e incorporación de Oracle"
+}

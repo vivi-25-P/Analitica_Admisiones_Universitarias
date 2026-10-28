@@ -1,0 +1,9 @@
+﻿programa,registros,matriculados,puntajes_informados,importes_informados,participacion_registros_pct,proporcion_matriculado_pct,diferencia_pp_frente_total_ambito,cobertura_puntaje_pct,cobertura_importe_pct,grupo_pequeno,denominador_ambito
+Derecho,1233,251,1168,1024,22.418182,20.356853,-1.079510,94.728305,83.049473,False,5500
+Especialización en Data Analytics,1216,257,1168,1022,22.109091,21.134868,-0.301495,96.052632,84.046053,False,5500
+Ingeniería de Sistemas,630,127,608,517,11.454545,20.158730,-1.277633,96.507937,82.063492,False,5500
+Contaduría Pública,613,145,586,516,11.145455,23.654160,2.217796,95.595432,84.176183,False,5500
+Especialización en Gerencia,605,117,578,496,11.000000,19.338843,-2.097521,95.537190,81.983471,False,5500
+Psicología,595,136,571,491,10.818182,22.857143,1.420779,95.966387,82.521008,False,5500
+Administración de Empresas,582,139,551,493,10.581818,23.883162,2.446798,94.673540,84.707904,False,5500
+Sin información,26,7,24,21,0.472727,26.923077,5.486713,92.307692,80.769231,True,5500

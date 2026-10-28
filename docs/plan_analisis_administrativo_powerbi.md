@@ -27,7 +27,25 @@ Una fila representa un registro de solicitud de origen. La independencia de even
 | ¿Cómo se distribuyen los estados según documentación y asesor? | Cruces por documentación, asignación de asesor, programa, modalidad y periodo. | Detectar grupos para revisar acompañamiento y contradicciones. No evaluar productividad causal del asesor ni tiempos por etapa. |
 | ¿Dónde aparecen segmentos de interés para captar aspirantes? | Ciudad, programa y modalidad, complementados con canal y periodo. | Proponer campañas piloto donde existe interés observado. Pocas solicitudes no demuestran demanda insatisfecha ni ausencia de mercado. |
 
-Las preguntas originales sobre solicitudes únicas y matrícula efectiva conservan sus condiciones pendientes. Se distingue la respuesta descriptiva posible ahora de la validación que necesitarían esas preguntas en sentido estricto.
+La jerarquía es una pregunta general, tres preguntas específicas del informe y una línea adicional de segmentos. La tercera pregunta específica es documentación, asesor y distribución de estados, no tiempo por etapa. Las preguntas originales sobre solicitudes únicas y matrícula efectiva conservan sus condiciones pendientes. Se distingue la respuesta descriptiva posible ahora de la validación que necesitarían esas preguntas en sentido estricto.
+
+## Criterio para interpretar un hallazgo
+
+Cada comparación mostrará numerador, denominador, porcentaje, diferencia en puntos porcentuales, cobertura y ámbito de fuente. Una diferencia observada no se convierte automáticamente en recomendación. Se revisarán su tamaño administrativo, el tamaño del grupo, su estabilidad frente a las correspondencias Oracle y la composición por programa, modalidad y periodo.
+
+Se utilizará una marca visual para grupos con menos de 30 registros. Es un criterio de presentación y prudencia, no una garantía de precisión, prueba estadística o umbral universal. Los grupos pequeños permanecen en las tablas y no se eliminan de la base. No se escogerá un canal o segmento ganador solo por el porcentaje más alto.
+
+El análisis inicial es descriptivo de los registros disponibles. No se impondrán intervalos de confianza o pruebas chi cuadrado de manera automática. Una inferencia posterior tendría que definir la población objetivo, el mecanismo de observación y la dependencia entre solicitudes del mismo aspirante y entre fuentes. No se supondrá que las 5.500 filas son personas independientes.
+
+Son resultados válidos una distribución similar, una comparación inconclusa o la ausencia de una segmentación administrativa clara. No se interpretará falta de evidencia como demostración de equivalencia o ausencia de asociación. Se permite concluir que una decisión requiere una campaña piloto o mejor registro antes de ejecutarse.
+
+## Comparaciones complementarias y antes y después
+
+Se contrastarán puntajes y franjas descriptivas con estados, documentación con estado e intervalos aptos, asignación de asesor y recurrencia de códigos de aspirante por fuente. Las franjas de puntaje no se presentarán como umbrales institucionales. Los tiempos se calculan únicamente entre solicitud y matrícula, no por etapa.
+
+Se separan tres efectos: agrupar escrituras sobre las mismas 5.040 filas originales, comparar esa fuente con sus 5.000 registros conciliados y comparar la principal con el conjunto integrado de 5.500. No se atribuyen a limpieza las diferencias provocadas por incorporar las 500 filas Oracle. Los importes se describen como contexto económico con su cobertura, sin deducir tarifas por programa.
+
+Las diferencias entre canales se compararán también dentro de programa, modalidad y periodo. Una estandarización descriptiva puede aplicar pesos comunes únicamente a los estratos con presencia de todos los canales, indicando la cobertura excluida de ese cálculo y las celdas pequeñas. No es una estimación causal ni corrige las identidades no confirmadas.
 
 ## Indicadores compartidos
 
@@ -51,7 +69,7 @@ La ausencia de programa se muestra como Sin información solo para presentar res
 | :--- | :--- | :--- |
 | Panorama de admisiones | Volumen, programas y modalidades, participación por canal y distribución de estados. | Prioridades de oferta y seguimiento. |
 | Captación y segmentos | Matriz ciudad por programa, modalidad y canal, tamaño del segmento y comparación por periodo. | Campañas piloto y mensajes para segmentos con interés registrado. |
-| Seguimiento del proceso | Estados por documentación y asesor, proporciones observadas y tamaños de grupo. | Revisión de casos y acompañamiento. Los estados no se dibujan como un embudo de transiciones reales. |
+| Seguimiento del proceso | Estados por documentación y asesor, puntajes por estado, intervalos aptos y recurrencia de códigos, con tamaños de grupo. | Revisión de casos y acompañamiento. Los estados no se dibujan como un embudo de transiciones reales. |
 | Cobertura y condiciones | Faltantes, origen, fechas observadas, cobertura numérica y sensibilidad de correspondencias. | Interpretar los resultados con sus límites. |
 
 Filtros comunes: periodo de ingreso, programa, modalidad, canal, ciudad y fuente. La fecha de solicitud se presenta separada del periodo académico. Los títulos deben reflejar los filtros activos y la unidad de registro.
@@ -81,3 +99,9 @@ Notebook ejecutado y tablas reproducibles. Pregunta general respondida y alcance
 ## Actualización de infraestructura
 
 La base final ya está disponible en PostgreSQL como analitica.base_unificada. El Excel entregable permanece idéntico como alternativa. No se creó todavía el modelo dimensional o dashboard. La selección de fuente y la preservación de trazabilidad están descritas en [la guía de conexión](postgresql_base_unificada_powerbi.md).
+
+## Estado al 27 de octubre de 2026
+
+Se ejecutó el notebook 04 sobre la entrega sin cambiar datos. Se calcularon distribuciones, comparación de canales con soporte común y pesos por programa, modalidad y periodo, documentación y asesor por estado, puntajes y franjas descriptivas, intervalos aptos, recurrencia por fuente, importes de contexto y segmentos con sensibilidad de los 49 pares. Se separó el efecto de agrupar etiquetas, conciliar la principal e incorporar Oracle.
+
+Se prepararon siete figuras, tablas de respaldo, siete hallazgos con límites y seis acciones propuestas. La narrativa administrativa está en reports/analisis_administrativo/seccion_informe_drive.md y su guía de inserción en la misma carpeta. Drive no se modificó. El modelo, las medidas y el archivo de Power BI siguen pendientes, usando estas mismas definiciones y cifras.

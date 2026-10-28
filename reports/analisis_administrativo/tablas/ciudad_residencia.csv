@@ -1,0 +1,7 @@
+﻿ciudad_residencia,registros,matriculados,puntajes_informados,importes_informados,participacion_registros_pct,proporcion_matriculado_pct,diferencia_pp_frente_total_ambito,cobertura_puntaje_pct,cobertura_importe_pct,grupo_pequeno,denominador_ambito
+Bogotá,1278,268,1223,1060,23.236364,20.970266,-0.466098,95.696401,82.942097,False,5500
+Cali,1245,277,1193,1043,22.636364,22.248996,0.812632,95.823293,83.775100,False,5500
+Popayán,1144,235,1088,949,20.800000,20.541958,-0.894406,95.104895,82.954545,False,5500
+Medellín,614,148,587,514,11.163636,24.104235,2.667871,95.602606,83.713355,False,5500
+Santander de Quilichao,614,133,592,505,11.163636,21.661238,0.224874,96.416938,82.247557,False,5500
+Pasto,605,118,571,509,11.000000,19.504132,-1.932231,94.380165,84.132231,False,5500

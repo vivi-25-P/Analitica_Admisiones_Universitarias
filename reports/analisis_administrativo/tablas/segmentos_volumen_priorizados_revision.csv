@@ -1,0 +1,13 @@
+﻿ciudad_residencia,programa,modalidad,registros,matriculados,puntajes_informados,importes_informados,participacion_registros_pct,proporcion_matriculado_pct,diferencia_pp_frente_total_ambito,cobertura_puntaje_pct,cobertura_importe_pct,grupo_pequeno,denominador_ambito
+Bogotá,Derecho,Virtual,133,21,123,102,2.418182,15.789474,-5.646890,92.481203,76.691729,False,5500
+Cali,Especialización en Data Analytics,Presencial,122,28,120,101,2.218182,22.950820,1.514456,98.360656,82.786885,False,5500
+Bogotá,Derecho,Presencial,121,23,119,101,2.200000,19.008264,-2.428099,98.347107,83.471074,False,5500
+Cali,Derecho,Virtual,120,23,114,103,2.181818,19.166667,-2.269697,95.000000,85.833333,False,5500
+Cali,Especialización en Data Analytics,Virtual,120,25,116,108,2.181818,20.833333,-0.603030,96.666667,90.000000,False,5500
+Bogotá,Especialización en Data Analytics,Presencial,119,28,109,94,2.163636,23.529412,2.093048,91.596639,78.991597,False,5500
+Popayán,Derecho,Virtual,106,29,102,88,1.927273,27.358491,5.922127,96.226415,83.018868,False,5500
+Cali,Derecho,Presencial,101,23,95,84,1.836364,22.772277,1.335914,94.059406,83.168317,False,5500
+Popayán,Derecho,Presencial,101,13,95,80,1.836364,12.871287,-8.565077,94.059406,79.207921,False,5500
+Popayán,Especialización en Data Analytics,Virtual,90,14,84,73,1.636364,15.555556,-5.880808,93.333333,81.111111,False,5500
+Popayán,Especialización en Data Analytics,Presencial,90,16,85,86,1.636364,17.777778,-3.658586,94.444444,95.555556,False,5500
+Bogotá,Especialización en Data Analytics,Virtual,84,17,81,68,1.527273,20.238095,-1.198268,96.428571,80.952381,False,5500
