@@ -1,0 +1,63 @@
+table RefSensibilidad49
+
+	column 'Ámbito'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Ámbito
+
+	column 'Categoría'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Categoría
+
+	column Registros
+		dataType: int64
+		formatString: #,0
+		summarizeBy: none
+		sourceColumn: Registros
+
+	column '% Matriculado base'
+		dataType: double
+		formatString: 0.00%
+		summarizeBy: none
+		sourceColumn: % Matriculado base
+
+	column '% Matriculado con 49 pares'
+		dataType: double
+		formatString: 0.00%
+		summarizeBy: none
+		sourceColumn: % Matriculado con 49 pares
+
+	column 'Cambio en puntos'
+		dataType: double
+		formatString: +0.00;-0.00;0.00
+		summarizeBy: none
+		sourceColumn: Cambio en puntos
+
+	column 'Cambio absoluto'
+		dataType: double
+		formatString: +0.00;-0.00;0.00
+		isHidden
+		summarizeBy: none
+		sourceColumn: Cambio absoluto
+
+	partition RefSensibilidad49 = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("C:\Users\USUARIO\Documents\analitica_admisiones_universitaria\reports\analisis_administrativo\tablas\sensibilidad_49_pares.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"grupo_pequeno_base", type logical}, {"dimension", type text}, {"ciudad_residencia", type text}, {"programa", type text}, {"modalidad", type text}, {"canal_captacion", type text}, {"estado_proceso", type text}, {"registros_base", Int64.Type}, {"proporcion_matriculado_pct_base", type number}, {"proporcion_matriculado_pct_escenario", type number}, {"diferencia_matriculado_pp", type number}}, "en-US"),
+				    Grandes = Table.SelectRows(Tipos, each not [grupo_pequeno_base]),
+				    Categoria = Table.AddColumn(Grandes, "categoria", each Text.Combine(List.Select({[ciudad_residencia], [programa],
+				        [modalidad], [canal_captacion], [estado_proceso]}, each _ <> null and _ <> ""), " · "), type text),
+				    Ambito = Table.AddColumn(Categoria, "ambito", each if Text.Contains([dimension], ",") then "Ciudad, programa y modalidad"
+				        else if [dimension] = "canal_captacion" then "Canal" else if [dimension] = "estado_proceso" then "Estado"
+				        else Text.Proper([dimension]), type text),
+				    Listo = Table.AddColumn(Ambito, "cambio_abs", each Number.Abs([diferencia_matriculado_pp]), type number),
+				    Porcentajes = Table.TransformColumns(Listo, {{"proporcion_matriculado_pct_base", each _ / 100, type number}, {"proporcion_matriculado_pct_escenario", each _ / 100, type number}}),
+				    Columnas = Table.SelectColumns(Porcentajes, {"ambito", "categoria", "registros_base", "proporcion_matriculado_pct_base", "proporcion_matriculado_pct_escenario", "diferencia_matriculado_pp", "cambio_abs"}),
+				    Resultado = Table.RenameColumns(Columnas, {{"ambito", "Ámbito"}, {"categoria", "Categoría"}, {"registros_base", "Registros"}, {"proporcion_matriculado_pct_base", "% Matriculado base"}, {"proporcion_matriculado_pct_escenario", "% Matriculado con 49 pares"}, {"diferencia_matriculado_pp", "Cambio en puntos"}, {"cambio_abs", "Cambio absoluto"}})
+				in
+				    Resultado
+

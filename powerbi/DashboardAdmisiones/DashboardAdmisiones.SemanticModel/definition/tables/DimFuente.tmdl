@@ -1,0 +1,18 @@
+table DimFuente
+
+	column Fuente
+		dataType: string
+		isKey
+		summarizeBy: none
+		sourceColumn: Fuente
+
+	partition DimFuente = m
+		mode: import
+		source =
+				let
+				    Valores = Table.Distinct(Table.SelectColumns(ControlOrigen, {"fuente_origen"})),
+				    Nombrada = Table.RenameColumns(Valores, {{"fuente_origen", "Fuente"}}),
+				    Resultado = Table.Sort(Nombrada, {{"Fuente", Order.Ascending}})
+				in
+				    Resultado
+

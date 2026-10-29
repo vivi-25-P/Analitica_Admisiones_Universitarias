@@ -1,0 +1,18 @@
+table DimCanal
+
+	column Canal
+		dataType: string
+		isKey
+		summarizeBy: none
+		sourceColumn: Canal
+
+	partition DimCanal = m
+		mode: import
+		source =
+				let
+				    Valores = Table.Distinct(Table.SelectColumns(BaseUnificadaOrigen, {"canal_captacion"})),
+				    Nombrada = Table.RenameColumns(Valores, {{"canal_captacion", "Canal"}}),
+				    Resultado = Table.Sort(Nombrada, {{"Canal", Order.Ascending}})
+				in
+				    Resultado
+

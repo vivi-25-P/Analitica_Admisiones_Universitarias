@@ -1,0 +1,18 @@
+table DimCiudad
+
+	column Ciudad
+		dataType: string
+		isKey
+		summarizeBy: none
+		sourceColumn: Ciudad
+
+	partition DimCiudad = m
+		mode: import
+		source =
+				let
+				    Valores = Table.Distinct(Table.SelectColumns(BaseUnificadaOrigen, {"ciudad_residencia"})),
+				    Nombrada = Table.RenameColumns(Valores, {{"ciudad_residencia", "Ciudad"}}),
+				    Resultado = Table.Sort(Nombrada, {{"Ciudad", Order.Ascending}})
+				in
+				    Resultado
+

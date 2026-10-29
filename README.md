@@ -220,11 +220,11 @@ Para validar o repetir la proyección sin duplicar filas: `uv run --group notebo
 
 ## Análisis administrativo y Power BI
 
-La siguiente fase sigue [el plan de análisis y dashboard](docs/plan_analisis_administrativo_powerbi.md). El informe y Power BI utilizarán la misma base y definiciones de indicadores. El notebook 04 ya calcula el análisis y deja un borrador administrativo para revisión. El dashboard continúa pendiente de construcción y las acciones son propuestas, no decisiones institucionales adoptadas.
+La siguiente fase sigue [el plan de análisis y dashboard](docs/plan_analisis_administrativo_powerbi.md). El informe y Power BI utilizarán la misma base y definiciones de indicadores. El notebook 04 ya calcula el análisis y deja un borrador administrativo para revisión. El dashboard está construido y verificado contra ese análisis; se describe en [Dashboard en Power BI](#dashboard-en-power-bi). Las acciones son propuestas, no decisiones institucionales adoptadas.
 
 ## Base analítica en PostgreSQL y alternativa Excel
 
-PostgreSQL está actualizado con la base final, sus fuentes y trazabilidad. La vista `analitica.base_unificada` contiene los mismos 5.500 registros y 18 columnas del Excel entregable. Las tablas originales y tipadas de 5.040 filas se conservan. [La guía de conexión y sincronización](docs/postgresql_base_unificada_powerbi.md) explica los esquemas, las pruebas y cómo elegir PostgreSQL o Excel para Power BI. La [plantilla Power Query](powerbi/BaseUnificada.pq) prepara una consulta con fuentes alternativas. No se anexan las dos copias. La conexión dentro de Power BI Desktop sigue pendiente de probar durante la construcción del dashboard.
+PostgreSQL está actualizado con la base final, sus fuentes y trazabilidad. La vista `analitica.base_unificada` contiene los mismos 5.500 registros y 18 columnas del Excel entregable. Las tablas originales y tipadas de 5.040 filas se conservan. [La guía de conexión y sincronización](docs/postgresql_base_unificada_powerbi.md) explica los esquemas, las pruebas y cómo elegir PostgreSQL o Excel para Power BI. La [plantilla Power Query](powerbi/BaseUnificada.pq) prepara una consulta con fuentes alternativas. No se anexan las dos copias. El dashboard usa esta plantilla con origen Excel y su carga se comprobó en Power BI Desktop; la opción PostgreSQL sigue disponible en la misma plantilla.
 
 ## Análisis administrativo ejecutado
 
@@ -242,6 +242,33 @@ La plantilla se reconstruye con scripts/construir_notebook_analisis_administrati
 
 ## Interpretación de negocio y cuadro de indicadores
 
-El notebook 04 incorpora respuestas explícitas a la pregunta general y las tres hipótesis, diez indicadores con sus definiciones y seis decisiones propuestas. [La síntesis de inteligencia de negocios](reports/analisis_administrativo/sintesis_inteligencia_negocios.md) resume qué sabemos, qué oportunidades priorizar para revisión y qué indicadores aún no se pueden calcular. [La misma redacción administrativa](reports/analisis_administrativo/seccion_informe_drive.md) integra esta lectura, sin crear otra versión de la base. Los responsables y metas son propuestas para acordar con la institución. La incorporación a Drive y la construcción del dashboard siguen pendientes.
+El notebook 04 incorpora respuestas explícitas a la pregunta general y las tres hipótesis, diez indicadores con sus definiciones y seis decisiones propuestas. [La síntesis de inteligencia de negocios](reports/analisis_administrativo/sintesis_inteligencia_negocios.md) resume qué sabemos, qué oportunidades priorizar para revisión y qué indicadores aún no se pueden calcular. [La misma redacción administrativa](reports/analisis_administrativo/seccion_informe_drive.md) integra esta lectura, sin crear otra versión de la base. Los responsables y metas son propuestas para acordar con la institución. La incorporación al informe principal en Drive sigue pendiente; el dashboard ya muestra estas respuestas, indicadores y decisiones.
 
-La respuesta a H3 ya incluye la distribución de los seis estados por documentación y asesor dentro de programa, modalidad y periodo, además de los porcentajes globales. Los perfiles condicionados y sus detalles están en las tablas H3 del mismo análisis. Esta ampliación deja 28 controles correctos y mantiene las condiciones de identidad y actualización. La implementación de Power BI y la incorporación de la sección al informe en Drive continúan pendientes.
+La respuesta a H3 ya incluye la distribución de los seis estados por documentación y asesor dentro de programa, modalidad y periodo, además de los porcentajes globales. Los perfiles condicionados y sus detalles están en las tablas H3 del mismo análisis. Esta ampliación deja 28 controles correctos y mantiene las condiciones de identidad y actualización. La incorporación de la sección al informe principal en Drive continúa pendiente.
+
+## Dashboard en Power BI
+
+El proyecto de Power BI está en `powerbi/DashboardAdmisiones/`, en formato PBIP. Lo genera `scripts/construir_dashboard_powerbi.py` a partir de la [plantilla Power Query](powerbi/BaseUnificada.pq), con el Excel entregable como origen. No modifica la base ni repite la limpieza.
+
+Para generarlo y abrirlo:
+
+```bash
+uv run python scripts/construir_dashboard_powerbi.py
+```
+
+Después se abre `powerbi/DashboardAdmisiones/DashboardAdmisiones.pbip` en Power BI Desktop y se pulsa Actualizar. El proyecto guarda la ruta absoluta del Excel y de las tablas del notebook 04, por eso cada integrante debe generarlo en su propio equipo; `--excel` y `--destino` cambian el archivo de origen y la carpeta de salida. Volver a generarlo reemplaza lo que Power BI Desktop haya guardado en el informe, así que los cambios de diseño se hacen en el script.
+
+El modelo es un esquema estrella: la tabla de hechos FactRegistros, con una fila por registro y 22 medidas, y nueve dimensiones (programa con facultad, duración y nivel; modalidad, canal, estado, ciudad, asesor, periodo, fuente y fecha). Las relaciones son de uno a varios y filtran en una sola dirección. DimFecha está marcada como tabla de fechas; la fecha de matrícula usa una relación inactiva con `USERELATIONSHIP`. Aparte hay seis tablas de respaldo que leen `reports/analisis_administrativo/tablas/`: canales con pesos comunes, H3 con pesos comunes, escenario de 49 pares, respuestas, indicadores y decisiones. No se relacionan con la estrella porque son resultados calculados sobre la base completa.
+
+| Página | Contenido |
+| :--- | :--- |
+| Panorama de admisiones | Registros, Matriculado, proporción observada y códigos por origen; barras por programa, canal, estado y modalidad. |
+| Captación y segmentos | Matriz programa por ciudad, % Matriculado por canal y segmentos de ciudad, programa y modalidad. |
+| Seguimiento del proceso | Estados por documentación y por asesor, puntaje por estado, días a matrícula y recurrencia de códigos por fuente. |
+| Cobertura y condiciones | Serie mensual con fechas aptas, registros por fuente y cobertura de puntaje e importe por programa. |
+| Comparaciones controladas | Brecha entre canales bruta y con pesos comunes, H3 con pesos comunes y segmentos de al menos 30 registros en el escenario de 49 pares. |
+| Respuestas y decisiones | Respuestas a la pregunta general, H1, H2, H3 y mercado; indicadores K01 a K10 y decisiones D1 a D6. |
+
+Las cuatro primeras páginas comparten seis filtros: periodo, programa, modalidad, canal, ciudad y fuente. Las dos últimas no cambian con los filtros y lo indican en su subtítulo. La unidad es el registro de solicitud de origen, no la persona, y % Matriculado es una proporción observada, no una conversión definitiva.
+
+Las medidas y tablas se consultaron en el motor de Power BI Desktop y coinciden con el notebook 04: 5.500 registros, 1.179 Matriculado, 3.424 códigos por origen, 90 sin código, 5.254 puntajes, 4.580 importes, 5.320 fechas aptas, 1.035 intervalos con mediana de 33 días, 514 Matriculado sin documentos completos, 20,0 % sin asesor, brecha entre canales de 4,03 y 3,20 puntos, 5.474 registros comparables y cambio máximo de 2,37 puntos con los 49 pares.

@@ -1,0 +1,206 @@
+table FactRegistros
+
+	measure Registros = COUNTROWS(FactRegistros)
+		formatString: #,0
+
+	measure Matriculado = CALCULATE([Registros], DimEstado[Estado] = "Matriculado")
+		formatString: #,0
+
+	measure '% Matriculado' = DIVIDE([Matriculado], [Registros])
+		formatString: 0.0%
+
+	measure '% del total' = DIVIDE([Registros], CALCULATE([Registros], ALLSELECTED()))
+		formatString: 0.0%
+
+	measure 'Códigos por origen' = DISTINCTCOUNTNOBLANK(FactRegistros[codigo_origen])
+		formatString: #,0
+
+	measure 'Sin código de aspirante' = CALCULATE([Registros], LEN(FactRegistros[aspirante_id]) = 0)
+		formatString: #,0
+
+	measure 'Puntajes informados' = COUNT(FactRegistros[puntaje_admision])
+		formatString: #,0
+
+	measure 'Puntaje mediano' = MEDIAN(FactRegistros[puntaje_admision])
+		formatString: 0.0
+
+	measure 'Puntaje promedio' = AVERAGE(FactRegistros[puntaje_admision])
+		formatString: 0.0
+
+	measure 'Importes informados' = COUNT(FactRegistros[valor_matricula_cop])
+		formatString: #,0
+
+	measure 'Importe mediano' = MEDIAN(FactRegistros[valor_matricula_cop])
+		formatString: $ #,0
+
+	measure 'Matriculado sin documentos completos' = CALCULATE([Matriculado], FactRegistros[documentos_completos] <> "Sí")
+		formatString: #,0
+
+	measure '% sin asesor asignado' = DIVIDE(CALCULATE([Registros], DimAsesor[Asesor] = "Sin asignar"), [Registros])
+		formatString: 0.0%
+
+	measure 'Registros con fecha apta' = CALCULATE([Registros], FactRegistros[fecha_solicitud_apta] = TRUE())
+		formatString: #,0
+
+	measure 'Intervalos aptos' = CALCULATE([Registros], FactRegistros[intervalo_apto] = TRUE())
+		formatString: #,0
+
+	measure 'Días medianos a matrícula' = CALCULATE(MEDIAN(FactRegistros[dias_solicitud_matricula]), FactRegistros[intervalo_apto] = TRUE())
+		formatString: 0
+
+	measure 'Proporción bruta' = SUM(RefCanalesComparables[% bruto en estratos comunes])
+		formatString: 0.00%
+
+	measure 'Proporción con pesos comunes' = SUM(RefCanalesComparables[% con pesos comunes])
+		formatString: 0.00%
+
+	measure 'Brecha bruta entre canales' = 100 * (MAX(RefCanalesComparables[% bruto en estratos comunes]) - MIN(RefCanalesComparables[% bruto en estratos comunes]))
+		formatString: 0.00 "pts"
+
+	measure 'Brecha con pesos comunes' = 100 * (MAX(RefCanalesComparables[% con pesos comunes]) - MIN(RefCanalesComparables[% con pesos comunes]))
+		formatString: 0.00 "pts"
+
+	measure 'Registros comparables' = SUM(RefCanalesComparables[Registros en estratos comunes])
+		formatString: #,0
+
+	measure 'Cambio máximo con 49 pares' = MAX(RefSensibilidad49[Cambio absoluto])
+		formatString: 0.00 "pts"
+
+	column registro_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: registro_id
+
+	column aspirante_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: aspirante_id
+
+	column fecha_solicitud
+		dataType: dateTime
+		isHidden
+		summarizeBy: none
+		sourceColumn: fecha_solicitud
+
+	column programa
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: programa
+
+	column modalidad
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: modalidad
+
+	column canal_captacion
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: canal_captacion
+
+	column estado_proceso
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: estado_proceso
+
+	column puntaje_admision
+		dataType: double
+		summarizeBy: none
+		sourceColumn: puntaje_admision
+
+	column documentos_completos
+		dataType: string
+		summarizeBy: none
+		sourceColumn: documentos_completos
+
+	column valor_matricula_cop
+		dataType: decimal
+		summarizeBy: none
+		sourceColumn: valor_matricula_cop
+
+	column ciudad_residencia
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: ciudad_residencia
+
+	column asesor
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: asesor
+
+	column fecha_matricula
+		dataType: dateTime
+		isHidden
+		summarizeBy: none
+		sourceColumn: fecha_matricula
+
+	column correo
+		dataType: string
+		summarizeBy: none
+		sourceColumn: correo
+
+	column periodo_academico
+		dataType: int64
+		isHidden
+		summarizeBy: none
+		sourceColumn: periodo_academico
+
+	column fuente_origen
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: fuente_origen
+
+	column intervalo_apto
+		dataType: boolean
+		isHidden
+		summarizeBy: none
+		sourceColumn: intervalo_apto
+
+	column dias_solicitud_matricula
+		dataType: int64
+		isHidden
+		summarizeBy: none
+		sourceColumn: dias_solicitud_matricula
+
+	column fecha_solicitud_apta
+		dataType: boolean
+		isHidden
+		summarizeBy: none
+		sourceColumn: fecha_solicitud_apta
+
+	column codigo_origen
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: codigo_origen
+
+	column solicitudes_codigo
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: solicitudes_codigo
+
+	partition FactRegistros = m
+		mode: import
+		source =
+				let
+				    Unida = Table.NestedJoin(BaseUnificadaOrigen, {"registro_id"}, ControlOrigen, {"registro_id"}, "control", JoinKind.LeftOuter),
+				    Control = Table.ExpandTableColumn(Unida, "control",
+				        {"fuente_origen", "intervalo_dias_apto_reglas_aplicadas", "dias_solicitud_matricula", "fecha_solicitud_apta_reglas_aplicadas"},
+				        {"fuente_origen", "intervalo_apto", "dias_solicitud_matricula", "fecha_solicitud_apta"}),
+				    Programa = Table.TransformColumns(Control, {{"programa", each if _ = null or _ = "" then "Sin información" else _, type text}}),
+				    Codigo = Table.AddColumn(Programa, "codigo_origen",
+				        each if [aspirante_id] = null or [aspirante_id] = "" then null else [fuente_origen] & "|" & [aspirante_id], type text),
+				    Conteo = Table.Group(Table.SelectRows(Codigo, each [codigo_origen] <> null), {"codigo_origen"},
+				        {{"solicitudes_codigo", each Table.RowCount(_), Int64.Type}}),
+				    ConConteo = Table.NestedJoin(Codigo, {"codigo_origen"}, Conteo, {"codigo_origen"}, "conteo", JoinKind.LeftOuter),
+				    Recurrencia = Table.ExpandTableColumn(ConConteo, "conteo", {"solicitudes_codigo"}),
+				    Resultado = Table.RemoveColumns(Recurrencia, {"facultad", "duracion_semestres", "nivel_formacion"})
+				in
+				    Resultado
+

@@ -1,0 +1,36 @@
+table RefDecisiones
+
+	column 'Código'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Código
+
+	column 'Decisión propuesta'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Decisión propuesta
+
+	column Evidencia
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Evidencia
+
+	column 'Indicador de evaluación'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Indicador de evaluación
+
+	partition RefDecisiones = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("C:\Users\USUARIO\Documents\analitica_admisiones_universitaria\reports\analisis_administrativo\tablas\decisiones_negocio.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"codigo", type text}, {"decision_propuesta", type text}, {"evidencia", type text}, {"indicador_de_evaluacion", type text}}, "en-US"),
+				    Listo = Tipos,
+				    Porcentajes = Table.TransformColumns(Listo, {}),
+				    Columnas = Table.SelectColumns(Porcentajes, {"codigo", "decision_propuesta", "evidencia", "indicador_de_evaluacion"}),
+				    Resultado = Table.RenameColumns(Columnas, {{"codigo", "Código"}, {"decision_propuesta", "Decisión propuesta"}, {"evidencia", "Evidencia"}, {"indicador_de_evaluacion", "Indicador de evaluación"}})
+				in
+				    Resultado
+

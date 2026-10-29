@@ -1,0 +1,35 @@
+table DimPrograma
+
+	column Programa
+		dataType: string
+		isKey
+		summarizeBy: none
+		sourceColumn: Programa
+
+	column Facultad
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Facultad
+
+	column 'Duración en semestres'
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: Duración en semestres
+
+	column 'Nivel de formación'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Nivel de formación
+
+	partition DimPrograma = m
+		mode: import
+		source =
+				let
+				    Base = Table.TransformColumns(BaseUnificadaOrigen, {{"programa", each if _ = null or _ = "" then "Sin información" else _, type text}}),
+				    Columnas = Table.Distinct(Table.SelectColumns(Base, {"programa", "facultad", "duracion_semestres", "nivel_formacion"})),
+				    Unicos = Table.Distinct(Columnas, {"programa"}),
+				    Resultado = Table.RenameColumns(Unicos, {{"programa", "Programa"}, {"facultad", "Facultad"},
+				        {"duracion_semestres", "Duración en semestres"}, {"nivel_formacion", "Nivel de formación"}})
+				in
+				    Resultado
+

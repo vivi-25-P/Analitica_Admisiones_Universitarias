@@ -1,0 +1,18 @@
+table DimEstado
+
+	column Estado
+		dataType: string
+		isKey
+		summarizeBy: none
+		sourceColumn: Estado
+
+	partition DimEstado = m
+		mode: import
+		source =
+				let
+				    Valores = Table.Distinct(Table.SelectColumns(BaseUnificadaOrigen, {"estado_proceso"})),
+				    Nombrada = Table.RenameColumns(Valores, {{"estado_proceso", "Estado"}}),
+				    Resultado = Table.Sort(Nombrada, {{"Estado", Order.Ascending}})
+				in
+				    Resultado
+

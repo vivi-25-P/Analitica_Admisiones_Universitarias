@@ -1,0 +1,36 @@
+table RefRespuestas
+
+	column Referencia
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Referencia
+
+	column 'Pregunta o hipótesis'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Pregunta o hipótesis
+
+	column 'Estado de la respuesta'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Estado de la respuesta
+
+	column 'Conocimiento obtenido'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Conocimiento obtenido
+
+	partition RefRespuestas = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("C:\Users\USUARIO\Documents\analitica_admisiones_universitaria\reports\analisis_administrativo\tablas\respuestas_preguntas_hipotesis.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"referencia", type text}, {"pregunta_o_hipotesis", type text}, {"estado_de_respuesta", type text}, {"conocimiento_obtenido", type text}}, "en-US"),
+				    Listo = Tipos,
+				    Porcentajes = Table.TransformColumns(Listo, {}),
+				    Columnas = Table.SelectColumns(Porcentajes, {"referencia", "pregunta_o_hipotesis", "estado_de_respuesta", "conocimiento_obtenido"}),
+				    Resultado = Table.RenameColumns(Columnas, {{"referencia", "Referencia"}, {"pregunta_o_hipotesis", "Pregunta o hipótesis"}, {"estado_de_respuesta", "Estado de la respuesta"}, {"conocimiento_obtenido", "Conocimiento obtenido"}})
+				in
+				    Resultado
+

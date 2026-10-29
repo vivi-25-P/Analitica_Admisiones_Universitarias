@@ -1,0 +1,18 @@
+table DimPeriodo
+
+	column Periodo
+		dataType: int64
+		isKey
+		summarizeBy: none
+		sourceColumn: Periodo
+
+	partition DimPeriodo = m
+		mode: import
+		source =
+				let
+				    Valores = Table.Distinct(Table.SelectColumns(BaseUnificadaOrigen, {"periodo_academico"})),
+				    Nombrada = Table.RenameColumns(Valores, {{"periodo_academico", "Periodo"}}),
+				    Resultado = Table.Sort(Nombrada, {{"Periodo", Order.Ascending}})
+				in
+				    Resultado
+

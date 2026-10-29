@@ -1,0 +1,23 @@
+model Model
+	culture: es-CO
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-CO
+
+	annotation __PBI_TimeIntelligenceEnabled = 0
+
+ref table FactRegistros
+ref table DimPrograma
+ref table DimModalidad
+ref table DimCanal
+ref table DimEstado
+ref table DimCiudad
+ref table DimAsesor
+ref table DimPeriodo
+ref table DimFuente
+ref table DimFecha
+ref table RefCanalesComparables
+ref table RefH3Condicionada
+ref table RefSensibilidad49
+ref table RefRespuestas
+ref table RefIndicadores
+ref table RefDecisiones

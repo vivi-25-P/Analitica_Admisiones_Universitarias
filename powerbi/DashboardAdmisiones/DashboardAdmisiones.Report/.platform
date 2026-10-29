@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "DashboardAdmisiones"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "631ade42-e458-4c24-a78d-72c8725f10ca"
+  }
+}

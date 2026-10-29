@@ -1,0 +1,51 @@
+table RefCanalesComparables
+
+	column Canal
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Canal
+
+	column Registros
+		dataType: int64
+		formatString: #,0
+		summarizeBy: none
+		sourceColumn: Registros
+
+	column 'Registros en estratos comunes'
+		dataType: int64
+		formatString: #,0
+		summarizeBy: none
+		sourceColumn: Registros en estratos comunes
+
+	column '% bruto en estratos comunes'
+		dataType: double
+		formatString: 0.00%
+		summarizeBy: none
+		sourceColumn: % bruto en estratos comunes
+
+	column '% con pesos comunes'
+		dataType: double
+		formatString: 0.00%
+		summarizeBy: none
+		sourceColumn: % con pesos comunes
+
+	column 'Celdas con menos de 30'
+		dataType: int64
+		formatString: #,0
+		summarizeBy: none
+		sourceColumn: Celdas con menos de 30
+
+	partition RefCanalesComparables = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("C:\Users\USUARIO\Documents\analitica_admisiones_universitaria\reports\analisis_administrativo\tablas\canales_comparables.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"canal_captacion", type text}, {"registros_totales", Int64.Type}, {"registros_soporte_comun", Int64.Type}, {"proporcion_bruta_soporte_pct", type number}, {"proporcion_estandarizada_descriptiva_pct", type number}, {"celdas_menores_30", Int64.Type}}, "en-US"),
+				    Listo = Tipos,
+				    Porcentajes = Table.TransformColumns(Listo, {{"proporcion_bruta_soporte_pct", each _ / 100, type number}, {"proporcion_estandarizada_descriptiva_pct", each _ / 100, type number}}),
+				    Columnas = Table.SelectColumns(Porcentajes, {"canal_captacion", "registros_totales", "registros_soporte_comun", "proporcion_bruta_soporte_pct", "proporcion_estandarizada_descriptiva_pct", "celdas_menores_30"}),
+				    Resultado = Table.RenameColumns(Columnas, {{"canal_captacion", "Canal"}, {"registros_totales", "Registros"}, {"registros_soporte_comun", "Registros en estratos comunes"}, {"proporcion_bruta_soporte_pct", "% bruto en estratos comunes"}, {"proporcion_estandarizada_descriptiva_pct", "% con pesos comunes"}, {"celdas_menores_30", "Celdas con menos de 30"}})
+				in
+				    Resultado
+

@@ -1,0 +1,49 @@
+table RefIndicadores
+
+	column 'Código'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Código
+
+	column Indicador
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Indicador
+
+	column Numerador
+		dataType: int64
+		formatString: #,0
+		summarizeBy: none
+		sourceColumn: Numerador
+
+	column Denominador
+		dataType: int64
+		formatString: #,0
+		summarizeBy: none
+		sourceColumn: Denominador
+
+	column Valor
+		dataType: double
+		formatString: 0.00%
+		summarizeBy: none
+		sourceColumn: Valor
+
+	column Lectura
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Lectura
+
+	partition RefIndicadores = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("C:\Users\USUARIO\Documents\analitica_admisiones_universitaria\reports\analisis_administrativo\tablas\cuadro_indicadores_negocio.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"codigo", type text}, {"indicador", type text}, {"numerador", Int64.Type}, {"denominador", Int64.Type}, {"valor", type number}, {"lectura", type text}}, "en-US"),
+				    Listo = Tipos,
+				    Porcentajes = Table.TransformColumns(Listo, {{"valor", each _ / 100, type number}}),
+				    Columnas = Table.SelectColumns(Porcentajes, {"codigo", "indicador", "numerador", "denominador", "valor", "lectura"}),
+				    Resultado = Table.RenameColumns(Columnas, {{"codigo", "Código"}, {"indicador", "Indicador"}, {"numerador", "Numerador"}, {"denominador", "Denominador"}, {"valor", "Valor"}, {"lectura", "Lectura"}})
+				in
+				    Resultado
+

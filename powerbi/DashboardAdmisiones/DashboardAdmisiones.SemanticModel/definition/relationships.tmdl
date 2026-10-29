@@ -1,0 +1,40 @@
+relationship DimPrograma_programa
+	fromColumn: FactRegistros.programa
+	toColumn: DimPrograma.Programa
+
+relationship DimModalidad_modalidad
+	fromColumn: FactRegistros.modalidad
+	toColumn: DimModalidad.Modalidad
+
+relationship DimCanal_canal_captacion
+	fromColumn: FactRegistros.canal_captacion
+	toColumn: DimCanal.Canal
+
+relationship DimEstado_estado_proceso
+	fromColumn: FactRegistros.estado_proceso
+	toColumn: DimEstado.Estado
+
+relationship DimCiudad_ciudad_residencia
+	fromColumn: FactRegistros.ciudad_residencia
+	toColumn: DimCiudad.Ciudad
+
+relationship DimAsesor_asesor
+	fromColumn: FactRegistros.asesor
+	toColumn: DimAsesor.Asesor
+
+relationship DimPeriodo_periodo_academico
+	fromColumn: FactRegistros.periodo_academico
+	toColumn: DimPeriodo.Periodo
+
+relationship DimFuente_fuente_origen
+	fromColumn: FactRegistros.fuente_origen
+	toColumn: DimFuente.Fuente
+
+relationship DimFecha_fecha_solicitud
+	fromColumn: FactRegistros.fecha_solicitud
+	toColumn: DimFecha.Fecha
+
+relationship DimFecha_fecha_matricula
+	isActive: false
+	fromColumn: FactRegistros.fecha_matricula
+	toColumn: DimFecha.Fecha

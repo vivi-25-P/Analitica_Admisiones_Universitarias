@@ -1,0 +1,44 @@
+table RefH3Condicionada
+
+	column Variable
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Variable
+
+	column Grupo
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Grupo
+
+	column 'Registros del grupo'
+		dataType: int64
+		formatString: #,0
+		summarizeBy: none
+		sourceColumn: Registros del grupo
+
+	column '% Pendiente o Retirado bruto'
+		dataType: double
+		formatString: 0.00%
+		summarizeBy: none
+		sourceColumn: % Pendiente o Retirado bruto
+
+	column '% Pendiente o Retirado con pesos comunes'
+		dataType: double
+		formatString: 0.00%
+		summarizeBy: none
+		sourceColumn: % Pendiente o Retirado con pesos comunes
+
+	partition RefH3Condicionada = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("C:\Users\USUARIO\Documents\analitica_admisiones_universitaria\reports\analisis_administrativo\tablas\H3_comparacion_hipotesis_condicionada.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"variable", type text}, {"grupo", type text}, {"registros_grupo_comun", Int64.Type}, {"pendiente_o_retirado_bruto_soporte_pct", type number}, {"pendiente_o_retirado_ponderado_pct", type number}}, "en-US"),
+				    Listo = Table.TransformColumns(Tipos, {"variable", each if _ = "situacion_documental" then "Documentos" else "Asesor", type text}),
+				    Porcentajes = Table.TransformColumns(Listo, {{"pendiente_o_retirado_bruto_soporte_pct", each _ / 100, type number}, {"pendiente_o_retirado_ponderado_pct", each _ / 100, type number}}),
+				    Columnas = Table.SelectColumns(Porcentajes, {"variable", "grupo", "registros_grupo_comun", "pendiente_o_retirado_bruto_soporte_pct", "pendiente_o_retirado_ponderado_pct"}),
+				    Resultado = Table.RenameColumns(Columnas, {{"variable", "Variable"}, {"grupo", "Grupo"}, {"registros_grupo_comun", "Registros del grupo"}, {"pendiente_o_retirado_bruto_soporte_pct", "% Pendiente o Retirado bruto"}, {"pendiente_o_retirado_ponderado_pct", "% Pendiente o Retirado con pesos comunes"}})
+				in
+				    Resultado
+

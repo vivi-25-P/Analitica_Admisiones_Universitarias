@@ -14,3 +14,7 @@ Thumbs.db
 
 # Respaldos locales de PostgreSQL
 data/backups/
+
+# Configuración local y caché de Power BI Desktop
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
