@@ -531,3 +531,83 @@ Se consultó el informe de Drive actualizado el 28 de octubre y se conservaron l
 Se creó Análisis de admisiones y respuestas para el informe como documento nativo de Google Docs en la misma carpeta del informe y la base entregable. Incorpora una tabla editable con siete indicadores principales y sus bases de cálculo, tres gráficas con notas de interpretación, oportunidades concretas de captación, prioridades y una guía de inserción. Los otros tres indicadores definidos se resumen como información de apoyo. Las metas institucionales siguen por acordar. El informe original no se reemplazó ni se editó, ya que el usuario solicitó una redacción fácil de copiar.
 
 La lectura posterior verificó todos los párrafos, las tres hipótesis, las preguntas y condiciones, las respuestas, los valores de la tabla, diez encabezados nativos, tres imágenes y la carpeta de destino. La versión local está en reports/apoyo_informe_drive/analisis_negocio_para_informe.md y la publicación y sus verificaciones en publicacion_analisis_drive.json. Se utilizaron los resultados existentes del notebook 04, sin ejecutar otra limpieza ni alterar Excel, PostgreSQL o sus cálculos. La incorporación al informe y su numeración final de tablas, figuras y páginas corresponde a la siguiente edición del documento principal.
+
+## 30 de octubre de 2026. Sustentación v2 con plantilla institucional
+
+Por solicitud del usuario se creó una copia v2 de la presentación en la misma carpeta presentacion. Se conservaron las quince diapositivas, las notas del expositor, las gráficas y las capturas originales. La identidad gráfica procede de los fondos y el tema incluidos en Calidad de datos.pptx, compartidos con Conceptos BI.pptx. Se ajustaron portada, colores, tipografía, formato y distribución, y se reconstruyó el esquema estrella con formas editables.
+
+Se precisó que el flujo de 5.640 a 5.500 corresponde a conciliación de registros y no a conversión de aspirantes. Las notas explican los pasos 5.640, 5.602, 5.600 y 5.500, la recuperación de cinco valores parciales y trece importes CRM, y la conservación de Oracle. H3 distingue el patrón documental no observado de la pequeña diferencia descriptiva de 0,68 puntos según asignación. Se retiraron afirmaciones no verificadas sobre todas las medidas y filtros del dashboard y se documentó que el proyecto actual lee Excel y CSV.
+
+El original conservó su SHA256. El script scripts/actualizar_sustentacion_v2.py permite reproducir la copia. La revisión está en reports/revision_presentacion_v2. PowerPoint abrió y renderizó la copia en modo de solo lectura para revisar las quince páginas, el contraste y el ajuste de texto. Las evidencias de renderizado son internas y el entregable solicitado es el PPTX v2. No se modificaron datos ni cálculos. Por indicación del usuario, no se realizó commit ni push.
+
+## 30 de octubre de 2026. Auditoría del dashboard y ajuste de filtros
+
+Se utilizó el MCP local de Power BI en modo de solo lectura para consultar DashboardAdmisiones abierto. Las 22 medidas basales, 28 grupos y 395 combinaciones de ciudad, programa, modalidad y periodo coinciden con los datos de referencia. Las nueve dimensiones tienen claves únicas y no presentan claves informadas sin correspondencia. Las diez relaciones están listas, con una sola dirección de filtro y la relación de fecha de matrícula inactiva. Se verificaron 115 referencias de los visuales sin campos inexistentes.
+
+Se reprodujeron errores de contexto en dos porcentajes. La proporción Matriculado conserva el estado seleccionado en el denominador y lo sustituye en el numerador. Por ejemplo, con Documentación pendiente devuelve 184,80 %. La proporción Sin asignar presenta el mismo problema al seleccionar asesores y puede superar el cien por ciento. Se validaron fórmulas alternativas dentro de consultas DAX, sin guardarlas en el modelo.
+
+La captura enviada muestra que los desplegables superiores quedan cortados. Se ampliaron 24 filtros de 58 a 76 unidades de altura en las primeras cuatro páginas y se redistribuyeron los objetos inferiores. Se respaldó el diseño anterior, se comprobaron límites y posiciones y se actualizó el generador sin regenerar el proyecto principal ni eliminar su caché. La comprobación del generador se hizo en una carpeta temporal. La revisión en pantalla posterior requiere reabrir el proyecto, porque el control visual de Windows sigue fallando al inicializarse desde WSL.
+
+Los resultados, las pruebas y el plan de cierre están en reports/revision_dashboard_powerbi. Se identificaron indicadores definidos que todavía solo aparecen como referencias o cantidades y requieren medidas dinámicas explícitas, además de completar el perfil condicionado de los seis estados de H3. No se modificaron los datos, las medidas del modelo, el Excel ni PostgreSQL. No se realizó commit ni push.
+
+## 30 de octubre de 2026. Corrección de porcentajes con filtros
+
+El usuario autorizó corregir los porcentajes Matriculado y Sin asignar. Se abrió una sesión temporal de escritura del MCP, se respaldaron las dos medidas y se actualizaron sus expresiones por lote. Se verificó por una conexión posterior de solo lectura que solo cambiaron las dos fórmulas autorizadas. La configuración general del MCP permanece en solo lectura.
+
+La proporción Matriculado calcula numerador y denominador sobre todos los estados del mismo ámbito, conservando los demás filtros. Sin otros filtros devuelve 21,44 % tanto al seleccionar Matriculado como Admitido o Documentación pendiente. El porcentaje Sin asignar utiliza la intersección con el asesor seleccionado: cero para los asesores informados y cien por ciento para el grupo Sin asignar. Su referencia general permanece en 20,02 %. Las mismas expresiones se guardaron en FactRegistros.tmdl y en el generador sin reconstruir el proyecto completo.
+
+La auditoría posterior conserva correctas las 22 referencias generales, 28 grupos, 395 segmentos y nueve dimensiones. Ninguno de los siete casos de estado y asesor requiere ya ajuste. También se contrastaron tres combinaciones de programa, modalidad, ciudad, canal y periodo con un estado seleccionado. Los respaldos y las comprobaciones están en reports/revision_dashboard_powerbi. No se modificaron datos ni otras medidas y no se realizó commit ni push.
+
+## 30 de octubre de 2026. Rutas compartidas para Windows
+
+Se sustituyeron las ocho referencias absolutas de las consultas por un parámetro RutaProyecto, una función ArchivoProyecto y una referencia común al Excel. Las siete fuentes permanecen en sus ubicaciones originales. Se añadió un configurador sin dependencias que comprueba el Excel y seis CSV y actualiza únicamente la carpeta del equipo. El generador incorpora las mismas expresiones, pero no se ejecutó sobre el proyecto principal.
+
+Se documentó la apertura del PBIP, la configuración manual desde Power Query y la diferencia entre compartir el proyecto y entregar un PBIX con datos importados. La verificación local comprobó las siete fuentes, la repetición del configurador sin cambios y la generación en una carpeta temporal. La actualización efectiva en Desktop queda por comprobar al reabrir el proyecto. No se modificaron datos ni se hizo commit o push.
+
+Se revisó el PNG FUP recibido en la raíz. Puede incorporarse como identificación académica manteniendo el nombre de la institución del caso. La incorporación visual del logo sigue pendiente, sin cambiar el archivo recibido.
+
+## 30 de octubre de 2026. Logo académico en el dashboard
+
+Se incorporó el PNG FUP recibido como recurso interno del informe y se añadió una imagen de 48 por 48 unidades en el extremo superior derecho de las seis páginas. El archivo original se conserva intacto. Se mantuvieron los visuales existentes, filtros, datos y medidas. Un script permite repetir la incorporación sin duplicar logos y el generador reproduce el mismo resultado en una carpeta temporal. Se comprobó la correspondencia de recursos y posiciones. La apariencia final debe revisarse al reabrir Power BI Desktop. No se hizo commit ni push.
+
+### Corrección del registro de recursos del logo
+
+La primera apertura comunicada por el usuario mostró un fallo al cargar el informe. Se identificó que el registro del PNG utilizaba la estructura plana de PBIR moderno mientras el proyecto conserva report.json en formato Legacy. Se corrigió a resourcePackages con envoltorio resourcePackage y tipos numéricos de paquete e imagen. Se respaldó el estado anterior y se comprobó la existencia del PNG y la reproducción exacta del generador en una carpeta temporal. No se modificaron datos ni medidas. La reapertura en Desktop debe confirmar el resultado.
+
+### Legibilidad del logo FUP
+
+La captura posterior confirmó que el informe abre y que el escudo aparece demasiado pequeño y con escaso contraste. Se amplió de 48 a 80 unidades y se añadió un fondo blanco. Se reservó el extremo derecho del subtítulo en las seis páginas, sin mover filtros ni gráficos. Se verificaron posiciones y repetición sin duplicados. No se modificaron datos, medidas ni fuentes y no se hizo commit ni push.
+
+### Integración visual del encabezado
+
+A partir de la captura se sustituyó el fondo azul del encabezado por blanco, con el título azul y una línea dorada fina antes de los filtros. El escudo conserva sus proporciones y queda integrado en el mismo fondo. Se aplicó a las seis páginas y se verificó que filtros y gráficos mantienen sus posiciones. La apariencia final queda por revisar en Desktop. No se hizo commit ni push.
+
+### Restauración del encabezado azul por preferencia del usuario
+
+Se restauró el encabezado azul con texto blanco y se retiraron los seis logos y las seis líneas doradas. El report.json coincide exactamente con la copia temporal verificada antes de incorporar el logo. Se retiraron la copia del recurso y el script de incorporación, junto con su llamada desde el generador. El PNG original de la raíz se conserva. Se consultaron referencias de diseño para evaluar una futura portada o página informativa con identificación académica. No se hizo commit ni push.
+
+## 30 de octubre de 2026. Portada académica del dashboard
+
+Se creó la página Inicio con el logo FUP en su tamaño original y proporciones conservadas sobre fondo blanco, el nombre de la institución del caso, la pregunta general y seis botones de navegación. La identificación académica se distingue de la entidad analizada. Las seis páginas existentes conservan íntegramente su definición y encabezado azul. Se incorporó la portada al generador y se verificaron los destinos de navegación, los límites del lienzo y la ejecución sin duplicados. Una generación temporal reproduce el informe completo. Falta revisar la apariencia y las acciones en Desktop. No se modificaron datos ni medidas y no se hizo commit ni push.
+
+## 30 de octubre de 2026. Sustentación administrativa v3 y ajustes exactos del informe
+
+Se creó una presentación v3 en la carpeta presentacion, conservando intactas la original y la v2. Incluye diez diapositivas principales para trece minutos estimados y cuatro anexos ocultos para preguntas. El recorrido presenta la necesidad institucional, los retos de los datos, la conciliación, los resultados, las oportunidades, el tablero y tres acciones propuestas con responsables y seguimiento. Las notas orientan la exposición y distinguen las cifras verificadas de las condiciones pendientes.
+
+La v3 se abrió en PowerPoint en modo de solo lectura, se renderizaron sus catorce diapositivas y se corrigieron los cuadros hasta quedar sin avisos de altura de texto. Se revisaron las diez láminas principales. El guion y los controles están en reports/revision_presentacion_v3. El PDF y las imágenes de revisión son internos.
+
+Se leyó nuevamente el informe de Drive y se preparó reports/revision_informe_sustentacion/ajustes_exactos_informe.md con siete ubicaciones y sus sustituciones textuales. No se editó Drive ni se alteraron datos, medidas o versiones anteriores de la presentación. No se hizo commit ni push.
+
+### Ajuste del hilo administrativo de la sustentación v3
+
+Se actualizó la misma v3 por autorización del usuario. Se añadió una lámina principal de integración y transformaciones antes de la conciliación, que ahora presenta también las ausencias conservadas. Canales y oportunidades comparten una lámina para mantener diez diapositivas principales. Los resultados indican su relación con H1, H2 y H3 y la utilidad para la gestión. Se actualizaron el orden, las notas y el guion para trece minutos estimados y dos de preguntas. Los cuatro anexos siguen ocultos.
+
+PowerPoint abrió y renderizó las catorce láminas en modo de solo lectura sin avisos de altura de texto. Se revisaron visualmente las tres láminas nuevas o redistribuidas y se comprobaron títulos, orden, notas, tiempos y conservación de la v2. Los datos, el dashboard y el documento Drive no cambiaron. No se hizo commit ni push.
+
+## 30 de octubre de 2026. Organización de commits locales y trabajo compartido
+
+Por instrucción del usuario, la organización del historial separa la documentación del MCP, la corrección de porcentajes, el ajuste visual, las rutas Windows, la portada, las presentaciones v2 y v3 y el cierre documental. Los archivos con varios propósitos se incorporan por contenido para mantener los commits atómicos. Se conserva la autoría Git configurada y se utilizan Conventional Commits sin trailers ni atribuciones adicionales. No se realiza push.
+
+Antes de preparar los commits se consultó el remoto, sin cambios adicionales respecto de main. Se verificaron sintaxis Python, evidencias JSON, hashes de presentaciones y conservación del Excel entregable. El generador reproduce todas las definiciones TMDL y el informe en una carpeta temporal. La configuración MCP, la caché, los bloqueos Office y los respaldos de sesiones permanecen fuera de Git.
+
+La guía powerbi/README.md describe cómo recibir los cambios sin sobrescribir trabajo propio, configurar RutaProyecto desde Windows y abrir el PBIP sin regenerarlo. Para consultar el dashboard no se requiere el MCP ni Docker cuando se utiliza Excel. Los indicadores dinámicos adicionales y la revisión final de interacciones permanecen pendientes.
