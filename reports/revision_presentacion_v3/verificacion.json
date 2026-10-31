@@ -1,0 +1,43 @@
+{
+  "fecha": "2026-10-30",
+  "entrada": "presentacion/Sustentación analítica de admisiones del Instituto Universitario Horizonte_v2.pptx",
+  "salida": "presentacion/Sustentación analítica de admisiones del Instituto Universitario Horizonte_v3.pptx",
+  "sha256_v2": "2738bf39d4b905c05a208eeb6c479bd6214d7a792f54957326bb8fa5f7087708",
+  "sha256_v3": "3e19ebfcd08a15a366863762b5088bd49a3618d53d07b40c664fc6576c758943",
+  "principales": 10,
+  "anexos_ocultos": 4,
+  "minutos_estimados": 13,
+  "minutos_preguntas": 2,
+  "minutos_por_diapositiva": [
+    0.5,
+    1,
+    1,
+    1.5,
+    1,
+    1.5,
+    2,
+    1.5,
+    1.5,
+    1.5
+  ],
+  "original_y_v2_conservadas": true,
+  "notas_en_todas": true,
+  "renderizado_powerpoint": true,
+  "datos_modelo_o_drive_modificados": false,
+  "commit_o_push": false,
+  "diapositivas_renderizadas": 14,
+  "avisos_altura_texto": 0,
+  "revision_visual": "Revisadas las nuevas láminas de transformaciones, conciliación y canales con oportunidades. Diez principales y cuatro anexos ocultos.",
+  "secuencia": [
+    "Propósito",
+    "Necesidad y preguntas",
+    "Fuentes y retos",
+    "Integración y transformaciones",
+    "Base y límites",
+    "Programas y modalidades",
+    "Canales y oportunidades",
+    "Estados y seguimiento",
+    "Dashboard",
+    "Acciones propuestas"
+  ]
+}

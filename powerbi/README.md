@@ -46,4 +46,4 @@ El configurador funciona sin uv. Si tu instalación utiliza el lanzador de Windo
 
 Si únicamente modificaste RutaProyecto en una sesión anterior, guarda ese cambio temporalmente con `git stash push -m "ruta local de Power BI" -- powerbi/DashboardAdmisiones/DashboardAdmisiones.SemanticModel/definition/expressions.tmdl`, realiza el pull y ejecuta de nuevo el configurador. No hace falta reaplicar el stash de esa ruta. Conserva el respaldo hasta comprobar que el proyecto abre. Esta instrucción solo aplica cuando ese archivo contiene exclusivamente tu cambio de ruta; los cambios de consultas deben revisarse como trabajo propio.
 
-El proyecto incluye Inicio y seis páginas de análisis. No necesitas instalar el MCP para consultar el dashboard. Su configuración y la caché son locales.
+El proyecto incluye Inicio y seis páginas de análisis. Para la sustentación actual se utiliza la presentación terminada en `_v3.pptx`; la original y la v2 son respaldos conservados. Las notas orientan una exposición de trece minutos y los cuatro anexos están ocultos. No necesitas instalar el MCP para consultar el dashboard. Su configuración y la caché son locales.
