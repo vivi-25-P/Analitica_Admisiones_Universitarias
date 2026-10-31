@@ -38,3 +38,4 @@ relationship DimFecha_fecha_matricula
 	isActive: false
 	fromColumn: FactRegistros.fecha_matricula
 	toColumn: DimFecha.Fecha
+

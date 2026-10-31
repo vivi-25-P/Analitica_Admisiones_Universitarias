@@ -1,23 +1,28 @@
 table DimPrograma
+	lineageTag: 3f26594b-d7f8-4dbc-bade-362984d9c724
 
 	column Programa
 		dataType: string
 		isKey
+		lineageTag: ea73ca93-ef1c-4c89-8c2b-5fa6ded19e15
 		summarizeBy: none
 		sourceColumn: Programa
 
 	column Facultad
 		dataType: string
+		lineageTag: 96b7a0b9-9147-46be-9cec-0b9eab915002
 		summarizeBy: none
 		sourceColumn: Facultad
 
 	column 'Duración en semestres'
 		dataType: int64
+		lineageTag: 4f1fd048-dd91-4ec2-b116-6d970116a78a
 		summarizeBy: none
 		sourceColumn: Duración en semestres
 
 	column 'Nivel de formación'
 		dataType: string
+		lineageTag: 3976eb48-87b1-4f0c-80ca-8452476158a3
 		summarizeBy: none
 		sourceColumn: Nivel de formación
 

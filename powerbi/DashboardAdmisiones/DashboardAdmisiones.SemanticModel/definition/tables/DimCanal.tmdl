@@ -1,8 +1,10 @@
 table DimCanal
+	lineageTag: a449eb00-6620-48ff-a6d2-7d129a4cdf74
 
 	column Canal
 		dataType: string
 		isKey
+		lineageTag: ccce10bd-fd37-4886-882c-f7bd42b709d0
 		summarizeBy: none
 		sourceColumn: Canal
 

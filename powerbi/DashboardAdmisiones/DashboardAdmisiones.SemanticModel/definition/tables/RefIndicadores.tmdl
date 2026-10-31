@@ -1,35 +1,42 @@
 table RefIndicadores
+	lineageTag: 915078a1-5f4a-43d3-82bb-437b09b84e2c
 
-	column 'Código'
+	column Código
 		dataType: string
+		lineageTag: 4c4539fe-cad8-4da0-94e2-909305e2d76c
 		summarizeBy: none
 		sourceColumn: Código
 
 	column Indicador
 		dataType: string
+		lineageTag: 24f127e4-6cdb-4bde-8385-fdef1f6cedf9
 		summarizeBy: none
 		sourceColumn: Indicador
 
 	column Numerador
 		dataType: int64
 		formatString: #,0
+		lineageTag: 51f81860-f22e-4d87-8cb6-8c28f5d2051f
 		summarizeBy: none
 		sourceColumn: Numerador
 
 	column Denominador
 		dataType: int64
 		formatString: #,0
+		lineageTag: 8206f24c-2ef3-4ac0-b88b-2b75139cda8c
 		summarizeBy: none
 		sourceColumn: Denominador
 
 	column Valor
 		dataType: double
 		formatString: 0.00%
+		lineageTag: 29c278e9-7d3f-4246-b95e-6f2a8aa908ce
 		summarizeBy: none
 		sourceColumn: Valor
 
 	column Lectura
 		dataType: string
+		lineageTag: 04709284-9437-4c8f-b407-64f948bd2d11
 		summarizeBy: none
 		sourceColumn: Lectura
 

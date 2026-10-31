@@ -1,8 +1,10 @@
 table DimEstado
+	lineageTag: 01ab07c8-31ef-4a41-bd6a-2bb8dcfdcf10
 
 	column Estado
 		dataType: string
 		isKey
+		lineageTag: 65809e7d-deea-4647-a528-35da2f3657f3
 		summarizeBy: none
 		sourceColumn: Estado
 

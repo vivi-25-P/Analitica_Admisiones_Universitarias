@@ -1,8 +1,10 @@
 table DimAsesor
+	lineageTag: 6031848f-965d-480b-86a3-d404809ee916
 
 	column Asesor
 		dataType: string
 		isKey
+		lineageTag: 4b614c02-ec1c-4d1b-a478-d79754b6ea69
 		summarizeBy: none
 		sourceColumn: Asesor
 

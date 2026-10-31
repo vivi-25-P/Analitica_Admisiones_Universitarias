@@ -25,6 +25,13 @@ def props(**values):
 
 def agregar_portada(report_folder):
     path = report_folder / 'report.json'
+    metadata = report_folder / 'definition/pages/pages.json'
+    if not path.exists() and metadata.exists():
+        pages = json.loads(metadata.read_text(encoding='utf-8'))
+        if PAGE_NAME in pages['pageOrder']:
+            return
+        raise ValueError('Informe PBIR sin portada. Añádela desde Desktop para conservar su diseño.')
+
     report = json.loads(path.read_text(encoding='utf-8'))
     pages = [p for p in report['sections'] if p['name'] != PAGE_NAME]
     targets = [(p['name'], p['displayName']) for p in pages]
@@ -108,4 +115,4 @@ def agregar_portada(report_folder):
 
 if __name__ == '__main__':
     agregar_portada(ROOT / 'powerbi/DashboardAdmisiones/DashboardAdmisiones.Report')
-    print('Portada Inicio creada con logo FUP y seis accesos al análisis.')
+    print('Portada Inicio disponible. Se conserva el diseño PBIR existente cuando corresponde.')

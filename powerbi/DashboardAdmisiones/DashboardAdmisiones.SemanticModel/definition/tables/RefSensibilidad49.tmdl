@@ -1,43 +1,51 @@
 table RefSensibilidad49
+	lineageTag: 214c2868-8216-4ef8-9076-ad9df6ef8508
 
-	column 'Ámbito'
+	column Ámbito
 		dataType: string
+		lineageTag: 304b3a37-ff7b-4af8-9fc1-c972599d2ddb
 		summarizeBy: none
 		sourceColumn: Ámbito
 
-	column 'Categoría'
+	column Categoría
 		dataType: string
+		lineageTag: 9fbb87d3-c57a-47d2-9a52-da3db3372d05
 		summarizeBy: none
 		sourceColumn: Categoría
 
 	column Registros
 		dataType: int64
 		formatString: #,0
+		lineageTag: 45c0a0a6-4153-4cd6-8cde-1fae97816956
 		summarizeBy: none
 		sourceColumn: Registros
 
 	column '% Matriculado base'
 		dataType: double
 		formatString: 0.00%
+		lineageTag: 87cdf4a3-dffa-438f-9c48-c7075c79b6cb
 		summarizeBy: none
 		sourceColumn: % Matriculado base
 
 	column '% Matriculado con 49 pares'
 		dataType: double
 		formatString: 0.00%
+		lineageTag: b4b4feff-3c73-49cd-b4ef-0f7e30fa2134
 		summarizeBy: none
 		sourceColumn: % Matriculado con 49 pares
 
 	column 'Cambio en puntos'
 		dataType: double
 		formatString: +0.00;-0.00;0.00
+		lineageTag: f48bedbc-0593-478b-87fb-cdf8e5a7f172
 		summarizeBy: none
 		sourceColumn: Cambio en puntos
 
 	column 'Cambio absoluto'
 		dataType: double
-		formatString: +0.00;-0.00;0.00
 		isHidden
+		formatString: +0.00;-0.00;0.00
+		lineageTag: 3eba1684-04dd-49cf-a15b-811c65538158
 		summarizeBy: none
 		sourceColumn: Cambio absoluto
 

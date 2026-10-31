@@ -1,8 +1,10 @@
 table DimPeriodo
+	lineageTag: efbd136d-5be1-4fab-ab50-0328219c882a
 
 	column Periodo
 		dataType: int64
 		isKey
+		lineageTag: 8f89ea34-eb23-4105-8e7d-d62139d43cf7
 		summarizeBy: none
 		sourceColumn: Periodo
 

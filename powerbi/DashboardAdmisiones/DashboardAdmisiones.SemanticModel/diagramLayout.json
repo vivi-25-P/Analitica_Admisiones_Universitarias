@@ -137,6 +137,84 @@
             "width": 234
           },
           "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1069.6494421395423,
+            "y": 348.02816226550431
+          },
+          "nodeIndex": "RefCanalesComparables",
+          "nodeLineageTag": "cf7e34a1-141e-4080-962b-d77355fa35b2",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1353.6494421395423,
+            "y": 372.02816226550431
+          },
+          "nodeIndex": "RefDecisiones",
+          "nodeLineageTag": "ff3382be-0eb0-44fe-8eda-2a40a6ac954b",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1637.6494421395423,
+            "y": 360.02816226550431
+          },
+          "nodeIndex": "RefH3Condicionada",
+          "nodeLineageTag": "62ca8623-4011-4eca-8293-a249d55c4f3d",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1921.6494421395423,
+            "y": 348.02816226550431
+          },
+          "nodeIndex": "RefIndicadores",
+          "nodeLineageTag": "915078a1-5f4a-43d3-82bb-437b09b84e2c",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2205.6494421395423,
+            "y": 372.02816226550431
+          },
+          "nodeIndex": "RefRespuestas",
+          "nodeLineageTag": "1cd2b6f7-e58e-4cda-8a3a-1737419275b7",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2489.6494421395423,
+            "y": 336.02816226550431
+          },
+          "nodeIndex": "RefSensibilidad49",
+          "nodeLineageTag": "214c2868-8216-4ef8-9076-ad9df6ef8508",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "Todas las tablas",

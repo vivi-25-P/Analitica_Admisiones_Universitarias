@@ -8,6 +8,19 @@ ROOT = Path(__file__).resolve().parents[1]
 TARGET = ROOT / 'powerbi/DashboardAdmisiones/DashboardAdmisiones.Report/report.json'
 OUT = ROOT / 'reports/revision_dashboard_powerbi'
 OUT.mkdir(exist_ok=True, parents=True)
+if not TARGET.exists() and (TARGET.parent / 'definition/pages/pages.json').exists():
+    # Desktop ya convirtió el informe. Comprobar los filtros sin reconstruirlo.
+    paths = list((TARGET.parent / 'definition/pages').glob('*/visuals/*/visual.json'))
+    for path in paths:
+        visual = json.loads(path.read_text(encoding='utf-8'))
+        if visual.get('visual', {}).get('visualType') != 'slicer':
+            continue
+        position = visual['position']
+        if position['y'] == 90 and position['height'] == 76:
+            continue
+        raise SystemExit('El filtro PBIR requiere revisión en Desktop: ' + str(path))
+    print('PBIR reconocido. Los filtros conservan el ajuste; no se modificaron archivos.')
+    raise SystemExit(0)
 before = TARGET.read_bytes()
 report = json.loads(before)
 pages, slicers = [], 0

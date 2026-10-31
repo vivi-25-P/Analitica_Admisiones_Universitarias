@@ -2,8 +2,15 @@ model Model
 	culture: es-CO
 	defaultPowerBIDataSourceVersion: powerBI_V3
 	sourceQueryCulture: es-CO
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
 
-	annotation __PBI_TimeIntelligenceEnabled = 0
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["FactRegistros","DimPrograma","DimModalidad","DimCanal","DimEstado","DimCiudad","DimAsesor","DimPeriodo","DimFuente","DimFecha","RefCanalesComparables","RefH3Condicionada","RefSensibilidad49","RefRespuestas","RefIndicadores","RefDecisiones","RutaProyecto","ArchivoProyecto","RutaLibroBase","BaseUnificadaOrigen","ControlOrigen"]
+
+annotation PBI_ProTooling = ["DevMode"]
 
 ref table FactRegistros
 ref table DimPrograma
@@ -21,3 +28,6 @@ ref table RefSensibilidad49
 ref table RefRespuestas
 ref table RefIndicadores
 ref table RefDecisiones
+
+ref cultureInfo es-CO
+

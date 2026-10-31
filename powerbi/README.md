@@ -47,3 +47,9 @@ El configurador funciona sin uv. Si tu instalación utiliza el lanzador de Windo
 Si únicamente modificaste RutaProyecto en una sesión anterior, guarda ese cambio temporalmente con `git stash push -m "ruta local de Power BI" -- powerbi/DashboardAdmisiones/DashboardAdmisiones.SemanticModel/definition/expressions.tmdl`, realiza el pull y ejecuta de nuevo el configurador. No hace falta reaplicar el stash de esa ruta. Conserva el respaldo hasta comprobar que el proyecto abre. Esta instrucción solo aplica cuando ese archivo contiene exclusivamente tu cambio de ruta; los cambios de consultas deben revisarse como trabajo propio.
 
 El proyecto incluye Inicio y seis páginas de análisis. Para la sustentación actual se utiliza la presentación terminada en `_v3.pptx`; la original y la v2 son respaldos conservados. Las notas orientan una exposición de trece minutos y los cuatro anexos están ocultos. No necesitas instalar el MCP para consultar el dashboard. Su configuración y la caché son locales.
+
+## Formato guardado por Desktop
+
+El proyecto actual utiliza PBIR: las páginas y los visuales están en `DashboardAdmisiones.Report/definition/`. Se versiona esa carpeta completa. Desktop sustituyó el antiguo report.json situado en la raíz del informe; el nuevo report.json dentro de definition contiene la configuración general.
+
+El configurador de rutas sigue funcionando porque las consultas permanecen en el modelo TMDL. El generador completo rechaza un destino PBIR existente para proteger el trabajo guardado; solo puede generar una copia en otro destino. El script de filtros comprueba los segmentadores PBIR y conserva el ajuste actual. El script de portada reconoce Inicio sin duplicarlo. Para cambios nuevos de diseño en PBIR utiliza Desktop.

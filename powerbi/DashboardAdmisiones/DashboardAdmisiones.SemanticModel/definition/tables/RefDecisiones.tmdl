@@ -1,22 +1,27 @@
 table RefDecisiones
+	lineageTag: ff3382be-0eb0-44fe-8eda-2a40a6ac954b
 
-	column 'Código'
+	column Código
 		dataType: string
+		lineageTag: 142fde57-261f-467c-afed-8da527ce9b4f
 		summarizeBy: none
 		sourceColumn: Código
 
 	column 'Decisión propuesta'
 		dataType: string
+		lineageTag: 3d597719-e701-4eec-be82-a533bccbcf99
 		summarizeBy: none
 		sourceColumn: Decisión propuesta
 
 	column Evidencia
 		dataType: string
+		lineageTag: 329adc58-d927-4da6-8d11-5eabeec3da25
 		summarizeBy: none
 		sourceColumn: Evidencia
 
 	column 'Indicador de evaluación'
 		dataType: string
+		lineageTag: 62e22ff3-6dad-41ce-b58b-25a3236b9734
 		summarizeBy: none
 		sourceColumn: Indicador de evaluación
 

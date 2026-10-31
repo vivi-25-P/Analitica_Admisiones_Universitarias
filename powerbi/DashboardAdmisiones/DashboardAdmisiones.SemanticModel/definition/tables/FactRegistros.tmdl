@@ -1,187 +1,237 @@
 table FactRegistros
+	lineageTag: 87f3b6cc-92b9-4ebe-923a-9b771aa9dd07
 
 	measure Registros = COUNTROWS(FactRegistros)
 		formatString: #,0
+		lineageTag: d0fdf762-cccb-4550-9a02-c236409c0a21
 
 	measure Matriculado = CALCULATE([Registros], DimEstado[Estado] = "Matriculado")
 		formatString: #,0
+		lineageTag: 7a80efff-7d04-4971-ad65-f039751a1c75
 
 	measure '% Matriculado' = DIVIDE(CALCULATE([Registros], REMOVEFILTERS(DimEstado), REMOVEFILTERS(FactRegistros[estado_proceso]), DimEstado[Estado] = "Matriculado"), CALCULATE([Registros], REMOVEFILTERS(DimEstado), REMOVEFILTERS(FactRegistros[estado_proceso])))
 		formatString: 0.0%
+		lineageTag: 9ab5fd6e-94b9-49d5-85e4-2d0eac3c4572
 
 	measure '% del total' = DIVIDE([Registros], CALCULATE([Registros], ALLSELECTED()))
 		formatString: 0.0%
+		lineageTag: 8727f155-876a-46d2-a1b0-7365ab8569df
 
 	measure 'Códigos por origen' = DISTINCTCOUNTNOBLANK(FactRegistros[codigo_origen])
 		formatString: #,0
+		lineageTag: d668f802-0214-44eb-bd5e-d0f19c6dc762
 
 	measure 'Sin código de aspirante' = CALCULATE([Registros], LEN(FactRegistros[aspirante_id]) = 0)
 		formatString: #,0
+		lineageTag: 9ed25125-7da0-4649-b804-3ee1e9379137
 
 	measure 'Puntajes informados' = COUNT(FactRegistros[puntaje_admision])
 		formatString: #,0
+		lineageTag: 6ab161f9-68dc-40e0-9667-0f194ab02624
 
 	measure 'Puntaje mediano' = MEDIAN(FactRegistros[puntaje_admision])
 		formatString: 0.0
+		lineageTag: 436d0c3b-df32-4cf5-8788-9f1827d34bf3
 
 	measure 'Puntaje promedio' = AVERAGE(FactRegistros[puntaje_admision])
 		formatString: 0.0
+		lineageTag: 1912d330-ea29-4547-9014-30406602ce5c
 
 	measure 'Importes informados' = COUNT(FactRegistros[valor_matricula_cop])
 		formatString: #,0
+		lineageTag: 1655e8d1-b01b-4509-8b38-db0897204905
 
 	measure 'Importe mediano' = MEDIAN(FactRegistros[valor_matricula_cop])
 		formatString: $ #,0
+		lineageTag: 5f48aefe-4220-4e49-adb0-cf730642e626
 
 	measure 'Matriculado sin documentos completos' = CALCULATE([Matriculado], FactRegistros[documentos_completos] <> "Sí")
 		formatString: #,0
+		lineageTag: 3d5eb422-aacb-4fb3-9cc5-a71fddd72216
 
 	measure '% sin asesor asignado' = DIVIDE(COALESCE(CALCULATE([Registros], KEEPFILTERS(DimAsesor[Asesor] = "Sin asignar")), 0), [Registros])
 		formatString: 0.0%
+		lineageTag: 2caaa1e0-a1b3-48c5-8676-af11c77dbd01
 
 	measure 'Registros con fecha apta' = CALCULATE([Registros], FactRegistros[fecha_solicitud_apta] = TRUE())
 		formatString: #,0
+		lineageTag: 406dd51f-0c42-42ee-8e8f-1b83f95ba706
 
 	measure 'Intervalos aptos' = CALCULATE([Registros], FactRegistros[intervalo_apto] = TRUE())
 		formatString: #,0
+		lineageTag: 67242cc5-7e5f-47e9-adad-45c7357c34db
 
 	measure 'Días medianos a matrícula' = CALCULATE(MEDIAN(FactRegistros[dias_solicitud_matricula]), FactRegistros[intervalo_apto] = TRUE())
 		formatString: 0
+		lineageTag: 11897d5d-4ab5-4b2b-ac99-1cf3ab3e938e
 
 	measure 'Proporción bruta' = SUM(RefCanalesComparables[% bruto en estratos comunes])
 		formatString: 0.00%
+		lineageTag: 9bff01cb-ace9-4bb9-bbbe-c5cbf29770e5
 
 	measure 'Proporción con pesos comunes' = SUM(RefCanalesComparables[% con pesos comunes])
 		formatString: 0.00%
+		lineageTag: 58610373-ba9b-4768-a5b9-bc0faad669b6
 
 	measure 'Brecha bruta entre canales' = 100 * (MAX(RefCanalesComparables[% bruto en estratos comunes]) - MIN(RefCanalesComparables[% bruto en estratos comunes]))
 		formatString: 0.00 "pts"
+		lineageTag: 498fea57-688a-4fec-8469-8ca18a3cfe8c
 
 	measure 'Brecha con pesos comunes' = 100 * (MAX(RefCanalesComparables[% con pesos comunes]) - MIN(RefCanalesComparables[% con pesos comunes]))
 		formatString: 0.00 "pts"
+		lineageTag: 668dcf47-eb73-45f1-8181-ed994e9eb146
 
 	measure 'Registros comparables' = SUM(RefCanalesComparables[Registros en estratos comunes])
 		formatString: #,0
+		lineageTag: 64ee89cb-ee34-45ef-b000-83cde6c88114
 
 	measure 'Cambio máximo con 49 pares' = MAX(RefSensibilidad49[Cambio absoluto])
 		formatString: 0.00 "pts"
+		lineageTag: 99c16a10-48a9-47e0-a45d-cf9beef18467
 
 	column registro_id
 		dataType: string
+		lineageTag: 8202c111-66b5-43e1-99b7-b14d943aef35
 		summarizeBy: none
 		sourceColumn: registro_id
 
 	column aspirante_id
 		dataType: string
+		lineageTag: 3c9307af-3ee0-4a6e-b0c5-a336d76b64c7
 		summarizeBy: none
 		sourceColumn: aspirante_id
 
 	column fecha_solicitud
 		dataType: dateTime
 		isHidden
+		formatString: Long Date
+		lineageTag: 170f14ba-e166-428c-b690-db59d66b20af
 		summarizeBy: none
 		sourceColumn: fecha_solicitud
+
+		annotation UnderlyingDateTimeDataType = Date
 
 	column programa
 		dataType: string
 		isHidden
+		lineageTag: 532e3c80-b3e7-4adb-9429-f54998e64763
 		summarizeBy: none
 		sourceColumn: programa
 
 	column modalidad
 		dataType: string
 		isHidden
+		lineageTag: 20429fae-952f-45ae-b1c5-96eaab4703c5
 		summarizeBy: none
 		sourceColumn: modalidad
 
 	column canal_captacion
 		dataType: string
 		isHidden
+		lineageTag: b31242d7-fb8b-4431-99ee-e8ca9f61ff1b
 		summarizeBy: none
 		sourceColumn: canal_captacion
 
 	column estado_proceso
 		dataType: string
 		isHidden
+		lineageTag: 4371a5c7-a136-4dfe-b1ea-f22212b59ee2
 		summarizeBy: none
 		sourceColumn: estado_proceso
 
 	column puntaje_admision
 		dataType: double
+		lineageTag: 24254bb2-fe8f-4e3c-b620-3fedf47f031a
 		summarizeBy: none
 		sourceColumn: puntaje_admision
 
 	column documentos_completos
 		dataType: string
+		lineageTag: c7a130a1-2c74-4204-a7e6-d030b5d20fe7
 		summarizeBy: none
 		sourceColumn: documentos_completos
 
 	column valor_matricula_cop
 		dataType: decimal
+		lineageTag: 63d598e2-5fb7-47d0-8c84-79deceda5db2
 		summarizeBy: none
 		sourceColumn: valor_matricula_cop
 
 	column ciudad_residencia
 		dataType: string
 		isHidden
+		lineageTag: 2b7e8617-e8d7-4422-bb9c-b8098896e3c7
 		summarizeBy: none
 		sourceColumn: ciudad_residencia
 
 	column asesor
 		dataType: string
 		isHidden
+		lineageTag: 3d1bedb9-797f-4e99-b8df-536311463f72
 		summarizeBy: none
 		sourceColumn: asesor
 
 	column fecha_matricula
 		dataType: dateTime
 		isHidden
+		formatString: Long Date
+		lineageTag: c27ed250-eee1-4214-bfe5-1bd59ef0f191
 		summarizeBy: none
 		sourceColumn: fecha_matricula
 
+		annotation UnderlyingDateTimeDataType = Date
+
 	column correo
 		dataType: string
+		lineageTag: 08e1a4bf-1ea2-4283-9edc-30d0eaab3a15
 		summarizeBy: none
 		sourceColumn: correo
 
 	column periodo_academico
 		dataType: int64
 		isHidden
+		lineageTag: 69bf3f69-378d-4097-a4cf-b61611dd2cf0
 		summarizeBy: none
 		sourceColumn: periodo_academico
 
 	column fuente_origen
 		dataType: string
 		isHidden
+		lineageTag: 06b214d6-2a24-4378-8f34-4ef86f165d96
 		summarizeBy: none
 		sourceColumn: fuente_origen
 
 	column intervalo_apto
 		dataType: boolean
 		isHidden
+		lineageTag: 4f6dd83d-3a64-4745-a351-f943f23ac1d4
 		summarizeBy: none
 		sourceColumn: intervalo_apto
 
 	column dias_solicitud_matricula
 		dataType: int64
 		isHidden
+		lineageTag: f5b1ca15-9a6e-4b32-b461-3083bd2e75ce
 		summarizeBy: none
 		sourceColumn: dias_solicitud_matricula
 
 	column fecha_solicitud_apta
 		dataType: boolean
 		isHidden
+		lineageTag: 8bee7e7c-db0e-4d92-88eb-2fa5fdbc8719
 		summarizeBy: none
 		sourceColumn: fecha_solicitud_apta
 
 	column codigo_origen
 		dataType: string
 		isHidden
+		lineageTag: 945db9b8-5cac-4d51-8a25-1e8fd72b5388
 		summarizeBy: none
 		sourceColumn: codigo_origen
 
 	column solicitudes_codigo
 		dataType: int64
+		lineageTag: b48dd5f9-ea95-4d99-99a6-57cce1a61716
 		summarizeBy: none
 		sourceColumn: solicitudes_codigo
 

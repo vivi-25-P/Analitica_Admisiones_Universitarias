@@ -1,24 +1,32 @@
 table DimFecha
+	lineageTag: a001abc4-9334-44f3-a18c-b1d0102ea856
 	dataCategory: Time
 
 	column Fecha
 		dataType: dateTime
 		isKey
+		formatString: Long Date
+		lineageTag: 975047b6-a38c-49c2-95c6-b2e42f4e9d14
 		summarizeBy: none
 		sourceColumn: Fecha
 
-	column 'Año'
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Año
 		dataType: int64
+		lineageTag: 24fa0cff-2c60-4823-98b4-e4f6ac185471
 		summarizeBy: none
 		sourceColumn: Año
 
 	column 'Número de mes'
 		dataType: int64
+		lineageTag: b9852cc5-6aaf-43be-b166-60fe45be9926
 		summarizeBy: none
 		sourceColumn: Número de mes
 
 	column Mes
 		dataType: string
+		lineageTag: ee12b7af-3a7c-4b1d-9e50-adef08f6cae8
 		summarizeBy: none
 		sourceColumn: Mes
 

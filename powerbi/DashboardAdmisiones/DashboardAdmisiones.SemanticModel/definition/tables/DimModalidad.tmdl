@@ -1,8 +1,10 @@
 table DimModalidad
+	lineageTag: ed98d03b-2027-4949-9e8f-715fb3cc385b
 
 	column Modalidad
 		dataType: string
 		isKey
+		lineageTag: 8b5aad66-7a67-44c2-962f-b7f1272940dd
 		summarizeBy: none
 		sourceColumn: Modalidad
 

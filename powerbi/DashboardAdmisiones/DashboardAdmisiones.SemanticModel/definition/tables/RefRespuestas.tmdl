@@ -1,22 +1,27 @@
 table RefRespuestas
+	lineageTag: 1cd2b6f7-e58e-4cda-8a3a-1737419275b7
 
 	column Referencia
 		dataType: string
+		lineageTag: 16515864-4d31-4049-8537-2a51310875e1
 		summarizeBy: none
 		sourceColumn: Referencia
 
 	column 'Pregunta o hipótesis'
 		dataType: string
+		lineageTag: 0b07b4a3-86a8-409e-a2b8-43c5c89d81c3
 		summarizeBy: none
 		sourceColumn: Pregunta o hipótesis
 
 	column 'Estado de la respuesta'
 		dataType: string
+		lineageTag: c7775622-eda3-45cb-b34f-e30eeca71c44
 		summarizeBy: none
 		sourceColumn: Estado de la respuesta
 
 	column 'Conocimiento obtenido'
 		dataType: string
+		lineageTag: e8a9e954-a5ac-45e4-9f58-c454402aa08f
 		summarizeBy: none
 		sourceColumn: Conocimiento obtenido
 

@@ -1,8 +1,10 @@
 table DimCiudad
+	lineageTag: f65402e7-dec0-4fb7-b2ff-42178c6e7213
 
 	column Ciudad
 		dataType: string
 		isKey
+		lineageTag: b4ce6a22-0a0d-425b-b12f-3956e35337f5
 		summarizeBy: none
 		sourceColumn: Ciudad
 

@@ -1,37 +1,44 @@
 table RefCanalesComparables
+	lineageTag: cf7e34a1-141e-4080-962b-d77355fa35b2
 
 	column Canal
 		dataType: string
+		lineageTag: c214380e-44c5-4f19-b8a2-5235f17e7b94
 		summarizeBy: none
 		sourceColumn: Canal
 
 	column Registros
 		dataType: int64
 		formatString: #,0
+		lineageTag: 2b247360-9d2c-4ab0-b43e-2679f5df0c84
 		summarizeBy: none
 		sourceColumn: Registros
 
 	column 'Registros en estratos comunes'
 		dataType: int64
 		formatString: #,0
+		lineageTag: 24268c8a-5815-46c1-8622-fc0881471944
 		summarizeBy: none
 		sourceColumn: Registros en estratos comunes
 
 	column '% bruto en estratos comunes'
 		dataType: double
 		formatString: 0.00%
+		lineageTag: 69fcf2db-8451-40d3-bb87-42c545724ad0
 		summarizeBy: none
 		sourceColumn: % bruto en estratos comunes
 
 	column '% con pesos comunes'
 		dataType: double
 		formatString: 0.00%
+		lineageTag: a7948593-1fcb-45b2-b7c6-b261491da882
 		summarizeBy: none
 		sourceColumn: % con pesos comunes
 
 	column 'Celdas con menos de 30'
 		dataType: int64
 		formatString: #,0
+		lineageTag: 4ef7f5d4-d9ae-472a-894a-4074c844ea91
 		summarizeBy: none
 		sourceColumn: Celdas con menos de 30
 

@@ -611,3 +611,13 @@ Por instrucción del usuario, la organización del historial separa la documenta
 Antes de preparar los commits se consultó el remoto, sin cambios adicionales respecto de main. Se verificaron sintaxis Python, evidencias JSON, hashes de presentaciones y conservación del Excel entregable. El generador reproduce todas las definiciones TMDL y el informe en una carpeta temporal. La configuración MCP, la caché, los bloqueos Office y los respaldos de sesiones permanecen fuera de Git.
 
 La guía powerbi/README.md describe cómo recibir los cambios sin sobrescribir trabajo propio, configurar RutaProyecto desde Windows y abrir el PBIP sin regenerarlo. Para consultar el dashboard no se requiere el MCP ni Docker cuando se utiliza Excel. Los indicadores dinámicos adicionales y la revisión final de interacciones permanecen pendientes.
+
+## 31 de octubre de 2026. Verificación después de cerrar Power BI
+
+Se revisó el proyecto guardado por Desktop sin regenerarlo ni revertir archivos. Power BI convirtió el informe Legacy a PBIR 2.0.0, separando su definición en páginas y visuales, y añadió metadatos de seguimiento al modelo. La comparación estática con HEAD confirmó siete páginas, noventa visuales, veinticuatro filtros, seis botones de navegación, veintidós expresiones DAX, dieciséis tablas y diez relaciones conservados. Los tipos de columnas y las consultas M permanecen iguales.
+
+Se verificó que RutaProyecto corresponde a la carpeta de este PC y que ArchivoProyecto resuelve el Excel entregable y seis CSV existentes. Las siete fuentes coinciden byte por byte con sus versiones del último commit. El origen activo sigue siendo Excel; PostgreSQL es una rama alternativa de la consulta, sin seleccionar. La comprobación no ejecutó medidas en el motor, porque Desktop estaba cerrado. La evidencia está en reports/revision_dashboard_powerbi/verificacion_guardado_2026_10_31.json. Los guardados de Desktop y PowerPoint permanecen como cambios locales del usuario, sin commit ni push en esta revisión.
+
+## 31 de octubre de 2026. Compatibilidad de scripts con el guardado PBIR
+
+Se registra la conversión realizada por Desktop y sus metadatos. El generador protege destinos PBIR existentes y exige otra carpeta para generar copias. El ajuste de filtros reconoce PBIR y comprueba el ajuste existente sin reconstruir el informe; otros tamaños requieren revisión en Desktop. La portada reconoce Inicio sin duplicarlo. El configurador de rutas conserva su funcionamiento sobre TMDL. Se documentó el alcance: los cambios nuevos de diseño PBIR se realizan desde Desktop. El guardado de la presentación se mantiene fuera de este commit. No se hace push.

@@ -1,0 +1,59 @@
+{
+  "paginas": [
+    {
+      "nombre": "Inicio",
+      "visuales": 15
+    },
+    {
+      "nombre": "Panorama de admisiones",
+      "visuales": 16
+    },
+    {
+      "nombre": "Captación y segmentos",
+      "visuales": 12
+    },
+    {
+      "nombre": "Seguimiento del proceso",
+      "visuales": 18
+    },
+    {
+      "nombre": "Cobertura y condiciones",
+      "visuales": 15
+    },
+    {
+      "nombre": "Comparaciones controladas",
+      "visuales": 9
+    },
+    {
+      "nombre": "Respuestas y decisiones",
+      "visuales": 5
+    }
+  ],
+  "diferencias_visuales": [],
+  "diferencias_modelo": [],
+  "archivos_fuente": [
+    "deliverables/BaseUnificada_Entregable.xlsx",
+    "reports/analisis_administrativo/tablas/H3_comparacion_hipotesis_condicionada.csv",
+    "reports/analisis_administrativo/tablas/canales_comparables.csv",
+    "reports/analisis_administrativo/tablas/cuadro_indicadores_negocio.csv",
+    "reports/analisis_administrativo/tablas/decisiones_negocio.csv",
+    "reports/analisis_administrativo/tablas/respuestas_preguntas_hipotesis.csv",
+    "reports/analisis_administrativo/tablas/sensibilidad_49_pares.csv"
+  ],
+  "visuales_conservados": 90,
+  "segmentadores": 24,
+  "botones_navegacion": 6,
+  "medidas_conservadas": 22,
+  "relaciones_conservadas": 10,
+  "tablas_conservadas": 16,
+  "fecha": "2026-10-31",
+  "tipo": "Comparación estática del guardado PBIR frente a HEAD",
+  "formato_guardado": "PBIR 2.0.0",
+  "consultas_m_sin_cambios": true,
+  "tipos_columnas_sin_cambios": true,
+  "formulas_dax_sin_cambios": true,
+  "fuentes_sin_cambios": true,
+  "origen_activo": "Excel",
+  "ejecucion_en_motor": false,
+  "commit_o_push": false
+}

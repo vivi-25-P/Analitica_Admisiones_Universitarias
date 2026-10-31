@@ -1,8 +1,10 @@
 table DimFuente
+	lineageTag: d0d2887f-6c63-4674-8da2-5a5b1b64c6a0
 
 	column Fuente
 		dataType: string
 		isKey
+		lineageTag: 9b96256f-d113-4858-88a6-d2db6a69ef61
 		summarizeBy: none
 		sourceColumn: Fuente
 

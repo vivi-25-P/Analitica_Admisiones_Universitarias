@@ -19,6 +19,11 @@ DEST = args.destino
 NAME = 'DashboardAdmisiones'
 SM = DEST / f'{NAME}.SemanticModel'
 RP = DEST / f'{NAME}.Report'
+if (RP / 'definition/pages/pages.json').exists():
+    raise SystemExit('El destino contiene un informe PBIR editado en Desktop. '
+                     'Se conserva intacto. Para generar una copia usa --destino con otra carpeta. '
+                     'Para cambiar rutas usa configurar_powerbi_windows.py.')
+
 
 
 def write(path, text):
