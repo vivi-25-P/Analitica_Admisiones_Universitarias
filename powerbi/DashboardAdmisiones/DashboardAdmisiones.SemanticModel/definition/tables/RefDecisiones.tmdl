@@ -35,7 +35,8 @@ table RefDecisiones
 				    Listo = Tipos,
 				    Porcentajes = Table.TransformColumns(Listo, {}),
 				    Columnas = Table.SelectColumns(Porcentajes, {"codigo", "decision_propuesta", "evidencia", "indicador_de_evaluacion"}),
-				    Resultado = Table.RenameColumns(Columnas, {{"codigo", "Código"}, {"decision_propuesta", "Decisión propuesta"}, {"evidencia", "Evidencia"}, {"indicador_de_evaluacion", "Indicador de evaluación"}})
+				    Resultado = Table.RenameColumns(Columnas, {{"codigo", "Código"}, {"decision_propuesta", "Decisión propuesta"}, {"evidencia", "Evidencia"}, {"indicador_de_evaluacion", "Indicador de evaluación"}}),
+				    Final = Table.TransformColumns(Resultado, {{"Código", each Text.Select(_, {"0".."9"}), type text}, {"Evidencia", each Text.Replace(_, "correspondencias Oracle", "correspondencias entre bases"), type text}, {"Indicador de evaluación", each Text.Replace(Text.Replace(Text.Replace(Text.Replace(_, "K04 y K05", "Casos documentales revisados"), "K02", "Cobertura de asignación"), "K01", "Proporción en Matriculado"), "K10", "Códigos con varias solicitudes"), type text}})
 				in
-				    Resultado
+				    Final
 

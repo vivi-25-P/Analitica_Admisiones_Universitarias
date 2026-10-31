@@ -35,7 +35,8 @@ table RefRespuestas
 				    Listo = Tipos,
 				    Porcentajes = Table.TransformColumns(Listo, {}),
 				    Columnas = Table.SelectColumns(Porcentajes, {"referencia", "pregunta_o_hipotesis", "estado_de_respuesta", "conocimiento_obtenido"}),
-				    Resultado = Table.RenameColumns(Columnas, {{"referencia", "Referencia"}, {"pregunta_o_hipotesis", "Pregunta o hipótesis"}, {"estado_de_respuesta", "Estado de la respuesta"}, {"conocimiento_obtenido", "Conocimiento obtenido"}})
+				    Resultado = Table.RenameColumns(Columnas, {{"referencia", "Referencia"}, {"pregunta_o_hipotesis", "Pregunta o hipótesis"}, {"estado_de_respuesta", "Estado de la respuesta"}, {"conocimiento_obtenido", "Conocimiento obtenido"}}),
+				    Final = Table.TransformColumns(Resultado, {{"Referencia", each Record.FieldOrDefault([General = "1. General", H1 = "2. Programas", H2 = "3. Canales", H3 = "4. Documentos y asesor", Mercado = "5. Oportunidades"], _, _), type text}, {"Conocimiento obtenido", each Text.Replace(_, "Oracle", "la otra base"), type text}})
 				in
-				    Resultado
+				    Final
 

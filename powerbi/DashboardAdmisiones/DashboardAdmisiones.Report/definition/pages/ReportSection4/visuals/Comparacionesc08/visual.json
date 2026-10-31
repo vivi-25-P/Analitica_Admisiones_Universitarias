@@ -3,9 +3,9 @@
   "name": "Comparacionesc08",
   "position": {
     "x": 10,
-    "y": 464,
+    "y": 522,
     "z": 8000,
-    "height": 246,
+    "height": 310,
     "width": 1260
   },
   "visual": {
@@ -253,6 +253,17 @@
                   }
                 }
               }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D4A66'"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -382,7 +393,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -446,7 +457,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Escenario de 49 pares Oracle: grupos con al menos 30 registros, de mayor a menor cambio'"
+                  "Value": "'Si 49 pares entre bases fueran repetidos: grupos con al menos 30 registros, de mayor a menor cambio'"
                 }
               }
             },
@@ -455,7 +466,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#22313F'"
+                      "Value": "'#1D4A66'"
                     }
                   }
                 }
@@ -464,7 +475,14 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }

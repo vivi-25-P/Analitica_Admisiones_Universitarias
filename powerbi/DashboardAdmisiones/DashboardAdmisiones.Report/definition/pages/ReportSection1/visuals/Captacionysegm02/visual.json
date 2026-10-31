@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
-  "name": "Captaciónysegm03",
+  "name": "Captacionysegm02",
   "position": {
-    "x": 221,
-    "y": 90,
-    "z": 3000,
-    "height": 76,
+    "x": 10,
+    "y": 104,
+    "z": 2000,
+    "height": 56,
     "width": 201
   },
   "visual": {
@@ -19,13 +19,13 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "DimPrograma"
+                      "Entity": "DimPeriodo"
                     }
                   },
-                  "Property": "Programa"
+                  "Property": "Periodo"
                 }
               },
-              "queryRef": "DimPrograma.Programa",
+              "queryRef": "DimPeriodo.Periodo",
               "active": true
             }
           ]
@@ -126,7 +126,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },

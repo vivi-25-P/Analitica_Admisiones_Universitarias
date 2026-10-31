@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
-  "name": "Captaciónysegm05",
+  "name": "Captacionysegm03",
   "position": {
-    "x": 643,
-    "y": 90,
-    "z": 5000,
-    "height": 76,
+    "x": 221,
+    "y": 104,
+    "z": 3000,
+    "height": 56,
     "width": 201
   },
   "visual": {
@@ -19,13 +19,13 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "DimCanal"
+                      "Entity": "DimPrograma"
                     }
                   },
-                  "Property": "Canal"
+                  "Property": "Programa"
                 }
               },
-              "queryRef": "DimCanal.Canal",
+              "queryRef": "DimPrograma.Programa",
               "active": true
             }
           ]
@@ -126,7 +126,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },

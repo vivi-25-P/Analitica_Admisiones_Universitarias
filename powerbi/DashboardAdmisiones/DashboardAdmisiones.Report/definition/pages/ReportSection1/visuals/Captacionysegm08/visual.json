@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
-  "name": "Captaciónysegm08",
+  "name": "Captacionysegm08",
   "position": {
     "x": 10,
-    "y": 178,
+    "y": 234,
     "z": 8000,
-    "height": 266.28,
+    "height": 294,
     "width": 780
   },
   "visual": {
@@ -224,6 +224,17 @@
                   }
                 }
               }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D4A66'"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -267,7 +278,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -340,7 +351,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#22313F'"
+                      "Value": "'#1D4A66'"
                     }
                   }
                 }
@@ -349,7 +360,14 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }

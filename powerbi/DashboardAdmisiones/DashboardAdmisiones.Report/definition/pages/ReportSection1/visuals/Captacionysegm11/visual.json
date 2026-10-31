@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
-  "name": "Captaciónysegm09",
+  "name": "Captacionysegm11",
   "position": {
     "x": 800,
-    "y": 178,
-    "z": 9000,
-    "height": 266.28,
+    "y": 536,
+    "z": 11000,
+    "height": 296,
     "width": 470
   },
   "visual": {
@@ -19,13 +19,13 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "DimCanal"
+                      "Entity": "DimCiudad"
                     }
                   },
-                  "Property": "Canal"
+                  "Property": "Ciudad"
                 }
               },
-              "queryRef": "DimCanal.Canal",
+              "queryRef": "DimCiudad.Ciudad",
               "active": true
             }
           ]
@@ -40,10 +40,10 @@
                       "Entity": "FactRegistros"
                     }
                   },
-                  "Property": "% Matriculado"
+                  "Property": "Registros"
                 }
               },
-              "queryRef": "FactRegistros.% Matriculado"
+              "queryRef": "FactRegistros.Registros"
             }
           ]
         }
@@ -58,7 +58,7 @@
                     "Entity": "FactRegistros"
                   }
                 },
-                "Property": "% Matriculado"
+                "Property": "Registros"
               }
             },
             "direction": "Descending"
@@ -240,7 +240,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -304,7 +304,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'% Matriculado por canal'"
+                  "Value": "'Registros por ciudad'"
                 }
               }
             },
@@ -313,7 +313,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#22313F'"
+                      "Value": "'#1D4A66'"
                     }
                   }
                 }
@@ -322,7 +322,14 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }

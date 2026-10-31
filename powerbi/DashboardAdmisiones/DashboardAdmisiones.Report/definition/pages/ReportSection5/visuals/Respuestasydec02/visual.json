@@ -5,7 +5,7 @@
     "x": 10,
     "y": 88,
     "z": 2000,
-    "height": 284,
+    "height": 330,
     "width": 1260
   },
   "visual": {
@@ -25,7 +25,8 @@
                   "Property": "Referencia"
                 }
               },
-              "queryRef": "RefRespuestas.Referencia"
+              "queryRef": "RefRespuestas.Referencia",
+              "displayName": "Tema"
             },
             {
               "field": {
@@ -227,6 +228,17 @@
                   }
                 }
               }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D4A66'"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -237,7 +249,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "80D"
+                  "Value": "130D"
                 }
               }
             }
@@ -251,7 +263,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "290D"
+                  "Value": "300D"
                 }
               }
             }
@@ -265,7 +277,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "220D"
+                  "Value": "250D"
                 }
               }
             }
@@ -279,7 +291,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "630D"
+                  "Value": "530D"
                 }
               }
             }
@@ -328,7 +340,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -401,7 +413,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#22313F'"
+                      "Value": "'#1D4A66'"
                     }
                   }
                 }
@@ -410,7 +422,14 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }

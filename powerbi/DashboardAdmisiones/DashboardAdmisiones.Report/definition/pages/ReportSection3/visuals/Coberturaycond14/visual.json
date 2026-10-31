@@ -3,9 +3,9 @@
   "name": "Coberturaycond14",
   "position": {
     "x": 420,
-    "y": 493.38,
+    "y": 532,
     "z": 14000,
-    "height": 217.18,
+    "height": 300,
     "width": 850
   },
   "visual": {
@@ -90,7 +90,8 @@
                   "Property": "Importe mediano"
                 }
               },
-              "queryRef": "FactRegistros.Importe mediano"
+              "queryRef": "FactRegistros.Importe mediano",
+              "displayName": "Importe mediano (COP)"
             }
           ]
         }
@@ -246,6 +247,17 @@
                   }
                 }
               }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D4A66'"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -289,7 +301,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -362,7 +374,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#22313F'"
+                      "Value": "'#1D4A66'"
                     }
                   }
                 }
@@ -371,7 +383,14 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }

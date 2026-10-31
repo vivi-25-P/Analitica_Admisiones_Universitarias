@@ -3,9 +3,9 @@
   "name": "Panoramadeadmi12",
   "position": {
     "x": 10,
-    "y": 266.76,
+    "y": 323,
     "z": 12000,
-    "height": 217.18,
+    "height": 252,
     "width": 625
   },
   "visual": {
@@ -75,12 +75,94 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#27678C'"
+                      "Value": "'#7896AB'"
                     }
                   }
                 }
               }
             }
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D4A66'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "DimPrograma"
+                          }
+                        },
+                        "Property": "Programa"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Derecho'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D4A66'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "DimPrograma"
+                          }
+                        },
+                        "Property": "Programa"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Especialización en Data Analytics'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
           }
         }
       ],
@@ -240,7 +322,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -304,7 +386,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Registros por programa'"
+                  "Value": "'Registros por programa (resaltados: Derecho y Data Analytics)'"
                 }
               }
             },
@@ -313,7 +395,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#22313F'"
+                      "Value": "'#1D4A66'"
                     }
                   }
                 }
@@ -322,7 +404,14 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }

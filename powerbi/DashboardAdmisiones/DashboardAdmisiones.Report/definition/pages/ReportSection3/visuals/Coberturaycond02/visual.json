@@ -3,9 +3,9 @@
   "name": "Coberturaycond02",
   "position": {
     "x": 10,
-    "y": 90,
+    "y": 86,
     "z": 2000,
-    "height": 76,
+    "height": 58,
     "width": 201
   },
   "visual": {
@@ -126,7 +126,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },

@@ -1,6 +1,8 @@
 table FactRegistros
 	lineageTag: 87f3b6cc-92b9-4ebe-923a-9b771aa9dd07
 
+	measure 'Tamaño del grupo' = IF([Registros] < 30, "Menos de 30")
+
 	measure Registros = COUNTROWS(FactRegistros)
 		formatString: #,0
 		lineageTag: d0fdf762-cccb-4550-9a02-c236409c0a21

@@ -3,7 +3,7 @@
   "name": "ReportSection1",
   "displayName": "Captación y segmentos",
   "displayOption": "FitToPage",
-  "height": 720,
+  "height": 840,
   "width": 1280,
   "objects": {
     "background": [

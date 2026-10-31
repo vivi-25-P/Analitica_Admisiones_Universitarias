@@ -3,9 +3,9 @@
   "name": "PortadaTitulo",
   "position": {
     "x": 44,
-    "y": 100,
+    "y": 84,
     "z": 1000,
-    "height": 122,
+    "height": 148,
     "width": 770
   },
   "visual": {

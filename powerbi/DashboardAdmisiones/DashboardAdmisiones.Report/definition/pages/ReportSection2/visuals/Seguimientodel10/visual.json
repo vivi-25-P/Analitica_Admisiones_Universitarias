@@ -3,9 +3,9 @@
   "name": "Seguimientodel10",
   "position": {
     "x": 644,
-    "y": 178,
+    "y": 218,
     "z": 10000,
-    "height": 81.21,
+    "height": 81,
     "width": 307
   },
   "visual": {
@@ -126,7 +126,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },

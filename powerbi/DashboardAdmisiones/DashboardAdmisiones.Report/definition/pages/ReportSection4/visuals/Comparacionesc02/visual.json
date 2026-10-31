@@ -3,9 +3,9 @@
   "name": "Comparacionesc02",
   "position": {
     "x": 10,
-    "y": 88,
+    "y": 156,
     "z": 2000,
-    "height": 86,
+    "height": 88,
     "width": 307
   },
   "visual": {
@@ -126,7 +126,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },

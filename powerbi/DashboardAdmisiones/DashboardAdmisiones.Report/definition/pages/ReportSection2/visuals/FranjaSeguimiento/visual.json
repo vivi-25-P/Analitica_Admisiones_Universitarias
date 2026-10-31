@@ -1,12 +1,12 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
-  "name": "Captaciónysegm00",
+  "name": "FranjaSeguimiento",
   "position": {
-    "x": 0,
-    "y": 0,
-    "z": 0,
-    "height": 52,
-    "width": 1280
+    "x": 10,
+    "y": 150,
+    "z": 901,
+    "height": 60,
+    "width": 5
   },
   "visual": {
     "visualType": "textbox",
@@ -18,11 +18,11 @@
               {
                 "textRuns": [
                   {
-                    "value": "Captación y segmentos",
+                    "value": "",
                     "textStyle": {
-                      "fontSize": "18pt",
-                      "color": "#FFFFFF",
-                      "fontWeight": "bold"
+                      "fontSize": "12pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#1D4A66"
                     }
                   }
                 ]
@@ -33,6 +33,19 @@
       ]
     },
     "visualContainerObjects": {
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
       "background": [
         {
           "properties": {
@@ -48,7 +61,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#1D4A66'"
+                      "Value": "'#C5A45D'"
                     }
                   }
                 }
@@ -58,19 +71,6 @@
               "expr": {
                 "Literal": {
                   "Value": "0D"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "visualHeader": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
                 }
               }
             }

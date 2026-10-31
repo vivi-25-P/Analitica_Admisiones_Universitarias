@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
-  "name": "Captaciónysegm02",
+  "name": "Captacionysegm06",
   "position": {
-    "x": 10,
-    "y": 90,
-    "z": 2000,
-    "height": 76,
+    "x": 854,
+    "y": 104,
+    "z": 6000,
+    "height": 56,
     "width": 201
   },
   "visual": {
@@ -19,13 +19,13 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "DimPeriodo"
+                      "Entity": "DimCiudad"
                     }
                   },
-                  "Property": "Periodo"
+                  "Property": "Ciudad"
                 }
               },
-              "queryRef": "DimPeriodo.Periodo",
+              "queryRef": "DimCiudad.Ciudad",
               "active": true
             }
           ]
@@ -126,7 +126,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },

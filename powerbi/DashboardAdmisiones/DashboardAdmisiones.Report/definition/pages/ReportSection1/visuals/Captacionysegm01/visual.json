@@ -1,0 +1,75 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "Captacionysegm01",
+  "position": {
+    "x": 10,
+    "y": 54,
+    "z": 1000,
+    "height": 52,
+    "width": 1260
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "¿Dónde conviene probar campañas? Periodos académicos 2025-2, 2026-1 y 2026-2. Interpretar solo segmentos con al menos 30 registros. Cuenta registros de solicitud, no personas.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#5F6B73"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Color: azul oscuro, lo que se resalta; azul claro, el resto de ese gráfico; azul medio, gráficos sin resaltado.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#5F6B73"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

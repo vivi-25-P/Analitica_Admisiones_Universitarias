@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "Respuestasydec04",
   "position": {
-    "x": 640,
-    "y": 382,
+    "x": 530,
+    "y": 426,
     "z": 4000,
-    "height": 328,
-    "width": 630
+    "height": 406,
+    "width": 740
   },
   "visual": {
     "visualType": "tableEx",
@@ -25,7 +25,8 @@
                   "Property": "Código"
                 }
               },
-              "queryRef": "RefDecisiones.Código"
+              "queryRef": "RefDecisiones.Código",
+              "displayName": "N.º"
             },
             {
               "field": {
@@ -227,6 +228,17 @@
                   }
                 }
               }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D4A66'"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -237,7 +249,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "60D"
+                  "Value": "40D"
                 }
               }
             }
@@ -251,7 +263,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "190D"
+                  "Value": "215D"
                 }
               }
             }
@@ -265,7 +277,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "230D"
+                  "Value": "285D"
                 }
               }
             }
@@ -279,7 +291,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "90D"
+                  "Value": "170D"
                 }
               }
             }
@@ -328,7 +340,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -401,7 +413,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#22313F'"
+                      "Value": "'#1D4A66'"
                     }
                   }
                 }
@@ -410,7 +422,14 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }

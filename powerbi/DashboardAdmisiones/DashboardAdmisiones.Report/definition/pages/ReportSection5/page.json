@@ -3,7 +3,7 @@
   "name": "ReportSection5",
   "displayName": "Respuestas y decisiones",
   "displayOption": "FitToPage",
-  "height": 720,
+  "height": 840,
   "width": 1280,
   "objects": {
     "background": [

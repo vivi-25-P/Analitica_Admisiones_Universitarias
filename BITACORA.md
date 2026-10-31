@@ -627,3 +627,15 @@ Se registra la conversión realizada por Desktop y sus metadatos. El generador p
 Guardar el proyecto como PBIX desde Power BI Desktop 2.159 mostraba «no es una ruta de acceso de archivo válida» con cualquier carpeta y nombre. Los PBIX temporales de TempSaves se interrumpían en ReportSection1, cuyas carpetas de visuales incluían una «ó» en `Captaciónysegm00` a `Captaciónysegm11`. Esos nombres provienen de `scripts/construir_dashboard_powerbi.py`, que forma el identificador a partir del título de la página.
 
 Una copia con esas doce carpetas y sus `visual.json` renombrados guardó correctamente el PBIX, con 5.500 registros, 1.179 Matriculado y 21,4 %. El procedimiento está en `powerbi/README.md` y se probó sobre el proyecto actual. No se modificaron el proyecto versionado ni el generador: renombrar esos identificadores en el repositorio sigue pendiente de decisión del equipo.
+
+## 31 de octubre de 2026. Ajustes del dashboard según la lista de control
+
+Se revisó el dashboard contra la lista de control de `validacion/` (pregunta, tipo de gráfico, color, título y periodo, escala, hallazgo y acción) y se ajustó para una junta administrativa no técnica, manteniendo el azul institucional. Se trabajó primero en una copia y se pasó al proyecto después de la aprobación del equipo. El tipo de gráfico y las escalas ya cumplían, y no se cambiaron.
+
+Se añadieron un recuadro de hallazgo y acción en Panorama, Captación, Seguimiento y Comparaciones, y la pregunta y el periodo en los subtítulos. Cobertura indica los meses incompletos con barras claras. El color resalta lo principal y los títulos nombran lo marcado. Se añadió la medida `Tamaño del grupo` para avisar los segmentos con menos de 30 registros. Códigos como H3, K01 y D1 se sustituyeron por palabras mediante un paso final en Power Query, sin cambiar los CSV. Las páginas pasaron de 720 a 840 de alto para mostrar más filas, y los filtros se compactaron. También se quitaron bordes, se reforzaron los títulos y se reemplazó el verde del tema en las tablas.
+
+Se corrigieron dos errores previos. Los seis botones de Inicio no se veían porque su formato no estaba asignado al estado predeterminado del botón. Las carpetas `Captaciónysegm00` a `Captaciónysegm11` se renombraron sin tilde, lo que elimina el error al guardar como PBIX. La guía de `powerbi/README.md` se simplificó y registra los criterios de diseño.
+
+Comprobación en Power BI Desktop 2.159, sobre la copia idéntica: 5.500 registros, 1.179 Matriculado, 21,4 %, 3.424 códigos, revisión visual de las siete páginas y consulta DAX de la medida nueva. Quedan por comprobar en uso el clic de los botones de Inicio y los filtros sobre las páginas nuevas.
+
+Pendientes: `scripts/construir_dashboard_powerbi.py` y `scripts/agregar_portada_dashboard.py` conservan la definición anterior, incluida la tilde y el formato de los botones. Rechazan sobrescribir este proyecto PBIR, pero una copia generada en otro destino no tendría estos ajustes. Las capturas y guiones que muestran Panorama e Inicio deben actualizarse.

@@ -3,7 +3,7 @@
   "name": "ReportSection0",
   "displayName": "Panorama de admisiones",
   "displayOption": "FitToPage",
-  "height": 720,
+  "height": 840,
   "width": 1280,
   "objects": {
     "background": [

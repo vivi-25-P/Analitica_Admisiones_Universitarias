@@ -18,7 +18,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "Faltantes, origen y fechas. La serie usa fechas de solicitud aptas; septiembre y octubre de 2026 tienen cobertura incompleta.",
+                    "value": "¿Qué tan completa está la información? Solicitudes con fecha apta de enero de 2025 a octubre de 2026; septiembre y octubre de 2026 tienen cobertura incompleta (barras claras).",
                     "textStyle": {
                       "fontSize": "10pt",
                       "color": "#5F6B73"

@@ -3,9 +3,9 @@
   "name": "Panoramadeadmi13",
   "position": {
     "x": 645,
-    "y": 266.76,
+    "y": 323,
     "z": 13000,
-    "height": 217.18,
+    "height": 252,
     "width": 625
   },
   "visual": {
@@ -240,7 +240,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -313,7 +313,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#22313F'"
+                      "Value": "'#1D4A66'"
                     }
                   }
                 }
@@ -322,7 +322,14 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }

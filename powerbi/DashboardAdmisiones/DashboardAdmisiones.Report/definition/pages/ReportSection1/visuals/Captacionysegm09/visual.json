@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
-  "name": "Captaciónysegm11",
+  "name": "Captacionysegm09",
   "position": {
     "x": 800,
-    "y": 453.72,
-    "z": 11000,
-    "height": 256.84,
+    "y": 234,
+    "z": 9000,
+    "height": 294,
     "width": 470
   },
   "visual": {
@@ -19,13 +19,13 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "DimCiudad"
+                      "Entity": "DimCanal"
                     }
                   },
-                  "Property": "Ciudad"
+                  "Property": "Canal"
                 }
               },
-              "queryRef": "DimCiudad.Ciudad",
+              "queryRef": "DimCanal.Canal",
               "active": true
             }
           ]
@@ -40,10 +40,10 @@
                       "Entity": "FactRegistros"
                     }
                   },
-                  "Property": "Registros"
+                  "Property": "% Matriculado"
                 }
               },
-              "queryRef": "FactRegistros.Registros"
+              "queryRef": "FactRegistros.% Matriculado"
             }
           ]
         }
@@ -58,7 +58,7 @@
                     "Entity": "FactRegistros"
                   }
                 },
-                "Property": "Registros"
+                "Property": "% Matriculado"
               }
             },
             "direction": "Descending"
@@ -75,12 +75,94 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#27678C'"
+                      "Value": "'#7896AB'"
                     }
                   }
                 }
               }
             }
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D4A66'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "DimCanal"
+                          }
+                        },
+                        "Property": "Canal"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Instagram'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D4A66'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "DimCanal"
+                          }
+                        },
+                        "Property": "Canal"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Referido'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
           }
         }
       ],
@@ -240,7 +322,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -304,7 +386,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Registros por ciudad'"
+                  "Value": "'% Matriculado por canal (resaltados: Instagram y Referido)'"
                 }
               }
             },
@@ -313,7 +395,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#22313F'"
+                      "Value": "'#1D4A66'"
                     }
                   }
                 }
@@ -322,7 +404,14 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }

@@ -3,9 +3,9 @@
   "name": "Panoramadeadmi14",
   "position": {
     "x": 10,
-    "y": 493.38,
+    "y": 583,
     "z": 14000,
-    "height": 217.18,
+    "height": 249,
     "width": 625
   },
   "visual": {
@@ -75,12 +75,53 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#27678C'"
+                      "Value": "'#7896AB'"
                     }
                   }
                 }
               }
             }
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D4A66'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "DimEstado"
+                          }
+                        },
+                        "Property": "Estado"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Matriculado'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
           }
         }
       ],
@@ -240,7 +281,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -304,7 +345,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Registros por estado del proceso'"
+                  "Value": "'Registros por estado del proceso (resaltado: Matriculado)'"
                 }
               }
             },
@@ -313,7 +354,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#22313F'"
+                      "Value": "'#1D4A66'"
                     }
                   }
                 }
@@ -322,7 +363,14 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }

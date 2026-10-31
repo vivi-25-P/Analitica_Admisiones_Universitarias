@@ -1,12 +1,12 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
-  "name": "Captaciónysegm01",
+  "name": "Captacionysegm00",
   "position": {
-    "x": 10,
-    "y": 54,
-    "z": 1000,
-    "height": 28,
-    "width": 1260
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "height": 52,
+    "width": 1280
   },
   "visual": {
     "visualType": "textbox",
@@ -18,10 +18,11 @@
               {
                 "textRuns": [
                   {
-                    "value": "Segmentos con interés registrado para campañas piloto. Interpretar solo segmentos con al menos 30 registros. Unidad: registro de solicitud de origen, no persona única.",
+                    "value": "Captación y segmentos",
                     "textStyle": {
-                      "fontSize": "10pt",
-                      "color": "#5F6B73"
+                      "fontSize": "18pt",
+                      "color": "#FFFFFF",
+                      "fontWeight": "bold"
                     }
                   }
                 ]
@@ -38,7 +39,25 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D4A66'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             }

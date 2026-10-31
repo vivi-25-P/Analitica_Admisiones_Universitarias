@@ -50,7 +50,8 @@ table RefIndicadores
 				    Listo = Tipos,
 				    Porcentajes = Table.TransformColumns(Listo, {{"valor", each _ / 100, type number}}),
 				    Columnas = Table.SelectColumns(Porcentajes, {"codigo", "indicador", "numerador", "denominador", "valor", "lectura"}),
-				    Resultado = Table.RenameColumns(Columnas, {{"codigo", "Código"}, {"indicador", "Indicador"}, {"numerador", "Numerador"}, {"denominador", "Denominador"}, {"valor", "Valor"}, {"lectura", "Lectura"}})
+				    Resultado = Table.RenameColumns(Columnas, {{"codigo", "Código"}, {"indicador", "Indicador"}, {"numerador", "Numerador"}, {"denominador", "Denominador"}, {"valor", "Valor"}, {"lectura", "Lectura"}}),
+				    Final = Table.TransformColumns(Resultado, {{"Código", each Text.Select(_, {"0".."9"}), type text}})
 				in
-				    Resultado
+				    Final
 

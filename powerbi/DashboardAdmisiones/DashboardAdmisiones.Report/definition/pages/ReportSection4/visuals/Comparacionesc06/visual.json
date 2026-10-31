@@ -3,9 +3,9 @@
   "name": "Comparacionesc06",
   "position": {
     "x": 10,
-    "y": 184,
+    "y": 252,
     "z": 6000,
-    "height": 270,
+    "height": 262,
     "width": 620
   },
   "visual": {
@@ -88,7 +88,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#9FB7C7'"
+                      "Value": "'#7896AB'"
                     }
                   }
                 }
@@ -294,7 +294,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -358,7 +358,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'% Matriculado por canal en 63 estratos comunes'"
+                  "Value": "'% Matriculado por canal en 63 grupos comunes'"
                 }
               }
             },
@@ -367,7 +367,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#22313F'"
+                      "Value": "'#1D4A66'"
                     }
                   }
                 }
@@ -376,7 +376,14 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }

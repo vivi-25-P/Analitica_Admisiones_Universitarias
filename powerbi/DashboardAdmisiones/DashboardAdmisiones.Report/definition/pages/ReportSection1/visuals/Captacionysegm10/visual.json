@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
-  "name": "Captaciónysegm10",
+  "name": "Captacionysegm10",
   "position": {
     "x": 10,
-    "y": 453.72,
+    "y": 536,
     "z": 10000,
-    "height": 256.84,
+    "height": 296,
     "width": 780
   },
   "visual": {
@@ -91,6 +91,20 @@
                 }
               },
               "queryRef": "FactRegistros.% Matriculado"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FactRegistros"
+                    }
+                  },
+                  "Property": "Tamaño del grupo"
+                }
+              },
+              "queryRef": "FactRegistros.Tamaño del grupo",
+              "displayName": "Aviso"
             }
           ]
         }
@@ -246,6 +260,17 @@
                   }
                 }
               }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D4A66'"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -289,7 +314,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -362,7 +387,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#22313F'"
+                      "Value": "'#1D4A66'"
                     }
                   }
                 }
@@ -371,7 +396,14 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }

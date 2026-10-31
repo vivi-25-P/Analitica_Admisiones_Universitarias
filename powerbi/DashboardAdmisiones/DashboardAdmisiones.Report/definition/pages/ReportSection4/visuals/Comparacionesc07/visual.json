@@ -3,9 +3,9 @@
   "name": "Comparacionesc07",
   "position": {
     "x": 640,
-    "y": 184,
+    "y": 252,
     "z": 7000,
-    "height": 270,
+    "height": 262,
     "width": 630
   },
   "visual": {
@@ -223,6 +223,17 @@
                   }
                 }
               }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D4A66'"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -338,7 +349,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -402,7 +413,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'H3: Pendiente o Retirado por documentos y asesor'"
+                  "Value": "'Pendiente o Retirado según documentos y asesor'"
                 }
               }
             },
@@ -411,7 +422,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#22313F'"
+                      "Value": "'#1D4A66'"
                     }
                   }
                 }
@@ -420,7 +431,14 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }

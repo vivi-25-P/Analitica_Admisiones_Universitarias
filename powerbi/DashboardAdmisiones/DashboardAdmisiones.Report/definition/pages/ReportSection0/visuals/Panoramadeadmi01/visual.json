@@ -5,7 +5,7 @@
     "x": 10,
     "y": 54,
     "z": 1000,
-    "height": 28,
+    "height": 52,
     "width": 1260
   },
   "visual": {
@@ -18,7 +18,18 @@
               {
                 "textRuns": [
                   {
-                    "value": "Unidad: registro de solicitud de origen, no persona única. % Matriculado es una proporción observada, no una tasa definitiva de conversión.",
+                    "value": "¿Dónde se concentra el interés registrado? Periodos académicos 2025-2, 2026-1 y 2026-2. Cuenta registros de solicitud, no personas. % Matriculado es una proporción observada, no una conversión definitiva.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#5F6B73"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Color: azul oscuro, lo que se resalta; azul claro, el resto de ese gráfico; azul medio, gráficos sin resaltado.",
                     "textStyle": {
                       "fontSize": "10pt",
                       "color": "#5F6B73"

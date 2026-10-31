@@ -3,9 +3,9 @@
   "name": "Panoramadeadmi09",
   "position": {
     "x": 327,
-    "y": 178,
+    "y": 234,
     "z": 9000,
-    "height": 81.21,
+    "height": 81,
     "width": 307
   },
   "visual": {
@@ -126,7 +126,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
