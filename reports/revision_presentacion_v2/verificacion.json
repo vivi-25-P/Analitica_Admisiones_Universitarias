@@ -1,0 +1,22 @@
+{
+  "fecha": "2026-10-30",
+  "original": "presentacion/Sustentación analítica de admisiones del Instituto Universitario Horizonte.pptx",
+  "salida": "presentacion/Sustentación analítica de admisiones del Instituto Universitario Horizonte_v2.pptx",
+  "plantilla": "docs/referencias/Calidad de datos.pptx",
+  "sha256_original": "200d813c23d9ebc1cb9b1f6efec4653538d199b376463da8dc8ef969ce5d1183",
+  "sha256_v2": "2738bf39d4b905c05a208eeb6c479bd6214d7a792f54957326bb8fa5f7087708",
+  "comprobaciones": {
+    "original_intacto": true,
+    "15_diapositivas": true,
+    "notas_en_15_diapositivas": true,
+    "formato_de_la_teoria": true,
+    "graficas_y_capturas_conservadas": true,
+    "sin_afirmacion_validacion_completa": true
+  },
+  "modelo_y_notebook_modificados": false,
+  "subido_a_git": false,
+  "renderizado_powerpoint": true,
+  "paginas_renderizadas": 15,
+  "avisos_altura_texto": 0,
+  "revision_visual": "Revisadas las 15 diapositivas renderizadas. Ajustados portada, contraste y cajas de texto."
+}
