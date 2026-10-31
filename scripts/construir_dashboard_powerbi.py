@@ -7,6 +7,7 @@ import re
 import shutil
 
 from configurar_powerbi_windows import expresiones_rutas, texto_m
+from agregar_portada_dashboard import agregar_portada
 
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
@@ -531,4 +532,5 @@ write(RP / 'definition.pbir', json.dumps({'version': '4.0', 'datasetReference': 
 write(RP / 'report.json', json.dumps({'config': json.dumps({'version': '5.37', 'themeCollection': {}}),
     'layoutOptimization': 0, 'resourcePackages': [],
     'sections': [p.section(i) for i, p in enumerate(pages)]}, ensure_ascii=False, indent=2))
+agregar_portada(RP)
 print(DEST / f'{NAME}.pbip')

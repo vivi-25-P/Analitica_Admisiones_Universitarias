@@ -262,6 +262,7 @@ El modelo es un esquema estrella: la tabla de hechos FactRegistros, con una fila
 
 | Página | Contenido |
 | :--- | :--- |
+| Inicio | Portada académica con identificación del caso y accesos a las seis páginas de análisis. |
 | Panorama de admisiones | Registros, Matriculado, proporción observada y códigos por origen; barras por programa, canal, estado y modalidad. |
 | Captación y segmentos | Matriz programa por ciudad, % Matriculado por canal y segmentos de ciudad, programa y modalidad. |
 | Seguimiento del proceso | Estados por documentación y por asesor, puntaje por estado, días a matrícula y recurrencia de códigos por fuente. |
@@ -269,6 +270,6 @@ El modelo es un esquema estrella: la tabla de hechos FactRegistros, con una fila
 | Comparaciones controladas | Brecha entre canales bruta y con pesos comunes, H3 con pesos comunes y segmentos de al menos 30 registros en el escenario de 49 pares. |
 | Respuestas y decisiones | Respuestas a la pregunta general, H1, H2, H3 y mercado; indicadores K01 a K10 y decisiones D1 a D6. |
 
-Las cuatro primeras páginas comparten seis filtros: periodo, programa, modalidad, canal, ciudad y fuente. Las dos últimas no cambian con los filtros y lo indican en su subtítulo. La unidad es el registro de solicitud de origen, no la persona, y % Matriculado es una proporción observada, no una conversión definitiva.
+Las cuatro primeras páginas de análisis comparten seis filtros: periodo, programa, modalidad, canal, ciudad y fuente. Las dos últimas no cambian con los filtros y lo indican en su subtítulo. La unidad es el registro de solicitud de origen, no la persona, y % Matriculado es una proporción observada, no una conversión definitiva.
 
 Las medidas y tablas se consultaron en el motor de Power BI Desktop y coinciden con el notebook 04: 5.500 registros, 1.179 Matriculado, 3.424 códigos por origen, 90 sin código, 5.254 puntajes, 4.580 importes, 5.320 fechas aptas, 1.035 intervalos con mediana de 33 días, 514 Matriculado sin documentos completos, 20,0 % sin asesor, brecha entre canales de 4,03 y 3,20 puntos, 5.474 registros comparables y cambio máximo de 2,37 puntos con los 49 pares.

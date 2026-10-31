@@ -1,8 +1,168 @@
 {
-  "config": "{\"version\": \"5.37\", \"themeCollection\": {}}",
+  "config": "{\"version\": \"5.37\", \"themeCollection\": {}, \"activeSectionIndex\": 0}",
   "layoutOptimization": 0,
-  "resourcePackages": [],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "name": "RegisteredResources",
+        "type": 1,
+        "items": [
+          {
+            "name": "LogoFUPPortada20261030.png",
+            "path": "LogoFUPPortada20261030.png",
+            "type": 100
+          }
+        ]
+      }
+    }
+  ],
   "sections": [
+    {
+      "name": "ReportSectionPortadaAdmisiones",
+      "displayName": "Inicio",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720,
+      "width": 1280,
+      "visualContainers": [
+        {
+          "x": 44,
+          "y": 36,
+          "z": 0,
+          "width": 740,
+          "height": 46,
+          "config": "{\"name\": \"PortadaIdentificacion\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 44, \"y\": 36, \"z\": 0, \"width\": 740, \"height\": 46}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"ANALÍTICA DE ADMISIONES\", \"textStyle\": {\"fontSize\": \"17pt\", \"fontFamily\": \"Segoe UI\", \"color\": \"#1D4A66\", \"fontWeight\": \"bold\"}}]}]}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 44,
+          "y": 100,
+          "z": 1,
+          "width": 770,
+          "height": 122,
+          "config": "{\"name\": \"PortadaTitulo\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 44, \"y\": 100, \"z\": 1, \"width\": 770, \"height\": 122}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Instituto Universitario\\nHorizonte\", \"textStyle\": {\"fontSize\": \"32pt\", \"fontFamily\": \"Segoe UI\", \"color\": \"#1D4A66\", \"fontWeight\": \"bold\"}}]}]}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 44,
+          "y": 235,
+          "z": 2,
+          "width": 760,
+          "height": 64,
+          "config": "{\"name\": \"PortadaProposito\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 44, \"y\": 235, \"z\": 2, \"width\": 760, \"height\": 64}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Información para apoyar la captación y el seguimiento de las solicitudes.\", \"textStyle\": {\"fontSize\": \"17pt\", \"fontFamily\": \"Segoe UI\", \"color\": \"#5F6B73\"}}]}]}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 44,
+          "y": 305,
+          "z": 3,
+          "width": 760,
+          "height": 70,
+          "config": "{\"name\": \"PortadaPregunta\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 44, \"y\": 305, \"z\": 3, \"width\": 760, \"height\": 70}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"¿Cómo se distribuyen las solicitudes por programa, modalidad y canal, y qué se observa en los estados del proceso de admisión?\", \"textStyle\": {\"fontSize\": \"13pt\", \"fontFamily\": \"Segoe UI\", \"color\": \"#5F6B73\"}}]}]}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 48,
+          "y": 404,
+          "z": 4,
+          "width": 360,
+          "height": 54,
+          "config": "{\"name\": \"PortadaAcceso0\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 48, \"y\": 404, \"z\": 4, \"width\": 360, \"height\": 54}}], \"singleVisual\": {\"visualType\": \"actionButton\", \"drillFilterOtherVisuals\": true, \"objects\": {\"text\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Panorama de admisiones'\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"12D\"}}}, \"fontFamily\": {\"expr\": {\"Literal\": {\"Value\": \"'Segoe UI'\"}}}, \"horizontalAlignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}, \"verticalAlignment\": {\"expr\": {\"Literal\": {\"Value\": \"'middle'\"}}}}}], \"fill\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"fillColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1D4A66'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}], \"outline\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"icon\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"visualLink\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"type\": {\"expr\": {\"Literal\": {\"Value\": \"'PageNavigation'\"}}}, \"navigationSection\": {\"expr\": {\"Literal\": {\"Value\": \"'ReportSection0'\"}}}, \"tooltip\": {\"expr\": {\"Literal\": {\"Value\": \"'Abrir Panorama de admisiones'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 430,
+          "y": 404,
+          "z": 5,
+          "width": 360,
+          "height": 54,
+          "config": "{\"name\": \"PortadaAcceso1\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 430, \"y\": 404, \"z\": 5, \"width\": 360, \"height\": 54}}], \"singleVisual\": {\"visualType\": \"actionButton\", \"drillFilterOtherVisuals\": true, \"objects\": {\"text\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Captación y segmentos'\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"12D\"}}}, \"fontFamily\": {\"expr\": {\"Literal\": {\"Value\": \"'Segoe UI'\"}}}, \"horizontalAlignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}, \"verticalAlignment\": {\"expr\": {\"Literal\": {\"Value\": \"'middle'\"}}}}}], \"fill\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"fillColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1D4A66'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}], \"outline\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"icon\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"visualLink\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"type\": {\"expr\": {\"Literal\": {\"Value\": \"'PageNavigation'\"}}}, \"navigationSection\": {\"expr\": {\"Literal\": {\"Value\": \"'ReportSection1'\"}}}, \"tooltip\": {\"expr\": {\"Literal\": {\"Value\": \"'Abrir Captación y segmentos'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 48,
+          "y": 474,
+          "z": 6,
+          "width": 360,
+          "height": 54,
+          "config": "{\"name\": \"PortadaAcceso2\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 48, \"y\": 474, \"z\": 6, \"width\": 360, \"height\": 54}}], \"singleVisual\": {\"visualType\": \"actionButton\", \"drillFilterOtherVisuals\": true, \"objects\": {\"text\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Seguimiento del proceso'\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"12D\"}}}, \"fontFamily\": {\"expr\": {\"Literal\": {\"Value\": \"'Segoe UI'\"}}}, \"horizontalAlignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}, \"verticalAlignment\": {\"expr\": {\"Literal\": {\"Value\": \"'middle'\"}}}}}], \"fill\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"fillColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1D4A66'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}], \"outline\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"icon\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"visualLink\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"type\": {\"expr\": {\"Literal\": {\"Value\": \"'PageNavigation'\"}}}, \"navigationSection\": {\"expr\": {\"Literal\": {\"Value\": \"'ReportSection2'\"}}}, \"tooltip\": {\"expr\": {\"Literal\": {\"Value\": \"'Abrir Seguimiento del proceso'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 430,
+          "y": 474,
+          "z": 7,
+          "width": 360,
+          "height": 54,
+          "config": "{\"name\": \"PortadaAcceso3\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 430, \"y\": 474, \"z\": 7, \"width\": 360, \"height\": 54}}], \"singleVisual\": {\"visualType\": \"actionButton\", \"drillFilterOtherVisuals\": true, \"objects\": {\"text\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Cobertura y condiciones'\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"12D\"}}}, \"fontFamily\": {\"expr\": {\"Literal\": {\"Value\": \"'Segoe UI'\"}}}, \"horizontalAlignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}, \"verticalAlignment\": {\"expr\": {\"Literal\": {\"Value\": \"'middle'\"}}}}}], \"fill\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"fillColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1D4A66'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}], \"outline\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"icon\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"visualLink\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"type\": {\"expr\": {\"Literal\": {\"Value\": \"'PageNavigation'\"}}}, \"navigationSection\": {\"expr\": {\"Literal\": {\"Value\": \"'ReportSection3'\"}}}, \"tooltip\": {\"expr\": {\"Literal\": {\"Value\": \"'Abrir Cobertura y condiciones'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 48,
+          "y": 544,
+          "z": 8,
+          "width": 360,
+          "height": 54,
+          "config": "{\"name\": \"PortadaAcceso4\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 48, \"y\": 544, \"z\": 8, \"width\": 360, \"height\": 54}}], \"singleVisual\": {\"visualType\": \"actionButton\", \"drillFilterOtherVisuals\": true, \"objects\": {\"text\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Comparaciones controladas'\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"12D\"}}}, \"fontFamily\": {\"expr\": {\"Literal\": {\"Value\": \"'Segoe UI'\"}}}, \"horizontalAlignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}, \"verticalAlignment\": {\"expr\": {\"Literal\": {\"Value\": \"'middle'\"}}}}}], \"fill\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"fillColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1D4A66'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}], \"outline\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"icon\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"visualLink\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"type\": {\"expr\": {\"Literal\": {\"Value\": \"'PageNavigation'\"}}}, \"navigationSection\": {\"expr\": {\"Literal\": {\"Value\": \"'ReportSection4'\"}}}, \"tooltip\": {\"expr\": {\"Literal\": {\"Value\": \"'Abrir Comparaciones controladas'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 430,
+          "y": 544,
+          "z": 9,
+          "width": 360,
+          "height": 54,
+          "config": "{\"name\": \"PortadaAcceso5\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 430, \"y\": 544, \"z\": 9, \"width\": 360, \"height\": 54}}], \"singleVisual\": {\"visualType\": \"actionButton\", \"drillFilterOtherVisuals\": true, \"objects\": {\"text\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Respuestas y decisiones'\"}}}, \"fontColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"fontSize\": {\"expr\": {\"Literal\": {\"Value\": \"12D\"}}}, \"fontFamily\": {\"expr\": {\"Literal\": {\"Value\": \"'Segoe UI'\"}}}, \"horizontalAlignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}, \"verticalAlignment\": {\"expr\": {\"Literal\": {\"Value\": \"'middle'\"}}}}}], \"fill\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"fillColor\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#1D4A66'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}], \"outline\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"icon\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"visualLink\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"type\": {\"expr\": {\"Literal\": {\"Value\": \"'PageNavigation'\"}}}, \"navigationSection\": {\"expr\": {\"Literal\": {\"Value\": \"'ReportSection5'\"}}}, \"tooltip\": {\"expr\": {\"Literal\": {\"Value\": \"'Abrir Respuestas y decisiones'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 856,
+          "y": 60,
+          "z": 10,
+          "width": 2,
+          "height": 546,
+          "config": "{\"name\": \"PortadaSeparador\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 856, \"y\": 60, \"z\": 10, \"width\": 2, \"height\": 546}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"\", \"textStyle\": {\"fontSize\": \"12pt\", \"fontFamily\": \"Segoe UI\", \"color\": \"#1D4A66\"}}]}]}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#C5A45D'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 918,
+          "y": 96,
+          "z": 11,
+          "width": 264,
+          "height": 264,
+          "config": "{\"name\": \"PortadaLogoFUP\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 918, \"y\": 96, \"z\": 11, \"width\": 264, \"height\": 264}}], \"singleVisual\": {\"visualType\": \"image\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"imageUrl\": {\"expr\": {\"ResourcePackageItem\": {\"PackageName\": \"RegisteredResources\", \"PackageType\": 1, \"ItemName\": \"LogoFUPPortada20261030.png\"}}}}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 898,
+          "y": 374,
+          "z": 12,
+          "width": 330,
+          "height": 84,
+          "config": "{\"name\": \"PortadaUniversidad\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 898, \"y\": 374, \"z\": 12, \"width\": 330, \"height\": 84}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Fundación Universitaria\\nde Popayán\", \"textStyle\": {\"fontSize\": \"19pt\", \"fontFamily\": \"Segoe UI\", \"color\": \"#1D4A66\", \"fontWeight\": \"bold\"}}]}]}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 898,
+          "y": 480,
+          "z": 13,
+          "width": 330,
+          "height": 118,
+          "config": "{\"name\": \"PortadaContexto\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 898, \"y\": 480, \"z\": 13, \"width\": 330, \"height\": 118}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Presentación académica de BI\\n\\nInstituto Universitario Horizonte es la institución del caso analizado.\", \"textStyle\": {\"fontSize\": \"12pt\", \"fontFamily\": \"Segoe UI\", \"color\": \"#5F6B73\"}}]}]}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 44,
+          "y": 648,
+          "z": 14,
+          "width": 1176,
+          "height": 56,
+          "config": "{\"name\": \"PortadaAlcance\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 44, \"y\": 648, \"z\": 14, \"width\": 1176, \"height\": 56}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Unidad de análisis: registros de solicitud. Las proporciones observadas no equivalen a conversión definitiva ni permiten atribuir efectos causales a los canales.\", \"textStyle\": {\"fontSize\": \"11pt\", \"fontFamily\": \"Segoe UI\", \"color\": \"#5F6B73\"}}]}]}}]}, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}]}}}",
+          "filters": "[]"
+        }
+      ],
+      "config": "{\"objects\": {\"background\": [{\"properties\": {\"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#FFFFFF'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}], \"outspace\": [{\"properties\": {\"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#F3F5F7'\"}}}}}}}]}}"
+    },
     {
       "config": "{\"objects\": {\"background\": [{\"properties\": {\"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#F3F5F7'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}], \"outspace\": [{\"properties\": {\"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#F3F5F7'\"}}}}}}}]}}",
       "displayName": "Panorama de admisiones",
