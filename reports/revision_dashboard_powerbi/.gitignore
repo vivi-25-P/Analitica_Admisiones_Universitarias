@@ -1,0 +1,4 @@
+# Respaldos y metadatos locales de sesiones Power BI
+respaldo_*
+modelo_*.json
+auditoria_modelo_antes_correccion.json

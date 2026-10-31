@@ -1,0 +1,4089 @@
+{
+  "fecha": "2026-10-30",
+  "solo_lectura": true,
+  "medidas": [
+    {
+      "medida": "Registros",
+      "valor": 5500,
+      "esperado": 5500,
+      "coincide": true
+    },
+    {
+      "medida": "Matriculado",
+      "valor": 1179,
+      "esperado": 1179,
+      "coincide": true
+    },
+    {
+      "medida": "% Matriculado",
+      "valor": 0.21436363636363637,
+      "esperado": 0.21436363636363637,
+      "coincide": true
+    },
+    {
+      "medida": "% del total",
+      "valor": 1,
+      "esperado": 1,
+      "coincide": true
+    },
+    {
+      "medida": "Códigos por origen",
+      "valor": 3424,
+      "esperado": 3424,
+      "coincide": true
+    },
+    {
+      "medida": "Sin código de aspirante",
+      "valor": 90,
+      "esperado": 90,
+      "coincide": true
+    },
+    {
+      "medida": "Puntajes informados",
+      "valor": 5254,
+      "esperado": 5254,
+      "coincide": true
+    },
+    {
+      "medida": "Puntaje mediano",
+      "valor": 70,
+      "esperado": 70.0,
+      "coincide": true
+    },
+    {
+      "medida": "Puntaje promedio",
+      "valor": 70.07061286638752,
+      "esperado": 70.07061286638752,
+      "coincide": true
+    },
+    {
+      "medida": "Importes informados",
+      "valor": 4580,
+      "esperado": 4580,
+      "coincide": true
+    },
+    {
+      "medida": "Importe mediano",
+      "valor": 2500000,
+      "esperado": 2500000.0,
+      "coincide": true
+    },
+    {
+      "medida": "Matriculado sin documentos completos",
+      "valor": 514,
+      "esperado": 514,
+      "coincide": true
+    },
+    {
+      "medida": "% sin asesor asignado",
+      "valor": 0.20018181818181818,
+      "esperado": 0.20018181818181818,
+      "coincide": true
+    },
+    {
+      "medida": "Registros con fecha apta",
+      "valor": 5320,
+      "esperado": 5320,
+      "coincide": true
+    },
+    {
+      "medida": "Intervalos aptos",
+      "valor": 1035,
+      "esperado": 1035,
+      "coincide": true
+    },
+    {
+      "medida": "Días medianos a matrícula",
+      "valor": 33,
+      "esperado": 33,
+      "coincide": true
+    },
+    {
+      "medida": "Proporción bruta",
+      "valor": 1.2839400600000002,
+      "esperado": 1.28394006,
+      "coincide": true
+    },
+    {
+      "medida": "Proporción con pesos comunes",
+      "valor": 1.29108096,
+      "esperado": 1.29108096,
+      "coincide": true
+    },
+    {
+      "medida": "Brecha bruta entre canales",
+      "valor": 4.028091,
+      "esperado": 4.028091,
+      "coincide": true
+    },
+    {
+      "medida": "Brecha con pesos comunes",
+      "valor": 3.1994019999999983,
+      "esperado": 3.199401999999999,
+      "coincide": true
+    },
+    {
+      "medida": "Registros comparables",
+      "valor": 5474,
+      "esperado": 5474,
+      "coincide": true
+    },
+    {
+      "medida": "Cambio máximo con 49 pares",
+      "valor": 2.37037,
+      "esperado": 2.37037,
+      "coincide": true
+    }
+  ],
+  "grupos": [
+    {
+      "dimension": "DimPrograma",
+      "categoria": "Derecho",
+      "registros": 1233,
+      "matriculado": 251,
+      "coincide": true
+    },
+    {
+      "dimension": "DimPrograma",
+      "categoria": "Administración de Empresas",
+      "registros": 582,
+      "matriculado": 139,
+      "coincide": true
+    },
+    {
+      "dimension": "DimPrograma",
+      "categoria": "Especialización en Gerencia",
+      "registros": 605,
+      "matriculado": 117,
+      "coincide": true
+    },
+    {
+      "dimension": "DimPrograma",
+      "categoria": "Ingeniería de Sistemas",
+      "registros": 630,
+      "matriculado": 127,
+      "coincide": true
+    },
+    {
+      "dimension": "DimPrograma",
+      "categoria": "Psicología",
+      "registros": 595,
+      "matriculado": 136,
+      "coincide": true
+    },
+    {
+      "dimension": "DimPrograma",
+      "categoria": "Especialización en Data Analytics",
+      "registros": 1216,
+      "matriculado": 257,
+      "coincide": true
+    },
+    {
+      "dimension": "DimPrograma",
+      "categoria": "Contaduría Pública",
+      "registros": 613,
+      "matriculado": 145,
+      "coincide": true
+    },
+    {
+      "dimension": "DimPrograma",
+      "categoria": "Sin información",
+      "registros": 26,
+      "matriculado": 7,
+      "coincide": true
+    },
+    {
+      "dimension": "DimCanal",
+      "categoria": "Correo",
+      "registros": 926,
+      "matriculado": 206,
+      "coincide": true
+    },
+    {
+      "dimension": "DimCanal",
+      "categoria": "Feria universitaria",
+      "registros": 941,
+      "matriculado": 194,
+      "coincide": true
+    },
+    {
+      "dimension": "DimCanal",
+      "categoria": "Instagram",
+      "registros": 939,
+      "matriculado": 224,
+      "coincide": true
+    },
+    {
+      "dimension": "DimCanal",
+      "categoria": "Landing page",
+      "registros": 888,
+      "matriculado": 182,
+      "coincide": true
+    },
+    {
+      "dimension": "DimCanal",
+      "categoria": "Referido",
+      "registros": 915,
+      "matriculado": 180,
+      "coincide": true
+    },
+    {
+      "dimension": "DimCanal",
+      "categoria": "Web institucional",
+      "registros": 891,
+      "matriculado": 193,
+      "coincide": true
+    },
+    {
+      "dimension": "DimCiudad",
+      "categoria": "Bogotá",
+      "registros": 1278,
+      "matriculado": 268,
+      "coincide": true
+    },
+    {
+      "dimension": "DimCiudad",
+      "categoria": "Cali",
+      "registros": 1245,
+      "matriculado": 277,
+      "coincide": true
+    },
+    {
+      "dimension": "DimCiudad",
+      "categoria": "Medellín",
+      "registros": 614,
+      "matriculado": 148,
+      "coincide": true
+    },
+    {
+      "dimension": "DimCiudad",
+      "categoria": "Pasto",
+      "registros": 605,
+      "matriculado": 118,
+      "coincide": true
+    },
+    {
+      "dimension": "DimCiudad",
+      "categoria": "Popayán",
+      "registros": 1144,
+      "matriculado": 235,
+      "coincide": true
+    },
+    {
+      "dimension": "DimCiudad",
+      "categoria": "Santander de Quilichao",
+      "registros": 614,
+      "matriculado": 133,
+      "coincide": true
+    },
+    {
+      "dimension": "DimPeriodo",
+      "categoria": 20252,
+      "registros": 1071,
+      "matriculado": 217,
+      "coincide": true
+    },
+    {
+      "dimension": "DimPeriodo",
+      "categoria": 20261,
+      "registros": 2246,
+      "matriculado": 497,
+      "coincide": true
+    },
+    {
+      "dimension": "DimPeriodo",
+      "categoria": 20262,
+      "registros": 2183,
+      "matriculado": 465,
+      "coincide": true
+    },
+    {
+      "dimension": "DimModalidad",
+      "categoria": "Híbrida",
+      "registros": 1125,
+      "matriculado": 249,
+      "coincide": true
+    },
+    {
+      "dimension": "DimModalidad",
+      "categoria": "Presencial",
+      "registros": 2192,
+      "matriculado": 444,
+      "coincide": true
+    },
+    {
+      "dimension": "DimModalidad",
+      "categoria": "Virtual",
+      "registros": 2183,
+      "matriculado": 486,
+      "coincide": true
+    },
+    {
+      "dimension": "DimFuente",
+      "categoria": "Oracle",
+      "registros": 500,
+      "matriculado": 100,
+      "coincide": true
+    },
+    {
+      "dimension": "DimFuente",
+      "categoria": "Principal",
+      "registros": 5000,
+      "matriculado": 1079,
+      "coincide": true
+    }
+  ],
+  "pruebas_filtros": [
+    {
+      "filtro": "Estado: Matriculado",
+      "actual": {
+        "Registros": 1179,
+        "Matriculado": 1179,
+        "Porcentaje": 0.21436363636363637
+      },
+      "porcentaje_esperado_segun_plan": 0.21436363636363637,
+      "requiere_ajuste": false
+    },
+    {
+      "filtro": "Estado: Admitido",
+      "actual": {
+        "Registros": 1822,
+        "Matriculado": 1179,
+        "Porcentaje": 0.21436363636363637
+      },
+      "porcentaje_esperado_segun_plan": 0.21436363636363637,
+      "requiere_ajuste": false
+    },
+    {
+      "filtro": "Estado: Documentación pendiente",
+      "actual": {
+        "Registros": 638,
+        "Matriculado": 1179,
+        "Porcentaje": 0.21436363636363637
+      },
+      "porcentaje_esperado_segun_plan": 0.21436363636363637,
+      "requiere_ajuste": false
+    },
+    {
+      "filtro": "Asesor: Asesor 1",
+      "actual": {
+        "Registros": 2218,
+        "SinAsesor": 0
+      },
+      "porcentaje_esperado_dentro_grupo": 0,
+      "requiere_ajuste": false
+    },
+    {
+      "filtro": "Asesor: Asesor 2",
+      "actual": {
+        "Registros": 1095,
+        "SinAsesor": 0
+      },
+      "porcentaje_esperado_dentro_grupo": 0,
+      "requiere_ajuste": false
+    },
+    {
+      "filtro": "Asesor: Asesor 3",
+      "actual": {
+        "Registros": 1086,
+        "SinAsesor": 0
+      },
+      "porcentaje_esperado_dentro_grupo": 0,
+      "requiere_ajuste": false
+    },
+    {
+      "filtro": "Asesor: Sin asignar",
+      "actual": {
+        "Registros": 1101,
+        "SinAsesor": 1
+      },
+      "porcentaje_esperado_dentro_grupo": 1,
+      "requiere_ajuste": false
+    }
+  ],
+  "segmentos": [
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 4,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 4,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 10,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 5,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Sin información",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 21,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 6,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 10,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 15,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 23,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 15,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 19,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 10,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 15,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 14,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 9,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 14,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 10,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Sin información",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 2,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 16,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 3,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 5,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 11,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 5,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 19,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 10,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 16,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 11,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 13,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 12,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 13,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 21,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 12,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Sin información",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 25,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 7,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 14,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 3,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 11,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 19,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 12,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 3,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 2,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 3,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 6,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 9,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 5,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 4,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 5,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 11,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 5,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 10,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 12,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 5,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 10,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 2,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 2,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 2,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 6,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 3,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 2,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 3,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 3,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 13,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 5,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 7,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 4,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 6,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 13,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 4,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 12,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 4,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 3,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 9,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 15,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 11,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 7,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 7,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 4,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 9,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 7,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 22,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 15,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 9,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 9,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 15,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Sin información",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 22,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 10,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 18,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 16,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 5,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 2,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 1,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 1,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 2,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 5,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20252,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 6,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 2,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 4,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 7,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 10,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20252,
+      "Registros": 5,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 5,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 5,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 9,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 8,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 4,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 10,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20252,
+      "Registros": 13,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 15,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 11,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 13,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 11,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 6,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 17,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 8,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 55,
+      "Matriculado": 9,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 25,
+      "Matriculado": 7,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 33,
+      "Matriculado": 9,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 26,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 17,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 48,
+      "Matriculado": 13,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 19,
+      "Matriculado": 8,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 47,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 29,
+      "Matriculado": 10,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 25,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 25,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 25,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 29,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 22,
+      "Matriculado": 7,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Sin información",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 27,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 16,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 13,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 12,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 7,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 20,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 12,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 49,
+      "Matriculado": 13,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 17,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 17,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 26,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 19,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 55,
+      "Matriculado": 13,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 23,
+      "Matriculado": 7,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 58,
+      "Matriculado": 13,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 20,
+      "Matriculado": 11,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 16,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 24,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 23,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 48,
+      "Matriculado": 7,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 21,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Sin información",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 10,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 7,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 5,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 6,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 9,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 6,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 3,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 18,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 12,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 13,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 15,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 16,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 19,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 12,
+      "Matriculado": 7,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 19,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 8,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 10,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 5,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 10,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 18,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 10,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Sin información",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 4,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 11,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 5,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 4,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 6,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 8,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 6,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 25,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 6,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 11,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 8,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 14,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 27,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 14,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Sin información",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 4,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 17,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 11,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 13,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 8,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 17,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 20,
+      "Matriculado": 8,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 10,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 31,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 10,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 12,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 14,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 20,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 17,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 9,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 44,
+      "Matriculado": 9,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 16,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 15,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 27,
+      "Matriculado": 13,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 20,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 36,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 22,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Sin información",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 1,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 44,
+      "Matriculado": 16,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 14,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 23,
+      "Matriculado": 7,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 19,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 25,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 45,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 24,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 9,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 6,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 8,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 6,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 4,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 12,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 6,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Sin información",
+      "Modalidad": "Híbrida",
+      "Periodo": 20261,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 23,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 12,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 8,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 11,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 8,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 22,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 12,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Sin información",
+      "Modalidad": "Presencial",
+      "Periodo": 20261,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 16,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 16,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 17,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 7,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 11,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 18,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 11,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Sin información",
+      "Modalidad": "Virtual",
+      "Periodo": 20261,
+      "Registros": 1,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 23,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 5,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 18,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 9,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 13,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 27,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 15,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 45,
+      "Matriculado": 9,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 24,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 22,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 26,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 10,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 48,
+      "Matriculado": 13,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 24,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Sin información",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 2,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 67,
+      "Matriculado": 14,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 27,
+      "Matriculado": 8,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 20,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 24,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 19,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 41,
+      "Matriculado": 7,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 22,
+      "Matriculado": 8,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Bogotá",
+      "Programa": "Sin información",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 20,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 19,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 9,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 11,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 9,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 21,
+      "Matriculado": 7,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 9,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 36,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 17,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 18,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 17,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 17,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 46,
+      "Matriculado": 10,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 24,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Sin información",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 37,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 17,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 23,
+      "Matriculado": 8,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 19,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 17,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 53,
+      "Matriculado": 15,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Cali",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 22,
+      "Matriculado": 8,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 19,
+      "Matriculado": 7,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 6,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 13,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 4,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 14,
+      "Matriculado": 7,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 16,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 3,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Sin información",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 1,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 21,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 7,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 2,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 10,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 13,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 22,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 14,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 15,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 8,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 10,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 13,
+      "Matriculado": 8,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 14,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 23,
+      "Matriculado": 7,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Medellín",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 12,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 9,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 4,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 3,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 7,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 5,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 13,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 10,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 28,
+      "Matriculado": 9,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 2,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 15,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 15,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 9,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 28,
+      "Matriculado": 8,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 8,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 19,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 8,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 3,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 8,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 15,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 20,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Pasto",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 12,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 17,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 10,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 7,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 6,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 6,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 26,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 10,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 35,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 22,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 24,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 23,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 19,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 39,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 20,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 40,
+      "Matriculado": 8,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 32,
+      "Matriculado": 6,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 15,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 16,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 23,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 27,
+      "Matriculado": 5,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Popayán",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 16,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Derecho",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 7,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 4,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 2,
+      "Matriculado": null,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 10,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Psicología",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 4,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 14,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Híbrida",
+      "Periodo": 20262,
+      "Registros": 2,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Derecho",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 18,
+      "Matriculado": 7,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 11,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 7,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 12,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Psicología",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 7,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 31,
+      "Matriculado": 3,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 5,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Sin información",
+      "Modalidad": "Presencial",
+      "Periodo": 20262,
+      "Registros": 2,
+      "Matriculado": 1,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Derecho",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 29,
+      "Matriculado": 9,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Administración de Empresas",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 12,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Gerencia",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 13,
+      "Matriculado": 2,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Ingeniería de Sistemas",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 13,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Psicología",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 16,
+      "Matriculado": 4,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Especialización en Data Analytics",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 25,
+      "Matriculado": 9,
+      "coincide": true
+    },
+    {
+      "Ciudad": "Santander de Quilichao",
+      "Programa": "Contaduría Pública",
+      "Modalidad": "Virtual",
+      "Periodo": 20262,
+      "Registros": 11,
+      "Matriculado": 2,
+      "coincide": true
+    }
+  ],
+  "dimensiones": [
+    {
+      "Dimension": "DimPrograma",
+      "Filas": 8,
+      "Claves": 8,
+      "SinCorrespondencia": 0,
+      "correcta": true
+    },
+    {
+      "Dimension": "DimCanal",
+      "Filas": 6,
+      "Claves": 6,
+      "SinCorrespondencia": 0,
+      "correcta": true
+    },
+    {
+      "Dimension": "DimCiudad",
+      "Filas": 6,
+      "Claves": 6,
+      "SinCorrespondencia": 0,
+      "correcta": true
+    },
+    {
+      "Dimension": "DimPeriodo",
+      "Filas": 3,
+      "Claves": 3,
+      "SinCorrespondencia": 0,
+      "correcta": true
+    },
+    {
+      "Dimension": "DimModalidad",
+      "Filas": 3,
+      "Claves": 3,
+      "SinCorrespondencia": 0,
+      "correcta": true
+    },
+    {
+      "Dimension": "DimFuente",
+      "Filas": 2,
+      "Claves": 2,
+      "SinCorrespondencia": 0,
+      "correcta": true
+    },
+    {
+      "Dimension": "DimEstado",
+      "Filas": 6,
+      "Claves": 6,
+      "SinCorrespondencia": 0,
+      "correcta": true
+    },
+    {
+      "Dimension": "DimAsesor",
+      "Filas": 4,
+      "Claves": 4,
+      "SinCorrespondencia": 0,
+      "correcta": true
+    },
+    {
+      "Dimension": "DimFecha",
+      "Filas": 730,
+      "Claves": 730,
+      "SinCorrespondencia": 0,
+      "correcta": true
+    }
+  ],
+  "propuestas_no_aplicadas": {
+    "matriculado": "DIVIDE(CALCULATE([Registros], REMOVEFILTERS(DimEstado), REMOVEFILTERS(FactRegistros[estado_proceso]), DimEstado[Estado] = \"Matriculado\"), CALCULATE([Registros], REMOVEFILTERS(DimEstado), REMOVEFILTERS(FactRegistros[estado_proceso])))",
+    "sin_asesor": "DIVIDE(COALESCE(CALCULATE([Registros], KEEPFILTERS(DimAsesor[Asesor] = \"Sin asignar\")), 0), [Registros])"
+  },
+  "validacion_propuestas": {
+    "estados": [
+      {
+        "Estado": "Admitido",
+        "Valor": 0.21436363636363637
+      },
+      {
+        "Estado": "Documentación pendiente",
+        "Valor": 0.21436363636363637
+      },
+      {
+        "Estado": "Inscrito",
+        "Valor": 0.21436363636363637
+      },
+      {
+        "Estado": "Matriculado",
+        "Valor": 0.21436363636363637
+      },
+      {
+        "Estado": "No admitido",
+        "Valor": 0.21436363636363637
+      },
+      {
+        "Estado": "Retirado",
+        "Valor": 0.21436363636363637
+      }
+    ],
+    "asesores": [
+      {
+        "Asesor": "Sin asignar",
+        "Valor": 1
+      },
+      {
+        "Asesor": "Asesor 1",
+        "Valor": 0
+      },
+      {
+        "Asesor": "Asesor 2",
+        "Valor": 0
+      },
+      {
+        "Asesor": "Asesor 3",
+        "Valor": 0
+      }
+    ],
+    "matriculado_correcto": true,
+    "asesor_correcto": true
+  },
+  "resumen": {
+    "medidas_comprobadas": 22,
+    "medidas_basales_correctas": 22,
+    "grupos_comprobados": 28,
+    "grupos_correctos": 28,
+    "filtros_con_ajustes": 0,
+    "segmentos_comprobados": 395,
+    "segmentos_correctos": 395,
+    "dimensiones_correctas": 9,
+    "propuestas_validadas_sin_modificar_modelo": true
+  }
+}

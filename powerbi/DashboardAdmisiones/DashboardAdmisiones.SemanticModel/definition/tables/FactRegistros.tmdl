@@ -6,7 +6,7 @@ table FactRegistros
 	measure Matriculado = CALCULATE([Registros], DimEstado[Estado] = "Matriculado")
 		formatString: #,0
 
-	measure '% Matriculado' = DIVIDE([Matriculado], [Registros])
+	measure '% Matriculado' = DIVIDE(CALCULATE([Registros], REMOVEFILTERS(DimEstado), REMOVEFILTERS(FactRegistros[estado_proceso]), DimEstado[Estado] = "Matriculado"), CALCULATE([Registros], REMOVEFILTERS(DimEstado), REMOVEFILTERS(FactRegistros[estado_proceso])))
 		formatString: 0.0%
 
 	measure '% del total' = DIVIDE([Registros], CALCULATE([Registros], ALLSELECTED()))
@@ -36,7 +36,7 @@ table FactRegistros
 	measure 'Matriculado sin documentos completos' = CALCULATE([Matriculado], FactRegistros[documentos_completos] <> "Sí")
 		formatString: #,0
 
-	measure '% sin asesor asignado' = DIVIDE(CALCULATE([Registros], DimAsesor[Asesor] = "Sin asignar"), [Registros])
+	measure '% sin asesor asignado' = DIVIDE(COALESCE(CALCULATE([Registros], KEEPFILTERS(DimAsesor[Asesor] = "Sin asignar")), 0), [Registros])
 		formatString: 0.0%
 
 	measure 'Registros con fecha apta' = CALCULATE([Registros], FactRegistros[fecha_solicitud_apta] = TRUE())

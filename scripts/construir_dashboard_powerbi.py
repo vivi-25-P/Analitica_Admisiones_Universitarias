@@ -202,7 +202,7 @@ references = {
 measures = {
     'Registros': (f'COUNTROWS({FACT})', '#,0'),
     'Matriculado': ('CALCULATE([Registros], DimEstado[Estado] = "Matriculado")', '#,0'),
-    '% Matriculado': ('DIVIDE([Matriculado], [Registros])', '0.0%'),
+    '% Matriculado': ('DIVIDE(CALCULATE([Registros], REMOVEFILTERS(DimEstado), REMOVEFILTERS(FactRegistros[estado_proceso]), DimEstado[Estado] = "Matriculado"), CALCULATE([Registros], REMOVEFILTERS(DimEstado), REMOVEFILTERS(FactRegistros[estado_proceso])))', '0.0%'),
     '% del total': ('DIVIDE([Registros], CALCULATE([Registros], ALLSELECTED()))', '0.0%'),
     'Códigos por origen': (f'DISTINCTCOUNTNOBLANK({FACT}[codigo_origen])', '#,0'),
     'Sin código de aspirante': (f'CALCULATE([Registros], LEN({FACT}[aspirante_id]) = 0)', '#,0'),
@@ -214,7 +214,7 @@ measures = {
     'Matriculado sin documentos completos': (
         f'CALCULATE([Matriculado], {FACT}[documentos_completos] <> "Sí")', '#,0'),
     '% sin asesor asignado': (
-        'DIVIDE(CALCULATE([Registros], DimAsesor[Asesor] = "Sin asignar"), [Registros])', '0.0%'),
+        'DIVIDE(COALESCE(CALCULATE([Registros], KEEPFILTERS(DimAsesor[Asesor] = "Sin asignar")), 0), [Registros])', '0.0%'),
     'Registros con fecha apta': (f'CALCULATE([Registros], {FACT}[fecha_solicitud_apta] = TRUE())', '#,0'),
     'Intervalos aptos': (f'CALCULATE([Registros], {FACT}[intervalo_apto] = TRUE())', '#,0'),
     'Días medianos a matrícula': (

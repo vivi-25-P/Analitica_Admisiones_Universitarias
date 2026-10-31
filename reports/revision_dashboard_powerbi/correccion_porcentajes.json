@@ -1,0 +1,32 @@
+{
+  "fecha": "2026-10-30",
+  "modelo": "DashboardAdmisiones",
+  "medidas": {
+    "% Matriculado": "DIVIDE(CALCULATE([Registros], REMOVEFILTERS(DimEstado), REMOVEFILTERS(FactRegistros[estado_proceso]), DimEstado[Estado] = \"Matriculado\"), CALCULATE([Registros], REMOVEFILTERS(DimEstado), REMOVEFILTERS(FactRegistros[estado_proceso])))",
+    "% sin asesor asignado": "DIVIDE(COALESCE(CALCULATE([Registros], KEEPFILTERS(DimAsesor[Asesor] = \"Sin asignar\")), 0), [Registros])"
+  },
+  "aplicadas_en_modelo_abierto": true,
+  "expresiones_leidas_despues_coinciden": true,
+  "modelo_tmdl_actualizado": true,
+  "generador_actualizado": true,
+  "escritura_temporal_solo_durante_correccion": true,
+  "configuracion_general_mcp": "solo lectura",
+  "datos_modificados": false,
+  "commit_o_push": false,
+  "medidas_efectivamente_modificadas": [
+    "% Matriculado",
+    "% sin asesor asignado"
+  ],
+  "validacion_posterior": {
+    "medidas_comprobadas": 22,
+    "medidas_basales_correctas": 22,
+    "grupos_comprobados": 28,
+    "grupos_correctos": 28,
+    "filtros_con_ajustes": 0,
+    "segmentos_comprobados": 395,
+    "segmentos_correctos": 395,
+    "dimensiones_correctas": 9,
+    "propuestas_validadas_sin_modificar_modelo": true
+  },
+  "filtros_combinados_correctos": true
+}

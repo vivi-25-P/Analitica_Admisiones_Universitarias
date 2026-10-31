@@ -1,0 +1,23 @@
+[
+  {
+    "caso": "Derecho virtual, primer periodo 2026",
+    "registros_ambito": 201,
+    "esperado": 0.21393034825870647,
+    "actual": 0.21393034825870647,
+    "correcto": true
+  },
+  {
+    "caso": "Instagram en Cali, segundo periodo 2026",
+    "registros_ambito": 77,
+    "esperado": 0.2727272727272727,
+    "actual": 0.2727272727272727,
+    "correcto": true
+  },
+  {
+    "caso": "Data Analytics en Bogotá",
+    "registros_ambito": 257,
+    "esperado": 0.22178988326848248,
+    "actual": 0.22178988326848248,
+    "correcto": true
+  }
+]
