@@ -347,10 +347,16 @@ STYLE = {'clusteredBarChart': BAR, 'clusteredColumnChart': BAR, 'tableEx': GRID,
 class Page:
     def __init__(self, title, subtitle):
         self.title, self.visuals = title, []
+        self.has_slicers = False
         self.text(title, 0, 0, WIDTH, 52, 18, '#FFFFFF', DARK, bold=True)
         self.text(subtitle, GAP, 54, WIDTH - 2 * GAP, 28, 10, MUTED)
 
     def add(self, vtype, x, y, w, h, single):
+        # Reservar altura suficiente para el título y la selección de los filtros.
+        if self.has_slicers and vtype != 'slicer' and y >= 146:
+            scale = (HEIGHT - 178) / (HEIGHT - 146)
+            y = round(178 + (y - 146) * scale, 2)
+            h = round(h * scale, 2)
         z = len(self.visuals)
         config = {'name': re.sub(r'\W', '', self.title)[:14] + f'{z:02d}',
                   'layouts': [{'id': 0, 'position': {'x': x, 'y': y, 'z': z, 'width': w, 'height': h}}],
@@ -389,11 +395,12 @@ class Page:
             'vcObjects': {**FRAME, 'title': heading}})
 
     def slicers(self):
+        self.has_slicers = True
         fields = ['DimPeriodo.Periodo', 'DimPrograma.Programa', 'DimModalidad.Modalidad', 'DimCanal.Canal',
                   'DimCiudad.Ciudad', 'DimFuente.Fuente']
         width = (WIDTH - GAP) // len(fields)
         for i, field in enumerate(fields):
-            self.chart('slicer', GAP + i * width, 82, width - GAP, 58, None, {'Values': [field]})
+            self.chart('slicer', GAP + i * width, 90, width - GAP, 76, None, {'Values': [field]})
 
     def cards(self, names, y=146):
         width = (WIDTH - GAP) // len(names)

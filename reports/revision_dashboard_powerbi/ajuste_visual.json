@@ -1,0 +1,22 @@
+{
+  "fecha": "2026-10-30",
+  "paginas_ajustadas": [
+    "Panorama de admisiones",
+    "Captación y segmentos",
+    "Seguimiento del proceso",
+    "Cobertura y condiciones"
+  ],
+  "filtros_ajustados": 24,
+  "altura_anterior": 58,
+  "altura_nueva": 76,
+  "comprobaciones_espaciado": {
+    "Panorama de admisiones": true,
+    "Captación y segmentos": true,
+    "Seguimiento del proceso": true,
+    "Cobertura y condiciones": true
+  },
+  "sha256_antes": "31d38373289db7b8f4deb7847fa318333246181246f5ac3bd34b0c75452a57c4",
+  "sha256_despues": "de3ba8eedc57c4936a8689b95d431cf1fd0f8042118018825ef5ab07c115c75a",
+  "modelo_modificado": false,
+  "verificado_en_pantalla_despues": false
+}
