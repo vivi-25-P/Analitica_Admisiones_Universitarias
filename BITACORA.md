@@ -621,3 +621,9 @@ Se verificó que RutaProyecto corresponde a la carpeta de este PC y que ArchivoP
 ## 31 de octubre de 2026. Compatibilidad de scripts con el guardado PBIR
 
 Se registra la conversión realizada por Desktop y sus metadatos. El generador protege destinos PBIR existentes y exige otra carpeta para generar copias. El ajuste de filtros reconoce PBIR y comprueba el ajuste existente sin reconstruir el informe; otros tamaños requieren revisión en Desktop. La portada reconoce Inicio sin duplicarlo. El configurador de rutas conserva su funcionamiento sobre TMDL. Se documentó el alcance: los cambios nuevos de diseño PBIR se realizan desde Desktop. El guardado de la presentación se mantiene fuera de este commit. No se hace push.
+
+## 31 de octubre de 2026. Error al guardar el dashboard como PBIX
+
+Guardar el proyecto como PBIX desde Power BI Desktop 2.159 mostraba «no es una ruta de acceso de archivo válida» con cualquier carpeta y nombre. Los PBIX temporales de TempSaves se interrumpían en ReportSection1, cuyas carpetas de visuales incluían una «ó» en `Captaciónysegm00` a `Captaciónysegm11`. Esos nombres provienen de `scripts/construir_dashboard_powerbi.py`, que forma el identificador a partir del título de la página.
+
+Una copia con esas doce carpetas y sus `visual.json` renombrados guardó correctamente el PBIX, con 5.500 registros, 1.179 Matriculado y 21,4 %. El procedimiento está en `powerbi/README.md` y se probó sobre el proyecto actual. No se modificaron el proyecto versionado ni el generador: renombrar esos identificadores en el repositorio sigue pendiente de decisión del equipo.

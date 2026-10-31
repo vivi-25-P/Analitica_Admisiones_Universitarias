@@ -53,3 +53,51 @@ El proyecto incluye Inicio y seis páginas de análisis. Para la sustentación a
 El proyecto actual utiliza PBIR: las páginas y los visuales están en `DashboardAdmisiones.Report/definition/`. Se versiona esa carpeta completa. Desktop sustituyó el antiguo report.json situado en la raíz del informe; el nuevo report.json dentro de definition contiene la configuración general.
 
 El configurador de rutas sigue funcionando porque las consultas permanecen en el modelo TMDL. El generador completo rechaza un destino PBIR existente para proteger el trabajo guardado; solo puede generar una copia en otro destino. El script de filtros comprueba los segmentadores PBIR y conserva el ajuste actual. El script de portada reconoce Inicio sin duplicarlo. Para cambios nuevos de diseño en PBIR utiliza Desktop.
+
+## Guardar una copia PBIX para compartir
+
+Un archivo `.pbix` lleva los datos importados dentro. Quien lo recibe solo necesita Power BI Desktop: no requiere el Excel, los CSV, PostgreSQL ni este repositorio. Debe abrirlo y usar los filtros, sin pulsar Actualizar, porque eso intenta leer las rutas del equipo que lo generó. Si lo pulsa y falla, basta con cerrar sin guardar y volver a abrirlo.
+
+El archivo contiene los 5.500 registros, incluida la columna `correo`, aunque no aparezca en ninguna página. Envíalo solo a quien corresponda y no uses Publicar en la web. No lo guardes dentro del repositorio.
+
+### Error «no es una ruta de acceso de archivo válida»
+
+Al guardar el proyecto como `.pbix`, Desktop puede mostrar «No se puede guardar el documento» y decir que la ruta no es válida, sin importar la carpeta o el nombre elegidos. La ruta no es el problema. Las carpetas de los gráficos de Captación y segmentos se llaman `Captaciónysegm00` a `Captaciónysegm11`, y la «ó» impide empaquetar el archivo. Cambiar de carpeta, de nombre o ejecutar como administrador no lo resuelve.
+
+Para confirmarlo en la versión de Microsoft Store, abre `%USERPROFILE%\Microsoft\Power BI Desktop Store App\TempSaves`. Cada intento fallido deja allí un `.pbix` temporal de unos 47 KB, que se interrumpe en `ReportSection1`.
+
+La solución es guardar desde una copia sin esa tilde. El proyecto del repositorio no se modifica.
+
+1. Cierra Power BI Desktop.
+2. Desde PowerShell, en la raíz del repositorio, ejecuta `python scripts/configurar_powerbi_windows.py` para que la copia lea las fuentes de tu equipo.
+3. En la misma ventana, crea la copia:
+
+```powershell
+$copia = Join-Path $env:USERPROFILE 'pbix_tmp'
+if (Test-Path $copia) { throw "Ya existe $copia. Bórrala antes de continuar." }
+New-Item -ItemType Directory -Path $copia | Out-Null
+Copy-Item 'powerbi\DashboardAdmisiones' $copia -Recurse
+$informe = Join-Path $copia 'DashboardAdmisiones\DashboardAdmisiones.Report'
+$tilde = 'Captaci' + [char]0x00F3 + 'nysegm'
+$utf8 = New-Object Text.UTF8Encoding($false)
+Get-ChildItem $informe -Recurse -Filter 'visual.json' | ForEach-Object {
+  $texto = [IO.File]::ReadAllText($_.FullName)
+  if ($texto.Contains($tilde)) { [IO.File]::WriteAllText($_.FullName, $texto.Replace($tilde, 'Captacionysegm'), $utf8) }
+}
+Get-ChildItem $informe -Recurse -Directory -Filter "$tilde*" | ForEach-Object { Rename-Item $_.FullName $_.Name.Replace($tilde, 'Captacionysegm') }
+"Abre: $copia\DashboardAdmisiones\DashboardAdmisiones.pbip"
+```
+
+4. Abre el `.pbip` que indica el comando y pulsa Actualizar si aparece el aviso. Espera a que termine la carga.
+5. Ve a Archivo, Guardar como, Examinar este dispositivo. Elige una carpeta fuera del repositorio y escribe el nombre.
+6. En Tipo, despliega la lista y elige **Archivo de Power BI (*.pbix)**. El cuadro puede abrir en `.pbip`, así que no lo des por hecho.
+7. Pulsa Guardar. Cierra Desktop, abre el `.pbix` y comprueba 5.500 registros, 1.179 Matriculado y 21,4 %.
+8. Cuando ya no la necesites, borra la carpeta `pbix_tmp`. No copies su contenido sobre `powerbi/DashboardAdmisiones`.
+
+### Otros síntomas al guardar
+
+Si la barra superior dice «(Proyecto de Power BI)» después de guardar, el tipo seguía en `.pbip`. No se creó un `.pbix`: aparecen `Nombre.pbix.pbip`, `Nombre.pbix.Report` y `Nombre.pbix.SemanticModel`. Borra esos tres elementos y repite desde el paso 5, eligiendo el tipo en la lista.
+
+Si Windows informa que no encuentra una ruta al crear o renombrar la copia, la carpeta de destino es demasiado larga. Las rutas del proyecto no deben superar 260 caracteres; por eso la copia se crea directamente en la carpeta del usuario.
+
+Si el error de ruta continúa con la copia, revisa que no queden nombres con tilde en la carpeta del informe y deja `TempSaves` a la vista para ver en qué archivo se interrumpe el `.pbix` temporal. Mientras tanto, Archivo, Exportar, Exportar a PDF permite compartir las páginas sin filtros.
