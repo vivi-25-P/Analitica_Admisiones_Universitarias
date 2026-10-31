@@ -250,15 +250,15 @@ La respuesta a H3 ya incluye la distribución de los seis estados por documentac
 
 El proyecto de Power BI está en `powerbi/DashboardAdmisiones/`, en formato PBIP. Lo genera `scripts/construir_dashboard_powerbi.py` a partir de la [plantilla Power Query](powerbi/BaseUnificada.pq), con el Excel entregable como origen. No modifica la base ni repite la limpieza.
 
-Para generarlo y abrirlo:
+Para configurar la ruta del equipo y abrirlo, cierra primero el proyecto en Power BI y ejecuta desde la raíz:
 
-```bash
-uv run python scripts/construir_dashboard_powerbi.py
+```powershell
+uv run python scripts/configurar_powerbi_windows.py
 ```
 
-Después se abre `powerbi/DashboardAdmisiones/DashboardAdmisiones.pbip` en Power BI Desktop y se pulsa Actualizar. El proyecto guarda la ruta absoluta del Excel y de las tablas del notebook 04, por eso cada integrante debe generarlo en su propio equipo; `--excel` y `--destino` cambian el archivo de origen y la carpeta de salida. Volver a generarlo reemplaza lo que Power BI Desktop haya guardado en el informe, así que los cambios de diseño se hacen en el script.
+También funciona con `python scripts/configurar_powerbi_windows.py`, sin dependencias adicionales. Después abre `powerbi/DashboardAdmisiones/DashboardAdmisiones.pbip` y pulsa Actualizar. Un único parámetro RutaProyecto resuelve el Excel y los seis CSV mediante rutas relativas. Cada integrante configura su carpeta una vez, sin regenerar el dashboard. La [guía para Windows](powerbi/README.md) explica las alternativas, el trabajo compartido y la entrega PBIX. El generador completo se reserva para reconstrucciones deliberadas porque reemplaza archivos del modelo y del informe.
 
-El modelo es un esquema estrella: la tabla de hechos FactRegistros, con una fila por registro y 22 medidas, y nueve dimensiones (programa con facultad, duración y nivel; modalidad, canal, estado, ciudad, asesor, periodo, fuente y fecha). Las relaciones son de uno a varios y filtran en una sola dirección. DimFecha está marcada como tabla de fechas; la fecha de matrícula usa una relación inactiva con `USERELATIONSHIP`. Aparte hay seis tablas de respaldo que leen `reports/analisis_administrativo/tablas/`: canales con pesos comunes, H3 con pesos comunes, escenario de 49 pares, respuestas, indicadores y decisiones. No se relacionan con la estrella porque son resultados calculados sobre la base completa.
+El modelo es un esquema estrella: la tabla de hechos FactRegistros, con una fila por registro y 22 medidas, y nueve dimensiones (programa con facultad, duración y nivel; modalidad, canal, estado, ciudad, asesor, periodo, fuente y fecha). Las relaciones son de uno a varios y filtran en una sola dirección. DimFecha está marcada como tabla de fechas; la fecha de matrícula tiene una relación inactiva cuyo uso requiere una medida específica con `USERELATIONSHIP`. Aparte hay seis tablas de respaldo que leen `reports/analisis_administrativo/tablas/`: canales con pesos comunes, H3 con pesos comunes, escenario de 49 pares, respuestas, indicadores y decisiones. No se relacionan con la estrella porque son resultados calculados sobre la base completa.
 
 | Página | Contenido |
 | :--- | :--- |

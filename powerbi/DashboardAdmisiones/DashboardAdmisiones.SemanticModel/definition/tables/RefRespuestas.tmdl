@@ -24,7 +24,7 @@ table RefRespuestas
 		mode: import
 		source =
 				let
-				    Origen = Csv.Document(File.Contents("C:\Users\USUARIO\Documents\analitica_admisiones_universitaria\reports\analisis_administrativo\tablas\respuestas_preguntas_hipotesis.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Origen = Csv.Document(File.Contents(ArchivoProyecto("reports/analisis_administrativo/tablas/respuestas_preguntas_hipotesis.csv")), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
 				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
 				    Tipos = Table.TransformColumnTypes(Encabezados, {{"referencia", type text}, {"pregunta_o_hipotesis", type text}, {"estado_de_respuesta", type text}, {"conocimiento_obtenido", type text}}, "en-US"),
 				    Listo = Tipos,

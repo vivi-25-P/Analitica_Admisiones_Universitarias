@@ -6,6 +6,8 @@ import json
 import re
 import shutil
 
+from configurar_powerbi_windows import expresiones_rutas, texto_m
+
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--excel', type=Path, default=ROOT / 'deliverables/BaseUnificada_Entregable.xlsx')
@@ -27,16 +29,15 @@ def indent(text, tabs):
     return ''.join('\t' * tabs + line + '\n' for line in text.strip().splitlines())
 
 
-
 # Modelo semántico en estrella: FactRegistros y sus dimensiones, desde la consulta de la plantilla.
 template = (ROOT / 'powerbi/BaseUnificada.pq').read_text(encoding='utf-8')
 assert template.count('Origen = "PostgreSQL",') == 1
 base_query = template.replace('Origen = "PostgreSQL",', 'Origen = "Excel",', 1)
-base_query = re.sub(r'RutaExcel = "[^"]*"', lambda _: f'RutaExcel = "{EXCEL}"', base_query)
+base_query = re.sub(r'RutaExcel = "[^"]*"', lambda _: 'RutaExcel = RutaLibroBase', base_query)
 base_query = '\n'.join(l for l in base_query.splitlines() if not l.strip().startswith('//'))
 control_query = f'''
 let
-    RutaExcel = "{EXCEL}",
+    RutaExcel = RutaLibroBase,
     Hoja = Excel.Workbook(File.Contents(RutaExcel), null, true){{[Item="Control_Calidad", Kind="Sheet"]}}[Data],
     Encabezados = Table.PromoteHeaders(Hoja, [PromoteAllScalars=true]),
     Tipos = {{
@@ -148,7 +149,7 @@ def csv_query(file, columns, typed=(), steps=''):
     names = ', '.join(f'{{"{c}", "{n}"}}' for c, n, _ in columns)
     return f'''
 let
-    Origen = Csv.Document(File.Contents("{TABLAS / file}"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+    Origen = Csv.Document(File.Contents(ArchivoProyecto({texto_m("reports/analisis_administrativo/tablas/" + file)})), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
     Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
     Tipos = Table.TransformColumnTypes(Encabezados, {{{types}}}, "en-US"),
     {steps or 'Listo = Tipos,'}
@@ -269,7 +270,7 @@ write(SM / 'definition/model.tmdl', 'model Model\n\tculture: es-CO\n\tdefaultPow
       '\tsourceQueryCulture: es-CO\n\n\tannotation __PBI_TimeIntelligenceEnabled = 0\n\n'
       + ''.join(f'ref table {t}\n' for t in [FACT, *dimensions, *references]))
 write(SM / 'definition/expressions.tmdl',
-      f'expression BaseUnificadaOrigen =\n{indent(base_query, 2)}\n'
+      expresiones_rutas(ROOT, EXCEL) + f'expression BaseUnificadaOrigen =\n{indent(base_query, 2)}\n'
       f'expression ControlOrigen =\n{indent(control_query, 2)}')
 write(SM / 'definition/relationships.tmdl', relationships)
 # Lo que Power BI Desktop guarda al editar (formato PBIR, metadatos lingüísticos, caché) describe el modelo

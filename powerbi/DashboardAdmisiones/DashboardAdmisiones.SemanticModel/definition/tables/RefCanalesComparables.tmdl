@@ -39,7 +39,7 @@ table RefCanalesComparables
 		mode: import
 		source =
 				let
-				    Origen = Csv.Document(File.Contents("C:\Users\USUARIO\Documents\analitica_admisiones_universitaria\reports\analisis_administrativo\tablas\canales_comparables.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Origen = Csv.Document(File.Contents(ArchivoProyecto("reports/analisis_administrativo/tablas/canales_comparables.csv")), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
 				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
 				    Tipos = Table.TransformColumnTypes(Encabezados, {{"canal_captacion", type text}, {"registros_totales", Int64.Type}, {"registros_soporte_comun", Int64.Type}, {"proporcion_bruta_soporte_pct", type number}, {"proporcion_estandarizada_descriptiva_pct", type number}, {"celdas_menores_30", Int64.Type}}, "en-US"),
 				    Listo = Tipos,

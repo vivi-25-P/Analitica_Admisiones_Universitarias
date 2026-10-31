@@ -24,7 +24,7 @@ table RefDecisiones
 		mode: import
 		source =
 				let
-				    Origen = Csv.Document(File.Contents("C:\Users\USUARIO\Documents\analitica_admisiones_universitaria\reports\analisis_administrativo\tablas\decisiones_negocio.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Origen = Csv.Document(File.Contents(ArchivoProyecto("reports/analisis_administrativo/tablas/decisiones_negocio.csv")), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
 				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
 				    Tipos = Table.TransformColumnTypes(Encabezados, {{"codigo", type text}, {"decision_propuesta", type text}, {"evidencia", type text}, {"indicador_de_evaluacion", type text}}, "en-US"),
 				    Listo = Tipos,

@@ -32,7 +32,7 @@ table RefH3Condicionada
 		mode: import
 		source =
 				let
-				    Origen = Csv.Document(File.Contents("C:\Users\USUARIO\Documents\analitica_admisiones_universitaria\reports\analisis_administrativo\tablas\H3_comparacion_hipotesis_condicionada.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Origen = Csv.Document(File.Contents(ArchivoProyecto("reports/analisis_administrativo/tablas/H3_comparacion_hipotesis_condicionada.csv")), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
 				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
 				    Tipos = Table.TransformColumnTypes(Encabezados, {{"variable", type text}, {"grupo", type text}, {"registros_grupo_comun", Int64.Type}, {"pendiente_o_retirado_bruto_soporte_pct", type number}, {"pendiente_o_retirado_ponderado_pct", type number}}, "en-US"),
 				    Listo = Table.TransformColumns(Tipos, {"variable", each if _ = "situacion_documental" then "Documentos" else "Asesor", type text}),

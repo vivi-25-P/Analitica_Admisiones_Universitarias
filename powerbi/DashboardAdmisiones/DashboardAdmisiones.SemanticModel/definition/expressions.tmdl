@@ -1,9 +1,17 @@
+expression RutaProyecto = "C:\users\jdlos\desktop\analitica_admisiones_universitaria" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+
+expression ArchivoProyecto =
+		(relativa as text) as text =>
+		    Text.TrimEnd(RutaProyecto, {"/", "\"}) & "\" & Text.Replace(Text.TrimStart(relativa, {"/", "\"}), "/", "\")
+
+expression RutaLibroBase = ArchivoProyecto("deliverables/BaseUnificada_Entregable.xlsx")
+
 expression BaseUnificadaOrigen =
 		let
 		    Origen = "Excel",
 		    Servidor = "localhost:5433",
 		    BaseDatos = "admisiones",
-		    RutaExcel = "C:\Users\USUARIO\Documents\analitica_admisiones_universitaria\deliverables\BaseUnificada_Entregable.xlsx",
+		    RutaExcel = RutaLibroBase,
 		    Datos =
 		        if Origen = "PostgreSQL" then
 		            PostgreSQL.Database(Servidor, BaseDatos){[Schema="analitica", Item="base_unificada"]}[Data]
@@ -31,7 +39,7 @@ expression BaseUnificadaOrigen =
 
 expression ControlOrigen =
 		let
-		    RutaExcel = "C:\Users\USUARIO\Documents\analitica_admisiones_universitaria\deliverables\BaseUnificada_Entregable.xlsx",
+		    RutaExcel = RutaLibroBase,
 		    Hoja = Excel.Workbook(File.Contents(RutaExcel), null, true){[Item="Control_Calidad", Kind="Sheet"]}[Data],
 		    Encabezados = Table.PromoteHeaders(Hoja, [PromoteAllScalars=true]),
 		    Tipos = {
