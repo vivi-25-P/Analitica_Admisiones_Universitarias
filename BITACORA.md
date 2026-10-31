@@ -639,3 +639,7 @@ Se corrigieron dos errores previos. Los seis botones de Inicio no se veían porq
 Comprobación en Power BI Desktop 2.159, sobre la copia idéntica: 5.500 registros, 1.179 Matriculado, 21,4 %, 3.424 códigos, revisión visual de las siete páginas y consulta DAX de la medida nueva. Quedan por comprobar en uso el clic de los botones de Inicio y los filtros sobre las páginas nuevas.
 
 Pendientes: `scripts/construir_dashboard_powerbi.py` y `scripts/agregar_portada_dashboard.py` conservan la definición anterior, incluida la tilde y el formato de los botones. Rechazan sobrescribir este proyecto PBIR, pero una copia generada en otro destino no tendría estos ajustes. Las capturas y guiones que muestran Panorama e Inicio deben actualizarse.
+
+## 31 de octubre de 2026. Dashboard entregable en PBIX
+
+Se agregó `deliverables/DashboardAdmisionesEntregable.pbix`, guardado desde Power BI Desktop con los ajustes de la lista de control: siete páginas, 98 visuales y sin identificadores con tilde. Contiene los datos importados, incluida la columna `correo`, igual que otros archivos ya versionados del repositorio privado. Es una copia binaria: debe regenerarse si cambia `powerbi/DashboardAdmisiones`. Se actualizó la regla de `powerbi/README.md` que pedía no guardarlo en el repositorio.

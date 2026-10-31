@@ -58,7 +58,7 @@ El configurador de rutas sigue funcionando porque las consultas permanecen en el
 
 Un archivo `.pbix` lleva los datos importados dentro. Quien lo recibe solo necesita Power BI Desktop: no requiere el Excel, los CSV, PostgreSQL ni este repositorio. Debe abrirlo y usar los filtros, sin pulsar Actualizar, porque eso intenta leer las rutas del equipo que lo generó. Si lo pulsa y falla, basta con cerrar sin guardar y volver a abrirlo.
 
-El archivo contiene los 5.500 registros, incluida la columna `correo`, aunque no aparezca en ninguna página. Envíalo solo a quien corresponda y no uses Publicar en la web. No lo guardes dentro del repositorio.
+El archivo contiene los 5.500 registros, incluida la columna `correo`, aunque no aparezca en ninguna página. Envíalo solo a quien corresponda y no uses Publicar en la web. La versión entregable está en [deliverables/DashboardAdmisionesEntregable.pbix](../deliverables/DashboardAdmisionesEntregable.pbix). Si cambias el dashboard, genera el archivo de nuevo y reemplázala, porque no se actualiza sola. Otras copias se guardan fuera del repositorio.
 
 ### Pasos para guardarlo
 
