@@ -18,11 +18,18 @@
               {
                 "textRuns": [
                   {
-                    "value": "Informe para la junta administrativa\n\nInformación de admisiones del Instituto Universitario Horizonte.",
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Información de admisiones del Instituto Universitario Horizonte.",
                     "textStyle": {
-                      "fontSize": "12pt",
                       "fontFamily": "Segoe UI",
-                      "color": "#5F6B73"
+                      "fontSize": "12pt",
+                      "color": "#5f6b73"
                     }
                   }
                 ]

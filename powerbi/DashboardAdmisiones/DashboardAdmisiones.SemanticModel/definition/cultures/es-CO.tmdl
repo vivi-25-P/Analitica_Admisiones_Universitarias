@@ -67,6 +67,111 @@ cultureInfo es-CO
 			          }
 			        }
 			      ]
+			    },
+			    "factregistros.tamaño_del_grupo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FactRegistros",
+			          "ConceptualProperty": "Tamaño del grupo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Aviso": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "factregistros.importe_mediano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FactRegistros",
+			          "ConceptualProperty": "Importe mediano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Importe mediano (COP)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "refrespuestas.referencia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RefRespuestas",
+			          "ConceptualProperty": "Referencia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Tema": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "refindicadores.código": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RefIndicadores",
+			          "ConceptualProperty": "Código"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "N.º": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "refdecisiones.código": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RefDecisiones",
+			          "ConceptualProperty": "Código"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "N.º": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
 			    }
 			  }
 			}

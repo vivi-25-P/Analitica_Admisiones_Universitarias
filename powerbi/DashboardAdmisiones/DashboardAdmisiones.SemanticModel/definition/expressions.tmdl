@@ -1,16 +1,3 @@
-expression RutaProyecto = "C:\users\jdlos\desktop\analitica_admisiones_universitaria" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
-	lineageTag: b15ce4fe-3d56-471c-9246-a5655d9eeab4
-
-	annotation PBI_ResultType = Text
-
-expression ArchivoProyecto =
-		(relativa as text) as text =>
-		    Text.TrimEnd(RutaProyecto, {"/", "\"}) & "\" & Text.Replace(Text.TrimStart(relativa, {"/", "\"}), "/", "\")
-	lineageTag: b4fa9b3e-b51f-4d33-a3a1-4e176629943f
-
-expression RutaLibroBase = ArchivoProyecto("deliverables/BaseUnificada_Entregable.xlsx")
-	lineageTag: 3912f404-ec76-487e-853a-bf10a49c2b3d
-
 expression BaseUnificadaOrigen =
 		let
 		    Origen = "Excel",
@@ -58,4 +45,17 @@ expression ControlOrigen =
 		in
 		    Resultado
 	lineageTag: 613496b2-1ac9-4285-88c4-879481373477
+
+expression RutaProyecto = "C:\Users\USUARIO\Documents\analitica_admisiones_universitaria" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: b15ce4fe-3d56-471c-9246-a5655d9eeab4
+
+	annotation PBI_ResultType = Text
+
+expression ArchivoProyecto =
+		(relativa as text) as text =>
+		    Text.TrimEnd(RutaProyecto, {"/", "\"}) & "\" & Text.Replace(Text.TrimStart(relativa, {"/", "\"}), "/", "\")
+	lineageTag: b4fa9b3e-b51f-4d33-a3a1-4e176629943f
+
+expression RutaLibroBase = ArchivoProyecto("deliverables/BaseUnificada_Entregable.xlsx")
+	lineageTag: 3912f404-ec76-487e-853a-bf10a49c2b3d
 
